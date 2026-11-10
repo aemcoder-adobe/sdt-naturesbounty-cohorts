@@ -1,0 +1,33 @@
+{
+  "round": "final",
+  "width": 1440,
+  "pixel": {
+    "rc": 0,
+    "diff": "stardust/replica/gates/the-benefits-of-biotin-1440/diff-final.png"
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/the-benefits-of-biotin-1440/content-diff-final.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/the-benefits-of-biotin-1440/visual-diff-final.txt"
+    },
+    "chrome-parity": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/the-benefits-of-biotin-1440/chrome-parity-final.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/the-benefits-of-biotin-1440/clip-final.txt"
+    },
+    "unit-geometry": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/the-benefits-of-biotin-1440/units-final.txt"
+    }
+  },
+  "structural": 0,
+  "nothingLost": 0,
+  "at": "2026-11-10T23:34:13.604Z"
+}

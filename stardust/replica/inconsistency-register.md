@@ -15,3 +15,8 @@ supplied; the one entry below is a licensing constraint, not a design improvemen
   Expected delta: glyph-shape and small advance-width differences in text runs only.
 - **Status:** applied
 - **Where:** all page types, all text.
+- **Substitute chosen (2026-11-10, article archetype):** Figtree (OFL, self-hosted variable latin woff2 at
+  `stardust/current/assets/fonts/figtree-latin-var.woff2`), stack `"sofia-pro", "Figtree", sans-serif`.
+  Picked by canvas string-width measurement against the live kit across 15 open candidates: −0.13 % (400),
+  +0.10 % (500), +1.25 % (700) on mixed strings; page text body −1.13 %, uppercase tags +4.58 %.
+  Known consequence: line-break differences (most visible at 360 px) — see progress.json types.article.residuals.

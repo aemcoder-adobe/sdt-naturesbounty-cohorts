@@ -1,0 +1,14 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "design-system-font",
+        "value": "figtree",
+        "createdAt": "2026-11-10T23:11:30.258Z",
+        "reason": "inconsistency register R-01: licensed sofia-pro kit needs a metric-matched open substitute; Figtree chosen by measured string widths (-0.13% at 400)"
+      }
+    ]
+  }
+}

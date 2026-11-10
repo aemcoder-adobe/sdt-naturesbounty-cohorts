@@ -1,0 +1,57 @@
+/* Article archetype layout (component-article-main.css, lifted). Shared modules live in canon.css. */
+.article { padding-bottom: 60px; }
+
+.article__hero { margin: 0; height: 340px; }
+.article__hero img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+@media (min-width: 768px) { .article__hero { height: 400px; } }
+@media (min-width: 992px) { .article__hero { height: 500px; } }
+@media (min-width: 1400px) { .article__hero { height: 600px; } }
+@media (min-width: 1680px) { .article__hero { height: 900px; margin-left: 60px; margin-right: 60px; } }
+
+@media (min-width: 992px) {
+  .article__body { display: grid; grid-template-columns: 1fr 320px; gap: 60px; }
+  .article__sidebar { margin-top: 60px; }
+}
+@media (min-width: 1400px) { .article__body { gap: 100px; } }
+
+.article__content { padding-bottom: 50px; }
+.article__title {
+  margin-top: 20px;
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: var(--fw-extrabold);
+}
+@media (min-width: 768px) { .article__title { font-size: 50px; line-height: 60px; } }
+@media (min-width: 992px) { .article__title { margin-top: 60px; } }
+
+.article__excerpt {
+  margin-top: 25px;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  font-size: 22px;
+  line-height: 35px;
+  font-weight: var(--fw-bold);
+}
+.article__excerpt p { margin: 0; padding: 25px 0; }
+@media (min-width: 1400px) {
+  .article__excerpt { border-top: 0; border-bottom: 0; }
+  .article__excerpt p { border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+}
+
+.article__text { margin-top: 30px; }
+.rte a {
+  color: var(--green);
+  font-weight: var(--fw-bold);
+  text-decoration: underline;
+  text-underline-offset: .3rem;
+  text-decoration-thickness: .1rem;
+  transition: text-decoration-thickness .15s ease;
+}
+.rte a:hover, .rte a:active { text-decoration-thickness: .2rem; }
+.rte::after { content: ""; display: block; clear: both; }

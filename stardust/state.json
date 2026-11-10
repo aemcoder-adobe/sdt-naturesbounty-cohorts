@@ -1,7 +1,7 @@
 {
   "_provenance": {
-    "writtenBy": "stardust:extract",
-    "writtenAt": "2026-11-10T22:17:53.446Z",
+    "writtenBy": "stardust:prototype",
+    "writtenAt": "2026-11-10T23:37:33Z",
     "stardustVersion": "0.37.2"
   },
   "site": {
@@ -204,17 +204,26 @@
       "url": "https://naturesbounty.com/blogs/news/the-benefits-of-biotin",
       "title": "The Benefits of Biotin Gummies – Nature's Bounty",
       "type": "article",
-      "status": "extracted",
+      "status": "approved",
       "history": [
         {
           "status": "extracted",
           "at": "2026-11-10T22:11:10.421Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-10T23:37:33Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-10T23:37:33Z",
+          "approvedBy": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blogs-news-the-benefits-of-biotin.json",
-      "prototypePath": null,
+      "prototypePath": "stardust/prototypes/the-benefits-of-biotin-proposed.html",
       "migratedPath": null
     },
     {

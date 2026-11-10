@@ -1,0 +1,327 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+    "writtenAt": "2026-11-10T23:32:25.393Z",
+    "baseWidth": 1440,
+    "urls": [
+      "https://naturesbounty.com/blogs/news/the-benefits-of-biotin",
+      "http://localhost:8791/the-benefits-of-biotin-proposed.html"
+    ],
+    "probeWidth": 2560,
+    "probeNote": "from DESIGN.json",
+    "tolerance": 20
+  },
+  "urls": [
+    "https://naturesbounty.com/blogs/news/the-benefits-of-biotin",
+    "http://localhost:8791/the-benefits-of-biotin-proposed.html"
+  ],
+  "probeNote": "from DESIGN.json",
+  "live": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#MainContent",
+      "isBody": false,
+      "leaves": 77,
+      "w2": 2545
+    },
+    "origins": [
+      {
+        "kind": "other",
+        "px": 1680,
+        "via": "max-width",
+        "selector": "#shopify-section-header > div.header__wrapper > div.container",
+        "tier": 6,
+        "share": 0,
+        "section": -1,
+        "w1": 1320,
+        "maxWidth": "1680px"
+      },
+      {
+        "kind": "module",
+        "px": 1680,
+        "via": "max-width",
+        "selector": "#MainContent > div.shopify-section > section.article-main > div.article-main__body.container__tight",
+        "tier": 3,
+        "share": 0.71,
+        "section": 1,
+        "w1": 1320,
+        "maxWidth": "1680px"
+      },
+      {
+        "kind": "module",
+        "px": 359,
+        "via": "fixed",
+        "selector": "div.article-main__body.container__tight > div.article-main__content > div.article-main__text.rte > a",
+        "tier": 6,
+        "share": 0.01,
+        "section": 1,
+        "w1": 359,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 320,
+        "via": "fixed",
+        "selector": "div.shopify-section > section.article-main > div.article-main__body.container__tight > div.article-main__sidebar",
+        "tier": 4,
+        "share": 0.45,
+        "section": 1,
+        "w1": 320,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 247,
+        "via": "fixed",
+        "selector": "div.article-main__sidebar > div.article-main__tags-holder > div.article-main__sidebar-tags > a.article-main__tag.t-link-2-alt",
+        "tier": 7,
+        "share": 0.01,
+        "section": 1,
+        "w1": 247,
+        "maxWidth": "325px"
+      },
+      {
+        "kind": "module",
+        "px": 266,
+        "via": "max-width",
+        "selector": "div.product-item > a.product-item__inner > div.product-item__footer > button.product-item__cta.btn",
+        "tier": 10,
+        "share": 0.01,
+        "section": 1,
+        "w1": 266,
+        "maxWidth": "266px"
+      },
+      {
+        "kind": "module",
+        "px": 266,
+        "via": "max-width",
+        "selector": "div.product-item > a.product-item__inner > div.product-item__footer > button.product-item__cta.btn",
+        "tier": 10,
+        "share": 0.01,
+        "section": 1,
+        "w1": 266,
+        "maxWidth": "266px"
+      },
+      {
+        "kind": "module",
+        "px": 1680,
+        "via": "max-width",
+        "selector": "#MainContent > div.shopify-section > section.article-main > div.article-main__related.container__tight",
+        "tier": 3,
+        "share": 0.29,
+        "section": 2,
+        "w1": 1320,
+        "maxWidth": "1680px"
+      },
+      {
+        "kind": "other",
+        "px": 1680,
+        "via": "max-width",
+        "selector": "#shopify-section-content_banner > section.content-banner > div > div.container.content-banner__content",
+        "tier": 6,
+        "share": 0,
+        "section": -1,
+        "w1": 1320,
+        "maxWidth": "1680px"
+      },
+      {
+        "kind": "other",
+        "px": 1680,
+        "via": "max-width",
+        "selector": "#shopify-section-instagram > section.instagram.t-bg",
+        "tier": 4,
+        "share": 0,
+        "section": -1,
+        "w1": 1425,
+        "maxWidth": "1680px"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#MainContent > div.shopify-section > section.article-main > div.article-main__image",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 1,
+        "selector": "#MainContent > div.shopify-section > section.article-main > div.article-main__body.container__tight",
+        "px": 1680,
+        "capSelector": "#MainContent > div.shopify-section > section.article-main > div.article-main__body.container__tight"
+      },
+      {
+        "index": 2,
+        "selector": "#MainContent > div.shopify-section > section.article-main > div.article-main__related.container__tight",
+        "px": 1680,
+        "capSelector": "#MainContent > div.shopify-section > section.article-main > div.article-main__related.container__tight"
+      }
+    ],
+    "shellMaxWidth": null,
+    "contentMaxWidth": 1680,
+    "contentFrom": "module",
+    "maxCap": 1680,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 137
+  },
+  "build": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#MainContent",
+      "isBody": false,
+      "leaves": 77,
+      "w2": 2545
+    },
+    "origins": [
+      {
+        "kind": "other",
+        "px": 1680,
+        "via": "max-width",
+        "selector": "body > div.site-chrome > div.site-header__bar > div.container",
+        "tier": 5,
+        "share": 0,
+        "section": -1,
+        "w1": 1320,
+        "maxWidth": "1680px"
+      },
+      {
+        "kind": "module",
+        "px": 1680,
+        "via": "max-width",
+        "selector": "#MainContent > article.article > div.article__body.container",
+        "tier": 2,
+        "share": 0.71,
+        "section": 1,
+        "w1": 1320,
+        "maxWidth": "1680px"
+      },
+      {
+        "kind": "module",
+        "px": 320,
+        "via": "fixed",
+        "selector": "#MainContent > article.article > div.article__body.container > aside.article__sidebar",
+        "tier": 3,
+        "share": 0.45,
+        "section": 1,
+        "w1": 320,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 266,
+        "via": "max-width",
+        "selector": "div.product-card > a.product-card__inner > div.product-card__foot > button.btn.btn--lime",
+        "tier": 9,
+        "share": 0.01,
+        "section": 1,
+        "w1": 266,
+        "maxWidth": "266px"
+      },
+      {
+        "kind": "module",
+        "px": 266,
+        "via": "max-width",
+        "selector": "div.product-card > a.product-card__inner > div.product-card__foot > button.btn.btn--lime",
+        "tier": 9,
+        "share": 0.01,
+        "section": 1,
+        "w1": 266,
+        "maxWidth": "266px"
+      },
+      {
+        "kind": "module",
+        "px": 1680,
+        "via": "max-width",
+        "selector": "#MainContent > article.article > section.related.container",
+        "tier": 2,
+        "share": 0.29,
+        "section": 2,
+        "w1": 1320,
+        "maxWidth": "1680px"
+      },
+      {
+        "kind": "other",
+        "px": 1680,
+        "via": "max-width",
+        "selector": "body > section.trusted-band > div.trusted-band__inner.container",
+        "tier": 4,
+        "share": 0,
+        "section": -1,
+        "w1": 1320,
+        "maxWidth": "1680px"
+      },
+      {
+        "kind": "other",
+        "px": 1680,
+        "via": "max-width",
+        "selector": "body > section.social-strip",
+        "tier": 3,
+        "share": 0,
+        "section": -1,
+        "w1": 1425,
+        "maxWidth": "1680px"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#MainContent > article.article > figure.article__hero",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 1,
+        "selector": "#MainContent > article.article > div.article__body.container",
+        "px": 1680,
+        "capSelector": "#MainContent > article.article > div.article__body.container"
+      },
+      {
+        "index": 2,
+        "selector": "#MainContent > article.article > section.related.container",
+        "px": 1680,
+        "capSelector": "#MainContent > article.article > section.related.container"
+      }
+    ],
+    "shellMaxWidth": null,
+    "contentMaxWidth": 1680,
+    "contentFrom": "module",
+    "maxCap": 1680,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 117
+  },
+  "compare": {
+    "probeWidth": 2560,
+    "rows": [
+      {
+        "ok": true,
+        "label": "content cap",
+        "detail": "live 1680px = build 1680px (±20, shared module cap)",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 1/3",
+        "detail": "full-bleed on both",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 2/3",
+        "detail": "1680px = 1680px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 3/3",
+        "detail": "1680px = 1680px",
+        "advisory": false
+      }
+    ],
+    "fails": 0,
+    "pass": true
+  },
+  "evidence": "stardust/replica/gates/the-benefits-of-biotin-2560/cap-iter.json"
+}

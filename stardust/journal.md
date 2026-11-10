@@ -31,3 +31,11 @@
 - Dynamics: 45 detected rows curated into 13 families in stardust/dynamic-features.md; self rows: header menus,
   carousels, search (index-backed over the migrated corpus); interim/named assumptions A1–A5 for newsletter,
   tags/consent, reviews, commerce. Nothing decided-out.
+
+## Recreate — article archetype gated (2026-11-10)
+
+- the-benefits-of-biotin: 1440 pixel 2.23 %, Δh 0, content-diff 0 red; 360 pixel 16.66 %, Δh −45 px after 3
+  iterations — residual attributed to R-01 (Figtree substitute for licensed Sofia Pro wraps differently at 360).
+  cap-probe PASS. Motion: ticker, click mega-menus, search expand, mobile drawer, footer accordions built.
+- Approved hands-off with the 360 residual logged under R-01 (font substitution is the register's only delta).
+- Canon layer: stardust/prototypes/canon.css, canon.js, article.css; Figtree self-hosted.

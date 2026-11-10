@@ -1,0 +1,53 @@
+[live-session] waiting to pace live navigations to naturesbounty.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://naturesbounty.com/blogs/news/the-benefits-of-biotin
+  build: http://localhost:8791/the-benefits-of-biotin-proposed.html
+
+■ header: 5 delta(s) — 6 paired of 6/6 texts, 5/5 icons
+  PAIR         "Products"  Δx -8px (517→509)
+  PAIR         "Health Benefits"  Δx -7px (653→646); Δw +2px (168→170)
+  PAIR         "Learn"  Δx -5px (846→841)
+  PAIR         "About Us"  Δx -6px (954→948); Δw +3px (80→83)
+  PAIR         "Search"  color rgb(0, 0, 0) → rgb(46, 69, 59)
+
+■ footer: 38 delta(s) — 57 paired of 58/58 texts, 7/7 icons
+  REGION BOX   Δh +44px (959→1003)
+  PAIR         "Follow Us"  Δw +2px (75→77)
+  PAIR         "Products"  tag <div> → <span>; Δw -54px (126→72)
+  PAIR         "Adult Vitamins"  Δw +2px (94→96)
+  PAIR         "Minerals"  Δw -4px (58→54)
+  PAIR         "Fish Oil & Omegas"  Δw -2px (120→118)
+  PAIR         "Health Needs"  tag <div> → <span>; Δw -244px (353→109)
+  PAIR         "Men’s Health"  Δw -3px (86→83)
+  PAIR         "Brain Health"  Δw -3px (82→79)
+  PAIR         "Bone & Joint Health"  Δw +3px (126→129)
+  PAIR         "Herbal"  Δw -2px (45→43)
+  PAIR         "Urinary Tract Health"  Δw -2px (132→130)
+  PAIR         "Heart Health"  Δw -2px (85→83)
+  PAIR         "About Us"  Δw +2px (59→61)
+  PAIR         "Contact Us"  Δw +2px (72→74)
+  PAIR         "Terms of Use"  tag <p> → <span>; Δx +111px (96→207)
+  PAIR         "|"  Δx +113px (199→312); Δy +2px (5173→5175); Δh -3px (25→22)
+  PAIR         "Privacy Policy"  tag <p> → <span>; Δx +113px (223→336)
+  PAIR         "|"  Δx +112px (333→445); Δy +2px (5173→5175); Δh -3px (25→22)
+  PAIR         "Accessibility Statement"  tag <p> → <span>; Δx +113px (357→470); Δw +4px (151→155); <a> box 175×30 → 179×30
+  PAIR         "|"  Δx +117px (528→645); Δy +2px (5173→5175); Δh -3px (25→22); <a> box 175×30 → 179×30
+  PAIR         "Health Data Notice"  tag <p> → <span>; Δx +117px (552→669)
+  PAIR         "|"  Δx +117px (697→814); Δy +2px (5173→5175); Δh -3px (25→22)
+  PAIR         "Satisfaction Guarantee"  tag <p> → <span>; Δx +117px (721→838); Δw -2px (152→150); <a> box 176×30 → 174×30
+  PAIR         "|"  Δx +115px (893→1008); Δy +2px (5173→5175); Δh -3px (25→22); <a> box 176×30 → 174×30
+  PAIR         "International Distributors"  tag <p> → <span>; Δx +115px (917→1032); Δw -2px (164→162); <a> box 164×30 → 162×30
+  PAIR         "|"  Δx +92px (1122→1214); Δy +4px (5171→5175); Δh -8px (30→22)
+  PAIR         "*These statements have not been evaluate"  Δy +46px (5312→5358); Δw -2px (930→928); Δh -4px (19→15)
+  PAIR         "Nature’s Bounty may make changes to prod"  Δx +5px (235→240); Δy +43px (5388→5431); Δw -8px (954→946)
+  PAIR         "◊Source: Circana™ OmniMarket – Total MUL"  Δx +4px (333→337); Δy +44px (5417→5461); Δw -7px (758→751)
+  PAIR         "†Compared to Nature's Bounty® Optimal So"  Δx +3px (487→490); Δy +43px (5447→5490); Δw -7px (452→445)
+  PAIR         "†Traditional use claims are based on his"  Δy +44px (5476→5520)
+  PAIR         "Nature’s Bounty is a Nestlé Health Scien"  Δx +3px (133→136); Δy +44px (5525→5569); Δw -6px (1158→1152)
+  PAIR         "www.nestlehealthscience.us"  Δx -7px (1131→1124); Δy +46px (5525→5571); Δw +4px (161→165); Δh -4px (19→15)
+  PAIR         "Nature's Bounty is a registered trademar"  Δx +2px (593→595); Δy +43px (5555→5598); Δw -4px (239→235)
+  MISSING      "Your Privacy Choices"  live <span> "Your Privacy Choices" has no build element with the same text
+  EXTRA        ".st0{fill-rule:evenodd;clip-rule:evenodd"  build <span> ".st0{fill-rule:evenodd;clip-rule:evenodd;fill:#f" has no live source
+  ICON         icon #0: signature "NB-logo.svg" → "nb-logo-footer.svg"
+
+✗ 43 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

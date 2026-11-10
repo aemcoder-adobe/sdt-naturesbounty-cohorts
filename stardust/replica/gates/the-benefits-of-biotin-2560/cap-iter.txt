@@ -1,0 +1,15 @@
+cap-probe  base 1440 → probe 2560 (from DESIGN.json)
+live   https://naturesbounty.com/blogs/news/the-benefits-of-biotin
+  other    3 capped box(es) outside the section tier (in the JSON) — e.g. 1680px #shopify-section-header > div.header__wrapper > div.container
+  modules  3 sections: capped 1680 ×2 · full-bleed ×1
+  contentMaxWidth 1680px (module) · shellMaxWidth fluid · root #MainContent
+build  http://localhost:8791/the-benefits-of-biotin-proposed.html
+  other    3 capped box(es) outside the section tier (in the JSON) — e.g. 1680px body > div.site-chrome > div.site-header__bar > div.container
+  modules  3 sections: capped 1680 ×2 · full-bleed ×1
+  contentMaxWidth 1680px (module) · shellMaxWidth fluid · root #MainContent
+rows
+  ✓ content cap: live 1680px = build 1680px (±20, shared module cap)
+  ✓ module 1/3: full-bleed on both
+  ✓ module 2/3: 1680px = 1680px
+  ✓ module 3/3: 1680px = 1680px
+cap-probe: PASS at 2560 — 0 of 4 rows failed (evidence stardust/replica/gates/the-benefits-of-biotin-2560/cap-iter.json)

@@ -1,0 +1,24 @@
+.content-banner__content {
+  min-height: 260px;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content-banner img {
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.content-banner__text {
+  margin: 31px auto 0 auto;
+  padding: 0 10px;
+}
+
+.content-banner__gradient {
+  height: 4px;
+}

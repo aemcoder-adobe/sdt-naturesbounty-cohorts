@@ -1,0 +1,172 @@
+{
+  "_provenance": {
+    "writtenBy": "replica Phase 3/4 archetype agent (the-benefits-of-biotin)",
+    "writtenAt": "2026-11-10T23:36:56.579Z"
+  },
+  "types": {
+    "article": {
+      "pageType": "article",
+      "archetype": "the-benefits-of-biotin",
+      "url": "https://naturesbounty.com/blogs/news/the-benefits-of-biotin",
+      "prototype": "stardust/prototypes/the-benefits-of-biotin-proposed.html",
+      "layers": [
+        "stardust/prototypes/canon.css",
+        "stardust/prototypes/article.css",
+        "stardust/prototypes/canon.js"
+      ],
+      "iterations": {
+        "360": 3,
+        "1440": 3
+      },
+      "rounds": {
+        "360": [
+          "iter1 (full)",
+          "iter2 (pixel)",
+          "iter3 (full)",
+          "final (full, post-motion re-confirmation)"
+        ],
+        "1440": [
+          "iter1 (full)",
+          "iter2 (pixel)",
+          "iter3 (full)",
+          "final (full, post-motion re-confirmation)"
+        ]
+      },
+      "gates": {
+        "360": {
+          "pixel": 16.66,
+          "heightDelta": -45,
+          "contentDiff": "0 🔴 · 0 nothing-lost 🟡 (1 advisory: EDITABLE COUNT footer 12 vs 13)",
+          "visualDiff": "0 flags",
+          "clipped": 0,
+          "overflow": 0,
+          "units": "10 units; 27 within, 29 off (wrap-driven offsets)",
+          "chromeCrop": {
+            "header": 1.6,
+            "footer": 6.82
+          },
+          "pass": false,
+          "evidence": "stardust/replica/gates/the-benefits-of-biotin-360/verdict-final.json"
+        },
+        "1440": {
+          "pixel": 2.23,
+          "heightDelta": 0,
+          "contentDiff": "0 🔴 · 0 nothing-lost 🟡 (1 advisory: EDITABLE COUNT footer 12 vs 13)",
+          "visualDiff": "0 flags",
+          "clipped": 0,
+          "overflow": 0,
+          "units": "10 units; 49 elements within 4px, 7 off (tag-link widths, font)",
+          "chromeCrop": {
+            "header": 3.52,
+            "footer": 3.29
+          },
+          "pass": true,
+          "evidence": "stardust/replica/gates/the-benefits-of-biotin-1440/verdict-final.json"
+        }
+      },
+      "capProbe": "PASS at 2560 — 0 of 4 rows failed (stardust/replica/gates/the-benefits-of-biotin-2560/cap-iter.json)",
+      "residuals": [
+        {
+          "breakpoint": 360,
+          "band": "y 0–9540 (hot: 2000–2500 19.1%, 6000–8500 18–47%, 9500–9540 32.7%)",
+          "pct": 16.66,
+          "cause": "font substitution (register R-01): Figtree vs licensed sofia-pro changes line breaks — article body 51→50 lines (−30px), product servings wrap to 2 lines (+30px each), card title \"5 Tips to Reset Your Beauty Routine This Winter\" 2→3 lines (+38px); every block below is offset +46px (images in the social strip/trusted band read as hot bands). No calibrated metrics allowed by the fonts policy, so not iterable; clears when the licensed kit is enabled on the new domain",
+          "flaggedFor": "user",
+          "register": "R-01"
+        },
+        {
+          "breakpoint": 360,
+          "band": "document height",
+          "pct": null,
+          "heightDelta": -45,
+          "cause": "same R-01 wrap offsets (sum −30 +8 +30 +38 … +45)",
+          "flaggedFor": "user",
+          "register": "R-01"
+        },
+        {
+          "breakpoint": "both",
+          "region": "header/footer chrome crops",
+          "pct": {
+            "360": {
+              "header": 1.6,
+              "footer": 6.82
+            },
+            "1440": {
+              "header": 3.52,
+              "footer": 3.29
+            }
+          },
+          "cause": "glyph substitution under R-01 (diff mask is text-only; logo, icons, pills, rules and box positions match; footer at 360 also offset by the wrap delta above). chrome-parity remaining deltas are text widths ±2–8px and inline-box heights (Figtree content area 22 vs 25px)",
+          "flaggedFor": "user",
+          "register": "R-01"
+        },
+        {
+          "breakpoint": "both",
+          "region": "repeated units",
+          "cause": "unit-geometry off elements are text-width deltas of uppercase tag links (+2…+10px) and wrap-driven offsets — R-01",
+          "flaggedFor": "user",
+          "register": "R-01"
+        },
+        {
+          "breakpoint": "both",
+          "region": "announcement ticker (y 0–32)",
+          "cause": "live slick ticker position at capture time varies by load timing; prototype starts from the same centred slide and advances one slide per 13 s like live",
+          "flaggedFor": "delivery"
+        }
+      ],
+      "captureState": [
+        {
+          "what": "three 4×4 tag iframes appended after the footer on live (12px tail)",
+          "where": "body end",
+          "restoreAtDelivery": "static snapshot .tag-frames (dynamic-features row 11 iframe-runtime → static-snapshot); drop it if the delivered tag manager injects the real frames"
+        },
+        {
+          "what": "announcement ticker frozen by the stitched capture",
+          "where": "announcement bar",
+          "restoreAtDelivery": "continuous ticker: one slide per 13 s, transform transition linear, starts centred on slide 1 (desktop) / slide 2 (≤768px)"
+        }
+      ],
+      "motion": {
+        "observed": "live 1440: announcement ticker (slick-track transform 13s linear, continuous); Products click opens mega panel (button .active/.is-open, holder .open, first group active); search icon click expands field (form.is-open, input width .3s); no header scroll morph; hover samples (nav, social tiles, product card, related card, share) show no measured diff; Klaviyo modal fade-in (out of scope). live 360: drawer open (body.has-modal, drawer .is-open, transform .3s), footer column accordion (.is-open, chevron rotate .15s), ticker.",
+        "implemented": "canon.js: ticker (13s linear transform steps, centred start), click-to-open mega menus (Products/Health Benefits/Learn, one at a time, Escape/outside click closes, group hover switches child list), search expand (.is-open, width .3s), off-canvas drawer with drill-down sub panels (translate .3s, body.has-modal, back/close), footer accordions <1024px. CSS :hover rules lifted from source stylesheets kept (social-tile overlay+blur, link underline colours, CTA pill hovers). motion-compare: transform 13000ms parity, width .3s parity, is-open/has-modal parity; remaining MISSING lines are source class names (active/open/slick-*) — equivalent state carried by aria-expanded/[hidden]/is-open — and the sampler’s widget lines read the live slick track, which has no counterpart selector on the build",
+        "dead": [
+          "header scroll-morph (static on live)",
+          "hover diffs on .header__nav-link, .instagram__item, .product-item__inner, .article-item__content, .share-buttons__link (no measured diff)",
+          "klaviyo-fadein / klaviyo-fadeinup (marketing modal scaffolded off, dynamic-features A3)"
+        ],
+        "evidence": [
+          "stardust/replica/motion/the-benefits-of-biotin.json",
+          "stardust/replica/motion/the-benefits-of-biotin-build.json",
+          "stardust/replica/motion/the-benefits-of-biotin-360.json",
+          "stardust/replica/motion/the-benefits-of-biotin-360-build.json"
+        ]
+      },
+      "fontSubstitute": {
+        "stack": "\"sofia-pro\", \"Figtree\", sans-serif",
+        "file": "stardust/current/assets/fonts/figtree-latin-var.woff2 (Google Fonts, OFL, variable 300–900, latin subset)",
+        "chosenBy": "canvas measureText on the live page (sofia-pro kit loaded) vs candidates Figtree, Mulish, Nunito Sans, Outfit, Urbanist, Albert Sans, Jost, Lexend, Plus Jakarta Sans, Kumbh Sans, Sofia Sans, Montserrat, Red Hat Display, Inter, Manrope",
+        "widthDelta": {
+          "mixedStrings": {
+            "400": "-0.13%",
+            "500": "+0.10%",
+            "700": "+1.25%"
+          },
+          "pageText": {
+            "body": "-1.13%",
+            "tags": "+4.58%",
+            "cardTitles": "+1.83%",
+            "h1": "+2.45%",
+            "productTitles": "+1.33%",
+            "servings": "+2.41%",
+            "footerLinks": "-0.45%",
+            "nav": "+1.26%",
+            "disclaimer": "-1.28%"
+          },
+          "meanAbs": "1.94% (next best Outfit 2.28%, Nunito Sans 3.15%)"
+        },
+        "register": "R-01"
+      },
+      "units": "stardust/replica/units.json (related-card, product-rail-card, social-tile)"
+    }
+  }
+}

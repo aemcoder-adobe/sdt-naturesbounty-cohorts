@@ -1,0 +1,26 @@
+{
+  "related-card": {
+    "origin": ".article-main__related .article-item",
+    "build": ".related .related-card",
+    "n": 3,
+    "required": true,
+    "pages": ["the-benefits-of-biotin"],
+    "templates": ["article"]
+  },
+  "product-rail-card": {
+    "origin": ".article-main__products-grid .product-item",
+    "build": ".product-rail__grid .product-card",
+    "n": 2,
+    "required": true,
+    "pages": ["the-benefits-of-biotin"],
+    "templates": ["article"]
+  },
+  "social-tile": {
+    "origin": ".instagram__blocks .instagram__item",
+    "build": ".social-strip__grid .social-tile",
+    "n": 5,
+    "required": false,
+    "pages": ["the-benefits-of-biotin"],
+    "templates": ["article"]
+  }
+}

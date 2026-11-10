@@ -1,0 +1,984 @@
+[live-session] waiting to pace live navigations to naturesbounty.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 856 ms
+
+Visual diff @ 360px (profile "generic") — screenshots in stardust/replica/gates/the-benefits-of-biotin-360/vdiff-iter1/
+
+build red flags (advisory): 
+  • IMAGE DID NOT LOAD: product-035710.png rendered 263x200 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: product-053545.png rendered 263x200 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: article-ceramides.jpg rendered 305x200 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: article-os-january.jpg rendered 305x200 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: article-beauty-routine-2024.jpg rendered 305x200 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: trusted-banner.png rendered 305x37 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: ig-AdvMagGly.png rendered 315x315 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: ig-first_day_of_spring_2025-2.png rendered 150x150 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: ig-SupercomplexB.png rendered 150x150 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: ig-Vitamin_C.png rendered 150x150 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: ig-GummiesBillboard.png rendered 150x150 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: nb-logo-footer.svg rendered 180x28 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 6582,
+  "textLen": 3407,
+  "images": [
+   {
+    "src": "NB-logo-dark-green.svg?v=1713987522&width=400",
+    "natural": "421x67",
+    "rendered": "200x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-brain-health.svg?v=15257571938105578262",
+    "natural": "232x228",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-bone-and-joint-health.svg?v=12918564902687572158",
+    "natural": "232x228",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-digestive-health.svg?v=3312473091881105769",
+    "natural": "232x228",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-energy-support.svg?v=16142223243885154266",
+    "natural": "232x228",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-eye-health.svg?v=365029801243797632",
+    "natural": "232x228",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-hair-skin-and-nails.svg?v=13932907217450298415",
+    "natural": "232x228",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-healthy-aging.svg?v=11252042164913606457",
+    "natural": "232x228",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-heart-health.svg?v=14642019194858604653",
+    "natural": "232x228",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-herbs.svg?v=18234029569454670879",
+    "natural": "232x228",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-immune-and-antioxidant-support.svg?v=4025504713176582259",
+    "natural": "232x228",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-mens-health.svg?v=14610051494886882175",
+    "natural": "232x228",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-prenatal-health.svg?v=11399845121406091191",
+    "natural": "232x228",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-stress-and-mood.svg?v=6319251128162379999",
+    "natural": "232x228",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-sleep-support.svg?v=17589463281203327454",
+    "natural": "232x228",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-urinary-tract-health.svg?v=15305033655557644414",
+    "natural": "232x228",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-womens-health.svg?v=14404173916337808138",
+    "natural": "232x228",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "hair-growth-cta-lrg.png?v=1682098268&width=400",
+    "natural": "360x212",
+    "rendered": "311x183",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-brain-health.svg?v=15257571938105578262",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-bone-and-joint-health.svg?v=12918564902687572158",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-digestive-health.svg?v=3312473091881105769",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-energy-support.svg?v=16142223243885154266",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-eye-health.svg?v=365029801243797632",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-hair-skin-and-nails.svg?v=13932907217450298415",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-healthy-aging.svg?v=11252042164913606457",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-heart-health.svg?v=14642019194858604653",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-herbs.svg?v=18234029569454670879",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-immune-and-antioxidant-support.svg?v=4025504713176582259",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-mens-health.svg?v=14610051494886882175",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-prenatal-health.svg?v=11399845121406091191",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-stress-and-mood.svg?v=6319251128162379999",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-sleep-support.svg?v=17589463281203327454",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-urinary-tract-health.svg?v=15305033655557644414",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-womens-health.svg?v=14404173916337808138",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "hair-growth-cta-lrg.png?v=1682098268&width=400",
+    "natural": "360x212",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "1608nboswebsitearticlesaugustbiotinlg_1a024891-576c-40f6-8a90-54227782b110.jpg?v=1759263849&width=375",
+    "natural": "360x168",
+    "rendered": "345x340",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "035710.png?v=1667506599&width=550",
+    "natural": "0x0",
+    "rendered": "263x200",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "053545.png?v=1667506655&width=550",
+    "natural": "0x0",
+    "rendered": "263x200",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "07_HairGrowth_NB_IIYN-2025_0779_1561_v1_JPEG_QC.jpg?v=1785504443&width=2000",
+    "natural": "0x0",
+    "rendered": "305x200",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "OS-January-Blog.jpg?v=1707143413&width=2000",
+    "natural": "0x0",
+    "rendered": "305x200",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "1123-NB-Q4-Blog-Beauty-Vitamin-Routine-2024.jpg?v=1702677900&width=2000",
+    "natural": "0x0",
+    "rendered": "305x200",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "trusted-banner.png?v=1666098789&width=900",
+    "natural": "0x0",
+    "rendered": "305x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "AdvMagGly.png?v=1747157820&width=350",
+    "natural": "0x0",
+    "rendered": "315x315",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "first_day_of_spring_2025-2.png?v=1747157820&width=350",
+    "natural": "0x0",
+    "rendered": "150x150",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "SupercomplexB.png?v=1747157820&width=350",
+    "natural": "0x0",
+    "rendered": "150x150",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "Vitamin_C.png?v=1747157820&width=350",
+    "natural": "0x0",
+    "rendered": "150x150",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "GummiesBillboard.png?v=1747157820&width=350",
+    "natural": "0x0",
+    "rendered": "150x150",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "NB-logo.svg?v=1713987522&width=400",
+    "natural": "421x67",
+    "rendered": "180x28",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Nestl%C3%A9_Health_Science.png",
+    "natural": "1920x559",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "The Benefits of Biotin",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "36px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "What Are Ceramides and Why They ",
+    "color": "rgb(52, 119, 63)",
+    "fontSize": "25px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "5 Tips to Reset Your Beauty Rout",
+    "color": "rgb(52, 119, 63)",
+    "fontSize": "25px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Build Beauty from Within*—Your 2",
+    "color": "rgb(52, 119, 63)",
+    "fontSize": "25px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "|",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "|",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "|",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "|",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "|",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "|",
+    "color": "rgb(0, 0, 0)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "article-main__content",
+    "width": 305,
+    "left": 20
+   },
+   {
+    "sel": "article-item__title",
+    "width": 305,
+    "left": 20
+   },
+   {
+    "sel": "article-item__title",
+    "width": 305,
+    "left": 20
+   },
+   {
+    "sel": "article-item__title",
+    "width": 305,
+    "left": 20
+   }
+  ]
+ },
+ "build": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 6628,
+  "textLen": 3408,
+  "images": [
+   {
+    "src": "logo.svg",
+    "natural": "468x74",
+    "rendered": "200x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-brain-health.svg",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-bone-and-joint-health.svg",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-digestive-health.svg",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-energy-support.svg",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-eye-health.svg",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-hair-skin-and-nails.svg",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-healthy-aging.svg",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-heart-health.svg",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-herbs.svg",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-immune-and-antioxidant-support.svg",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-mens-health.svg",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-prenatal-health.svg",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-stress-and-mood.svg",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-sleep-support.svg",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-urinary-tract-health.svg",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-womens-health.svg",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "hair-growth-cta-lrg.png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-brain-health.svg",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-bone-and-joint-health.svg",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-digestive-health.svg",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-energy-support.svg",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-eye-health.svg",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-hair-skin-and-nails.svg",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-healthy-aging.svg",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-heart-health.svg",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-herbs.svg",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-immune-and-antioxidant-support.svg",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-mens-health.svg",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-prenatal-health.svg",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-stress-and-mood.svg",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-sleep-support.svg",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-urinary-tract-health.svg",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-womens-health.svg",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "hair-growth-cta-lrg.png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "article-biotin-hero.jpg",
+    "natural": "1398x655",
+    "rendered": "345x340",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "product-035710.png",
+    "natural": "0x0",
+    "rendered": "263x200",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "product-053545.png",
+    "natural": "0x0",
+    "rendered": "263x200",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "article-ceramides.jpg",
+    "natural": "0x0",
+    "rendered": "305x200",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "article-os-january.jpg",
+    "natural": "0x0",
+    "rendered": "305x200",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "article-beauty-routine-2024.jpg",
+    "natural": "0x0",
+    "rendered": "305x200",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "trusted-banner.png",
+    "natural": "0x0",
+    "rendered": "305x37",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "ig-AdvMagGly.png",
+    "natural": "0x0",
+    "rendered": "315x315",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "ig-first_day_of_spring_2025-2.png",
+    "natural": "0x0",
+    "rendered": "150x150",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "ig-SupercomplexB.png",
+    "natural": "0x0",
+    "rendered": "150x150",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "ig-Vitamin_C.png",
+    "natural": "0x0",
+    "rendered": "150x150",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "ig-GummiesBillboard.png",
+    "natural": "0x0",
+    "rendered": "150x150",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "nb-logo-footer.svg",
+    "natural": "0x0",
+    "rendered": "180x28",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": true
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "The Benefits of Biotin",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "36px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "What Are Ceramides and Why They ",
+    "color": "rgb(52, 119, 63)",
+    "fontSize": "25px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "5 Tips to Reset Your Beauty Rout",
+    "color": "rgb(52, 119, 63)",
+    "fontSize": "25px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Build Beauty from Within*—Your 2",
+    "color": "rgb(52, 119, 63)",
+    "fontSize": "25px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "|",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "|",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "|",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "|",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "|",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "|",
+    "color": "rgb(0, 0, 0)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "article__excerpt",
+    "width": 305,
+    "left": 20
+   },
+   {
+    "sel": "share",
+    "width": 305,
+    "left": 20
+   },
+   {
+    "sel": "related-card__link",
+    "width": 305,
+    "left": 20
+   },
+   {
+    "sel": "related-card__link",
+    "width": 305,
+    "left": 20
+   },
+   {
+    "sel": "related-card__link",
+    "width": 305,
+    "left": 20
+   }
+  ]
+ }
+}
