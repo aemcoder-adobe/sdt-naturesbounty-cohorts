@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "writtenBy": "stardust:prototype",
-    "writtenAt": "2026-11-10T23:37:33Z",
+    "writtenAt": "2026-11-10T23:52:03Z",
     "stardustVersion": "0.37.2"
   },
   "site": {
@@ -42,17 +42,26 @@
       "url": "https://naturesbounty.com/blogs/news",
       "title": "Latest Health News and Articles – Nature's Bounty",
       "type": "listing",
-      "status": "extracted",
+      "status": "approved",
       "history": [
         {
           "status": "extracted",
           "at": "2026-11-10T22:10:35.073Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-10T23:50:10Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-10T23:50:11Z",
+          "approvedBy": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blogs-news.json",
-      "prototypePath": null,
+      "prototypePath": "stardust/prototypes/blogs-news-proposed.html",
       "migratedPath": null
     },
     {
@@ -1941,17 +1950,26 @@
       "url": "https://naturesbounty.com/blogs/recipes/apple-crisp",
       "title": "Apple Crisp – Nature's Bounty",
       "type": "recipe",
-      "status": "extracted",
+      "status": "approved",
       "history": [
         {
           "status": "extracted",
           "at": "2026-11-10T22:16:31.691Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-10T23:52:03Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-10T23:52:03Z",
+          "approvedBy": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blogs-recipes-apple-crisp.json",
-      "prototypePath": null,
+      "prototypePath": "stardust/prototypes/apple-crisp-proposed.html",
       "migratedPath": null
     },
     {

@@ -1,0 +1,386 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+    "writtenAt": "2026-11-10T23:47:12.489Z",
+    "baseWidth": 1440,
+    "urls": [
+      "https://naturesbounty.com/blogs/news",
+      "http://localhost:8791/blogs-news-proposed.html"
+    ],
+    "probeWidth": 2560,
+    "probeNote": "from stardust/current/DESIGN.json",
+    "tolerance": 20
+  },
+  "urls": [
+    "https://naturesbounty.com/blogs/news",
+    "http://localhost:8791/blogs-news-proposed.html"
+  ],
+  "probeNote": "from stardust/current/DESIGN.json",
+  "live": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#MainContent",
+      "isBody": false,
+      "leaves": 61,
+      "w2": 2545
+    },
+    "origins": [
+      {
+        "kind": "other",
+        "px": 1680,
+        "via": "max-width",
+        "selector": "#shopify-section-header > div.header__wrapper > div.container",
+        "tier": 6,
+        "share": 0,
+        "section": -1,
+        "w1": 1320,
+        "maxWidth": "1680px"
+      },
+      {
+        "kind": "module",
+        "px": 1680,
+        "via": "max-width",
+        "selector": "div.shopify-section > section.blog > div.blog__hero.t-gray-1 > div.blog-hero__inner.container__tight",
+        "tier": 4,
+        "share": 0.36,
+        "section": 0,
+        "w1": 1320,
+        "maxWidth": "1680px"
+      },
+      {
+        "kind": "module",
+        "px": 311,
+        "via": "fixed",
+        "selector": "div.blog__hero.t-gray-1 > div.blog-hero__inner.container__tight > div.blog__filters > a.blog__filter-item.btn",
+        "tier": 6,
+        "share": 0.02,
+        "section": 0,
+        "w1": 311,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 256,
+        "via": "fixed",
+        "selector": "div.blog__hero.t-gray-1 > div.blog-hero__inner.container__tight > div.blog__filters > a.blog__filter-item.btn",
+        "tier": 6,
+        "share": 0.02,
+        "section": 0,
+        "w1": 256,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 348,
+        "via": "fixed",
+        "selector": "div.blog__hero.t-gray-1 > div.blog-hero__inner.container__tight > div.blog__filters > a.blog__filter-item.btn",
+        "tier": 6,
+        "share": 0.02,
+        "section": 0,
+        "w1": 348,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 263,
+        "via": "fixed",
+        "selector": "div.blog__hero.t-gray-1 > div.blog-hero__inner.container__tight > div.blog__filters > a.blog__filter-item.btn",
+        "tier": 6,
+        "share": 0.02,
+        "section": 0,
+        "w1": 263,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 247,
+        "via": "fixed",
+        "selector": "div.blog__hero.t-gray-1 > div.blog-hero__inner.container__tight > div.blog__filters > a.blog__filter-item.btn",
+        "tier": 6,
+        "share": 0.02,
+        "section": 0,
+        "w1": 247,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1680,
+        "via": "max-width",
+        "selector": "#MainContent > div.shopify-section > section.blog > div.container__tight",
+        "tier": 3,
+        "share": 0.64,
+        "section": 1,
+        "w1": 1320,
+        "maxWidth": "1680px"
+      },
+      {
+        "kind": "module",
+        "px": 392,
+        "via": "fixed",
+        "selector": "#blog-items > div.article-item.is-layout-3 > a.article-item__content > span.article-item__excerpt",
+        "tier": 7,
+        "share": 0.03,
+        "section": 1,
+        "w1": 392,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 357,
+        "via": "fixed",
+        "selector": "div.article-item.is-layout-3 > a.article-item__content > span.article-item__excerpt > span",
+        "tier": 8,
+        "share": 0.02,
+        "section": 1,
+        "w1": 357,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 260,
+        "via": "fixed",
+        "selector": "#blog-pagination > a.blog__load-more.btn",
+        "tier": 5,
+        "share": 0.02,
+        "section": 1,
+        "w1": 260,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "other",
+        "px": 1680,
+        "via": "max-width",
+        "selector": "#shopify-section-content_banner > section.content-banner > div > div.container.content-banner__content",
+        "tier": 6,
+        "share": 0,
+        "section": -1,
+        "w1": 1320,
+        "maxWidth": "1680px"
+      },
+      {
+        "kind": "other",
+        "px": 1680,
+        "via": "max-width",
+        "selector": "#shopify-section-instagram > section.instagram.t-bg",
+        "tier": 4,
+        "share": 0,
+        "section": -1,
+        "w1": 1425,
+        "maxWidth": "1680px"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#MainContent > div.shopify-section > section.blog > div.blog__hero.t-gray-1",
+        "px": 1680,
+        "capSelector": "div.shopify-section > section.blog > div.blog__hero.t-gray-1 > div.blog-hero__inner.container__tight"
+      },
+      {
+        "index": 1,
+        "selector": "#MainContent > div.shopify-section > section.blog > div.container__tight",
+        "px": 1680,
+        "capSelector": "#MainContent > div.shopify-section > section.blog > div.container__tight"
+      }
+    ],
+    "shellMaxWidth": null,
+    "contentMaxWidth": 1680,
+    "contentFrom": "module",
+    "maxCap": 1680,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 184
+  },
+  "build": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#MainContent",
+      "isBody": false,
+      "leaves": 60,
+      "w2": 2545
+    },
+    "origins": [
+      {
+        "kind": "other",
+        "px": 1680,
+        "via": "max-width",
+        "selector": "body > div.site-chrome > div.site-header__bar > div.container",
+        "tier": 5,
+        "share": 0,
+        "section": -1,
+        "w1": 1320,
+        "maxWidth": "1680px"
+      },
+      {
+        "kind": "module",
+        "px": 1680,
+        "via": "max-width",
+        "selector": "#MainContent > section.blog-index > div.blog-hero > div.blog-hero__inner.container",
+        "tier": 3,
+        "share": 0.37,
+        "section": 0,
+        "w1": 1320,
+        "maxWidth": "1680px"
+      },
+      {
+        "kind": "module",
+        "px": 313,
+        "via": "fixed",
+        "selector": "div.blog-hero > div.blog-hero__inner.container > div.blog-filters > a.blog-filters__item",
+        "tier": 5,
+        "share": 0.02,
+        "section": 0,
+        "w1": 313,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 261,
+        "via": "fixed",
+        "selector": "div.blog-hero > div.blog-hero__inner.container > div.blog-filters > a.blog-filters__item",
+        "tier": 5,
+        "share": 0.02,
+        "section": 0,
+        "w1": 261,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 351,
+        "via": "fixed",
+        "selector": "div.blog-hero > div.blog-hero__inner.container > div.blog-filters > a.blog-filters__item",
+        "tier": 5,
+        "share": 0.02,
+        "section": 0,
+        "w1": 351,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 265,
+        "via": "fixed",
+        "selector": "div.blog-hero > div.blog-hero__inner.container > div.blog-filters > a.blog-filters__item",
+        "tier": 5,
+        "share": 0.02,
+        "section": 0,
+        "w1": 265,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 251,
+        "via": "fixed",
+        "selector": "div.blog-hero > div.blog-hero__inner.container > div.blog-filters > a.blog-filters__item",
+        "tier": 5,
+        "share": 0.02,
+        "section": 0,
+        "w1": 251,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1680,
+        "via": "max-width",
+        "selector": "#MainContent > section.blog-index > div.container.container--tight",
+        "tier": 2,
+        "share": 0.63,
+        "section": 1,
+        "w1": 1320,
+        "maxWidth": "1680px"
+      },
+      {
+        "kind": "module",
+        "px": 392,
+        "via": "fixed",
+        "selector": "#blog-items > div.related-card.listing-card > a.related-card__link > span.related-card__excerpt",
+        "tier": 6,
+        "share": 0.02,
+        "section": 1,
+        "w1": 392,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 260,
+        "via": "fixed",
+        "selector": "#blog-pagination > a.btn.btn--outline",
+        "tier": 4,
+        "share": 0.02,
+        "section": 1,
+        "w1": 260,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "other",
+        "px": 1680,
+        "via": "max-width",
+        "selector": "body > section.trusted-band > div.trusted-band__inner.container",
+        "tier": 4,
+        "share": 0,
+        "section": -1,
+        "w1": 1320,
+        "maxWidth": "1680px"
+      },
+      {
+        "kind": "other",
+        "px": 1680,
+        "via": "max-width",
+        "selector": "body > section.social-strip",
+        "tier": 3,
+        "share": 0,
+        "section": -1,
+        "w1": 1425,
+        "maxWidth": "1680px"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#MainContent > section.blog-index > div.blog-hero",
+        "px": 1680,
+        "capSelector": "#MainContent > section.blog-index > div.blog-hero > div.blog-hero__inner.container"
+      },
+      {
+        "index": 1,
+        "selector": "#MainContent > section.blog-index > div.container.container--tight",
+        "px": 1680,
+        "capSelector": "#MainContent > section.blog-index > div.container.container--tight"
+      }
+    ],
+    "shellMaxWidth": null,
+    "contentMaxWidth": 1680,
+    "contentFrom": "module",
+    "maxCap": 1680,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 151
+  },
+  "compare": {
+    "probeWidth": 2560,
+    "rows": [
+      {
+        "ok": true,
+        "label": "content cap",
+        "detail": "live 1680px = build 1680px (±20, shared module cap)",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 1/2",
+        "detail": "1680px = 1680px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 2/2",
+        "detail": "1680px = 1680px",
+        "advisory": false
+      }
+    ],
+    "fails": 0,
+    "pass": true
+  },
+  "evidence": "stardust/replica/gates/blogs-news-2560/cap-iter.json"
+}

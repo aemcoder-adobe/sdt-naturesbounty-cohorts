@@ -1,0 +1,33 @@
+{
+  "round": "iter3",
+  "width": 1440,
+  "pixel": {
+    "rc": 0,
+    "diff": "stardust/replica/gates/apple-crisp-1440/diff-iter3.png"
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/apple-crisp-1440/content-diff-iter3.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/apple-crisp-1440/visual-diff-iter3.txt"
+    },
+    "chrome-parity": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/apple-crisp-1440/chrome-parity-iter3.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/apple-crisp-1440/clip-iter3.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/apple-crisp-1440/units-iter3.txt"
+    }
+  },
+  "structural": 3,
+  "nothingLost": 3,
+  "at": "2026-11-10T23:47:42.058Z"
+}

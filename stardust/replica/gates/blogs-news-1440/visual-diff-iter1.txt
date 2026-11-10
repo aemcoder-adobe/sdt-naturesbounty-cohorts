@@ -1,0 +1,1181 @@
+[live-session] waiting to pace live navigations to naturesbounty.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+
+Visual diff @ 1440px (profile "generic") — screenshots in stardust/replica/gates/blogs-news-1440/vdiff-iter1/
+
+build red flags (advisory): 
+  • IMAGE DID NOT LOAD: blog-24-06-nb-website-blog-womenshealth-final-b1db2301-cc1b-4110-.jpg rendered 393x245 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: blog-24-05-nb-website-blog-digestive-final-2-e2d8c301-db8d-41ea-a.jpg rendered 393x245 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: blog-24-05-nb-website-blog-digestive-final-1-7cdfdff9-5500-451d-8.jpg rendered 393x245 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: blog-24-05-nb-website-blog-pro10-final-a8b5c769-90f4-4a3c-8d69-14.jpg rendered 393x245 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: blog-nb-april-blog.jpg rendered 393x245 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: blog-24-03-os-website-blog-images-whm.jpg rendered 393x245 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 3803,
+  "textLen": 2278,
+  "images": [
+   {
+    "src": "NB-logo-dark-green.svg?v=1713987522&width=400",
+    "natural": "1685x266",
+    "rendered": "200x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-brain-health.svg?v=15257571938105578262",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-bone-and-joint-health.svg?v=12918564902687572158",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-digestive-health.svg?v=3312473091881105769",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-energy-support.svg?v=16142223243885154266",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-eye-health.svg?v=365029801243797632",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-hair-skin-and-nails.svg?v=13932907217450298415",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-healthy-aging.svg?v=11252042164913606457",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-heart-health.svg?v=14642019194858604653",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-herbs.svg?v=18234029569454670879",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-immune-and-antioxidant-support.svg?v=4025504713176582259",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-mens-health.svg?v=14610051494886882175",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-prenatal-health.svg?v=11399845121406091191",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-stress-and-mood.svg?v=6319251128162379999",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-sleep-support.svg?v=17589463281203327454",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-urinary-tract-health.svg?v=15305033655557644414",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-womens-health.svg?v=14404173916337808138",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "hair-growth-cta-lrg.png?v=1682098268&width=425",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-brain-health.svg?v=15257571938105578262",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-bone-and-joint-health.svg?v=12918564902687572158",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-digestive-health.svg?v=3312473091881105769",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-energy-support.svg?v=16142223243885154266",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-eye-health.svg?v=365029801243797632",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-hair-skin-and-nails.svg?v=13932907217450298415",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-healthy-aging.svg?v=11252042164913606457",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-heart-health.svg?v=14642019194858604653",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-herbs.svg?v=18234029569454670879",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-immune-and-antioxidant-support.svg?v=4025504713176582259",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-mens-health.svg?v=14610051494886882175",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-prenatal-health.svg?v=11399845121406091191",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-stress-and-mood.svg?v=6319251128162379999",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-sleep-support.svg?v=17589463281203327454",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-urinary-tract-health.svg?v=15305033655557644414",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-womens-health.svg?v=14404173916337808138",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "hair-growth-cta-lrg.png?v=1682098268&width=425",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "natures-bounty-magnesium-1427x600_5d78b11a-4234-4866-b043-de53e7a8f5fa.jpg?v=1785505740&width=1500",
+    "natural": "1369x576",
+    "rendered": "605x490",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "06_Probiotic_NB_IIYN-2025_0128_1561_v1_JPEG_QC.jpg?v=1785505259&width=1500",
+    "natural": "1440x960",
+    "rendered": "605x490",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "natures-bounty-magnesium-1427x600_5d78b11a-4234-4866-b043-de53e7a8f5fa.jpg?v=1785505740&width=1000",
+    "natural": "1440x604",
+    "rendered": "530x310",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "natures-bounty-magnesium-1427x600_5d78b11a-4234-4866-b043-de53e7a8f5fa.jpg?v=1785505740&width=1500",
+    "natural": "1369x576",
+    "rendered": "393x245",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "06_Probiotic_NB_IIYN-2025_0128_1561_v1_JPEG_QC.jpg?v=1785505259&width=1500",
+    "natural": "1440x960",
+    "rendered": "393x245",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "07_HairGrowth_NB_IIYN-2025_0779_1561_v1_JPEG_QC.jpg?v=1785504443&width=1500",
+    "natural": "1440x960",
+    "rendered": "393x245",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "24-06-NB-Website-Blog-WomensHealth_final_b1db2301-cc1b-4110-8051-0b014e37f01b.jpg?v=1754674906&width=2000",
+    "natural": "0x0",
+    "rendered": "393x245",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "24-05-NB-Website-Blog-Digestive_final_2_e2d8c301-db8d-41ea-ab24-8a2ec59a4bde.jpg?v=1752459225&width=2000",
+    "natural": "0x0",
+    "rendered": "393x245",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "24-05-NB-Website-Blog-Digestive_final_1_7cdfdff9-5500-451d-84be-4bf62954466f.jpg?v=1752448914&width=2000",
+    "natural": "0x0",
+    "rendered": "393x245",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "24-05-NB-Website-Blog-Pro10_final_a8b5c769-90f4-4a3c-8d69-14a32153c3bd.jpg?v=1752451963&width=2000",
+    "natural": "0x0",
+    "rendered": "393x245",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "NB-April-Blog.jpg?v=1713208240&width=2000",
+    "natural": "0x0",
+    "rendered": "393x245",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "24-03-OS-Website-Blog-Images-WHM.jpg?v=1710526470&width=2000",
+    "natural": "0x0",
+    "rendered": "393x245",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "trusted-banner.png?v=1666098789&width=900",
+    "natural": "0x0",
+    "rendered": "700x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "AdvMagGly.png?v=1747157820&width=350",
+    "natural": "0x0",
+    "rendered": "271x271",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "first_day_of_spring_2025-2.png?v=1747157820&width=350",
+    "natural": "0x0",
+    "rendered": "271x271",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "SupercomplexB.png?v=1747157820&width=350",
+    "natural": "0x0",
+    "rendered": "271x271",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "Vitamin_C.png?v=1747157820&width=350",
+    "natural": "0x0",
+    "rendered": "271x271",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "GummiesBillboard.png?v=1747157820&width=350",
+    "natural": "0x0",
+    "rendered": "271x271",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "NB-logo.svg?v=1713987522&width=400",
+    "natural": "1685x266",
+    "rendered": "350x55",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Nestl%C3%A9_Health_Science.png",
+    "natural": "1920x559",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Nature’s Bounty Blog",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "50px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Why Magnesium Matters More Than ",
+    "color": "rgb(52, 119, 63)",
+    "fontSize": "25px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "How to Choose the Right Probioti",
+    "color": "rgb(52, 119, 63)",
+    "fontSize": "25px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Why Magnesium Matters More Than ",
+    "color": "rgb(52, 119, 63)",
+    "fontSize": "25px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Why Magnesium Matters More Than ",
+    "color": "rgb(52, 119, 63)",
+    "fontSize": "25px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "How to Choose the Right Probioti",
+    "color": "rgb(52, 119, 63)",
+    "fontSize": "25px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "What Are Ceramides and Why They ",
+    "color": "rgb(52, 119, 63)",
+    "fontSize": "25px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Women’s Health Awareness: 5 Ways",
+    "color": "rgb(52, 119, 63)",
+    "fontSize": "25px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Your Gut May Play a Powerful Rol",
+    "color": "rgb(52, 119, 63)",
+    "fontSize": "25px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Enhance Your Digestive Wellness ",
+    "color": "rgb(52, 119, 63)",
+    "fontSize": "25px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Digestive Probiotic 10",
+    "color": "rgb(52, 119, 63)",
+    "fontSize": "25px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Helpful Tips to Reduce Stress th",
+    "color": "rgb(52, 119, 63)",
+    "fontSize": "25px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Celebrate Women’s History Month ",
+    "color": "rgb(52, 119, 63)",
+    "fontSize": "25px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "|",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "|",
+    "color": "rgb(0, 0, 0)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "blog-hero__inner",
+    "width": 1320,
+    "left": 53
+   },
+   {
+    "sel": "article-item__grid",
+    "width": 1240,
+    "left": 93
+   },
+   {
+    "sel": "blog__featured",
+    "width": 1060,
+    "left": 183
+   },
+   {
+    "sel": "blog__listing",
+    "width": 1240,
+    "left": 93
+   }
+  ]
+ },
+ "build": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 3803,
+  "textLen": 2278,
+  "images": [
+   {
+    "src": "logo.svg",
+    "natural": "468x74",
+    "rendered": "200x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-brain-health.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-bone-and-joint-health.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-digestive-health.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-energy-support.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-eye-health.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-hair-skin-and-nails.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-healthy-aging.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-heart-health.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-herbs.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-immune-and-antioxidant-support.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-mens-health.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-prenatal-health.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-stress-and-mood.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-sleep-support.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-urinary-tract-health.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-womens-health.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "hair-growth-cta-lrg.png",
+    "natural": "425x251",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-brain-health.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-bone-and-joint-health.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-digestive-health.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-energy-support.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-eye-health.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-hair-skin-and-nails.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-healthy-aging.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-heart-health.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-herbs.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-immune-and-antioxidant-support.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-mens-health.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-prenatal-health.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-stress-and-mood.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-sleep-support.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-urinary-tract-health.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-womens-health.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "hair-growth-cta-lrg.png",
+    "natural": "425x251",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "blog-natures-bounty-magnesium-1427x600-5d78b11a-4234-4866-b043-de.jpg",
+    "natural": "1200x505",
+    "rendered": "605x490",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "blog-06-probiotic-nb-iiyn-2025-0128-1561-v1-jpeg-qc.jpg",
+    "natural": "1200x800",
+    "rendered": "605x490",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "blog-natures-bounty-magnesium-1427x600-5d78b11a-4234-4866-b043-de.jpg",
+    "natural": "1200x505",
+    "rendered": "530x310",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "blog-natures-bounty-magnesium-1427x600-5d78b11a-4234-4866-b043-de.jpg",
+    "natural": "1200x505",
+    "rendered": "393x245",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "blog-06-probiotic-nb-iiyn-2025-0128-1561-v1-jpeg-qc.jpg",
+    "natural": "1200x800",
+    "rendered": "393x245",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "article-ceramides.jpg",
+    "natural": "1000x667",
+    "rendered": "393x245",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "blog-24-06-nb-website-blog-womenshealth-final-b1db2301-cc1b-4110-.jpg",
+    "natural": "0x0",
+    "rendered": "393x245",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "blog-24-05-nb-website-blog-digestive-final-2-e2d8c301-db8d-41ea-a.jpg",
+    "natural": "0x0",
+    "rendered": "393x245",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "blog-24-05-nb-website-blog-digestive-final-1-7cdfdff9-5500-451d-8.jpg",
+    "natural": "0x0",
+    "rendered": "393x245",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "blog-24-05-nb-website-blog-pro10-final-a8b5c769-90f4-4a3c-8d69-14.jpg",
+    "natural": "0x0",
+    "rendered": "393x245",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "blog-nb-april-blog.jpg",
+    "natural": "0x0",
+    "rendered": "393x245",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "blog-24-03-os-website-blog-images-whm.jpg",
+    "natural": "0x0",
+    "rendered": "393x245",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "trusted-banner.png",
+    "natural": "900x110",
+    "rendered": "700x86",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ig-AdvMagGly.png",
+    "natural": "350x350",
+    "rendered": "271x271",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ig-first_day_of_spring_2025-2.png",
+    "natural": "350x350",
+    "rendered": "271x271",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ig-SupercomplexB.png",
+    "natural": "350x350",
+    "rendered": "271x271",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ig-Vitamin_C.png",
+    "natural": "350x350",
+    "rendered": "271x271",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ig-GummiesBillboard.png",
+    "natural": "350x350",
+    "rendered": "271x271",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "NB-logo.svg",
+    "natural": "468x74",
+    "rendered": "350x55",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Nature’s Bounty Blog",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "50px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Why Magnesium Matters More Than ",
+    "color": "rgb(52, 119, 63)",
+    "fontSize": "25px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "How to Choose the Right Probioti",
+    "color": "rgb(52, 119, 63)",
+    "fontSize": "25px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Why Magnesium Matters More Than ",
+    "color": "rgb(52, 119, 63)",
+    "fontSize": "25px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Why Magnesium Matters More Than ",
+    "color": "rgb(52, 119, 63)",
+    "fontSize": "25px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "How to Choose the Right Probioti",
+    "color": "rgb(52, 119, 63)",
+    "fontSize": "25px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "What Are Ceramides and Why They ",
+    "color": "rgb(52, 119, 63)",
+    "fontSize": "25px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Women’s Health Awareness: 5 Ways",
+    "color": "rgb(52, 119, 63)",
+    "fontSize": "25px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Your Gut May Play a Powerful Rol",
+    "color": "rgb(52, 119, 63)",
+    "fontSize": "25px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Enhance Your Digestive Wellness ",
+    "color": "rgb(52, 119, 63)",
+    "fontSize": "25px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Digestive Probiotic 10",
+    "color": "rgb(52, 119, 63)",
+    "fontSize": "25px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Helpful Tips to Reduce Stress th",
+    "color": "rgb(52, 119, 63)",
+    "fontSize": "25px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Celebrate Women’s History Month ",
+    "color": "rgb(52, 119, 63)",
+    "fontSize": "25px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "|",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "|",
+    "color": "rgb(0, 0, 0)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "blog-hero__inner",
+    "width": 1320,
+    "left": 53
+   },
+   {
+    "sel": "listing-grid",
+    "width": 1240,
+    "left": 93
+   },
+   {
+    "sel": "blog-featured",
+    "width": 1060,
+    "left": 183
+   },
+   {
+    "sel": "listing-grid",
+    "width": 1240,
+    "left": 93
+   }
+  ]
+ }
+}

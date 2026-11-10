@@ -1,0 +1,865 @@
+[live-session] waiting to pace live navigations to naturesbounty.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 818 ms
+
+Visual diff @ 1440px (profile "generic") — screenshots in stardust/replica/gates/apple-crisp-1440/vdiff-iter1/
+
+build red flags (advisory): none
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 1821,
+  "textLen": 771,
+  "images": [
+   {
+    "src": "NB-logo-dark-green.svg?v=1713987522&width=400",
+    "natural": "1685x266",
+    "rendered": "200x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-brain-health.svg?v=15257571938105578262",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-bone-and-joint-health.svg?v=12918564902687572158",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-digestive-health.svg?v=3312473091881105769",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-energy-support.svg?v=16142223243885154266",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-eye-health.svg?v=365029801243797632",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-hair-skin-and-nails.svg?v=13932907217450298415",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-healthy-aging.svg?v=11252042164913606457",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-heart-health.svg?v=14642019194858604653",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-herbs.svg?v=18234029569454670879",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-immune-and-antioxidant-support.svg?v=4025504713176582259",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-mens-health.svg?v=14610051494886882175",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-prenatal-health.svg?v=11399845121406091191",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-stress-and-mood.svg?v=6319251128162379999",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-sleep-support.svg?v=17589463281203327454",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-urinary-tract-health.svg?v=15305033655557644414",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-womens-health.svg?v=14404173916337808138",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "hair-growth-cta-lrg.png?v=1682098268&width=425",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-brain-health.svg?v=15257571938105578262",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-bone-and-joint-health.svg?v=12918564902687572158",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-digestive-health.svg?v=3312473091881105769",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-energy-support.svg?v=16142223243885154266",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-eye-health.svg?v=365029801243797632",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-hair-skin-and-nails.svg?v=13932907217450298415",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-healthy-aging.svg?v=11252042164913606457",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-heart-health.svg?v=14642019194858604653",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-herbs.svg?v=18234029569454670879",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-immune-and-antioxidant-support.svg?v=4025504713176582259",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-mens-health.svg?v=14610051494886882175",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-prenatal-health.svg?v=11399845121406091191",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-stress-and-mood.svg?v=6319251128162379999",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-sleep-support.svg?v=17589463281203327454",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-urinary-tract-health.svg?v=15305033655557644414",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-womens-health.svg?v=14404173916337808138",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "hair-growth-cta-lrg.png?v=1682098268&width=425",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "apple_crisp.jpg?v=1667524727&width=1500",
+    "natural": "1342x628",
+    "rendered": "1425x600",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "probioticrichbreakfastbowllg.jpg?v=1667524784&width=1500",
+    "natural": "1342x628",
+    "rendered": "393x245",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "pina_colada_protein_shake.jpg?v=1667524782&width=1500",
+    "natural": "1342x628",
+    "rendered": "393x245",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "peanutbutterjellyproteinshake_3fc00fd2-6fa7-44ea-b6cd-52b846acb13e.jpg?v=1667524779&width=1500",
+    "natural": "1342x628",
+    "rendered": "393x245",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "trusted-banner.png?v=1666098789&width=900",
+    "natural": "900x110",
+    "rendered": "700x86",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "AdvMagGly.png?v=1747157820&width=350",
+    "natural": "1440x1440",
+    "rendered": "271x271",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "first_day_of_spring_2025-2.png?v=1747157820&width=350",
+    "natural": "1440x1440",
+    "rendered": "271x271",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "SupercomplexB.png?v=1747157820&width=350",
+    "natural": "1440x1440",
+    "rendered": "271x271",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Vitamin_C.png?v=1747157820&width=350",
+    "natural": "1440x1440",
+    "rendered": "271x271",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "GummiesBillboard.png?v=1747157820&width=350",
+    "natural": "1440x1440",
+    "rendered": "271x271",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "NB-logo.svg?v=1713987522&width=400",
+    "natural": "1685x266",
+    "rendered": "350x55",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Nestl%C3%A9_Health_Science.png",
+    "natural": "1920x559",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Apple Crisp",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "50px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Probiotic Rich Breakfast Bowl",
+    "color": "rgb(52, 119, 63)",
+    "fontSize": "25px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Pina Colada Protein Shake",
+    "color": "rgb(52, 119, 63)",
+    "fontSize": "25px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Peanut Butter and Jelly Protein ",
+    "color": "rgb(52, 119, 63)",
+    "fontSize": "25px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "article-main__body",
+    "width": 1320,
+    "left": 53
+   },
+   {
+    "sel": "article-item__grid",
+    "width": 1240,
+    "left": 93
+   }
+  ]
+ },
+ "build": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 1797,
+  "textLen": 691,
+  "images": [
+   {
+    "src": "logo.svg",
+    "natural": "468x74",
+    "rendered": "200x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-brain-health.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-bone-and-joint-health.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-digestive-health.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-energy-support.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-eye-health.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-hair-skin-and-nails.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-healthy-aging.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-heart-health.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-herbs.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-immune-and-antioxidant-support.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-mens-health.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-prenatal-health.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-stress-and-mood.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-sleep-support.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-urinary-tract-health.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-womens-health.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "hair-growth-cta-lrg.png",
+    "natural": "425x251",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-brain-health.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-bone-and-joint-health.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-digestive-health.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-energy-support.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-eye-health.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-hair-skin-and-nails.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-healthy-aging.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-heart-health.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-herbs.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-immune-and-antioxidant-support.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-mens-health.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-prenatal-health.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-stress-and-mood.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-sleep-support.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-urinary-tract-health.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-womens-health.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "hair-growth-cta-lrg.png",
+    "natural": "425x251",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "recipe-apple-crisp-hero.jpg",
+    "natural": "1398x655",
+    "rendered": "1425x600",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "recipe-peach-pear-plum-smoothie.jpg",
+    "natural": "1398x655",
+    "rendered": "393x245",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "recipe-oatmeal-cookie-shake.jpg",
+    "natural": "1398x655",
+    "rendered": "393x245",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "recipe-mango-berry-cloud.jpg",
+    "natural": "1398x655",
+    "rendered": "393x245",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "trusted-banner.png",
+    "natural": "900x110",
+    "rendered": "700x86",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ig-AdvMagGly.png",
+    "natural": "350x350",
+    "rendered": "271x271",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ig-first_day_of_spring_2025-2.png",
+    "natural": "350x350",
+    "rendered": "271x271",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ig-SupercomplexB.png",
+    "natural": "350x350",
+    "rendered": "271x271",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ig-Vitamin_C.png",
+    "natural": "350x350",
+    "rendered": "271x271",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ig-GummiesBillboard.png",
+    "natural": "350x350",
+    "rendered": "271x271",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "NB-logo.svg",
+    "natural": "468x74",
+    "rendered": "350x55",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Apple Crisp",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "50px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Peach, Pear & Plum Smoothie",
+    "color": "rgb(52, 119, 63)",
+    "fontSize": "25px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Oatmeal Cookie Shake",
+    "color": "rgb(52, 119, 63)",
+    "fontSize": "25px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Mango Berry Cloud",
+    "color": "rgb(52, 119, 63)",
+    "fontSize": "25px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "recipe__body",
+    "width": 1320,
+    "left": 53
+   },
+   {
+    "sel": "related__grid",
+    "width": 1240,
+    "left": 93
+   }
+  ]
+ }
+}

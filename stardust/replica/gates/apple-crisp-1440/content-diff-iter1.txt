@@ -1,0 +1,35 @@
+[live-session] waiting to pace live navigations to naturesbounty.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+
+Content diff @ 1440px (profile "generic", roots: #MainContent, header, footer)
+root "#MainContent"
+  source: 23 text nodes — 1 headings, 0 eyebrows, 9 CTAs, 13 body; 4 img
+  build: 23 text nodes — 1 headings, 0 eyebrows, 9 CTAs, 13 body; 4 img
+  editable texts (outermost h*/p/ul/ol): source 7 / build 10
+  attributes (placeholder/aria-label/title): source 11 / build 11; icons: source 5 / build 5
+root "header"
+  source: 85 text nodes — 0 headings, 0 eyebrows, 60 CTAs, 25 body; 18 img
+  build: 85 text nodes — 0 headings, 0 eyebrows, 60 CTAs, 25 body; 18 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 0
+  attributes (placeholder/aria-label/title): source 85 / build 85; icons: source 50 / build 50
+root "footer"
+  source: 54 text nodes — 0 headings, 0 eyebrows, 37 CTAs, 17 body; 1 img
+  build: 54 text nodes — 0 headings, 0 eyebrows, 37 CTAs, 17 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 13 / build 12
+  attributes (placeholder/aria-label/title): source 22 / build 22; icons: source 15 / build 15
+
+Findings: 14 (3 structural 🔴)
+Tiers: looks-same 🔴 3 · nothing-lost 🟡 3 · accepted 🟢 0 (owner 0, auto 0) · advisory 8
+  🔴 MISSING CTA [#MainContent]: source cta "Probiotic Rich Breakfast Bowl In addition to sup" → /blogs/recipes/probiotic-rich-breakfast-bowl has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#MainContent]: source cta "Pina Colada Protein Shake" → /blogs/recipes/pina-colada-protein-shake has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#MainContent]: source cta "Peanut Butter and Jelly Protein Shake" → /blogs/recipes/peanut-butter-and-jelly-protein-shake has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🟠 EXTRA [#MainContent]: build cta "Peach, Pear & Plum Smoothie" has no source source — Unexpected node with no source.
+  🟠 EXTRA [#MainContent]: build cta "Oatmeal Cookie Shake Delicious Nature's Bounty® " has no source source — Unexpected node with no source.
+  🟠 EXTRA [#MainContent]: build cta "Mango Berry Cloud" has no source source — Unexpected node with no source.
+  🟠 FONT FORK [#MainContent]: 1 matched line(s) render a DIFFERENT face: body "®": source sofia-pro vs build sofia-pro→sys (-23%). A matched line renders a different typeface. A "→sys" on the source side means it named a font it never loaded; confirm the substitution is intended, else load the missing face.
+  🟡 MISSING ARIA-LABEL [#MainContent]: source <a> aria-label="Probiotic Rich Breakfast Bowl" has no build <a> with that aria-label (build <a> aria-labels: "Article Image", "Peach, Pear & Plum Smoothie", "Article Image"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#MainContent]: source <a> aria-label="Pina Colada Protein Shake" has no build <a> with that aria-label (build <a> aria-labels: "Article Image", "Peach, Pear & Plum Smoothie", "Article Image"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#MainContent]: source <a> aria-label="Peanut Butter and Jelly Protein Shake" has no build <a> with that aria-label (build <a> aria-labels: "Article Image", "Peach, Pear & Plum Smoothie", "Article Image"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 EXTRA ARIA-LABEL [#MainContent]: build <a> aria-label="Peach, Pear & Plum Smoothie" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#MainContent]: build <a> aria-label="Oatmeal Cookie Shake" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#MainContent]: build <a> aria-label="Mango Berry Cloud" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EDITABLE COUNT [footer]: build has 12 outermost editable element(s) vs 13 in the source — fewer outermost editable elements after decoration usually means authored elements were rebuilt/merged — see deploy SKILL.md § Experience Workspace editability contract (run ew-editability-probe.mjs on the build URL for the per-block verdict).

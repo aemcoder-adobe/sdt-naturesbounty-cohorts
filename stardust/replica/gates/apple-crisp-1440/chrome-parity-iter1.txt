@@ -1,0 +1,72 @@
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://naturesbounty.com/blogs/recipes/apple-crisp
+  build: http://localhost:8791/apple-crisp-proposed.html
+
+■ header: 4 delta(s) — 6 paired of 6/6 texts, 5/5 icons
+  PAIR         "Products"  Δx -4px (517→513)
+  PAIR         "Health Benefits"  Δx -3px (653→650); Δw +2px (168→170)
+  PAIR         "About Us"  Δx -2px (954→952); Δw +3px (80→83)
+  PAIR         "Where to Buy"  color rgb(0, 0, 0) → rgb(39, 70, 58); backgroundColor rgba(0, 0, 0, 0) → rgb(210, 227, 143); paddingTop 10px → 18px; paddingRight 20px → 10px; paddingBottom 10px → 18px; paddingLeft 20px → 10px
+
+■ footer: 59 delta(s) — 58 paired of 58/58 texts, 7/7 icons
+  REGION BOX   Δy -24px (2626→2602)
+  PAIR         "Join Our Newsletter"  Δy -24px (2804→2780)
+  PAIR         "Receive the latest news, special offers "  Δy -24px (2850→2826)
+  PAIR         "Sign Up"  Δy -24px (2930→2906)
+  PAIR         "Follow Us"  Δy -24px (3045→3021); Δw +2px (75→77)
+  PAIR         "Products"  Δy -24px (2804→2780)
+  PAIR         "Adult Vitamins"  Δy -24px (2845→2821); Δw +2px (94→96)
+  PAIR         "Supplements"  Δy -24px (2872→2848)
+  PAIR         "Minerals"  Δy -24px (2898→2874); Δw -4px (58→54)
+  PAIR         "Herbs"  Δy -24px (2925→2901)
+  PAIR         "Fish Oil & Omegas"  Δy -24px (2951→2927); Δw -2px (120→118)
+  PAIR         "Specialty"  Δy -24px (2978→2954)
+  PAIR         "Health Needs"  Δy -24px (2804→2780)
+  PAIR         "Women’s Wellness"  Δy -24px (2845→2821)
+  PAIR         "Men’s Health"  Δy -24px (2845→2821); Δw -3px (86→83)
+  PAIR         "Brain Health"  Δy -24px (2872→2848); Δw -3px (82→79)
+  PAIR         "Bone & Joint Health"  Δy -24px (2872→2848); Δw +3px (126→129)
+  PAIR         "Eye Health"  Δy -24px (2898→2874)
+  PAIR         "Healthy Aging"  Δy -24px (2898→2874)
+  PAIR         "Herbal"  Δy -24px (2925→2901); Δw -2px (45→43)
+  PAIR         "Urinary Tract Health"  Δy -24px (2925→2901); Δw -2px (132→130)
+  PAIR         "Digestive Health"  Δy -24px (2951→2927)
+  PAIR         "Energy Support"  Δy -24px (2951→2927)
+  PAIR         "Heart Health"  Δy -24px (2978→2954); Δw -2px (85→83)
+  PAIR         "Immune & Antioxidant Support"  Δy -24px (2978→2954)
+  PAIR         "Stress & Mood"  Δy -24px (3004→2980)
+  PAIR         "Sleep Support"  Δy -24px (3004→2980)
+  PAIR         "Resource Center"  Δy -24px (2804→2780)
+  PAIR         "DIY Beauty"  Δy -24px (2875→2851)
+  PAIR         "Healthy Living"  Δy -24px (2902→2878)
+  PAIR         "Food Health"  Δy -24px (2928→2904)
+  PAIR         "Hair, Skin & Nails"  Δy -24px (2955→2931)
+  PAIR         "Recipes"  Δy -24px (2981→2957)
+  PAIR         "Nature’s Bounty"  Δy -24px (2804→2780)
+  PAIR         "About Us"  Δy -24px (2875→2851); Δw +2px (59→61)
+  PAIR         "Where to Buy"  Δy -24px (2902→2878)
+  PAIR         "Contact Us"  Δy -24px (2928→2904); Δw +2px (72→74)
+  PAIR         "Careers"  Δy -24px (2955→2931)
+  PAIR         "Terms of Use"  Δy -24px (3132→3108)
+  PAIR         "|"  Δy -22px (3129→3107); Δh -3px (25→22)
+  PAIR         "Privacy Policy"  Δy -24px (3132→3108)
+  PAIR         "|"  Δy -22px (3129→3107); Δh -3px (25→22)
+  PAIR         "Accessibility Statement"  Δy -24px (3132→3108); Δw +4px (151→155); <a> box 175×30 → 179×30
+  PAIR         "|"  Δx +5px (528→533); Δy -22px (3129→3107); Δh -3px (25→22); <a> box 175×30 → 179×30
+  PAIR         "Health Data Notice"  Δx +5px (552→557); Δy -24px (3132→3108)
+  PAIR         "|"  Δx +5px (697→702); Δy -22px (3129→3107); Δh -3px (25→22)
+  PAIR         "Satisfaction Guarantee"  Δx +5px (721→726); Δy -24px (3132→3108); Δw -2px (152→150); <a> box 176×30 → 174×30
+  PAIR         "|"  Δx +3px (893→896); Δy -22px (3129→3107); Δh -3px (25→22); <a> box 176×30 → 174×30
+  PAIR         "International Distributors"  Δx +4px (917→921); Δy -24px (3132→3108); Δw -2px (164→162); <a> box 164×30 → 162×30
+  PAIR         "|"  Δy -20px (3127→3107); Δh -8px (30→22)
+  PAIR         "Your Privacy Choices"  Δy -24px (3131→3107)
+  PAIR         "*These statements have not been evaluate"  Δy -22px (3268→3246); Δw -2px (930→928); Δh -4px (19→15)
+  PAIR         "Nature’s Bounty may make changes to prod"  Δx +5px (235→240); Δy -24px (3344→3320); Δw -8px (954→946)
+  PAIR         "◊Source: Circana™ OmniMarket – Total MUL"  Δx +4px (333→337); Δy -24px (3373→3349); Δw -7px (758→751)
+  PAIR         "†Compared to Nature's Bounty® Optimal So"  Δx +3px (487→490); Δy -24px (3403→3379); Δw -7px (452→445)
+  PAIR         "†Traditional use claims are based on his"  Δy -24px (3432→3408)
+  PAIR         "Nature’s Bounty is a Nestlé Health Scien"  Δx +3px (133→136); Δy -24px (3481→3457); Δw -6px (1158→1152)
+  PAIR         "www.nestlehealthscience.us"  Δx -7px (1131→1124); Δy -22px (3481→3459); Δw +4px (161→165); Δh -4px (19→15)
+  PAIR         "Nature's Bounty is a registered trademar"  Δx +2px (593→595); Δy -24px (3511→3487); Δw -4px (239→235)
+
+✗ 63 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

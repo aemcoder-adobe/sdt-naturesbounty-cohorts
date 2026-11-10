@@ -39,3 +39,18 @@
   cap-probe PASS. Motion: ticker, click mega-menus, search expand, mobile drawer, footer accordions built.
 - Approved hands-off with the 360 residual logged under R-01 (font substitution is the register's only delta).
 - Canon layer: stardust/prototypes/canon.css, canon.js, article.css; Figtree self-hosted.
+
+## Recreate — listing archetype gated (2026-11-10)
+
+- blogs-news: 1440 2.04 % Δh 0; 360 3.62 % Δh 1; content-diff 0 red; cap-probe PASS; motion 5 matched. Approved hands-off.
+- Sibling variance: /blogs/recipes has a page-hero image banner (h1 "Recipes"), no featured block, and a
+  3-card cross-blog "blog-list" section — both modules to be added at its sibling render (listing.css lacks them).
+- Load More: live fetches page 2 in place; prototype links ?page=2 — dynamics row to add (listing pagination).
+
+## Recreate — recipe archetype gated (2026-11-10)
+
+- apple-crisp: template control (live's current "More recipes" cards) 1440 1.79 % Δh 0, 360 4.08 % Δh 1, content-diff 0.
+  Shipped prototype keeps the captured card set (live rotates server-side): 1440 6.68 %, 360 32 % / Δh 129 — a
+  permanent nondeterministic-content residual, not a template defect. cap-probe PASS. Approved hands-off.
+- R-02 registered: recipe header "Where to Buy" text vs pill elsewhere → pill everywhere.
+- Canon: global `sup` rule added (live theme).

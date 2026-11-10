@@ -167,6 +167,209 @@
         "register": "R-01"
       },
       "units": "stardust/replica/units.json (related-card, product-rail-card, social-tile)"
+    },
+    "listing": {
+      "pageType": "listing",
+      "archetype": "blogs-news",
+      "url": "https://naturesbounty.com/blogs/news",
+      "pages": [
+        "/blogs/news",
+        "/blogs/recipes"
+      ],
+      "prototype": "stardust/prototypes/blogs-news-proposed.html",
+      "layers": [
+        "stardust/prototypes/canon.css",
+        "stardust/prototypes/listing.css",
+        "stardust/prototypes/canon.js"
+      ],
+      "generator": "stardust/replica/work/tools/gen-listing.cjs",
+      "iterations": {
+        "360": 2,
+        "1440": 2
+      },
+      "rounds": {
+        "360": [
+          "iter1 (full)",
+          "iter2 (full, confirmation)"
+        ],
+        "1440": [
+          "iter1 (full)",
+          "iter2 (full, confirmation)"
+        ]
+      },
+      "gates": {
+        "360": {
+          "pixel": 3.62,
+          "heightDelta": -1,
+          "contentDiff": "0 🔴 · 0 nothing-lost 🟡 (1 advisory: EDITABLE COUNT footer 12 vs 13, canon)",
+          "visualDiff": "0 flags",
+          "clipped": 0,
+          "overflow": 0,
+          "pass": true,
+          "evidence": "stardust/replica/gates/blogs-news-360/verdict-iter2.json"
+        },
+        "1440": {
+          "pixel": 2.04,
+          "heightDelta": 0,
+          "contentDiff": "0 🔴 · 0 nothing-lost 🟡 (1 advisory: EDITABLE COUNT footer 12 vs 13, canon)",
+          "visualDiff": "0 flags",
+          "clipped": 0,
+          "overflow": 0,
+          "pass": true,
+          "evidence": "stardust/replica/gates/blogs-news-1440/verdict-iter2.json"
+        }
+      },
+      "capProbe": "PASS at 2560 — 0 of 3 rows failed (stardust/replica/gates/blogs-news-2560/cap-iter.json)",
+      "cards": {
+        "featuredTop": 2,
+        "featured": 1,
+        "grid": 9,
+        "filters": 21,
+        "selectOptions": 21,
+        "order": "captured order, verbatim"
+      },
+      "residuals": [
+        {
+          "id": "R-01",
+          "note": "Figtree substitute for sofia-pro: chrome-parity text-width deltas (header 4, footer 29 @1440; 52 @360), same family as article archetype"
+        },
+        {
+          "id": "listing-load-more",
+          "note": "Live \"Load More\" appends page 2 via data-magic fetch; prototype renders it as a plain link to /blogs/news?page=2 — dynamic, for dynamics triage (re-implement at EDS block level)"
+        },
+        {
+          "id": "listing-filter-select",
+          "note": "Mobile category <select> navigates on change via a 3-line inline script (live theme JS behaviour)"
+        },
+        {
+          "id": "recipes-structure",
+          "note": "/blogs/recipes differs: page-hero image banner (desktop+mobile renditions, gradient, h1 \"Recipes\") instead of blog hero+filters; no featured-top/featured block; .recipes-main 9-card article-item grid (shared card + Load More modules cover it); extra .blog-list section (3 cross-blog cards, .article-item-content family, title/text CTA). page-hero and blog-list modules NOT built in listing.css"
+        }
+      ],
+      "motion": {
+        "observed": "stardust/replica/motion/blogs-news.json",
+        "build": "stardust/replica/motion/blogs-news-build.json",
+        "implemented": [
+          "filter pill hover bg/color 150ms (parity)",
+          "announcement marquee transform (canon, parity)",
+          "text-decoration-color transitions (parity)"
+        ],
+        "dead": [
+          "card link hover (no measured diff on live)",
+          "featured Read more hover (no measured diff)",
+          "header scroll-morph"
+        ],
+        "notes": "slick-active/center/current class mutations are the canon announcement carousel (chrome, built as a CSS marquee); load-more hover is build-only advisory (live .t-btn-5:hover CSS exists, probe saw no diff)"
+      }
+    },
+    "recipe": {
+      "pageType": "recipe",
+      "archetype": "apple-crisp",
+      "pages": 40,
+      "url": "https://naturesbounty.com/blogs/recipes/apple-crisp",
+      "prototype": "stardust/prototypes/apple-crisp-proposed.html",
+      "layers": [
+        "stardust/prototypes/canon.css",
+        "stardust/prototypes/recipe.css",
+        "stardust/prototypes/canon.js"
+      ],
+      "generator": "stardust/replica/work/tools/gen-recipe.cjs",
+      "iterations": {
+        "1440": 3,
+        "360": 1
+      },
+      "rounds": {
+        "1440": [
+          "iter1 (full)",
+          "iter2 (pixel, after canon sup fix)",
+          "iter3 (full, confirmation)"
+        ],
+        "360": [
+          "iter1 (full, after sup fix)"
+        ],
+        "control": [
+          "apple-crisp-control 360 iter1 (full)",
+          "apple-crisp-control 1440 iter1 (full) — gate-control build with the live-rotated 'More recipes' cards; file deleted after the run"
+        ]
+      },
+      "gates": {
+        "1440": {
+          "pixel": 6.68,
+          "heightDelta": 0,
+          "contentDiff": "3 🔴 · 3 nothing-lost 🟡 — all 'More recipes' cards: live rotated the row since capture (snapshot per listings contract); control build: 0 🔴 · 0 🟡 (advisory: EDITABLE COUNT footer 12 vs 13)",
+          "visualDiff": "0 flags",
+          "clipped": 0,
+          "overflow": 0,
+          "hotBands": "y 1500–2000 32.5% = related-card images (rotation)",
+          "control": {
+            "pixel": 1.79,
+            "heightDelta": 0,
+            "contentDiff": "0 🔴 · 0 🟡",
+            "evidence": "stardust/replica/gates/apple-crisp-control-1440/verdict-iter1.json"
+          },
+          "pass": "conditional — bar met on pixel/Δh/clip/overflow; content 🔴 are the documented listing rotation, control build passes all",
+          "evidence": "stardust/replica/gates/apple-crisp-1440/verdict-iter3.json"
+        },
+        "360": {
+          "pixel": 32.0,
+          "heightDelta": 129,
+          "contentDiff": "3 🔴 · 3 🟡 — 'More recipes' rotation (stacked cards, different titles/excerpts → height shift from the related row down); everything above the row measured Δ 0",
+          "visualDiff": "0 flags",
+          "clipped": 0,
+          "overflow": 0,
+          "control": {
+            "pixel": 4.08,
+            "heightDelta": 1,
+            "contentDiff": "0 🔴 · 0 🟡",
+            "evidence": "stardust/replica/gates/apple-crisp-control-360/verdict-iter1.json"
+          },
+          "pass": "conditional — shipped snapshot fails only through rotation; control build passes the bar",
+          "evidence": "stardust/replica/gates/apple-crisp-360/verdict-iter1.json"
+        }
+      },
+      "capProbe": "PASS at 2560 — 0 of 4 rows failed (stardust/replica/gates/apple-crisp-2560/cap-iter.json)",
+      "residuals": [
+        {
+          "id": "listing-rotation",
+          "breakpoint": "both",
+          "cause": "live 'More recipes' row is server-rotated (captured: Peach, Pear & Plum Smoothie / Oatmeal Cookie Shake / Mango Berry Cloud; live at gate time: Probiotic Rich Breakfast Bowl / Pina Colada Protein Shake / Peanut Butter and Jelly Protein Shake). Shipped as the captured snapshot per dynamic-features.md Listings contract (static-snapshot until a query index exists).",
+          "evidence": "control builds with live cards pass: 1440 1.79 %/Δh 0, 360 4.08 %/Δh 1"
+        },
+        {
+          "id": "header-cta-unstyled-on-recipes",
+          "breakpoint": 1440,
+          "cause": "live recipe pages render the header 'Where to Buy' CTA unstyled (black text, transparent, padding 10/20) while article pages show the lime pill; canon keeps the pill. Header crop 8.08 % at 1440. Proposed inconsistency-register entry (not written by this agent).",
+          "evidence": "stardust/replica/gates/apple-crisp-control-1440/chrome-parity-iter1.txt"
+        },
+        {
+          "id": "R-01",
+          "breakpoint": "both",
+          "cause": "Figtree for Sofia Pro — chrome-parity text-width deltas (±2–4 px) as on the article archetype"
+        }
+      ],
+      "motion": {
+        "observed": "live 1440: ticker transform 13s (canon); rte link text-decoration-thickness .15s; share-link hover background darken; related-card / rte-link hover: no measured diff; no header scroll morph",
+        "implemented": "no new behaviour needed — canon.js ticker + canon share hovers + recipe.css .rte a transition; motion-compare: 3 parity, 3 missing = slick-* source class names (as article)",
+        "dead": [
+          "header scroll-morph (static on live)",
+          "hover diffs on .article-item__content and .article-main__text a (none measured)"
+        ],
+        "evidence": [
+          "stardust/replica/motion/apple-crisp.json",
+          "stardust/replica/motion/apple-crisp-build.json"
+        ]
+      },
+      "canonChanges": [
+        "canon.css: global `sup { position:relative; top:-7px; left:1px; vertical-align:top; font-size:60% }` lifted from bundle.theme.css (article prototype has no <sup> — rendering unchanged)"
+      ],
+      "units": "extended units.json: related-card + social-tile += apple-crisp/recipe; new family recipe-ingredient (n 6)",
+      "assets": [
+        "stardust/current/assets/media/recipe-apple-crisp-hero.jpg",
+        "recipe-peach-pear-plum-smoothie.jpg",
+        "recipe-oatmeal-cookie-shake.jpg",
+        "recipe-mango-berry-cloud.jpg"
+      ],
+      "writtenAt": "2026-11-10T23:51:35.521066Z"
     }
   }
 }

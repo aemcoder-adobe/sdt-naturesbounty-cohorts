@@ -1,0 +1,64 @@
+[live-session] waiting to pace live navigations to naturesbounty.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 950 ms
+chrome-parity @ 360px, tolerance 1px
+  live:  https://naturesbounty.com/blogs/recipes/apple-crisp
+  build: http://localhost:8791/apple-crisp-proposed.html
+
+■ header: 24 delta(s) — 79 paired of 79/79 texts, 48/48 icons
+  PAIR         "Where to Buy"  Δh +2px (72→74)
+  PAIR         "Products"  Δy +2px (116→118)
+  PAIR         "Products"  Δx -21px (832→811)
+  PAIR         "Vitamins"  Δx -23px (1179→1156); Δw +4px (92→96)
+  PAIR         "View All Vitamins"  Δw +9px (208→217)
+  PAIR         "Supplements"  Δx -21px (1154→1133)
+  PAIR         "View All Supplements"  Δw +2px (249→251); Δh +24px (55→79)
+  PAIR         "Minerals"  Δx -18px (1177→1159); Δw -4px (95→91)
+  PAIR         "View All Minerals"  Δw +2px (211→213)
+  PAIR         "Herbs"  Δx -21px (1193→1172)
+  PAIR         "View All Herbs"  Δw +6px (185→191)
+  PAIR         "Specialty"  Δx -21px (1175→1154); Δw +2px (99→101)
+  PAIR         "View All Specialty"  Δw +8px (214→222)
+  PAIR         "View All Products"  Δw +7px (211→218)
+  PAIR         "Learn More"  Δh +2px (60→62)
+  PAIR         "Health Benefits"  Δy +2px (191→193)
+  PAIR         "Health Benefits"  Δx -22px (798→776)
+  PAIR         "Learn More"  Δh +2px (60→62)
+  PAIR         "Learn"  Δy +2px (266→268)
+  PAIR         "Learn"  Δx -20px (849→829); Δw -2px (62→60)
+  PAIR         "View All Resources"  Δw +7px (223→230)
+  PAIR         "See How You Can Help Grow Thicker, Fulle"  Δy -8px (865→857); <a> box 311×311 → 311×303
+  PAIR         "About Us"  Δy +2px (341→343)
+  PAIR         "Search"  Δy +2px (465→467)
+
+■ footer: 30 delta(s) — 29 paired of 29/29 texts, 11/11 icons
+  REGION BOX   Δy -68px (3666→3598)
+  PAIR         "Join Our Newsletter"  Δy -69px (3785→3716)
+  PAIR         "Receive the latest news, special offers "  Δy -69px (3831→3762)
+  PAIR         "Sign Up"  Δy -69px (3911→3842)
+  PAIR         "Products"  Δy -69px (4011→3942)
+  PAIR         "Health Needs"  Δy -69px (4072→4003)
+  PAIR         "Resource Center"  Δy -69px (4133→4064)
+  PAIR         "Nature’s Bounty"  Δy -69px (4194→4125)
+  PAIR         "Follow Us"  Δy -69px (4295→4226); Δw +2px (75→77)
+  PAIR         "Terms of Use"  Δy -69px (4382→4313)
+  PAIR         "|"  Δy -67px (4379→4312); Δh -3px (25→22)
+  PAIR         "Privacy Policy"  Δy -69px (4382→4313)
+  PAIR         "|"  Δy -67px (4379→4312); Δh -3px (25→22)
+  PAIR         "Accessibility Statement"  Δx -2px (85→83); Δy -69px (4432→4363); Δw +4px (151→155); <a> box 175×30 → 179×30
+  PAIR         "|"  Δx +2px (256→258); Δy -67px (4429→4362); Δh -3px (25→22); <a> box 175×30 → 179×30
+  PAIR         "Health Data Notice"  Δy -69px (4482→4413)
+  PAIR         "|"  Δy -67px (4479→4412); Δh -3px (25→22)
+  PAIR         "Satisfaction Guarantee"  Δy -69px (4532→4463); Δw -2px (152→150); <a> box 176×30 → 174×30
+  PAIR         "|"  Δx -2px (257→255); Δy -67px (4529→4462); Δh -3px (25→22); <a> box 176×30 → 174×30
+  PAIR         "International Distributors"  Δx +2px (68→70); Δy -69px (4582→4513); Δw -2px (164→162); <a> box 164×30 → 162×30
+  PAIR         "|"  Δx -2px (273→271); Δy -65px (4577→4512); Δh -8px (30→22)
+  PAIR         "Your Privacy Choices"  Δy -69px (4627→4558)
+  PAIR         "*These statements have not been evaluate"  Δy -68px (4762→4694); Δw +2px (221→223); Δh -4px (97→93)
+  PAIR         "Nature’s Bounty may make changes to prod"  Δy -69px (4915→4846)
+  PAIR         "◊Source: Circana™ OmniMarket – Total MUL"  Δy -69px (5003→4934)
+  PAIR         "†Compared to Nature's Bounty® Optimal So"  Δy -70px (5072→5002)
+  PAIR         "†Traditional use claims are based on his"  Δy -70px (5121→5051)
+  PAIR         "Nature’s Bounty is a Nestlé Health Scien"  Δy -69px (5228→5159)
+  PAIR         "www.nestlehealthscience.us"  Δx -2px (92→90); Δy -67px (5306→5239); Δw +4px (161→165); Δh -4px (19→15)
+  PAIR         "Nature's Bounty is a registered trademar"  Δx +2px (53→55); Δy -70px (5336→5266); Δw -4px (239→235)
+
+✗ 54 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

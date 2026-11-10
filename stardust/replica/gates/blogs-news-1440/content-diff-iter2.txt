@@ -1,0 +1,22 @@
+[live-session] waiting to pace live navigations to naturesbounty.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 835 ms
+
+Content diff @ 1440px (profile "generic", roots: #MainContent, header, footer)
+root "#MainContent"
+  source: 75 text nodes — 2 headings, 2 eyebrows, 48 CTAs, 23 body; 12 img
+  build: 75 text nodes — 2 headings, 2 eyebrows, 48 CTAs, 23 body; 12 img
+  editable texts (outermost h*/p/ul/ol): source 19 / build 19
+  attributes (placeholder/aria-label/title): source 49 / build 49; icons: source 1 / build 1
+root "header"
+  source: 85 text nodes — 0 headings, 0 eyebrows, 60 CTAs, 25 body; 18 img
+  build: 85 text nodes — 0 headings, 0 eyebrows, 60 CTAs, 25 body; 18 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 0
+  attributes (placeholder/aria-label/title): source 85 / build 85; icons: source 50 / build 50
+root "footer"
+  source: 54 text nodes — 0 headings, 0 eyebrows, 37 CTAs, 17 body; 1 img
+  build: 54 text nodes — 0 headings, 0 eyebrows, 37 CTAs, 17 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 13 / build 12
+  attributes (placeholder/aria-label/title): source 22 / build 22; icons: source 15 / build 15
+
+Findings: 1 (0 structural 🔴)
+Tiers: looks-same 🔴 0 · nothing-lost 🟡 0 · accepted 🟢 0 (owner 0, auto 0) · advisory 1
+  🟡 EDITABLE COUNT [footer]: build has 12 outermost editable element(s) vs 13 in the source — fewer outermost editable elements after decoration usually means authored elements were rebuilt/merged — see deploy SKILL.md § Experience Workspace editability contract (run ew-editability-probe.mjs on the build URL for the per-block verdict).

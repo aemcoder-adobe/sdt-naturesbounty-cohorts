@@ -20,3 +20,13 @@ supplied; the one entry below is a licensing constraint, not a design improvemen
   Picked by canvas string-width measurement against the live kit across 15 open candidates: −0.13 % (400),
   +0.10 % (500), +1.25 % (700) on mixed strings; page text body −1.13 %, uppercase tags +4.58 %.
   Known consequence: line-break differences (most visible at 360 px) — see progress.json types.article.residuals.
+
+## R-02 — "Where to Buy" header CTA styled differently on recipe pages
+
+- **Evidence:** header crop diff 8.08 % at 1440 on /blogs/recipes/apple-crisp: plain black text there, lime pill on
+  articles, listings and home (stardust/replica/gates/apple-crisp-1440/).
+- **Finding:** the same global header CTA renders in two styles depending on the template — an internal inconsistency
+  of one shared chrome element.
+- **Minimal change:** render the lime pill (the majority style) on every template; no other header change.
+- **Status:** applied
+- **Where:** recipe pages, header only.

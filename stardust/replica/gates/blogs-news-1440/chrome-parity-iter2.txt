@@ -1,0 +1,42 @@
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://naturesbounty.com/blogs/news (live side from cache stardust/replica/gates/blogs-news-1440/chrome-live.json, probed 2026-11-10T23:43:17.273Z — delete the file to re-probe)
+  build: http://localhost:8791/blogs-news-proposed.html
+
+■ header: 4 delta(s) — 6 paired of 6/6 texts, 5/5 icons
+  PAIR         "Products"  Δx -4px (517→513)
+  PAIR         "Health Benefits"  Δx -3px (653→650); Δw +2px (168→170)
+  PAIR         "About Us"  Δx -2px (954→952); Δw +3px (80→83)
+  PAIR         "Where to Buy"  color rgb(0, 0, 0) → rgb(39, 70, 58); backgroundColor rgba(0, 0, 0, 0) → rgb(210, 227, 143); paddingTop 10px → 18px; paddingRight 20px → 10px; paddingBottom 10px → 18px; paddingLeft 20px → 10px
+
+■ footer: 29 delta(s) — 58 paired of 58/58 texts, 7/7 icons
+  PAIR         "Follow Us"  Δw +2px (75→77)
+  PAIR         "Adult Vitamins"  Δw +2px (94→96)
+  PAIR         "Minerals"  Δw -4px (58→54)
+  PAIR         "Fish Oil & Omegas"  Δw -2px (120→118)
+  PAIR         "Men’s Health"  Δw -3px (86→83)
+  PAIR         "Brain Health"  Δw -3px (82→79)
+  PAIR         "Bone & Joint Health"  Δw +3px (126→129)
+  PAIR         "Herbal"  Δw -2px (45→43)
+  PAIR         "Urinary Tract Health"  Δw -2px (132→130)
+  PAIR         "Heart Health"  Δw -2px (85→83)
+  PAIR         "About Us"  Δw +2px (59→61)
+  PAIR         "Contact Us"  Δw +2px (72→74)
+  PAIR         "|"  Δy +2px (5111→5113); Δh -3px (25→22)
+  PAIR         "|"  Δy +2px (5111→5113); Δh -3px (25→22)
+  PAIR         "Accessibility Statement"  Δw +4px (151→155); <a> box 175×30 → 179×30
+  PAIR         "|"  Δx +5px (528→533); Δy +2px (5111→5113); Δh -3px (25→22); <a> box 175×30 → 179×30
+  PAIR         "Health Data Notice"  Δx +5px (552→557)
+  PAIR         "|"  Δx +5px (697→702); Δy +2px (5111→5113); Δh -3px (25→22)
+  PAIR         "Satisfaction Guarantee"  Δx +5px (721→726); Δw -2px (152→150); <a> box 176×30 → 174×30
+  PAIR         "|"  Δx +3px (893→896); Δy +2px (5111→5113); Δh -3px (25→22); <a> box 176×30 → 174×30
+  PAIR         "International Distributors"  Δx +4px (917→921); Δw -2px (164→162); <a> box 164×30 → 162×30
+  PAIR         "|"  Δy +4px (5109→5113); Δh -8px (30→22)
+  PAIR         "*These statements have not been evaluate"  Δy +2px (5250→5252); Δw -2px (930→928); Δh -4px (19→15)
+  PAIR         "Nature’s Bounty may make changes to prod"  Δx +5px (235→240); Δw -8px (954→946)
+  PAIR         "◊Source: Circana™ OmniMarket – Total MUL"  Δx +4px (333→337); Δw -7px (758→751)
+  PAIR         "†Compared to Nature's Bounty® Optimal So"  Δx +3px (487→490); Δw -7px (452→445)
+  PAIR         "Nature’s Bounty is a Nestlé Health Scien"  Δx +3px (133→136); Δw -6px (1158→1152)
+  PAIR         "www.nestlehealthscience.us"  Δx -7px (1131→1124); Δy +2px (5463→5465); Δw +4px (161→165); Δh -4px (19→15)
+  PAIR         "Nature's Bounty is a registered trademar"  Δx +2px (593→595); Δw -4px (239→235)
+
+✗ 33 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.
