@@ -1,0 +1,2183 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-11-10T22:17:53.446Z",
+    "stardustVersion": "0.37.2"
+  },
+  "site": {
+    "originUrl": "https://naturesbounty.com",
+    "deployUrl": null,
+    "extractedAt": "2026-11-10T22:17:53.446Z",
+    "pageCap": 0,
+    "totalDiscovered": 121,
+    "crawled": 120,
+    "captureGaps": []
+  },
+  "direction": null,
+  "handsOff": true,
+  "flow": "replica",
+  "flowChosenAt": "2026-11-10T22:17:53.446Z",
+  "flowSource": "user-phrase",
+  "pages": [
+    {
+      "slug": "index",
+      "url": "https://naturesbounty.com/",
+      "title": "Nature's Bounty Vitamins, Supplements & Minerals",
+      "type": "landing",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:10:35.076Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/index.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news",
+      "url": "https://naturesbounty.com/blogs/news",
+      "title": "Latest Health News and Articles – Nature's Bounty",
+      "type": "listing",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:10:35.073Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-recipes",
+      "url": "https://naturesbounty.com/blogs/recipes",
+      "title": "Delicious Recipes for Wellness – Nature's Bounty",
+      "type": "listing",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:10:31.087Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-recipes.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-mens-health",
+      "url": "https://naturesbounty.com/blogs/news/mens-health",
+      "title": "What Every Man Should Know About His Health – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:10:44.310Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-mens-health.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-why-magnesium-matters-more-than-ever",
+      "url": "https://naturesbounty.com/blogs/news/why-magnesium-matters-more-than-ever",
+      "title": "Why Magnesium Matters More Than Ever | Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:10:47.252Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-why-magnesium-matters-more-than-ever.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-how-to-choose-the-right-probiotic-for-daily-support",
+      "url": "https://naturesbounty.com/blogs/news/how-to-choose-the-right-probiotic-for-daily-support",
+      "title": "How to Choose the Right Probiotic for Daily Support | Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:10:47.202Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-how-to-choose-the-right-probiotic-for-daily-support.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-what-are-ceramides-and-why-they-matter-more-as-skin-ages",
+      "url": "https://naturesbounty.com/blogs/news/what-are-ceramides-and-why-they-matter-more-as-skin-ages",
+      "title": "What Are Ceramides and Why They Matter More as Skin Ages | Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:10:56.348Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-what-are-ceramides-and-why-they-matter-more-as-skin-ages.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-whipped-lavender-body-butter",
+      "url": "https://naturesbounty.com/blogs/news/whipped-lavender-body-butter",
+      "title": "Whipped Lavender Body Butter – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:10:58.891Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-whipped-lavender-body-butter.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-beauty-facts",
+      "url": "https://naturesbounty.com/blogs/news/beauty-facts",
+      "title": "Beauty Facts – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:10:58.890Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-beauty-facts.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-how-much-fish-oil-should-you-take-daily",
+      "url": "https://naturesbounty.com/blogs/news/how-much-fish-oil-should-you-take-daily",
+      "title": "How much fish oil can you take daily? – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:11:06.599Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-how-much-fish-oil-should-you-take-daily.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-the-benefits-of-biotin",
+      "url": "https://naturesbounty.com/blogs/news/the-benefits-of-biotin",
+      "title": "The Benefits of Biotin Gummies – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:11:10.421Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-the-benefits-of-biotin.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-what-women-need-to-know-about-detecting-breast-cancer-early-an-interview-with-susan-brown-m-s-r-n-at-susan-g-komen-c2-ae",
+      "url": "https://naturesbounty.com/blogs/news/what-women-need-to-know-about-detecting-breast-cancer-early-an-interview-with-susan-brown-m-s-r-n-at-susan-g-komen%C2%AE",
+      "title": "Detecting Breast Cancer Early - Tips for Women – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:11:10.415Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-what-women-need-to-know-about-detecting-breast-cancer-early-an-interview-with-susan-brown-m-s-r-n-at-susan-g-komen-c2-ae.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-women-s-health-awareness-5-ways-to-reset-your-wellness-routine",
+      "url": "https://naturesbounty.com/blogs/news/women-s-health-awareness-5-ways-to-reset-your-wellness-routine",
+      "title": "5 Ways to Reset Your Wellness Routine – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:11:17.110Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-women-s-health-awareness-5-ways-to-reset-your-wellness-routine.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-what-type-of-magnesium-supplement-is-perfect-for-me-understanding-your-options",
+      "url": "https://naturesbounty.com/blogs/news/what-type-of-magnesium-supplement-is-perfect-for-me-understanding-your-options",
+      "title": "Choosing the Right Magnesium Supplement – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:11:22.181Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-what-type-of-magnesium-supplement-is-perfect-for-me-understanding-your-options.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-the-benefits-of-prenatal-vitamins",
+      "url": "https://naturesbounty.com/blogs/news/the-benefits-of-prenatal-vitamins",
+      "title": "The Benefits of Prenatal Vitamins – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:11:20.848Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-the-benefits-of-prenatal-vitamins.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-recipes-peach-pear-and-plum-smoothie",
+      "url": "https://naturesbounty.com/blogs/recipes/peach-pear-and-plum-smoothie",
+      "title": "Peach, Pear & Plum Smoothie – Nature's Bounty",
+      "type": "recipe",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:11:26.861Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-recipes-peach-pear-and-plum-smoothie.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-hair-skin-and-beauty-hacks-every-woman-needs-to-know",
+      "url": "https://naturesbounty.com/blogs/news/hair-skin-and-beauty-hacks-every-woman-needs-to-know",
+      "title": "Hair, Skin and Beauty Hacks Every Woman Needs to Know – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:11:32.107Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-hair-skin-and-beauty-hacks-every-woman-needs-to-know.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-your-gut-may-play-a-powerful-role-in-your-well-being-our-survey-finds",
+      "url": "https://naturesbounty.com/blogs/news/your-gut-may-play-a-powerful-role-in-your-well-being-our-survey-finds",
+      "title": "How Your Gut Affects Your Well-Being – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:11:33.197Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-your-gut-may-play-a-powerful-role-in-your-well-being-our-survey-finds.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-digestive-probiotic-10",
+      "url": "https://naturesbounty.com/blogs/news/digestive-probiotic-10",
+      "title": "Digestive Probiotic 10 – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:11:36.875Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-digestive-probiotic-10.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-enhance-your-digestive-wellness-with-these-4-probiotic-supplements",
+      "url": "https://naturesbounty.com/blogs/news/enhance-your-digestive-wellness-with-these-4-probiotic-supplements",
+      "title": "4 Probiotic Supplements for Digestive Wellness – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:11:42.347Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-enhance-your-digestive-wellness-with-these-4-probiotic-supplements.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-recipes-hazelnut-coffee-smoothie",
+      "url": "https://naturesbounty.com/blogs/recipes/hazelnut-coffee-smoothie",
+      "title": "Hazelnut Coffee Smoothie – Nature's Bounty",
+      "type": "recipe",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:11:43.348Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-recipes-hazelnut-coffee-smoothie.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-5-tips-for-a-better-sleep-this-summer",
+      "url": "https://naturesbounty.com/blogs/news/5-tips-for-a-better-sleep-this-summer",
+      "title": "5 Tips For A Better Sleep This Summer – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:11:47.148Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-5-tips-for-a-better-sleep-this-summer.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-recipes-mango-berry-cloud",
+      "url": "https://naturesbounty.com/blogs/recipes/mango-berry-cloud",
+      "title": "Mango Berry Cloud – Nature's Bounty",
+      "type": "recipe",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:11:52.161Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-recipes-mango-berry-cloud.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-recipes-pina-colada-protein-shake",
+      "url": "https://naturesbounty.com/blogs/recipes/pina-colada-protein-shake",
+      "title": "Pina Colada Protein Shake – Nature's Bounty",
+      "type": "recipe",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:11:53.187Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-recipes-pina-colada-protein-shake.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-recipes-peanut-butter-and-jelly-protein-shake",
+      "url": "https://naturesbounty.com/blogs/recipes/peanut-butter-and-jelly-protein-shake",
+      "title": "Peanut Butter and Jelly Protein Shake – Nature's Bounty",
+      "type": "recipe",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:11:56.732Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-recipes-peanut-butter-and-jelly-protein-shake.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-recipes-protein-smores-bowl",
+      "url": "https://naturesbounty.com/blogs/recipes/protein-smores-bowl",
+      "title": "Protein “S’mores” Bowl – Nature's Bounty",
+      "type": "recipe",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:12:01.980Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-recipes-protein-smores-bowl.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-recipes-instant-chocolate-pancake-mix",
+      "url": "https://naturesbounty.com/blogs/recipes/instant-chocolate-pancake-mix",
+      "title": "Instant Chocolate Pancake Mix – Nature's Bounty",
+      "type": "recipe",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:12:02.982Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-recipes-instant-chocolate-pancake-mix.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-recipes-protein-french-toast",
+      "url": "https://naturesbounty.com/blogs/recipes/protein-french-toast",
+      "title": "Protein French Toast Recipe – Nature's Bounty",
+      "type": "recipe",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:12:06.605Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-recipes-protein-french-toast.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-recipes-protein-packed-pumpkin-bread",
+      "url": "https://naturesbounty.com/blogs/recipes/protein-packed-pumpkin-bread",
+      "title": "Protein Packed Pumpkin Bread – Nature's Bounty",
+      "type": "recipe",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:12:11.755Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-recipes-protein-packed-pumpkin-bread.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-recipes-vegan-chocolate-peanut-butter-vitamin-smoothie",
+      "url": "https://naturesbounty.com/blogs/recipes/vegan-chocolate-peanut-butter-vitamin-smoothie",
+      "title": "Vegan Chocolate Peanut Butter Vitamin Smoothie – Nature's Bounty",
+      "type": "recipe",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:12:12.869Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-recipes-vegan-chocolate-peanut-butter-vitamin-smoothie.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-recipes-oatmeal-cookie-shake",
+      "url": "https://naturesbounty.com/blogs/recipes/oatmeal-cookie-shake",
+      "title": "Oatmeal Cookie Shake Recipe – Nature's Bounty",
+      "type": "recipe",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:12:16.568Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-recipes-oatmeal-cookie-shake.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-recipes-red-velvet-protein-cupcakes-with-greek-yogurt-frosting",
+      "url": "https://naturesbounty.com/blogs/recipes/red-velvet-protein-cupcakes-with-greek-yogurt-frosting",
+      "title": "Red Velvet Protein Cupcakes Recipe – Nature's Bounty",
+      "type": "recipe",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:12:21.796Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-recipes-red-velvet-protein-cupcakes-with-greek-yogurt-frosting.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-the-step-by-step-guide-for-your-daily-skincare-routine",
+      "url": "https://naturesbounty.com/blogs/news/the-step-by-step-guide-for-your-daily-skincare-routine",
+      "title": "Step-by-Step Guide to Skincare Routine – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:12:22.996Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-the-step-by-step-guide-for-your-daily-skincare-routine.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-smarter-better-health-every-day",
+      "url": "https://naturesbounty.com/blogs/news/smarter-better-health-every-day",
+      "title": "Smarter Better Health Every Day – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:12:25.985Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-smarter-better-health-every-day.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-recipes-probiotic-rich-breakfast-bowl",
+      "url": "https://naturesbounty.com/blogs/recipes/probiotic-rich-breakfast-bowl",
+      "title": "Probiotic Rich Breakfast Bowl – Nature's Bounty",
+      "type": "recipe",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:12:31.319Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-recipes-probiotic-rich-breakfast-bowl.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-beauty-food-and-vitamins",
+      "url": "https://naturesbounty.com/blogs/news/beauty-food-and-vitamins",
+      "title": "Beauty Food & Vitamins – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:12:33.459Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-beauty-food-and-vitamins.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-support-a-good-night-s-rest-with-sleep3-time-release-melatonin-gummies",
+      "url": "https://naturesbounty.com/blogs/news/support-a-good-night-s-rest-with-sleep3-time-release-melatonin-gummies",
+      "title": "Support Sleep with Sleep3 Melatonin Gummies – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:12:36.532Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-support-a-good-night-s-rest-with-sleep3-time-release-melatonin-gummies.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-beauty-tips-youll-thank-us-for-later",
+      "url": "https://naturesbounty.com/blogs/news/beauty-tips-youll-thank-us-for-later",
+      "title": "Beauty Tips You'll Thank Us For Later – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:12:41.928Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-beauty-tips-youll-thank-us-for-later.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-simple-heart-healthy-steps-for-you-and-your-sweetheart",
+      "url": "https://naturesbounty.com/blogs/news/simple-heart-healthy-steps-for-you-and-your-sweetheart",
+      "title": "Simple Heart-Healthy Tips for You & Your Partner – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:12:43.796Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-simple-heart-healthy-steps-for-you-and-your-sweetheart.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-healthy-living-tips-from-dorothy-hamill",
+      "url": "https://naturesbounty.com/blogs/news/healthy-living-tips-from-dorothy-hamill",
+      "title": "Healthy Living Tips From Dorothy Hamill – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:12:47.176Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-healthy-living-tips-from-dorothy-hamill.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-your-guide-to-festival-prep",
+      "url": "https://naturesbounty.com/blogs/news/your-guide-to-festival-prep",
+      "title": "Your Guide to Festival Prep 2018 – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:12:52.259Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-your-guide-to-festival-prep.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-vitamin-b-12-rich-foods",
+      "url": "https://naturesbounty.com/blogs/news/vitamin-b-12-rich-foods",
+      "title": "Vitamin B-12 Rich Foods – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:12:54.141Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-vitamin-b-12-rich-foods.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-eye-cream",
+      "url": "https://naturesbounty.com/blogs/news/eye-cream",
+      "title": "Tips for Making DIY Eye Cream – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:12:56.664Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-eye-cream.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-5-tips-to-reset-your-beauty-routine-this-winter",
+      "url": "https://naturesbounty.com/blogs/news/5-tips-to-reset-your-beauty-routine-this-winter",
+      "title": "5 Tips to Reset Your Beauty Routine This Winter – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:13:02.123Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-5-tips-to-reset-your-beauty-routine-this-winter.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-10-tips-for-when-you-find-out-you-are-pregnant",
+      "url": "https://naturesbounty.com/blogs/news/10-tips-for-when-you-find-out-you-are-pregnant",
+      "title": "10 Tips for When You Find Out You are Pregnant – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:13:03.884Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-10-tips-for-when-you-find-out-you-are-pregnant.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-exploring-heart-health-omega-3-supplements-beyond-fish-oil",
+      "url": "https://naturesbounty.com/blogs/news/exploring-heart-health-omega-3-supplements-beyond-fish-oil",
+      "title": "Exploring Heart Health with Omega-3 – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:13:07.261Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-exploring-heart-health-omega-3-supplements-beyond-fish-oil.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-what-products-do-i-need-new-year-must-haves",
+      "url": "https://naturesbounty.com/blogs/news/what-products-do-i-need-new-year-must-haves",
+      "title": "What Products Do I Need? New Year Must-Haves – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:13:12.124Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-what-products-do-i-need-new-year-must-haves.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-staying-healthy-as-you-age-tips-to-help-you-grow-older-with-confidence",
+      "url": "https://naturesbounty.com/blogs/news/staying-healthy-as-you-age-tips-to-help-you-grow-older-with-confidence",
+      "title": "Stay Healthy as You Age: Tips & Support – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:13:14.014Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-staying-healthy-as-you-age-tips-to-help-you-grow-older-with-confidence.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-support-year-round-health-with-wellness-tips-for-every-season",
+      "url": "https://naturesbounty.com/blogs/news/support-year-round-health-with-wellness-tips-for-every-season",
+      "title": "Wellness Tips for Year-Round Health – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:13:17.376Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-support-year-round-health-with-wellness-tips-for-every-season.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-support-thicker-fuller-hair-with-our-new-supplement-for-hair-growth",
+      "url": "https://naturesbounty.com/blogs/news/support-thicker-fuller-hair-with-our-new-supplement-for-hair-growth",
+      "title": "Support Thicker, Fuller Hair with Supplements – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:13:21.475Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-support-thicker-fuller-hair-with-our-new-supplement-for-hair-growth.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-what-is-berberine-get-the-facts-behind-this-popular-supplement",
+      "url": "https://naturesbounty.com/blogs/news/what-is-berberine-get-the-facts-behind-this-popular-supplement",
+      "title": "Get the Facts Behind Berberine – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:13:23.317Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-what-is-berberine-get-the-facts-behind-this-popular-supplement.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-summer-tips-for-a-healthy-heart",
+      "url": "https://naturesbounty.com/blogs/news/summer-tips-for-a-healthy-heart",
+      "title": "Summer Tips for a Healthy Heart – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:13:27.410Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-summer-tips-for-a-healthy-heart.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-10-popular-foods-that-can-nourish-hair",
+      "url": "https://naturesbounty.com/blogs/news/10-popular-foods-that-can-nourish-hair",
+      "title": "10 Popular Foods that Can Nourish Hair – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:13:31.751Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-10-popular-foods-that-can-nourish-hair.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-recipes-quinoa-apple-cake",
+      "url": "https://naturesbounty.com/blogs/recipes/quinoa-apple-cake",
+      "title": "Quinoa Apple Cake Recipe – Nature's Bounty",
+      "type": "recipe",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:13:32.653Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-recipes-quinoa-apple-cake.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-recipes-lean-beef-burger-with-sweet-potato-fries",
+      "url": "https://naturesbounty.com/blogs/recipes/lean-beef-burger-with-sweet-potato-fries",
+      "title": "Lean-Beef Burger with Sweet Potato Fries – Nature's Bounty",
+      "type": "recipe",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:13:37.408Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-recipes-lean-beef-burger-with-sweet-potato-fries.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-top-5-holiday-self-care-tips",
+      "url": "https://naturesbounty.com/blogs/news/top-5-holiday-self-care-tips",
+      "title": "Top 5 Holiday Self-Care Tips – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:13:42.483Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-top-5-holiday-self-care-tips.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-probiotic-gummies",
+      "url": "https://naturesbounty.com/blogs/news/probiotic-gummies",
+      "title": "Nature’s Bounty® Probiotic Gummies – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:13:43.305Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-probiotic-gummies.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-trust-us-youre-always-better-off-healthy",
+      "url": "https://naturesbounty.com/blogs/news/trust-us-youre-always-better-off-healthy",
+      "title": "Trust Us, You're Always Better Off Healthy – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:13:47.022Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-trust-us-youre-always-better-off-healthy.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-help-manage-your-weight-with-metabolism-booster",
+      "url": "https://naturesbounty.com/blogs/news/help-manage-your-weight-with-metabolism-booster",
+      "title": "Help Manage Your Weight With Metabolism Booster* – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:13:53.013Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-help-manage-your-weight-with-metabolism-booster.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-womens-multivitamin-more-than-just-a-great-taste",
+      "url": "https://naturesbounty.com/blogs/news/womens-multivitamin-more-than-just-a-great-taste",
+      "title": "Women's Multivitamin - More Than Just A Great Taste – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:13:53.014Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-womens-multivitamin-more-than-just-a-great-taste.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-recipes-crab-stuffed-salmon-with-honey-agave-glaze",
+      "url": "https://naturesbounty.com/blogs/recipes/crab-stuffed-salmon-with-honey-agave-glaze",
+      "title": "Crab Stuffed Salmon with Honey Agave Glaze – Nature's Bounty",
+      "type": "recipe",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:13:56.747Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-recipes-crab-stuffed-salmon-with-honey-agave-glaze.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-helpful-tips-to-reduce-stress-this-spring",
+      "url": "https://naturesbounty.com/blogs/news/helpful-tips-to-reduce-stress-this-spring",
+      "title": "Helpful Tips to Reduce Stress this Spring – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:14:03.009Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-helpful-tips-to-reduce-stress-this-spring.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-over-40-years-of-trusted-quality",
+      "url": "https://naturesbounty.com/blogs/news/over-40-years-of-trusted-quality",
+      "title": "Over 40 Years of Trusted Quality – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:14:02.162Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-over-40-years-of-trusted-quality.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-probiotics-for-everyday-health",
+      "url": "https://naturesbounty.com/blogs/news/probiotics-for-everyday-health",
+      "title": "Probiotics for Everyday Health – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:14:07.466Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-probiotics-for-everyday-health.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-what-are-probiotics",
+      "url": "https://naturesbounty.com/blogs/news/what-are-probiotics",
+      "title": "What Are Probiotics? Learn More – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:14:12.509Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-what-are-probiotics.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-recipes-quinoa-avocado-and-black-bean-salad",
+      "url": "https://naturesbounty.com/blogs/recipes/quinoa-avocado-and-black-bean-salad",
+      "title": "Quinoa, Avocado & Black Bean Salad – Nature's Bounty",
+      "type": "recipe",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:14:13.382Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-recipes-quinoa-avocado-and-black-bean-salad.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-q-a-2-key-steps-in-reducing-abdominal-fat-a-conversation-with-nutrition-expert-maile-combs-ms",
+      "url": "https://naturesbounty.com/blogs/news/q-a-2-key-steps-in-reducing-abdominal-fat-a-conversation-with-nutrition-expert-maile-combs-ms",
+      "title": "Reducing Abdominal Fat: Tips from Experts – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:14:17.210Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-q-a-2-key-steps-in-reducing-abdominal-fat-a-conversation-with-nutrition-expert-maile-combs-ms.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-feel-full-again-the-science-behind-hair-growth-with-nutrition-expert-jaclyn-safrath",
+      "url": "https://naturesbounty.com/blogs/news/feel-full-again-the-science-behind-hair-growth-with-nutrition-expert-jaclyn-safrath",
+      "title": "The Science Behind Hair Growth Q&A – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:14:23.427Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-feel-full-again-the-science-behind-hair-growth-with-nutrition-expert-jaclyn-safrath.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-build-beauty-from-within-your-2024-vitamin-routine",
+      "url": "https://naturesbounty.com/blogs/news/build-beauty-from-within-your-2024-vitamin-routine",
+      "title": "Build Beauty from Within*—Your 2024 Vitamin Routine – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:14:22.761Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-build-beauty-from-within-your-2024-vitamin-routine.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-recipes-heart-friendly-kettle-popcorn",
+      "url": "https://naturesbounty.com/blogs/recipes/heart-friendly-kettle-popcorn",
+      "title": "Heart Friendly Kettle Popcorn – Nature's Bounty",
+      "type": "recipe",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:14:27.106Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-recipes-heart-friendly-kettle-popcorn.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-healthy-summer-travel-tips",
+      "url": "https://naturesbounty.com/blogs/news/healthy-summer-travel-tips",
+      "title": "Healthy Summer Travel Tips – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:14:32.440Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-healthy-summer-travel-tips.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-fall-into-an-active-autumn",
+      "url": "https://naturesbounty.com/blogs/news/fall-into-an-active-autumn",
+      "title": "Fall Into an Active Autumn – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:14:33.530Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-fall-into-an-active-autumn.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-recipes-healthy-snacks",
+      "url": "https://naturesbounty.com/blogs/recipes/healthy-snacks",
+      "title": "5 Homemade Healthy Snacks – Nature's Bounty",
+      "type": "recipe",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:14:36.492Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-recipes-healthy-snacks.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-celebrate-women-s-history-month-with-the-inspiring-women-at-nature-s-bounty-c2-ae",
+      "url": "https://naturesbounty.com/blogs/news/celebrate-women-s-history-month-with-the-inspiring-women-at-nature-s-bounty%C2%AE",
+      "title": "Celebrate Women’s History Month with Nature's Bounty | Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:14:43.542Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-celebrate-women-s-history-month-with-the-inspiring-women-at-nature-s-bounty-c2-ae.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-the-top-10-reasons-to-exercise-regularly",
+      "url": "https://naturesbounty.com/blogs/news/the-top-10-reasons-to-exercise-regularly",
+      "title": "The Top 10 Reasons to Exercise Regularly – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:14:43.541Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-the-top-10-reasons-to-exercise-regularly.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-importance-of-sleep",
+      "url": "https://naturesbounty.com/blogs/news/importance-of-sleep",
+      "title": "Importance of Sleep for Wellness – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:14:46.617Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-importance-of-sleep.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-surprising-benefits-of-probiotics",
+      "url": "https://naturesbounty.com/blogs/news/surprising-benefits-of-probiotics",
+      "title": "Surprising Benefits of Probiotics – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:14:52.858Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-surprising-benefits-of-probiotics.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-gut-check-exploring-the-power-of-probiotics-with-nature-s-bounty-c2-ae",
+      "url": "https://naturesbounty.com/blogs/news/gut-check-exploring-the-power-of-probiotics-with-nature-s-bounty%C2%AE",
+      "title": "Explore the Power of Probiotics – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:14:53.942Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-gut-check-exploring-the-power-of-probiotics-with-nature-s-bounty-c2-ae.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-tips-for-healthy-digestion-and-quality-sleep",
+      "url": "https://naturesbounty.com/blogs/news/tips-for-healthy-digestion-and-quality-sleep",
+      "title": "Tips for Healthy Digestion and Quality Sleep – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:14:55.957Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-tips-for-healthy-digestion-and-quality-sleep.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-the-kroger-wellness-festival-is-back-september-22-23-2023",
+      "url": "https://naturesbounty.com/blogs/news/the-kroger-wellness-festival-is-back-september-22-23-2023",
+      "title": "The Kroger Wellness Festival is Back: September 22-23, 2023! – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:15:02.843Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-the-kroger-wellness-festival-is-back-september-22-23-2023.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-support-immune-health-during-back-to-school-season-tips-for-the-whole-family",
+      "url": "https://naturesbounty.com/blogs/news/support-immune-health-during-back-to-school-season-tips-for-the-whole-family",
+      "title": "Support Immune Health During Back-to-School Season: Tips for the Whole – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:15:03.885Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-support-immune-health-during-back-to-school-season-tips-for-the-whole-family.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-partnering-with-susan-g-komen-to-end-breast-cancer-forever",
+      "url": "https://naturesbounty.com/blogs/news/partnering-with-susan-g-komen-to-end-breast-cancer-forever",
+      "title": "Partnering with Susan G. Komen to End Breast Cancer Forever – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:15:06.911Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-partnering-with-susan-g-komen-to-end-breast-cancer-forever.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-quick-fix-beauty-tips",
+      "url": "https://naturesbounty.com/blogs/news/quick-fix-beauty-tips",
+      "title": "Quick Fix Beauty Tips – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:15:13.076Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-quick-fix-beauty-tips.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-make-better-food-swaps-this-season",
+      "url": "https://naturesbounty.com/blogs/news/make-better-food-swaps-this-season",
+      "title": "Make Better Food Swaps This Season – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:15:13.967Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-make-better-food-swaps-this-season.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-heart-health",
+      "url": "https://naturesbounty.com/blogs/news/heart-health",
+      "title": "Heart Health – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:15:16.716Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-heart-health.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-5-reasons-to-try-tropical-citrus-hair-skin-and-nails-gummies",
+      "url": "https://naturesbounty.com/blogs/news/5-reasons-to-try-tropical-citrus-hair-skin-and-nails-gummies",
+      "title": "5 Reasons to Try Tropical Citrus Hair Skin & Nails Gummies – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:15:23.010Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-5-reasons-to-try-tropical-citrus-hair-skin-and-nails-gummies.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-recipes-grilled-chicken-with-strawberry-and-pineapple-salsa",
+      "url": "https://naturesbounty.com/blogs/recipes/grilled-chicken-with-strawberry-and-pineapple-salsa",
+      "title": "Grilled Chicken with Strawberry and Pineapple Salsa – Nature's Bounty",
+      "type": "recipe",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:15:23.729Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-recipes-grilled-chicken-with-strawberry-and-pineapple-salsa.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-recipes-green-smoothie-your-daily-dose-of-greens",
+      "url": "https://naturesbounty.com/blogs/recipes/green-smoothie-your-daily-dose-of-greens",
+      "title": "Green Smoothie - Your Daily Dose of Greens! – Nature's Bounty",
+      "type": "recipe",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:15:26.372Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-recipes-green-smoothie-your-daily-dose-of-greens.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-recipes-golden-milk-recipe-with-turmeric",
+      "url": "https://naturesbounty.com/blogs/recipes/golden-milk-recipe-with-turmeric",
+      "title": "Golden Milk Recipe with Turmeric – Nature's Bounty",
+      "type": "recipe",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:15:32.546Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-recipes-golden-milk-recipe-with-turmeric.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-recipes-frozen-greek-yogurt-sundae",
+      "url": "https://naturesbounty.com/blogs/recipes/frozen-greek-yogurt-sundae",
+      "title": "Frozen Greek Yogurt Sundae – Nature's Bounty",
+      "type": "recipe",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:15:33.430Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-recipes-frozen-greek-yogurt-sundae.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-recipes-delicious-bedtime-smoothie",
+      "url": "https://naturesbounty.com/blogs/recipes/delicious-bedtime-smoothie",
+      "title": "Delicious Bedtime Smoothie – Nature's Bounty",
+      "type": "recipe",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:15:36.088Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-recipes-delicious-bedtime-smoothie.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-recipes-date-night-frappe",
+      "url": "https://naturesbounty.com/blogs/recipes/date-night-frappe",
+      "title": "Date Night Frappe – Nature's Bounty",
+      "type": "recipe",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:15:41.935Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-recipes-date-night-frappe.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-recipes-crustless-cranberry-pie-recipe",
+      "url": "https://naturesbounty.com/blogs/recipes/crustless-cranberry-pie-recipe",
+      "title": "Crustless Cranberry Pie Recipe – Nature's Bounty",
+      "type": "recipe",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:15:42.851Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-recipes-crustless-cranberry-pie-recipe.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-recipes-creamy-spinach-artichoke-dip",
+      "url": "https://naturesbounty.com/blogs/recipes/creamy-spinach-artichoke-dip",
+      "title": "Creamy Spinach Artichoke Dip – Nature's Bounty",
+      "type": "recipe",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:15:45.829Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-recipes-creamy-spinach-artichoke-dip.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-recipes-chocolate-tropical-paradise",
+      "url": "https://naturesbounty.com/blogs/recipes/chocolate-tropical-paradise",
+      "title": "Chocolate Tropical Paradise – Nature's Bounty",
+      "type": "recipe",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:15:51.303Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-recipes-chocolate-tropical-paradise.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-recipes-chocolate-pudding",
+      "url": "https://naturesbounty.com/blogs/recipes/chocolate-pudding",
+      "title": "Chocolate Pudding – Nature's Bounty",
+      "type": "recipe",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:15:52.312Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-recipes-chocolate-pudding.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-recipes-chocolate-peanut-butter-protein-oats",
+      "url": "https://naturesbounty.com/blogs/recipes/chocolate-peanut-butter-protein-oats",
+      "title": "Chocolate Peanut Butter Protein Oats – Nature's Bounty",
+      "type": "recipe",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:15:55.400Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-recipes-chocolate-peanut-butter-protein-oats.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-recipes-chocolate-peaches",
+      "url": "https://naturesbounty.com/blogs/recipes/chocolate-peaches",
+      "title": "Chocolate Peaches – Nature's Bounty",
+      "type": "recipe",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:16:00.511Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-recipes-chocolate-peaches.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-recipes-chocolate-no-bake-cheesecake",
+      "url": "https://naturesbounty.com/blogs/recipes/chocolate-no-bake-cheesecake",
+      "title": "Chocolate No-Bake Cheesecake – Nature's Bounty",
+      "type": "recipe",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:16:01.593Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-recipes-chocolate-no-bake-cheesecake.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-recipes-chocolate-milkshake",
+      "url": "https://naturesbounty.com/blogs/recipes/chocolate-milkshake",
+      "title": "Chocolate Milkshake – Nature's Bounty",
+      "type": "recipe",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:16:05.700Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-recipes-chocolate-milkshake.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-recipes-chocolate-lava-muffins",
+      "url": "https://naturesbounty.com/blogs/recipes/chocolate-lava-muffins",
+      "title": "Chocolate Lava Muffins – Nature's Bounty",
+      "type": "recipe",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:16:11.754Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-recipes-chocolate-lava-muffins.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-recipes-chocolate-covered-cherry-shake",
+      "url": "https://naturesbounty.com/blogs/recipes/chocolate-covered-cherry-shake",
+      "title": "Chocolate Covered Cherry Shake – Nature's Bounty",
+      "type": "recipe",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:16:10.900Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-recipes-chocolate-covered-cherry-shake.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-recipes-chocolate-coconut-energy-balls-with-turmeric",
+      "url": "https://naturesbounty.com/blogs/recipes/chocolate-coconut-energy-balls-with-turmeric",
+      "title": "Chocolate Coconut Energy Balls with Turmeric – Nature's Bounty",
+      "type": "recipe",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:16:15.669Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-recipes-chocolate-coconut-energy-balls-with-turmeric.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-recipes-breakfast-smoothie",
+      "url": "https://naturesbounty.com/blogs/recipes/breakfast-smoothie",
+      "title": "Breakfast Smoothie – Nature's Bounty",
+      "type": "recipe",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:16:21.619Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-recipes-breakfast-smoothie.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-recipes-blueberry-pancakes",
+      "url": "https://naturesbounty.com/blogs/recipes/blueberry-pancakes",
+      "title": "Blueberry Pancakes – Nature's Bounty",
+      "type": "recipe",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:16:22.803Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-recipes-blueberry-pancakes.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-recipes-banana-walnut-protein-pancakes",
+      "url": "https://naturesbounty.com/blogs/recipes/banana-walnut-protein-pancakes",
+      "title": "Banana Walnut Protein Pancakes – Nature's Bounty",
+      "type": "recipe",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:16:26.216Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-recipes-banana-walnut-protein-pancakes.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-recipes-apple-crisp",
+      "url": "https://naturesbounty.com/blogs/recipes/apple-crisp",
+      "title": "Apple Crisp – Nature's Bounty",
+      "type": "recipe",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:16:31.691Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-recipes-apple-crisp.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-your-go-to-guide-for-festival-ready-hair",
+      "url": "https://naturesbounty.com/blogs/news/your-go-to-guide-for-festival-ready-hair",
+      "title": "Your Go-To Guide for Festival Ready Hair – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:16:33.648Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-your-go-to-guide-for-festival-ready-hair.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-supplement-your-beauty-routine-with-hair-skin-nails",
+      "url": "https://naturesbounty.com/blogs/news/supplement-your-beauty-routine-with-hair-skin-nails",
+      "title": "Supplement Your Beauty Routine with Hair Skin Nails – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:16:36.733Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-supplement-your-beauty-routine-with-hair-skin-nails.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-refresh-your-beauty-routine-this-spring",
+      "url": "https://naturesbounty.com/blogs/news/refresh-your-beauty-routine-this-spring",
+      "title": "Refresh Your Beauty Routine This Spring – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:16:42.422Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-refresh-your-beauty-routine-this-spring.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-one-week-makeup-detox",
+      "url": "https://naturesbounty.com/blogs/news/one-week-makeup-detox",
+      "title": "One Week Makeup Detox – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:16:43.420Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-one-week-makeup-detox.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-natures-bounty-optimal-solutions-wanderlust",
+      "url": "https://naturesbounty.com/blogs/news/natures-bounty-optimal-solutions-wanderlust",
+      "title": "Mirror, Mirror, On The Wall…You’re The Most Beautiful Of All! – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:16:46.796Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-natures-bounty-optimal-solutions-wanderlust.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-how-much-sleep-do-you-really-need",
+      "url": "https://naturesbounty.com/blogs/news/how-much-sleep-do-you-really-need",
+      "title": "How Much Sleep Do You Really Need? – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:16:52.668Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-how-much-sleep-do-you-really-need.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-hot-looks-for-summer-2018",
+      "url": "https://naturesbounty.com/blogs/news/hot-looks-for-summer-2018",
+      "title": "Hot Looks for Summer 2018 – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:16:54.061Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-hot-looks-for-summer-2018.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-hot-hairstyles-to-try-this-fall",
+      "url": "https://naturesbounty.com/blogs/news/hot-hairstyles-to-try-this-fall",
+      "title": "Hot Hairstyles to Try this Fall – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:16:57.705Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-hot-hairstyles-to-try-this-fall.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-healthy-holiday-hacks",
+      "url": "https://naturesbounty.com/blogs/news/healthy-holiday-hacks",
+      "title": "Healthy Holiday Hacks – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:17:04.064Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-healthy-holiday-hacks.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-easy-hairstyles",
+      "url": "https://naturesbounty.com/blogs/news/easy-hairstyles",
+      "title": "Easy Hairstyles – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:17:06.291Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-easy-hairstyles.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-digest-these-healthy-eating-habits",
+      "url": "https://naturesbounty.com/blogs/news/digest-these-healthy-eating-habits",
+      "title": "Digest These Healthy Eating Habits – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:17:09.313Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-digest-these-healthy-eating-habits.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-benefits-of-fish-oil",
+      "url": "https://naturesbounty.com/blogs/news/benefits-of-fish-oil",
+      "title": "Benefits of Fish Oil – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:17:14.409Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-benefits-of-fish-oil.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "blogs-news-give-your-hair-skin-and-nails-a-healthy-foundation-to-shine",
+      "url": "https://naturesbounty.com/blogs/news/give-your-hair-skin-and-nails-a-healthy-foundation-to-shine",
+      "title": "Give Your Hair Skin and Nails a Healthy Foundation to Shine – Nature's Bounty",
+      "type": "article",
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-10T22:17:17.534Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blogs-news-give-your-hair-skin-and-nails-a-healthy-foundation-to-shine.json",
+      "prototypePath": null,
+      "migratedPath": null
+    }
+  ]
+}

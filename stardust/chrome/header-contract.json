@@ -1,0 +1,312 @@
+{
+ "tool": "chrome-explore",
+ "url": "https://naturesbounty.com/",
+ "at": "2026-11-10T22:35:43.686Z",
+ "shots": "stardust/.work/chrome/header-contract",
+ "widths": {
+  "360": {
+   "root": "#shopify-section-header>div>div:nth-of-type(1)>header",
+   "controls": [
+    {
+     "name": "",
+     "key": "",
+     "role": "link",
+     "kind": "link",
+     "sel": "#shopify-section-header>div>div:nth-of-type(1)>header>a",
+     "href": "https://naturesbounty.com/",
+     "expanded": null,
+     "rect": [
+      20,
+      52,
+      200,
+      32
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Drawer Open Button",
+     "key": "drawer open button",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#shopify-section-header>div>div:nth-of-type(1)>header>div:nth-of-type(2)>button",
+     "expanded": null,
+     "rect": [
+      285,
+      48,
+      40,
+      40
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Shop Our Favorite Products",
+          "href": "https://naturesbounty.com/collections/favorites"
+         },
+         {
+          "text": "Where to Buy",
+          "href": "https://naturesbounty.com/pages/store-locator"
+         },
+         {
+          "text": "About Us",
+          "href": "https://naturesbounty.com/pages/about-us"
+         },
+         {
+          "text": "Facebook Link",
+          "href": "https://www.facebook.com/NaturesBounty/"
+         },
+         {
+          "text": "Twitter Link",
+          "href": "https://twitter.com/naturesbounty"
+         },
+         {
+          "text": "Youtube Link",
+          "href": "https://www.youtube.com/user/NaturesBountyHealth"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "search"
+        ],
+        "buttons": [
+         "Drawer Close Button",
+         "Products",
+         "Health Benefits",
+         "Learn",
+         "Search"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         0,
+         360,
+         764
+        ]
+       },
+       "expanded": null,
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.header-drawer"
+        }
+       ],
+       "shot": "360-001-Drawer-Open-Button-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Where to Buy",
+          "href": "https://naturesbounty.com/pages/store-locator"
+         },
+         {
+          "text": "About Us",
+          "href": "https://naturesbounty.com/pages/about-us"
+         },
+         {
+          "text": "Facebook Link",
+          "href": "https://www.facebook.com/NaturesBounty/"
+         },
+         {
+          "text": "Twitter Link",
+          "href": "https://twitter.com/naturesbounty"
+         },
+         {
+          "text": "Youtube Link",
+          "href": "https://www.youtube.com/user/NaturesBountyHealth"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "search"
+        ],
+        "buttons": [
+         "Drawer Close Button",
+         "Products",
+         "Health Benefits",
+         "Learn",
+         "Search"
+        ],
+        "options": 0,
+        "rect": [
+         35,
+         24,
+         311,
+         740
+        ]
+       },
+       "expanded": null,
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.header-drawer"
+        }
+       ],
+       "shot": "360-002-Drawer-Open-Button-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false
+     }
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 32,
+     "height": 72,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": 32,
+     "height": 72,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": 32,
+     "height": 72,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 32,
+     "height": 72,
+     "position": "sticky",
+     "inView": true
+    }
+   ],
+   "states": 2,
+   "truncated": "request-budget",
+   "loads": 4,
+   "requests": 938,
+   "maxRequests": 600,
+   "inputsSkipped": 0
+  },
+  "1440": {
+   "root": "#shopify-section-header>div>div:nth-of-type(1)>header",
+   "controls": [
+    {
+     "name": "",
+     "key": "",
+     "role": "link",
+     "kind": "link",
+     "sel": "#shopify-section-header>div>div:nth-of-type(1)>header>a",
+     "href": "https://naturesbounty.com/",
+     "expanded": null,
+     "rect": [
+      93,
+      52,
+      200,
+      32
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 1,
+       "panel": {
+        "links": [
+         {
+          "text": "Grow Thicker, Fuller Hair in 3 Months*",
+          "href": "https://naturesbounty.com/pages/hair-growth"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         0,
+         1440,
+         32
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-001-link-hover.png"
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": false,
+      "outside": true
+     }
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 32,
+     "height": 72,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": 32,
+     "height": 72,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": 32,
+     "height": 72,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 32,
+     "height": 72,
+     "position": "sticky",
+     "inView": true
+    }
+   ],
+   "states": 1,
+   "truncated": "request-budget",
+   "loads": 3,
+   "requests": 699,
+   "maxRequests": 600,
+   "inputsSkipped": 0
+  }
+ },
+ "probe": null
+}

@@ -11,3 +11,5 @@ helix-importer-ui
 # Ensure these files are tracked
 !CLAUDE.md
 !AGENTS.md
+# Replica runner writes the DA token to .env; keep it out of checkpoints.
+.env

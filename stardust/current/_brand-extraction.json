@@ -1,0 +1,1198 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-11-10T22:31:30.533Z",
+    "sources": [
+      "stardust/current/_computed-styles.json"
+    ]
+  },
+  "origins": [
+    {
+      "origin": "https://naturesbounty.com",
+      "role": "primary",
+      "pages": 120
+    }
+  ],
+  "logo": {
+    "file": "stardust/current/assets/logo.svg",
+    "source": "img.header--logo",
+    "url": "https://naturesbounty.com/cdn/shop/files/NB-logo-dark-green.svg"
+  },
+  "favicon": {
+    "file": "stardust/current/assets/favicon.png"
+  },
+  "palette": [
+    {
+      "hex": "#27463a",
+      "roles": [
+        "background"
+      ],
+      "weight": 2844,
+      "sources": [
+        {
+          "url": "https://naturesbounty.com/",
+          "selector": "#shopify-section-banner_slider > section",
+          "prop": "background"
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/recipes",
+          "selector": "#shopify-section-banner_slider > section",
+          "prop": "background"
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/news",
+          "selector": "#shopify-section-banner_slider > section",
+          "prop": "background"
+        }
+      ]
+    },
+    {
+      "hex": "#000000",
+      "roles": [
+        "accent",
+        "heading"
+      ],
+      "weight": 1890,
+      "sources": [
+        {
+          "url": "https://naturesbounty.com/",
+          "selector": "div > div > div:nth-of-type(2) > div:nth-of-type(1) > div > div > div:nth-of-type(2) > a:nth-of-type(1)",
+          "prop": "text"
+        },
+        {
+          "url": "https://naturesbounty.com/",
+          "selector": "#MainContent > div:nth-of-type(3) > section > tabbed-products > div:nth-of-type(1)",
+          "prop": "text"
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/news/your-gut-may-play-a-powerful-role-in-your-well-being-our-survey-finds",
+          "selector": "div > div > div:nth-of-type(2) > div:nth-of-type(1) > div > div > div:nth-of-type(2) > a:nth-of-type(1)",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "hex": "#ffffff",
+      "roles": [
+        "surface",
+        "text"
+      ],
+      "weight": 1529,
+      "sources": [
+        {
+          "url": "https://naturesbounty.com/",
+          "selector": "#shopify-section-banner_slider > section > div > div > div > div > a:nth-of-type(3)",
+          "prop": "text"
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/news",
+          "selector": "#shopify-section-banner_slider > section > div > div > div > div > a:nth-of-type(3)",
+          "prop": "text"
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/news/eye-cream",
+          "selector": "#shopify-section-banner_slider > section > div > div > div > div > a:nth-of-type(3)",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "hex": "#e5e5e5",
+      "roles": [
+        "border"
+      ],
+      "weight": 917,
+      "sources": [
+        {
+          "url": "https://naturesbounty.com/",
+          "selector": "header > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1) > button",
+          "prop": "border"
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/news",
+          "selector": "header > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1) > button",
+          "prop": "border"
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/news/eye-cream",
+          "selector": "header > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1) > button",
+          "prop": "border"
+        }
+      ]
+    },
+    {
+      "hex": "#d2e38f",
+      "roles": [
+        "primary"
+      ],
+      "weight": 623,
+      "sources": [
+        {
+          "url": "https://naturesbounty.com/",
+          "selector": "header > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(1) > a",
+          "prop": "background"
+        },
+        {
+          "url": "https://naturesbounty.com/",
+          "selector": "header > div:nth-of-type(1) > div:nth-of-type(5) > a",
+          "prop": "background"
+        },
+        {
+          "url": "https://naturesbounty.com/",
+          "selector": "header > div:nth-of-type(1) > div:nth-of-type(5) > a",
+          "prop": "border"
+        }
+      ]
+    },
+    {
+      "hex": "#777777",
+      "roles": [
+        "secondary"
+      ],
+      "weight": 41,
+      "sources": [
+        {
+          "url": "https://naturesbounty.com/blogs/news/eye-cream",
+          "selector": "div > section > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(3) > a:nth-of-type(5)",
+          "prop": "background"
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/news/mens-health",
+          "selector": "div > section > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(3) > a:nth-of-type(5)",
+          "prop": "background"
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/news/supplement-your-beauty-routine-with-hair-skin-nails",
+          "selector": "div > section > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(3) > a:nth-of-type(5)",
+          "prop": "background"
+        }
+      ]
+    },
+    {
+      "hex": "#34773f",
+      "roles": [],
+      "weight": 873,
+      "sources": [
+        {
+          "url": "https://naturesbounty.com/blogs/news",
+          "selector": "#MainContent > div > section > div:nth-of-type(1) > div > div:nth-of-type(2) > a:nth-of-type(1)",
+          "prop": "text"
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/news/your-gut-may-play-a-powerful-role-in-your-well-being-our-survey-finds",
+          "selector": "div:nth-of-type(3) > div > div > div:nth-of-type(2) > div:nth-of-type(1) > div > a > div",
+          "prop": "text"
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/news/trust-us-youre-always-better-off-healthy",
+          "selector": "div:nth-of-type(3) > div > div > div:nth-of-type(2) > div:nth-of-type(1) > div > a > div",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "hex": "#5a7d54",
+      "roles": [],
+      "weight": 728,
+      "sources": [
+        {
+          "url": "https://naturesbounty.com/",
+          "selector": "div > div:nth-of-type(2) > div:nth-of-type(1) > div > div > div:nth-of-type(2) > div:nth-of-type(1) > button",
+          "prop": "button-text"
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/news",
+          "selector": "div > div:nth-of-type(2) > div:nth-of-type(1) > div > div > div:nth-of-type(2) > div:nth-of-type(1) > button",
+          "prop": "button-text"
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/news/eye-cream",
+          "selector": "div > div:nth-of-type(2) > div:nth-of-type(1) > div > div > div:nth-of-type(2) > div:nth-of-type(1) > button",
+          "prop": "button-text"
+        }
+      ]
+    },
+    {
+      "hex": "#b5d7a8",
+      "roles": [],
+      "weight": 210,
+      "sources": [
+        {
+          "url": "https://naturesbounty.com/",
+          "selector": "header > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1) > button",
+          "prop": "text"
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/news",
+          "selector": "header > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1) > button",
+          "prop": "text"
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/news/eye-cream",
+          "selector": "header > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1) > button",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "hex": "#ffffff33",
+      "roles": [],
+      "weight": 156,
+      "sources": [
+        {
+          "url": "https://naturesbounty.com/",
+          "selector": "footer > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1)",
+          "prop": "border"
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/news",
+          "selector": "footer > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1)",
+          "prop": "border"
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/news/eye-cream",
+          "selector": "footer > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1)",
+          "prop": "border"
+        }
+      ]
+    },
+    {
+      "hex": "#00000033",
+      "roles": [],
+      "weight": 74,
+      "sources": [
+        {
+          "url": "https://naturesbounty.com/",
+          "selector": "div:nth-of-type(3) > section > tabbed-products > div:nth-of-type(3) > div > div:nth-of-type(1) > div > a",
+          "prop": "border"
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/news/supplement-your-beauty-routine-with-hair-skin-nails",
+          "selector": "#MainContent > div > section > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1)",
+          "prop": "border"
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/news/supplement-your-beauty-routine-with-hair-skin-nails",
+          "selector": "#MainContent > div > section > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div",
+          "prop": "border"
+        }
+      ]
+    },
+    {
+      "hex": "#0077b5",
+      "roles": [],
+      "weight": 40,
+      "sources": [
+        {
+          "url": "https://naturesbounty.com/blogs/news/eye-cream",
+          "selector": "div > section > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(3) > a:nth-of-type(4)",
+          "prop": "background"
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/news/mens-health",
+          "selector": "div > section > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(3) > a:nth-of-type(4)",
+          "prop": "background"
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/news/supplement-your-beauty-routine-with-hair-skin-nails",
+          "selector": "div > section > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(3) > a:nth-of-type(4)",
+          "prop": "background"
+        }
+      ]
+    },
+    {
+      "hex": "#3b5998",
+      "roles": [],
+      "weight": 40,
+      "sources": [
+        {
+          "url": "https://naturesbounty.com/blogs/news/eye-cream",
+          "selector": "div > section > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(3) > a:nth-of-type(1)",
+          "prop": "background"
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/news/mens-health",
+          "selector": "div > section > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(3) > a:nth-of-type(1)",
+          "prop": "background"
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/news/supplement-your-beauty-routine-with-hair-skin-nails",
+          "selector": "div > section > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(3) > a:nth-of-type(1)",
+          "prop": "background"
+        }
+      ]
+    },
+    {
+      "hex": "#55acee",
+      "roles": [],
+      "weight": 40,
+      "sources": [
+        {
+          "url": "https://naturesbounty.com/blogs/news/eye-cream",
+          "selector": "div > section > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(3) > a:nth-of-type(2)",
+          "prop": "background"
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/news/mens-health",
+          "selector": "div > section > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(3) > a:nth-of-type(2)",
+          "prop": "background"
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/news/supplement-your-beauty-routine-with-hair-skin-nails",
+          "selector": "div > section > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(3) > a:nth-of-type(2)",
+          "prop": "background"
+        }
+      ]
+    },
+    {
+      "hex": "#bd081c",
+      "roles": [],
+      "weight": 40,
+      "sources": [
+        {
+          "url": "https://naturesbounty.com/blogs/news/eye-cream",
+          "selector": "div > section > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(3) > a:nth-of-type(3)",
+          "prop": "background"
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/news/mens-health",
+          "selector": "div > section > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(3) > a:nth-of-type(3)",
+          "prop": "background"
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/news/supplement-your-beauty-routine-with-hair-skin-nails",
+          "selector": "div > section > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(3) > a:nth-of-type(3)",
+          "prop": "background"
+        }
+      ]
+    },
+    {
+      "hex": "#67893c",
+      "roles": [],
+      "weight": 32,
+      "sources": [
+        {
+          "url": "https://naturesbounty.com/",
+          "selector": "div > div > div:nth-of-type(2) > div > article > div:nth-of-type(1) > h3:nth-of-type(2) > strong",
+          "prop": "text"
+        },
+        {
+          "url": "https://naturesbounty.com/",
+          "selector": "#MainContent > div:nth-of-type(7) > section > div:nth-of-type(1) > div > div > div:nth-of-type(3) > a:nth-of-type(1)",
+          "prop": "link"
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/recipes",
+          "selector": "#MainContent > div:nth-of-type(3) > div > div > div:nth-of-type(1) > a:nth-of-type(2) > div",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "hex": "#7fa76e",
+      "roles": [],
+      "weight": 26,
+      "sources": [
+        {
+          "url": "https://naturesbounty.com/",
+          "selector": "#shopify-section-content_banner > section > div",
+          "prop": "background"
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/news",
+          "selector": "#shopify-section-content_banner > section > div",
+          "prop": "background"
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/news/eye-cream",
+          "selector": "#shopify-section-content_banner > section > div",
+          "prop": "background"
+        }
+      ]
+    },
+    {
+      "hex": "#615417",
+      "roles": [],
+      "weight": 20,
+      "sources": [
+        {
+          "url": "https://naturesbounty.com/blogs/news/eye-cream",
+          "selector": "#MainContent > div > section > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(1)",
+          "prop": "text"
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/news/mens-health",
+          "selector": "#MainContent > div > section > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(1)",
+          "prop": "text"
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/news/supplement-your-beauty-routine-with-hair-skin-nails",
+          "selector": "#MainContent > div > section > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(1)",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "hex": "#85b336",
+      "roles": [],
+      "weight": 15,
+      "sources": [
+        {
+          "url": "https://naturesbounty.com/",
+          "selector": "header > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(4)",
+          "prop": "background"
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/news",
+          "selector": "header > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(4)",
+          "prop": "background"
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/news/eye-cream",
+          "selector": "header > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(4)",
+          "prop": "background"
+        }
+      ]
+    },
+    {
+      "hex": "#131313",
+      "roles": [],
+      "weight": 14,
+      "sources": [
+        {
+          "url": "https://naturesbounty.com/",
+          "selector": "#MainContent > div:nth-of-type(2) > div > section > div > div:nth-of-type(2) > a > span",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "hex": "#e2f2bf",
+      "roles": [],
+      "weight": 12,
+      "sources": [
+        {
+          "url": "https://naturesbounty.com/blogs/news/eye-cream",
+          "selector": "#MainContent > div > section > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1)",
+          "prop": "background"
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/news/mens-health",
+          "selector": "#MainContent > div > section > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(1)",
+          "prop": "background"
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/news/supplement-your-beauty-routine-with-hair-skin-nails",
+          "selector": "#MainContent > div > section > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1)",
+          "prop": "background"
+        }
+      ]
+    },
+    {
+      "hex": "#f8f2eb",
+      "roles": [],
+      "weight": 7,
+      "sources": [
+        {
+          "url": "https://naturesbounty.com/",
+          "selector": "#MainContent > div:nth-of-type(2) > div",
+          "prop": "background"
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/news",
+          "selector": "#MainContent > div > section > div:nth-of-type(1)",
+          "prop": "background"
+        }
+      ]
+    },
+    {
+      "hex": "#f1e5d4",
+      "roles": [],
+      "weight": 4,
+      "sources": [
+        {
+          "url": "https://naturesbounty.com/blogs/recipes",
+          "selector": "#MainContent > div:nth-of-type(1) > section > div:nth-of-type(4) > h1",
+          "prop": "heading"
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/recipes",
+          "selector": "#MainContent > div:nth-of-type(1) > section > div:nth-of-type(4) > h1",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "hex": "#999191",
+      "roles": [],
+      "weight": 2,
+      "sources": [
+        {
+          "url": "https://naturesbounty.com/",
+          "selector": "#MainContent > div:nth-of-type(3) > section > tabbed-products > div:nth-of-type(3) > button:nth-of-type(1)",
+          "prop": "background"
+        }
+      ]
+    }
+  ],
+  "type": {
+    "families": [
+      {
+        "family": "sofia-pro",
+        "count": 1472,
+        "headings": 250,
+        "text": 176,
+        "buttons": 1046
+      },
+      {
+        "family": "null",
+        "count": 2,
+        "headings": 2,
+        "text": 0,
+        "buttons": 0
+      }
+    ],
+    "headingFamily": "sofia-pro",
+    "bodyFamily": "sofia-pro",
+    "levels": {
+      "h1": {
+        "fontSize": 50,
+        "fontWeight": "800",
+        "count": 11,
+        "score": 331.66
+      },
+      "h2": {
+        "fontSize": 25,
+        "fontWeight": "700",
+        "count": 102,
+        "score": 441.85
+      },
+      "h3": {
+        "fontSize": 44.44,
+        "fontWeight": "500",
+        "count": 8,
+        "score": 157.12
+      },
+      "h4": {
+        "fontSize": 22,
+        "fontWeight": "800",
+        "count": 48,
+        "score": 304.84
+      },
+      "h6": {
+        "fontSize": 12.06,
+        "fontWeight": "700",
+        "count": 2,
+        "score": 29.85
+      }
+    },
+    "scaleAudit": {
+      "kind": "ad-hoc"
+    },
+    "files": [],
+    "licensing": "sofia-pro via Adobe Fonts kit vrc7vwb — commercial, not rehostable"
+  },
+  "motifs": {
+    "radius": {
+      "mode": "50px",
+      "areaMode": "5px",
+      "pill": "50%",
+      "values": [
+        {
+          "value": "50px",
+          "count": 261,
+          "area": 3383965,
+          "sources": [
+            {
+              "url": "https://naturesbounty.com/",
+              "selector": "header > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(1) > a"
+            },
+            {
+              "url": "https://naturesbounty.com/",
+              "selector": "div > div > div:nth-of-type(2) > div:nth-of-type(1) > div > div > div:nth-of-type(2) > a:nth-of-type(6)"
+            },
+            {
+              "url": "https://naturesbounty.com/",
+              "selector": "div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > div > div:nth-of-type(2) > a:nth-of-type(5)"
+            },
+            {
+              "url": "https://naturesbounty.com/",
+              "selector": "header > div:nth-of-type(1) > predictive-search > form > input"
+            },
+            {
+              "url": "https://naturesbounty.com/",
+              "selector": "header > div:nth-of-type(1) > div:nth-of-type(5) > a"
+            }
+          ]
+        },
+        {
+          "value": "3px",
+          "count": 234,
+          "area": 373615,
+          "sources": [
+            {
+              "url": "https://naturesbounty.com/",
+              "selector": "header > div:nth-of-type(2) > button"
+            },
+            {
+              "url": "https://naturesbounty.com/",
+              "selector": "header > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(1) > button"
+            },
+            {
+              "url": "https://naturesbounty.com/",
+              "selector": "div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1) > div > div > div:nth-of-type(1) > button:nth-of-type(1)"
+            },
+            {
+              "url": "https://naturesbounty.com/blogs/news",
+              "selector": "header > div:nth-of-type(2) > button"
+            },
+            {
+              "url": "https://naturesbounty.com/blogs/news",
+              "selector": "header > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(1) > button"
+            }
+          ]
+        },
+        {
+          "value": "5px",
+          "count": 146,
+          "area": 31587516,
+          "sources": [
+            {
+              "url": "https://naturesbounty.com/",
+              "selector": "#MainContent > div:nth-of-type(2) > div > section > div > div:nth-of-type(1)"
+            },
+            {
+              "url": "https://naturesbounty.com/",
+              "selector": "#MainContent > div:nth-of-type(2) > div > section > div > div:nth-of-type(2) > a > div"
+            },
+            {
+              "url": "https://naturesbounty.com/",
+              "selector": "div:nth-of-type(2) > div > section > div > div:nth-of-type(2) > a > div > img"
+            },
+            {
+              "url": "https://naturesbounty.com/blogs/news/eye-cream",
+              "selector": "#MainContent > div > section > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1)"
+            },
+            {
+              "url": "https://naturesbounty.com/blogs/news/mens-health",
+              "selector": "#MainContent > div > section > div:nth-of-type(2) > div:nth-of-type(2) > div"
+            }
+          ]
+        },
+        {
+          "value": "0px 50px 50px 0px",
+          "count": 28,
+          "area": 202020,
+          "sources": [
+            {
+              "url": "https://naturesbounty.com/",
+              "selector": "#Subscribe"
+            },
+            {
+              "url": "https://naturesbounty.com/blogs/news",
+              "selector": "#Subscribe"
+            },
+            {
+              "url": "https://naturesbounty.com/blogs/news/eye-cream",
+              "selector": "#Subscribe"
+            },
+            {
+              "url": "https://naturesbounty.com/blogs/news/mens-health",
+              "selector": "#Subscribe"
+            },
+            {
+              "url": "https://naturesbounty.com/blogs/news/supplement-your-beauty-routine-with-hair-skin-nails",
+              "selector": "#Subscribe"
+            }
+          ]
+        },
+        {
+          "value": "50px 0px 0px 50px",
+          "count": 28,
+          "area": 395070,
+          "sources": [
+            {
+              "url": "https://naturesbounty.com/",
+              "selector": "#ContactNewsletter > div > input"
+            },
+            {
+              "url": "https://naturesbounty.com/",
+              "selector": "#NewsletterForm--footer"
+            },
+            {
+              "url": "https://naturesbounty.com/blogs/news",
+              "selector": "#NewsletterForm--footer"
+            },
+            {
+              "url": "https://naturesbounty.com/blogs/news/eye-cream",
+              "selector": "#NewsletterForm--footer"
+            },
+            {
+              "url": "https://naturesbounty.com/blogs/news/mens-health",
+              "selector": "#NewsletterForm--footer"
+            }
+          ]
+        },
+        {
+          "value": "5px 5px 0px 0px",
+          "count": 18,
+          "area": 635850,
+          "sources": [
+            {
+              "url": "https://naturesbounty.com/",
+              "selector": "#MainContent > div:nth-of-type(7) > section > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div:nth-of-type(2)"
+            },
+            {
+              "url": "https://naturesbounty.com/",
+              "selector": "div:nth-of-type(7) > section > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > img"
+            },
+            {
+              "url": "https://naturesbounty.com/",
+              "selector": "#MainContent > div:nth-of-type(7) > section > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div:nth-of-type(2)"
+            },
+            {
+              "url": "https://naturesbounty.com/blogs/news/eye-cream",
+              "selector": "#MainContent > div > section > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1)"
+            },
+            {
+              "url": "https://naturesbounty.com/blogs/news/mens-health",
+              "selector": "#MainContent > div > section > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(1)"
+            }
+          ]
+        },
+        {
+          "value": "0px 0px 5px 5px",
+          "count": 15,
+          "area": 4288965,
+          "sources": [
+            {
+              "url": "https://naturesbounty.com/",
+              "selector": "#MainContent > div:nth-of-type(7) > section > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div:nth-of-type(1)"
+            },
+            {
+              "url": "https://naturesbounty.com/",
+              "selector": "#MainContent > div:nth-of-type(7) > section > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div:nth-of-type(1)"
+            },
+            {
+              "url": "https://naturesbounty.com/",
+              "selector": "#MainContent > div:nth-of-type(7) > section > div:nth-of-type(2) > div > div > div:nth-of-type(3) > div:nth-of-type(1)"
+            },
+            {
+              "url": "https://naturesbounty.com/blogs/news/eye-cream",
+              "selector": "#MainContent > div > section > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)"
+            },
+            {
+              "url": "https://naturesbounty.com/blogs/news/mens-health",
+              "selector": "#MainContent > div > section > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(2)"
+            }
+          ]
+        },
+        {
+          "value": "2px",
+          "count": 13,
+          "area": 147576,
+          "sources": [
+            {
+              "url": "https://naturesbounty.com/",
+              "selector": "header > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(2) > predictive-search > form > input"
+            },
+            {
+              "url": "https://naturesbounty.com/blogs/news",
+              "selector": "header > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(2) > predictive-search > form > input"
+            },
+            {
+              "url": "https://naturesbounty.com/blogs/news/eye-cream",
+              "selector": "header > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(2) > predictive-search > form > input"
+            },
+            {
+              "url": "https://naturesbounty.com/blogs/news/mens-health",
+              "selector": "header > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(2) > predictive-search > form > input"
+            },
+            {
+              "url": "https://naturesbounty.com/blogs/news/supplement-your-beauty-routine-with-hair-skin-nails",
+              "selector": "header > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(2) > predictive-search > form > input"
+            }
+          ]
+        },
+        {
+          "value": "50%",
+          "count": 8,
+          "area": 2048,
+          "sources": [
+            {
+              "url": "https://naturesbounty.com/",
+              "selector": "#MainContent > div:nth-of-type(4) > section > div > div > div:nth-of-type(2) > span:nth-of-type(1)"
+            },
+            {
+              "url": "https://naturesbounty.com/",
+              "selector": "#MainContent > div:nth-of-type(4) > section > div > div > div:nth-of-type(2) > span:nth-of-type(2)"
+            },
+            {
+              "url": "https://naturesbounty.com/",
+              "selector": "#MainContent > div:nth-of-type(4) > section > div > div > div:nth-of-type(2) > span:nth-of-type(3)"
+            }
+          ]
+        },
+        {
+          "value": "0px 5px 5px 0px",
+          "count": 6,
+          "area": 706098,
+          "sources": [
+            {
+              "url": "https://naturesbounty.com/",
+              "selector": "#MainContent > div:nth-of-type(7) > section > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div:nth-of-type(2)"
+            },
+            {
+              "url": "https://naturesbounty.com/",
+              "selector": "div:nth-of-type(7) > section > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > img"
+            },
+            {
+              "url": "https://naturesbounty.com/",
+              "selector": "#MainContent > div:nth-of-type(7) > section > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div:nth-of-type(2)"
+            }
+          ]
+        },
+        {
+          "value": "5px 0px 0px 5px",
+          "count": 3,
+          "area": 431504,
+          "sources": [
+            {
+              "url": "https://naturesbounty.com/",
+              "selector": "#MainContent > div:nth-of-type(7) > section > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div:nth-of-type(1)"
+            },
+            {
+              "url": "https://naturesbounty.com/",
+              "selector": "#MainContent > div:nth-of-type(7) > section > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div:nth-of-type(1)"
+            },
+            {
+              "url": "https://naturesbounty.com/",
+              "selector": "#MainContent > div:nth-of-type(7) > section > div:nth-of-type(2) > div > div > div:nth-of-type(3) > div:nth-of-type(1)"
+            }
+          ]
+        }
+      ]
+    },
+    "shadows": [
+      {
+        "value": "rgba(0, 0, 0, 0.1) 5px 4px 20px 5px",
+        "count": 4,
+        "sources": [
+          {
+            "url": "https://naturesbounty.com/",
+            "selector": "#MainContent > div:nth-of-type(6) > section > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(1)"
+          },
+          {
+            "url": "https://naturesbounty.com/",
+            "selector": "#MainContent > div:nth-of-type(6) > section > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(2)"
+          },
+          {
+            "url": "https://naturesbounty.com/",
+            "selector": "#MainContent > div:nth-of-type(6) > section > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(3)"
+          }
+        ]
+      }
+    ],
+    "gradients": [
+      {
+        "value": "linear-gradient(269.9deg, rgb(172, 152, 48) 0.07%, rgb(198, 181, 92) 27.24%, rgb(244, 224, 152) 53.36%, rgb(192, 174, 86) 78.44%, rgb(172, 152, 48) 100.38%)",
+        "count": 26,
+        "area": 92040,
+        "sources": [
+          {
+            "url": "https://naturesbounty.com/",
+            "selector": "#shopify-section-content_banner > section > div > div:nth-of-type(2)"
+          },
+          {
+            "url": "https://naturesbounty.com/blogs/news",
+            "selector": "#shopify-section-content_banner > section > div > div:nth-of-type(2)"
+          },
+          {
+            "url": "https://naturesbounty.com/blogs/news/eye-cream",
+            "selector": "#shopify-section-content_banner > section > div > div:nth-of-type(2)"
+          },
+          {
+            "url": "https://naturesbounty.com/blogs/news/mens-health",
+            "selector": "#shopify-section-content_banner > section > div > div:nth-of-type(2)"
+          },
+          {
+            "url": "https://naturesbounty.com/blogs/news/supplement-your-beauty-routine-with-hair-skin-nails",
+            "selector": "#shopify-section-content_banner > section > div > div:nth-of-type(2)"
+          }
+        ]
+      },
+      {
+        "value": "linear-gradient(90deg, rgb(39, 70, 58), rgba(52, 119, 63, 0) 100%)",
+        "count": 2,
+        "area": 498870,
+        "sources": [
+          {
+            "url": "https://naturesbounty.com/blogs/recipes",
+            "selector": "#MainContent > div:nth-of-type(1) > section > div:nth-of-type(3)"
+          }
+        ]
+      },
+      {
+        "value": "linear-gradient(90deg, rgba(18, 42, 33, 0.55), rgba(18, 42, 33, 0.08))",
+        "count": 2,
+        "area": 1241250,
+        "sources": [
+          {
+            "url": "https://naturesbounty.com/",
+            "selector": "#MainContent > div:nth-of-type(1) > video-hero-aegv2umi0mwjvvvvjtaigenblock070c24fwvhdqb > div:nth-of-type(2)"
+          }
+        ]
+      }
+    ]
+  },
+  "hover": [
+    {
+      "kind": "button",
+      "from": {
+        "backgroundColor": "rgb(189, 8, 28)"
+      },
+      "to": {
+        "backgroundColor": "rgb(140, 6, 21)"
+      },
+      "count": 10,
+      "sources": [
+        {
+          "url": "https://naturesbounty.com/blogs/news/eye-cream",
+          "selector": "div > section > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(3) > a:nth-of-type(3)"
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/news/mens-health",
+          "selector": "div > section > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(3) > a:nth-of-type(3)"
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/news/supplement-your-beauty-routine-with-hair-skin-nails",
+          "selector": "div > section > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(3) > a:nth-of-type(3)"
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/news/the-top-10-reasons-to-exercise-regularly",
+          "selector": "div > section > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(3) > a:nth-of-type(3)"
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/news/trust-us-youre-always-better-off-healthy",
+          "selector": "div > section > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(3) > a:nth-of-type(3)"
+        }
+      ]
+    },
+    {
+      "kind": "button",
+      "from": {
+        "backgroundColor": "rgb(85, 172, 238)"
+      },
+      "to": {
+        "backgroundColor": "rgb(39, 149, 233)"
+      },
+      "count": 10,
+      "sources": [
+        {
+          "url": "https://naturesbounty.com/blogs/news/eye-cream",
+          "selector": "div > section > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(3) > a:nth-of-type(2)"
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/news/mens-health",
+          "selector": "div > section > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(3) > a:nth-of-type(2)"
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/news/supplement-your-beauty-routine-with-hair-skin-nails",
+          "selector": "div > section > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(3) > a:nth-of-type(2)"
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/news/the-top-10-reasons-to-exercise-regularly",
+          "selector": "div > section > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(3) > a:nth-of-type(2)"
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/news/trust-us-youre-always-better-off-healthy",
+          "selector": "div > section > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(3) > a:nth-of-type(2)"
+        }
+      ]
+    },
+    {
+      "kind": "button",
+      "from": {
+        "backgroundColor": "rgb(59, 89, 152)"
+      },
+      "to": {
+        "backgroundColor": "rgb(45, 67, 115)"
+      },
+      "count": 10,
+      "sources": [
+        {
+          "url": "https://naturesbounty.com/blogs/news/eye-cream",
+          "selector": "div > section > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(3) > a:nth-of-type(1)"
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/news/mens-health",
+          "selector": "div > section > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(3) > a:nth-of-type(1)"
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/news/supplement-your-beauty-routine-with-hair-skin-nails",
+          "selector": "div > section > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(3) > a:nth-of-type(1)"
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/news/the-top-10-reasons-to-exercise-regularly",
+          "selector": "div > section > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(3) > a:nth-of-type(1)"
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/news/trust-us-youre-always-better-off-healthy",
+          "selector": "div > section > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(3) > a:nth-of-type(1)"
+        }
+      ]
+    },
+    {
+      "kind": "button",
+      "from": {
+        "backgroundColor": "rgb(0, 119, 181)"
+      },
+      "to": {
+        "backgroundColor": "rgb(4, 98, 147)"
+      },
+      "count": 9,
+      "sources": [
+        {
+          "url": "https://naturesbounty.com/blogs/news/eye-cream",
+          "selector": "div > section > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(3) > a:nth-of-type(4)"
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/news/mens-health",
+          "selector": "div > section > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(3) > a:nth-of-type(4)"
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/news/the-top-10-reasons-to-exercise-regularly",
+          "selector": "div > section > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(3) > a:nth-of-type(4)"
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/news/trust-us-youre-always-better-off-healthy",
+          "selector": "div > section > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(3) > a:nth-of-type(4)"
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/news/your-gut-may-play-a-powerful-role-in-your-well-being-our-survey-finds",
+          "selector": "div > section > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(3) > a:nth-of-type(4)"
+        }
+      ]
+    },
+    {
+      "kind": "button",
+      "from": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(52, 119, 63)"
+      },
+      "to": {
+        "backgroundColor": "rgb(52, 119, 63)",
+        "color": "rgb(255, 255, 255)"
+      },
+      "count": 2,
+      "sources": [
+        {
+          "url": "https://naturesbounty.com/blogs/news",
+          "selector": "#MainContent > div > section > div:nth-of-type(1) > div > div:nth-of-type(2) > a:nth-of-type(1)"
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/recipes",
+          "selector": "#blog-pagination > a"
+        }
+      ]
+    },
+    {
+      "kind": "button",
+      "from": {
+        "backgroundColor": "rgb(210, 227, 143)",
+        "borderColor": "rgb(210, 227, 143)"
+      },
+      "to": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(39, 70, 58)"
+      },
+      "count": 2,
+      "sources": [
+        {
+          "url": "https://naturesbounty.com/",
+          "selector": "header > div:nth-of-type(1) > div:nth-of-type(5) > a"
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/news/supplement-your-beauty-routine-with-hair-skin-nails",
+          "selector": "header > div:nth-of-type(1) > div:nth-of-type(5) > a"
+        }
+      ]
+    },
+    {
+      "kind": "button",
+      "from": {
+        "backgroundColor": "rgb(210, 227, 143)",
+        "color": "rgb(39, 70, 58)",
+        "borderColor": "rgb(210, 227, 143)"
+      },
+      "to": {
+        "backgroundColor": "rgb(39, 70, 58)",
+        "color": "rgb(255, 255, 255)",
+        "borderColor": "rgb(39, 70, 58)"
+      },
+      "count": 1,
+      "sources": [
+        {
+          "url": "https://naturesbounty.com/",
+          "selector": "#MainContent > div:nth-of-type(3) > section > tabbed-products > div:nth-of-type(2) > button:nth-of-type(1)"
+        }
+      ]
+    },
+    {
+      "kind": "button",
+      "from": {
+        "backgroundColor": "rgb(210, 227, 143)",
+        "color": "rgb(39, 70, 58)"
+      },
+      "to": {
+        "backgroundColor": "rgb(39, 70, 58)",
+        "color": "rgb(255, 255, 255)"
+      },
+      "count": 1,
+      "sources": [
+        {
+          "url": "https://naturesbounty.com/",
+          "selector": "#MainContent > div:nth-of-type(1) > video-hero-aegv2umi0mwjvvvvjtaigenblock070c24fwvhdqb > div:nth-of-type(3) > a"
+        }
+      ]
+    },
+    {
+      "kind": "button",
+      "from": {
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(39, 70, 58)"
+      },
+      "to": {
+        "backgroundColor": "rgb(39, 70, 58)",
+        "color": "rgb(255, 255, 255)"
+      },
+      "count": 1,
+      "sources": [
+        {
+          "url": "https://naturesbounty.com/",
+          "selector": "#MainContent > div:nth-of-type(3) > section > tabbed-products > div:nth-of-type(2) > button:nth-of-type(2)"
+        }
+      ]
+    }
+  ],
+  "iconFont": {
+    "families": [
+      "swiper-icons"
+    ],
+    "glyphs": []
+  },
+  "voice": {
+    "heroHeadline": "Knowledge is Power",
+    "ctas": [
+      "View Product",
+      "Where to Buy",
+      "Sign Up"
+    ]
+  },
+  "systemComponents": [
+    "site-header",
+    "site-footer",
+    "social-strip",
+    "trusted-quality-band"
+  ]
+}
