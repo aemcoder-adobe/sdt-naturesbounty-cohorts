@@ -1,0 +1,481 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-11-10T22:31:08.033Z",
+    "mode": "prep (descriptive)",
+    "sources": [
+      "stardust/current/_computed-styles.json",
+      "stardust/current/pages/*.json"
+    ]
+  },
+  "name": "Nature's Bounty (current state)",
+  "description": "Vitamins & supplements brand site — deep forest green, lime accent, Sofia Pro throughout.",
+  "colors": {
+    "forest": "#27463a",
+    "ink": "#000000",
+    "white": "#ffffff",
+    "rule": "#e5e5e5",
+    "lime": "#d2e38f",
+    "grey": "#777777",
+    "green": "#34773f",
+    "sage": "#5a7d54",
+    "mint": "#b5d7a8",
+    "moss": "#7fa76e",
+    "cream": "#f8f2eb",
+    "lime-pale": "#e2f2bf",
+    "olive": "#67893c"
+  },
+  "typography": {
+    "h1": {
+      "fontFamily": "sofia-pro, sans-serif",
+      "fontSize": "50px",
+      "fontWeight": 800
+    },
+    "h2": {
+      "fontFamily": "sofia-pro, sans-serif",
+      "fontSize": "25px",
+      "fontWeight": 700
+    },
+    "h3": {
+      "fontFamily": "sofia-pro, sans-serif",
+      "fontSize": "44.44px",
+      "fontWeight": 500
+    },
+    "h4": {
+      "fontFamily": "sofia-pro, sans-serif",
+      "fontSize": "22px",
+      "fontWeight": 800
+    },
+    "body": {
+      "fontFamily": "sofia-pro, sans-serif",
+      "fontWeight": 500
+    }
+  },
+  "rounded": {
+    "sm": "5px",
+    "pill": "50px",
+    "circle": "50%"
+  },
+  "spacing": {},
+  "components": {
+    "button-primary": {
+      "backgroundColor": "{colors.lime}",
+      "textColor": "{colors.forest}",
+      "rounded": "{rounded.pill}"
+    }
+  },
+  "extensions": {
+    "fonts": {
+      "family": "sofia-pro",
+      "source": "Adobe Fonts kit use.typekit.net/vrc7vwb.css",
+      "licensing": "commercial — never rehost; substitute metric-matched open face, keep sofia-pro first in stack"
+    },
+    "motifs": {
+      "shadows": [
+        "rgba(0, 0, 0, 0.1) 5px 4px 20px 5px"
+      ],
+      "radiusMode": "50px",
+      "areaRadiusMode": "5px"
+    },
+    "voice": {
+      "tone": "warm, encouraging, wellness-first, second person",
+      "ctas": [
+        "View Product",
+        "Where to Buy",
+        "Sign Up",
+        "View Best Sellers"
+      ]
+    },
+    "overlays": {
+      "consent": "#onetrust-accept-btn-handler",
+      "marketingModal": ".klaviyo-close-form"
+    },
+    "modules": [
+      {
+        "id": "candidate-site-header",
+        "slots": [
+          {
+            "name": "logo",
+            "type": "image"
+          },
+          {
+            "name": "nav",
+            "type": "link"
+          },
+          {
+            "name": "search",
+            "type": "form"
+          },
+          {
+            "name": "cta",
+            "type": "link"
+          }
+        ],
+        "instances": "all 120 pages",
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-site-footer",
+        "slots": [
+          {
+            "name": "link-columns",
+            "type": "link"
+          },
+          {
+            "name": "newsletter",
+            "type": "form"
+          },
+          {
+            "name": "social",
+            "type": "link"
+          },
+          {
+            "name": "legal",
+            "type": "text"
+          }
+        ],
+        "instances": "all 120 pages",
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-social-strip",
+        "note": "\"Follow @NaturesBounty on social…\" + image row",
+        "instances": "all 120 pages",
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-trusted-quality-band",
+        "note": "\"50 Years of Trusted Quality\" green band",
+        "instances": "articles, recipes, listings",
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-related-cards",
+        "note": "\"More to explore from <category>\" / \"More recipes\" 3-card row",
+        "instances": "articles, recipes",
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-product-rail",
+        "note": "\"Looking for better health? Try these products!\" sidebar product cards",
+        "instances": "articles, recipes",
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-category-sidebar",
+        "note": "health-category link list beside article body",
+        "instances": "articles",
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-share-bar",
+        "note": "Facebook / Twitter / Pinterest / Email share buttons",
+        "instances": "articles, recipes",
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-article-card-grid",
+        "note": "blog index card grid",
+        "instances": "blogs/news, blogs/recipes, home",
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-product-carousel",
+        "note": "\"Shop Our Most Loved Products\" tabbed product carousel",
+        "instances": "home",
+        "status": "candidate"
+      }
+    ],
+    "breakpoints": {
+      "containerMaxWidth": "1680px",
+      "probeWidth": 2560,
+      "shellMaxWidth": null,
+      "caps": [
+        {
+          "kind": "module",
+          "px": 1680,
+          "via": "max-width",
+          "selector": "#MainContent > div.shopify-section > div.featured-grid-rebrand-bg > section.featured-grid.container",
+          "pages": [
+            "https://naturesbounty.com/",
+            "https://naturesbounty.com/blogs/news",
+            "https://naturesbounty.com/blogs/news/the-benefits-of-biotin",
+            "https://naturesbounty.com/blogs/recipes/apple-crisp"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1650,
+          "via": "max-width",
+          "selector": "#MainContent > div.shopify-section > section.content-testimonials.is-wide > div",
+          "pages": [
+            "https://naturesbounty.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1301,
+          "via": "max-width",
+          "selector": "div.shopify-section > section.tabbed-products > tabbed-products.tabbed-products__inner.container > div.tabbed-products__slider",
+          "pages": [
+            "https://naturesbounty.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1050,
+          "via": "max-width",
+          "selector": "div.shopify-section > section.content-testimonials.is-wide > div > div.content-testimonials__swiper.swiper-initialized",
+          "pages": [
+            "https://naturesbounty.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 924,
+          "via": "max-width",
+          "selector": "section.featured-content > div.featured-content__right-block > div.container > div.featured-content__blocks",
+          "pages": [
+            "https://naturesbounty.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 871,
+          "via": "fixed",
+          "selector": "div.shopify-section > div.featured-grid-rebrand-bg > section.featured-grid.container > span.featured-grid__title.text-section-title",
+          "pages": [
+            "https://naturesbounty.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 841,
+          "via": "fixed",
+          "selector": "div.content-products__quotes.swiper-wrapper > div.swiper-slide.swiper-slide-active > section.content-highlight > div",
+          "pages": [
+            "https://naturesbounty.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 756,
+          "via": "max-width",
+          "selector": "#MainContent > div.shopify-section > section.featured-content > div.featured-content__left-block",
+          "pages": [
+            "https://naturesbounty.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 720,
+          "via": "max-width",
+          "selector": "#MainContent > div.shopify-section > video-hero-aegv2umi0mwjvvvvjtaigenblock070c24fwvhdqb > div",
+          "pages": [
+            "https://naturesbounty.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 578,
+          "via": "fixed",
+          "selector": "div.content-testimonials__swiper.swiper-initialized > div.content-testimonials__quotes.swiper-wrapper > div.swiper-slide.swiper-slide-duplicate > div",
+          "pages": [
+            "https://naturesbounty.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 503,
+          "via": "fixed",
+          "selector": "div.shopify-section > video-hero-aegv2umi0mwjvvvvjtaigenblock070c24fwvhdqb > div > h1",
+          "pages": [
+            "https://naturesbounty.com/",
+            "https://naturesbounty.com/blogs/recipes/apple-crisp"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 473,
+          "via": "fixed",
+          "selector": "div.content-testimonials__swiper.swiper-initialized > div.content-testimonials__quotes.swiper-wrapper > div.swiper-slide.swiper-slide-duplicate > div",
+          "pages": [
+            "https://naturesbounty.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 389,
+          "via": "fixed",
+          "selector": "div > h2.content-highlight__title.content_block_EewWRn > p > strong",
+          "pages": [
+            "https://naturesbounty.com/",
+            "https://naturesbounty.com/blogs/news"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 359,
+          "via": "fixed",
+          "selector": "div.article-main__body.container__tight > div.article-main__content > div.article-main__text.rte > a",
+          "pages": [
+            "https://naturesbounty.com/blogs/news/the-benefits-of-biotin"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 338,
+          "via": "fixed",
+          "selector": "section.content-highlight > div > div.content-highlight__actions.content_block_wnaUVT > a.btn",
+          "pages": [
+            "https://naturesbounty.com/",
+            "https://naturesbounty.com/blogs/news",
+            "https://naturesbounty.com/blogs/recipes/apple-crisp"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 300,
+          "via": "fixed",
+          "selector": "div.product-item > a.product-item__inner > div.product-item__content > div.product-item__description",
+          "pages": [
+            "https://naturesbounty.com/",
+            "https://naturesbounty.com/blogs/news",
+            "https://naturesbounty.com/blogs/news/the-benefits-of-biotin",
+            "https://naturesbounty.com/blogs/recipes/apple-crisp"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 266,
+          "via": "max-width",
+          "selector": "div.product-item > a.product-item__inner > div.product-item__footer > button.product-item__cta.btn",
+          "pages": [
+            "https://naturesbounty.com/",
+            "https://naturesbounty.com/blogs/news",
+            "https://naturesbounty.com/blogs/news/the-benefits-of-biotin"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 242,
+          "via": "fixed",
+          "selector": "div.content-testimonials__quotes.swiper-wrapper > div.swiper-slide.swiper-slide-active > div > div",
+          "pages": [
+            "https://naturesbounty.com/"
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "url": "https://naturesbounty.com/",
+          "section": 0,
+          "selector": "#MainContent > div.shopify-section",
+          "px": 720
+        },
+        {
+          "url": "https://naturesbounty.com/",
+          "section": 1,
+          "selector": "#MainContent > div.shopify-section",
+          "px": 1680
+        },
+        {
+          "url": "https://naturesbounty.com/",
+          "section": 2,
+          "selector": "#MainContent > div.shopify-section",
+          "px": 1680
+        },
+        {
+          "url": "https://naturesbounty.com/",
+          "section": 3,
+          "selector": "#MainContent > div.shopify-section",
+          "px": 841
+        },
+        {
+          "url": "https://naturesbounty.com/",
+          "section": 4,
+          "selector": "#MainContent > div.shopify-section",
+          "px": 1680
+        },
+        {
+          "url": "https://naturesbounty.com/",
+          "section": 5,
+          "selector": "#MainContent > div.shopify-section",
+          "px": 1650
+        },
+        {
+          "url": "https://naturesbounty.com/",
+          "section": 6,
+          "selector": "#MainContent > div.shopify-section",
+          "px": 924
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/news",
+          "section": 0,
+          "selector": "#MainContent > div.shopify-section > section.blog > div.blog__hero.t-gray-1",
+          "px": 1680
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/news",
+          "section": 1,
+          "selector": "#MainContent > div.shopify-section > section.blog > div.container__tight",
+          "px": 1680
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/news/the-benefits-of-biotin",
+          "section": 0,
+          "selector": "#MainContent > div.shopify-section > section.article-main > div.article-main__image",
+          "px": null
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/news/the-benefits-of-biotin",
+          "section": 1,
+          "selector": "#MainContent > div.shopify-section > section.article-main > div.article-main__body.container__tight",
+          "px": 1680
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/news/the-benefits-of-biotin",
+          "section": 2,
+          "selector": "#MainContent > div.shopify-section > section.article-main > div.article-main__related.container__tight",
+          "px": 1680
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/recipes/apple-crisp",
+          "section": 0,
+          "selector": "#MainContent > div.shopify-section > section.article-main > div.article-main__image",
+          "px": null
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/recipes/apple-crisp",
+          "section": 1,
+          "selector": "#MainContent > div.shopify-section > section.article-main > div.article-main__body.container__tight",
+          "px": 1680
+        },
+        {
+          "url": "https://naturesbounty.com/blogs/recipes/apple-crisp",
+          "section": 2,
+          "selector": "#MainContent > div.shopify-section > section.article-main > div.article-main__related.container__tight",
+          "px": 1680
+        }
+      ],
+      "capRegister": [
+        "contentMaxWidth differs between archetypes: fluid (https://naturesbounty.com/), 1680 (https://naturesbounty.com/blogs/news), 1680 (https://naturesbounty.com/blogs/news/the-benefits-of-biotin), 1680 (https://naturesbounty.com/blogs/recipes/apple-crisp) — decide per template in the inconsistency register",
+        "module cap 1650px on a single section (#MainContent > div.shopify-section > section.content-testimonials.is-wide > div, https://naturesbounty.com/) — intent or mistake? register it",
+        "module cap 924px on a single section (section.featured-content > div.featured-content__right-block > div.container > div.featured-content__blocks, https://naturesbounty.com/) — intent or mistake? register it",
+        "module cap 841px on a single section (div.content-products__quotes.swiper-wrapper > div.swiper-slide.swiper-slide-active > section.content-highlight > div, https://naturesbounty.com/) — intent or mistake? register it",
+        "module cap 720px on a single section (#MainContent > div.shopify-section > video-hero-aegv2umi0mwjvvvvjtaigenblock070c24fwvhdqb > div, https://naturesbounty.com/) — intent or mistake? register it"
+      ],
+      "capProvenance": {
+        "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+        "writtenAt": "2026-11-10T22:31:12.551Z",
+        "baseWidth": 1440,
+        "urls": [
+          "https://naturesbounty.com/",
+          "https://naturesbounty.com/blogs/news",
+          "https://naturesbounty.com/blogs/news/the-benefits-of-biotin",
+          "https://naturesbounty.com/blogs/recipes/apple-crisp"
+        ]
+      }
+    }
+  }
+}

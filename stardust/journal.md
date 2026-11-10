@@ -21,3 +21,13 @@
   "Cannot destructure property 'c' of 'trail[i]'" twice, at default and at reduced depth). Recorded as an
   instrument residual; the header behaviour is taken from motion-observe + the captured header DOM
   (Products / Health Benefits / Learn mega-menus, search, mobile drill-down drawer) and re-tried at C0.
+
+## Preserve direction — spec promoted verbatim, register 1 entry, dynamics triaged (2026-11-10)
+
+- current/PRODUCT.md, DESIGN.md, DESIGN.json promoted byte-for-byte to the project root; stardust/direction.md
+  records preserve mode.
+- Inconsistency register: R-01 only (licensed Sofia Pro kit → metric-matched substitute, brand family first).
+  Pure replica otherwise; cap-probe's divergent caps (home fluid vs 1680 content cap) are kept as captured.
+- Dynamics: 45 detected rows curated into 13 families in stardust/dynamic-features.md; self rows: header menus,
+  carousels, search (index-backed over the migrated corpus); interim/named assumptions A1–A5 for newsletter,
+  tags/consent, reviews, commerce. Nothing decided-out.

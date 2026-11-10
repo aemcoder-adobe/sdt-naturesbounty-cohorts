@@ -1,0 +1,3508 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics detect",
+  "writtenAt": "2026-11-10T22:56:31.139Z",
+  "settleMs": 5000,
+  "width": 1440,
+  "urls": [
+   "https://naturesbounty.com/",
+   "https://naturesbounty.com/blogs/news",
+   "https://naturesbounty.com/blogs/news/the-benefits-of-biotin",
+   "https://naturesbounty.com/blogs/recipes/apple-crisp"
+  ],
+  "reachSource": "stardust/current/pages"
+ },
+ "pages": {
+  "/": {
+   "url": "https://naturesbounty.com/",
+   "status": 200,
+   "host": "naturesbounty.com",
+   "title": "Nature's Bounty Vitamins, Supplements & Minerals",
+   "forms": [
+    {
+     "name": "search-form",
+     "action": "https://naturesbounty.com/search",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:q"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "header-drawer__form",
+     "action": "https://naturesbounty.com/search",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:q"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "ContactNewsletter",
+     "action": "https://naturesbounty.com/contact#ContactNewsletter",
+     "method": "post",
+     "role": "",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "email:contact[email]"
+     ],
+     "hidden": [
+      "form_type",
+      "utf8",
+      "contact[tags]"
+     ],
+     "tokens": [],
+     "search": false,
+     "inlineHandler": false
+    },
+    {
+     "name": "ContactFooter",
+     "action": "https://naturesbounty.com/contact#ContactFooter",
+     "method": "post",
+     "role": "",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "email:contact[email]"
+     ],
+     "hidden": [
+      "form_type",
+      "utf8",
+      "contact[tags]"
+     ],
+     "tokens": [],
+     "search": false,
+     "inlineHandler": false
+    },
+    {
+     "name": "needsclick",
+     "action": null,
+     "method": "get",
+     "role": "",
+     "inChrome": false,
+     "fields": 2,
+     "signature": [
+      "text:first_name_01KZV8DQ69Z8XPDDEEYXD27MGC",
+      "email:email"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": false,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Filter Icon",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 11,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "",
+     "textLen": 552,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "dialog",
+     "heading": "Your Privacy Choices",
+     "textLen": 1698,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "dialog",
+     "heading": "",
+     "textLen": 375,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 4,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "https://naturesbounty.com/web-pixels@997f36b7wa91af9b9p0b3d274amb4b328d1/custom/web-pixel-shopify-custom-pixel@0530/sandbox/modern/",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "about:blank",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://9051573.fls.doubleclick.net/activityi;src=9051573;type=omdisp;cat=nestl0;rcb=1;ord=2070366929185;npa=0;auiddc=706818442.1794351394;u2=naturesbounty.com;gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;uam",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://9560950.fls.doubleclick.net/activityi;src=9560950;type=websi0;cat=nbtyw0;rcb=18;ord=8445423079495;npa=0;auiddc=706818442.1794351394;u2=naturesbounty.com;u1=https%3A%2F%2Fnaturesbounty.com%2F;g",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://9560950.fls.doubleclick.net/activityi;src=9560950;type=engage;cat=en_01;rcb=18;ord=8240429032612;npa=0;auiddc=706818442.1794351394;u68=https%3A%2F%2Fnaturesbounty.com%2F;u69=;u80=naturesbounty",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://9560950.fls.doubleclick.net/activityi;src=9560950;type=engage;cat=en_07;rcb=18;ord=1;num=2085855671073;npa=0;auiddc=706818442.1794351394;u68=https%3A%2F%2Fnaturesbounty.com%2F;u69=;u80=natures",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://insight.adsrvr.org/track/cei?advertiser_id=fx8dueq&cookie_sync=1&upv=3.0.0&upid=lfny2eb&ref=https%3A%2F%2Fnaturesbounty.com%2F",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://insight.adsrvr.org/track/cei?advertiser_id=29b0puu&cookie_sync=1&upv=3.0.0&upid=66qw024&ref=https%3A%2F%2Fnaturesbounty.com%2F",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://insight.adsrvr.org/track/cei?advertiser_id=lni56pf&cookie_sync=1&upv=3.0.0&upid=f56ztfr&ref=https%3A%2F%2Fnaturesbounty.com%2F",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": "https://naturesbounty.com/web-pixels@997f36b7wa91af9b9p0b3d274amb4b328d1/custom/web-pixel-shopify-custom-pixel@0530/sandbox/modern/",
+     "title": null,
+     "w": 4,
+     "h": 4
+    },
+    {
+     "src": "about:blank",
+     "title": "empty",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": null,
+     "title": "onetrust-text-resize",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "https://9051573.fls.doubleclick.net/activityi;src=9051573;type=omdisp;cat=nestl0;rcb=1;ord=2070366929185;npa=0;auiddc=706818442.1794351394;u2=naturesbounty.com;gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6b91h1v9181647366z871648377za20gzb71648377zd71648377xeaxf1;gcs=G111;gcd=13v3v3v3v5l1;dma=0;dc_fmt=2;tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120412528~120420416~120469145~120469153~121191155~121246026~121246034~123329123~123814185;epver=2;dc_random=1794351394_1HWR5UjETp_Y55V_6kDvuITkBYcYnya8-g;_dc_test=1;~oref=https%3A%2F%2Fnaturesbounty.com%2F?",
+     "title": null,
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "https://9560950.fls.doubleclick.net/activityi;src=9560950;type=websi0;cat=nbtyw0;rcb=18;ord=8445423079495;npa=0;auiddc=706818442.1794351394;u2=naturesbounty.com;u1=https%3A%2F%2Fnaturesbounty.com%2F;gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6b91h1v9181466229z871648377za20gzb71648377zd71648377xeaxf1;gcs=G111;gcd=13v3v3v3v5l1;dma=0;dc_fmt=2;tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120412528~120420416~120469145~120469153~121191155~121246026~121246034~123329123~123814185;epver=2;dc_random=1794351395_q1s27ANO1SvBXHPyDrHw_Z5OB83k57IMbA;_dc_test=1;~oref=https%3A%2F%2Fnaturesbounty.com%2F?",
+     "title": null,
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "https://9560950.fls.doubleclick.net/activityi;src=9560950;type=engage;cat=en_01;rcb=18;ord=8240429032612;npa=0;auiddc=706818442.1794351394;u68=https%3A%2F%2Fnaturesbounty.com%2F;u69=;u80=naturesbounty.com;gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6b91h1v9181466229z89189674600za20gzb71648377zd71648377xeaxf1;gcs=G111;gcd=13v3v3v3v5l1;dma=0;dc_fmt=2;tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120412528~120420416~120469145~120469153~121191155~121246026~121246034~123329123~123814185;epver=2;dc_random=1794351395_g7w5HXjnILQ5ThDYwgGDC6YNWPhNCCRb8g;_dc_test=1;~oref=https%3A%2F%2Fnaturesbounty.com%2F?",
+     "title": null,
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "https://9560950.fls.doubleclick.net/activityi;src=9560950;type=engage;cat=en_07;rcb=18;ord=1;num=2085855671073;npa=0;auiddc=706818442.1794351394;u68=https%3A%2F%2Fnaturesbounty.com%2F;u69=;u80=naturesbounty.com;gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KJA;gtm=45fe6b91h1v9181466229z89189674600za20gzb71648377zd71648377xeaxf1;gcs=G111;gcd=13v3v3v3v5l1;dma=0;dc_fmt=2;tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120412528~120420416~120469145~120469153~121191155~121246026~121246034~123329123~123814185;epver=2;dc_random=1794351395_7ZRzc7nGMaip618fcZ0jqGbTk3Q0W5FIGQ;_dc_test=1;~oref=https%3A%2F%2Fnaturesbounty.com%2F?",
+     "title": null,
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "https://insight.adsrvr.org/track/cei?advertiser_id=fx8dueq&cookie_sync=1&upv=3.0.0&upid=lfny2eb&ref=https%3A%2F%2Fnaturesbounty.com%2F",
+     "title": "TTD Universal Pixel",
+     "w": 4,
+     "h": 4
+    },
+    {
+     "src": "https://insight.adsrvr.org/track/cei?advertiser_id=29b0puu&cookie_sync=1&upv=3.0.0&upid=66qw024&ref=https%3A%2F%2Fnaturesbounty.com%2F",
+     "title": "TTD Universal Pixel",
+     "w": 4,
+     "h": 4
+    },
+    {
+     "src": "https://insight.adsrvr.org/track/cei?advertiser_id=lni56pf&cookie_sync=1&upv=3.0.0&upid=f56ztfr&ref=https%3A%2F%2Fnaturesbounty.com%2F",
+     "title": "TTD Universal Pixel",
+     "w": 4,
+     "h": 4
+    }
+   ],
+   "mounts": [
+    {
+     "cls": "",
+     "attrs": [
+      "data-bv-show",
+      "data-bv-product-id",
+      "data-bv-seo",
+      "data-bv-ready"
+     ]
+    },
+    {
+     "cls": "",
+     "attrs": [
+      "data-bv-show",
+      "data-bv-product-id",
+      "data-bv-seo",
+      "data-bv-ready"
+     ]
+    },
+    {
+     "cls": "",
+     "attrs": [
+      "data-bv-show",
+      "data-bv-product-id",
+      "data-bv-seo",
+      "data-bv-ready"
+     ]
+    },
+    {
+     "cls": "",
+     "attrs": [
+      "data-bv-show",
+      "data-bv-product-id",
+      "data-bv-seo",
+      "data-bv-ready"
+     ]
+    },
+    {
+     "cls": "",
+     "attrs": [
+      "data-bv-show",
+      "data-bv-product-id",
+      "data-bv-seo",
+      "data-bv-ready"
+     ]
+    },
+    {
+     "cls": "",
+     "attrs": [
+      "data-bv-show",
+      "data-bv-product-id",
+      "data-bv-seo",
+      "data-bv-ready"
+     ]
+    },
+    {
+     "cls": "",
+     "attrs": [
+      "data-bv-show",
+      "data-bv-product-id",
+      "data-bv-seo",
+      "data-bv-ready"
+     ]
+    },
+    {
+     "cls": "",
+     "attrs": [
+      "data-bv-show",
+      "data-bv-product-id",
+      "data-bv-seo",
+      "data-bv-ready"
+     ]
+    },
+    {
+     "cls": "",
+     "attrs": [
+      "data-bv-show",
+      "data-bv-product-id",
+      "data-bv-seo",
+      "data-bv-ready"
+     ]
+    },
+    {
+     "cls": "",
+     "attrs": [
+      "data-bv-show",
+      "data-bv-product-id",
+      "data-bv-seo",
+      "data-bv-ready"
+     ]
+    },
+    {
+     "cls": "",
+     "attrs": [
+      "data-bv-show",
+      "data-bv-product-id",
+      "data-bv-seo",
+      "data-bv-ready"
+     ]
+    },
+    {
+     "cls": "",
+     "attrs": [
+      "data-bv-show",
+      "data-bv-product-id",
+      "data-bv-seo",
+      "data-bv-ready"
+     ]
+    },
+    {
+     "cls": "",
+     "attrs": [
+      "data-bv-show",
+      "data-bv-product-id",
+      "data-bv-seo",
+      "data-bv-ready"
+     ]
+    },
+    {
+     "cls": "",
+     "attrs": [
+      "data-bv-show",
+      "data-bv-product-id",
+      "data-bv-seo",
+      "data-bv-ready"
+     ]
+    },
+    {
+     "cls": "",
+     "attrs": [
+      "data-bv-show",
+      "data-bv-product-id",
+      "data-bv-seo",
+      "data-bv-ready"
+     ]
+    },
+    {
+     "cls": "",
+     "attrs": [
+      "data-bv-show",
+      "data-bv-product-id",
+      "data-bv-seo",
+      "data-bv-ready"
+     ]
+    },
+    {
+     "cls": "",
+     "attrs": [
+      "data-bv-show",
+      "data-bv-product-id",
+      "data-bv-seo",
+      "data-bv-ready"
+     ]
+    },
+    {
+     "cls": "",
+     "attrs": [
+      "data-bv-show",
+      "data-bv-product-id",
+      "data-bv-seo",
+      "data-bv-ready"
+     ]
+    },
+    {
+     "cls": "",
+     "attrs": [
+      "data-bv-show",
+      "data-bv-product-id",
+      "data-bv-seo",
+      "data-bv-ready"
+     ]
+    },
+    {
+     "cls": "",
+     "attrs": [
+      "data-bv-show",
+      "data-bv-product-id",
+      "data-bv-seo",
+      "data-bv-ready"
+     ]
+    }
+   ],
+   "auth": [],
+   "commerce": {
+    "cart": true,
+    "prices": 2
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [
+     "en-us"
+    ],
+    "switcher": []
+   },
+   "cms": {
+    "Shopify": [
+     "shop",
+     "locale",
+     "currency",
+     "country",
+     "theme",
+     "cdnHost",
+     "routes",
+     "shopJsCdnBaseUrl",
+     "SignInWithShop",
+     "loadFeatures",
+     "autoloadFeatures",
+     "featureAssets",
+     "ce_forms",
+     "captcha",
+     "PaymentButton",
+     "analytics",
+     "evids",
+     "modules",
+     "actions",
+     "trackingConsent",
+     "customerPrivacy"
+    ],
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "17",
+     "18",
+     "19",
+     "20",
+     "21",
+     "22",
+     "push"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "OneTrust",
+    "Optanon",
+    "google_tag_manager",
+    "gtag",
+    "Shopify"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [
+    {
+     "cls": "tabbed-products__slider-inner",
+     "cards": 23,
+     "sameSite": 23,
+     "hasDate": false
+    },
+    {
+     "cls": "content-products__quotes ",
+     "cards": 8,
+     "sameSite": 8,
+     "hasDate": false
+    },
+    {
+     "cls": "content-testimonials__quotes swiper-wrapper",
+     "cards": 4,
+     "sameSite": 4,
+     "hasDate": false
+    }
+   ],
+   "inlineScripts": 48,
+   "inlineFetch": true,
+   "mainText": 9536,
+   "domAddedAfterLoad": 180,
+   "hosts": {
+    "naturesbounty.com": 265,
+    "use.typekit.net": 9,
+    "cdn.shopify.com": 22,
+    "cdn.jsdelivr.net": 2,
+    "p.typekit.net": 1,
+    "cdn.cookielaw.org": 9,
+    "cdn.segment.com": 6,
+    "static.klaviyo.com": 44,
+    "www.googletagmanager.com": 11,
+    "geolocation.onetrust.com": 1,
+    "apps.bazaarvoice.com": 6,
+    "otlp-http-production.shopifysvc.com": 8,
+    "shop.app": 1,
+    "static-tracking.klaviyo.com": 4,
+    "d22xmn10vbouk4.cloudfront.net": 1,
+    "collect.analyze.ly": 37,
+    "fast.a.klaviyo.com": 3,
+    "api.bazaarvoice.com": 24,
+    "monorail-edge.shopifysvc.com": 2,
+    "fonts.googleapis.com": 1,
+    "static-forms.klaviyo.com": 1,
+    "network-a.bazaarvoice.com": 26,
+    "www.google-analytics.com": 2,
+    "analytics.google.com": 1,
+    "www.google.com": 6,
+    "stats.g.doubleclick.net": 1,
+    "s.pinimg.com": 2,
+    "js.adsrvr.org": 4,
+    "connect.facebook.net": 6,
+    "cdn.gbqofs.com": 4,
+    "ad.doubleclick.net": 8,
+    "9051573.fls.doubleclick.net": 2,
+    "nestle-privacy.my.onetrust.com": 1,
+    "9560950.fls.doubleclick.net": 6,
+    "adservice.google.com": 4,
+    "www.facebook.com": 5,
+    "ct.pinterest.com": 4,
+    "d3k81ch9hvuctc.cloudfront.net": 1,
+    "zn3j7qz4e0kmok5mq-nestleglobalmktg.siteintercept.qualtrics.com": 1,
+    "insight.adsrvr.org": 6,
+    "siteintercept.qualtrics.com": 2,
+    "match.adsrvr.org": 10,
+    "pixel.rubiconproject.com": 2,
+    "simage2.pubmatic.com": 1,
+    "dsum-sec.casalemedia.com": 4,
+    "cm.g.doubleclick.net": 3,
+    "ib.adnxs.com": 2,
+    "api.segment.io": 3,
+    "fonts.gstatic.com": 1,
+    "a.klaviyo.com": 2
+   },
+   "thirdPartyHosts": [
+    "use.typekit.net",
+    "cdn.shopify.com",
+    "cdn.jsdelivr.net",
+    "p.typekit.net",
+    "cdn.cookielaw.org",
+    "cdn.segment.com",
+    "static.klaviyo.com",
+    "www.googletagmanager.com",
+    "geolocation.onetrust.com",
+    "apps.bazaarvoice.com",
+    "otlp-http-production.shopifysvc.com",
+    "shop.app",
+    "static-tracking.klaviyo.com",
+    "d22xmn10vbouk4.cloudfront.net",
+    "collect.analyze.ly",
+    "fast.a.klaviyo.com",
+    "api.bazaarvoice.com",
+    "monorail-edge.shopifysvc.com",
+    "fonts.googleapis.com",
+    "static-forms.klaviyo.com",
+    "network-a.bazaarvoice.com",
+    "www.google-analytics.com",
+    "analytics.google.com",
+    "www.google.com",
+    "stats.g.doubleclick.net",
+    "s.pinimg.com",
+    "js.adsrvr.org",
+    "connect.facebook.net",
+    "cdn.gbqofs.com",
+    "ad.doubleclick.net",
+    "9051573.fls.doubleclick.net",
+    "nestle-privacy.my.onetrust.com",
+    "9560950.fls.doubleclick.net",
+    "adservice.google.com",
+    "www.facebook.com",
+    "ct.pinterest.com",
+    "d3k81ch9hvuctc.cloudfront.net",
+    "zn3j7qz4e0kmok5mq-nestleglobalmktg.siteintercept.qualtrics.com",
+    "insight.adsrvr.org",
+    "siteintercept.qualtrics.com",
+    "match.adsrvr.org",
+    "pixel.rubiconproject.com",
+    "simage2.pubmatic.com",
+    "dsum-sec.casalemedia.com",
+    "cm.g.doubleclick.net",
+    "ib.adnxs.com",
+    "api.segment.io",
+    "fonts.gstatic.com",
+    "a.klaviyo.com"
+   ],
+   "scripts": [
+    "https://cdn.shopify.com/extensions/01a061ba-09b8-7f28-a51f-be55b3ced758/onetrust-consent-management-67/assets/storefront-consent.js",
+    "https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js",
+    "https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js",
+    "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+    "https://naturesbounty.com/checkouts/internal/preloads.js?locale=en-US&default_configuration_id=549880037",
+    "https://naturesbounty.com/cdn/shop/t/309/assets/predictive-search.js?v=61543722350796571621792097841",
+    "https://cdn.shopify.com/storefront/standard-actions.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+    "https://cdn.shopify.com/shopifycloud/storefront/assets/storefront/origin_trials-6af5f5e9.js",
+    "https://naturesbounty.com/cdn/shopifycloud/storefront/assets/storefront/load_feature-ed94c51f.js",
+    "https://naturesbounty.com/cdn/shop/t/309/assets/jquery-3.6.0.min.js?v=8324501383853434791792097841",
+    "https://naturesbounty.com/cdn/shop/t/309/assets/utils.js?v=34866713500792996831792097841",
+    "https://naturesbounty.com/cdn/shopifycloud/perf-kit/shopify-perf-kit-3.15.1.min.js",
+    "https://naturesbounty.com/cdn/shopifycloud/storefront/assets/shop_events_listener-819172a8.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/client.init-shop-cart-sync_g3NxlI70.en.esm.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.window_CAbVMZox.esm.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.document_DMcRsBXN.esm.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.init_D32yj4-j.esm.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.defineInitFunction_DyjeAYT_.esm.js",
+    "https://naturesbounty.com/cdn/shop/t/309/assets/scrollend-polyfill.js?v=37045477128454321011792097841",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.casing_U_9x-Om3.esm.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.register_CnRJIKy5.esm.js",
+    "https://naturesbounty.com/cdn/shop/t/309/assets/bundle.theme.min.js?v=172051009938250590061792097841",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.networkErrorMessages_Du380vAr.esm.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/client.shop-cart-sync_CUkqMlum.en.esm.js",
+    "https://cdn.segment.com/analytics.js/v1/ECsOHW2FVtOpLt7aQNdDdfnUMeHL3Gdr/analytics.min.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.utils_Cjeq_SSZ.esm.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.v4_C3N_0s0v.esm.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.useUserRecognitionSignal_FnE5sYgR.esm.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.storage_n5jjEbMM.esm.js",
+    "https://static.klaviyo.com/onsite/js/RC6LF3/klaviyo.js?company_id=RC6LF3",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.hooks_cul_1OmT.esm.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.validators_BbO3UEjF.esm.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.authorize_DINGMyE5.esm.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.useEventListener_DxYrO7Ds.esm.js",
+    "https://naturesbounty.com/cdn/shop/t/309/assets/slick.min.js?v=71779134894361685811792097841",
+    "https://naturesbounty.com/cdn/shop/t/309/assets/swiper-bundle.min.js?v=140229966564506460931792097841",
+    "https://naturesbounty.com/cdn/shop/t/309/assets/tabbed-products.js?v=47087912509089878721792097841",
+    "https://naturesbounty.com/cdn/wpm/b997f36b7wa91af9b9p0b3d274amb4b328d1m.js",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-TK5SRJ",
+    "https://cdn.cookielaw.org/scripttemplates/202603.1.0/otBannerSdk.js",
+    "https://apps.bazaarvoice.com/deployments/naturesbounty/main_site/production/en_US/bv.js",
+    "https://naturesbounty.com/cdn/shopifycloud/consent-tracking-api/v0.1/consent-tracking-api.js",
+    "https://naturesbounty.com/web-pixels@997f36b7wa91af9b9p0b3d274amb4b328d1/web-pixel-shopify-app-pixel@0530/sandbox/worker.modern.js",
+    "https://naturesbounty.com/cdn/shopifycloud/storefront/assets/storefront/webmcp-cfeae510.js",
+    "https://static.klaviyo.com/onsite/js/runtime.e4a3fce60037d.js?cb=2",
+    "https://static.klaviyo.com/onsite/js/vendors~signup_forms~telemetry~client_identity~~onsite-personalization~onsite-triggering-v2~in_app_forms.452e299a9c841.js?cb=2",
+    "https://static.klaviyo.com/onsite/js/sharedUtils.62069612d88bc.js?cb=2",
+    "https://static.klaviyo.com/onsite/js/vendors~in_app_forms~signup_forms~reviews~atlas~product_recommendations.2275e937808a4.js?cb=2",
+    "https://static.klaviyo.com/onsite/js/vendors~in_app_forms~signup_forms.b7c0bc7f31ca6.js?cb=2",
+    "https://static.klaviyo.com/onsite/js/vendors~telemetry~static~in_app_forms~signup_forms~fender_analytics~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~atlas~",
+    "https://static-tracking.klaviyo.com/onsite/js/static.a34ac6ae9581b.js?cb=2",
+    "https://static-tracking.klaviyo.com/onsite/js/post_identification_sync.18ffd667c7fa3.js?cb=2",
+    "https://static-tracking.klaviyo.com/onsite/js/telemetry.779aef45cacb9.js?cb=2",
+    "https://static.klaviyo.com/onsite/js/signup_forms.85bafbb8fcc4c.js?cb=2",
+    "https://static.klaviyo.com/onsite/js/event_adapter.3e4ac49b9784b.js?cb=2",
+    "https://static-tracking.klaviyo.com/onsite/js/fender_analytics.591c389dd3e23.js?cb=2",
+    "https://static.klaviyo.com/onsite/js/default~atlas~product_recommendations.077e10e798dbf.js?cb=2",
+    "https://static.klaviyo.com/onsite/js/vendors~atlas.a0cc055f2ddf2.js?cb=2",
+    "https://static.klaviyo.com/onsite/js/atlas.83bc5c67ffd7a.js?cb=2"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "naturesbounty.com",
+     "path": "/cdn/shopifycloud/storefront/assets/storefront/storefronts.moderate.specrules-eb468f32.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/speculationrules+json",
+     "example": "https://naturesbounty.com/cdn/shopifycloud/storefront/assets/storefront/storefronts.moderate.specrules-eb468f32.json"
+    },
+    {
+     "method": "POST",
+     "host": "naturesbounty.com",
+     "path": "/.well-known/shopify/monorail/unstable/produce_batch",
+     "query": [],
+     "status": 200,
+     "contentType": "",
+     "example": "https://naturesbounty.com/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+     "method": "POST",
+     "host": "naturesbounty.com",
+     "path": "/api/collect",
+     "query": [],
+     "status": 204,
+     "contentType": "",
+     "example": "https://naturesbounty.com/api/collect"
+    },
+    {
+     "method": "POST",
+     "host": "naturesbounty.com",
+     "path": "/api/unstable/graphql.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://naturesbounty.com/api/unstable/graphql.json"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET cdn.cookielaw.org/consent/0192d4bb-934a-7c29-846f-bfc1f5164092/0192d4bb-934a-7c29-846f-bfc1f51640",
+    "GET geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+    "POST otlp-http-production.shopifysvc.com/v1/metrics",
+    "GET cdn.segment.com/v1/projects/ECsOHW2FVtOpLt7aQNdDdfnUMeHL3Gdr/settings",
+    "GET cdn.cookielaw.org/consent/0192d4bb-934a-7c29-846f-bfc1f5164092/019d4547-0f36-7be3-8e73-f595998990",
+    "GET cdn.cookielaw.org/scripttemplates/202603.1.0/assets/otFlat.json",
+    "GET cdn.cookielaw.org/scripttemplates/202603.1.0/assets/otCommonStyles.css",
+    "GET cdn.cookielaw.org/scripttemplates/202603.1.0/assets/v2/otPcCenter.json",
+    "POST otlp-http-production.shopifysvc.com/v1/logs",
+    "GET cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+    "POST collect.analyze.ly/",
+    "GET fast.a.klaviyo.com/custom-fonts/api/v1/company-fonts/onsite",
+    "GET api.bazaarvoice.com/data/batch.json",
+    "POST monorail-edge.shopifysvc.com/v1/produce",
+    "GET static-forms.klaviyo.com/forms/api/v7/RC6LF3/full-forms",
+    "GET api.bazaarvoice.com/data/display/0.2alpha/product/summary",
+    "GET fast.a.klaviyo.com/atlas/api/public/settings/RC6LF3",
+    "GET fast.a.klaviyo.com/atlas/api/public/l10n/RC6LF3/en",
+    "POST www.google-analytics.com/g/collect",
+    "POST analytics.google.com/g/collect",
+    "POST www.google.com/measurement/conversion",
+    "POST www.google.com/ccm/collect",
+    "POST ad.doubleclick.net/ccm/s/collect",
+    "POST nestle-privacy.my.onetrust.com/request/v1/consentreceipts/anonymous",
+    "POST ad.doubleclick.net/activity;src=9560950;type=engage;cat=en_01;rcb=18;ord=8240429032612;npa=0;auidd",
+    "POST ad.doubleclick.net/activity;src=9560950;type=engage;cat=en_07;rcb=18;ord=1;num=2085855671073;npa=0",
+    "POST ad.doubleclick.net/activity;src=9051573;type=omdisp;cat=nestl0;rcb=1;ord=2070366929185;npa=0;auidd",
+    "GET ct.pinterest.com/user/",
+    "GET ad.doubleclick.net/activity;_dc_ptd=ChEIgJ7L1wYQ3Zvi-_jzl9vIARIfAA2StjydH1Q-1qbbtwP72fHA9GfrahlLJb",
+    "GET ad.doubleclick.net/activity;_dc_ptd=ChEIgJ7L1wYQ3Zvi-_jzl9vIARIfAA2StjzcPQIouJTD2f81ELkB2b9snNqQ7l",
+    "GET www.google.com/gmp/conversion/_dc_unique_id=14328837107077374424;_dc_ptd=ChEIgJ7L1wYQ3Zvi-_jzl",
+    "POST ad.doubleclick.net/activity;src=9560950;type=websi0;cat=nbtyw0;rcb=18;ord=8445423079495;npa=0;auid",
+    "GET ct.pinterest.com/v3/",
+    "GET ad.doubleclick.net/activity;_dc_ptd=ChEIgJ7L1wYQ3Zvi-_jzl9vIARIfAA2StjwvB-VXddHvwaSG2qELXC4tpkuzA8",
+    "GET www.google.com/gmp/conversion/_dc_unique_id=18194433073985551207;_dc_ptd=ChEIgJ7L1wYQ3Zvi-_jzl",
+    "POST siteintercept.qualtrics.com/WRSiteInterceptEngine/Targeting.php",
+    "POST insight.adsrvr.org/track/realtimeconversion",
+    "POST api.segment.io/v1/t",
+    "POST a.klaviyo.com/onsite/track-analytics"
+   ],
+   "postBodies": [
+    {
+     "url": "https://otlp-http-production.shopifysvc.com/v1/metrics",
+     "body": "{\"resourceMetrics\":[{\"resource\":{\"attributes\":[{\"key\":\"service.name\",\"value\":{\"stringValue\":\"web-pixels-manager\"}}]},\"scopeMetrics\":[{\"scope\":{\"name\":\"open-telemetry-mini-client\",\"version\":\"1.1.0\",\"attributes\":[]},\"metrics\":[{\"name\":\"web_pixels_manager_feature_usage\",\"unit\":\"1\",\"sum\":{\"aggregationTemporality\":1,\"isMonotonic\":true,\"dataPoints\":[{\"startTimeUnixNano\":1794351392116000000,\"timeUnixNano"
+    },
+    {
+     "url": "https://naturesbounty.com/.well-known/shopify/monorail/unstable/produce_batch",
+     "body": "{\"events\":[{\"schema_id\":\"web_pixels_manager_init/3.2\",\"payload\":{\"version\":\"997f36b7wa91af9b9p0b3d274amb4b328d1\",\"bundle_target\":\"modern\",\"page_url\":\"https://naturesbounty.com/\",\"shop_id\":66509275365,\"surface\":\"storefront-renderer\",\"status\":\"initialized\",\"user_can_be_tracked\":\"true\"},\"metadata\":{\"event_created_at_ms\":1794351392130}},{\"schema_id\":\"web_pixels_manager_event_publish/1.7\",\"payload\":{\"v"
+    },
+    {
+     "url": "https://naturesbounty.com/api/collect",
+     "body": "{\"v\":1,\"s\":{\"wd\":false,\"ua\":false,\"cf\":true,\"be\":true,\"nm\":false,\"nc\":false,\"ka\":false,\"sa\":false,\"ta\":false,\"pt\":false,\"mp\":false,\"sd\":false},\"r\":\"change\",\"l\":\"2.7.0\"}"
+    },
+    {
+     "url": "https://otlp-http-production.shopifysvc.com/v1/metrics",
+     "body": "{\"resourceMetrics\":[{\"resource\":{\"attributes\":[{\"key\":\"service.name\",\"value\":{\"stringValue\":\"shop-js\"}}]},\"scopeMetrics\":[{\"scope\":{\"name\":\"open-telemetry-mini-client\",\"version\":\"1.1.0\",\"attributes\":[]},\"metrics\":[{\"name\":\"shop_js_cart_sync_transfer_session_attempted\",\"unit\":\"1\",\"sum\":{\"aggregationTemporality\":1,\"isMonotonic\":true,\"dataPoints\":[{\"startTimeUnixNano\":1794351392525000000,\"timeUnixNan"
+    },
+    {
+     "url": "https://naturesbounty.com/.well-known/shopify/monorail/unstable/produce_batch",
+     "body": "{\"events\":[{\"schema_id\":\"web_pixels_manager_pixel_register/3.8\",\"payload\":{\"version\":\"997f36b7wa91af9b9p0b3d274amb4b328d1\",\"page_url\":\"https://naturesbounty.com/\",\"shop_id\":66509275365,\"surface\":\"storefront-renderer\",\"pixel_id\":\"shopify-custom-pixel\",\"pixel_app_id\":\"shopify-pixel\",\"pixel_source\":\"CUSTOM\",\"pixel_runtime_context\":\"LAX\",\"pixel_script_version\":\"0530\",\"pixel_event_schema_version\":\"v1\","
+    },
+    {
+     "url": "https://naturesbounty.com/.well-known/shopify/monorail/unstable/produce_batch",
+     "body": "{\"events\":[{\"schema_id\":\"web_pixels_manager_subscriber_event_emit/4.1\",\"payload\":{\"version\":\"997f36b7wa91af9b9p0b3d274amb4b328d1\",\"bundle_target\":\"modern\",\"page_url\":\"https://naturesbounty.com/\",\"shop_id\":66509275365,\"surface\":\"storefront-renderer\",\"pixel_id\":\"shopify-custom-pixel\",\"pixel_app_id\":\"shopify-pixel\",\"pixel_source\":\"CUSTOM\",\"pixel_runtime_context\":\"LAX\",\"pixel_script_version\":\"0530\",\"p"
+    },
+    {
+     "url": "https://otlp-http-production.shopifysvc.com/v1/metrics",
+     "body": "{\"resourceMetrics\":[{\"resource\":{\"attributes\":[{\"key\":\"service.name\",\"value\":{\"stringValue\":\"shop-js\"}}]},\"scopeMetrics\":[{\"scope\":{\"name\":\"open-telemetry-mini-client\",\"version\":\"1.1.0\",\"attributes\":[]},\"metrics\":[{\"name\":\"shop_js_iframe_load_duration\",\"unit\":\"1\",\"exponentialHistogram\":{\"aggregationTemporality\":1,\"dataPoints\":[{\"attributes\":[{\"key\":\"beta\",\"value\":{\"stringValue\":\"true\"}},{\"key\":\"fe"
+    },
+    {
+     "url": "https://otlp-http-production.shopifysvc.com/v1/metrics",
+     "body": "{\"resourceMetrics\":[{\"resource\":{\"attributes\":[{\"key\":\"service.name\",\"value\":{\"stringValue\":\"shop-js\"}}]},\"scopeMetrics\":[{\"scope\":{\"name\":\"open-telemetry-mini-client\",\"version\":\"1.1.0\",\"attributes\":[]},\"metrics\":[{\"name\":\"shop_js_cart_sync_finalize_skipped\",\"unit\":\"1\",\"sum\":{\"aggregationTemporality\":1,\"isMonotonic\":true,\"dataPoints\":[{\"startTimeUnixNano\":1794351392879000000,\"timeUnixNano\":1794351"
+    },
+    {
+     "url": "https://otlp-http-production.shopifysvc.com/v1/metrics",
+     "body": "{\"resourceMetrics\":[{\"resource\":{\"attributes\":[{\"key\":\"service.name\",\"value\":{\"stringValue\":\"shop-js\"}}]},\"scopeMetrics\":[{\"scope\":{\"name\":\"open-telemetry-mini-client\",\"version\":\"1.1.0\",\"attributes\":[]},\"metrics\":[{\"name\":\"shop_js_cart_sync_next_recognition_stored\",\"unit\":\"1\",\"sum\":{\"aggregationTemporality\":1,\"isMonotonic\":true,\"dataPoints\":[{\"startTimeUnixNano\":1794351392879000000,\"timeUnixNano\":"
+    },
+    {
+     "url": "https://otlp-http-production.shopifysvc.com/v1/logs",
+     "body": "{\"resourceLogs\":[{\"resource\":{\"attributes\":[{\"key\":\"service.name\",\"value\":{\"stringValue\":\"shop-js\"}}]},\"scopeLogs\":[{\"scope\":{\"name\":\"open-telemetry-mini-client\",\"version\":\"1.1.0\",\"attributes\":[]},\"logRecords\":[{\"timeUnixNano\":1794351392880000000,\"observedTimeUnixNano\":1794351392880000000,\"attributes\":[{\"key\":\"beta\",\"value\":{\"boolValue\":true}},{\"key\":\"feature\",\"value\":{\"stringValue\":\"ShopCartSync\""
+    },
+    {
+     "url": "https://collect.analyze.ly/",
+     "body": "------1a1c7ad68c3\r\nContent-Disposition: form-data; name=\"beaconreq\"\r\n\r\npid=c67f16b7-e928-4408-8263-bd01b273c9df&sid=209325246bc811f09e660affe370466f&purl=https%3A%2F%2Fnaturesbounty.com%2F&pst=1794351392955&pct=1794351392961&sblf=false&sr=1&mts=1794351392961&taginfo=eyJyZXF1ZXN0TGlzdCI6WyJydD1yZXNvdXJjZSZjZT0wJmNzPTAmZGxlPTAmZGxzPTAmZD0xODAuNTAmZXQ9cmVzb3VyY2UmZnM9MjA0LjUmaXQ9c2NyaXB0Jm49aHR0cHMlM"
+    },
+    {
+     "url": "https://collect.analyze.ly/",
+     "body": "------1a1c7ad68c4\r\nContent-Disposition: form-data; name=\"beaconreq\"\r\n\r\npid=c67f16b7-e928-4408-8263-bd01b273c9df&sid=209325246bc811f09e660affe370466f&purl=https%3A%2F%2Fnaturesbounty.com%2F&pst=1794351392955&pct=1794351392961&sblf=false&sr=1&mts=1794351392961&taginfo=eyJyZXF1ZXN0TGlzdCI6WyJydD1yZXNvdXJjZSZjZT0zMjQuNTk5OTk5OTk5NjI3NDcmY3M9MzI0LjU5OTk5OTk5OTYyNzQ3JmRsZT0zMjQuNTk5OTk5OTk5NjI3NDcmZGxzP"
+    }
+   ],
+   "textAtLoad": 7096,
+   "mainEmptyAtLoad": false
+  },
+  "/blogs/news": {
+   "url": "https://naturesbounty.com/blogs/news",
+   "status": 200,
+   "host": "naturesbounty.com",
+   "title": "Latest Health News and Articles – Nature's Bounty",
+   "forms": [
+    {
+     "name": "search-form",
+     "action": "https://naturesbounty.com/search",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:q"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "header-drawer__form",
+     "action": "https://naturesbounty.com/search",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:q"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "ContactFooter",
+     "action": "https://naturesbounty.com/contact#ContactFooter",
+     "method": "post",
+     "role": "",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "email:contact[email]"
+     ],
+     "hidden": [
+      "form_type",
+      "utf8",
+      "contact[tags]"
+     ],
+     "tokens": [],
+     "search": false,
+     "inlineHandler": false
+    },
+    {
+     "name": "needsclick",
+     "action": null,
+     "method": "get",
+     "role": "",
+     "inChrome": false,
+     "fields": 2,
+     "signature": [
+      "text:first_name_01KZV8DQ69Z8XPDDEEYXD27MGC",
+      "email:email"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": false,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Filter Icon",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 11,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "",
+     "textLen": 552,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "dialog",
+     "heading": "Your Privacy Choices",
+     "textLen": 1698,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "dialog",
+     "heading": "",
+     "textLen": 375,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 4,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "https://naturesbounty.com/web-pixels@997f36b7wa91af9b9p0b3d274amb4b328d1/custom/web-pixel-shopify-custom-pixel@0530/sandbox/modern/blogs/news",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://insight.adsrvr.org/track/cei?advertiser_id=fx8dueq&cookie_sync=1&upv=3.0.0&upid=lfny2eb&ref=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Fnews",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://insight.adsrvr.org/track/cei?advertiser_id=29b0puu&cookie_sync=1&upv=3.0.0&upid=66qw024&ref=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Fnews",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://9560950.fls.doubleclick.net/activityi;src=9560950;type=websi0;cat=nbtyw0;rcb=7;ord=7961412237255;npa=0;auiddc=1004944459.1794351406;u2=naturesbounty.com;u1=https%3A%2F%2Fnaturesbounty.com%2Fbl",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://9560950.fls.doubleclick.net/activityi;src=9560950;type=engage;cat=en_01;rcb=7;ord=4625906317783;npa=0;auiddc=1004944459.1794351406;u68=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Fnews;u69=;u80=n",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://9560950.fls.doubleclick.net/activityi;src=9560950;type=engage;cat=en_07;rcb=7;ord=1;num=6550175528564;npa=0;auiddc=1004944459.1794351406;u68=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Fnews;u69=",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://9051573.fls.doubleclick.net/activityi;src=9051573;type=omdisp;cat=nestl0;rcb=13;ord=7360023885407;npa=0;auiddc=1004944459.1794351406;u2=naturesbounty.com;gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;u",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://insight.adsrvr.org/track/cei?advertiser_id=lni56pf&cookie_sync=1&upv=3.0.0&upid=f56ztfr&ref=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Fnews",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": "https://naturesbounty.com/web-pixels@997f36b7wa91af9b9p0b3d274amb4b328d1/custom/web-pixel-shopify-custom-pixel@0530/sandbox/modern/blogs/news",
+     "title": null,
+     "w": 4,
+     "h": 4
+    },
+    {
+     "src": null,
+     "title": "onetrust-text-resize",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "https://insight.adsrvr.org/track/cei?advertiser_id=fx8dueq&cookie_sync=1&upv=3.0.0&upid=lfny2eb&ref=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Fnews",
+     "title": "TTD Universal Pixel",
+     "w": 4,
+     "h": 4
+    },
+    {
+     "src": "https://insight.adsrvr.org/track/cei?advertiser_id=29b0puu&cookie_sync=1&upv=3.0.0&upid=66qw024&ref=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Fnews",
+     "title": "TTD Universal Pixel",
+     "w": 4,
+     "h": 4
+    },
+    {
+     "src": "https://9560950.fls.doubleclick.net/activityi;src=9560950;type=websi0;cat=nbtyw0;rcb=7;ord=7961412237255;npa=0;auiddc=1004944459.1794351406;u2=naturesbounty.com;u1=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Fnews;gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6b91v9181466229z871648377za20gzb71648377zd71648377xeaxf1;gcs=G111;gcd=13v3v3v3v5l1;dma=0;dc_fmt=2;tag_exp=115938466~115938468~118897920~118897930~120213116~120385423~120412528~120420414~120469145~120469153~121191153~121246026~121246034~123329123~123814185;epver=2;dc_random=1794351406_qHKlKsIcsmoTcW1dOqVoT6v5Ger0dKMYtA;_dc_test=1;~oref=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Fnews?",
+     "title": null,
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "https://9560950.fls.doubleclick.net/activityi;src=9560950;type=engage;cat=en_01;rcb=7;ord=4625906317783;npa=0;auiddc=1004944459.1794351406;u68=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Fnews;u69=;u80=naturesbounty.com;gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6b91v9181466229z89189674600za20gzb71648377zd71648377xeaxf1;gcs=G111;gcd=13v3v3v3v5l1;dma=0;dc_fmt=2;tag_exp=115938466~115938468~118897920~118897930~120213116~120385423~120412528~120420414~120469145~120469153~121191153~121246026~121246034~123329123~123814185;epver=2;dc_random=1794351406_Kx0MSMVEWLKUGtOaqzaFWQBUjKMzj6LxDA;_dc_test=1;~oref=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Fnews?",
+     "title": null,
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "https://9560950.fls.doubleclick.net/activityi;src=9560950;type=engage;cat=en_07;rcb=7;ord=1;num=6550175528564;npa=0;auiddc=1004944459.1794351406;u68=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Fnews;u69=;u80=naturesbounty.com;gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KJA;gtm=45fe6b91v9181466229z89189674600za20gzb71648377zd71648377xeaxf1;gcs=G111;gcd=13v3v3v3v5l1;dma=0;dc_fmt=2;tag_exp=115938466~115938468~118897920~118897930~120213116~120385423~120412528~120420414~120469145~120469153~121191153~121246026~121246034~123329123~123814185;epver=2;dc_random=1794351406_1H3QIOPzHWYVuyVuCEUtPM4Q4BAfwzHdiQ;_dc_test=1;~oref=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Fnews?",
+     "title": null,
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "https://9051573.fls.doubleclick.net/activityi;src=9051573;type=omdisp;cat=nestl0;rcb=13;ord=7360023885407;npa=0;auiddc=1004944459.1794351406;u2=naturesbounty.com;gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6b91v9181647366z871648377za20gzb71648377zd71648377xeaxf1;gcs=G111;gcd=13v3v3v3v5l1;dma=0;dc_fmt=2;tag_exp=115616986~115938466~115938468~118897920~118897930~120213116~120385422~120412526~120420416~120469145~120469153~121191153~121246026~121246034~123329123~123814185;epver=2;dc_random=1794351406_e7lP9Urt1YkgTH52RnRwoAPmJo1B3848fQ;_dc_test=1;~oref=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Fnews?",
+     "title": null,
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "https://insight.adsrvr.org/track/cei?advertiser_id=lni56pf&cookie_sync=1&upv=3.0.0&upid=f56ztfr&ref=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Fnews",
+     "title": "TTD Universal Pixel",
+     "w": 4,
+     "h": 4
+    }
+   ],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": true,
+    "prices": 2
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [
+     "en-us"
+    ],
+    "switcher": []
+   },
+   "cms": {
+    "Shopify": [
+     "shop",
+     "locale",
+     "currency",
+     "country",
+     "theme",
+     "cdnHost",
+     "routes",
+     "shopJsCdnBaseUrl",
+     "SignInWithShop",
+     "loadFeatures",
+     "autoloadFeatures",
+     "featureAssets",
+     "ce_forms",
+     "captcha",
+     "PaymentButton",
+     "analytics",
+     "modules",
+     "actions",
+     "evids",
+     "trackingConsent",
+     "customerPrivacy"
+    ],
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "17",
+     "18",
+     "19",
+     "20",
+     "21",
+     "push"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "OneTrust",
+    "Optanon",
+    "google_tag_manager",
+    "gtag",
+    "Shopify"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [
+    {
+     "cls": "container__tight",
+     "cards": 4,
+     "sameSite": 4,
+     "hasDate": true
+    },
+    {
+     "cls": "blog__listing article-item__grid",
+     "cards": 9,
+     "sameSite": 9,
+     "hasDate": true
+    }
+   ],
+   "inlineScripts": 46,
+   "inlineFetch": true,
+   "mainText": 2266,
+   "domAddedAfterLoad": 203,
+   "hosts": {
+    "naturesbounty.com": 241,
+    "use.typekit.net": 5,
+    "cdn.shopify.com": 22,
+    "cdn.jsdelivr.net": 2,
+    "p.typekit.net": 1,
+    "cdn.cookielaw.org": 9,
+    "static.klaviyo.com": 44,
+    "geolocation.onetrust.com": 1,
+    "cdn.segment.com": 6,
+    "www.googletagmanager.com": 11,
+    "shop.app": 1,
+    "static-tracking.klaviyo.com": 4,
+    "otlp-http-production.shopifysvc.com": 9,
+    "d22xmn10vbouk4.cloudfront.net": 1,
+    "fast.a.klaviyo.com": 3,
+    "static-forms.klaviyo.com": 1,
+    "fonts.googleapis.com": 1,
+    "collect.analyze.ly": 25,
+    "monorail-edge.shopifysvc.com": 2,
+    "www.google-analytics.com": 2,
+    "stats.g.doubleclick.net": 1,
+    "analytics.google.com": 1,
+    "www.google.com": 6,
+    "d3k81ch9hvuctc.cloudfront.net": 1,
+    "js.adsrvr.org": 4,
+    "s.pinimg.com": 2,
+    "cdn.gbqofs.com": 4,
+    "connect.facebook.net": 6,
+    "zn3j7qz4e0kmok5mq-nestleglobalmktg.siteintercept.qualtrics.com": 1,
+    "ad.doubleclick.net": 8,
+    "insight.adsrvr.org": 6,
+    "match.adsrvr.org": 10,
+    "ib.adnxs.com": 4,
+    "simage2.pubmatic.com": 1,
+    "pixel.rubiconproject.com": 1,
+    "dsum-sec.casalemedia.com": 4,
+    "cm.g.doubleclick.net": 6,
+    "9560950.fls.doubleclick.net": 6,
+    "siteintercept.qualtrics.com": 2,
+    "nestle-privacy.my.onetrust.com": 1,
+    "adservice.google.com": 4,
+    "9051573.fls.doubleclick.net": 2,
+    "ct.pinterest.com": 4,
+    "www.facebook.com": 5,
+    "fonts.gstatic.com": 1,
+    "a.klaviyo.com": 2
+   },
+   "thirdPartyHosts": [
+    "use.typekit.net",
+    "cdn.shopify.com",
+    "cdn.jsdelivr.net",
+    "p.typekit.net",
+    "cdn.cookielaw.org",
+    "static.klaviyo.com",
+    "geolocation.onetrust.com",
+    "cdn.segment.com",
+    "www.googletagmanager.com",
+    "shop.app",
+    "static-tracking.klaviyo.com",
+    "otlp-http-production.shopifysvc.com",
+    "d22xmn10vbouk4.cloudfront.net",
+    "fast.a.klaviyo.com",
+    "static-forms.klaviyo.com",
+    "fonts.googleapis.com",
+    "collect.analyze.ly",
+    "monorail-edge.shopifysvc.com",
+    "www.google-analytics.com",
+    "stats.g.doubleclick.net",
+    "analytics.google.com",
+    "www.google.com",
+    "d3k81ch9hvuctc.cloudfront.net",
+    "js.adsrvr.org",
+    "s.pinimg.com",
+    "cdn.gbqofs.com",
+    "connect.facebook.net",
+    "zn3j7qz4e0kmok5mq-nestleglobalmktg.siteintercept.qualtrics.com",
+    "ad.doubleclick.net",
+    "insight.adsrvr.org",
+    "match.adsrvr.org",
+    "ib.adnxs.com",
+    "simage2.pubmatic.com",
+    "pixel.rubiconproject.com",
+    "dsum-sec.casalemedia.com",
+    "cm.g.doubleclick.net",
+    "9560950.fls.doubleclick.net",
+    "siteintercept.qualtrics.com",
+    "nestle-privacy.my.onetrust.com",
+    "adservice.google.com",
+    "9051573.fls.doubleclick.net",
+    "ct.pinterest.com",
+    "www.facebook.com",
+    "fonts.gstatic.com",
+    "a.klaviyo.com"
+   ],
+   "scripts": [
+    "https://cdn.shopify.com/extensions/01a061ba-09b8-7f28-a51f-be55b3ced758/onetrust-consent-management-67/assets/storefront-consent.js",
+    "https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js",
+    "https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js",
+    "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+    "https://naturesbounty.com/checkouts/internal/preloads.js?locale=en-US&default_configuration_id=549880037",
+    "https://cdn.shopify.com/storefront/standard-actions.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+    "https://naturesbounty.com/cdn/shop/t/309/assets/predictive-search.js?v=61543722350796571621792097841",
+    "https://cdn.shopify.com/shopifycloud/storefront/assets/storefront/origin_trials-6af5f5e9.js",
+    "https://static.klaviyo.com/onsite/js/RC6LF3/klaviyo.js?company_id=RC6LF3",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.document_DMcRsBXN.esm.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/client.init-shop-cart-sync_g3NxlI70.en.esm.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.window_CAbVMZox.esm.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.init_D32yj4-j.esm.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.networkErrorMessages_Du380vAr.esm.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.register_CnRJIKy5.esm.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/client.shop-cart-sync_CUkqMlum.en.esm.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.defineInitFunction_DyjeAYT_.esm.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.casing_U_9x-Om3.esm.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.hooks_cul_1OmT.esm.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.storage_n5jjEbMM.esm.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.v4_C3N_0s0v.esm.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.useUserRecognitionSignal_FnE5sYgR.esm.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.useEventListener_DxYrO7Ds.esm.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.utils_Cjeq_SSZ.esm.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.authorize_DINGMyE5.esm.js",
+    "https://naturesbounty.com/cdn/shopifycloud/storefront/assets/storefront/load_feature-ed94c51f.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.validators_BbO3UEjF.esm.js",
+    "https://naturesbounty.com/cdn/shop/t/309/assets/jquery-3.6.0.min.js?v=8324501383853434791792097841",
+    "https://naturesbounty.com/cdn/shop/t/309/assets/slick.min.js?v=71779134894361685811792097841",
+    "https://cdn.segment.com/analytics.js/v1/ECsOHW2FVtOpLt7aQNdDdfnUMeHL3Gdr/analytics.min.js",
+    "https://naturesbounty.com/cdn/shop/t/309/assets/bundle.theme.min.js?v=172051009938250590061792097841",
+    "https://naturesbounty.com/cdn/shop/t/309/assets/utils.js?v=34866713500792996831792097841",
+    "https://naturesbounty.com/cdn/shopifycloud/perf-kit/shopify-perf-kit-3.15.1.min.js",
+    "https://naturesbounty.com/cdn/shopifycloud/storefront/assets/shop_events_listener-819172a8.js",
+    "https://naturesbounty.com/cdn/wpm/b997f36b7wa91af9b9p0b3d274amb4b328d1m.js",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-TK5SRJ",
+    "https://cdn.cookielaw.org/scripttemplates/202603.1.0/otBannerSdk.js",
+    "https://naturesbounty.com/cdn/shopifycloud/consent-tracking-api/v0.1/consent-tracking-api.js",
+    "https://naturesbounty.com/cdn/shopifycloud/storefront/assets/storefront/webmcp-cfeae510.js",
+    "https://naturesbounty.com/web-pixels@997f36b7wa91af9b9p0b3d274amb4b328d1/web-pixel-shopify-app-pixel@0530/sandbox/worker.modern.js",
+    "https://static.klaviyo.com/onsite/js/runtime.e4a3fce60037d.js?cb=2",
+    "https://static.klaviyo.com/onsite/js/default~atlas~product_recommendations.077e10e798dbf.js?cb=2",
+    "https://static.klaviyo.com/onsite/js/event_adapter.3e4ac49b9784b.js?cb=2",
+    "https://static.klaviyo.com/onsite/js/vendors~atlas.a0cc055f2ddf2.js?cb=2",
+    "https://static.klaviyo.com/onsite/js/signup_forms.85bafbb8fcc4c.js?cb=2",
+    "https://static.klaviyo.com/onsite/js/vendors~signup_forms~telemetry~client_identity~~onsite-personalization~onsite-triggering-v2~in_app_forms.452e299a9c841.js?cb=2",
+    "https://static.klaviyo.com/onsite/js/vendors~in_app_forms~signup_forms~reviews~atlas~product_recommendations.2275e937808a4.js?cb=2",
+    "https://static.klaviyo.com/onsite/js/vendors~telemetry~static~in_app_forms~signup_forms~fender_analytics~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~atlas~",
+    "https://static.klaviyo.com/onsite/js/default~in_app_forms~signup_forms.5e14808ce1847.js?cb=2",
+    "https://static.klaviyo.com/onsite/js/vendors~in_app_forms~signup_forms.b7c0bc7f31ca6.js?cb=2",
+    "https://static.klaviyo.com/onsite/js/sharedUtils.62069612d88bc.js?cb=2",
+    "https://static-tracking.klaviyo.com/onsite/js/post_identification_sync.18ffd667c7fa3.js?cb=2",
+    "https://static-tracking.klaviyo.com/onsite/js/telemetry.779aef45cacb9.js?cb=2",
+    "https://static-tracking.klaviyo.com/onsite/js/static.a34ac6ae9581b.js?cb=2",
+    "https://static-tracking.klaviyo.com/onsite/js/fender_analytics.591c389dd3e23.js?cb=2",
+    "https://static.klaviyo.com/onsite/js/atlas.83bc5c67ffd7a.js?cb=2",
+    "https://d22xmn10vbouk4.cloudfront.net/209325246bc811f09e660affe370466f.js",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-MZ6VWCKX&gtm=4e6b91",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-57F7STTF&gtm=4e6b91"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "naturesbounty.com",
+     "path": "/cdn/shopifycloud/storefront/assets/storefront/storefronts.moderate.specrules-eb468f32.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/speculationrules+json",
+     "example": "https://naturesbounty.com/cdn/shopifycloud/storefront/assets/storefront/storefronts.moderate.specrules-eb468f32.json"
+    },
+    {
+     "method": "POST",
+     "host": "naturesbounty.com",
+     "path": "/api/collect",
+     "query": [],
+     "status": 204,
+     "contentType": "",
+     "example": "https://naturesbounty.com/api/collect"
+    },
+    {
+     "method": "POST",
+     "host": "naturesbounty.com",
+     "path": "/.well-known/shopify/monorail/unstable/produce_batch",
+     "query": [],
+     "status": 200,
+     "contentType": "",
+     "example": "https://naturesbounty.com/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+     "method": "POST",
+     "host": "naturesbounty.com",
+     "path": "/api/unstable/graphql.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://naturesbounty.com/api/unstable/graphql.json"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET cdn.cookielaw.org/consent/0192d4bb-934a-7c29-846f-bfc1f5164092/0192d4bb-934a-7c29-846f-bfc1f51640",
+    "GET geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+    "GET cdn.segment.com/v1/projects/ECsOHW2FVtOpLt7aQNdDdfnUMeHL3Gdr/settings",
+    "POST otlp-http-production.shopifysvc.com/v1/metrics",
+    "GET cdn.cookielaw.org/consent/0192d4bb-934a-7c29-846f-bfc1f5164092/019d4547-0f36-7be3-8e73-f595998990",
+    "GET fast.a.klaviyo.com/custom-fonts/api/v1/company-fonts/onsite",
+    "GET cdn.cookielaw.org/scripttemplates/202603.1.0/assets/v2/otPcCenter.json",
+    "GET cdn.cookielaw.org/scripttemplates/202603.1.0/assets/otFlat.json",
+    "GET cdn.cookielaw.org/scripttemplates/202603.1.0/assets/otCommonStyles.css",
+    "GET static-forms.klaviyo.com/forms/api/v7/RC6LF3/full-forms",
+    "GET cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+    "POST otlp-http-production.shopifysvc.com/v1/logs",
+    "POST collect.analyze.ly/",
+    "POST monorail-edge.shopifysvc.com/v1/produce",
+    "GET fast.a.klaviyo.com/atlas/api/public/settings/RC6LF3",
+    "GET fast.a.klaviyo.com/atlas/api/public/l10n/RC6LF3/en",
+    "POST www.google-analytics.com/g/collect",
+    "POST analytics.google.com/g/collect",
+    "POST www.google.com/measurement/conversion",
+    "POST ad.doubleclick.net/ccm/s/collect",
+    "POST www.google.com/ccm/collect",
+    "POST nestle-privacy.my.onetrust.com/request/v1/consentreceipts/anonymous",
+    "POST ad.doubleclick.net/activity;src=9560950;type=engage;cat=en_01;rcb=7;ord=4625906317783;npa=0;auiddc",
+    "POST ad.doubleclick.net/activity;src=9560950;type=engage;cat=en_07;rcb=7;ord=1;num=6550175528564;npa=0;",
+    "GET ad.doubleclick.net/activity;_dc_ptd=ChEIgJ7L1wYQ3Zvi-_jzl9vIARIfAA2StjyBExk7kWAPD7pGadM1nuohIgJsCN",
+    "GET ct.pinterest.com/v3/",
+    "GET ct.pinterest.com/user/",
+    "POST ad.doubleclick.net/activity;src=9560950;type=websi0;cat=nbtyw0;rcb=7;ord=7961412237255;npa=0;auidd",
+    "GET ad.doubleclick.net/activity;_dc_ptd=ChEIgJ7L1wYQ3Zvi-_jzl9vIARIfAA2Stjz9OO5u-AmBJbCEMSVUDhB0-rIqZi",
+    "GET www.google.com/gmp/conversion/_dc_unique_id=12611624376527972002;_dc_ptd=ChEIgJ7L1wYQ3Zvi-_jzl",
+    "POST siteintercept.qualtrics.com/WRSiteInterceptEngine/Targeting.php",
+    "POST ad.doubleclick.net/activity;src=9051573;type=omdisp;cat=nestl0;rcb=13;ord=7360023885407;npa=0;auid",
+    "GET ad.doubleclick.net/activity;_dc_ptd=ChEIgJ7L1wYQ3Zvi-_jzl9vIARIfAA2StjwJW86uw4pJMtnV3uDVJL8y3IOZW7",
+    "GET www.google.com/gmp/conversion/_dc_unique_id=13942773712601135542;_dc_ptd=ChEIgJ7L1wYQ3Zvi-_jzl",
+    "POST insight.adsrvr.org/track/realtimeconversion",
+    "POST a.klaviyo.com/onsite/track-analytics"
+   ],
+   "postBodies": [
+    {
+     "url": "https://naturesbounty.com/api/collect",
+     "body": "{\"v\":1,\"s\":{\"wd\":false,\"ua\":false,\"cf\":true,\"be\":true,\"nm\":false,\"nc\":false,\"ka\":false,\"sa\":false,\"ta\":false,\"pt\":false,\"mp\":false,\"sd\":false},\"r\":\"change\",\"l\":\"2.7.0\"}"
+    },
+    {
+     "url": "https://otlp-http-production.shopifysvc.com/v1/metrics",
+     "body": "{\"resourceMetrics\":[{\"resource\":{\"attributes\":[{\"key\":\"service.name\",\"value\":{\"stringValue\":\"web-pixels-manager\"}}]},\"scopeMetrics\":[{\"scope\":{\"name\":\"open-telemetry-mini-client\",\"version\":\"1.1.0\",\"attributes\":[]},\"metrics\":[{\"name\":\"web_pixels_manager_feature_usage\",\"unit\":\"1\",\"sum\":{\"aggregationTemporality\":1,\"isMonotonic\":true,\"dataPoints\":[{\"startTimeUnixNano\":1794351404275000000,\"timeUnixNano"
+    },
+    {
+     "url": "https://otlp-http-production.shopifysvc.com/v1/metrics",
+     "body": "{\"resourceMetrics\":[{\"resource\":{\"attributes\":[{\"key\":\"service.name\",\"value\":{\"stringValue\":\"consent-tracking-api\"}}]},\"scopeMetrics\":[{\"scope\":{\"name\":\"consent-tracking-api-opentelemetry\",\"version\":\"1.1.1\",\"attributes\":[]},\"metrics\":[{\"name\":\"consent_tracking_api_tracking_token_read\",\"unit\":\"1\",\"sum\":{\"aggregationTemporality\":1,\"isMonotonic\":true,\"dataPoints\":[{\"asDouble\":1,\"startTimeUnixNano\":17"
+    },
+    {
+     "url": "https://otlp-http-production.shopifysvc.com/v1/metrics",
+     "body": "{\"resourceMetrics\":[{\"resource\":{\"attributes\":[{\"key\":\"service.name\",\"value\":{\"stringValue\":\"shop-js\"}}]},\"scopeMetrics\":[{\"scope\":{\"name\":\"open-telemetry-mini-client\",\"version\":\"1.1.0\",\"attributes\":[]},\"metrics\":[{\"name\":\"shop_js_cart_sync_transfer_session_attempted\",\"unit\":\"1\",\"sum\":{\"aggregationTemporality\":1,\"isMonotonic\":true,\"dataPoints\":[{\"startTimeUnixNano\":1794351404312000000,\"timeUnixNan"
+    },
+    {
+     "url": "https://naturesbounty.com/.well-known/shopify/monorail/unstable/produce_batch",
+     "body": "{\"events\":[{\"schema_id\":\"web_pixels_manager_init/3.2\",\"payload\":{\"version\":\"997f36b7wa91af9b9p0b3d274amb4b328d1\",\"bundle_target\":\"modern\",\"page_url\":\"https://naturesbounty.com/blogs/news\",\"shop_id\":66509275365,\"surface\":\"storefront-renderer\",\"status\":\"initialized\",\"user_can_be_tracked\":\"true\"},\"metadata\":{\"event_created_at_ms\":1794351404288}},{\"schema_id\":\"web_pixels_manager_event_publish/1.7\",\"pa"
+    },
+    {
+     "url": "https://naturesbounty.com/.well-known/shopify/monorail/unstable/produce_batch",
+     "body": "{\"events\":[{\"schema_id\":\"web_pixels_manager_pixel_register/3.8\",\"payload\":{\"version\":\"997f36b7wa91af9b9p0b3d274amb4b328d1\",\"page_url\":\"https://naturesbounty.com/blogs/news\",\"shop_id\":66509275365,\"surface\":\"storefront-renderer\",\"pixel_id\":\"shopify-app-pixel\",\"pixel_app_id\":\"shopify-pixel\",\"pixel_source\":\"APP\",\"pixel_runtime_context\":\"STRICT\",\"pixel_script_version\":\"0530\",\"pixel_configuration\":\"{}\","
+    },
+    {
+     "url": "https://collect.analyze.ly/",
+     "body": "------1a1c7ad9649\r\nContent-Disposition: form-data; name=\"beaconreq\"\r\n\r\npid=9df451a7-8d1c-4621-82ba-ae6ca1f8106e&sid=209325246bc811f09e660affe370466f&purl=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Fnews&pst=1794351404609&pct=1794351404617&sblf=false&sr=1&mts=1794351404617&taginfo=eyJyZXF1ZXN0TGlzdCI6WyJydD1yZXNvdXJjZSZjZT0wJmNzPTAmZGxlPTAmZGxzPTAmZD0xNjUuNjAmZXQ9cmVzb3VyY2UmZnM9MTc5LjMwMDAwMDAwMDI3O"
+    },
+    {
+     "url": "https://collect.analyze.ly/",
+     "body": "------1a1c7ad964a\r\nContent-Disposition: form-data; name=\"beaconreq\"\r\n\r\npid=9df451a7-8d1c-4621-82ba-ae6ca1f8106e&sid=209325246bc811f09e660affe370466f&purl=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Fnews&pst=1794351404609&pct=1794351404617&sblf=false&sr=1&mts=1794351404617&taginfo=eyJyZXF1ZXN0TGlzdCI6WyJydD1yZXNvdXJjZSZjZT0yNDguMzAwMDAwMDAwMjc5NCZjcz0yNDguMzAwMDAwMDAwMjc5NCZkbGU9MjQ4LjMwMDAwMDAwMDI3O"
+    },
+    {
+     "url": "https://collect.analyze.ly/",
+     "body": "------1a1c7ad964b\r\nContent-Disposition: form-data; name=\"beaconreq\"\r\n\r\npid=9df451a7-8d1c-4621-82ba-ae6ca1f8106e&sid=209325246bc811f09e660affe370466f&purl=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Fnews&pst=1794351404609&pct=1794351404617&sblf=false&sr=1&mts=1794351404617&taginfo=eyJyZXF1ZXN0TGlzdCI6WyJydD1yZXNvdXJjZSZjZT0yNDkuNjAwMDAwMDAwMDkzMTMmY3M9MjQ5LjYwMDAwMDAwMDA5MzEzJmRsZT0yNDkuNjAwMDAwMDAwM"
+    },
+    {
+     "url": "https://collect.analyze.ly/",
+     "body": "------1a1c7ad964c\r\nContent-Disposition: form-data; name=\"beaconreq\"\r\n\r\npid=9df451a7-8d1c-4621-82ba-ae6ca1f8106e&sid=209325246bc811f09e660affe370466f&purl=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Fnews&pst=1794351404609&pct=1794351404617&sblf=false&sr=1&mts=1794351404617&taginfo=eyJyZXF1ZXN0TGlzdCI6WyJydD1yZXNvdXJjZSZjZT0wJmNzPTAmZGxlPTAmZGxzPTAmZD01NC42MCZldD1yZXNvdXJjZSZmcz02NzUuOTAwMDAwMDAwMzcyN"
+    },
+    {
+     "url": "https://collect.analyze.ly/",
+     "body": "------1a1c7ad964c\r\nContent-Disposition: form-data; name=\"beaconreq\"\r\n\r\npid=9df451a7-8d1c-4621-82ba-ae6ca1f8106e&sid=209325246bc811f09e660affe370466f&purl=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Fnews&pst=1794351404609&pct=1794351404617&sblf=false&sr=1&mts=1794351404617&taginfo=eyJyZXF1ZXN0TGlzdCI6WyJydD1yZXNvdXJjZSZjZT0wJmNzPTAmZGxlPTAmZGxzPTAmZD00Ny41MCZldD1yZXNvdXJjZSZmcz03OTMuOTAwMDAwMDAwMzcyN"
+    },
+    {
+     "url": "https://naturesbounty.com/.well-known/shopify/monorail/unstable/produce_batch",
+     "body": "{\"events\":[{\"schema_id\":\"web_pixels_manager_subscriber_event_emit/4.1\",\"payload\":{\"version\":\"997f36b7wa91af9b9p0b3d274amb4b328d1\",\"bundle_target\":\"modern\",\"page_url\":\"https://naturesbounty.com/blogs/news\",\"shop_id\":66509275365,\"surface\":\"storefront-renderer\",\"pixel_id\":\"shopify-app-pixel\",\"pixel_app_id\":\"shopify-pixel\",\"pixel_source\":\"APP\",\"pixel_runtime_context\":\"STRICT\",\"pixel_script_version\":\"0"
+    }
+   ],
+   "textAtLoad": 2266,
+   "mainEmptyAtLoad": false
+  },
+  "/blogs/news/the-benefits-of-biotin": {
+   "url": "https://naturesbounty.com/blogs/news/the-benefits-of-biotin",
+   "status": 200,
+   "host": "naturesbounty.com",
+   "title": "The Benefits of Biotin Gummies – Nature's Bounty",
+   "forms": [
+    {
+     "name": "search-form",
+     "action": "https://naturesbounty.com/search",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:q"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "header-drawer__form",
+     "action": "https://naturesbounty.com/search",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:q"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "ContactFooter",
+     "action": "https://naturesbounty.com/contact#ContactFooter",
+     "method": "post",
+     "role": "",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "email:contact[email]"
+     ],
+     "hidden": [
+      "form_type",
+      "utf8",
+      "contact[tags]"
+     ],
+     "tokens": [],
+     "search": false,
+     "inlineHandler": false
+    },
+    {
+     "name": "needsclick",
+     "action": null,
+     "method": "get",
+     "role": "",
+     "inChrome": false,
+     "fields": 2,
+     "signature": [
+      "text:first_name_01KZV8DQ69Z8XPDDEEYXD27MGC",
+      "email:email"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": false,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Filter Icon",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 11,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "",
+     "textLen": 552,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "dialog",
+     "heading": "Your Privacy Choices",
+     "textLen": 1698,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "dialog",
+     "heading": "",
+     "textLen": 375,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 4,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "https://naturesbounty.com/web-pixels@997f36b7wa91af9b9p0b3d274amb4b328d1/custom/web-pixel-shopify-custom-pixel@0530/sandbox/modern/blogs/news/the-benefits-of-biotin",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "about:blank",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://9560950.fls.doubleclick.net/activityi;src=9560950;type=websi0;cat=nbtyw0;rcb=12;ord=9545559977276;npa=0;auiddc=950240933.1794351417;u2=naturesbounty.com;u1=https%3A%2F%2Fnaturesbounty.com%2Fbl",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://9560950.fls.doubleclick.net/activityi;src=9560950;type=engage;cat=en_01;rcb=12;ord=3894022473030;npa=0;auiddc=950240933.1794351417;u68=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Fnews%2Fthe-bene",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://9560950.fls.doubleclick.net/activityi;src=9560950;type=engage;cat=en_07;rcb=12;ord=1;num=170342288046;npa=0;auiddc=950240933.1794351417;u68=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Fnews%2Fthe",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://9051573.fls.doubleclick.net/activityi;src=9051573;type=omdisp;cat=nestl0;rcb=7;ord=3958215533189;npa=0;auiddc=950240933.1794351417;u2=naturesbounty.com;gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;uam",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://insight.adsrvr.org/track/cei?advertiser_id=fx8dueq&cookie_sync=1&upv=3.0.0&upid=lfny2eb&ref=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Fnews%2Fthe-benefits-of-biotin",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://insight.adsrvr.org/track/cei?advertiser_id=29b0puu&cookie_sync=1&upv=3.0.0&upid=66qw024&ref=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Fnews%2Fthe-benefits-of-biotin",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://insight.adsrvr.org/track/cei?advertiser_id=lni56pf&cookie_sync=1&upv=3.0.0&upid=f56ztfr&ref=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Fnews%2Fthe-benefits-of-biotin",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": "https://naturesbounty.com/web-pixels@997f36b7wa91af9b9p0b3d274amb4b328d1/custom/web-pixel-shopify-custom-pixel@0530/sandbox/modern/blogs/news/the-benefits-of-biotin",
+     "title": null,
+     "w": 4,
+     "h": 4
+    },
+    {
+     "src": "about:blank",
+     "title": "empty",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": null,
+     "title": "onetrust-text-resize",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "https://9560950.fls.doubleclick.net/activityi;src=9560950;type=websi0;cat=nbtyw0;rcb=12;ord=9545559977276;npa=0;auiddc=950240933.1794351417;u2=naturesbounty.com;u1=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Fnews%2Fthe-benefits-of-biotin;gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6b91v9181466229z871648377za20gzb71648377zd71648377xeaxf1;gcs=G111;gcd=13v3v3v3v5l1;dma=0;dc_fmt=2;tag_exp=115616986~115938465~115938468~118897920~118897930~119860443~120213116~120385422~120412528~120420416~120469145~120469153~121191153~121246026~121246034~123329125~123814185;epver=2;dc_random=1794351418_p7-EXvXbFwDsYJ_OLc202GgJbnqkYVJVmQ;_dc_test=1;~oref=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Fnews%2Fthe-benefits-of-biotin?",
+     "title": null,
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "https://9560950.fls.doubleclick.net/activityi;src=9560950;type=engage;cat=en_01;rcb=12;ord=3894022473030;npa=0;auiddc=950240933.1794351417;u68=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Fnews%2Fthe-benefits-of-biotin;u69=;u80=naturesbounty.com;gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6b91v9181466229z89189674600za20gzb71648377zd71648377xeaxf1;gcs=G111;gcd=13v3v3v3v5l1;dma=0;dc_fmt=2;tag_exp=115616986~115938465~115938468~118897920~118897930~119860443~120213116~120385422~120412528~120420416~120469145~120469153~121191153~121246026~121246034~123329125~123814185;epver=2;dc_random=1794351418_GCoJPgXrkN3iqARBSi_lt003rZyUk5pqfA;_dc_test=1;~oref=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Fnews%2Fthe-benefits-of-biotin?",
+     "title": null,
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "https://9560950.fls.doubleclick.net/activityi;src=9560950;type=engage;cat=en_07;rcb=12;ord=1;num=170342288046;npa=0;auiddc=950240933.1794351417;u68=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Fnews%2Fthe-benefits-of-biotin;u69=;u80=naturesbounty.com;gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KJA;gtm=45fe6b91v9181466229z89189674600za20gzb71648377zd71648377xeaxf1;gcs=G111;gcd=13v3v3v3v5l1;dma=0;dc_fmt=2;tag_exp=115616986~115938465~115938468~118897920~118897930~119860443~120213116~120385422~120412528~120420416~120469145~120469153~121191153~121246026~121246034~123329125~123814185;epver=2;dc_random=1794351418_Y2ncqCYJYFiL9pjFSWBtFNBy7PaXS0L8yw;_dc_test=1;~oref=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Fnews%2Fthe-benefits-of-biotin?",
+     "title": null,
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "https://9051573.fls.doubleclick.net/activityi;src=9051573;type=omdisp;cat=nestl0;rcb=7;ord=3958215533189;npa=0;auiddc=950240933.1794351417;u2=naturesbounty.com;gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6b91v9181647366z871648377za20gzb71648377zd71648377xeaxf1;gcs=G111;gcd=13v3v3v3v5l1;dma=0;dc_fmt=2;tag_exp=100940092~115938465~115938469~118897920~118897930~119860443~120213116~120385422~120412528~120420416~120469145~120469153~121191153~121246026~121246034~123329125~123814185;epver=2;dc_random=1794351418_v6bbaTFXyujbHFktEuaw_guhzVYragEU2g;_dc_test=1;~oref=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Fnews%2Fthe-benefits-of-biotin?",
+     "title": null,
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "https://insight.adsrvr.org/track/cei?advertiser_id=fx8dueq&cookie_sync=1&upv=3.0.0&upid=lfny2eb&ref=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Fnews%2Fthe-benefits-of-biotin",
+     "title": "TTD Universal Pixel",
+     "w": 4,
+     "h": 4
+    },
+    {
+     "src": "https://insight.adsrvr.org/track/cei?advertiser_id=29b0puu&cookie_sync=1&upv=3.0.0&upid=66qw024&ref=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Fnews%2Fthe-benefits-of-biotin",
+     "title": "TTD Universal Pixel",
+     "w": 4,
+     "h": 4
+    },
+    {
+     "src": "https://insight.adsrvr.org/track/cei?advertiser_id=lni56pf&cookie_sync=1&upv=3.0.0&upid=f56ztfr&ref=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Fnews%2Fthe-benefits-of-biotin",
+     "title": "TTD Universal Pixel",
+     "w": 4,
+     "h": 4
+    }
+   ],
+   "mounts": [
+    {
+     "cls": "",
+     "attrs": [
+      "data-bv-show",
+      "data-bv-product-id",
+      "data-bv-seo",
+      "data-bv-ready"
+     ]
+    },
+    {
+     "cls": "",
+     "attrs": [
+      "data-bv-show",
+      "data-bv-product-id",
+      "data-bv-seo",
+      "data-bv-ready"
+     ]
+    }
+   ],
+   "auth": [],
+   "commerce": {
+    "cart": true,
+    "prices": 2
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [
+     "en-us"
+    ],
+    "switcher": []
+   },
+   "cms": {
+    "Shopify": [
+     "shop",
+     "locale",
+     "currency",
+     "country",
+     "theme",
+     "cdnHost",
+     "routes",
+     "shopJsCdnBaseUrl",
+     "SignInWithShop",
+     "loadFeatures",
+     "autoloadFeatures",
+     "featureAssets",
+     "ce_forms",
+     "captcha",
+     "PaymentButton",
+     "analytics",
+     "modules",
+     "actions",
+     "evids",
+     "trackingConsent",
+     "customerPrivacy"
+    ],
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "17",
+     "18",
+     "19",
+     "20",
+     "21",
+     "22",
+     "push"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "OneTrust",
+    "Optanon",
+    "google_tag_manager",
+    "gtag",
+    "Shopify"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [
+    {
+     "cls": "article-item__grid",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": true
+    }
+   ],
+   "inlineScripts": 45,
+   "inlineFetch": true,
+   "mainText": 3398,
+   "domAddedAfterLoad": 175,
+   "hosts": {
+    "naturesbounty.com": 240,
+    "use.typekit.net": 5,
+    "cdn.jsdelivr.net": 2,
+    "cdn.cookielaw.org": 9,
+    "p.typekit.net": 1,
+    "cdn.shopify.com": 22,
+    "cdn.segment.com": 6,
+    "static.klaviyo.com": 44,
+    "apps.bazaarvoice.com": 6,
+    "www.googletagmanager.com": 39,
+    "geolocation.onetrust.com": 1,
+    "otlp-http-production.shopifysvc.com": 9,
+    "static-tracking.klaviyo.com": 4,
+    "shop.app": 1,
+    "api.bazaarvoice.com": 3,
+    "d22xmn10vbouk4.cloudfront.net": 1,
+    "fast.a.klaviyo.com": 3,
+    "static-forms.klaviyo.com": 1,
+    "collect.analyze.ly": 33,
+    "fonts.googleapis.com": 1,
+    "network-a.bazaarvoice.com": 5,
+    "monorail-edge.shopifysvc.com": 2,
+    "www.google-analytics.com": 2,
+    "analytics.google.com": 1,
+    "stats.g.doubleclick.net": 1,
+    "www.google.com": 6,
+    "d3k81ch9hvuctc.cloudfront.net": 1,
+    "s.pinimg.com": 2,
+    "cdn.gbqofs.com": 4,
+    "js.adsrvr.org": 4,
+    "connect.facebook.net": 6,
+    "ad.doubleclick.net": 9,
+    "nestle-privacy.my.onetrust.com": 1,
+    "9560950.fls.doubleclick.net": 6,
+    "adservice.google.com": 4,
+    "9051573.fls.doubleclick.net": 2,
+    "www.facebook.com": 5,
+    "ct.pinterest.com": 5,
+    "zn3j7qz4e0kmok5mq-nestleglobalmktg.siteintercept.qualtrics.com": 1,
+    "insight.adsrvr.org": 6,
+    "siteintercept.qualtrics.com": 2,
+    "match.adsrvr.org": 11,
+    "pixel.rubiconproject.com": 2,
+    "simage2.pubmatic.com": 1,
+    "ib.adnxs.com": 4,
+    "dsum-sec.casalemedia.com": 2,
+    "cm.g.doubleclick.net": 2,
+    "x.bidswitch.net": 2,
+    "api.segment.io": 2,
+    "fonts.gstatic.com": 1,
+    "a.klaviyo.com": 2
+   },
+   "thirdPartyHosts": [
+    "use.typekit.net",
+    "cdn.jsdelivr.net",
+    "cdn.cookielaw.org",
+    "p.typekit.net",
+    "cdn.shopify.com",
+    "cdn.segment.com",
+    "static.klaviyo.com",
+    "apps.bazaarvoice.com",
+    "www.googletagmanager.com",
+    "geolocation.onetrust.com",
+    "otlp-http-production.shopifysvc.com",
+    "static-tracking.klaviyo.com",
+    "shop.app",
+    "api.bazaarvoice.com",
+    "d22xmn10vbouk4.cloudfront.net",
+    "fast.a.klaviyo.com",
+    "static-forms.klaviyo.com",
+    "collect.analyze.ly",
+    "fonts.googleapis.com",
+    "network-a.bazaarvoice.com",
+    "monorail-edge.shopifysvc.com",
+    "www.google-analytics.com",
+    "analytics.google.com",
+    "stats.g.doubleclick.net",
+    "www.google.com",
+    "d3k81ch9hvuctc.cloudfront.net",
+    "s.pinimg.com",
+    "cdn.gbqofs.com",
+    "js.adsrvr.org",
+    "connect.facebook.net",
+    "ad.doubleclick.net",
+    "nestle-privacy.my.onetrust.com",
+    "9560950.fls.doubleclick.net",
+    "adservice.google.com",
+    "9051573.fls.doubleclick.net",
+    "www.facebook.com",
+    "ct.pinterest.com",
+    "zn3j7qz4e0kmok5mq-nestleglobalmktg.siteintercept.qualtrics.com",
+    "insight.adsrvr.org",
+    "siteintercept.qualtrics.com",
+    "match.adsrvr.org",
+    "pixel.rubiconproject.com",
+    "simage2.pubmatic.com",
+    "ib.adnxs.com",
+    "dsum-sec.casalemedia.com",
+    "cm.g.doubleclick.net",
+    "x.bidswitch.net",
+    "api.segment.io",
+    "fonts.gstatic.com",
+    "a.klaviyo.com"
+   ],
+   "scripts": [
+    "https://naturesbounty.com/checkouts/internal/preloads.js?locale=en-US&default_configuration_id=549880037",
+    "https://naturesbounty.com/cdn/shop/t/309/assets/predictive-search.js?v=61543722350796571621792097841",
+    "https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js",
+    "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+    "https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+    "https://cdn.shopify.com/storefront/standard-actions.js",
+    "https://cdn.shopify.com/extensions/01a061ba-09b8-7f28-a51f-be55b3ced758/onetrust-consent-management-67/assets/storefront-consent.js",
+    "https://naturesbounty.com/cdn/shopifycloud/storefront/assets/storefront/load_feature-ed94c51f.js",
+    "https://cdn.shopify.com/shopifycloud/storefront/assets/storefront/origin_trials-6af5f5e9.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/client.init-shop-cart-sync_g3NxlI70.en.esm.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.document_DMcRsBXN.esm.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.window_CAbVMZox.esm.js",
+    "https://naturesbounty.com/cdn/shopifycloud/storefront/assets/shop_events_listener-819172a8.js",
+    "https://naturesbounty.com/cdn/shop/t/309/assets/utils.js?v=34866713500792996831792097841",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.register_CnRJIKy5.esm.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.defineInitFunction_DyjeAYT_.esm.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.networkErrorMessages_Du380vAr.esm.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.init_D32yj4-j.esm.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/client.shop-cart-sync_CUkqMlum.en.esm.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.casing_U_9x-Om3.esm.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.v4_C3N_0s0v.esm.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.useUserRecognitionSignal_FnE5sYgR.esm.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.utils_Cjeq_SSZ.esm.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.storage_n5jjEbMM.esm.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.useEventListener_DxYrO7Ds.esm.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.validators_BbO3UEjF.esm.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.authorize_DINGMyE5.esm.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.hooks_cul_1OmT.esm.js",
+    "https://naturesbounty.com/cdn/shopifycloud/perf-kit/shopify-perf-kit-3.15.1.min.js",
+    "https://naturesbounty.com/cdn/shop/t/309/assets/jquery-3.6.0.min.js?v=8324501383853434791792097841",
+    "https://naturesbounty.com/cdn/shop/t/309/assets/slick.min.js?v=71779134894361685811792097841",
+    "https://naturesbounty.com/cdn/shop/t/309/assets/bundle.theme.min.js?v=172051009938250590061792097841",
+    "https://cdn.segment.com/analytics.js/v1/ECsOHW2FVtOpLt7aQNdDdfnUMeHL3Gdr/analytics.min.js",
+    "https://static.klaviyo.com/onsite/js/RC6LF3/klaviyo.js?company_id=RC6LF3",
+    "https://apps.bazaarvoice.com/deployments/naturesbounty/main_site/production/en_US/bv.js",
+    "https://naturesbounty.com/cdn/wpm/b997f36b7wa91af9b9p0b3d274amb4b328d1m.js",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-TK5SRJ",
+    "https://naturesbounty.com/cdn/shopifycloud/consent-tracking-api/v0.1/consent-tracking-api.js",
+    "https://cdn.cookielaw.org/scripttemplates/202603.1.0/otBannerSdk.js",
+    "https://naturesbounty.com/web-pixels@997f36b7wa91af9b9p0b3d274amb4b328d1/web-pixel-shopify-app-pixel@0530/sandbox/worker.modern.js",
+    "https://naturesbounty.com/cdn/shopifycloud/storefront/assets/storefront/webmcp-cfeae510.js",
+    "https://static.klaviyo.com/onsite/js/runtime.e4a3fce60037d.js?cb=2",
+    "https://static.klaviyo.com/onsite/js/default~atlas~product_recommendations.077e10e798dbf.js?cb=2",
+    "https://static.klaviyo.com/onsite/js/vendors~in_app_forms~signup_forms.b7c0bc7f31ca6.js?cb=2",
+    "https://static.klaviyo.com/onsite/js/vendors~telemetry~static~in_app_forms~signup_forms~fender_analytics~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~atlas~",
+    "https://static.klaviyo.com/onsite/js/vendors~in_app_forms~signup_forms~reviews~atlas~product_recommendations.2275e937808a4.js?cb=2",
+    "https://static.klaviyo.com/onsite/js/vendors~signup_forms~telemetry~client_identity~~onsite-personalization~onsite-triggering-v2~in_app_forms.452e299a9c841.js?cb=2",
+    "https://static.klaviyo.com/onsite/js/vendors~atlas.a0cc055f2ddf2.js?cb=2",
+    "https://static.klaviyo.com/onsite/js/atlas.83bc5c67ffd7a.js?cb=2",
+    "https://static.klaviyo.com/onsite/js/event_adapter.3e4ac49b9784b.js?cb=2",
+    "https://static.klaviyo.com/onsite/js/signup_forms.85bafbb8fcc4c.js?cb=2",
+    "https://static.klaviyo.com/onsite/js/default~in_app_forms~signup_forms.5e14808ce1847.js?cb=2",
+    "https://static.klaviyo.com/onsite/js/sharedUtils.62069612d88bc.js?cb=2",
+    "https://static-tracking.klaviyo.com/onsite/js/fender_analytics.591c389dd3e23.js?cb=2",
+    "https://static-tracking.klaviyo.com/onsite/js/static.a34ac6ae9581b.js?cb=2",
+    "https://static-tracking.klaviyo.com/onsite/js/telemetry.779aef45cacb9.js?cb=2",
+    "https://static-tracking.klaviyo.com/onsite/js/post_identification_sync.18ffd667c7fa3.js?cb=2",
+    "https://apps.bazaarvoice.com/apps/api/api-0.8.2.js",
+    "https://apps.bazaarvoice.com/analytics/bv-analytics.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "naturesbounty.com",
+     "path": "/cdn/shopifycloud/storefront/assets/storefront/storefronts.moderate.specrules-eb468f32.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/speculationrules+json",
+     "example": "https://naturesbounty.com/cdn/shopifycloud/storefront/assets/storefront/storefronts.moderate.specrules-eb468f32.json"
+    },
+    {
+     "method": "POST",
+     "host": "naturesbounty.com",
+     "path": "/api/collect",
+     "query": [],
+     "status": 204,
+     "contentType": "",
+     "example": "https://naturesbounty.com/api/collect"
+    },
+    {
+     "method": "POST",
+     "host": "naturesbounty.com",
+     "path": "/.well-known/shopify/monorail/unstable/produce_batch",
+     "query": [],
+     "status": 200,
+     "contentType": "",
+     "example": "https://naturesbounty.com/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+     "method": "POST",
+     "host": "naturesbounty.com",
+     "path": "/api/unstable/graphql.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://naturesbounty.com/api/unstable/graphql.json"
+    },
+    {
+     "method": "POST",
+     "host": "naturesbounty.com",
+     "path": "/.well-known/shopify/fec/produce",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://naturesbounty.com/.well-known/shopify/fec/produce"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET cdn.cookielaw.org/consent/0192d4bb-934a-7c29-846f-bfc1f5164092/0192d4bb-934a-7c29-846f-bfc1f51640",
+    "GET geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+    "GET cdn.segment.com/v1/projects/ECsOHW2FVtOpLt7aQNdDdfnUMeHL3Gdr/settings",
+    "POST otlp-http-production.shopifysvc.com/v1/metrics",
+    "GET api.bazaarvoice.com/data/batch.json",
+    "GET cdn.cookielaw.org/consent/0192d4bb-934a-7c29-846f-bfc1f5164092/019d4547-0f36-7be3-8e73-f595998990",
+    "POST otlp-http-production.shopifysvc.com/v1/logs",
+    "GET fast.a.klaviyo.com/custom-fonts/api/v1/company-fonts/onsite",
+    "GET cdn.cookielaw.org/scripttemplates/202603.1.0/assets/otCommonStyles.css",
+    "GET cdn.cookielaw.org/scripttemplates/202603.1.0/assets/otFlat.json",
+    "GET cdn.cookielaw.org/scripttemplates/202603.1.0/assets/v2/otPcCenter.json",
+    "GET static-forms.klaviyo.com/forms/api/v7/RC6LF3/full-forms",
+    "GET cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+    "POST collect.analyze.ly/",
+    "POST monorail-edge.shopifysvc.com/v1/produce",
+    "GET api.bazaarvoice.com/data/display/0.2alpha/product/summary",
+    "GET fast.a.klaviyo.com/atlas/api/public/settings/RC6LF3",
+    "GET fast.a.klaviyo.com/atlas/api/public/l10n/RC6LF3/en",
+    "POST www.google-analytics.com/g/collect",
+    "POST analytics.google.com/g/collect",
+    "POST www.google.com/measurement/conversion",
+    "POST www.google.com/ccm/collect",
+    "POST ad.doubleclick.net/ccm/s/collect",
+    "POST nestle-privacy.my.onetrust.com/request/v1/consentreceipts/anonymous",
+    "POST ad.doubleclick.net/activity;src=9560950;type=engage;cat=en_01;rcb=12;ord=3894022473030;npa=0;auidd",
+    "POST ad.doubleclick.net/activity;src=9560950;type=engage;cat=en_07;rcb=12;ord=1;num=170342288046;npa=0;",
+    "GET ad.doubleclick.net/activity;_dc_ptd=ChEIgJ7L1wYQ3Zvi-_jzl9vIARIfAA2StjxU9WWqSJ2cbEXZfNqDiE7tpU3uaX",
+    "GET ad.doubleclick.net/activity;_dc_ptd=ChEIgJ7L1wYQ3Zvi-_jzl9vIARIfAA2Stjyv7xVj5IBuFBRALXl1T_9zRi4EXS",
+    "POST ad.doubleclick.net/activity;src=9560950;type=websi0;cat=nbtyw0;rcb=12;ord=9545559977276;npa=0;auid",
+    "GET ad.doubleclick.net/activity;_dc_ptd=ChEIgJ7L1wYQ3Zvi-_jzl9vIARIfAA2StjxIRzoov6F2_OkA0gimgRzsmIH8hv",
+    "GET www.google.com/gmp/conversion/_dc_unique_id=12786863879005134789;_dc_ptd=ChEIgJ7L1wYQ3Zvi-_jzl",
+    "GET ct.pinterest.com/v3/",
+    "GET ct.pinterest.com/user/",
+    "POST ad.doubleclick.net/activity;src=9051573;type=omdisp;cat=nestl0;rcb=7;ord=3958215533189;npa=0;auidd",
+    "GET ad.doubleclick.net/activity;_dc_ptd=ChEIgJ7L1wYQ3Zvi-_jzl9vIARIfAA2Stjzf1SGaYihlCf-vYTCkVHGJiw9f_F",
+    "GET www.google.com/gmp/conversion/_dc_unique_id=18418639995453942546;_dc_ptd=ChEIgJ7L1wYQ3Zvi-_jzl",
+    "POST ct.pinterest.com/stats/",
+    "POST siteintercept.qualtrics.com/WRSiteInterceptEngine/Targeting.php",
+    "POST insight.adsrvr.org/track/realtimeconversion",
+    "POST api.segment.io/v1/t"
+   ],
+   "postBodies": [
+    {
+     "url": "https://naturesbounty.com/api/collect",
+     "body": "{\"v\":1,\"s\":{\"wd\":false,\"ua\":false,\"cf\":true,\"be\":true,\"nm\":false,\"nc\":false,\"ka\":false,\"sa\":false,\"ta\":false,\"pt\":false,\"mp\":false,\"sd\":false},\"r\":\"change\",\"l\":\"2.7.0\"}"
+    },
+    {
+     "url": "https://otlp-http-production.shopifysvc.com/v1/metrics",
+     "body": "{\"resourceMetrics\":[{\"resource\":{\"attributes\":[{\"key\":\"service.name\",\"value\":{\"stringValue\":\"web-pixels-manager\"}}]},\"scopeMetrics\":[{\"scope\":{\"name\":\"open-telemetry-mini-client\",\"version\":\"1.1.0\",\"attributes\":[]},\"metrics\":[{\"name\":\"web_pixels_manager_feature_usage\",\"unit\":\"1\",\"sum\":{\"aggregationTemporality\":1,\"isMonotonic\":true,\"dataPoints\":[{\"startTimeUnixNano\":1794351415729000000,\"timeUnixNano"
+    },
+    {
+     "url": "https://otlp-http-production.shopifysvc.com/v1/metrics",
+     "body": "{\"resourceMetrics\":[{\"resource\":{\"attributes\":[{\"key\":\"service.name\",\"value\":{\"stringValue\":\"shop-js\"}}]},\"scopeMetrics\":[{\"scope\":{\"name\":\"open-telemetry-mini-client\",\"version\":\"1.1.0\",\"attributes\":[]},\"metrics\":[{\"name\":\"shop_js_cart_sync_transfer_session_attempted\",\"unit\":\"1\",\"sum\":{\"aggregationTemporality\":1,\"isMonotonic\":true,\"dataPoints\":[{\"startTimeUnixNano\":1794351415761000000,\"timeUnixNan"
+    },
+    {
+     "url": "https://naturesbounty.com/.well-known/shopify/monorail/unstable/produce_batch",
+     "body": "{\"events\":[{\"schema_id\":\"web_pixels_manager_init/3.2\",\"payload\":{\"version\":\"997f36b7wa91af9b9p0b3d274amb4b328d1\",\"bundle_target\":\"modern\",\"page_url\":\"https://naturesbounty.com/blogs/news/the-benefits-of-biotin\",\"shop_id\":66509275365,\"surface\":\"storefront-renderer\",\"status\":\"initialized\",\"user_can_be_tracked\":\"true\"},\"metadata\":{\"event_created_at_ms\":1794351415739}},{\"schema_id\":\"web_pixels_manager"
+    },
+    {
+     "url": "https://naturesbounty.com/.well-known/shopify/monorail/unstable/produce_batch",
+     "body": "{\"events\":[{\"schema_id\":\"web_pixels_manager_pixel_register/3.8\",\"payload\":{\"version\":\"997f36b7wa91af9b9p0b3d274amb4b328d1\",\"page_url\":\"https://naturesbounty.com/blogs/news/the-benefits-of-biotin\",\"shop_id\":66509275365,\"surface\":\"storefront-renderer\",\"pixel_id\":\"shopify-app-pixel\",\"pixel_app_id\":\"shopify-pixel\",\"pixel_source\":\"APP\",\"pixel_runtime_context\":\"STRICT\",\"pixel_script_version\":\"0530\",\"pix"
+    },
+    {
+     "url": "https://naturesbounty.com/.well-known/shopify/monorail/unstable/produce_batch",
+     "body": "{\"events\":[{\"schema_id\":\"web_pixels_manager_subscriber_event_emit/4.1\",\"payload\":{\"version\":\"997f36b7wa91af9b9p0b3d274amb4b328d1\",\"bundle_target\":\"modern\",\"page_url\":\"https://naturesbounty.com/blogs/news/the-benefits-of-biotin\",\"shop_id\":66509275365,\"surface\":\"storefront-renderer\",\"pixel_id\":\"shopify-app-pixel\",\"pixel_app_id\":\"shopify-pixel\",\"pixel_source\":\"APP\",\"pixel_runtime_context\":\"STRICT\",\"p"
+    },
+    {
+     "url": "https://collect.analyze.ly/",
+     "body": "------1a1c7adc350\r\nContent-Disposition: form-data; name=\"beaconreq\"\r\n\r\npid=e2a58632-f654-46b7-9c10-217d1ee7584c&sid=209325246bc811f09e660affe370466f&purl=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Fnews%2Fthe-benefits-of-biotin&pst=1794351416137&pct=1794351416144&sblf=false&sr=1&mts=1794351416144&taginfo=eyJyZXF1ZXN0TGlzdCI6WyJydD1yZXNvdXJjZSZjZT0wJmNzPTAmZGxlPTAmZGxzPTAmZD0xOTYuMDAmZXQ9cmVzb3VyY2Um"
+    },
+    {
+     "url": "https://collect.analyze.ly/",
+     "body": "------1a1c7adc351\r\nContent-Disposition: form-data; name=\"beaconreq\"\r\n\r\npid=e2a58632-f654-46b7-9c10-217d1ee7584c&sid=209325246bc811f09e660affe370466f&purl=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Fnews%2Fthe-benefits-of-biotin&pst=1794351416137&pct=1794351416144&sblf=false&sr=1&mts=1794351416144&taginfo=eyJyZXF1ZXN0TGlzdCI6WyJydD1yZXNvdXJjZSZjZT0yNTcuMzAwMDAwMDAwMjc5NCZjcz0yNTcuMzAwMDAwMDAwMjc5NCZk"
+    },
+    {
+     "url": "https://collect.analyze.ly/",
+     "body": "------1a1c7adc352\r\nContent-Disposition: form-data; name=\"beaconreq\"\r\n\r\npid=e2a58632-f654-46b7-9c10-217d1ee7584c&sid=209325246bc811f09e660affe370466f&purl=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Fnews%2Fthe-benefits-of-biotin&pst=1794351416137&pct=1794351416144&sblf=false&sr=1&mts=1794351416144&taginfo=eyJyZXF1ZXN0TGlzdCI6WyJydD1yZXNvdXJjZSZjZT0yNTcuOTAwMDAwMDAwMzcyNTMmY3M9MjU3LjkwMDAwMDAwMDM3MjUz"
+    },
+    {
+     "url": "https://collect.analyze.ly/",
+     "body": "------1a1c7adc353\r\nContent-Disposition: form-data; name=\"beaconreq\"\r\n\r\npid=e2a58632-f654-46b7-9c10-217d1ee7584c&sid=209325246bc811f09e660affe370466f&purl=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Fnews%2Fthe-benefits-of-biotin&pst=1794351416137&pct=1794351416144&sblf=false&sr=1&mts=1794351416144&taginfo=eyJyZXF1ZXN0TGlzdCI6WyJydD1yZXNvdXJjZSZjZT0wJmNzPTAmZGxlPTAmZGxzPTAmZD0yMy44MCZldD1yZXNvdXJjZSZm"
+    },
+    {
+     "url": "https://collect.analyze.ly/",
+     "body": "------1a1c7adc354\r\nContent-Disposition: form-data; name=\"beaconreq\"\r\n\r\npid=e2a58632-f654-46b7-9c10-217d1ee7584c&sid=209325246bc811f09e660affe370466f&purl=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Fnews%2Fthe-benefits-of-biotin&pst=1794351416137&pct=1794351416144&sblf=false&sr=1&mts=1794351416144&taginfo=eyJyZXF1ZXN0TGlzdCI6WyJydD1yZXNvdXJjZSZjZT0wJmNzPTAmZGxlPTAmZGxzPTAmZD00My4yMCZldD1yZXNvdXJjZSZm"
+    },
+    {
+     "url": "https://collect.analyze.ly/",
+     "body": "------1a1c7adc355\r\nContent-Disposition: form-data; name=\"beaconreq\"\r\n\r\npid=e2a58632-f654-46b7-9c10-217d1ee7584c&sid=209325246bc811f09e660affe370466f&purl=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Fnews%2Fthe-benefits-of-biotin&pst=1794351416137&pct=1794351416144&sblf=false&sr=1&mts=1794351416144&taginfo=eyJyZXF1ZXN0TGlzdCI6WyJydD1yZXNvdXJjZSZjZT0wJmNzPTAmZGxlPTAmZGxzPTAmZD0yNi43MCZldD1yZXNvdXJjZSZm"
+    }
+   ],
+   "textAtLoad": 3180,
+   "mainEmptyAtLoad": false
+  },
+  "/blogs/recipes/apple-crisp": {
+   "url": "https://naturesbounty.com/blogs/recipes/apple-crisp",
+   "status": 200,
+   "host": "naturesbounty.com",
+   "title": "Apple Crisp – Nature's Bounty",
+   "forms": [
+    {
+     "name": "search-form",
+     "action": "https://naturesbounty.com/search",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:q"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "header-drawer__form",
+     "action": "https://naturesbounty.com/search",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:q"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "ContactFooter",
+     "action": "https://naturesbounty.com/contact#ContactFooter",
+     "method": "post",
+     "role": "",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "email:contact[email]"
+     ],
+     "hidden": [
+      "form_type",
+      "utf8",
+      "contact[tags]"
+     ],
+     "tokens": [],
+     "search": false,
+     "inlineHandler": false
+    },
+    {
+     "name": "needsclick",
+     "action": null,
+     "method": "get",
+     "role": "",
+     "inChrome": false,
+     "fields": 2,
+     "signature": [
+      "text:first_name_01KZV8DQ69Z8XPDDEEYXD27MGC",
+      "email:email"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": false,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Filter Icon",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 11,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "",
+     "textLen": 552,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "dialog",
+     "heading": "Your Privacy Choices",
+     "textLen": 1698,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "dialog",
+     "heading": "",
+     "textLen": 375,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 4,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "https://naturesbounty.com/web-pixels@997f36b7wa91af9b9p0b3d274amb4b328d1/custom/web-pixel-shopify-custom-pixel@0530/sandbox/modern/blogs/recipes/apple-crisp",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://insight.adsrvr.org/track/cei?advertiser_id=fx8dueq&cookie_sync=1&upv=3.0.0&upid=lfny2eb&ref=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Frecipes%2Fapple-crisp",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://insight.adsrvr.org/track/cei?advertiser_id=29b0puu&cookie_sync=1&upv=3.0.0&upid=66qw024&ref=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Frecipes%2Fapple-crisp",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://9560950.fls.doubleclick.net/activityi;src=9560950;type=websi0;cat=nbtyw0;rcb=1;ord=9587865868659;npa=0;auiddc=1876888607.1794351429;u2=naturesbounty.com;u1=https%3A%2F%2Fnaturesbounty.com%2Fbl",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://9560950.fls.doubleclick.net/activityi;src=9560950;type=engage;cat=en_01;rcb=1;ord=5228641007516;npa=0;auiddc=1876888607.1794351429;u68=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Frecipes%2Fapple",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://9560950.fls.doubleclick.net/activityi;src=9560950;type=engage;cat=en_07;rcb=1;ord=1;num=8502313494526;npa=0;auiddc=1876888607.1794351429;u68=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Frecipes%2",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://9051573.fls.doubleclick.net/activityi;src=9051573;type=omdisp;cat=nestl0;rcb=18;ord=4439085411110;npa=0;auiddc=1876888607.1794351429;u2=naturesbounty.com;gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;u",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://insight.adsrvr.org/track/cei?advertiser_id=lni56pf&cookie_sync=1&upv=3.0.0&upid=f56ztfr&ref=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Frecipes%2Fapple-crisp",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": "https://naturesbounty.com/web-pixels@997f36b7wa91af9b9p0b3d274amb4b328d1/custom/web-pixel-shopify-custom-pixel@0530/sandbox/modern/blogs/recipes/apple-crisp",
+     "title": null,
+     "w": 4,
+     "h": 4
+    },
+    {
+     "src": null,
+     "title": "onetrust-text-resize",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "https://insight.adsrvr.org/track/cei?advertiser_id=fx8dueq&cookie_sync=1&upv=3.0.0&upid=lfny2eb&ref=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Frecipes%2Fapple-crisp",
+     "title": "TTD Universal Pixel",
+     "w": 4,
+     "h": 4
+    },
+    {
+     "src": "https://insight.adsrvr.org/track/cei?advertiser_id=29b0puu&cookie_sync=1&upv=3.0.0&upid=66qw024&ref=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Frecipes%2Fapple-crisp",
+     "title": "TTD Universal Pixel",
+     "w": 4,
+     "h": 4
+    },
+    {
+     "src": "https://9560950.fls.doubleclick.net/activityi;src=9560950;type=websi0;cat=nbtyw0;rcb=1;ord=9587865868659;npa=0;auiddc=1876888607.1794351429;u2=naturesbounty.com;u1=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Frecipes%2Fapple-crisp;gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6b91v9181466229z871648377za20gzb9189674600zd71648377xeaxf1;gcs=G111;gcd=13v3v3v3v5l1;dma=0;dc_fmt=2;tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120412526~120420416~120469145~120469153~121191155~121246026~121246034~123329125~123814183;epver=2;dc_random=1794351429_tkSedBvJGyY1PC2SaXHZ06Tr0oT_l5TFuQ;_dc_test=1;~oref=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Frecipes%2Fapple-crisp?",
+     "title": null,
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "https://9560950.fls.doubleclick.net/activityi;src=9560950;type=engage;cat=en_01;rcb=1;ord=5228641007516;npa=0;auiddc=1876888607.1794351429;u68=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Frecipes%2Fapple-crisp;u69=;u80=naturesbounty.com;gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6b91v9181466229z89189674600za20gzb9189674600zd71648377xeaxf1;gcs=G111;gcd=13v3v3v3v5l1;dma=0;dc_fmt=2;tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120412526~120420416~120469145~120469153~121191155~121246026~121246034~123329125~123814183;epver=2;dc_random=1794351429_6oWEX1weMGsu6jrn82RIpW9UYAPO6kMGXg;_dc_test=1;~oref=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Frecipes%2Fapple-crisp?",
+     "title": null,
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "https://9560950.fls.doubleclick.net/activityi;src=9560950;type=engage;cat=en_07;rcb=1;ord=1;num=8502313494526;npa=0;auiddc=1876888607.1794351429;u68=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Frecipes%2Fapple-crisp;u69=;u80=naturesbounty.com;gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KJA;gtm=45fe6b91v9181466229z89189674600za20gzb9189674600zd71648377xeaxf1;gcs=G111;gcd=13v3v3v3v5l1;dma=0;dc_fmt=2;tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120412526~120420416~120469145~120469153~121191155~121246026~121246034~123329125~123814183;epver=2;dc_random=1794351429_DyPW8Fv9OFlPaRAqrrxBa5NRL0vRiUSk-Q;_dc_test=1;~oref=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Frecipes%2Fapple-crisp?",
+     "title": null,
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "https://9051573.fls.doubleclick.net/activityi;src=9051573;type=omdisp;cat=nestl0;rcb=18;ord=4439085411110;npa=0;auiddc=1876888607.1794351429;u2=naturesbounty.com;gdid=dYWJhMj;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6b91v9181647366z871648377za20gzb71648377zd71648377xeaxf1;gcs=G111;gcd=13v3v3v3v5l1;dma=0;dc_fmt=2;tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385423~120412528~120420416~120469145~120469153~121191155~121246026~121246034~123329125~123814185;epver=2;dc_random=1794351430_P70I5DBXvNLNUax7zdofjnnKtA7_oYg-FA;_dc_test=1;~oref=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Frecipes%2Fapple-crisp?",
+     "title": null,
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "https://insight.adsrvr.org/track/cei?advertiser_id=lni56pf&cookie_sync=1&upv=3.0.0&upid=f56ztfr&ref=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Frecipes%2Fapple-crisp",
+     "title": "TTD Universal Pixel",
+     "w": 4,
+     "h": 4
+    }
+   ],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": true,
+    "prices": 2
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [
+     "en-us"
+    ],
+    "switcher": []
+   },
+   "cms": {
+    "Shopify": [
+     "shop",
+     "locale",
+     "currency",
+     "country",
+     "theme",
+     "cdnHost",
+     "routes",
+     "shopJsCdnBaseUrl",
+     "SignInWithShop",
+     "loadFeatures",
+     "autoloadFeatures",
+     "featureAssets",
+     "ce_forms",
+     "captcha",
+     "PaymentButton",
+     "analytics",
+     "modules",
+     "actions",
+     "evids",
+     "trackingConsent",
+     "customerPrivacy"
+    ],
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "17",
+     "18",
+     "19",
+     "20",
+     "21",
+     "push"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "OneTrust",
+    "Optanon",
+    "google_tag_manager",
+    "gtag",
+    "Shopify"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [
+    {
+     "cls": "article-item__grid",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": false
+    }
+   ],
+   "inlineScripts": 45,
+   "inlineFetch": true,
+   "mainText": 767,
+   "domAddedAfterLoad": 204,
+   "hosts": {
+    "naturesbounty.com": 237,
+    "use.typekit.net": 5,
+    "cdn.cookielaw.org": 9,
+    "cdn.jsdelivr.net": 2,
+    "p.typekit.net": 1,
+    "cdn.shopify.com": 21,
+    "static.klaviyo.com": 44,
+    "cdn.segment.com": 6,
+    "geolocation.onetrust.com": 1,
+    "www.googletagmanager.com": 11,
+    "static-tracking.klaviyo.com": 4,
+    "shop.app": 1,
+    "otlp-http-production.shopifysvc.com": 9,
+    "d22xmn10vbouk4.cloudfront.net": 1,
+    "fast.a.klaviyo.com": 3,
+    "collect.analyze.ly": 27,
+    "static-forms.klaviyo.com": 1,
+    "fonts.googleapis.com": 1,
+    "monorail-edge.shopifysvc.com": 2,
+    "www.google-analytics.com": 2,
+    "analytics.google.com": 1,
+    "stats.g.doubleclick.net": 1,
+    "www.google.com": 6,
+    "d3k81ch9hvuctc.cloudfront.net": 1,
+    "connect.facebook.net": 6,
+    "cdn.gbqofs.com": 4,
+    "js.adsrvr.org": 4,
+    "s.pinimg.com": 2,
+    "zn3j7qz4e0kmok5mq-nestleglobalmktg.siteintercept.qualtrics.com": 1,
+    "ad.doubleclick.net": 8,
+    "insight.adsrvr.org": 6,
+    "match.adsrvr.org": 12,
+    "simage2.pubmatic.com": 2,
+    "nestle-privacy.my.onetrust.com": 1,
+    "pixel.rubiconproject.com": 1,
+    "cm.g.doubleclick.net": 4,
+    "ib.adnxs.com": 6,
+    "x.bidswitch.net": 2,
+    "9560950.fls.doubleclick.net": 6,
+    "www.facebook.com": 5,
+    "adservice.google.com": 4,
+    "siteintercept.qualtrics.com": 2,
+    "9051573.fls.doubleclick.net": 2,
+    "ct.pinterest.com": 4,
+    "fonts.gstatic.com": 1,
+    "a.klaviyo.com": 2
+   },
+   "thirdPartyHosts": [
+    "use.typekit.net",
+    "cdn.cookielaw.org",
+    "cdn.jsdelivr.net",
+    "p.typekit.net",
+    "cdn.shopify.com",
+    "static.klaviyo.com",
+    "cdn.segment.com",
+    "geolocation.onetrust.com",
+    "www.googletagmanager.com",
+    "static-tracking.klaviyo.com",
+    "shop.app",
+    "otlp-http-production.shopifysvc.com",
+    "d22xmn10vbouk4.cloudfront.net",
+    "fast.a.klaviyo.com",
+    "collect.analyze.ly",
+    "static-forms.klaviyo.com",
+    "fonts.googleapis.com",
+    "monorail-edge.shopifysvc.com",
+    "www.google-analytics.com",
+    "analytics.google.com",
+    "stats.g.doubleclick.net",
+    "www.google.com",
+    "d3k81ch9hvuctc.cloudfront.net",
+    "connect.facebook.net",
+    "cdn.gbqofs.com",
+    "js.adsrvr.org",
+    "s.pinimg.com",
+    "zn3j7qz4e0kmok5mq-nestleglobalmktg.siteintercept.qualtrics.com",
+    "ad.doubleclick.net",
+    "insight.adsrvr.org",
+    "match.adsrvr.org",
+    "simage2.pubmatic.com",
+    "nestle-privacy.my.onetrust.com",
+    "pixel.rubiconproject.com",
+    "cm.g.doubleclick.net",
+    "ib.adnxs.com",
+    "x.bidswitch.net",
+    "9560950.fls.doubleclick.net",
+    "www.facebook.com",
+    "adservice.google.com",
+    "siteintercept.qualtrics.com",
+    "9051573.fls.doubleclick.net",
+    "ct.pinterest.com",
+    "fonts.gstatic.com",
+    "a.klaviyo.com"
+   ],
+   "scripts": [
+    "https://naturesbounty.com/cdn/shop/t/309/assets/predictive-search.js?v=61543722350796571621792097841",
+    "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+    "https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js",
+    "https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js",
+    "https://cdn.shopify.com/extensions/01a061ba-09b8-7f28-a51f-be55b3ced758/onetrust-consent-management-67/assets/storefront-consent.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+    "https://cdn.shopify.com/storefront/standard-actions.js",
+    "https://naturesbounty.com/checkouts/internal/preloads.js?locale=en-US&default_configuration_id=549880037",
+    "https://naturesbounty.com/cdn/shopifycloud/storefront/assets/storefront/load_feature-ed94c51f.js",
+    "https://naturesbounty.com/cdn/shop/t/309/assets/bundle.theme.min.js?v=172051009938250590061792097841",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/client.init-shop-cart-sync_g3NxlI70.en.esm.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.document_DMcRsBXN.esm.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.init_D32yj4-j.esm.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.networkErrorMessages_Du380vAr.esm.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.window_CAbVMZox.esm.js",
+    "https://cdn.shopify.com/shopifycloud/storefront/assets/storefront/origin_trials-6af5f5e9.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.register_CnRJIKy5.esm.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/client.shop-cart-sync_CUkqMlum.en.esm.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.defineInitFunction_DyjeAYT_.esm.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.casing_U_9x-Om3.esm.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.utils_Cjeq_SSZ.esm.js",
+    "https://naturesbounty.com/cdn/shop/t/309/assets/slick.min.js?v=71779134894361685811792097841",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.storage_n5jjEbMM.esm.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.validators_BbO3UEjF.esm.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.useUserRecognitionSignal_FnE5sYgR.esm.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.v4_C3N_0s0v.esm.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.hooks_cul_1OmT.esm.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.authorize_DINGMyE5.esm.js",
+    "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.useEventListener_DxYrO7Ds.esm.js",
+    "https://naturesbounty.com/cdn/shop/t/309/assets/utils.js?v=34866713500792996831792097841",
+    "https://naturesbounty.com/cdn/shop/t/309/assets/jquery-3.6.0.min.js?v=8324501383853434791792097841",
+    "https://naturesbounty.com/cdn/shopifycloud/storefront/assets/shop_events_listener-819172a8.js",
+    "https://static.klaviyo.com/onsite/js/RC6LF3/klaviyo.js?company_id=RC6LF3",
+    "https://naturesbounty.com/cdn/shopifycloud/perf-kit/shopify-perf-kit-3.15.1.min.js",
+    "https://naturesbounty.com/cdn/wpm/b997f36b7wa91af9b9p0b3d274amb4b328d1m.js",
+    "https://cdn.segment.com/analytics.js/v1/ECsOHW2FVtOpLt7aQNdDdfnUMeHL3Gdr/analytics.min.js",
+    "https://naturesbounty.com/cdn/shopifycloud/consent-tracking-api/v0.1/consent-tracking-api.js",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-TK5SRJ",
+    "https://cdn.cookielaw.org/scripttemplates/202603.1.0/otBannerSdk.js",
+    "https://naturesbounty.com/web-pixels@997f36b7wa91af9b9p0b3d274amb4b328d1/web-pixel-shopify-app-pixel@0530/sandbox/worker.modern.js",
+    "https://naturesbounty.com/cdn/shopifycloud/storefront/assets/storefront/webmcp-cfeae510.js",
+    "https://static.klaviyo.com/onsite/js/vendors~atlas.a0cc055f2ddf2.js?cb=2",
+    "https://static.klaviyo.com/onsite/js/runtime.e4a3fce60037d.js?cb=2",
+    "https://static.klaviyo.com/onsite/js/event_adapter.3e4ac49b9784b.js?cb=2",
+    "https://static.klaviyo.com/onsite/js/vendors~in_app_forms~signup_forms.b7c0bc7f31ca6.js?cb=2",
+    "https://static.klaviyo.com/onsite/js/atlas.83bc5c67ffd7a.js?cb=2",
+    "https://static.klaviyo.com/onsite/js/default~atlas~product_recommendations.077e10e798dbf.js?cb=2",
+    "https://static.klaviyo.com/onsite/js/vendors~in_app_forms~signup_forms~reviews~atlas~product_recommendations.2275e937808a4.js?cb=2",
+    "https://static.klaviyo.com/onsite/js/vendors~signup_forms~telemetry~client_identity~~onsite-personalization~onsite-triggering-v2~in_app_forms.452e299a9c841.js?cb=2",
+    "https://static.klaviyo.com/onsite/js/vendors~telemetry~static~in_app_forms~signup_forms~fender_analytics~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~atlas~",
+    "https://static.klaviyo.com/onsite/js/signup_forms.85bafbb8fcc4c.js?cb=2",
+    "https://static.klaviyo.com/onsite/js/default~in_app_forms~signup_forms.5e14808ce1847.js?cb=2",
+    "https://static.klaviyo.com/onsite/js/sharedUtils.62069612d88bc.js?cb=2",
+    "https://static-tracking.klaviyo.com/onsite/js/telemetry.779aef45cacb9.js?cb=2",
+    "https://static-tracking.klaviyo.com/onsite/js/static.a34ac6ae9581b.js?cb=2",
+    "https://static-tracking.klaviyo.com/onsite/js/post_identification_sync.18ffd667c7fa3.js?cb=2",
+    "https://static-tracking.klaviyo.com/onsite/js/fender_analytics.591c389dd3e23.js?cb=2",
+    "https://d22xmn10vbouk4.cloudfront.net/209325246bc811f09e660affe370466f.js",
+    "https://cdn.segment.com/analytics-next/bundles/ajs-destination.bundle.40628baed746e9904edc.js",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-57F7STTF&gtm=4e6b91"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "naturesbounty.com",
+     "path": "/cdn/shopifycloud/storefront/assets/storefront/storefronts.moderate.specrules-eb468f32.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/speculationrules+json",
+     "example": "https://naturesbounty.com/cdn/shopifycloud/storefront/assets/storefront/storefronts.moderate.specrules-eb468f32.json"
+    },
+    {
+     "method": "POST",
+     "host": "naturesbounty.com",
+     "path": "/api/collect",
+     "query": [],
+     "status": 204,
+     "contentType": "",
+     "example": "https://naturesbounty.com/api/collect"
+    },
+    {
+     "method": "POST",
+     "host": "naturesbounty.com",
+     "path": "/.well-known/shopify/monorail/unstable/produce_batch",
+     "query": [],
+     "status": 200,
+     "contentType": "",
+     "example": "https://naturesbounty.com/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+     "method": "POST",
+     "host": "naturesbounty.com",
+     "path": "/api/unstable/graphql.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://naturesbounty.com/api/unstable/graphql.json"
+    },
+    {
+     "method": "POST",
+     "host": "naturesbounty.com",
+     "path": "/.well-known/shopify/fec/produce",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://naturesbounty.com/.well-known/shopify/fec/produce"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET cdn.cookielaw.org/consent/0192d4bb-934a-7c29-846f-bfc1f5164092/0192d4bb-934a-7c29-846f-bfc1f51640",
+    "GET geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+    "POST otlp-http-production.shopifysvc.com/v1/metrics",
+    "GET cdn.segment.com/v1/projects/ECsOHW2FVtOpLt7aQNdDdfnUMeHL3Gdr/settings",
+    "GET cdn.cookielaw.org/consent/0192d4bb-934a-7c29-846f-bfc1f5164092/019d4547-0f36-7be3-8e73-f595998990",
+    "GET fast.a.klaviyo.com/custom-fonts/api/v1/company-fonts/onsite",
+    "GET cdn.cookielaw.org/scripttemplates/202603.1.0/assets/v2/otPcCenter.json",
+    "GET cdn.cookielaw.org/scripttemplates/202603.1.0/assets/otFlat.json",
+    "GET cdn.cookielaw.org/scripttemplates/202603.1.0/assets/otCommonStyles.css",
+    "POST otlp-http-production.shopifysvc.com/v1/logs",
+    "POST collect.analyze.ly/",
+    "GET cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+    "GET static-forms.klaviyo.com/forms/api/v7/RC6LF3/full-forms",
+    "POST monorail-edge.shopifysvc.com/v1/produce",
+    "GET fast.a.klaviyo.com/atlas/api/public/settings/RC6LF3",
+    "GET fast.a.klaviyo.com/atlas/api/public/l10n/RC6LF3/en",
+    "POST www.google-analytics.com/g/collect",
+    "POST analytics.google.com/g/collect",
+    "POST www.google.com/measurement/conversion",
+    "POST www.google.com/ccm/collect",
+    "POST ad.doubleclick.net/ccm/s/collect",
+    "POST nestle-privacy.my.onetrust.com/request/v1/consentreceipts/anonymous",
+    "POST ad.doubleclick.net/activity;src=9560950;type=engage;cat=en_01;rcb=1;ord=5228641007516;npa=0;auiddc",
+    "POST ad.doubleclick.net/activity;src=9560950;type=engage;cat=en_07;rcb=1;ord=1;num=8502313494526;npa=0;",
+    "GET ad.doubleclick.net/activity;_dc_ptd=ChEIgJ7L1wYQ3Zvi-_jzl9vIARIfAA2StjzrhoF_BU_1PylqMnK0azGTbNe8qg",
+    "POST ad.doubleclick.net/activity;src=9560950;type=websi0;cat=nbtyw0;rcb=1;ord=9587865868659;npa=0;auidd",
+    "GET ad.doubleclick.net/activity;_dc_ptd=ChEIgJ7L1wYQ3Zvi-_jzl9vIARIfAA2Stjy5JbgklId7Dcm58bS7Jk8X0K-W1H",
+    "GET www.google.com/gmp/conversion/_dc_unique_id=4908147468694943189;_dc_ptd=ChEIgJ7L1wYQ3Zvi-_jzl9",
+    "GET ct.pinterest.com/v3/",
+    "GET ct.pinterest.com/user/",
+    "POST siteintercept.qualtrics.com/WRSiteInterceptEngine/Targeting.php",
+    "POST ad.doubleclick.net/activity;src=9051573;type=omdisp;cat=nestl0;rcb=18;ord=4439085411110;npa=0;auid",
+    "GET ad.doubleclick.net/activity;_dc_ptd=ChEIgJ7L1wYQ3Zvi-_jzl9vIARIfAA2StjwUlDDiEVRbsTS3djjYofk1e2BeT2",
+    "GET www.google.com/gmp/conversion/_dc_unique_id=15129301789515736909;_dc_ptd=ChEIgJ7L1wYQ3Zvi-_jzl",
+    "POST insight.adsrvr.org/track/realtimeconversion",
+    "POST a.klaviyo.com/onsite/track-analytics"
+   ],
+   "postBodies": [
+    {
+     "url": "https://naturesbounty.com/api/collect",
+     "body": "{\"v\":1,\"s\":{\"wd\":false,\"ua\":false,\"cf\":true,\"be\":true,\"nm\":false,\"nc\":false,\"ka\":false,\"sa\":false,\"ta\":false,\"pt\":false,\"mp\":false,\"sd\":false},\"r\":\"change\",\"l\":\"2.7.0\"}"
+    },
+    {
+     "url": "https://otlp-http-production.shopifysvc.com/v1/metrics",
+     "body": "{\"resourceMetrics\":[{\"resource\":{\"attributes\":[{\"key\":\"service.name\",\"value\":{\"stringValue\":\"web-pixels-manager\"}}]},\"scopeMetrics\":[{\"scope\":{\"name\":\"open-telemetry-mini-client\",\"version\":\"1.1.0\",\"attributes\":[]},\"metrics\":[{\"name\":\"web_pixels_manager_feature_usage\",\"unit\":\"1\",\"sum\":{\"aggregationTemporality\":1,\"isMonotonic\":true,\"dataPoints\":[{\"startTimeUnixNano\":1794351427159000000,\"timeUnixNano"
+    },
+    {
+     "url": "https://otlp-http-production.shopifysvc.com/v1/metrics",
+     "body": "{\"resourceMetrics\":[{\"resource\":{\"attributes\":[{\"key\":\"service.name\",\"value\":{\"stringValue\":\"shop-js\"}}]},\"scopeMetrics\":[{\"scope\":{\"name\":\"open-telemetry-mini-client\",\"version\":\"1.1.0\",\"attributes\":[]},\"metrics\":[{\"name\":\"shop_js_cart_sync_transfer_session_attempted\",\"unit\":\"1\",\"sum\":{\"aggregationTemporality\":1,\"isMonotonic\":true,\"dataPoints\":[{\"startTimeUnixNano\":1794351427206000000,\"timeUnixNan"
+    },
+    {
+     "url": "https://naturesbounty.com/.well-known/shopify/monorail/unstable/produce_batch",
+     "body": "{\"events\":[{\"schema_id\":\"web_pixels_manager_init/3.2\",\"payload\":{\"version\":\"997f36b7wa91af9b9p0b3d274amb4b328d1\",\"bundle_target\":\"modern\",\"page_url\":\"https://naturesbounty.com/blogs/recipes/apple-crisp\",\"shop_id\":66509275365,\"surface\":\"storefront-renderer\",\"status\":\"initialized\",\"user_can_be_tracked\":\"true\"},\"metadata\":{\"event_created_at_ms\":1794351427172}},{\"schema_id\":\"web_pixels_manager_event_p"
+    },
+    {
+     "url": "https://naturesbounty.com/.well-known/shopify/monorail/unstable/produce_batch",
+     "body": "{\"events\":[{\"schema_id\":\"web_pixels_manager_pixel_register/3.8\",\"payload\":{\"version\":\"997f36b7wa91af9b9p0b3d274amb4b328d1\",\"page_url\":\"https://naturesbounty.com/blogs/recipes/apple-crisp\",\"shop_id\":66509275365,\"surface\":\"storefront-renderer\",\"pixel_id\":\"shopify-app-pixel\",\"pixel_app_id\":\"shopify-pixel\",\"pixel_source\":\"APP\",\"pixel_runtime_context\":\"STRICT\",\"pixel_script_version\":\"0530\",\"pixel_confi"
+    },
+    {
+     "url": "https://collect.analyze.ly/",
+     "body": "------1a1c7adefd4\r\nContent-Disposition: form-data; name=\"beaconreq\"\r\n\r\npid=d1702988-d4e0-407c-9098-ea5bf02d1710&sid=209325246bc811f09e660affe370466f&purl=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Frecipes%2Fapple-crisp&pst=1794351427533&pct=1794351427540&sblf=false&sr=1&mts=1794351427540&taginfo=eyJyZXF1ZXN0TGlzdCI6WyJydD1yZXNvdXJjZSZjZT0wJmNzPTAmZGxlPTAmZGxzPTAmZD0yNjAuNzAmZXQ9cmVzb3VyY2UmZnM9MTQz"
+    },
+    {
+     "url": "https://collect.analyze.ly/",
+     "body": "------1a1c7adefd6\r\nContent-Disposition: form-data; name=\"beaconreq\"\r\n\r\npid=d1702988-d4e0-407c-9098-ea5bf02d1710&sid=209325246bc811f09e660affe370466f&purl=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Frecipes%2Fapple-crisp&pst=1794351427533&pct=1794351427540&sblf=false&sr=1&mts=1794351427540&taginfo=eyJyZXF1ZXN0TGlzdCI6WyJydD1yZXNvdXJjZSZjZT0yNDcmY3M9MjQ3JmRsZT0yNDcmZGxzPTI0NyZkPTMyLjQwJmV0PXJlc291cmNl"
+    },
+    {
+     "url": "https://collect.analyze.ly/",
+     "body": "------1a1c7adefd7\r\nContent-Disposition: form-data; name=\"beaconreq\"\r\n\r\npid=d1702988-d4e0-407c-9098-ea5bf02d1710&sid=209325246bc811f09e660affe370466f&purl=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Frecipes%2Fapple-crisp&pst=1794351427533&pct=1794351427540&sblf=false&sr=1&mts=1794351427540&taginfo=eyJyZXF1ZXN0TGlzdCI6WyJydD1yZXNvdXJjZSZjZT0yNDcuOTAwMDAwMDAwMzcyNTMmY3M9MjQ3LjkwMDAwMDAwMDM3MjUzJmRsZT0y"
+    },
+    {
+     "url": "https://collect.analyze.ly/",
+     "body": "------1a1c7adefd7\r\nContent-Disposition: form-data; name=\"beaconreq\"\r\n\r\npid=d1702988-d4e0-407c-9098-ea5bf02d1710&sid=209325246bc811f09e660affe370466f&purl=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Frecipes%2Fapple-crisp&pst=1794351427533&pct=1794351427540&sblf=false&sr=1&mts=1794351427540&taginfo=eyJyZXF1ZXN0TGlzdCI6WyJydD1yZXNvdXJjZSZjZT0wJmNzPTAmZGxlPTAmZGxzPTAmZD00MC40MCZldD1yZXNvdXJjZSZmcz03MzQu"
+    },
+    {
+     "url": "https://collect.analyze.ly/",
+     "body": "------1a1c7adefd8\r\nContent-Disposition: form-data; name=\"beaconreq\"\r\n\r\npid=d1702988-d4e0-407c-9098-ea5bf02d1710&sid=209325246bc811f09e660affe370466f&purl=https%3A%2F%2Fnaturesbounty.com%2Fblogs%2Frecipes%2Fapple-crisp&pst=1794351427533&pct=1794351427540&sblf=false&sr=1&mts=1794351427540&taginfo=eyJyZXF1ZXN0TGlzdCI6WyJydD1yZXNvdXJjZSZjZT0wJmNzPTAmZGxlPTAmZGxzPTAmZD0yMS45MCZldD1yZXNvdXJjZSZmcz05NTQu"
+    },
+    {
+     "url": "https://naturesbounty.com/.well-known/shopify/monorail/unstable/produce_batch",
+     "body": "{\"events\":[{\"schema_id\":\"web_pixels_manager_pixel_register/3.8\",\"payload\":{\"version\":\"997f36b7wa91af9b9p0b3d274amb4b328d1\",\"page_url\":\"https://naturesbounty.com/blogs/recipes/apple-crisp\",\"shop_id\":66509275365,\"surface\":\"storefront-renderer\",\"pixel_id\":\"shopify-custom-pixel\",\"pixel_app_id\":\"shopify-pixel\",\"pixel_source\":\"CUSTOM\",\"pixel_runtime_context\":\"LAX\",\"pixel_script_version\":\"0530\",\"pixel_ev"
+    },
+    {
+     "url": "https://otlp-http-production.shopifysvc.com/v1/metrics",
+     "body": "{\"resourceMetrics\":[{\"resource\":{\"attributes\":[{\"key\":\"service.name\",\"value\":{\"stringValue\":\"shop-js\"}}]},\"scopeMetrics\":[{\"scope\":{\"name\":\"open-telemetry-mini-client\",\"version\":\"1.1.0\",\"attributes\":[]},\"metrics\":[{\"name\":\"shop_js_iframe_load_duration\",\"unit\":\"1\",\"exponentialHistogram\":{\"aggregationTemporality\":1,\"dataPoints\":[{\"attributes\":[{\"key\":\"beta\",\"value\":{\"stringValue\":\"true\"}},{\"key\":\"fe"
+    }
+   ],
+   "textAtLoad": 767,
+   "mainEmptyAtLoad": false
+  }
+ },
+ "findings": [
+  {
+   "id": "a-unknown-third-party-host-cdn-segment-com",
+   "class": "A",
+   "feature": "unknown third-party host cdn.segment.com",
+   "hint": "inspect",
+   "evidence": [
+    "cdn.segment.com"
+   ],
+   "pages": [
+    "/",
+    "/blogs/news",
+    "/blogs/news/the-benefits-of-biotin",
+    "/blogs/recipes/apple-crisp"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-collect-analyze-ly",
+   "class": "A",
+   "feature": "unknown third-party host collect.analyze.ly",
+   "hint": "inspect",
+   "evidence": [
+    "collect.analyze.ly"
+   ],
+   "pages": [
+    "/",
+    "/blogs/news",
+    "/blogs/news/the-benefits-of-biotin",
+    "/blogs/recipes/apple-crisp"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-fast-a-klaviyo-com",
+   "class": "A",
+   "feature": "unknown third-party host fast.a.klaviyo.com",
+   "hint": "inspect",
+   "evidence": [
+    "fast.a.klaviyo.com"
+   ],
+   "pages": [
+    "/",
+    "/blogs/news",
+    "/blogs/news/the-benefits-of-biotin",
+    "/blogs/recipes/apple-crisp"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-static-forms-klaviyo-com",
+   "class": "A",
+   "feature": "unknown third-party host static-forms.klaviyo.com",
+   "hint": "inspect",
+   "evidence": [
+    "static-forms.klaviyo.com"
+   ],
+   "pages": [
+    "/",
+    "/blogs/news",
+    "/blogs/news/the-benefits-of-biotin",
+    "/blogs/recipes/apple-crisp"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-www-google-com",
+   "class": "A",
+   "feature": "unknown third-party host www.google.com",
+   "hint": "inspect",
+   "evidence": [
+    "www.google.com"
+   ],
+   "pages": [
+    "/",
+    "/blogs/news",
+    "/blogs/news/the-benefits-of-biotin",
+    "/blogs/recipes/apple-crisp"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-a-klaviyo-com",
+   "class": "A",
+   "feature": "unknown third-party host a.klaviyo.com",
+   "hint": "inspect",
+   "evidence": [
+    "a.klaviyo.com"
+   ],
+   "pages": [
+    "/",
+    "/blogs/news",
+    "/blogs/news/the-benefits-of-biotin",
+    "/blogs/recipes/apple-crisp"
+   ]
+  },
+  {
+   "id": "a-first-party-api-post-api-collect",
+   "class": "A",
+   "feature": "first-party API POST /api/collect",
+   "api": {
+    "method": "POST",
+    "path": "/api/collect"
+   },
+   "hint": "api",
+   "evidence": [
+    "POST /api/collect → 204"
+   ],
+   "pages": [
+    "/",
+    "/blogs/news",
+    "/blogs/news/the-benefits-of-biotin",
+    "/blogs/recipes/apple-crisp"
+   ],
+   "reach": {
+    "pages": 120,
+    "of": 120
+   }
+  },
+  {
+   "id": "a-first-party-api-post-api-unstable-graphql-json",
+   "class": "A",
+   "feature": "first-party API POST /api/unstable/graphql.json",
+   "api": {
+    "method": "POST",
+    "path": "/api/unstable/graphql.json"
+   },
+   "hint": "api",
+   "evidence": [
+    "POST /api/unstable/graphql.json → 200"
+   ],
+   "pages": [
+    "/",
+    "/blogs/news",
+    "/blogs/news/the-benefits-of-biotin",
+    "/blogs/recipes/apple-crisp"
+   ],
+   "reach": {
+    "pages": 120,
+    "of": 120
+   }
+  },
+  {
+   "id": "a-cms-app-settings-object-shopify",
+   "class": "A",
+   "feature": "CMS / app settings object Shopify",
+   "hint": "settings",
+   "evidence": [
+    "shopJsCdnBaseUrl",
+    "ce_forms",
+    "analytics",
+    "trackingConsent"
+   ],
+   "pages": [
+    "/",
+    "/blogs/news",
+    "/blogs/news/the-benefits-of-biotin",
+    "/blogs/recipes/apple-crisp"
+   ]
+  },
+  {
+   "id": "a-cms-app-settings-object-datalayer",
+   "class": "A",
+   "feature": "CMS / app settings object dataLayer",
+   "hint": "settings",
+   "evidence": [],
+   "pages": [
+    "/",
+    "/blogs/news",
+    "/blogs/news/the-benefits-of-biotin",
+    "/blogs/recipes/apple-crisp"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-api-segment-io",
+   "class": "A",
+   "feature": "unknown third-party host api.segment.io",
+   "hint": "inspect",
+   "evidence": [
+    "api.segment.io"
+   ],
+   "pages": [
+    "/",
+    "/blogs/news/the-benefits-of-biotin"
+   ]
+  },
+  {
+   "id": "a-first-party-api-post-well-known-shopify-fec-produce",
+   "class": "A",
+   "feature": "first-party API POST /.well-known/shopify/fec/produce",
+   "api": {
+    "method": "POST",
+    "path": "/.well-known/shopify/fec/produce"
+   },
+   "hint": "api",
+   "evidence": [
+    "POST /.well-known/shopify/fec/produce → 200"
+   ],
+   "pages": [
+    "/blogs/news/the-benefits-of-biotin",
+    "/blogs/recipes/apple-crisp"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 120
+   }
+  },
+  {
+   "id": "f-form-contactfooter-origin-contact-1-fields",
+   "class": "F",
+   "feature": "form \"ContactFooter\" → origin /contact (1 fields)",
+   "signature": [
+    "email:contact[email]"
+   ],
+   "hint": "forms",
+   "evidence": [
+    "email:contact[email]",
+    "form_type,utf8,contact[tags]"
+   ],
+   "pages": [
+    "/",
+    "/blogs/news",
+    "/blogs/news/the-benefits-of-biotin",
+    "/blogs/recipes/apple-crisp"
+   ]
+  },
+  {
+   "id": "f-form-needsclick-no-action-js-wired-2-fields",
+   "class": "F",
+   "feature": "form \"needsclick\" → no action (JS-wired) (2 fields)",
+   "signature": [
+    "text:first_name_01KZV8DQ69Z8XPDDEEYXD27MGC",
+    "email:email"
+   ],
+   "hint": "forms",
+   "evidence": [
+    "text:first_name_01KZV8DQ69Z8XPDDEEYXD27MGC,email:email"
+   ],
+   "pages": [
+    "/",
+    "/blogs/news",
+    "/blogs/news/the-benefits-of-biotin",
+    "/blogs/recipes/apple-crisp"
+   ]
+  },
+  {
+   "id": "f-form-contactnewsletter-origin-contact-1-fields",
+   "class": "F",
+   "feature": "form \"ContactNewsletter\" → origin /contact (1 fields)",
+   "signature": [
+    "email:contact[email]"
+   ],
+   "hint": "forms",
+   "evidence": [
+    "email:contact[email]",
+    "form_type,utf8,contact[tags]"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "i18n-locale-variants-en-us",
+   "class": "I18N",
+   "feature": "locale variants en-us",
+   "hint": "locale",
+   "evidence": [],
+   "pages": [
+    "/",
+    "/blogs/news",
+    "/blogs/news/the-benefits-of-biotin",
+    "/blogs/recipes/apple-crisp"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-tabbed-products-slider-inner-23-cards",
+   "class": "L",
+   "feature": "listing candidate tabbed-products__slider-inner (23 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-content-products-quotes-8-cards",
+   "class": "L",
+   "feature": "listing candidate content-products__quotes  (8 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-container-tight-4-cards",
+   "class": "L",
+   "feature": "listing candidate container__tight (4 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/blogs/news"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-blog-listing-article-item-grid-9-cards",
+   "class": "L",
+   "feature": "listing candidate blog__listing article-item__grid (9 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/blogs/news"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-article-item-grid-3-cards",
+   "class": "L",
+   "feature": "listing candidate article-item__grid (3 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/blogs/news/the-benefits-of-biotin"
+   ]
+  },
+  {
+   "id": "m-modal-trigger-aria-haspopup-chrome-only-button-content",
+   "class": "M",
+   "feature": "modal trigger aria-haspopup (chrome only) → button:content",
+   "hint": "chrome-interaction",
+   "evidence": [
+    "Filter Icon"
+   ],
+   "pages": [
+    "/",
+    "/blogs/news",
+    "/blogs/news/the-benefits-of-biotin",
+    "/blogs/recipes/apple-crisp"
+   ],
+   "reach": {
+    "pages": 25,
+    "of": 120
+   }
+  },
+  {
+   "id": "s-site-search-form-search",
+   "class": "S",
+   "feature": "site search form → /search",
+   "hint": "search",
+   "evidence": [
+    "search:q"
+   ],
+   "pages": [
+    "/",
+    "/blogs/news",
+    "/blogs/news/the-benefits-of-biotin",
+    "/blogs/recipes/apple-crisp"
+   ],
+   "reach": {
+    "pages": 120,
+    "of": 120
+   }
+  },
+  {
+   "id": "t-consent-onetrust",
+   "class": "T",
+   "feature": "consent: OneTrust",
+   "role": "consent: OneTrust",
+   "hint": "tags",
+   "evidence": [
+    "cdn.cookielaw.org",
+    "geolocation.onetrust.com",
+    "nestle-privacy.my.onetrust.com"
+   ],
+   "pages": [
+    "/",
+    "/blogs/news",
+    "/blogs/news/the-benefits-of-biotin",
+    "/blogs/recipes/apple-crisp"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-static-klaviyo-com",
+   "class": "T",
+   "feature": "unknown third-party host static.klaviyo.com",
+   "hint": "inspect",
+   "evidence": [
+    "static.klaviyo.com"
+   ],
+   "pages": [
+    "/",
+    "/blogs/news",
+    "/blogs/news/the-benefits-of-biotin",
+    "/blogs/recipes/apple-crisp"
+   ]
+  },
+  {
+   "id": "t-tag-manager-google-tag-manager",
+   "class": "T",
+   "feature": "tag manager: Google Tag Manager",
+   "role": "tag manager: Google Tag Manager",
+   "hint": "tags",
+   "evidence": [
+    "www.googletagmanager.com"
+   ],
+   "pages": [
+    "/",
+    "/blogs/news",
+    "/blogs/news/the-benefits-of-biotin",
+    "/blogs/recipes/apple-crisp"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-shop-app",
+   "class": "T",
+   "feature": "unknown third-party host shop.app",
+   "hint": "inspect",
+   "evidence": [
+    "shop.app"
+   ],
+   "pages": [
+    "/",
+    "/blogs/news",
+    "/blogs/news/the-benefits-of-biotin",
+    "/blogs/recipes/apple-crisp"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-static-tracking-klaviyo-com",
+   "class": "T",
+   "feature": "unknown third-party host static-tracking.klaviyo.com",
+   "hint": "inspect",
+   "evidence": [
+    "static-tracking.klaviyo.com"
+   ],
+   "pages": [
+    "/",
+    "/blogs/news",
+    "/blogs/news/the-benefits-of-biotin",
+    "/blogs/recipes/apple-crisp"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-d22xmn10vbouk4-cloudfront-net",
+   "class": "T",
+   "feature": "unknown third-party host d22xmn10vbouk4.cloudfront.net",
+   "hint": "inspect",
+   "evidence": [
+    "d22xmn10vbouk4.cloudfront.net"
+   ],
+   "pages": [
+    "/",
+    "/blogs/news",
+    "/blogs/news/the-benefits-of-biotin",
+    "/blogs/recipes/apple-crisp"
+   ]
+  },
+  {
+   "id": "t-analytics-google-analytics-ads",
+   "class": "T",
+   "feature": "analytics: Google Analytics / Ads",
+   "role": "analytics: Google Analytics / Ads",
+   "hint": "tags",
+   "evidence": [
+    "www.google-analytics.com",
+    "analytics.google.com"
+   ],
+   "pages": [
+    "/",
+    "/blogs/news",
+    "/blogs/news/the-benefits-of-biotin",
+    "/blogs/recipes/apple-crisp"
+   ]
+  },
+  {
+   "id": "t-marketing-ad-retargeting-pixel",
+   "class": "T",
+   "feature": "marketing: ad / retargeting pixel",
+   "role": "marketing: ad / retargeting pixel",
+   "hint": "tags",
+   "evidence": [
+    "stats.g.doubleclick.net",
+    "js.adsrvr.org",
+    "connect.facebook.net",
+    "ad.doubleclick.net",
+    "9051573.fls.doubleclick.net",
+    "9560950.fls.doubleclick.net",
+    "ct.pinterest.com",
+    "insight.adsrvr.org",
+    "match.adsrvr.org",
+    "pixel.rubiconproject.com",
+    "cm.g.doubleclick.net",
+    "ib.adnxs.com"
+   ],
+   "pages": [
+    "/",
+    "/blogs/news",
+    "/blogs/news/the-benefits-of-biotin",
+    "/blogs/recipes/apple-crisp"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-s-pinimg-com",
+   "class": "T",
+   "feature": "unknown third-party host s.pinimg.com",
+   "hint": "inspect",
+   "evidence": [
+    "s.pinimg.com"
+   ],
+   "pages": [
+    "/",
+    "/blogs/news",
+    "/blogs/news/the-benefits-of-biotin",
+    "/blogs/recipes/apple-crisp"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-cdn-gbqofs-com",
+   "class": "T",
+   "feature": "unknown third-party host cdn.gbqofs.com",
+   "hint": "inspect",
+   "evidence": [
+    "cdn.gbqofs.com"
+   ],
+   "pages": [
+    "/",
+    "/blogs/news",
+    "/blogs/news/the-benefits-of-biotin",
+    "/blogs/recipes/apple-crisp"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-adservice-google-com",
+   "class": "T",
+   "feature": "unknown third-party host adservice.google.com",
+   "hint": "inspect",
+   "evidence": [
+    "adservice.google.com"
+   ],
+   "pages": [
+    "/",
+    "/blogs/news",
+    "/blogs/news/the-benefits-of-biotin",
+    "/blogs/recipes/apple-crisp"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-www-facebook-com",
+   "class": "T",
+   "feature": "unknown third-party host www.facebook.com",
+   "hint": "inspect",
+   "evidence": [
+    "www.facebook.com"
+   ],
+   "pages": [
+    "/",
+    "/blogs/news",
+    "/blogs/news/the-benefits-of-biotin",
+    "/blogs/recipes/apple-crisp"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-d3k81ch9hvuctc-cloudfront-net",
+   "class": "T",
+   "feature": "unknown third-party host d3k81ch9hvuctc.cloudfront.net",
+   "hint": "inspect",
+   "evidence": [
+    "d3k81ch9hvuctc.cloudfront.net"
+   ],
+   "pages": [
+    "/",
+    "/blogs/news",
+    "/blogs/news/the-benefits-of-biotin",
+    "/blogs/recipes/apple-crisp"
+   ]
+  },
+  {
+   "id": "t-feedback-survey-voc-badge",
+   "class": "T",
+   "feature": "feedback: survey / VoC badge",
+   "role": "feedback: survey / VoC badge",
+   "hint": "tags",
+   "evidence": [
+    "zn3j7qz4e0kmok5mq-nestleglobalmktg.siteintercept.qualtrics.com",
+    "siteintercept.qualtrics.com"
+   ],
+   "pages": [
+    "/",
+    "/blogs/news",
+    "/blogs/news/the-benefits-of-biotin",
+    "/blogs/recipes/apple-crisp"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-simage2-pubmatic-com",
+   "class": "T",
+   "feature": "unknown third-party host simage2.pubmatic.com",
+   "hint": "inspect",
+   "evidence": [
+    "simage2.pubmatic.com"
+   ],
+   "pages": [
+    "/",
+    "/blogs/news",
+    "/blogs/news/the-benefits-of-biotin",
+    "/blogs/recipes/apple-crisp"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-dsum-sec-casalemedia-com",
+   "class": "T",
+   "feature": "unknown third-party host dsum-sec.casalemedia.com",
+   "hint": "inspect",
+   "evidence": [
+    "dsum-sec.casalemedia.com"
+   ],
+   "pages": [
+    "/",
+    "/blogs/news",
+    "/blogs/news/the-benefits-of-biotin"
+   ]
+  },
+  {
+   "id": "t-social-proof-reviews-widget",
+   "class": "T",
+   "feature": "social proof: reviews widget",
+   "role": "social proof: reviews widget",
+   "hint": "tags",
+   "evidence": [
+    "apps.bazaarvoice.com",
+    "api.bazaarvoice.com",
+    "network-a.bazaarvoice.com"
+   ],
+   "pages": [
+    "/",
+    "/blogs/news/the-benefits-of-biotin"
+   ]
+  },
+  {
+   "id": "t-third-party-mount-div-data-bv-show-tag-manager-injected-wi",
+   "class": "T",
+   "feature": "third-party mount <div data-bv-show> (tag-manager-injected widget)",
+   "hint": "tags",
+   "evidence": [
+    "data-bv-show data-bv-product-id data-bv-seo data-bv-ready"
+   ],
+   "pages": [
+    "/",
+    "/blogs/news/the-benefits-of-biotin"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-x-bidswitch-net",
+   "class": "T",
+   "feature": "unknown third-party host x.bidswitch.net",
+   "hint": "inspect",
+   "evidence": [
+    "x.bidswitch.net"
+   ],
+   "pages": [
+    "/blogs/news/the-benefits-of-biotin",
+    "/blogs/recipes/apple-crisp"
+   ]
+  },
+  {
+   "id": "v-iframe-without-src-runtime-injected-embed",
+   "class": "V",
+   "feature": "iframe without src (runtime-injected embed)",
+   "hint": "embed-runtime",
+   "evidence": [
+    "onetrust-text-resize"
+   ],
+   "pages": [
+    "/",
+    "/blogs/news",
+    "/blogs/news/the-benefits-of-biotin",
+    "/blogs/recipes/apple-crisp"
+   ]
+  },
+  {
+   "id": "x-commerce-platform",
+   "class": "X",
+   "feature": "commerce: platform",
+   "role": "commerce: platform",
+   "hint": "decided-out",
+   "evidence": [
+    "cdn.shopify.com",
+    "otlp-http-production.shopifysvc.com",
+    "monorail-edge.shopifysvc.com"
+   ],
+   "pages": [
+    "/",
+    "/blogs/news",
+    "/blogs/news/the-benefits-of-biotin",
+    "/blogs/recipes/apple-crisp"
+   ]
+  },
+  {
+   "id": "x-commerce-signals-cart-true-prices-2",
+   "class": "X",
+   "feature": "commerce signals (cart: true, prices: 2)",
+   "hint": "decided-out",
+   "evidence": [],
+   "pages": [
+    "/",
+    "/blogs/news",
+    "/blogs/news/the-benefits-of-biotin",
+    "/blogs/recipes/apple-crisp"
+   ]
+  }
+ ],
+ "reach": {
+  "pagesWithEvidence": 120,
+  "of": 120,
+  "endpoints": {
+   "GET naturesbounty.com/cdn/shopifycloud/storefront/assets/storefront/storefronts.moderate.specrules-eb468f32.json": 115,
+   "GET cdn.cookielaw.org/consent/{uuid}/{uuid}.json": 120,
+   "GET geolocation.onetrust.com/cookieconsentpub/v1/geo/location": 120,
+   "POST naturesbounty.com/api/collect": 120,
+   "POST otlp-http-production.shopifysvc.com/v1/metrics": 120,
+   "POST otlp-http-production.shopifysvc.com/v1/logs": 120,
+   "GET cdn.segment.com/v1/projects/ECsOHW2FVtOpLt7aQNdDdfnUMeHL3Gdr/settings": 120,
+   "POST naturesbounty.com/.well-known/shopify/monorail/unstable/produce_batch": 119,
+   "GET cdn.cookielaw.org/consent/{uuid}/{uuid}/en.json": 120,
+   "GET cdn.cookielaw.org/scripttemplates/202603.1.0/assets/otFlat.json": 120,
+   "GET cdn.cookielaw.org/scripttemplates/202603.1.0/assets/v2/otPcCenter.json": 120,
+   "GET cdn.cookielaw.org/scripttemplates/202603.1.0/assets/otCommonStyles.css": 120,
+   "POST collect.analyze.ly/": 120,
+   "POST naturesbounty.com/api/unstable/graphql.json": 120,
+   "GET cdn.cookielaw.org/logos/static/ot_guard_logo.svg": 120,
+   "GET fast.a.klaviyo.com/custom-fonts/api/v1/company-fonts/onsite": 120,
+   "GET static-forms.klaviyo.com/forms/api/v7/RC6LF3/full-forms": 120,
+   "GET fast.a.klaviyo.com/atlas/api/public/settings/RC6LF3": 120,
+   "GET fast.a.klaviyo.com/atlas/api/public/l10n/RC6LF3/en": 120,
+   "POST www.google-analytics.com/g/collect": 120,
+   "POST pagead2.googlesyndication.com/measurement/conversion": 117,
+   "GET api.bazaarvoice.com/data/batch.json": 28,
+   "GET api.bazaarvoice.com/data/display/0.2alpha/product/summary": 28,
+   "POST api.segment.io/v1/t": 28,
+   "POST a.klaviyo.com/onsite/track-analytics": 30,
+   "POST analytics.google.com/g/collect": 3,
+   "POST www.google.com/measurement/conversion": 3,
+   "POST monorail-edge.shopifysvc.com/v1/produce": 3,
+   "POST naturesbounty.com/.well-known/shopify/fec/produce": 1
+  },
+  "searchFormPages": 120,
+  "formPages": 120,
+  "triggerPages": {
+   "aria-haspopup": 25
+  }
+ }
+}
