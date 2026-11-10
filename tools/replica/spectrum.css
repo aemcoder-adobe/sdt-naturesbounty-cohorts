@@ -1,0 +1,515 @@
+/*
+ * spectrum.css — the Experience Catalyst look and feel (React Spectrum 2) as plain CSS.
+ *
+ * Values are copied from @react-spectrum/s2@1.6.0, the version pinned in frontend/package.json.
+ * Everything lives in `@layer spectrum`, so any unlayered rule in your app overrides it.
+ *
+ * Theme: follows the OS by default. Put data-theme="light" or data-theme="dark" on <html>
+ * (or on any subtree) to force one.
+ *
+ * Fonts: Adobe Clean Spectrum VF and Source Code Pro load from Adobe's Typekit CDN, the same
+ * URLs S2 uses. Adobe Clean is licensed to Adobe; use it in Adobe properties only. If the
+ * font doesn't load, it falls back to the system UI font.
+ *
+ * Browser support: needs light-dark(), round() and pow() (Chrome 123+, Safari 17.5+,
+ * Firefox 120+).
+ */
+
+@font-face {
+  font-family: 'adobe-clean-spectrum-vf';
+  src:
+    url('https://use.typekit.net/af/ca4cba/0000000000000000775c55a1/31/l?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n1&v=3')
+      format('woff2'),
+    url('https://use.typekit.net/af/ca4cba/0000000000000000775c55a1/31/d?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n1&v=3')
+      format('woff'),
+    url('https://use.typekit.net/af/ca4cba/0000000000000000775c55a1/31/a?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n1&v=3')
+      format('opentype');
+  font-display: auto;
+  font-style: normal;
+  font-weight: 100 900;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'adobe-clean-spectrum-vf';
+  src:
+    url('https://use.typekit.net/af/8a3244/0000000000000000775c55a2/31/l?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=i1&v=3')
+      format('woff2'),
+    url('https://use.typekit.net/af/8a3244/0000000000000000775c55a2/31/d?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=i1&v=3')
+      format('woff'),
+    url('https://use.typekit.net/af/8a3244/0000000000000000775c55a2/31/a?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=i1&v=3')
+      format('opentype');
+  font-display: auto;
+  font-style: italic;
+  font-weight: 100 900;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'source-code-pro';
+  src:
+    url('https://use.typekit.net/af/88da4d/00000000000000007758ce1a/31/l?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n7&v=3')
+      format('woff2'),
+    url('https://use.typekit.net/af/88da4d/00000000000000007758ce1a/31/d?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n7&v=3')
+      format('woff'),
+    url('https://use.typekit.net/af/88da4d/00000000000000007758ce1a/31/a?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n7&v=3')
+      format('opentype');
+  font-display: auto;
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'source-code-pro';
+  src:
+    url('https://use.typekit.net/af/80f457/00000000000000007758ce1d/31/l?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n4&v=3')
+      format('woff2'),
+    url('https://use.typekit.net/af/80f457/00000000000000007758ce1d/31/d?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n4&v=3')
+      format('woff'),
+    url('https://use.typekit.net/af/80f457/00000000000000007758ce1d/31/a?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n4&v=3')
+      format('opentype');
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+}
+
+@layer spectrum {
+  /* ---------- Tokens ---------- */
+  :root {
+    color-scheme: light dark;
+
+    --spectrum-scale: 1;
+    --spectrum-font-size-base: 14;
+    --spectrum-font-sans:
+      adobe-clean-spectrum-vf, adobe-clean-variable, adobe-clean, ui-sans-serif, system-ui,
+      sans-serif;
+    --spectrum-font-code: source-code-pro, 'Source Code Pro', Monaco, monospace;
+
+    /* Type scale steps: font size = base * 1.125^n (S2 "fs"). */
+    --spectrum-fs-ui-xs: pow(1.125, -2);
+    --spectrum-fs-ui-sm: pow(1.125, -1);
+    --spectrum-fs-ui: 1;
+    --spectrum-fs-body: pow(1.125, 1);
+    --spectrum-fs-title: pow(1.125, 1);
+    --spectrum-fs-heading-xs: pow(1.125, 2);
+    --spectrum-fs-heading-sm: pow(1.125, 3);
+    --spectrum-fs-heading: pow(1.125, 4);
+    --spectrum-fs-heading-lg: pow(1.125, 6);
+    --spectrum-fs-heading-xl: pow(1.125, 8);
+
+    /* Neutrals */
+    --spectrum-gray-25: light-dark(rgb(255, 255, 255), rgb(17, 17, 17));
+    --spectrum-gray-50: light-dark(rgb(248, 248, 248), rgb(27, 27, 27));
+    --spectrum-gray-75: light-dark(rgb(243, 243, 243), rgb(34, 34, 34));
+    --spectrum-gray-100: light-dark(rgb(233, 233, 233), rgb(44, 44, 44));
+    --spectrum-gray-200: light-dark(rgb(225, 225, 225), rgb(50, 50, 50));
+    --spectrum-gray-300: light-dark(rgb(218, 218, 218), rgb(57, 57, 57));
+    --spectrum-gray-400: light-dark(rgb(198, 198, 198), rgb(68, 68, 68));
+    --spectrum-gray-500: light-dark(rgb(143, 143, 143), rgb(109, 109, 109));
+    --spectrum-gray-600: light-dark(rgb(113, 113, 113), rgb(138, 138, 138));
+    --spectrum-gray-700: light-dark(rgb(80, 80, 80), rgb(175, 175, 175));
+    --spectrum-gray-800: light-dark(rgb(41, 41, 41), rgb(219, 219, 219));
+    --spectrum-gray-900: light-dark(rgb(19, 19, 19), rgb(242, 242, 242));
+
+    /* Backgrounds */
+    --spectrum-bg-base: var(--spectrum-gray-25);
+    --spectrum-bg-layer-1: var(--spectrum-gray-50);
+    --spectrum-bg-layer-2: light-dark(rgb(255, 255, 255), rgb(34, 34, 34));
+    --spectrum-bg-app: var(--spectrum-gray-75);
+
+    /* Text */
+    --spectrum-text-heading: var(--spectrum-gray-900);
+    --spectrum-text-neutral: var(--spectrum-gray-800);
+    --spectrum-text-subdued: var(--spectrum-gray-700);
+    --spectrum-text-disabled: var(--spectrum-gray-400);
+    --spectrum-text-accent: light-dark(rgb(59, 99, 251), rgb(86, 129, 255));
+    --spectrum-text-accent-hover: light-dark(rgb(39, 77, 234), rgb(105, 149, 254));
+    --spectrum-text-negative: light-dark(rgb(215, 50, 32), rgb(252, 67, 46));
+
+    /* Semantic fills */
+    --spectrum-accent-bg: light-dark(rgb(59, 99, 251), rgb(52, 91, 248));
+    --spectrum-accent-bg-hover: light-dark(rgb(39, 77, 234), rgb(37, 73, 229));
+    --spectrum-informative-bg: light-dark(rgb(59, 99, 251), rgb(64, 105, 253));
+    --spectrum-neutral-bg: light-dark(rgb(80, 80, 80), rgb(109, 109, 109));
+    --spectrum-positive-bg: light-dark(rgb(5, 131, 78), rgb(6, 136, 80));
+    --spectrum-notice-bg: light-dark(rgb(252, 125, 0), rgb(224, 100, 0));
+    --spectrum-negative-bg: light-dark(rgb(215, 50, 32), rgb(223, 52, 34));
+    --spectrum-disabled-bg: var(--spectrum-gray-100);
+
+    --spectrum-focus-ring: light-dark(rgb(75, 117, 255), rgb(64, 105, 253));
+
+    /* Shape & depth */
+    --spectrum-radius-sm: 0.25rem;
+    --spectrum-radius: 0.5rem;
+    --spectrum-radius-lg: 0.625rem;
+    --spectrum-radius-xl: 1rem;
+    --spectrum-shadow-emphasized:
+      0 2px 8px light-dark(rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.24)),
+      0 1px 4px light-dark(rgba(0, 0, 0, 0.04), rgba(0, 0, 0, 0.12)),
+      0 0 1px light-dark(rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.24));
+    --spectrum-shadow-elevated:
+      0 4px 12px light-dark(rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.24)),
+      0 2px 6px light-dark(rgba(0, 0, 0, 0.04), rgba(0, 0, 0, 0.12)),
+      0 0 2px light-dark(rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.36));
+    --spectrum-shadow-app-main: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+
+    /* Control heights (S / M / L) */
+    --spectrum-control-s: calc(1.5rem * var(--spectrum-scale));
+    --spectrum-control-m: calc(2rem * var(--spectrum-scale));
+    --spectrum-control-l: calc(2.5rem * var(--spectrum-scale));
+
+    --spectrum-transition: 150ms cubic-bezier(0.45, 0, 0.4, 1);
+  }
+
+  /* Touch devices get larger controls and text, like S2. */
+  @media not ((hover: hover) and (pointer: fine)) {
+    :root {
+      --spectrum-scale: 1.25;
+      --spectrum-font-size-base: 17;
+    }
+  }
+
+  /* Force a theme on any subtree; default follows the OS. */
+  [data-theme='light'] {
+    color-scheme: light;
+  }
+  [data-theme='dark'] {
+    color-scheme: dark;
+  }
+
+  /* ---------- Typography ---------- */
+  /* Any element that sets --spectrum-fs gets S2's size + line-height math. */
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .spectrum-button,
+  .spectrum-label,
+  .spectrum-textfield,
+  .spectrum-badge,
+  .spectrum-panel-header,
+  .spectrum-app-title {
+    font-size: round(var(--spectrum-font-size-base) * var(--spectrum-fs) / 16 * 1rem, 1px);
+    line-height: round(
+      1em *
+        (
+          1.15 + (1 - ((min(32, var(--spectrum-font-size-base) * var(--spectrum-fs)) - 10)) / 22) *
+            0.15
+        ),
+      2px
+    );
+    font-synthesis-weight: none;
+  }
+
+  body {
+    --spectrum-fs: var(--spectrum-fs-body);
+    margin: 0;
+    font-family: var(--spectrum-font-sans);
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--spectrum-text-neutral);
+    background-color: var(--spectrum-bg-base);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0 0 0.5em;
+    font-weight: 800;
+    color: var(--spectrum-text-heading);
+  }
+  h1 {
+    --spectrum-fs: var(--spectrum-fs-heading-xl);
+  }
+  h2 {
+    --spectrum-fs: var(--spectrum-fs-heading-lg);
+  }
+  h3 {
+    --spectrum-fs: var(--spectrum-fs-heading);
+  }
+  h4 {
+    --spectrum-fs: var(--spectrum-fs-heading-sm);
+  }
+  h5 {
+    --spectrum-fs: var(--spectrum-fs-heading-xs);
+  }
+  h6 {
+    --spectrum-fs: var(--spectrum-fs-ui);
+  }
+
+  p {
+    margin: 0 0 1em;
+  }
+
+  a {
+    color: var(--spectrum-text-accent);
+    text-decoration: underline;
+    border-radius: var(--spectrum-radius-sm);
+    transition: color var(--spectrum-transition);
+  }
+  a:hover {
+    color: var(--spectrum-text-accent-hover);
+  }
+
+  code,
+  pre,
+  kbd {
+    font-family: var(--spectrum-font-code);
+  }
+  pre {
+    padding: 0.5rem;
+    border-radius: var(--spectrum-radius);
+    background-color: var(--spectrum-bg-layer-1);
+    overflow-x: auto;
+  }
+
+  hr {
+    height: 2px;
+    margin: 0;
+    border: none;
+    border-radius: 9999px;
+    background-color: var(--spectrum-gray-200);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--spectrum-focus-ring);
+    outline-offset: 2px;
+  }
+
+  /* ---------- Button ---------- */
+  /* Default = secondary fill. Modifiers: --accent, --outline, --quiet. */
+  .spectrum-button {
+    --spectrum-fs: var(--spectrum-fs-ui);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0.4286em;
+    box-sizing: border-box;
+    min-width: var(--spectrum-control-m);
+    min-height: var(--spectrum-control-m);
+    padding: 0 calc(var(--spectrum-control-m) / 2);
+    border: 0 solid transparent;
+    border-radius: 9999px;
+    font-family: inherit;
+    font-weight: 700;
+    color: var(--spectrum-text-neutral);
+    background-color: var(--spectrum-gray-100);
+    text-decoration: none;
+    cursor: pointer;
+    user-select: none;
+    transition:
+      color var(--spectrum-transition),
+      background-color var(--spectrum-transition),
+      border-color var(--spectrum-transition);
+  }
+  .spectrum-button:hover {
+    background-color: var(--spectrum-gray-200);
+    color: var(--spectrum-text-neutral);
+  }
+
+  .spectrum-button--accent {
+    color: white;
+    background-color: var(--spectrum-accent-bg);
+  }
+  .spectrum-button--accent:hover {
+    color: white;
+    background-color: var(--spectrum-accent-bg-hover);
+  }
+
+  .spectrum-button--outline {
+    border-width: 2px;
+    border-color: var(--spectrum-gray-800);
+    background-color: transparent;
+  }
+  .spectrum-button--outline:hover {
+    border-color: var(--spectrum-gray-900);
+    background-color: var(--spectrum-gray-100);
+  }
+
+  /* Matches S2 ActionButton isQuiet (used across the ExCat header and panels). */
+  .spectrum-button--quiet {
+    padding: 0 calc(var(--spectrum-control-m) * 3 / 8);
+    border-radius: var(--spectrum-radius);
+    font-weight: 500;
+    background-color: transparent;
+  }
+
+  .spectrum-button:disabled,
+  .spectrum-button[aria-disabled='true'] {
+    color: var(--spectrum-text-disabled);
+    background-color: var(--spectrum-disabled-bg);
+    border-color: var(--spectrum-gray-300);
+    cursor: default;
+  }
+  .spectrum-button--outline:disabled,
+  .spectrum-button--quiet:disabled {
+    background-color: transparent;
+  }
+
+  /* ---------- Text field ---------- */
+  .spectrum-field {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .spectrum-label {
+    --spectrum-fs: var(--spectrum-fs-ui);
+    color: var(--spectrum-text-subdued);
+  }
+
+  .spectrum-textfield {
+    --spectrum-fs: var(--spectrum-fs-ui);
+    box-sizing: border-box;
+    width: 13rem;
+    height: var(--spectrum-control-m);
+    padding: 0 calc(var(--spectrum-control-m) * 3 / 8);
+    border: 2px solid var(--spectrum-gray-300);
+    border-radius: var(--spectrum-radius);
+    font-family: inherit;
+    color: var(--spectrum-text-neutral);
+    background-color: var(--spectrum-gray-25);
+    transition: border-color var(--spectrum-transition);
+  }
+  .spectrum-textfield:hover {
+    border-color: var(--spectrum-gray-400);
+  }
+  .spectrum-textfield:focus {
+    border-color: var(--spectrum-gray-900);
+  }
+  .spectrum-textfield[aria-invalid='true'] {
+    border-color: var(--spectrum-text-negative);
+  }
+  .spectrum-textfield:disabled {
+    border-color: var(--spectrum-gray-300);
+    color: var(--spectrum-text-disabled);
+  }
+
+  /* ---------- Badge ---------- */
+  /* Default = neutral. Modifiers: --accent, --informative, --positive, --notice, --negative. */
+  .spectrum-badge {
+    --spectrum-fs: var(--spectrum-fs-ui-sm);
+    display: inline-flex;
+    align-items: center;
+    box-sizing: border-box;
+    min-height: var(--spectrum-control-s);
+    padding: 0 calc(var(--spectrum-control-s) * 3 / 8);
+    border: 2px solid transparent;
+    border-radius: 7px;
+    font-weight: 400;
+    color: white;
+    background-color: var(--spectrum-neutral-bg);
+  }
+  .spectrum-badge--accent {
+    background-color: var(--spectrum-accent-bg);
+  }
+  .spectrum-badge--informative {
+    background-color: var(--spectrum-informative-bg);
+  }
+  .spectrum-badge--positive {
+    background-color: var(--spectrum-positive-bg);
+  }
+  .spectrum-badge--notice {
+    background-color: var(--spectrum-notice-bg);
+    color: black;
+  }
+  .spectrum-badge--negative {
+    background-color: var(--spectrum-negative-bg);
+  }
+
+  /* ---------- Panel ---------- */
+  .spectrum-panel {
+    border: 1px solid var(--spectrum-gray-200);
+    border-radius: var(--spectrum-radius-xl);
+    background-color: var(--spectrum-bg-base);
+    box-shadow: var(--spectrum-shadow-app-main);
+    overflow: hidden;
+  }
+
+  /* Title on the left, actions on the right, divider below (ExCat PanelHeader). */
+  .spectrum-panel-header {
+    --spectrum-fs: var(--spectrum-fs-title);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    min-height: calc(3.5rem * var(--spectrum-scale));
+    padding: 0 0.5rem;
+    border-bottom: 2px solid var(--spectrum-gray-200);
+    font-weight: 700;
+    color: var(--spectrum-text-heading);
+  }
+
+  /* ---------- App shell (ExCat App.tsx) ---------- */
+  .spectrum-app {
+    display: grid;
+    grid-template: 'header' auto 'banner' auto 'main' 1fr / 100%;
+    height: 100vh;
+    background-color: var(--spectrum-bg-app);
+  }
+
+  .spectrum-app-header {
+    grid-area: header;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    min-height: var(--spectrum-control-l);
+    padding: 16px;
+  }
+
+  .spectrum-app-banner {
+    grid-area: banner;
+  }
+
+  /* Product name in the header: S2 ActionButton L label (16px bold). */
+  .spectrum-app-title {
+    --spectrum-fs: var(--spectrum-fs-body);
+    font-weight: 700;
+    color: var(--spectrum-text-neutral);
+  }
+
+  .spectrum-app-main {
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+    margin: 0 1rem;
+    border-radius: var(--spectrum-radius-xl) var(--spectrum-radius-xl) 0 0;
+    background-color: var(--spectrum-bg-base);
+    box-shadow: var(--spectrum-shadow-app-main);
+    overflow: hidden;
+  }
+
+  /* Chat | content split: 1/3 primary (min 450px), 2px divider, flexible secondary. */
+  .spectrum-split {
+    display: flex;
+    flex: 1;
+    min-height: 0;
+  }
+  .spectrum-split-primary {
+    flex: 0 0 33.3%;
+    min-width: min(450px, 100%);
+    overflow: auto;
+  }
+  .spectrum-split-divider {
+    flex: 0 0 2px;
+    background-color: var(--spectrum-gray-200);
+  }
+  .spectrum-split-secondary {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-width: 0;
+    overflow: auto;
+    background-color: var(--spectrum-bg-base);
+  }
+}

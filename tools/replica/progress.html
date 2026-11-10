@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Migration status</title>
+<link rel="stylesheet" href="spectrum.css">
+<style>
+  body { background-color: var(--spectrum-bg-app); }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 24px 64px; }
+  header { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+  .meta { color: var(--spectrum-text-subdued); margin: 0 0 24px; }
+  .spectrum-panel { margin-bottom: 16px; }
+  .spectrum-panel-header { margin: 0; padding: 0 16px; }
+  details.spectrum-panel > summary { cursor: pointer; list-style: none; }
+  details.spectrum-panel > summary::-webkit-details-marker { display: none; }
+  details.spectrum-panel > summary > h2 { margin: 0; font: inherit; }
+  details.spectrum-panel > summary > h2::before { content: "\25B8"; display: inline-block; width: 1em; margin-right: 6px; color: var(--spectrum-text-subdued); }
+  details.spectrum-panel[open] > summary > h2::before { content: "\25BE"; }
+  .panel-body { padding: 16px; }
+  .panel-body > :last-child { margin-bottom: 0; }
+  .bar { height: 8px; border-radius: 9999px; background-color: var(--spectrum-gray-200); overflow: hidden; }
+  .bar span { display: block; height: 100%; background-color: var(--spectrum-accent-bg); }
+  ol.steps { list-style: none; padding: 0; margin: 0; }
+  ol.steps li { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 0; }
+  ol.steps li + li { border-top: 1px solid var(--spectrum-gray-200); }
+  details summary { cursor: pointer; }
+  table.pages { margin-top: 8px; }
+  table.pages td { word-break: break-all; }
+  table.pages td .spectrum-badge { word-break: normal; }
+  @media (max-width: 400px) { table.pages th, table.pages td { padding: 8px 4px; } }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { padding: 8px; text-align: left; border-bottom: 1px solid var(--spectrum-gray-200); }
+  th { color: var(--spectrum-text-subdued); font-weight: 700; }
+  .panel-body h3 { margin: 16px 0 4px; }
+  ol.todo { padding-left: 20px; margin: 0 0 16px; }
+  ol.todo li { margin: 6px 0; }
+  ul.all { columns: 2; margin: 4px 0; padding-left: 18px; }
+  .spectrum-panel-header .spectrum-badge { margin-left: 8px; vertical-align: middle; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Migration status</h1>
+    <span class="spectrum-badge spectrum-badge--informative">In progress</span>
+  </header>
+  <p class="meta">Source site: <a href="https://naturesbounty.com/" target="_blank" rel="noopener">https://naturesbounty.com/</a><br>Preview site: <a href="https://main--1a676f95--aemcoder.aem.page/" target="_blank" rel="noopener">https://main--1a676f95--aemcoder.aem.page/</a><br>Last updated: 2026-11-10 22:56 UTC</p>
+
+  <details class="spectrum-panel" open>
+    <summary class="spectrum-panel-header"><h2>Journey</h2></summary>
+    <div class="panel-body">
+      <ol class="steps">
+        <li>Analyzing your site<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Capturing brand and design<span class="spectrum-badge spectrum-badge--informative">In progress</span></li>
+        <li>Rebuilding page templates<span class="spectrum-badge">Upcoming</span></li>
+        <li>Publishing your pages<span class="spectrum-badge">Upcoming</span></li>
+        <li>Checking every page against the original<span class="spectrum-badge">Upcoming</span></li>
+        <li>Final checks<span class="spectrum-badge">Upcoming</span></li>
+      </ol>
+    </div>
+  </details>
+
+  <details class="spectrum-panel" open>
+    <summary class="spectrum-panel-header"><h2>Pages</h2></summary>
+    <div class="panel-body">
+      <p>This migration covers 121 pages. 0 of 121 are published on the preview site. Pages on the preview site can still change while the checks run.</p>
+      <details>
+        <summary>121 pages in this migration</summary>
+        <table class="pages">
+          <thead><tr><th>Source page</th><th>On the preview site</th><th>Status</th></tr></thead>
+          <tbody>
+          <tr><td><a href="https://naturesbounty.com/" target="_blank" rel="noopener">https://naturesbounty.com/</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/agents.md" target="_blank" rel="noopener">https://naturesbounty.com/agents.md</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/recipes" target="_blank" rel="noopener">https://naturesbounty.com/blogs/recipes</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/mens-health" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/mens-health</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/why-magnesium-matters-more-than-ever" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/why-magnesium-matters-more-than-ever</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/how-to-choose-the-right-probiotic-for-daily-support" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/how-to-choose-the-right-probiotic-for-daily-support</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/what-are-ceramides-and-why-they-matter-more-as-skin-ages" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/what-are-ceramides-and-why-they-matter-more-as-skin-ages</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/whipped-lavender-body-butter" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/whipped-lavender-body-butter</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/beauty-facts" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/beauty-facts</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/how-much-fish-oil-should-you-take-daily" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/how-much-fish-oil-should-you-take-daily</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/the-benefits-of-biotin" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/the-benefits-of-biotin</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/what-women-need-to-know-about-detecting-breast-cancer-early-an-interview-with-susan-brown-m-s-r-n-at-susan-g-komen%C2%AE" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/what-women-need-to-know-about-detecting-breast-cancer-early-an-interview-with-susan-brown-m-s-r-n-at-susan-g-komen%C2%AE</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/women-s-health-awareness-5-ways-to-reset-your-wellness-routine" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/women-s-health-awareness-5-ways-to-reset-your-wellness-routine</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/what-type-of-magnesium-supplement-is-perfect-for-me-understanding-your-options" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/what-type-of-magnesium-supplement-is-perfect-for-me-understanding-your-options</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/the-benefits-of-prenatal-vitamins" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/the-benefits-of-prenatal-vitamins</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/recipes/peach-pear-and-plum-smoothie" target="_blank" rel="noopener">https://naturesbounty.com/blogs/recipes/peach-pear-and-plum-smoothie</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/hair-skin-and-beauty-hacks-every-woman-needs-to-know" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/hair-skin-and-beauty-hacks-every-woman-needs-to-know</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/your-gut-may-play-a-powerful-role-in-your-well-being-our-survey-finds" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/your-gut-may-play-a-powerful-role-in-your-well-being-our-survey-finds</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/digestive-probiotic-10" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/digestive-probiotic-10</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/enhance-your-digestive-wellness-with-these-4-probiotic-supplements" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/enhance-your-digestive-wellness-with-these-4-probiotic-supplements</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/recipes/hazelnut-coffee-smoothie" target="_blank" rel="noopener">https://naturesbounty.com/blogs/recipes/hazelnut-coffee-smoothie</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/5-tips-for-a-better-sleep-this-summer" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/5-tips-for-a-better-sleep-this-summer</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/recipes/mango-berry-cloud" target="_blank" rel="noopener">https://naturesbounty.com/blogs/recipes/mango-berry-cloud</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/recipes/pina-colada-protein-shake" target="_blank" rel="noopener">https://naturesbounty.com/blogs/recipes/pina-colada-protein-shake</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/recipes/peanut-butter-and-jelly-protein-shake" target="_blank" rel="noopener">https://naturesbounty.com/blogs/recipes/peanut-butter-and-jelly-protein-shake</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/recipes/protein-smores-bowl" target="_blank" rel="noopener">https://naturesbounty.com/blogs/recipes/protein-smores-bowl</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/recipes/instant-chocolate-pancake-mix" target="_blank" rel="noopener">https://naturesbounty.com/blogs/recipes/instant-chocolate-pancake-mix</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/recipes/protein-french-toast" target="_blank" rel="noopener">https://naturesbounty.com/blogs/recipes/protein-french-toast</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/recipes/protein-packed-pumpkin-bread" target="_blank" rel="noopener">https://naturesbounty.com/blogs/recipes/protein-packed-pumpkin-bread</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/recipes/vegan-chocolate-peanut-butter-vitamin-smoothie" target="_blank" rel="noopener">https://naturesbounty.com/blogs/recipes/vegan-chocolate-peanut-butter-vitamin-smoothie</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/recipes/oatmeal-cookie-shake" target="_blank" rel="noopener">https://naturesbounty.com/blogs/recipes/oatmeal-cookie-shake</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/recipes/red-velvet-protein-cupcakes-with-greek-yogurt-frosting" target="_blank" rel="noopener">https://naturesbounty.com/blogs/recipes/red-velvet-protein-cupcakes-with-greek-yogurt-frosting</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/the-step-by-step-guide-for-your-daily-skincare-routine" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/the-step-by-step-guide-for-your-daily-skincare-routine</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/smarter-better-health-every-day" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/smarter-better-health-every-day</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/recipes/probiotic-rich-breakfast-bowl" target="_blank" rel="noopener">https://naturesbounty.com/blogs/recipes/probiotic-rich-breakfast-bowl</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/beauty-food-and-vitamins" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/beauty-food-and-vitamins</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/support-a-good-night-s-rest-with-sleep3-time-release-melatonin-gummies" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/support-a-good-night-s-rest-with-sleep3-time-release-melatonin-gummies</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/beauty-tips-youll-thank-us-for-later" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/beauty-tips-youll-thank-us-for-later</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/simple-heart-healthy-steps-for-you-and-your-sweetheart" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/simple-heart-healthy-steps-for-you-and-your-sweetheart</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/healthy-living-tips-from-dorothy-hamill" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/healthy-living-tips-from-dorothy-hamill</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/your-guide-to-festival-prep" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/your-guide-to-festival-prep</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/vitamin-b-12-rich-foods" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/vitamin-b-12-rich-foods</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/eye-cream" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/eye-cream</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/5-tips-to-reset-your-beauty-routine-this-winter" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/5-tips-to-reset-your-beauty-routine-this-winter</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/10-tips-for-when-you-find-out-you-are-pregnant" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/10-tips-for-when-you-find-out-you-are-pregnant</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/exploring-heart-health-omega-3-supplements-beyond-fish-oil" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/exploring-heart-health-omega-3-supplements-beyond-fish-oil</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/what-products-do-i-need-new-year-must-haves" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/what-products-do-i-need-new-year-must-haves</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/staying-healthy-as-you-age-tips-to-help-you-grow-older-with-confidence" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/staying-healthy-as-you-age-tips-to-help-you-grow-older-with-confidence</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/support-year-round-health-with-wellness-tips-for-every-season" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/support-year-round-health-with-wellness-tips-for-every-season</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/support-thicker-fuller-hair-with-our-new-supplement-for-hair-growth" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/support-thicker-fuller-hair-with-our-new-supplement-for-hair-growth</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/what-is-berberine-get-the-facts-behind-this-popular-supplement" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/what-is-berberine-get-the-facts-behind-this-popular-supplement</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/summer-tips-for-a-healthy-heart" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/summer-tips-for-a-healthy-heart</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/10-popular-foods-that-can-nourish-hair" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/10-popular-foods-that-can-nourish-hair</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/recipes/quinoa-apple-cake" target="_blank" rel="noopener">https://naturesbounty.com/blogs/recipes/quinoa-apple-cake</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/recipes/lean-beef-burger-with-sweet-potato-fries" target="_blank" rel="noopener">https://naturesbounty.com/blogs/recipes/lean-beef-burger-with-sweet-potato-fries</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/top-5-holiday-self-care-tips" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/top-5-holiday-self-care-tips</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/probiotic-gummies" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/probiotic-gummies</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/trust-us-youre-always-better-off-healthy" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/trust-us-youre-always-better-off-healthy</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/help-manage-your-weight-with-metabolism-booster" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/help-manage-your-weight-with-metabolism-booster</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/womens-multivitamin-more-than-just-a-great-taste" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/womens-multivitamin-more-than-just-a-great-taste</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/recipes/crab-stuffed-salmon-with-honey-agave-glaze" target="_blank" rel="noopener">https://naturesbounty.com/blogs/recipes/crab-stuffed-salmon-with-honey-agave-glaze</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/helpful-tips-to-reduce-stress-this-spring" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/helpful-tips-to-reduce-stress-this-spring</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/over-40-years-of-trusted-quality" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/over-40-years-of-trusted-quality</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/probiotics-for-everyday-health" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/probiotics-for-everyday-health</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/what-are-probiotics" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/what-are-probiotics</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/recipes/quinoa-avocado-and-black-bean-salad" target="_blank" rel="noopener">https://naturesbounty.com/blogs/recipes/quinoa-avocado-and-black-bean-salad</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/q-a-2-key-steps-in-reducing-abdominal-fat-a-conversation-with-nutrition-expert-maile-combs-ms" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/q-a-2-key-steps-in-reducing-abdominal-fat-a-conversation-with-nutrition-expert-maile-combs-ms</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/feel-full-again-the-science-behind-hair-growth-with-nutrition-expert-jaclyn-safrath" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/feel-full-again-the-science-behind-hair-growth-with-nutrition-expert-jaclyn-safrath</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/build-beauty-from-within-your-2024-vitamin-routine" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/build-beauty-from-within-your-2024-vitamin-routine</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/recipes/heart-friendly-kettle-popcorn" target="_blank" rel="noopener">https://naturesbounty.com/blogs/recipes/heart-friendly-kettle-popcorn</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/healthy-summer-travel-tips" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/healthy-summer-travel-tips</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/fall-into-an-active-autumn" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/fall-into-an-active-autumn</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/recipes/healthy-snacks" target="_blank" rel="noopener">https://naturesbounty.com/blogs/recipes/healthy-snacks</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/celebrate-women-s-history-month-with-the-inspiring-women-at-nature-s-bounty%C2%AE" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/celebrate-women-s-history-month-with-the-inspiring-women-at-nature-s-bounty%C2%AE</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/the-top-10-reasons-to-exercise-regularly" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/the-top-10-reasons-to-exercise-regularly</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/importance-of-sleep" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/importance-of-sleep</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/surprising-benefits-of-probiotics" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/surprising-benefits-of-probiotics</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/gut-check-exploring-the-power-of-probiotics-with-nature-s-bounty%C2%AE" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/gut-check-exploring-the-power-of-probiotics-with-nature-s-bounty%C2%AE</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/tips-for-healthy-digestion-and-quality-sleep" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/tips-for-healthy-digestion-and-quality-sleep</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/the-kroger-wellness-festival-is-back-september-22-23-2023" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/the-kroger-wellness-festival-is-back-september-22-23-2023</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/support-immune-health-during-back-to-school-season-tips-for-the-whole-family" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/support-immune-health-during-back-to-school-season-tips-for-the-whole-family</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/partnering-with-susan-g-komen-to-end-breast-cancer-forever" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/partnering-with-susan-g-komen-to-end-breast-cancer-forever</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/quick-fix-beauty-tips" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/quick-fix-beauty-tips</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/make-better-food-swaps-this-season" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/make-better-food-swaps-this-season</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/heart-health" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/heart-health</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/5-reasons-to-try-tropical-citrus-hair-skin-and-nails-gummies" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/5-reasons-to-try-tropical-citrus-hair-skin-and-nails-gummies</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/recipes/grilled-chicken-with-strawberry-and-pineapple-salsa" target="_blank" rel="noopener">https://naturesbounty.com/blogs/recipes/grilled-chicken-with-strawberry-and-pineapple-salsa</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/recipes/green-smoothie-your-daily-dose-of-greens" target="_blank" rel="noopener">https://naturesbounty.com/blogs/recipes/green-smoothie-your-daily-dose-of-greens</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/recipes/golden-milk-recipe-with-turmeric" target="_blank" rel="noopener">https://naturesbounty.com/blogs/recipes/golden-milk-recipe-with-turmeric</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/recipes/frozen-greek-yogurt-sundae" target="_blank" rel="noopener">https://naturesbounty.com/blogs/recipes/frozen-greek-yogurt-sundae</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/recipes/delicious-bedtime-smoothie" target="_blank" rel="noopener">https://naturesbounty.com/blogs/recipes/delicious-bedtime-smoothie</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/recipes/date-night-frappe" target="_blank" rel="noopener">https://naturesbounty.com/blogs/recipes/date-night-frappe</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/recipes/crustless-cranberry-pie-recipe" target="_blank" rel="noopener">https://naturesbounty.com/blogs/recipes/crustless-cranberry-pie-recipe</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/recipes/creamy-spinach-artichoke-dip" target="_blank" rel="noopener">https://naturesbounty.com/blogs/recipes/creamy-spinach-artichoke-dip</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/recipes/chocolate-tropical-paradise" target="_blank" rel="noopener">https://naturesbounty.com/blogs/recipes/chocolate-tropical-paradise</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/recipes/chocolate-pudding" target="_blank" rel="noopener">https://naturesbounty.com/blogs/recipes/chocolate-pudding</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/recipes/chocolate-peanut-butter-protein-oats" target="_blank" rel="noopener">https://naturesbounty.com/blogs/recipes/chocolate-peanut-butter-protein-oats</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/recipes/chocolate-peaches" target="_blank" rel="noopener">https://naturesbounty.com/blogs/recipes/chocolate-peaches</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/recipes/chocolate-no-bake-cheesecake" target="_blank" rel="noopener">https://naturesbounty.com/blogs/recipes/chocolate-no-bake-cheesecake</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/recipes/chocolate-milkshake" target="_blank" rel="noopener">https://naturesbounty.com/blogs/recipes/chocolate-milkshake</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/recipes/chocolate-lava-muffins" target="_blank" rel="noopener">https://naturesbounty.com/blogs/recipes/chocolate-lava-muffins</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/recipes/chocolate-covered-cherry-shake" target="_blank" rel="noopener">https://naturesbounty.com/blogs/recipes/chocolate-covered-cherry-shake</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/recipes/chocolate-coconut-energy-balls-with-turmeric" target="_blank" rel="noopener">https://naturesbounty.com/blogs/recipes/chocolate-coconut-energy-balls-with-turmeric</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/recipes/breakfast-smoothie" target="_blank" rel="noopener">https://naturesbounty.com/blogs/recipes/breakfast-smoothie</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/recipes/blueberry-pancakes" target="_blank" rel="noopener">https://naturesbounty.com/blogs/recipes/blueberry-pancakes</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/recipes/banana-walnut-protein-pancakes" target="_blank" rel="noopener">https://naturesbounty.com/blogs/recipes/banana-walnut-protein-pancakes</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/recipes/apple-crisp" target="_blank" rel="noopener">https://naturesbounty.com/blogs/recipes/apple-crisp</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/your-go-to-guide-for-festival-ready-hair" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/your-go-to-guide-for-festival-ready-hair</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/supplement-your-beauty-routine-with-hair-skin-nails" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/supplement-your-beauty-routine-with-hair-skin-nails</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/refresh-your-beauty-routine-this-spring" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/refresh-your-beauty-routine-this-spring</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/one-week-makeup-detox" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/one-week-makeup-detox</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/natures-bounty-optimal-solutions-wanderlust" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/natures-bounty-optimal-solutions-wanderlust</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/how-much-sleep-do-you-really-need" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/how-much-sleep-do-you-really-need</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/hot-looks-for-summer-2018" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/hot-looks-for-summer-2018</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/hot-hairstyles-to-try-this-fall" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/hot-hairstyles-to-try-this-fall</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/healthy-holiday-hacks" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/healthy-holiday-hacks</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/easy-hairstyles" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/easy-hairstyles</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/digest-these-healthy-eating-habits" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/digest-these-healthy-eating-habits</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/benefits-of-fish-oil" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/benefits-of-fish-oil</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/give-your-hair-skin-and-nails-a-healthy-foundation-to-shine" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/give-your-hair-skin-and-nails-a-healthy-foundation-to-shine</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          </tbody>
+        </table>
+      </details>
+    </div>
+  </details>
+
+  <details class="spectrum-panel" open>
+    <summary class="spectrum-panel-header"><h2>Page templates</h2></summary>
+    <div class="panel-body">
+      <table>
+        <thead><tr><th>Template</th><th>Pages</th><th>Desktop</th><th>Mobile</th><th>Status</th></tr></thead>
+        <tbody>
+          <tr><td>Wellness articles</td><td>77</td><td>—</td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td>Home page</td><td>1</td><td>—</td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td>Blog index pages</td><td>2</td><td>—</td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td>Recipes</td><td>40</td><td>—</td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </details>
+
+  <details class="spectrum-panel" open>
+    <summary class="spectrum-panel-header"><h2>Progress</h2></summary>
+    <div class="panel-body">
+      <p>8% complete</p>
+      <div class="bar"><span style="width: 8%"></span></div>
+    </div>
+  </details>
+
+  <details class="spectrum-panel" open>
+    <summary class="spectrum-panel-header"><h2>What's happening now</h2></summary>
+    <div class="panel-body">
+      <p>We have finished taking stock of your site: all 120 web pages have been captured with their text, images, fonts and layout. We grouped them into four page templates: the home page, the two blog index pages, wellness articles and recipes.</p>
+    </div>
+  </details>
+
+  <details class="spectrum-panel" open>
+    <summary class="spectrum-panel-header"><h2>What's next</h2></summary>
+    <div class="panel-body">
+      <p>Next we lock in the current design as the target and start rebuilding one example of each template to match today&#39;s site.</p>
+    </div>
+  </details>
+</main>
+</body>
+</html>
