@@ -1,0 +1,107 @@
+{
+ "url": "https://main--1a676f95--aemcoder.aem.page/",
+ "at": "2026-11-11T02:31:44.379Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 10,
+  "offPage": 353,
+  "textNodes": 327,
+  "controls": 189,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 2,
+   "clipper": "div.announce-viewport",
+   "path": "div.announce-track > ul > li > a",
+   "text": "supplementing the knowledge gap in women's health",
+   "cutMin": 73,
+   "cutMax": 225
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 2,
+   "clipper": "div.announce-viewport",
+   "path": "div.announce-track > ul > li > a",
+   "text": "supplementing the knowledge gap in women's health",
+   "cutMin": 73,
+   "cutMax": 225
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "n": 2,
+   "clipper": "div.testimonials-viewport",
+   "path": "div.testimonials-item > div.testimonials-quote > div.testimonials-quote-text > p",
+   "text": "\"i am always low on vitamin d because i don't stay in the su",
+   "cutMin": 109,
+   "cutMax": 214
+  },
+  {
+   "kind": "CONTROL X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.tabbed-products-track",
+   "path": "div.tabbed-products-track > div.tabbed-products-slide > div.product-card > a.product-card-inner",
+   "text": "probiotic 1020 billion live probiotic cultures , 30 capsules",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.testimonials-viewport",
+   "path": "div.testimonials-item > div.testimonials-quote > div.testimonials-quote-title > h3#vitamin-d3",
+   "text": "vitamin d3",
+   "cutMin": 105,
+   "cutMax": 105
+  },
+  {
+   "kind": "CONTROL X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.testimonials-viewport",
+   "path": "div.testimonials-quote > div.testimonials-more > p > a",
+   "text": "read more",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.testimonials-viewport",
+   "path": "div.testimonials-quote > div.testimonials-more > p > a",
+   "text": "read more",
+   "cutMin": 63,
+   "cutMax": 63
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 8,
+   "offPage": 410,
+   "textNodes": 337,
+   "controls": 234,
+   "total": 0
+  }
+ }
+}

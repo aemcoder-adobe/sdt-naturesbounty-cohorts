@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "writtenBy": "stardust:migrate",
-    "writtenAt": "2026-11-11T02:11:28Z",
+    "writtenAt": "2026-11-11T02:32:36Z",
     "stardustVersion": "0.37.2"
   },
   "site": {
@@ -24,7 +24,7 @@
       "url": "https://naturesbounty.com/",
       "title": "Nature's Bounty Vitamins, Supplements & Minerals",
       "type": "landing",
-      "status": "approved",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -38,13 +38,17 @@
           "status": "approved",
           "at": "2026-11-11T00:21:13Z",
           "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-11T02:32:36Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/index.json",
       "prototypePath": "stardust/prototypes/index-proposed.html",
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/index.html"
     },
     {
       "slug": "blogs-news",

@@ -7,7 +7,7 @@
     ],
     "stardustVersion": "0.0.0"
   },
-  "generatedAt": "2026-11-11T02:11:28.578Z",
+  "generatedAt": "2026-11-11T02:32:36.615Z",
   "blocks": [
     {
       "id": "article",
@@ -103,8 +103,8 @@
       ],
       "instanceCount": 1,
       "delivery": {
-        "status": "pending",
-        "edsBlockName": "content-highlight",
+        "status": "deployed",
+        "edsBlockName": "content-products",
         "blockPath": null,
         "convertedAt": null
       }
@@ -123,7 +123,7 @@
       ],
       "instanceCount": 1,
       "delivery": {
-        "status": "pending",
+        "status": "deployed",
         "edsBlockName": "content-newsletter",
         "blockPath": null,
         "convertedAt": null
@@ -143,7 +143,7 @@
       ],
       "instanceCount": 1,
       "delivery": {
-        "status": "pending",
+        "status": "deployed",
         "edsBlockName": "content-products",
         "blockPath": null,
         "convertedAt": null
@@ -163,7 +163,7 @@
       ],
       "instanceCount": 1,
       "delivery": {
-        "status": "pending",
+        "status": "deployed",
         "edsBlockName": "featured-content",
         "blockPath": null,
         "convertedAt": null
@@ -183,7 +183,7 @@
       ],
       "instanceCount": 1,
       "delivery": {
-        "status": "pending",
+        "status": "deployed",
         "edsBlockName": "featured-grid",
         "blockPath": null,
         "convertedAt": null
@@ -355,7 +355,7 @@
       ],
       "instanceCount": 1,
       "delivery": {
-        "status": "pending",
+        "status": "deployed",
         "edsBlockName": "tabbed-products",
         "blockPath": null,
         "convertedAt": null
@@ -395,7 +395,7 @@
       ],
       "instanceCount": 1,
       "delivery": {
-        "status": "pending",
+        "status": "deployed",
         "edsBlockName": "testimonials",
         "blockPath": null,
         "convertedAt": null
@@ -441,7 +441,7 @@
       ],
       "instanceCount": 1,
       "delivery": {
-        "status": "pending",
+        "status": "deployed",
         "edsBlockName": "video-hero",
         "blockPath": null,
         "convertedAt": null

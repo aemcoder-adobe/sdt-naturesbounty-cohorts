@@ -1,6 +1,6 @@
 {
  "url": "https://main--1a676f95--aemcoder.aem.page/",
- "at": "2026-11-11T02:22:03.851Z",
+ "at": "2026-11-11T02:27:48.848Z",
  "source": "content-presence",
  "counts": {
   "textClipped": 0,
@@ -10,13 +10,33 @@
   "clamped": 0,
   "collapsed": 0,
   "scrollHidden": 0,
-  "horizontal": 7,
-  "offPage": 175,
+  "horizontal": 9,
+  "offPage": 173,
   "textNodes": 283,
   "controls": 130,
   "total": 0
  },
  "groups": [
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.announce-viewport",
+   "path": "div.announce-track > ul > li > a",
+   "text": "supplementing the knowledge gap in women's health",
+   "cutMin": 310,
+   "cutMax": 310
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.announce-viewport",
+   "path": "div.announce-track > ul > li > a",
+   "text": "supplementing the knowledge gap in women's health",
+   "cutMin": 310,
+   "cutMax": 310
+  },
   {
    "kind": "CONTROL X-HIDDEN",
    "advisory": true,
