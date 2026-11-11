@@ -78,48 +78,49 @@ function buildCard(nodes) {
 
   const body = div('product-card-body', media, title);
   if (servings.children.length) body.append(servings);
-  if (avg.children.length) {
-    const stars = div('rating-stars');
-    stars.setAttribute('aria-hidden', 'true');
-    // the source (Bazaarvoice) fills the stars to the average: whole stars on, the next one
-    // filled left-to-right by the fraction
-    const rating = parseFloat(avg.textContent.trim()) || 0;
-    for (let i = 0; i < 5; i += 1) {
-      const fill = Math.max(0, Math.min(1, rating - i));
-      const star = document.createElementNS(SVG_NS, 'svg');
-      star.setAttribute('class', 'rating-star');
-      star.setAttribute('viewBox', '0 0 25 25');
-      const path = document.createElementNS(SVG_NS, 'path');
-      path.setAttribute('d', STAR_PATH);
-      if (fill >= 1) star.classList.add('rating-star-on');
-      else if (fill > 0) {
-        starSeq += 1;
-        const id = `rating-star-fill-${starSeq}`;
-        const grad = document.createElementNS(SVG_NS, 'linearGradient');
-        grad.id = id;
-        const pct = `${Math.round(fill * 100)}%`;
-        [['var(--star-on)', '0'], ['var(--star-on)', pct], ['var(--star-off)', pct], ['var(--star-off)', '1']]
-          .forEach(([color, offset]) => {
-            const stop = document.createElementNS(SVG_NS, 'stop');
-            stop.setAttribute('offset', offset);
-            stop.style.stopColor = color;
-            grad.append(stop);
-          });
-        const defs = document.createElementNS(SVG_NS, 'defs');
-        defs.append(grad);
-        star.append(defs);
-        path.setAttribute('fill', `url(#${id})`);
-        path.style.fill = `url(#${id})`;
-      }
-      star.append(path);
-      stars.append(star);
+  // every source card carries the Bazaarvoice row: stars filled to the average (whole stars on,
+  // the next one left-to-right by the fraction); a product without reviews shows five empty
+  // stars and no average
+  const stars = div('rating-stars');
+  stars.setAttribute('aria-hidden', 'true');
+  const rating = parseFloat(avg.textContent.trim()) || 0;
+  for (let i = 0; i < 5; i += 1) {
+    const fill = Math.max(0, Math.min(1, rating - i));
+    const star = document.createElementNS(SVG_NS, 'svg');
+    star.setAttribute('class', 'rating-star');
+    star.setAttribute('viewBox', '0 0 25 25');
+    const path = document.createElementNS(SVG_NS, 'path');
+    path.setAttribute('d', STAR_PATH);
+    if (fill >= 1) star.classList.add('rating-star-on');
+    else if (fill > 0) {
+      starSeq += 1;
+      const id = `rating-star-fill-${starSeq}`;
+      const grad = document.createElementNS(SVG_NS, 'linearGradient');
+      grad.id = id;
+      const pct = `${Math.round(fill * 100)}%`;
+      [['var(--star-on)', '0'], ['var(--star-on)', pct], ['var(--star-off)', pct], ['var(--star-off)', '1']]
+        .forEach(([color, offset]) => {
+          const stop = document.createElementNS(SVG_NS, 'stop');
+          stop.setAttribute('offset', offset);
+          stop.style.stopColor = color;
+          grad.append(stop);
+        });
+      const defs = document.createElementNS(SVG_NS, 'defs');
+      defs.append(grad);
+      star.append(defs);
+      path.setAttribute('fill', `url(#${id})`);
+      path.style.fill = `url(#${id})`;
     }
-    // the source's rating row is one full-width line (stars + average) — keep the average's
-    // line as that row so the stars sit inside it
+    star.append(path);
+    stars.append(star);
+  }
+  // the source's rating row is one full-width line (stars + average) — keep the average's
+  // line as that row so the stars sit inside it
+  if (avg.children.length) {
     const line = avg.querySelector('p') || avg;
     line.prepend(stars);
-    body.append(div('rating', avg, count));
-  }
+  } else avg.append(stars);
+  body.append(div('rating', avg, count));
   if (desc.children.length) body.append(desc);
 
   const inner = document.createElement(href ? 'a' : 'div');
