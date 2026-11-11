@@ -87,6 +87,11 @@ main > .section > .article-wrapper {
   margin-bottom: 30px;
 }
 
+/* source .rte ul li > strong: 22px lead-in labels (bold via .rte ul li strong) */
+.article .article-text ul li > strong {
+  font-size: 22px;
+}
+
 /* list-gap: the source puts a <br> (one blank 30px line) between list items */
 .article.list-gap .article-text li + li {
   margin-top: 30px;

@@ -202,7 +202,7 @@ function extract({ html, base }) {
   const spacer = () => {
     if (blocks.length && !spacers.includes(blocks.length)) spacers.push(blocks.length);
   };
-  const walk = (container) => {
+  const walk = (container, top = false) => {
     let run = '';
     const flush = (beforeBlock) => {
       if (beforeBlock && /<br>/.test(run) && !run.replace(/<br>|&nbsp;|\s/g, '')) spacer();
@@ -260,7 +260,8 @@ function extract({ html, base }) {
         if (q) blocks.push(`<blockquote><p>${q}</p></blockquote>`);
       } else walk(n);
     });
-    flush();
+    // a bare <br> run closing the body renders a blank line before the share bar too
+    flush(top);
   };
 
   const art = $('.article') || $('.article-main') || $('main') || doc.body;
@@ -268,7 +269,7 @@ function extract({ html, base }) {
   const h1 = $('.article__title, .article-main__title', art) || $('h1', art);
   const excerptEl = $('.article__excerpt, .article-main__excerpt', art);
   const textEl = $('.article__text, .article-main__text', art);
-  if (textEl) walk(textEl);
+  if (textEl) walk(textEl, true);
 
   const shareEl = $('.share, .share-buttons', art);
   const share = shareEl ? {
