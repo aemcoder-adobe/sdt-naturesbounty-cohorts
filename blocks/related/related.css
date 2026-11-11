@@ -128,8 +128,8 @@ main > .section.related-container .default-content-wrapper :is(h2, h3, p),
   display: block;
   font-size: 14px;
 
-  /* R-01: uppercase figtree sets 4.8 % wider than sofia-pro (measured on the live cards) */
-  letter-spacing: calc(var(--ls-base) - 0.026em);
+  /* R-01: uppercase figtree sets ~5.5 % wider than sofia-pro (measured on the live cards) */
+  letter-spacing: calc(var(--ls-base) - 0.033em);
   line-height: 30px;
   text-transform: uppercase;
   text-decoration: underline;
