@@ -193,9 +193,18 @@ function extract({ html, base }) {
   };
   const INLINE = new Set(['A', 'STRONG', 'B', 'EM', 'I', 'SPAN', 'BR', 'SUP', 'SUB', 'U', 'SMALL',
     'MARK', 'ABBR', 'CODE', 'FONT', 'S', 'LABEL', 'TIME']);
+  // a run of bare <br>s between two block elements renders one blank 30px line at the source
+  const spacers = [];
   const walk = (container) => {
     let run = '';
-    const flush = () => { pushPara(run); run = ''; };
+    const flush = (beforeBlock) => {
+      if (beforeBlock && blocks.length && /<br>/.test(run)
+        && !run.replace(/<br>|&nbsp;|\s/g, '') && !spacers.includes(blocks.length)) {
+        spacers.push(blocks.length);
+      }
+      pushPara(run);
+      run = '';
+    };
     container.childNodes.forEach((n) => {
       if (n.nodeType === 3) { run += inline({ childNodes: [n] }); return; }
       if (n.nodeType !== 1) return;
@@ -206,7 +215,7 @@ function extract({ html, base }) {
         run += inline({ childNodes: [n] });
         return;
       }
-      flush();
+      flush(true);
       if (['SCRIPT', 'STYLE', 'NOSCRIPT', 'TEMPLATE', 'BUTTON', 'FORM', 'SVG', 'svg', 'HR']
         .includes(t)) return;
       if (/^H[1-6]$/.test(t)) {
@@ -356,6 +365,8 @@ function extract({ html, base }) {
     excerpt: excerptEl ? inline(excerptEl).replace(/^(\s|<br>)+|(\s|<br>)+$/g, '') : '',
     body: blocks,
     lineGap: gaps.line > gaps.p,
+    excerptP: !!(excerptEl && excerptEl.querySelector('p')),
+    spacers,
     share,
     tagNav,
     rail,
@@ -441,7 +452,10 @@ function encode(data, opts, media, q) {
   const body = data.body
     .map((b) => (typeof b === 'string' ? b : `<p>${media(b.img)}</p>`)).join('');
   if (body) artRows.push([fixLinks(body, q)]);
-  s1.push(fixLinks(block(data.lineGap ? 'article line-gap' : 'article', artRows), q));
+  // variants carry source spacing the content model cannot: <br><br> paragraph gaps and
+  // an excerpt authored as a <p> (22px margins inside its rules)
+  const variants = [data.lineGap && 'line-gap', data.excerptP && 'excerpt-gap'].filter(Boolean);
+  s1.push(fixLinks(block(['article', ...variants].join(' '), artRows), q));
   if (data.share && data.share.links.length) {
     const t = data.share.texts.map((x) => `<p>${esc(x)}</p>`).join('');
     const l = data.share.links.map((x) => `<li>${link(x.href, x.text)}</li>`).join('');
@@ -577,6 +591,13 @@ async function main() {
           html: fs.readFileSync(cap, 'utf8'), base: `https://${opts.host}${daPath}`,
         });
         data.lineGap = c.lineGap;
+        data.excerptP = c.excerptP;
+        // blank-line spacers between blocks (the render drops bare <br>s), only when the
+        // capture's body aligns block for block with the render's
+        if (c.spacers.length && c.body.length === data.body.length) {
+          [...c.spacers].sort((a, b) => b - a)
+            .forEach((i) => data.body.splice(i, 0, '<p>&nbsp;</p>'));
+        }
         if (!data.rail && c.rail && c.rail.title && !c.rail.cards.length) {
           data.rail = { title: c.rail.title, cards: [] };
         }

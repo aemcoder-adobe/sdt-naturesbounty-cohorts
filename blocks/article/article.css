@@ -54,6 +54,11 @@ main > .section > .article-wrapper {
   padding: 25px 0;
 }
 
+/* excerpt-gap: the source excerpt is a <p> with 22px margins inside the 25px-padded rules */
+.article.excerpt-gap .article-excerpt p {
+  padding: 47px 0;
+}
+
 .article .article-text {
   display: flow-root;
   margin-top: 30px;
