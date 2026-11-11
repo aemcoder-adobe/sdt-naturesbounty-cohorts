@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "writtenBy": "stardust:migrate",
-    "writtenAt": "2026-11-11T02:32:36Z",
+    "writtenAt": "2026-11-11T02:56:14Z",
     "stardustVersion": "0.37.2"
   },
   "site": {
@@ -86,7 +86,7 @@
       "url": "https://naturesbounty.com/blogs/recipes",
       "title": "Delicious Recipes for Wellness – Nature's Bounty",
       "type": "listing",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -95,13 +95,17 @@
         {
           "status": "directed",
           "at": "2026-11-11T00:22:24Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-11T02:56:14Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blogs-recipes.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blogs/recipes/index.html"
     },
     {
       "slug": "blogs-news-mens-health",

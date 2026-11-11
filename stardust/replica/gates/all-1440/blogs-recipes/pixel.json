@@ -3,30 +3,30 @@
   "b": "stardust/replica/gates/all-1440/blogs-recipes/eds.png",
   "compared": {
     "width": 1440,
-    "height": 3789,
+    "height": 3971,
     "mode": "overlap"
   },
-  "heightDelta": 194,
-  "differingPixels": 1694042,
-  "pct": 31.05,
+  "heightDelta": 12,
+  "differingPixels": 96400,
+  "pct": 1.69,
   "threshold": 10,
-  "pass": false,
+  "pass": true,
   "diff": "stardust/replica/gates/all-1440/blogs-recipes/diff.png",
   "masks": [],
   "maskedRows": 0,
-  "textPct": 33.5,
+  "textPct": 17.24,
   "textBoxes": 111,
-  "textPixels": 454344,
+  "textPixels": 513514,
   "bands": [
     {
       "y0": 0,
       "y1": 500,
-      "pct": 10.5
+      "pct": 2
     },
     {
       "y0": 500,
       "y1": 1000,
-      "pct": 16.4
+      "pct": 0.9
     },
     {
       "y0": 1000,
@@ -36,27 +36,27 @@
     {
       "y0": 1500,
       "y1": 2000,
-      "pct": 42
+      "pct": 0.5
     },
     {
       "y0": 2000,
       "y1": 2500,
-      "pct": 63.6
+      "pct": 2.7
     },
     {
       "y0": 2500,
       "y1": 3000,
-      "pct": 86.5
+      "pct": 0.8
     },
     {
       "y0": 3000,
       "y1": 3500,
-      "pct": 12.9
+      "pct": 2.2
     },
     {
       "y0": 3500,
-      "y1": 3789,
-      "pct": 5.4
+      "y1": 3971,
+      "pct": 4.4
     }
   ]
 }

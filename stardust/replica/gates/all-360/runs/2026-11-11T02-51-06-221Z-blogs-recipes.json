@@ -1,0 +1,112 @@
+{
+  "_provenance": {
+    "writtenBy": "gate-all.mjs",
+    "writtenAt": "2026-11-11T02:51:06.221Z",
+    "stage": "published",
+    "breakpoint": 360,
+    "threshold": 10,
+    "heightTolerance": 0.05,
+    "clipMax": 0,
+    "unitTol": 4,
+    "criteria": {
+      "pixel": true,
+      "height": true,
+      "clip": true,
+      "content": true
+    },
+    "verdict": "overlap pixel % ≤ 10 AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance) AND content MISSING + HIDDEN links/headings = 0",
+    "origin": "https://naturesbounty.com",
+    "eds": "https://main--1a676f95--aemcoder.aem.page",
+    "edsHostOverride": "https://main--1a676f95--aemcoder.aem.page",
+    "only": [
+      "blogs-recipes"
+    ]
+  },
+  "totals": {
+    "pages": 1,
+    "pass": 0,
+    "pixelOnlyPass": 0,
+    "overridePass": 0,
+    "fail": 1,
+    "error": 0,
+    "failPixel": 1,
+    "failHeight": 0,
+    "failClip": 0,
+    "failContent": 0,
+    "failUnits": 0,
+    "fontsNotLoaded": 1,
+    "fontChecksSkipped": 0,
+    "contentNA": 0,
+    "asymmetricOrigins": 0,
+    "degradedTier": 0,
+    "passWithOverrides": 0
+  },
+  "rows": [
+    {
+      "slug": "blogs-recipes",
+      "path": "/blogs/recipes",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 24.86,
+      "textPct": 18.97,
+      "heightDelta": -12,
+      "originH": 7860,
+      "edsH": 7872,
+      "pixelPass": false,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "passWithOverride": false,
+      "fontsNotLoaded": [
+        "figtree-fallback"
+      ],
+      "fontChecksSkipped": [],
+      "reasons": [
+        "pixel 24.86% > 10%",
+        "font-not-loaded:figtree-fallback"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 10,
+        "variable": []
+      },
+      "units": null,
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "hotBands": [
+        "500-1000:23.4%",
+        "1000-1500:36.4%",
+        "1500-2000:34.3%",
+        "2000-2500:37.4%",
+        "2500-3000:32.3%",
+        "3000-3500:39.9%",
+        "3500-4000:19.8%",
+        "4000-4500:26.1%",
+        "4500-5000:25.2%",
+        "5000-5500:19.1%",
+        "5500-6000:43.5%",
+        "6000-6500:25.8%",
+        "7500-7860:15.1%"
+      ],
+      "error": null
+    }
+  ]
+}
