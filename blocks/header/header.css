@@ -77,9 +77,8 @@ body > header {
   }
 }
 
-/* ---------- header row */
+/* ---------- header row (static on purpose: the sticky host pins it; .mega anchors to .site-chrome) */
 .header .site-header-bar {
-  position: relative;
   background-color: var(--white);
 }
 
