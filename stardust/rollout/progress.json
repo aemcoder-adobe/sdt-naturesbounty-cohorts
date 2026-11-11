@@ -41,8 +41,24 @@
    "templates": [
     "article"
    ],
-   "status": "running",
-   "startedAt": "2026-11-11T01:21:58.631Z"
+   "status": "done",
+   "startedAt": "2026-11-11T01:21:58.631Z",
+   "endedAt": "2026-11-11T01:54:46.324Z",
+   "pages": 1,
+   "blocks": 5,
+   "gates": {
+    "360": {
+     "pixel": 16.61,
+     "dh": -33,
+     "residual": "R-01 font substitution — prototype gated 16.66%/Δh−45, same hot bands"
+    },
+    "1440": {
+     "pixel": 2.24,
+     "dh": 12
+    },
+    "notes": "gate-all row FAIL on unit-geometry (R-01 text widths) + font-not-loaded:figtree-fallback (foundation request filed)"
+   },
+   "verdict": "archetype-article: pages 1/1 live, blocks 5, gate 1440 2.24% Δh +12px / 360 16.61% Δh −33px, requests 2"
   },
   "archetype-recipe": {
    "kind": "archetype",
