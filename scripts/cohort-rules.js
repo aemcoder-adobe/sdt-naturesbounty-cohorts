@@ -157,8 +157,12 @@ export default {
     ['First visit on a phone', { cohort: 'mobile-first-visit' }],
     ['Back for sleep support', {}, { visits: 3, interests: { sleep: 4 } }],
     ['Found a store before', {}, { visits: 2, signedIn: true, interests: { hair: 2 } }],
-    ['Instagram ad: hair growth', { utm_source: 'instagram', utm_medium: 'paid_social', utm_campaign: 'hair-growth-3-months', fbclid: 'demo' }],
-    ['Google ad: sleep', { utm_source: 'google', utm_medium: 'cpc', utm_campaign: 'sleep3-melatonin', gclid: 'demo' }],
+    ['Instagram ad: hair growth', {
+      utm_source: 'instagram', utm_medium: 'paid_social', utm_campaign: 'hair-growth-3-months', fbclid: 'demo',
+    }],
+    ['Google ad: sleep', {
+      utm_source: 'google', utm_medium: 'cpc', utm_campaign: 'sleep3-melatonin', gclid: 'demo',
+    }],
     ['From ChatGPT', { utm_source: 'chatgpt.com' }],
     ['From Healthline', { ref: 'www.healthline.com' }],
     ['Klaviyo email: immune', { utm_source: 'klaviyo', utm_medium: 'email', utm_campaign: 'immune-season' }],

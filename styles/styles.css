@@ -398,6 +398,7 @@ body[data-experience="agent"] header button {
   min-height: 44px;
 }
 
+/* stylelint-disable no-descending-specificity -- agent-only override, scoped by body attribute */
 body[data-experience="agent"] header a,
 body[data-experience="agent"] main a,
 body[data-experience="agent"] footer a {
@@ -406,3 +407,4 @@ body[data-experience="agent"] footer a {
   min-height: 24px;
   line-height: 24px;
 }
+/* stylelint-enable no-descending-specificity */

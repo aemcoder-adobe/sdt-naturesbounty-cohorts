@@ -18,7 +18,7 @@ export async function runExperimentation(document, config) {
         event.source.postMessage({
           type: 'hlx:experimentation-config',
           config: { experiments: [], audiences: [], campaigns: [] },
-          source: 'no-experiments'
+          source: 'no-experiments',
         }, '*');
       }
     });
@@ -27,8 +27,9 @@ export async function runExperimentation(document, config) {
 
   try {
     // eslint-disable-next-line import/no-relative-packages
+    // eslint-disable-next-line import/no-relative-packages
     const { loadEager } = await import(
-      '../plugins/experimentation/src/index.js'
+      '@adobe/aem-experimentation/src/index.js'
     );
     return loadEager(document, config);
   } catch (error) {
@@ -59,8 +60,9 @@ export async function runExperimentationLazy(document, config) {
 
   try {
     // eslint-disable-next-line import/no-relative-packages
+    // eslint-disable-next-line import/no-relative-packages
     const { loadLazy } = await import(
-      '../plugins/experimentation/src/index.js'
+      '@adobe/aem-experimentation/src/index.js'
     );
     return loadLazy(document, config);
   } catch (error) {
@@ -69,4 +71,3 @@ export async function runExperimentationLazy(document, config) {
     return null;
   }
 }
-

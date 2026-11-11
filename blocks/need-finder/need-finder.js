@@ -28,17 +28,17 @@ function readRows(block) {
     const [labelCell, mediaCell, textCell] = cells;
     const label = labelCell.textContent.trim();
     const ps = [...textCell.querySelectorAll('p')];
-    const link = textCell.querySelector('a');
+    const anchor = textCell.querySelector('a');
     const plain = ps.filter((p) => !p.querySelector('a'));
     needs.push({
       id: idOf(label),
       label,
       picture: mediaCell.querySelector('picture'),
-      product: textCell.querySelector('h2, h3, h4')?.textContent.trim() || link?.textContent.trim() || '',
+      product: textCell.querySelector('h2, h3, h4')?.textContent.trim() || anchor?.textContent.trim() || '',
       does: plain.find((p) => !/★/.test(p.textContent))?.textContent.trim() || '',
       size: plain.filter((p) => !/★/.test(p.textContent))[1]?.textContent.trim() || '',
       rating: plain.find((p) => /★/.test(p.textContent))?.textContent.trim() || '',
-      href: link?.href || '',
+      href: anchor?.href || '',
       textCell,
     });
   });
