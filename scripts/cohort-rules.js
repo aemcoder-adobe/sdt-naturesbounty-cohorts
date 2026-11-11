@@ -82,7 +82,7 @@ export default {
     },
     {
       id: 'health-info',
-      label: 'Came from a health information site',
+      label: 'From a health site',
       experience: 'learner',
       when: { referrer: ['healthline.com', 'webmd.com', 'verywellhealth.com', 'nih.gov', 'examine.com', 'health.com', 'mayoclinic.org'] },
       goal: { click: `${PRODUCT}|${RETAIL}` },
@@ -92,7 +92,7 @@ export default {
     },
     {
       id: 'email',
-      label: 'Clicked a Nature\'s Bounty email',
+      label: 'Clicked our email',
       experience: 'regular',
       intent: 'utm',
       when: { any: [{ utm: { medium: '^e-?mail$' } }, { utm: { source: 'klaviyo' } }, { referrer: ['klaviyo.com', 'klclick.com', 'klclick1.com'] }] },
@@ -133,7 +133,7 @@ export default {
     },
     {
       id: 'returning-need',
-      label: 'Back with a need they read about',
+      label: 'Back with a need',
       experience: 'regular',
       intent: 'memory',
       when: { visits: { min: 2 }, interest: true, source: ['direct', 'search', 'other'] },

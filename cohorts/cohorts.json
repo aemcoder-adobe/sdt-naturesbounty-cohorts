@@ -1,0 +1,2509 @@
+{
+ "meta": {
+  "domain": "www.naturesbounty.com",
+  "path": "/",
+  "start": "2026-10-12T00:09:24.465Z",
+  "end": "2026-11-10T23:59:17.880Z",
+  "views": 1100000,
+  "bundles": 11000,
+  "weeks": 5,
+  "fullWeeks": 4,
+  "note": "Sampled page views, bots and prerenders excluded (personal AI agents count only where a rule asks for them). `weeks[]` are 7-day windows from `start`; the last one is partial when `weeks > fullWeeks`. `growth` is the last full week over the first, null without two full weeks of 10+ bundles each. `today.vsAll` compares a rule with all views (1 = the same; `didNothing` below 1 is better). `standsOut` marks a small rule (under 5% of views) that is clearly more engaged or growing 2x or more: call it out by name. `today.supportRate` is the rule's secondary action (`support`) on the homepage. `secondOrder` (with --site) is site-wide: `first[]` = pages people open right after the homepage (share of those arrivals), each with `next[]` = what they click on there; `assists.pages[]` = pages viewed right before the conversion, `lift` against the site rate. Rules with `modelled: true` depend on on-device memory, which Optel cannot see: they are estimated at steady state from what views do today. Rules with `firstVisitAssumed: true` ask for a first visit, which Optel cannot see either: every view counts as one, so their share is an upper bound. `topClicks[].link: false` is a click that opened something on the page (menu, search, carousel) rather than a link: its `click` is the element selector."
+ },
+ "columns": [
+  {
+   "head": "Entry source",
+   "nodes": [
+    {
+     "id": "e:direct",
+     "label": "Direct",
+     "views": 403600
+    },
+    {
+     "id": "e:search",
+     "label": "Search",
+     "views": 350900
+    },
+    {
+     "id": "e:internal",
+     "label": "Internal navigation",
+     "views": 121100
+    },
+    {
+     "id": "e:paid",
+     "label": "Paid",
+     "views": 66000
+    },
+    {
+     "id": "e:social",
+     "label": "Social",
+     "views": 55000
+    },
+    {
+     "id": "e:email",
+     "label": "Email (Klaviyo)",
+     "views": 38500
+    },
+    {
+     "id": "e:referral",
+     "label": "Other referrers",
+     "views": 35200
+    },
+    {
+     "id": "e:health-info",
+     "label": "Health & wellness sites",
+     "views": 16500
+    },
+    {
+     "id": "e:ai",
+     "label": "AI assistants",
+     "views": 12100
+    },
+    {
+     "id": "e:agent",
+     "label": "Personal AI agents",
+     "views": 1100
+    }
+   ]
+  },
+  {
+   "head": "Device",
+   "nodes": [
+    {
+     "id": "d:desktop",
+     "label": "Desktop",
+     "views": 437100
+    },
+    {
+     "id": "d:mobile",
+     "label": "Mobile",
+     "views": 662900
+    }
+   ]
+  },
+  {
+   "head": "Rule that fires · first match wins",
+   "nodes": [
+    {
+     "id": "r:personal-agent",
+     "label": "1 · A personal AI agent is browsing",
+     "sub": "",
+     "signal": "agent",
+     "views": 1100
+    },
+    {
+     "id": "r:ai-referred",
+     "label": "2 · Sent by an AI assistant",
+     "sub": "",
+     "signal": "link",
+     "views": 10900
+    },
+    {
+     "id": "r:health-info",
+     "label": "3 · From a health site",
+     "sub": "",
+     "signal": "link",
+     "views": 16500
+    },
+    {
+     "id": "r:email",
+     "label": "4 · Clicked our email",
+     "sub": "",
+     "signal": "link",
+     "views": 38500
+    },
+    {
+     "id": "r:found-a-store-before",
+     "label": "5 · Looked up where to buy before",
+     "sub": "",
+     "signal": "memory",
+     "views": 78100
+    },
+    {
+     "id": "r:campaign",
+     "label": "6 · Clicked an ad",
+     "sub": "",
+     "signal": "link",
+     "views": 66000
+    },
+    {
+     "id": "r:social",
+     "label": "7 · Came from social media",
+     "sub": "",
+     "signal": "link",
+     "views": 55000
+    },
+    {
+     "id": "r:returning-need",
+     "label": "8 · Back with a need",
+     "sub": "",
+     "signal": "memory",
+     "views": 96500
+    },
+    {
+     "id": "r:mobile-first-visit",
+     "label": "9 · First visit on a phone",
+     "sub": "",
+     "signal": "device",
+     "views": 535800
+    },
+    {
+     "id": "r:none",
+     "label": "No rule matched",
+     "sub": "Original page",
+     "signal": "none",
+     "views": 201600
+    }
+   ]
+  },
+  {
+   "head": "Homepage experience",
+   "nodes": [
+    {
+     "id": "x:agent",
+     "label": "Personal agent: plain & actionable",
+     "sub": "A native form · facts as a table · nothing hidden behind tabs or carousels",
+     "views": 1100
+    },
+    {
+     "id": "x:learner",
+     "label": "Learner: answers first",
+     "sub": "Which supplement for which need · backed by science · articles",
+     "views": 27400
+    },
+    {
+     "id": "x:regular",
+     "label": "Regular: your need first",
+     "sub": "Welcome back · the need you shop for · nearest store · one new launch",
+     "views": 213100
+    },
+    {
+     "id": "x:shopper",
+     "label": "Shopper: the ad, repeated back",
+     "sub": "The product from the ad or post · reviews · where to buy",
+     "views": 121000
+    },
+    {
+     "id": "x:mobile",
+     "label": "Mobile: quick tasks",
+     "sub": "Six things people come to do · Where to Buy one tap away · half the length",
+     "views": 535800
+    },
+    {
+     "id": "x:default",
+     "label": "Original homepage",
+     "sub": "Unchanged: the same page as the holdout",
+     "views": 201600
+    }
+   ]
+  }
+ ],
+ "links": [
+  {
+   "s": "e:agent",
+   "t": "d:desktop",
+   "signal": "agent",
+   "views": 1100,
+   "rules": [
+    "personal-agent"
+   ]
+  },
+  {
+   "s": "d:desktop",
+   "t": "r:personal-agent",
+   "signal": "agent",
+   "views": 1100,
+   "rules": [
+    "personal-agent"
+   ]
+  },
+  {
+   "s": "r:personal-agent",
+   "t": "x:agent",
+   "signal": "agent",
+   "views": 1100,
+   "rules": [
+    "personal-agent"
+   ]
+  },
+  {
+   "s": "e:ai",
+   "t": "d:mobile",
+   "signal": "link",
+   "views": 3300,
+   "rules": [
+    "ai-referred"
+   ]
+  },
+  {
+   "s": "d:mobile",
+   "t": "r:ai-referred",
+   "signal": "link",
+   "views": 3300,
+   "rules": [
+    "ai-referred"
+   ]
+  },
+  {
+   "s": "r:ai-referred",
+   "t": "x:learner",
+   "signal": "link",
+   "views": 10900,
+   "rules": [
+    "ai-referred"
+   ]
+  },
+  {
+   "s": "e:ai",
+   "t": "d:desktop",
+   "signal": "link",
+   "views": 7600,
+   "rules": [
+    "ai-referred"
+   ]
+  },
+  {
+   "s": "d:desktop",
+   "t": "r:ai-referred",
+   "signal": "link",
+   "views": 7600,
+   "rules": [
+    "ai-referred"
+   ]
+  },
+  {
+   "s": "e:ai",
+   "t": "d:desktop",
+   "signal": "none",
+   "views": 200,
+   "rules": [
+    "none"
+   ]
+  },
+  {
+   "s": "d:desktop",
+   "t": "r:none",
+   "signal": "none",
+   "views": 201600,
+   "rules": [
+    "none"
+   ]
+  },
+  {
+   "s": "r:none",
+   "t": "x:default",
+   "signal": "none",
+   "views": 201600,
+   "rules": [
+    "none"
+   ]
+  },
+  {
+   "s": "e:ai",
+   "t": "d:desktop",
+   "signal": "memory",
+   "views": 300,
+   "rules": [
+    "returning-need"
+   ]
+  },
+  {
+   "s": "d:desktop",
+   "t": "r:returning-need",
+   "signal": "memory",
+   "views": 96500,
+   "rules": [
+    "returning-need"
+   ]
+  },
+  {
+   "s": "r:returning-need",
+   "t": "x:regular",
+   "signal": "memory",
+   "views": 96500,
+   "rules": [
+    "returning-need"
+   ]
+  },
+  {
+   "s": "e:ai",
+   "t": "d:mobile",
+   "signal": "device",
+   "views": 700,
+   "rules": [
+    "mobile-first-visit"
+   ]
+  },
+  {
+   "s": "d:mobile",
+   "t": "r:mobile-first-visit",
+   "signal": "device",
+   "views": 535800,
+   "rules": [
+    "mobile-first-visit"
+   ]
+  },
+  {
+   "s": "r:mobile-first-visit",
+   "t": "x:mobile",
+   "signal": "device",
+   "views": 535800,
+   "rules": [
+    "mobile-first-visit"
+   ]
+  },
+  {
+   "s": "e:health-info",
+   "t": "d:mobile",
+   "signal": "link",
+   "views": 10100,
+   "rules": [
+    "health-info"
+   ]
+  },
+  {
+   "s": "d:mobile",
+   "t": "r:health-info",
+   "signal": "link",
+   "views": 10100,
+   "rules": [
+    "health-info"
+   ]
+  },
+  {
+   "s": "r:health-info",
+   "t": "x:learner",
+   "signal": "link",
+   "views": 16500,
+   "rules": [
+    "health-info"
+   ]
+  },
+  {
+   "s": "e:health-info",
+   "t": "d:desktop",
+   "signal": "link",
+   "views": 6400,
+   "rules": [
+    "health-info"
+   ]
+  },
+  {
+   "s": "d:desktop",
+   "t": "r:health-info",
+   "signal": "link",
+   "views": 6400,
+   "rules": [
+    "health-info"
+   ]
+  },
+  {
+   "s": "e:email",
+   "t": "d:desktop",
+   "signal": "link",
+   "views": 15000,
+   "rules": [
+    "email"
+   ]
+  },
+  {
+   "s": "d:desktop",
+   "t": "r:email",
+   "signal": "link",
+   "views": 15000,
+   "rules": [
+    "email"
+   ]
+  },
+  {
+   "s": "r:email",
+   "t": "x:regular",
+   "signal": "link",
+   "views": 38500,
+   "rules": [
+    "email"
+   ]
+  },
+  {
+   "s": "e:email",
+   "t": "d:mobile",
+   "signal": "link",
+   "views": 23500,
+   "rules": [
+    "email"
+   ]
+  },
+  {
+   "s": "d:mobile",
+   "t": "r:email",
+   "signal": "link",
+   "views": 23500,
+   "rules": [
+    "email"
+   ]
+  },
+  {
+   "s": "e:paid",
+   "t": "d:mobile",
+   "signal": "link",
+   "views": 43900,
+   "rules": [
+    "campaign"
+   ]
+  },
+  {
+   "s": "d:mobile",
+   "t": "r:campaign",
+   "signal": "link",
+   "views": 43900,
+   "rules": [
+    "campaign"
+   ]
+  },
+  {
+   "s": "r:campaign",
+   "t": "x:shopper",
+   "signal": "link",
+   "views": 66000,
+   "rules": [
+    "campaign"
+   ]
+  },
+  {
+   "s": "e:paid",
+   "t": "d:desktop",
+   "signal": "link",
+   "views": 22100,
+   "rules": [
+    "campaign"
+   ]
+  },
+  {
+   "s": "d:desktop",
+   "t": "r:campaign",
+   "signal": "link",
+   "views": 22100,
+   "rules": [
+    "campaign"
+   ]
+  },
+  {
+   "s": "e:social",
+   "t": "d:mobile",
+   "signal": "link",
+   "views": 46300,
+   "rules": [
+    "social"
+   ]
+  },
+  {
+   "s": "d:mobile",
+   "t": "r:social",
+   "signal": "link",
+   "views": 46300,
+   "rules": [
+    "social"
+   ]
+  },
+  {
+   "s": "r:social",
+   "t": "x:shopper",
+   "signal": "link",
+   "views": 55000,
+   "rules": [
+    "social"
+   ]
+  },
+  {
+   "s": "e:social",
+   "t": "d:desktop",
+   "signal": "link",
+   "views": 8700,
+   "rules": [
+    "social"
+   ]
+  },
+  {
+   "s": "d:desktop",
+   "t": "r:social",
+   "signal": "link",
+   "views": 8700,
+   "rules": [
+    "social"
+   ]
+  },
+  {
+   "s": "e:search",
+   "t": "d:desktop",
+   "signal": "memory",
+   "views": 74400,
+   "rules": [
+    "found-a-store-before",
+    "returning-need"
+   ]
+  },
+  {
+   "s": "d:desktop",
+   "t": "r:found-a-store-before",
+   "signal": "memory",
+   "views": 78100,
+   "rules": [
+    "found-a-store-before"
+   ]
+  },
+  {
+   "s": "r:found-a-store-before",
+   "t": "x:regular",
+   "signal": "memory",
+   "views": 78100,
+   "rules": [
+    "found-a-store-before"
+   ]
+  },
+  {
+   "s": "e:referral",
+   "t": "d:desktop",
+   "signal": "memory",
+   "views": 5600,
+   "rules": [
+    "found-a-store-before",
+    "returning-need"
+   ]
+  },
+  {
+   "s": "e:direct",
+   "t": "d:mobile",
+   "signal": "device",
+   "views": 236100,
+   "rules": [
+    "mobile-first-visit"
+   ]
+  },
+  {
+   "s": "e:direct",
+   "t": "d:desktop",
+   "signal": "none",
+   "views": 83400,
+   "rules": [
+    "none"
+   ]
+  },
+  {
+   "s": "e:search",
+   "t": "d:desktop",
+   "signal": "none",
+   "views": 71300,
+   "rules": [
+    "none"
+   ]
+  },
+  {
+   "s": "e:direct",
+   "t": "d:desktop",
+   "signal": "memory",
+   "views": 84100,
+   "rules": [
+    "returning-need",
+    "found-a-store-before"
+   ]
+  },
+  {
+   "s": "e:internal",
+   "t": "d:desktop",
+   "signal": "none",
+   "views": 38700,
+   "rules": [
+    "none"
+   ]
+  },
+  {
+   "s": "e:search",
+   "t": "d:mobile",
+   "signal": "device",
+   "views": 205200,
+   "rules": [
+    "mobile-first-visit"
+   ]
+  },
+  {
+   "s": "e:internal",
+   "t": "d:mobile",
+   "signal": "device",
+   "views": 72200,
+   "rules": [
+    "mobile-first-visit"
+   ]
+  },
+  {
+   "s": "e:referral",
+   "t": "d:mobile",
+   "signal": "device",
+   "views": 21600,
+   "rules": [
+    "mobile-first-visit"
+   ]
+  },
+  {
+   "s": "e:internal",
+   "t": "d:desktop",
+   "signal": "memory",
+   "views": 10200,
+   "rules": [
+    "found-a-store-before"
+   ]
+  },
+  {
+   "s": "e:referral",
+   "t": "d:desktop",
+   "signal": "none",
+   "views": 8000,
+   "rules": [
+    "none"
+   ]
+  }
+ ],
+ "rules": [
+  {
+   "id": "personal-agent",
+   "label": "A personal AI agent is browsing",
+   "experience": "agent",
+   "signal": "agent",
+   "modelled": false,
+   "firstVisitAssumed": false,
+   "views": 1100,
+   "share": 0.001,
+   "bundles": 11,
+   "lowSample": true,
+   "today": {
+    "goalRate": 0.18181818181818182,
+    "supportRate": null,
+    "didNothing": 0.45454545454545453,
+    "navigated": 0.18181818181818182,
+    "vsAll": {
+     "navigated": 0.4784688995215311,
+     "didNothing": 1.4021312394840157
+    },
+    "topClicks": [
+     {
+      "click": "/pages/store-locator",
+      "link": true,
+      "share": 0.09090909090909091,
+      "bundles": 1
+     },
+     {
+      "click": "/products/hair-growth",
+      "link": true,
+      "share": 0.09090909090909091,
+      "bundles": 1
+     }
+    ]
+   },
+   "weeks": [
+    100,
+    300,
+    400,
+    200,
+    100
+   ],
+   "growth": null,
+   "standsOut": false
+  },
+  {
+   "id": "ai-referred",
+   "label": "Sent by an AI assistant",
+   "experience": "learner",
+   "signal": "link",
+   "modelled": false,
+   "firstVisitAssumed": false,
+   "views": 10900,
+   "share": 0.009909090909090909,
+   "bundles": 109,
+   "lowSample": false,
+   "today": {
+    "goalRate": 0.28440366972477066,
+    "supportRate": 0.24770642201834864,
+    "didNothing": 0.1651376146788991,
+    "navigated": 0.7706422018348624,
+    "vsAll": {
+     "navigated": 2.0280057943022696,
+     "didNothing": 0.5093981383813488
+    },
+    "topClicks": [
+     {
+      "click": "/pages/compare-magnesium-products",
+      "link": true,
+      "share": 0.10091743119266056,
+      "bundles": 11
+     },
+     {
+      "click": "/collections/sleep-support",
+      "link": true,
+      "share": 0.08256880733944955,
+      "bundles": 9
+     },
+     {
+      "click": "/collections/hair-skin-and-nails",
+      "link": true,
+      "share": 0.07339449541284404,
+      "bundles": 8
+     },
+     {
+      "click": "/products/co-q-10-200-mg-80-rapid-release-softgels",
+      "link": true,
+      "share": 0.06422018348623854,
+      "bundles": 7
+     },
+     {
+      "click": "/pages/store-locator",
+      "link": true,
+      "share": 0.06422018348623854,
+      "bundles": 7
+     }
+    ]
+   },
+   "weeks": [
+    1400,
+    2400,
+    3200,
+    3200,
+    700
+   ],
+   "growth": 2.2857142857142856,
+   "standsOut": true
+  },
+  {
+   "id": "health-info",
+   "label": "From a health site",
+   "experience": "learner",
+   "signal": "link",
+   "modelled": false,
+   "firstVisitAssumed": false,
+   "views": 16500,
+   "share": 0.015,
+   "bundles": 165,
+   "lowSample": false,
+   "today": {
+    "goalRate": 0.2545454545454545,
+    "supportRate": 0.23636363636363636,
+    "didNothing": 0.19393939393939394,
+    "navigated": 0.696969696969697,
+    "vsAll": {
+     "navigated": 1.8341307814992027,
+     "didNothing": 0.5982426621798467
+    },
+    "topClicks": [
+     {
+      "click": "/pages/compare-magnesium-products",
+      "link": true,
+      "share": 0.09696969696969697,
+      "bundles": 16
+     },
+     {
+      "click": "/pages/store-locator",
+      "link": true,
+      "share": 0.07878787878787878,
+      "bundles": 13
+     },
+     {
+      "click": "header .nav-hamburger button",
+      "link": false,
+      "share": 0.07272727272727272,
+      "bundles": 12
+     },
+     {
+      "click": "/collections/hair-skin-and-nails",
+      "link": true,
+      "share": 0.07272727272727272,
+      "bundles": 12
+     },
+     {
+      "click": "/pages/faqs",
+      "link": true,
+      "share": 0.06666666666666667,
+      "bundles": 11
+     }
+    ]
+   },
+   "weeks": [
+    3800,
+    4100,
+    3500,
+    4000,
+    1100
+   ],
+   "growth": 1.0526315789473684,
+   "standsOut": true
+  },
+  {
+   "id": "email",
+   "label": "Clicked our email",
+   "experience": "regular",
+   "signal": "link",
+   "modelled": false,
+   "firstVisitAssumed": false,
+   "views": 38500,
+   "share": 0.035,
+   "bundles": 385,
+   "lowSample": false,
+   "today": {
+    "goalRate": 0.3974025974025974,
+    "supportRate": null,
+    "didNothing": 0.22077922077922077,
+    "navigated": 0.535064935064935,
+    "vsAll": {
+     "navigated": 1.4080656185919342,
+     "didNothing": 0.6810351734636647
+    },
+    "topClicks": [
+     {
+      "click": "/pages/store-locator",
+      "link": true,
+      "share": 0.16883116883116883,
+      "bundles": 65
+     },
+     {
+      "click": "header .nav-hamburger button",
+      "link": false,
+      "share": 0.11428571428571428,
+      "bundles": 44
+     },
+     {
+      "click": "/collections/sleep-support",
+      "link": true,
+      "share": 0.06753246753246753,
+      "bundles": 26
+     },
+     {
+      "click": ".tabbed-products button.tab",
+      "link": false,
+      "share": 0.06753246753246753,
+      "bundles": 26
+     },
+     {
+      "click": "/products/sleep3-tri-layer-melatonin",
+      "link": true,
+      "share": 0.04935064935064935,
+      "bundles": 19
+     }
+    ]
+   },
+   "weeks": [
+    8600,
+    9600,
+    9100,
+    8700,
+    2500
+   ],
+   "growth": 1.0116279069767442,
+   "standsOut": false
+  },
+  {
+   "id": "found-a-store-before",
+   "label": "Looked up where to buy before",
+   "experience": "regular",
+   "signal": "memory",
+   "modelled": true,
+   "firstVisitAssumed": false,
+   "views": 78100,
+   "share": 0.071,
+   "bundles": 781,
+   "lowSample": false,
+   "today": {
+    "goalRate": null,
+    "supportRate": null,
+    "didNothing": 0,
+    "navigated": 1,
+    "vsAll": {
+     "navigated": 2.6315789473684212,
+     "didNothing": 0
+    },
+    "topClicks": [
+     {
+      "click": "/pages/store-locator",
+      "link": true,
+      "share": 1,
+      "bundles": 781
+     }
+    ]
+   },
+   "weeks": [
+    16900,
+    19900,
+    18100,
+    19000,
+    4200
+   ],
+   "growth": 1.1242603550295858,
+   "standsOut": false
+  },
+  {
+   "id": "campaign",
+   "label": "Clicked an ad",
+   "experience": "shopper",
+   "signal": "link",
+   "modelled": false,
+   "firstVisitAssumed": false,
+   "views": 66000,
+   "share": 0.06,
+   "bundles": 660,
+   "lowSample": false,
+   "today": {
+    "goalRate": 0.4166666666666667,
+    "supportRate": 0.045454545454545456,
+    "didNothing": 0.27121212121212124,
+    "navigated": 0.48333333333333334,
+    "vsAll": {
+     "navigated": 1.2719298245614035,
+     "didNothing": 0.8366049728921294
+    },
+    "topClicks": [
+     {
+      "click": "/pages/store-locator",
+      "link": true,
+      "share": 0.15757575757575756,
+      "bundles": 104
+     },
+     {
+      "click": "header .nav-hamburger button",
+      "link": false,
+      "share": 0.10757575757575757,
+      "bundles": 71
+     },
+     {
+      "click": "/products/hair-growth",
+      "link": true,
+      "share": 0.0803030303030303,
+      "bundles": 53
+     },
+     {
+      "click": "/products/sleep3-tri-layer-melatonin",
+      "link": true,
+      "share": 0.0696969696969697,
+      "bundles": 46
+     },
+     {
+      "click": "/products/immune-24-hour-softgel",
+      "link": true,
+      "share": 0.05454545454545454,
+      "bundles": 36
+     }
+    ]
+   },
+   "weeks": [
+    13600,
+    14900,
+    15900,
+    16400,
+    5200
+   ],
+   "growth": 1.2058823529411764,
+   "standsOut": false
+  },
+  {
+   "id": "social",
+   "label": "Came from social media",
+   "experience": "shopper",
+   "signal": "link",
+   "modelled": false,
+   "firstVisitAssumed": false,
+   "views": 55000,
+   "share": 0.05,
+   "bundles": 550,
+   "lowSample": false,
+   "today": {
+    "goalRate": 0.29454545454545455,
+    "supportRate": 0.04363636363636364,
+    "didNothing": 0.39454545454545453,
+    "navigated": 0.29454545454545455,
+    "vsAll": {
+     "navigated": 0.7751196172248804,
+     "didNothing": 1.2170499158721255
+    },
+    "topClicks": [
+     {
+      "click": "header .nav-hamburger button",
+      "link": false,
+      "share": 0.13818181818181818,
+      "bundles": 76
+     },
+     {
+      "click": ".content-products button.next",
+      "link": false,
+      "share": 0.056363636363636366,
+      "bundles": 31
+     },
+     {
+      "click": "/pages/store-locator",
+      "link": true,
+      "share": 0.04727272727272727,
+      "bundles": 26
+     },
+     {
+      "click": "/products/advanced-magnesium-glycinate",
+      "link": true,
+      "share": 0.03636363636363636,
+      "bundles": 20
+     },
+     {
+      "click": "/products/probiotic-10-30-capsules",
+      "link": true,
+      "share": 0.03090909090909091,
+      "bundles": 17
+     }
+    ]
+   },
+   "weeks": [
+    13600,
+    12500,
+    12300,
+    12900,
+    3700
+   ],
+   "growth": 0.9485294117647058,
+   "standsOut": false
+  },
+  {
+   "id": "returning-need",
+   "label": "Back with a need",
+   "experience": "regular",
+   "signal": "memory",
+   "modelled": true,
+   "firstVisitAssumed": false,
+   "views": 96500,
+   "share": 0.08772727272727272,
+   "bundles": 965,
+   "lowSample": false,
+   "today": {
+    "goalRate": null,
+    "supportRate": null,
+    "didNothing": 0,
+    "navigated": 1,
+    "vsAll": {
+     "navigated": 2.6315789473684212,
+     "didNothing": 0
+    },
+    "topClicks": [
+     {
+      "click": "/collections/sleep-support",
+      "link": true,
+      "share": 0.16269430051813472,
+      "bundles": 157
+     },
+     {
+      "click": "/collections/hair-skin-and-nails",
+      "link": true,
+      "share": 0.10569948186528498,
+      "bundles": 102
+     },
+     {
+      "click": "/products/advanced-magnesium-glycinate",
+      "link": true,
+      "share": 0.09533678756476684,
+      "bundles": 92
+     },
+     {
+      "click": "/products/sleep3-tri-layer-melatonin",
+      "link": true,
+      "share": 0.07253886010362694,
+      "bundles": 70
+     },
+     {
+      "click": "/collections/immune-and-antioxidant-health",
+      "link": true,
+      "share": 0.07253886010362694,
+      "bundles": 70
+     }
+    ]
+   },
+   "weeks": [
+    21500,
+    25200,
+    21800,
+    21800,
+    6200
+   ],
+   "growth": 1.013953488372093,
+   "standsOut": false
+  },
+  {
+   "id": "mobile-first-visit",
+   "label": "First visit on a phone",
+   "experience": "mobile",
+   "signal": "device",
+   "modelled": false,
+   "firstVisitAssumed": true,
+   "views": 535800,
+   "share": 0.4870909090909091,
+   "bundles": 5358,
+   "lowSample": false,
+   "today": {
+    "goalRate": 0.21351250466592012,
+    "supportRate": null,
+    "didNothing": 0.389324374766704,
+    "navigated": 0.21351250466592012,
+    "vsAll": {
+     "navigated": 0.5618750122787372,
+     "didNothing": 1.2009445099365519
+    },
+    "topClicks": [
+     {
+      "click": "header .nav-hamburger button",
+      "link": false,
+      "share": 0.18439716312056736,
+      "bundles": 988
+     },
+     {
+      "click": "/pages/store-locator",
+      "link": true,
+      "share": 0.060470324748040316,
+      "bundles": 324
+     },
+     {
+      "click": "header .nav-tools button.search",
+      "link": false,
+      "share": 0.04162000746547219,
+      "bundles": 223
+     },
+     {
+      "click": ".tabbed-products button.tab",
+      "link": false,
+      "share": 0.030981709593131766,
+      "bundles": 166
+     },
+     {
+      "click": "/collections/favorites",
+      "link": true,
+      "share": 0.030048525569242254,
+      "bundles": 161
+     }
+    ]
+   },
+   "weeks": [
+    123600,
+    129900,
+    120400,
+    127000,
+    34900
+   ],
+   "growth": 1.0275080906148868,
+   "standsOut": false
+  },
+  {
+   "id": "none",
+   "label": "No rule matched",
+   "experience": "default",
+   "signal": "none",
+   "modelled": false,
+   "firstVisitAssumed": false,
+   "views": 201600,
+   "share": 0.18327272727272728,
+   "bundles": 2016,
+   "lowSample": false,
+   "today": {
+    "goalRate": 0.40029761904761907,
+    "supportRate": null,
+    "didNothing": 0.46825396825396826,
+    "navigated": 0.19940476190476192,
+    "vsAll": {
+     "navigated": 0.524749373433584,
+     "didNothing": 1.44441773718274
+    },
+    "topClicks": [
+     {
+      "click": "header .nav-hamburger button",
+      "link": false,
+      "share": 0.10813492063492064,
+      "bundles": 218
+     },
+     {
+      "click": "header .nav-tools button.search",
+      "link": false,
+      "share": 0.07291666666666667,
+      "bundles": 147
+     },
+     {
+      "click": "/collections/favorites",
+      "link": true,
+      "share": 0.06101190476190476,
+      "bundles": 123
+     },
+     {
+      "click": "/pages/about-us",
+      "link": true,
+      "share": 0.03521825396825397,
+      "bundles": 71
+     },
+     {
+      "click": "/products/c-with-rose-hips-tablets-1000-mg-100-coated-caplets",
+      "link": true,
+      "share": 0.021825396825396824,
+      "bundles": 44
+     }
+    ]
+   },
+   "weeks": [
+    46600,
+    48400,
+    44000,
+    48400,
+    14200
+   ],
+   "growth": 1.03862660944206,
+   "standsOut": false
+  }
+ ],
+ "secondOrder": {
+  "scope": "site",
+  "start": "2026-10-12T00:02:40.474Z",
+  "end": "2026-11-11T00:00:08.977Z",
+  "weeks": 4,
+  "from": "/",
+  "arrivals": 418000,
+  "bundles": 4180,
+  "first": [
+   {
+    "path": "/pages/store-locator",
+    "views": 132100,
+    "bundles": 1321,
+    "share": 0.31602870813397127,
+    "lowSample": false,
+    "onward": 0,
+    "next": [],
+    "viewsAll": 1005100,
+    "nextAll": []
+   },
+   {
+    "path": "/collections/sleep-support",
+    "views": 33100,
+    "bundles": 331,
+    "share": 0.0791866028708134,
+    "lowSample": false,
+    "onward": 0.6555891238670695,
+    "next": [
+     {
+      "key": "/products/sleep3-tri-layer-melatonin",
+      "views": 9600,
+      "bundles": 96,
+      "share": 0.29003021148036257,
+      "lowSample": false
+     },
+     {
+      "key": "/products/advanced-magnesium-glycinate",
+      "views": 8400,
+      "bundles": 84,
+      "share": 0.2537764350453172,
+      "lowSample": false
+     },
+     {
+      "key": "/pages/store-locator",
+      "views": 3700,
+      "bundles": 37,
+      "share": 0.11178247734138973,
+      "lowSample": false
+     }
+    ],
+    "viewsAll": 110300,
+    "nextAll": [
+     {
+      "key": "/products/sleep3-tri-layer-melatonin",
+      "views": 30200,
+      "bundles": 302,
+      "share": 0.27379873073436084,
+      "lowSample": false
+     },
+     {
+      "key": "/products/advanced-magnesium-glycinate",
+      "views": 29500,
+      "bundles": 295,
+      "share": 0.26745240253853125,
+      "lowSample": false
+     },
+     {
+      "key": "/pages/store-locator",
+      "views": 13600,
+      "bundles": 136,
+      "share": 0.12330009066183137,
+      "lowSample": false
+     }
+    ]
+   },
+   {
+    "path": "/collections/favorites",
+    "views": 28400,
+    "bundles": 284,
+    "share": 0.06794258373205742,
+    "lowSample": false,
+    "onward": 0.6654929577464789,
+    "next": [
+     {
+      "key": "/products/sleep3-tri-layer-melatonin",
+      "views": 7700,
+      "bundles": 77,
+      "share": 0.2711267605633803,
+      "lowSample": false
+     },
+     {
+      "key": "/products/advanced-magnesium-glycinate",
+      "views": 7400,
+      "bundles": 74,
+      "share": 0.2605633802816901,
+      "lowSample": false
+     },
+     {
+      "key": "/pages/store-locator",
+      "views": 3800,
+      "bundles": 38,
+      "share": 0.13380281690140844,
+      "lowSample": false
+     }
+    ],
+    "viewsAll": 47800,
+    "nextAll": [
+     {
+      "key": "/",
+      "views": 13300,
+      "bundles": 133,
+      "share": 0.27824267782426776,
+      "lowSample": false
+     },
+     {
+      "key": "/products/sleep3-tri-layer-melatonin",
+      "views": 11200,
+      "bundles": 112,
+      "share": 0.23430962343096234,
+      "lowSample": false
+     },
+     {
+      "key": "/products/advanced-magnesium-glycinate",
+      "views": 10200,
+      "bundles": 102,
+      "share": 0.21338912133891214,
+      "lowSample": false
+     },
+     {
+      "key": "/pages/store-locator",
+      "views": 5100,
+      "bundles": 51,
+      "share": 0.10669456066945607,
+      "lowSample": false
+     }
+    ]
+   },
+   {
+    "path": "/collections/hair-skin-and-nails",
+    "views": 24400,
+    "bundles": 244,
+    "share": 0.05837320574162679,
+    "lowSample": false,
+    "onward": 0.6639344262295082,
+    "next": [
+     {
+      "key": "/products/hair-growth",
+      "views": 4700,
+      "bundles": 47,
+      "share": 0.19262295081967212,
+      "lowSample": false
+     },
+     {
+      "key": "/products/advanced-hair-skin-and-nails",
+      "views": 4500,
+      "bundles": 45,
+      "share": 0.18442622950819673,
+      "lowSample": false
+     },
+     {
+      "key": "/pages/store-locator",
+      "views": 3600,
+      "bundles": 36,
+      "share": 0.14754098360655737,
+      "lowSample": false
+     },
+     {
+      "key": "/products/biotin-10000-mcg-softgels",
+      "views": 3400,
+      "bundles": 34,
+      "share": 0.13934426229508196,
+      "lowSample": false
+     }
+    ],
+    "viewsAll": 83300,
+    "nextAll": [
+     {
+      "key": "/products/advanced-hair-skin-and-nails",
+      "views": 15600,
+      "bundles": 156,
+      "share": 0.1872749099639856,
+      "lowSample": false
+     },
+     {
+      "key": "/products/hair-growth",
+      "views": 13900,
+      "bundles": 139,
+      "share": 0.16686674669867949,
+      "lowSample": false
+     },
+     {
+      "key": "/pages/store-locator",
+      "views": 12700,
+      "bundles": 127,
+      "share": 0.1524609843937575,
+      "lowSample": false
+     },
+     {
+      "key": "/products/biotin-10000-mcg-softgels",
+      "views": 12000,
+      "bundles": 120,
+      "share": 0.14405762304921968,
+      "lowSample": false
+     }
+    ]
+   },
+   {
+    "path": "/products/sleep3-tri-layer-melatonin",
+    "views": 20000,
+    "bundles": 200,
+    "share": 0.04784688995215311,
+    "lowSample": false,
+    "onward": 0.54,
+    "next": [
+     {
+      "key": "/pages/store-locator",
+      "views": 8600,
+      "bundles": 86,
+      "share": 0.43,
+      "lowSample": false
+     },
+     {
+      "key": "/products/advanced-magnesium-glycinate",
+      "views": 1300,
+      "bundles": 13,
+      "share": 0.065,
+      "lowSample": true
+     },
+     {
+      "key": "/pages/faqs",
+      "views": 900,
+      "bundles": 9,
+      "share": 0.045,
+      "lowSample": true
+     }
+    ],
+    "viewsAll": 249800,
+    "nextAll": [
+     {
+      "key": "/pages/store-locator",
+      "views": 99800,
+      "bundles": 998,
+      "share": 0.39951961569255406,
+      "lowSample": false
+     },
+     {
+      "key": "/products/advanced-magnesium-glycinate",
+      "views": 15900,
+      "bundles": 159,
+      "share": 0.06365092073658928,
+      "lowSample": false
+     },
+     {
+      "key": "/",
+      "views": 15300,
+      "bundles": 153,
+      "share": 0.061248999199359486,
+      "lowSample": false
+     },
+     {
+      "key": "/pages/faqs",
+      "views": 8100,
+      "bundles": 81,
+      "share": 0.03242594075260208,
+      "lowSample": false
+     }
+    ]
+   },
+   {
+    "path": "/products/advanced-magnesium-glycinate",
+    "views": 18400,
+    "bundles": 184,
+    "share": 0.04401913875598086,
+    "lowSample": false,
+    "onward": 0.532608695652174,
+    "next": [
+     {
+      "key": "/pages/store-locator",
+      "views": 8000,
+      "bundles": 80,
+      "share": 0.43478260869565216,
+      "lowSample": false
+     },
+     {
+      "key": "/pages/faqs",
+      "views": 1200,
+      "bundles": 12,
+      "share": 0.06521739130434782,
+      "lowSample": true
+     },
+     {
+      "key": "/products/sleep3-tri-layer-melatonin",
+      "views": 600,
+      "bundles": 6,
+      "share": 0.03260869565217391,
+      "lowSample": true
+     }
+    ],
+    "viewsAll": 280000,
+    "nextAll": [
+     {
+      "key": "/pages/store-locator",
+      "views": 112900,
+      "bundles": 1129,
+      "share": 0.4032142857142857,
+      "lowSample": false
+     },
+     {
+      "key": "/products/sleep3-tri-layer-melatonin",
+      "views": 17000,
+      "bundles": 170,
+      "share": 0.060714285714285714,
+      "lowSample": false
+     },
+     {
+      "key": "/",
+      "views": 15500,
+      "bundles": 155,
+      "share": 0.055357142857142855,
+      "lowSample": false
+     },
+     {
+      "key": "/pages/faqs",
+      "views": 10100,
+      "bundles": 101,
+      "share": 0.036071428571428574,
+      "lowSample": false
+     }
+    ]
+   },
+   {
+    "path": "/collections/immune-and-antioxidant-health",
+    "views": 17000,
+    "bundles": 170,
+    "share": 0.04066985645933014,
+    "lowSample": false,
+    "onward": 0.6588235294117647,
+    "next": [
+     {
+      "key": "/products/immune-24-hour-softgel",
+      "views": 4800,
+      "bundles": 48,
+      "share": 0.2823529411764706,
+      "lowSample": false
+     },
+     {
+      "key": "/products/c-with-rose-hips-tablets-1000-mg-100-coated-caplets",
+      "views": 4200,
+      "bundles": 42,
+      "share": 0.24705882352941178,
+      "lowSample": false
+     },
+     {
+      "key": "/pages/store-locator",
+      "views": 2200,
+      "bundles": 22,
+      "share": 0.12941176470588237,
+      "lowSample": true
+     }
+    ],
+    "viewsAll": 54700,
+    "nextAll": [
+     {
+      "key": "/products/immune-24-hour-softgel",
+      "views": 14600,
+      "bundles": 146,
+      "share": 0.26691042047531993,
+      "lowSample": false
+     },
+     {
+      "key": "/products/c-with-rose-hips-tablets-1000-mg-100-coated-caplets",
+      "views": 13900,
+      "bundles": 139,
+      "share": 0.25411334552102377,
+      "lowSample": false
+     },
+     {
+      "key": "/pages/store-locator",
+      "views": 7000,
+      "bundles": 70,
+      "share": 0.12797074954296161,
+      "lowSample": false
+     }
+    ]
+   },
+   {
+    "path": "/products/immune-24-hour-softgel",
+    "views": 15500,
+    "bundles": 155,
+    "share": 0.03708133971291866,
+    "lowSample": false,
+    "onward": 0.5419354838709678,
+    "next": [
+     {
+      "key": "/pages/store-locator",
+      "views": 7200,
+      "bundles": 72,
+      "share": 0.4645161290322581,
+      "lowSample": false
+     },
+     {
+      "key": "/products/c-with-rose-hips-tablets-1000-mg-100-coated-caplets",
+      "views": 900,
+      "bundles": 9,
+      "share": 0.05806451612903226,
+      "lowSample": true
+     },
+     {
+      "key": "/pages/faqs",
+      "views": 300,
+      "bundles": 3,
+      "share": 0.01935483870967742,
+      "lowSample": true
+     }
+    ],
+    "viewsAll": 111100,
+    "nextAll": [
+     {
+      "key": "/pages/store-locator",
+      "views": 44100,
+      "bundles": 441,
+      "share": 0.39693969396939693,
+      "lowSample": false
+     },
+     {
+      "key": "/products/c-with-rose-hips-tablets-1000-mg-100-coated-caplets",
+      "views": 8000,
+      "bundles": 80,
+      "share": 0.07200720072007201,
+      "lowSample": false
+     },
+     {
+      "key": "/pages/faqs",
+      "views": 4100,
+      "bundles": 41,
+      "share": 0.0369036903690369,
+      "lowSample": false
+     }
+    ]
+   },
+   {
+    "path": "/products/hair-growth",
+    "views": 12500,
+    "bundles": 125,
+    "share": 0.029904306220095694,
+    "lowSample": false,
+    "onward": 0.552,
+    "next": [
+     {
+      "key": "/pages/store-locator",
+      "views": 5000,
+      "bundles": 50,
+      "share": 0.4,
+      "lowSample": false
+     },
+     {
+      "key": "/pages/faqs",
+      "views": 700,
+      "bundles": 7,
+      "share": 0.056,
+      "lowSample": true
+     },
+     {
+      "key": "/products/biotin-10000-mcg-softgels",
+      "views": 600,
+      "bundles": 6,
+      "share": 0.048,
+      "lowSample": true
+     },
+     {
+      "key": "/products/advanced-hair-skin-and-nails",
+      "views": 600,
+      "bundles": 6,
+      "share": 0.048,
+      "lowSample": true
+     }
+    ],
+    "viewsAll": 124000,
+    "nextAll": [
+     {
+      "key": "/pages/store-locator",
+      "views": 51400,
+      "bundles": 514,
+      "share": 0.41451612903225804,
+      "lowSample": false
+     },
+     {
+      "key": "/",
+      "views": 17700,
+      "bundles": 177,
+      "share": 0.14274193548387096,
+      "lowSample": false
+     },
+     {
+      "key": "/products/advanced-hair-skin-and-nails",
+      "views": 6300,
+      "bundles": 63,
+      "share": 0.050806451612903224,
+      "lowSample": false
+     },
+     {
+      "key": "/products/biotin-10000-mcg-softgels",
+      "views": 4500,
+      "bundles": 45,
+      "share": 0.036290322580645164,
+      "lowSample": false
+     },
+     {
+      "key": "/pages/faqs",
+      "views": 4300,
+      "bundles": 43,
+      "share": 0.03467741935483871,
+      "lowSample": false
+     }
+    ]
+   },
+   {
+    "path": "/collections/digestive-health",
+    "views": 11600,
+    "bundles": 116,
+    "share": 0.027751196172248804,
+    "lowSample": false,
+    "onward": 0.6982758620689655,
+    "next": [
+     {
+      "key": "/products/fiber-gummies",
+      "views": 4000,
+      "bundles": 40,
+      "share": 0.3448275862068966,
+      "lowSample": false
+     },
+     {
+      "key": "/products/probiotic-10-30-capsules",
+      "views": 3000,
+      "bundles": 30,
+      "share": 0.25862068965517243,
+      "lowSample": false
+     },
+     {
+      "key": "/pages/store-locator",
+      "views": 1100,
+      "bundles": 11,
+      "share": 0.09482758620689655,
+      "lowSample": true
+     }
+    ],
+    "viewsAll": 41300,
+    "nextAll": [
+     {
+      "key": "/products/fiber-gummies",
+      "views": 11800,
+      "bundles": 118,
+      "share": 0.2857142857142857,
+      "lowSample": false
+     },
+     {
+      "key": "/products/probiotic-10-30-capsules",
+      "views": 11300,
+      "bundles": 113,
+      "share": 0.2736077481840194,
+      "lowSample": false
+     },
+     {
+      "key": "/pages/store-locator",
+      "views": 5300,
+      "bundles": 53,
+      "share": 0.12832929782082325,
+      "lowSample": false
+     }
+    ]
+   }
+  ],
+  "byDevice": {
+   "mobile": [
+    {
+     "path": "/pages/store-locator",
+     "views": 45600,
+     "bundles": 456,
+     "share": 0.26855123674911663,
+     "lowSample": false,
+     "onward": 0,
+     "next": [],
+     "viewsAll": 575000,
+     "nextAll": []
+    },
+    {
+     "path": "/collections/favorites",
+     "views": 16100,
+     "bundles": 161,
+     "share": 0.09481743227326266,
+     "lowSample": false,
+     "onward": 0.7142857142857143,
+     "next": [
+      {
+       "key": "/products/sleep3-tri-layer-melatonin",
+       "views": 4800,
+       "bundles": 48,
+       "share": 0.2981366459627329,
+       "lowSample": false
+      },
+      {
+       "key": "/products/advanced-magnesium-glycinate",
+       "views": 4500,
+       "bundles": 45,
+       "share": 0.2795031055900621,
+       "lowSample": false
+      },
+      {
+       "key": "/pages/store-locator",
+       "views": 2200,
+       "bundles": 22,
+       "share": 0.13664596273291926,
+       "lowSample": true
+      }
+     ],
+     "viewsAll": 28100,
+     "nextAll": [
+      {
+       "key": "/",
+       "views": 8000,
+       "bundles": 80,
+       "share": 0.2846975088967972,
+       "lowSample": false
+      },
+      {
+       "key": "/products/sleep3-tri-layer-melatonin",
+       "views": 7400,
+       "bundles": 74,
+       "share": 0.26334519572953735,
+       "lowSample": false
+      },
+      {
+       "key": "/products/advanced-magnesium-glycinate",
+       "views": 6200,
+       "bundles": 62,
+       "share": 0.2206405693950178,
+       "lowSample": false
+      }
+     ]
+    },
+    {
+     "path": "/collections/sleep-support",
+     "views": 12600,
+     "bundles": 126,
+     "share": 0.07420494699646643,
+     "lowSample": false,
+     "onward": 0.6825396825396826,
+     "next": [
+      {
+       "key": "/products/sleep3-tri-layer-melatonin",
+       "views": 4000,
+       "bundles": 40,
+       "share": 0.31746031746031744,
+       "lowSample": false
+      },
+      {
+       "key": "/products/advanced-magnesium-glycinate",
+       "views": 3100,
+       "bundles": 31,
+       "share": 0.24603174603174602,
+       "lowSample": false
+      },
+      {
+       "key": "/pages/store-locator",
+       "views": 1500,
+       "bundles": 15,
+       "share": 0.11904761904761904,
+       "lowSample": true
+      }
+     ],
+     "viewsAll": 61500,
+     "nextAll": [
+      {
+       "key": "/products/sleep3-tri-layer-melatonin",
+       "views": 17300,
+       "bundles": 173,
+       "share": 0.2813008130081301,
+       "lowSample": false
+      },
+      {
+       "key": "/products/advanced-magnesium-glycinate",
+       "views": 16800,
+       "bundles": 168,
+       "share": 0.2731707317073171,
+       "lowSample": false
+      },
+      {
+       "key": "/pages/store-locator",
+       "views": 8100,
+       "bundles": 81,
+       "share": 0.13170731707317074,
+       "lowSample": false
+      }
+     ]
+    },
+    {
+     "path": "/collections/hair-skin-and-nails",
+     "views": 10300,
+     "bundles": 103,
+     "share": 0.06065959952885748,
+     "lowSample": false,
+     "onward": 0.6116504854368932,
+     "next": [
+      {
+       "key": "/products/hair-growth",
+       "views": 2100,
+       "bundles": 21,
+       "share": 0.20388349514563106,
+       "lowSample": true
+      },
+      {
+       "key": "/products/advanced-hair-skin-and-nails",
+       "views": 1800,
+       "bundles": 18,
+       "share": 0.17475728155339806,
+       "lowSample": true
+      },
+      {
+       "key": "/pages/store-locator",
+       "views": 1400,
+       "bundles": 14,
+       "share": 0.13592233009708737,
+       "lowSample": true
+      }
+     ],
+     "viewsAll": 47000,
+     "nextAll": [
+      {
+       "key": "/products/advanced-hair-skin-and-nails",
+       "views": 8800,
+       "bundles": 88,
+       "share": 0.18723404255319148,
+       "lowSample": false
+      },
+      {
+       "key": "/pages/store-locator",
+       "views": 7900,
+       "bundles": 79,
+       "share": 0.16808510638297872,
+       "lowSample": false
+      },
+      {
+       "key": "/products/hair-growth",
+       "views": 7600,
+       "bundles": 76,
+       "share": 0.16170212765957448,
+       "lowSample": false
+      }
+     ]
+    },
+    {
+     "path": "/products/sleep3-tri-layer-melatonin",
+     "views": 9000,
+     "bundles": 90,
+     "share": 0.053003533568904596,
+     "lowSample": false,
+     "onward": 0.5,
+     "next": [
+      {
+       "key": "/pages/store-locator",
+       "views": 3400,
+       "bundles": 34,
+       "share": 0.37777777777777777,
+       "lowSample": false
+      },
+      {
+       "key": "/products/advanced-magnesium-glycinate",
+       "views": 700,
+       "bundles": 7,
+       "share": 0.07777777777777778,
+       "lowSample": true
+      },
+      {
+       "key": "/pages/faqs",
+       "views": 400,
+       "bundles": 4,
+       "share": 0.044444444444444446,
+       "lowSample": true
+      }
+     ],
+     "viewsAll": 152000,
+     "nextAll": [
+      {
+       "key": "/pages/store-locator",
+       "views": 61100,
+       "bundles": 611,
+       "share": 0.4019736842105263,
+       "lowSample": false
+      },
+      {
+       "key": "/products/advanced-magnesium-glycinate",
+       "views": 9900,
+       "bundles": 99,
+       "share": 0.06513157894736842,
+       "lowSample": false
+      },
+      {
+       "key": "/",
+       "views": 8700,
+       "bundles": 87,
+       "share": 0.057236842105263155,
+       "lowSample": false
+      }
+     ]
+    }
+   ],
+   "desktop": [
+    {
+     "path": "/pages/store-locator",
+     "views": 86500,
+     "bundles": 865,
+     "share": 0.3485092667203868,
+     "lowSample": false,
+     "onward": 0,
+     "next": [],
+     "viewsAll": 430100,
+     "nextAll": []
+    },
+    {
+     "path": "/collections/sleep-support",
+     "views": 20500,
+     "bundles": 205,
+     "share": 0.08259468170829976,
+     "lowSample": false,
+     "onward": 0.6390243902439025,
+     "next": [
+      {
+       "key": "/products/sleep3-tri-layer-melatonin",
+       "views": 5600,
+       "bundles": 56,
+       "share": 0.2731707317073171,
+       "lowSample": false
+      },
+      {
+       "key": "/products/advanced-magnesium-glycinate",
+       "views": 5300,
+       "bundles": 53,
+       "share": 0.25853658536585367,
+       "lowSample": false
+      },
+      {
+       "key": "/pages/store-locator",
+       "views": 2200,
+       "bundles": 22,
+       "share": 0.1073170731707317,
+       "lowSample": true
+      }
+     ],
+     "viewsAll": 48800,
+     "nextAll": [
+      {
+       "key": "/products/sleep3-tri-layer-melatonin",
+       "views": 12900,
+       "bundles": 129,
+       "share": 0.26434426229508196,
+       "lowSample": false
+      },
+      {
+       "key": "/products/advanced-magnesium-glycinate",
+       "views": 12700,
+       "bundles": 127,
+       "share": 0.26024590163934425,
+       "lowSample": false
+      },
+      {
+       "key": "/pages/store-locator",
+       "views": 5500,
+       "bundles": 55,
+       "share": 0.11270491803278689,
+       "lowSample": false
+      }
+     ]
+    },
+    {
+     "path": "/collections/hair-skin-and-nails",
+     "views": 14100,
+     "bundles": 141,
+     "share": 0.056809024979854954,
+     "lowSample": false,
+     "onward": 0.7021276595744681,
+     "next": [
+      {
+       "key": "/products/advanced-hair-skin-and-nails",
+       "views": 2700,
+       "bundles": 27,
+       "share": 0.19148936170212766,
+       "lowSample": true
+      },
+      {
+       "key": "/products/hair-growth",
+       "views": 2600,
+       "bundles": 26,
+       "share": 0.18439716312056736,
+       "lowSample": true
+      },
+      {
+       "key": "/products/biotin-10000-mcg-softgels",
+       "views": 2400,
+       "bundles": 24,
+       "share": 0.1702127659574468,
+       "lowSample": true
+      }
+     ],
+     "viewsAll": 36300,
+     "nextAll": [
+      {
+       "key": "/products/advanced-hair-skin-and-nails",
+       "views": 6800,
+       "bundles": 68,
+       "share": 0.18732782369146006,
+       "lowSample": false
+      },
+      {
+       "key": "/products/hair-growth",
+       "views": 6300,
+       "bundles": 63,
+       "share": 0.17355371900826447,
+       "lowSample": false
+      },
+      {
+       "key": "/products/biotin-10000-mcg-softgels",
+       "views": 6100,
+       "bundles": 61,
+       "share": 0.16804407713498623,
+       "lowSample": false
+      }
+     ]
+    },
+    {
+     "path": "/collections/favorites",
+     "views": 12300,
+     "bundles": 123,
+     "share": 0.04955680902497985,
+     "lowSample": false,
+     "onward": 0.6016260162601627,
+     "next": [
+      {
+       "key": "/products/sleep3-tri-layer-melatonin",
+       "views": 2900,
+       "bundles": 29,
+       "share": 0.23577235772357724,
+       "lowSample": true
+      },
+      {
+       "key": "/products/advanced-magnesium-glycinate",
+       "views": 2900,
+       "bundles": 29,
+       "share": 0.23577235772357724,
+       "lowSample": true
+      },
+      {
+       "key": "/pages/store-locator",
+       "views": 1600,
+       "bundles": 16,
+       "share": 0.13008130081300814,
+       "lowSample": true
+      }
+     ],
+     "viewsAll": 19700,
+     "nextAll": [
+      {
+       "key": "/",
+       "views": 5300,
+       "bundles": 53,
+       "share": 0.26903553299492383,
+       "lowSample": false
+      },
+      {
+       "key": "/products/advanced-magnesium-glycinate",
+       "views": 4000,
+       "bundles": 40,
+       "share": 0.20304568527918782,
+       "lowSample": false
+      },
+      {
+       "key": "/products/sleep3-tri-layer-melatonin",
+       "views": 3800,
+       "bundles": 38,
+       "share": 0.19289340101522842,
+       "lowSample": false
+      }
+     ]
+    },
+    {
+     "path": "/products/advanced-magnesium-glycinate",
+     "views": 11300,
+     "bundles": 113,
+     "share": 0.045527800161160356,
+     "lowSample": false,
+     "onward": 0.5309734513274337,
+     "next": [
+      {
+       "key": "/pages/store-locator",
+       "views": 4800,
+       "bundles": 48,
+       "share": 0.4247787610619469,
+       "lowSample": false
+      },
+      {
+       "key": "/pages/faqs",
+       "views": 800,
+       "bundles": 8,
+       "share": 0.07079646017699115,
+       "lowSample": true
+      },
+      {
+       "key": "/products/sleep3-tri-layer-melatonin",
+       "views": 400,
+       "bundles": 4,
+       "share": 0.035398230088495575,
+       "lowSample": true
+      }
+     ],
+     "viewsAll": 113300,
+     "nextAll": [
+      {
+       "key": "/pages/store-locator",
+       "views": 44800,
+       "bundles": 448,
+       "share": 0.3954104148278906,
+       "lowSample": false
+      },
+      {
+       "key": "/",
+       "views": 6600,
+       "bundles": 66,
+       "share": 0.05825242718446602,
+       "lowSample": false
+      },
+      {
+       "key": "/products/sleep3-tri-layer-melatonin",
+       "views": 6300,
+       "bundles": 63,
+       "share": 0.05560458958517211,
+       "lowSample": false
+      }
+     ]
+    }
+   ]
+  },
+  "conversion": {
+   "click": "store-locator|where-to-buy|walmart\\.com|target\\.com|cvs\\.com|walgreens\\.com|amazon\\.com",
+   "path": "^/pages/store-locator",
+   "label": "find a store"
+  },
+  "assists": {
+   "goalViews": 1183600,
+   "views": 1890900,
+   "rate": 0.6259453170447935,
+   "pages": [
+    {
+     "path": "/",
+     "views": 418000,
+     "bundles": 4180,
+     "goalViews": 202500,
+     "share": 0.17108820547482256,
+     "rate": 0.48444976076555024,
+     "lift": 0.7739490137137368,
+     "lowSample": false
+    },
+    {
+     "path": "/products/advanced-magnesium-glycinate",
+     "views": 172800,
+     "bundles": 1728,
+     "goalViews": 129400,
+     "share": 0.10932747549847921,
+     "rate": 0.7488425925925926,
+     "lift": 1.1963386771995042,
+     "lowSample": false
+    },
+    {
+     "path": "/products/sleep3-tri-layer-melatonin",
+     "views": 153600,
+     "bundles": 1536,
+     "goalViews": 115500,
+     "share": 0.09758364312267657,
+     "rate": 0.751953125,
+     "lift": 1.2013080128949813,
+     "lowSample": false
+    },
+    {
+     "path": "/products/co-q-10-200-mg-80-rapid-release-softgels",
+     "views": 80100,
+     "bundles": 801,
+     "goalViews": 66800,
+     "share": 0.05643798580601555,
+     "rate": 0.8339575530586767,
+     "lift": 1.3323169458251536,
+     "lowSample": false
+    },
+    {
+     "path": "/products/biotin-10000-mcg-softgels",
+     "views": 86100,
+     "bundles": 861,
+     "goalViews": 61400,
+     "share": 0.05187563366002028,
+     "rate": 0.7131242740998839,
+     "lift": 1.1392756758157065,
+     "lowSample": false
+    },
+    {
+     "path": "/products/advanced-hair-skin-and-nails",
+     "views": 89800,
+     "bundles": 898,
+     "goalViews": 61000,
+     "share": 0.051537681649205816,
+     "rate": 0.6792873051224945,
+     "lift": 1.08521828764458,
+     "lowSample": false
+    },
+    {
+     "path": "/products/hair-growth",
+     "views": 89900,
+     "bundles": 899,
+     "goalViews": 59600,
+     "share": 0.05035484961135519,
+     "rate": 0.6629588431590656,
+     "lift": 1.059132203894455,
+     "lowSample": false
+    },
+    {
+     "path": "/pages/compare-magnesium-products",
+     "views": 69700,
+     "bundles": 697,
+     "goalViews": 52300,
+     "share": 0.04418722541399121,
+     "rate": 0.7503586800573888,
+     "lift": 1.1987607537348062,
+     "lowSample": false
+    },
+    {
+     "path": "/products/immune-24-hour-softgel",
+     "views": 64500,
+     "bundles": 645,
+     "goalViews": 50800,
+     "share": 0.04291990537343697,
+     "rate": 0.7875968992248062,
+     "lift": 1.2582519235756895,
+     "lowSample": false
+    },
+    {
+     "path": "/products/c-with-rose-hips-tablets-1000-mg-100-coated-caplets",
+     "views": 58500,
+     "bundles": 585,
+     "goalViews": 48100,
+     "share": 0.04063872930043934,
+     "rate": 0.8222222222222222,
+     "lift": 1.3135687732342007,
+     "lowSample": false
+    }
+   ]
+  }
+ },
+ "experiences": [
+  {
+   "id": "agent",
+   "label": "Personal agent: plain & actionable",
+   "views": 1100,
+   "share": 0.001
+  },
+  {
+   "id": "learner",
+   "label": "Learner: answers first",
+   "views": 27400,
+   "share": 0.02490909090909091
+  },
+  {
+   "id": "regular",
+   "label": "Regular: your need first",
+   "views": 213100,
+   "share": 0.19372727272727272
+  },
+  {
+   "id": "shopper",
+   "label": "Shopper: the ad, repeated back",
+   "views": 121000,
+   "share": 0.11
+  },
+  {
+   "id": "mobile",
+   "label": "Mobile: quick tasks",
+   "views": 535800,
+   "share": 0.4870909090909091
+  },
+  {
+   "id": "default",
+   "label": "Original homepage",
+   "views": 201600,
+   "share": 0.18327272727272728
+  }
+ ],
+ "today": {
+  "didNothing": 0.3241818181818182,
+  "navigated": 0.38,
+  "topClicks": [
+   {
+    "click": "header .nav-hamburger button",
+    "link": false,
+    "share": 0.12818181818181817,
+    "bundles": 1410
+   },
+   {
+    "click": "/pages/store-locator",
+    "link": true,
+    "share": 0.1200909090909091,
+    "bundles": 1321
+   },
+   {
+    "click": "header .nav-tools button.search",
+    "link": false,
+    "share": 0.03509090909090909,
+    "bundles": 386
+   },
+   {
+    "click": "/collections/sleep-support",
+    "link": true,
+    "share": 0.030090909090909092,
+    "bundles": 331
+   },
+   {
+    "click": "/collections/favorites",
+    "link": true,
+    "share": 0.025818181818181817,
+    "bundles": 284
+   }
+  ],
+  "weeks": [
+   249700,
+   267200,
+   248700,
+   261600,
+   72800
+  ],
+  "devices": [
+   {
+    "key": "mobile",
+    "views": 662900,
+    "bundles": 6629,
+    "share": 0.6026363636363636
+   },
+   {
+    "key": "desktop",
+    "views": 436000,
+    "bundles": 4360,
+    "share": 0.39636363636363636
+   },
+   {
+    "key": "bot",
+    "views": 1100,
+    "bundles": 11,
+    "share": 0.001
+   }
+  ]
+ }
+}
