@@ -2697,7 +2697,7 @@
     }
   ],
   "migrate": {
-    "at": "2026-11-11T00:22:45Z",
+    "at": "2026-11-11T02:38:51Z",
     "outputDir": "stardust/migrated/",
     "selfContained": true,
     "pageMap": [
@@ -3548,19 +3548,21 @@
         "slug": "blogs-recipes-apple-crisp",
         "file": "stardust/migrated/blogs/recipes/apple-crisp/index.html",
         "assetsBundled": 34
+      },
+      {
+        "slug": "blogs-recipes",
+        "file": "stardust/migrated/blogs/recipes/index.html",
+        "assetsBundled": 30
       }
     ],
     "missingAssets": [],
     "cleanedAssets": [],
     "lastRun": {
-      "at": "2026-11-11T00:22:45Z",
-      "rendered": [
-        "index",
-        "blogs-news",
-        "blogs-news-the-benefits-of-biotin",
-        "blogs-recipes-apple-crisp"
+      "at": "2026-11-11T02:38:51Z",
+      "rendered": [],
+      "unchanged": [
+        "blogs-recipes"
       ],
-      "unchanged": [],
       "refused": [],
       "passthrough": []
     }

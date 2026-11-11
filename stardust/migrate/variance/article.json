@@ -1,0 +1,1264 @@
+{
+  "archetype": "https://naturesbounty.com/blogs/news/the-benefits-of-biotin",
+  "width": 1440,
+  "tolerance": 2,
+  "probes": {
+    "hero": ".article-main__image",
+    "title": ".article-main__title",
+    "excerpt": ".article-main__excerpt",
+    "text": ".article-main__text",
+    "tags": ".article-main__tags-holder",
+    "products": ".article-main__products",
+    "related": ".article-main__related",
+    "card": ".article-item"
+  },
+  "archetypeRaw": {
+    "sections": [],
+    "probes": {
+      "hero": {
+        "sel": ".article-main__image",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 1425,
+            "h": 600
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "padding": "0px 0px 0px 0px",
+          "font": "sofia-pro 18px/30px 500",
+          "borderRadius": "0px",
+          "heading": null,
+          "image": {
+            "w": 1425,
+            "h": 600
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": ""
+      },
+      "title": {
+        "sel": ".article-main__title",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 820,
+            "h": 60
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "padding": "0px 0px 0px 0px",
+          "font": "sofia-pro 50px/60px 800",
+          "borderRadius": "0px",
+          "heading": null,
+          "image": null,
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "The Benefits of Biotin"
+      },
+      "excerpt": {
+        "sel": ".article-main__excerpt",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 820,
+            "h": 87
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "padding": "0px 0px 0px 0px",
+          "font": "sofia-pro 22px/35px 700",
+          "borderRadius": "0px",
+          "heading": null,
+          "image": null,
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Support your natural beauty from within with Biotin."
+      },
+      "text": {
+        "sel": ".article-main__text",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 820,
+            "h": 630
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "padding": "0px 0px 0px 0px",
+          "font": "sofia-pro 18px/30px 500",
+          "borderRadius": "0px",
+          "heading": null,
+          "image": null,
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Dreaming of lustrous hair, healthy nails, and vibrant skin?*"
+      },
+      "tags": {
+        "sel": ".article-main__tags-holder",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 320,
+            "h": 1091
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "padding": "0px 0px 0px 0px",
+          "font": "sofia-pro 18px/30px 500",
+          "borderRadius": "5px",
+          "heading": null,
+          "image": null,
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Explore more blogs: All Blogs age defying skin renewal bone "
+      },
+      "products": {
+        "sel": ".article-main__products",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 320,
+            "h": 1321
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "padding": "0px 0px 0px 0px",
+          "font": "sofia-pro 18px/30px 500",
+          "borderRadius": "0px",
+          "heading": "h4 sofia-pro 22px/22px 800 rgb(0, 0, 0)",
+          "image": {
+            "w": 300,
+            "h": 200
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Looking for better Hair? Try these products! .product-item__"
+      },
+      "related": {
+        "sel": ".article-main__related",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 1320,
+            "h": 613
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "padding": "0px 40px 0px 40px",
+          "font": "sofia-pro 18px/30px 500",
+          "borderRadius": "0px",
+          "heading": "h2 sofia-pro 25px/38px 700 rgb(52, 119, 63)",
+          "image": {
+            "w": 393,
+            "h": 245
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "More to explore from Hair age defying skin renewal|hair|nail"
+      },
+      "card": {
+        "sel": ".article-item",
+        "count": 3,
+        "first": {
+          "rect": {
+            "w": 393,
+            "h": 513
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "padding": "0px 0px 0px 0px",
+          "font": "sofia-pro 18px/30px 500",
+          "borderRadius": "0px",
+          "heading": "h2 sofia-pro 25px/38px 700 rgb(52, 119, 63)",
+          "image": {
+            "w": 393,
+            "h": 245
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "age defying skin renewal|hair|nails What Are Ceramides and W"
+      }
+    }
+  },
+  "siblings": [
+    {
+      "url": "https://naturesbounty.com/blogs/news/mens-health",
+      "findings": [
+        {
+          "kind": "PROBE",
+          "probe": "title",
+          "msg": "rect{h 60 → 120}"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "text",
+          "msg": "rect{h 630 → 498}"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "products",
+          "msg": "\".article-main__products\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "card",
+          "msg": "rect{h 513 → 483}"
+        }
+      ],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "hero": {
+            "sel": ".article-main__image",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1425,
+                "h": 600
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 18px/30px 500",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": {
+                "w": 1425,
+                "h": 600
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": ""
+          },
+          "title": {
+            "sel": ".article-main__title",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 820,
+                "h": 120
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 50px/60px 800",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "What Every Man Should Know About His Health"
+          },
+          "excerpt": {
+            "sel": ".article-main__excerpt",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 820,
+                "h": 87
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 22px/35px 700",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "What Every Man Should Know About His Health"
+          },
+          "text": {
+            "sel": ".article-main__text",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 820,
+                "h": 498
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 18px/30px 500",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Here at Nature’s Bounty, we’re dissecting three common healt"
+          },
+          "tags": {
+            "sel": ".article-main__tags-holder",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 320,
+                "h": 1091
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 18px/30px 500",
+              "borderRadius": "5px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Explore more blogs: All Blogs age defying skin renewal bone "
+          },
+          "products": {
+            "sel": ".article-main__products",
+            "count": 0
+          },
+          "related": {
+            "sel": ".article-main__related",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1320,
+                "h": 612
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 40px 0px 40px",
+              "font": "sofia-pro 18px/30px 500",
+              "borderRadius": "0px",
+              "heading": "h2 sofia-pro 25px/38px 700 rgb(52, 119, 63)",
+              "image": {
+                "w": 393,
+                "h": 245
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "More to explore from Healthy aging healthy aging|heart healt"
+          },
+          "card": {
+            "sel": ".article-item",
+            "count": 3,
+            "first": {
+              "rect": {
+                "w": 393,
+                "h": 483
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 18px/30px 500",
+              "borderRadius": "0px",
+              "heading": "h2 sofia-pro 25px/38px 700 rgb(52, 119, 63)",
+              "image": {
+                "w": 393,
+                "h": 245
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "healthy aging|heart health Exploring Heart Health & Omega-3 "
+          }
+        }
+      }
+    },
+    {
+      "url": "https://naturesbounty.com/blogs/news/why-magnesium-matters-more-than-ever",
+      "findings": [
+        {
+          "kind": "PROBE",
+          "probe": "title",
+          "msg": "rect{h 60 → 120}"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "excerpt",
+          "msg": "rect{h 87 → 166}"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "text",
+          "msg": "rect{h 630 → 3120}; heading null → h2 sofia-pro 27px/30px 500 rgb(0, 0, 0)"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "products",
+          "msg": "\".article-main__products\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "card",
+          "msg": "rect{h 513 → 463}"
+        }
+      ],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "hero": {
+            "sel": ".article-main__image",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1425,
+                "h": 600
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 18px/30px 500",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": {
+                "w": 1425,
+                "h": 600
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": ""
+          },
+          "title": {
+            "sel": ".article-main__title",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 820,
+                "h": 120
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 50px/60px 800",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Why Magnesium Matters More Than Ever"
+          },
+          "excerpt": {
+            "sel": ".article-main__excerpt",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 820,
+                "h": 166
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 22px/35px 700",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Magnesium has always been an essential mineral, but lately, "
+          },
+          "text": {
+            "sel": ".article-main__text",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 820,
+                "h": 3120
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 18px/30px 500",
+              "borderRadius": "0px",
+              "heading": "h2 sofia-pro 27px/30px 500 rgb(0, 0, 0)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "From stress support and sleep routines to exercise recovery "
+          },
+          "tags": {
+            "sel": ".article-main__tags-holder",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 320,
+                "h": 1091
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 18px/30px 500",
+              "borderRadius": "5px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Explore more blogs: All Blogs age defying skin renewal bone "
+          },
+          "products": {
+            "sel": ".article-main__products",
+            "count": 0
+          },
+          "related": {
+            "sel": ".article-main__related",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1320,
+                "h": 613
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 40px 0px 40px",
+              "font": "sofia-pro 18px/30px 500",
+              "borderRadius": "0px",
+              "heading": "h2 sofia-pro 25px/38px 700 rgb(52, 119, 63)",
+              "image": {
+                "w": 393,
+                "h": 245
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "More to explore How to Choose the Right Probiotic for Daily "
+          },
+          "card": {
+            "sel": ".article-item",
+            "count": 3,
+            "first": {
+              "rect": {
+                "w": 393,
+                "h": 463
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 18px/30px 500",
+              "borderRadius": "0px",
+              "heading": "h2 sofia-pro 25px/38px 700 rgb(52, 119, 63)",
+              "image": {
+                "w": 393,
+                "h": 245
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "How to Choose the Right Probiotic for Daily Support Support "
+          }
+        }
+      }
+    },
+    {
+      "url": "https://naturesbounty.com/blogs/news/beauty-facts",
+      "findings": [
+        {
+          "kind": "PROBE",
+          "probe": "excerpt",
+          "msg": "rect{h 87 → 122}"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "text",
+          "msg": "rect{h 630 → 1598}"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "products",
+          "msg": "\".article-main__products\" matches 1 on the archetype, 0 on the sibling"
+        }
+      ],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "hero": {
+            "sel": ".article-main__image",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1425,
+                "h": 600
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 18px/30px 500",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": {
+                "w": 1425,
+                "h": 600
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": ""
+          },
+          "title": {
+            "sel": ".article-main__title",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 820,
+                "h": 60
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 50px/60px 800",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Beauty Facts"
+          },
+          "excerpt": {
+            "sel": ".article-main__excerpt",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 820,
+                "h": 122
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 22px/35px 700",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "We commissioned a survey to find out how women truly feel ab"
+          },
+          "text": {
+            "sel": ".article-main__text",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 820,
+                "h": 1598
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 18px/30px 500",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "How far would you go to achieve the perfect hair, skin & nai"
+          },
+          "tags": {
+            "sel": ".article-main__tags-holder",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 320,
+                "h": 1091
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 18px/30px 500",
+              "borderRadius": "5px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Explore more blogs: All Blogs age defying skin renewal bone "
+          },
+          "products": {
+            "sel": ".article-main__products",
+            "count": 0
+          },
+          "related": {
+            "sel": ".article-main__related",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1320,
+                "h": 613
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 40px 0px 40px",
+              "font": "sofia-pro 18px/30px 500",
+              "borderRadius": "0px",
+              "heading": "h2 sofia-pro 25px/38px 700 rgb(52, 119, 63)",
+              "image": {
+                "w": 393,
+                "h": 245
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "More to explore from Hair age defying skin renewal|hair|nail"
+          },
+          "card": {
+            "sel": ".article-item",
+            "count": 3,
+            "first": {
+              "rect": {
+                "w": 393,
+                "h": 513
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 18px/30px 500",
+              "borderRadius": "0px",
+              "heading": "h2 sofia-pro 25px/38px 700 rgb(52, 119, 63)",
+              "image": {
+                "w": 393,
+                "h": 245
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "age defying skin renewal|hair|nails What Are Ceramides and W"
+          }
+        }
+      }
+    },
+    {
+      "url": "https://naturesbounty.com/blogs/news/healthy-holiday-hacks",
+      "findings": [
+        {
+          "kind": "PROBE",
+          "probe": "excerpt",
+          "msg": "rect{h 87 → 122}"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "text",
+          "msg": "rect{h 630 → 1454}"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "products",
+          "msg": "rect{h 1321 → 685}"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "related",
+          "msg": "rect{h 613 → 585}"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "card",
+          "msg": "rect{h 513 → 485}"
+        }
+      ],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "hero": {
+            "sel": ".article-main__image",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1425,
+                "h": 600
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 18px/30px 500",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": {
+                "w": 1425,
+                "h": 600
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": ""
+          },
+          "title": {
+            "sel": ".article-main__title",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 820,
+                "h": 60
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 50px/60px 800",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Healthy Holiday Hacks"
+          },
+          "excerpt": {
+            "sel": ".article-main__excerpt",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 820,
+                "h": 122
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 22px/35px 700",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Keep your health goals in-check this holiday season with the"
+          },
+          "text": {
+            "sel": ".article-main__text",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 820,
+                "h": 1454
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 18px/30px 500",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "The holidays are centered around friends, family, and an abu"
+          },
+          "tags": {
+            "sel": ".article-main__tags-holder",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 320,
+                "h": 1091
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 18px/30px 500",
+              "borderRadius": "5px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Explore more blogs: All Blogs age defying skin renewal bone "
+          },
+          "products": {
+            "sel": ".article-main__products",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 320,
+                "h": 685
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 18px/30px 500",
+              "borderRadius": "0px",
+              "heading": "h4 sofia-pro 22px/22px 800 rgb(0, 0, 0)",
+              "image": {
+                "w": 300,
+                "h": 200
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Looking for better Digestive health? Try these products! .pr"
+          },
+          "related": {
+            "sel": ".article-main__related",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1320,
+                "h": 585
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 40px 0px 40px",
+              "font": "sofia-pro 18px/30px 500",
+              "borderRadius": "0px",
+              "heading": "h2 sofia-pro 25px/38px 700 rgb(52, 119, 63)",
+              "image": {
+                "w": 393,
+                "h": 245
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "More to explore from Digestive health digestive health Your "
+          },
+          "card": {
+            "sel": ".article-item",
+            "count": 3,
+            "first": {
+              "rect": {
+                "w": 393,
+                "h": 485
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 18px/30px 500",
+              "borderRadius": "0px",
+              "heading": "h2 sofia-pro 25px/38px 700 rgb(52, 119, 63)",
+              "image": {
+                "w": 393,
+                "h": 245
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "digestive health Your Gut May Play a Powerful Role in Your W"
+          }
+        }
+      }
+    },
+    {
+      "url": "https://naturesbounty.com/blogs/news/probiotic-gummies",
+      "findings": [
+        {
+          "kind": "PROBE",
+          "probe": "title",
+          "msg": "rect{h 60 → 120}"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "excerpt",
+          "msg": "rect{h 87 → 122}"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "text",
+          "msg": "rect{h 630 → 450}"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "products",
+          "msg": "rect{h 1321 → 685}"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "related",
+          "msg": "rect{h 613 → 585}"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "card",
+          "msg": "rect{h 513 → 485}"
+        }
+      ],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "hero": {
+            "sel": ".article-main__image",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1425,
+                "h": 600
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 18px/30px 500",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": {
+                "w": 1425,
+                "h": 600
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": ""
+          },
+          "title": {
+            "sel": ".article-main__title",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 820,
+                "h": 120
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 50px/60px 800",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Nature’s Bounty® Probiotic Gummies"
+          },
+          "excerpt": {
+            "sel": ".article-main__excerpt",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 820,
+                "h": 122
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 22px/35px 700",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Treat your taste buds and your digestive system to our tangy"
+          },
+          "text": {
+            "sel": ".article-main__text",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 820,
+                "h": 450
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 18px/30px 500",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Let’s face it; taking gummy vitamins is fun at any age. Not "
+          },
+          "tags": {
+            "sel": ".article-main__tags-holder",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 320,
+                "h": 1091
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 18px/30px 500",
+              "borderRadius": "5px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Explore more blogs: All Blogs age defying skin renewal bone "
+          },
+          "products": {
+            "sel": ".article-main__products",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 320,
+                "h": 685
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 18px/30px 500",
+              "borderRadius": "0px",
+              "heading": "h4 sofia-pro 22px/22px 800 rgb(0, 0, 0)",
+              "image": {
+                "w": 300,
+                "h": 200
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Looking for better Digestive health? Try these products! .pr"
+          },
+          "related": {
+            "sel": ".article-main__related",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1320,
+                "h": 585
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 40px 0px 40px",
+              "font": "sofia-pro 18px/30px 500",
+              "borderRadius": "0px",
+              "heading": "h2 sofia-pro 25px/38px 700 rgb(52, 119, 63)",
+              "image": {
+                "w": 393,
+                "h": 245
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "More to explore from Digestive health digestive health Your "
+          },
+          "card": {
+            "sel": ".article-item",
+            "count": 3,
+            "first": {
+              "rect": {
+                "w": 393,
+                "h": 485
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 18px/30px 500",
+              "borderRadius": "0px",
+              "heading": "h2 sofia-pro 25px/38px 700 rgb(52, 119, 63)",
+              "image": {
+                "w": 393,
+                "h": 245
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "digestive health Your Gut May Play a Powerful Role in Your W"
+          }
+        }
+      }
+    }
+  ],
+  "summary": {
+    "siblings": 5,
+    "varying": 5,
+    "probesVarying": [
+      "title",
+      "text",
+      "products",
+      "card",
+      "excerpt",
+      "related"
+    ]
+  }
+}

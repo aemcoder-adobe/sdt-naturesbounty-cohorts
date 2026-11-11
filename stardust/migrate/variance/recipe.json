@@ -1,0 +1,1076 @@
+{
+  "archetype": "https://naturesbounty.com/blogs/recipes/apple-crisp",
+  "width": 1440,
+  "tolerance": 2,
+  "probes": {
+    "hero": ".article-main__image",
+    "title": ".article-main__title",
+    "text": ".article-main__text",
+    "share": ".share-buttons",
+    "products": ".article-main__products",
+    "related": ".article-main__related",
+    "card": ".article-item"
+  },
+  "archetypeRaw": {
+    "sections": [],
+    "probes": {
+      "hero": {
+        "sel": ".article-main__image",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 1425,
+            "h": 600
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "padding": "0px 0px 0px 0px",
+          "font": "sofia-pro 18px/30px 500",
+          "borderRadius": "0px",
+          "heading": null,
+          "image": {
+            "w": 1425,
+            "h": 600
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": ""
+      },
+      "title": {
+        "sel": ".article-main__title",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 820,
+            "h": 60
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "padding": "0px 0px 0px 0px",
+          "font": "sofia-pro 50px/60px 800",
+          "borderRadius": "0px",
+          "heading": null,
+          "image": null,
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Apple Crisp"
+      },
+      "text": {
+        "sel": ".article-main__text",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 820,
+            "h": 276
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "padding": "0px 0px 0px 0px",
+          "font": "sofia-pro 18px/30px 500",
+          "borderRadius": "0px",
+          "heading": null,
+          "image": null,
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "400 Calories / 14g Fat / 46g Carbohydrates / 29g Protein 2 S"
+      },
+      "share": {
+        "sel": ".share-buttons",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 820,
+            "h": 106
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "padding": "0px 0px 0px 0px",
+          "font": "sofia-pro 18px/30px 500",
+          "borderRadius": "0px",
+          "heading": null,
+          "image": null,
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Don't keep all the good info to yourself. Share this with fr"
+      },
+      "products": {
+        "sel": ".article-main__products",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 320,
+            "h": 90
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "padding": "0px 0px 0px 0px",
+          "font": "sofia-pro 18px/30px 500",
+          "borderRadius": "0px",
+          "heading": null,
+          "image": null,
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Looking for better health? Try these products!"
+      },
+      "related": {
+        "sel": ".article-main__related",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 1320,
+            "h": 459
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "padding": "0px 40px 0px 40px",
+          "font": "sofia-pro 18px/30px 500",
+          "borderRadius": "0px",
+          "heading": "h2 sofia-pro 25px/38px 700 rgb(52, 119, 63)",
+          "image": {
+            "w": 393,
+            "h": 245
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "More recipes Heart Friendly Kettle Popcorn When prepared wit"
+      },
+      "card": {
+        "sel": ".article-item",
+        "count": 3,
+        "first": {
+          "rect": {
+            "w": 393,
+            "h": 359
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "padding": "0px 0px 0px 0px",
+          "font": "sofia-pro 18px/30px 500",
+          "borderRadius": "0px",
+          "heading": "h2 sofia-pro 25px/38px 700 rgb(52, 119, 63)",
+          "image": {
+            "w": 393,
+            "h": 245
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Heart Friendly Kettle Popcorn When prepared without the exce"
+      }
+    }
+  },
+  "siblings": [
+    {
+      "url": "https://naturesbounty.com/blogs/recipes/protein-french-toast",
+      "findings": [
+        {
+          "kind": "PROBE",
+          "probe": "text",
+          "msg": "rect{h 276 → 828}; heading null → h4 sofia-pro 18px/30px 700 rgb(0, 0, 0)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "related",
+          "msg": "rect{h 459 → 489}"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "card",
+          "msg": "rect{h 359 → 389}"
+        }
+      ],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "hero": {
+            "sel": ".article-main__image",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1425,
+                "h": 600
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 18px/30px 500",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": {
+                "w": 1425,
+                "h": 600
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": ""
+          },
+          "title": {
+            "sel": ".article-main__title",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 820,
+                "h": 60
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 50px/60px 800",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Protein French Toast"
+          },
+          "text": {
+            "sel": ".article-main__text",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 820,
+                "h": 828
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 18px/30px 500",
+              "borderRadius": "0px",
+              "heading": "h4 sofia-pro 18px/30px 700 rgb(0, 0, 0)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Amount Per Serving (2 slices) (Note: May vary depending on w"
+          },
+          "share": {
+            "sel": ".share-buttons",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 820,
+                "h": 106
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 18px/30px 500",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Don't keep all the good info to yourself. Share this with fr"
+          },
+          "products": {
+            "sel": ".article-main__products",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 320,
+                "h": 90
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 18px/30px 500",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Looking for better health? Try these products!"
+          },
+          "related": {
+            "sel": ".article-main__related",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1320,
+                "h": 489
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 40px 0px 40px",
+              "font": "sofia-pro 18px/30px 500",
+              "borderRadius": "0px",
+              "heading": "h2 sofia-pro 25px/38px 700 rgb(52, 119, 63)",
+              "image": {
+                "w": 393,
+                "h": 245
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "More recipes Probiotic Rich Breakfast Bowl In addition to su"
+          },
+          "card": {
+            "sel": ".article-item",
+            "count": 3,
+            "first": {
+              "rect": {
+                "w": 393,
+                "h": 389
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 18px/30px 500",
+              "borderRadius": "0px",
+              "heading": "h2 sofia-pro 25px/38px 700 rgb(52, 119, 63)",
+              "image": {
+                "w": 393,
+                "h": 245
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Probiotic Rich Breakfast Bowl In addition to supplementing w"
+          }
+        }
+      }
+    },
+    {
+      "url": "https://naturesbounty.com/blogs/recipes/healthy-snacks",
+      "findings": [
+        {
+          "kind": "PROBE",
+          "probe": "text",
+          "msg": "rect{h 276 → 840}"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "products",
+          "msg": "\".article-main__products\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "card",
+          "msg": "rect{h 359 → 299}"
+        }
+      ],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "hero": {
+            "sel": ".article-main__image",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1425,
+                "h": 600
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 18px/30px 500",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": {
+                "w": 1425,
+                "h": 600
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": ""
+          },
+          "title": {
+            "sel": ".article-main__title",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 820,
+                "h": 60
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 50px/60px 800",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "5 Homemade Healthy Snacks"
+          },
+          "text": {
+            "sel": ".article-main__text",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 820,
+                "h": 840
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 18px/30px 500",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "This will cause you to eat whatever is available, and cave i"
+          },
+          "share": {
+            "sel": ".share-buttons",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 820,
+                "h": 106
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 18px/30px 500",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Don't keep all the good info to yourself. Share this with fr"
+          },
+          "products": {
+            "sel": ".article-main__products",
+            "count": 0
+          },
+          "related": {
+            "sel": ".article-main__related",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1320,
+                "h": 459
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 40px 0px 40px",
+              "font": "sofia-pro 18px/30px 500",
+              "borderRadius": "0px",
+              "heading": "h2 sofia-pro 25px/38px 700 rgb(52, 119, 63)",
+              "image": {
+                "w": 393,
+                "h": 245
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "More recipes Instant Chocolate Pancake Mix Heart Friendly Ke"
+          },
+          "card": {
+            "sel": ".article-item",
+            "count": 3,
+            "first": {
+              "rect": {
+                "w": 393,
+                "h": 299
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 18px/30px 500",
+              "borderRadius": "0px",
+              "heading": "h2 sofia-pro 25px/38px 700 rgb(52, 119, 63)",
+              "image": {
+                "w": 393,
+                "h": 245
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Instant Chocolate Pancake Mix"
+          }
+        }
+      }
+    },
+    {
+      "url": "https://naturesbounty.com/blogs/recipes/crustless-cranberry-pie-recipe",
+      "findings": [
+        {
+          "kind": "PROBE",
+          "probe": "text",
+          "msg": "rect{h 276 → 1195}"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "products",
+          "msg": "\".article-main__products\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "related",
+          "msg": "rect{h 459 → 497}"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "card",
+          "msg": "rect{h 359 → 299}"
+        }
+      ],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "hero": {
+            "sel": ".article-main__image",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1425,
+                "h": 600
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 18px/30px 500",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": {
+                "w": 1425,
+                "h": 600
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": ""
+          },
+          "title": {
+            "sel": ".article-main__title",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 820,
+                "h": 60
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 50px/60px 800",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Crustless Cranberry Pie Recipe"
+          },
+          "text": {
+            "sel": ".article-main__text",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 820,
+                "h": 1195
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 18px/30px 500",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "From sweet side-dishes to gorgeously garnished cocktails, cr"
+          },
+          "share": {
+            "sel": ".share-buttons",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 820,
+                "h": 106
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 18px/30px 500",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Don't keep all the good info to yourself. Share this with fr"
+          },
+          "products": {
+            "sel": ".article-main__products",
+            "count": 0
+          },
+          "related": {
+            "sel": ".article-main__related",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1320,
+                "h": 497
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 40px 0px 40px",
+              "font": "sofia-pro 18px/30px 500",
+              "borderRadius": "0px",
+              "heading": "h2 sofia-pro 25px/38px 700 rgb(52, 119, 63)",
+              "image": {
+                "w": 393,
+                "h": 245
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "More recipes Mango Berry Cloud Lean-Beef Burger with Sweet P"
+          },
+          "card": {
+            "sel": ".article-item",
+            "count": 3,
+            "first": {
+              "rect": {
+                "w": 393,
+                "h": 299
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 18px/30px 500",
+              "borderRadius": "0px",
+              "heading": "h2 sofia-pro 25px/38px 700 rgb(52, 119, 63)",
+              "image": {
+                "w": 393,
+                "h": 245
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Mango Berry Cloud"
+          }
+        }
+      }
+    },
+    {
+      "url": "https://naturesbounty.com/blogs/recipes/lean-beef-burger-with-sweet-potato-fries",
+      "findings": [
+        {
+          "kind": "PROBE",
+          "probe": "title",
+          "msg": "rect{h 60 → 120}"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "text",
+          "msg": "rect{h 276 → 720}"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "products",
+          "msg": "\".article-main__products\" matches 1 on the archetype, 0 on the sibling"
+        }
+      ],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "hero": {
+            "sel": ".article-main__image",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1425,
+                "h": 600
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 18px/30px 500",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": {
+                "w": 1425,
+                "h": 600
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": ""
+          },
+          "title": {
+            "sel": ".article-main__title",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 820,
+                "h": 120
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 50px/60px 800",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Lean-Beef Burger with Sweet Potato Fries"
+          },
+          "text": {
+            "sel": ".article-main__text",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 820,
+                "h": 720
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 18px/30px 500",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Ingredients: 1 lb 93% Lean Beef 1 large egg 1/3 cup breadcru"
+          },
+          "share": {
+            "sel": ".share-buttons",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 820,
+                "h": 106
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 18px/30px 500",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Don't keep all the good info to yourself. Share this with fr"
+          },
+          "products": {
+            "sel": ".article-main__products",
+            "count": 0
+          },
+          "related": {
+            "sel": ".article-main__related",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1320,
+                "h": 459
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 40px 0px 40px",
+              "font": "sofia-pro 18px/30px 500",
+              "borderRadius": "0px",
+              "heading": "h2 sofia-pro 25px/38px 700 rgb(52, 119, 63)",
+              "image": {
+                "w": 393,
+                "h": 245
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "More recipes Quinoa Apple Cake The holidays are filled with "
+          },
+          "card": {
+            "sel": ".article-item",
+            "count": 3,
+            "first": {
+              "rect": {
+                "w": 393,
+                "h": 359
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 18px/30px 500",
+              "borderRadius": "0px",
+              "heading": "h2 sofia-pro 25px/38px 700 rgb(52, 119, 63)",
+              "image": {
+                "w": 393,
+                "h": 245
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Quinoa Apple Cake The holidays are filled with family, festi"
+          }
+        }
+      }
+    },
+    {
+      "url": "https://naturesbounty.com/blogs/recipes/mango-berry-cloud",
+      "findings": [
+        {
+          "kind": "PROBE",
+          "probe": "text",
+          "msg": "rect{h 276 → 198}"
+        }
+      ],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "hero": {
+            "sel": ".article-main__image",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1425,
+                "h": 600
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 18px/30px 500",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": {
+                "w": 1425,
+                "h": 600
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": ""
+          },
+          "title": {
+            "sel": ".article-main__title",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 820,
+                "h": 60
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 50px/60px 800",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Mango Berry Cloud"
+          },
+          "text": {
+            "sel": ".article-main__text",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 820,
+                "h": 198
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 18px/30px 500",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "2 Scoops Optimal Solutions® Vanilla Complete Protein & Vitam"
+          },
+          "share": {
+            "sel": ".share-buttons",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 820,
+                "h": 106
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 18px/30px 500",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Don't keep all the good info to yourself. Share this with fr"
+          },
+          "products": {
+            "sel": ".article-main__products",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 320,
+                "h": 90
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 18px/30px 500",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Looking for better health? Try these products!"
+          },
+          "related": {
+            "sel": ".article-main__related",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1320,
+                "h": 459
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 40px 0px 40px",
+              "font": "sofia-pro 18px/30px 500",
+              "borderRadius": "0px",
+              "heading": "h2 sofia-pro 25px/38px 700 rgb(52, 119, 63)",
+              "image": {
+                "w": 393,
+                "h": 245
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "More recipes Heart Friendly Kettle Popcorn When prepared wit"
+          },
+          "card": {
+            "sel": ".article-item",
+            "count": 3,
+            "first": {
+              "rect": {
+                "w": 393,
+                "h": 359
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 18px/30px 500",
+              "borderRadius": "0px",
+              "heading": "h2 sofia-pro 25px/38px 700 rgb(52, 119, 63)",
+              "image": {
+                "w": 393,
+                "h": 245
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Heart Friendly Kettle Popcorn When prepared without the exce"
+          }
+        }
+      }
+    }
+  ],
+  "summary": {
+    "siblings": 5,
+    "varying": 5,
+    "probesVarying": [
+      "text",
+      "related",
+      "card",
+      "products",
+      "title"
+    ]
+  }
+}
