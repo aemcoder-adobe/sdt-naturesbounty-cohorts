@@ -1,0 +1,82 @@
+{
+  "a": "stardust/replica/gates/all-360/blogs-recipes-creamy-spinach-artichoke-dip/origin.png",
+  "b": "stardust/replica/gates/all-360/blogs-recipes-creamy-spinach-artichoke-dip/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 5805,
+    "mode": "overlap"
+  },
+  "heightDelta": 165,
+  "differingPixels": 737358,
+  "pct": 35.28,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-360/blogs-recipes-creamy-spinach-artichoke-dip/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 30.35,
+  "textBoxes": 103,
+  "textPixels": 446158,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 2.6
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 8.8
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 8.4
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 26.3
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 78.4
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 69.2
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 64.4
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 72.8
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 53.3
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 9.5
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 8.3
+    },
+    {
+      "y0": 5500,
+      "y1": 5805,
+      "pct": 12.5
+    }
+  ]
+}

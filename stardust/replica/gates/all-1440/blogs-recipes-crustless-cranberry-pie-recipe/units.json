@@ -1,0 +1,1578 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-11T04:41:17.463Z",
+  "tol": 4,
+  "n": 6,
+  "width": 1440,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://naturesbounty.com/blogs/recipes/crustless-cranberry-pie-recipe",
+  "at": "2026-11-11T03:54:50.678Z",
+  "docH": 4554
+ },
+ "eds": {
+  "url": "https://main--1a676f95--aemcoder.aem.page/blogs/recipes/crustless-cranberry-pie-recipe",
+  "at": "2026-11-11T04:41:17.315Z",
+  "docH": 4313
+ },
+ "results": [
+  {
+   "sel": ".article-main__related .article-item=.related .related-card",
+   "family": null,
+   "required": true,
+   "originMatches": 3,
+   "edsMatches": 3,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.article-main__related.container__tight > div.article-item__grid > div.article-item.is-layout-3"
+     },
+     "eds": {
+      "path": "div.related.block > div.related-grid > div.related-card"
+     },
+     "rows": [
+      {
+       "key": "image:vegan chocolate peanut butter vitamin sm",
+       "role": "image",
+       "text": "vegan chocolate peanut butter vitamin smoothie",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245
+       },
+       "eds": {
+        "x": 0,
+        "y": 228,
+        "w": 393,
+        "h": 22,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 228,
+       "dw": 0,
+       "dh": -223,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:a.article-item__url#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 225,
+        "w": 393,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 228,
+        "w": 393,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 3,
+       "dw": 0,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "heading:vegan chocolate peanut butter vitamin sm",
+       "role": "heading",
+       "text": "vegan chocolate peanut butter vitamin smoothie",
+       "edsText": "quinoa, avocado & black bean salad",
+       "byPosition": true,
+       "origin": {
+        "x": 0,
+        "y": 261,
+        "w": 393,
+        "h": 76
+       },
+       "eds": {
+        "x": 0,
+        "y": 261,
+        "w": 393,
+        "h": 76,
+        "sel": "h3#quinoa-avocado--black-bean-salad",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "25/38/700",
+        "eds": "25/38/700"
+       }
+      },
+      {
+       "key": "text:featuring nature’s bounty® complete plan",
+       "role": "text",
+       "text": "featuring nature’s bounty® complete plant protein & vitamin ",
+       "edsText": "try this delicious, low sodium summer recipe!",
+       "byPosition": true,
+       "origin": {
+        "x": 0,
+        "y": 339,
+        "w": 386,
+        "h": 85
+       },
+       "eds": {
+        "x": 0,
+        "y": 341,
+        "w": 355,
+        "h": 22,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 2,
+       "dw": -31,
+       "dh": -63,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "link",
+       "tag": "a",
+       "sel": "a.article-item__content",
+       "text": "vegan chocolate peanut butter vitamin smoothie featuring nat",
+       "boxed": false,
+       "x": 0,
+       "y": 245,
+       "w": 393,
+       "h": 182,
+       "absY": 2640,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "link:vegan chocolate peanut butter vitamin sm"
+      }
+     ],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "quinoa, avocado & black bean salad",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 393,
+       "h": 245,
+       "absY": 2226,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:quinoa, avocado & black bean salad"
+      },
+      {
+       "role": "link",
+       "tag": "a",
+       "sel": "a.related-card-link",
+       "text": "quinoa, avocado & black bean salad try this delicious, low s",
+       "boxed": false,
+       "x": 0,
+       "y": 245,
+       "w": 393,
+       "h": 122,
+       "absY": 2471,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "link:quinoa, avocado & black bean salad try t"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 93,
+       "y": 2395,
+       "w": 393,
+       "h": 427
+      },
+      "eds": {
+       "x": 93,
+       "y": 2226,
+       "w": 393,
+       "h": 367
+      },
+      "dx": 0,
+      "dy": -169,
+      "dw": 0,
+      "dh": -60
+     },
+     "summary": {
+      "elements": 5,
+      "within": 2,
+      "off": 2,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 2,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.article-main__related.container__tight > div.article-item__grid > div.article-item.is-layout-3"
+     },
+     "eds": {
+      "path": "div.related.block > div.related-grid > div.related-card"
+     },
+     "rows": [
+      {
+       "key": "image:red velvet protein cupcakes with greek y",
+       "role": "image",
+       "text": "red velvet protein cupcakes with greek yogurt frosting",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245
+       },
+       "eds": {
+        "x": 0,
+        "y": 228,
+        "w": 393,
+        "h": 22,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 228,
+       "dw": 0,
+       "dh": -223,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:a.article-item__url#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 225,
+        "w": 393,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 228,
+        "w": 393,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 3,
+       "dw": 0,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "heading:red velvet protein cupcakes with greek y",
+       "role": "heading",
+       "text": "red velvet protein cupcakes with greek yogurt frosting",
+       "edsText": "quinoa apple cake",
+       "byPosition": true,
+       "origin": {
+        "x": 0,
+        "y": 261,
+        "w": 393,
+        "h": 76
+       },
+       "eds": {
+        "x": 0,
+        "y": 261,
+        "w": 393,
+        "h": 38,
+        "sel": "h3#quinoa-apple-cake",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": -38,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "25/38/700",
+        "eds": "25/38/700"
+       }
+      },
+      {
+       "key": "text:check out this indulgent recipe for red ",
+       "role": "text",
+       "text": "check out this indulgent recipe for red velvet cupcakes that",
+       "edsText": "the holidays are filled with family, festivities and an abun",
+       "byPosition": true,
+       "origin": {
+        "x": 0,
+        "y": 339,
+        "w": 353,
+        "h": 85
+       },
+       "eds": {
+        "x": 0,
+        "y": 303,
+        "w": 378,
+        "h": 52,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -36,
+       "dw": 25,
+       "dh": -33,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "link",
+       "tag": "a",
+       "sel": "a.article-item__content",
+       "text": "red velvet protein cupcakes with greek yogurt frosting check",
+       "boxed": false,
+       "x": 0,
+       "y": 245,
+       "w": 393,
+       "h": 182,
+       "absY": 2640,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "link:red velvet protein cupcakes with greek y"
+      }
+     ],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "quinoa apple cake",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 393,
+       "h": 245,
+       "absY": 2226,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:quinoa apple cake"
+      },
+      {
+       "role": "link",
+       "tag": "a",
+       "sel": "a.related-card-link",
+       "text": "quinoa apple cake the holidays are filled with family, festi",
+       "boxed": false,
+       "x": 0,
+       "y": 245,
+       "w": 393,
+       "h": 114,
+       "absY": 2471,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "link:quinoa apple cake the holidays are fille"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 516,
+       "y": 2395,
+       "w": 393,
+       "h": 427
+      },
+      "eds": {
+       "x": 516,
+       "y": 2226,
+       "w": 393,
+       "h": 359
+      },
+      "dx": 0,
+      "dy": -169,
+      "dw": 0,
+      "dh": -68
+     },
+     "summary": {
+      "elements": 5,
+      "within": 1,
+      "off": 3,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 2,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.article-main__related.container__tight > div.article-item__grid > div.article-item.is-layout-3"
+     },
+     "eds": {
+      "path": "div.related.block > div.related-grid > div.related-card"
+     },
+     "rows": [
+      {
+       "key": "image:quinoa, avocado & black bean salad",
+       "role": "image",
+       "text": "quinoa, avocado & black bean salad",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245
+       },
+       "eds": {
+        "x": 0,
+        "y": 228,
+        "w": 393,
+        "h": 22,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 228,
+       "dw": 0,
+       "dh": -223,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:a.article-item__url#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 225,
+        "w": 393,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 228,
+        "w": 393,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 3,
+       "dw": 0,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "heading:quinoa, avocado & black bean salad",
+       "role": "heading",
+       "text": "quinoa, avocado & black bean salad",
+       "edsText": "protein “s’mores” bowl",
+       "byPosition": true,
+       "origin": {
+        "x": 0,
+        "y": 261,
+        "w": 393,
+        "h": 76
+       },
+       "eds": {
+        "x": 0,
+        "y": 261,
+        "w": 393,
+        "h": 38,
+        "sel": "h3#protein-smores-bowl",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": -38,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "25/38/700",
+        "eds": "25/38/700"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "link",
+       "tag": "a",
+       "sel": "a.article-item__content",
+       "text": "quinoa, avocado & black bean salad try this delicious, low s",
+       "boxed": false,
+       "x": 0,
+       "y": 245,
+       "w": 393,
+       "h": 122,
+       "absY": 2640,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "link:quinoa, avocado & black bean salad try t"
+      },
+      {
+       "role": "text",
+       "tag": "span",
+       "sel": "span.article-item__excerpt",
+       "text": "try this delicious, low sodium summer recipe!",
+       "boxed": false,
+       "x": 0,
+       "y": 339,
+       "w": 356,
+       "h": 25,
+       "absY": 2734,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "text:try this delicious, low sodium summer re"
+      }
+     ],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "protein “s’mores” bowl",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 393,
+       "h": 245,
+       "absY": 2226,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:protein “s’mores” bowl"
+      },
+      {
+       "role": "link",
+       "tag": "a",
+       "sel": "a.related-card-link",
+       "text": "protein “s’mores” bowl",
+       "boxed": false,
+       "x": 0,
+       "y": 245,
+       "w": 393,
+       "h": 54,
+       "absY": 2471,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "link:protein “s’mores” bowl"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 939,
+       "y": 2395,
+       "w": 393,
+       "h": 367
+      },
+      "eds": {
+       "x": 939,
+       "y": 2226,
+       "w": 393,
+       "h": 299
+      },
+      "dx": 0,
+      "dy": -169,
+      "dw": 0,
+      "dh": -68
+     },
+     "summary": {
+      "elements": 5,
+      "within": 1,
+      "off": 2,
+      "hidden": 0,
+      "missing": 2,
+      "extra": 2,
+      "unitOff": true
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".instagram__blocks .instagram__item=.social-strip__grid .social-tile, .social-strip .social-strip-grid .social-tile",
+   "family": null,
+   "required": true,
+   "originMatches": 5,
+   "edsMatches": 5,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand"
+     },
+     "eds": {
+      "path": "div.social-strip.block > div.social-strip-grid > a.social-tile"
+     },
+     "rows": [
+      {
+       "key": "image:<p>advanced magnesium glycinate</p>",
+       "role": "image",
+       "text": "<p>advanced magnesium glycinate</p>",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "advanced magnesium glycinate",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 271,
+       "h": 271,
+       "absY": 3003,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:advanced magnesium glycinate"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 21,
+       "y": 3232,
+       "w": 271,
+       "h": 271
+      },
+      "eds": {
+       "x": 21,
+       "y": 3003,
+       "w": 271,
+       "h": 271
+      },
+      "dx": 0,
+      "dy": -229,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand"
+     },
+     "eds": {
+      "path": "div.social-strip.block > div.social-strip-grid > a.social-tile"
+     },
+     "rows": [
+      {
+       "key": "image:<p>hair growth capsules</p>",
+       "role": "image",
+       "text": "<p>hair growth capsules</p>",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "hair growth capsules",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 271,
+       "h": 271,
+       "absY": 3003,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:hair growth capsules"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 299,
+       "y": 3232,
+       "w": 271,
+       "h": 271
+      },
+      "eds": {
+       "x": 299,
+       "y": 3003,
+       "w": 271,
+       "h": 271
+      },
+      "dx": 0,
+      "dy": -229,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand"
+     },
+     "eds": {
+      "path": "div.social-strip.block > div.social-strip-grid > a.social-tile"
+     },
+     "rows": [
+      {
+       "key": "image:<p>super b-complex</p>",
+       "role": "image",
+       "text": "<p>super b-complex</p>",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "super b-complex",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 271,
+       "h": 271,
+       "absY": 3003,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:super b-complex"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 577,
+       "y": 3232,
+       "w": 271,
+       "h": 271
+      },
+      "eds": {
+       "x": 577,
+       "y": 3003,
+       "w": 271,
+       "h": 271
+      },
+      "dx": 0,
+      "dy": -229,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand"
+     },
+     "eds": {
+      "path": "div.social-strip.block > div.social-strip-grid > a.social-tile"
+     },
+     "rows": [
+      {
+       "key": "image:<p>vitamin c</p>",
+       "role": "image",
+       "text": "<p>vitamin c</p>",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "vitamin c",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 271,
+       "h": 271,
+       "absY": 3003,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:vitamin c"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 855,
+       "y": 3232,
+       "w": 271,
+       "h": 271
+      },
+      "eds": {
+       "x": 855,
+       "y": 3003,
+       "w": 271,
+       "h": 271
+      },
+      "dx": 0,
+      "dy": -229,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand"
+     },
+     "eds": {
+      "path": "div.social-strip.block > div.social-strip-grid > a.social-tile"
+     },
+     "rows": [
+      {
+       "key": "image:<p>advanced hair, skin + nails pectin gu",
+       "role": "image",
+       "text": "<p>advanced hair, skin + nails pectin gummy</p>",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "advanced hair, skin + nails pectin gummy",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 271,
+       "h": 271,
+       "absY": 3003,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:advanced hair, skin + nails pectin gummy"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 1133,
+       "y": 3232,
+       "w": 271,
+       "h": 271
+      },
+      "eds": {
+       "x": 1133,
+       "y": 3003,
+       "w": 271,
+       "h": 271
+      },
+      "dx": 0,
+      "dy": -229,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".article-main__content-recipe .article-main__text ul > li=.recipe__text ul > li, .recipe .recipe-text ul > li",
+   "family": null,
+   "required": true,
+   "originMatches": 13,
+   "edsMatches": 13,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.article-main__text.rte > ul > li"
+     },
+     "eds": {
+      "path": "div.recipe-text > ul > li"
+     },
+     "rows": [
+      {
+       "key": "link:cranberry fruit 4200mg plus vitamin c",
+       "role": "link",
+       "text": "cranberry fruit 4200mg plus vitamin c",
+       "edsText": "cranberry fruit 4200mg plus vitamin c",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 2,
+        "w": 312,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 4,
+        "w": 318,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 2,
+       "dw": 6,
+       "dh": -3,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/700",
+        "eds": "18/30/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 125,
+       "y": 1100,
+       "w": 788,
+       "h": 30
+      },
+      "eds": {
+       "x": 125,
+       "y": 1040,
+       "w": 1208,
+       "h": 30
+      },
+      "dx": 0,
+      "dy": -60,
+      "dw": 420,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 0,
+      "off": 1,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.article-main__text.rte > ul > li"
+     },
+     "eds": {
+      "path": "div.recipe-text > ul > li"
+     },
+     "rows": [
+      {
+       "key": "link:dual spectrum cranberry plus hibiscus so",
+       "role": "link",
+       "text": "dual spectrum cranberry plus hibiscus softgels",
+       "edsText": "dual spectrum cranberry plus hibiscus softgels",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 2,
+        "w": 384,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 4,
+        "w": 385,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 2,
+       "dw": 1,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/700",
+        "eds": "18/30/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 125,
+       "y": 1130,
+       "w": 788,
+       "h": 30
+      },
+      "eds": {
+       "x": 125,
+       "y": 1070,
+       "w": 1208,
+       "h": 30
+      },
+      "dx": 0,
+      "dy": -60,
+      "dw": 420,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.article-main__text.rte > ul > li"
+     },
+     "eds": {
+      "path": "div.recipe-text > ul > li"
+     },
+     "rows": [
+      {
+       "key": "link:cranberry w/ vitamins c triple strength",
+       "role": "link",
+       "text": "cranberry w/ vitamins c triple strength",
+       "edsText": "cranberry w/ vitamins c triple strength",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 2,
+        "w": 319,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 4,
+        "w": 325,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 2,
+       "dw": 6,
+       "dh": -3,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/700",
+        "eds": "18/30/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 125,
+       "y": 1160,
+       "w": 788,
+       "h": 30
+      },
+      "eds": {
+       "x": 125,
+       "y": 1100,
+       "w": 1208,
+       "h": 30
+      },
+      "dx": 0,
+      "dy": -60,
+      "dw": 420,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 0,
+      "off": 1,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.article-main__text.rte > ul > li"
+     },
+     "eds": {
+      "path": "div.recipe-text > ul > li"
+     },
+     "rows": [],
+     "missing": [
+      {
+       "role": "text",
+       "tag": "span",
+       "sel": "span",
+       "text": "1 cup all-purpose flour",
+       "boxed": false,
+       "x": 0,
+       "y": 2,
+       "w": 179,
+       "h": 25,
+       "absY": 1366,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "text:1 cup all-purpose flour"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 125,
+       "y": 1364,
+       "w": 788,
+       "h": 30
+      },
+      "eds": {
+       "x": 125,
+       "y": 1274,
+       "w": 1208,
+       "h": 30
+      },
+      "dx": 0,
+      "dy": -90,
+      "dw": 420,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div.article-main__text.rte > ul > li"
+     },
+     "eds": {
+      "path": "div.recipe-text > ul > li"
+     },
+     "rows": [],
+     "missing": [
+      {
+       "role": "text",
+       "tag": "span",
+       "sel": "span",
+       "text": "1 cup granulated sugar",
+       "boxed": false,
+       "x": 0,
+       "y": 2,
+       "w": 183,
+       "h": 25,
+       "absY": 1396,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "text:1 cup granulated sugar"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 125,
+       "y": 1394,
+       "w": 788,
+       "h": 30
+      },
+      "eds": {
+       "x": 125,
+       "y": 1304,
+       "w": 1208,
+       "h": 30
+      },
+      "dx": 0,
+      "dy": -90,
+      "dw": 420,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 5,
+     "origin": {
+      "path": "div.article-main__text.rte > ul > li"
+     },
+     "eds": {
+      "path": "div.recipe-text > ul > li"
+     },
+     "rows": [],
+     "missing": [
+      {
+       "role": "text",
+       "tag": "span",
+       "sel": "span",
+       "text": "1 tsp cinnamon",
+       "boxed": false,
+       "x": 0,
+       "y": 2,
+       "w": 118,
+       "h": 25,
+       "absY": 1426,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "text:1 tsp cinnamon"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 125,
+       "y": 1424,
+       "w": 788,
+       "h": 30
+      },
+      "eds": {
+       "x": 125,
+       "y": 1334,
+       "w": 1208,
+       "h": 30
+      },
+      "dx": 0,
+      "dy": -90,
+      "dw": 420,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": true
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 14,
+  "within": 10,
+  "off": 9,
+  "hidden": 0,
+  "missing": 7,
+  "errors": 0,
+  "requiredOff": 16
+ }
+}

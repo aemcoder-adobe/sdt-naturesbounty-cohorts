@@ -1,0 +1,77 @@
+{
+  "a": "stardust/replica/gates/all-360/blogs-recipes-breakfast-smoothie/origin.png",
+  "b": "stardust/replica/gates/all-360/blogs-recipes-breakfast-smoothie/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 5423,
+    "mode": "overlap"
+  },
+  "heightDelta": 111,
+  "differingPixels": 574051,
+  "pct": 29.4,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-360/blogs-recipes-breakfast-smoothie/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 23.37,
+  "textBoxes": 91,
+  "textPixels": 360813,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 1.4
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 6.2
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 3.6
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 55.5
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 62.2
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 37.6
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 64.8
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 54.4
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 15
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 7.2
+    },
+    {
+      "y0": 5000,
+      "y1": 5423,
+      "pct": 12.9
+    }
+  ]
+}

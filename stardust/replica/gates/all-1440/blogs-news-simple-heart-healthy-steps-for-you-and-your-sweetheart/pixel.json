@@ -1,0 +1,77 @@
+{
+  "a": "stardust/replica/gates/all-1440/blogs-news-simple-heart-healthy-steps-for-you-and-your-sweetheart/origin.png",
+  "b": "stardust/replica/gates/all-1440/blogs-news-simple-heart-healthy-steps-for-you-and-your-sweetheart/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 5092,
+    "mode": "overlap"
+  },
+  "heightDelta": 55,
+  "differingPixels": 1061622,
+  "pct": 14.48,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-1440/blogs-news-simple-heart-healthy-steps-for-you-and-your-sweetheart/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 18.62,
+  "textBoxes": 181,
+  "textPixels": 1211585,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 1.7
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 3
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 6.5
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 6.3
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 6.7
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 20
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 31.2
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 36.6
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 27.3
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 7.3
+    },
+    {
+      "y0": 5000,
+      "y1": 5092,
+      "pct": 3.9
+    }
+  ]
+}

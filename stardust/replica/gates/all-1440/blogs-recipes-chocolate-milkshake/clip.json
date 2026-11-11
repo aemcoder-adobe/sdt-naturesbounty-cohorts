@@ -1,0 +1,57 @@
+{
+ "url": "https://main--1a676f95--aemcoder.aem.page/blogs/recipes/chocolate-milkshake",
+ "at": "2026-11-11T04:48:16.122Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 4,
+  "offPage": 10,
+  "textNodes": 107,
+  "controls": 82,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 2,
+   "clipper": "div.announce-viewport",
+   "path": "div.announce-track > ul > li > a",
+   "text": "supplementing the knowledge gap in women's health",
+   "cutMin": 48,
+   "cutMax": 144
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 2,
+   "clipper": "div.announce-viewport",
+   "path": "div.announce-track > ul > li > a",
+   "text": "supplementing the knowledge gap in women's health",
+   "cutMin": 48,
+   "cutMax": 144
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 2,
+   "offPage": 8,
+   "textNodes": 105,
+   "controls": 77,
+   "total": 0
+  }
+ }
+}

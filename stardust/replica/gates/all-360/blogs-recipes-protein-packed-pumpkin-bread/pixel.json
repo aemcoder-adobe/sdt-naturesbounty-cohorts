@@ -1,0 +1,89 @@
+{
+  "a": "stardust/replica/gates/all-360/blogs-recipes-protein-packed-pumpkin-bread/origin.png",
+  "b": "stardust/replica/gates/all-360/blogs-recipes-protein-packed-pumpkin-bread/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 5919,
+    "mode": "overlap"
+  },
+  "heightDelta": 225,
+  "differingPixels": 412012,
+  "pct": 25.61,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-360/blogs-recipes-protein-packed-pumpkin-bread/diff.png",
+  "masks": [
+    {
+      "yA": 1968,
+      "h": 1451,
+      "yB": 1968
+    }
+  ],
+  "maskedRows": 1451,
+  "textPct": 20.7,
+  "textBoxes": 105,
+  "textPixels": 339675,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 2.3
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 6.6
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 8.1
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 14.7
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 0
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 13.2
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 79.8
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 72.2
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 14.6
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 7.1
+    },
+    {
+      "y0": 5500,
+      "y1": 5919,
+      "pct": 12.2
+    }
+  ],
+  "maskReason": "server-rotated 'More recipes' row"
+}

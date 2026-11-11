@@ -1,0 +1,94 @@
+{
+  "a": "stardust/replica/gates/all-360/blogs-recipes-heart-friendly-kettle-popcorn/origin.png",
+  "b": "stardust/replica/gates/all-360/blogs-recipes-heart-friendly-kettle-popcorn/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 6270,
+    "mode": "overlap"
+  },
+  "heightDelta": -35,
+  "differingPixels": 315077,
+  "pct": 17.32,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-360/blogs-recipes-heart-friendly-kettle-popcorn/diff.png",
+  "masks": [
+    {
+      "yA": 2376,
+      "h": 1216,
+      "yB": 2376
+    }
+  ],
+  "maskedRows": 1216,
+  "textPct": 21.56,
+  "textBoxes": 120,
+  "textPixels": 470504,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 2.2
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 10.8
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 6.8
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 8.5
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 12.4
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 0
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 0
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 23.5
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 56.6
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 29.2
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 6.1
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 9.8
+    },
+    {
+      "y0": 6000,
+      "y1": 6270,
+      "pct": 17.2
+    }
+  ],
+  "maskReason": "server-rotated 'More recipes' row"
+}

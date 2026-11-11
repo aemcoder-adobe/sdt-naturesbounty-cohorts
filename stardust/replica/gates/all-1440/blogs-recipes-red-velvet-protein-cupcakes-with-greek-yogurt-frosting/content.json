@@ -1,0 +1,5744 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-11T04:26:09.726Z",
+  "width": 1440,
+  "variable": [
+   ".article-main__related"
+  ],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://naturesbounty.com/blogs/recipes/red-velvet-protein-cupcakes-with-greek-yogurt-frosting",
+  "at": "2026-11-11T04:25:49.489Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 4383,
+  "root": "main#MainContent",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
+    "x": 31,
+    "y": 6,
+    "w": 157,
+    "h": 20,
+    "text": "shop our favorite products",
+    "href": "/collections/favorites"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
+    "x": 388,
+    "y": 6,
+    "w": 213,
+    "h": 20,
+    "text": "grow thicker, fuller hair in 3 months*",
+    "href": "/pages/hair-growth"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
+    "x": 801,
+    "y": 6,
+    "w": 314,
+    "h": 20,
+    "text": "supplementing the knowledge gap in women's health",
+    "href": "/pages/womens-wellness"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
+    "x": 1315,
+    "y": 6,
+    "w": 157,
+    "h": 20,
+    "text": "shop our favorite products",
+    "href": "/collections/favorites"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > header.header.is-normal > a.logo-img",
+    "x": 93,
+    "y": 52,
+    "w": 200,
+    "h": 32,
+    "text": "nature's bounty",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "header.header.is-normal > a.logo-img > img.header--logo",
+    "x": 93,
+    "y": 52,
+    "w": 200,
+    "h": 32,
+    "text": "nature's bounty",
+    "file": "NB-logo-dark-green"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header__right-block.desktop--flex-only > div.header__right-menu-item > button.header__nav-link",
+    "x": 517,
+    "y": 32,
+    "w": 111,
+    "h": 72,
+    "text": "products"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header__right-block.desktop--flex-only > div.header__right-menu-item > button.header__nav-link",
+    "x": 653,
+    "y": 32,
+    "w": 168,
+    "h": 72,
+    "text": "health benefits"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header__right-block.desktop--flex-only > div.header__right-menu-item > button.header__nav-link",
+    "x": 846,
+    "y": 32,
+    "w": 83,
+    "h": 72,
+    "text": "learn"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header__right-block.desktop--flex-only > div.header__right-menu-item > a.header__nav-link",
+    "x": 954,
+    "y": 32,
+    "w": 80,
+    "h": 72,
+    "text": "about us",
+    "href": "/pages/about-us"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "predictive-search > form.search-form.ps_search > input.search-form__input",
+    "x": 1060,
+    "y": 48,
+    "w": 48,
+    "h": 40,
+    "label": "q",
+    "value": "",
+    "via": "combobox"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "predictive-search > form.search-form.ps_search > button.search-form__btn",
+    "x": 1064,
+    "y": 48,
+    "w": 40,
+    "h": 40,
+    "text": ""
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header__right-block.desktop--flex-only > div.header__cta > a.btn.buy-btn",
+    "x": 1133,
+    "y": 48,
+    "w": 200,
+    "h": 40,
+    "text": "where to buy",
+    "href": "/pages/store-locator"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.article-main > div.article-main__image > img",
+    "x": 0,
+    "y": 104,
+    "w": 1425,
+    "h": 600,
+    "text": "red velvet cupcakes",
+    "file": "1602nboswebsitearticlescupcakeslg"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-main__body.container__tight > div.article-main__content > h1.article-main__title.text-hero",
+    "x": 93,
+    "y": 764,
+    "w": 820,
+    "h": 120,
+    "level": 1,
+    "text": "red velvet protein cupcakes with greek yogurt frosting"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-main__content > div.article-main__text.rte > p",
+    "x": 93,
+    "y": 914,
+    "w": 820,
+    "h": 60,
+    "text": "Probiotics are friendly bacteria that help to support digestive health.* These m"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-main__content > div.article-main__text.rte > p",
+    "x": 93,
+    "y": 992,
+    "w": 820,
+    "h": 60,
+    "text": "Check out this indulgent recipe for red velvet cupcakes that provides you with, "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-main__text.rte > p > strong",
+    "x": 93,
+    "y": 1072,
+    "w": 113,
+    "h": 25,
+    "text": "For Cupcakes:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-main__text.rte > ul > li",
+    "x": 125,
+    "y": 1118,
+    "w": 788,
+    "h": 30,
+    "text": "2 scoops Nature’s Bounty Optimal Solutions"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 480,
+    "y": 1120,
+    "w": 393,
+    "h": 25,
+    "text": "chocolate complete protein & vitamin shake mix",
+    "href": "/products/complete-protein-and-vitamin-shake-mix-16-oz-chocolate-powder"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-main__text.rte > ul > li",
+    "x": 125,
+    "y": 1148,
+    "w": 788,
+    "h": 30,
+    "text": "1 cup Whole Wheat Flour"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-main__text.rte > ul > li",
+    "x": 125,
+    "y": 1178,
+    "w": 788,
+    "h": 30,
+    "text": "1/2 cup cocoa powder"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-main__text.rte > ul > li",
+    "x": 125,
+    "y": 1208,
+    "w": 788,
+    "h": 30,
+    "text": "1 teaspoon of baking soda"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-main__text.rte > ul > li",
+    "x": 125,
+    "y": 1238,
+    "w": 788,
+    "h": 30,
+    "text": "1 teaspoon of baking powder"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-main__text.rte > ul > li",
+    "x": 125,
+    "y": 1268,
+    "w": 788,
+    "h": 30,
+    "text": "2 teaspoons zero calorie sweetner"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-main__text.rte > ul > li",
+    "x": 125,
+    "y": 1298,
+    "w": 788,
+    "h": 30,
+    "text": "3/4 cup Fat Free Greek Yogurt (plain)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-main__text.rte > ul > li",
+    "x": 125,
+    "y": 1328,
+    "w": 788,
+    "h": 30,
+    "text": "1/2 cup Egg Whites"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-main__text.rte > ul > li",
+    "x": 125,
+    "y": 1358,
+    "w": 788,
+    "h": 30,
+    "text": "1 teaspoon vanilla extract"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-main__text.rte > ul > li",
+    "x": 125,
+    "y": 1388,
+    "w": 788,
+    "h": 30,
+    "text": "2 teaspoons red food coloring"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-main__text.rte > p > strong",
+    "x": 93,
+    "y": 1486,
+    "w": 99,
+    "h": 25,
+    "text": "For Frosting:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-main__text.rte > ul > li",
+    "x": 125,
+    "y": 1532,
+    "w": 788,
+    "h": 30,
+    "text": "1 cup reduced fat cream cheese"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-main__text.rte > ul > li",
+    "x": 125,
+    "y": 1562,
+    "w": 788,
+    "h": 30,
+    "text": "2/3 cup non-fat Greek Yogurt"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-main__text.rte > ul > li",
+    "x": 125,
+    "y": 1592,
+    "w": 788,
+    "h": 30,
+    "text": "2 cups confectioners’ sugar"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-main__text.rte > ul > li",
+    "x": 125,
+    "y": 1622,
+    "w": 788,
+    "h": 30,
+    "text": "1 tsp vanilla extract"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-main__text.rte > p > strong",
+    "x": 93,
+    "y": 1720,
+    "w": 86,
+    "h": 25,
+    "text": "Directions:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-main__text.rte > ol > li",
+    "x": 133,
+    "y": 1766,
+    "w": 780,
+    "h": 30,
+    "text": "Preheat the oven to 350 degrees"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-main__text.rte > ol > li",
+    "x": 133,
+    "y": 1796,
+    "w": 780,
+    "h": 30,
+    "text": "Combine dry ingredients first, and then add wet"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-main__text.rte > ol > li",
+    "x": 133,
+    "y": 1826,
+    "w": 780,
+    "h": 30,
+    "text": "Line tray with cupcake liners and pour batter evenly into the pan"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-main__text.rte > ol > li",
+    "x": 133,
+    "y": 1856,
+    "w": 780,
+    "h": 30,
+    "text": "Bake cupcakes for 12 minutes, or until toothpick comes out clean"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-main__text.rte > ol > li",
+    "x": 133,
+    "y": 1886,
+    "w": 780,
+    "h": 30,
+    "text": "While cupcakes are cooling, gather ingredients for cream cheese frosting"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-main__text.rte > ol > li",
+    "x": 133,
+    "y": 1916,
+    "w": 780,
+    "h": 30,
+    "text": "Using a hand mixer, blend cream cheese, Greek yogurt and vanilla extract."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-main__text.rte > ol > li",
+    "x": 133,
+    "y": 1946,
+    "w": 780,
+    "h": 30,
+    "text": "Slowly add in the confectioners’ sugar until mixture becomes light and fluffy"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-main__text.rte > ol > li",
+    "x": 133,
+    "y": 1976,
+    "w": 780,
+    "h": 30,
+    "text": "When cupcakes are completely cooled, add frosting and enjoy!"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-main__socials > div.share-buttons.is-inline > div.share-buttons__text",
+    "x": 93,
+    "y": 2036,
+    "w": 820,
+    "h": 30,
+    "text": "Don't keep all the good info to yourself."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-main__socials > div.share-buttons.is-inline > div.share-buttons__text",
+    "x": 93,
+    "y": 2066,
+    "w": 820,
+    "h": 30,
+    "text": "Share this with friends!"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.share-buttons.is-inline > div.share-buttons__links > a.share-buttons__link.is-facebook",
+    "x": 93,
+    "y": 2112,
+    "w": 98,
+    "h": 30,
+    "text": "share",
+    "href": "/sharer.php"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.share-buttons.is-inline > div.share-buttons__links > a.share-buttons__link.is-twitter",
+    "x": 200,
+    "y": 2112,
+    "w": 97,
+    "h": 30,
+    "text": "tweet",
+    "href": "/share"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.share-buttons.is-inline > div.share-buttons__links > a.share-buttons__link.is-pinterest",
+    "x": 307,
+    "y": 2112,
+    "w": 90,
+    "h": 30,
+    "text": "pin it",
+    "href": "/pin/create/button/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.share-buttons.is-inline > div.share-buttons__links > a.share-buttons__link.is-linkedin",
+    "x": 407,
+    "y": 2112,
+    "w": 98,
+    "h": 30,
+    "text": "share",
+    "href": "/sharing/share-offsite/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.share-buttons.is-inline > div.share-buttons__links > a.share-buttons__link.is-email",
+    "x": 515,
+    "y": 2112,
+    "w": 95,
+    "h": 30,
+    "text": "email",
+    "href": ""
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-main__sidebar > div.article-main__products > div.article-main__products-title",
+    "x": 1013,
+    "y": 824,
+    "w": 320,
+    "h": 60,
+    "text": "Looking for better health? Try these products!"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.article-main > div.article-main__related.container__tight > div.article-main__related-title.text-section-title",
+    "x": 93,
+    "y": 2252,
+    "w": 1240,
+    "h": 50,
+    "text": "More recipes"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-item.is-layout-3 > div.article-item__image-holder > a.article-item__url",
+    "x": 93,
+    "y": 2577,
+    "w": 393,
+    "h": 25,
+    "text": "protein “s’mores” bowl",
+    "href": "/blogs/recipes/protein-smores-bowl"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-item__image-holder > a.article-item__url > img.image-resp",
+    "x": 93,
+    "y": 2352,
+    "w": 393,
+    "h": 245,
+    "text": "protein “s’mores” bowl",
+    "file": "protein_smores_bowl"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-item__grid > div.article-item.is-layout-3 > a.article-item__content",
+    "x": 93,
+    "y": 2597,
+    "w": 393,
+    "h": 54,
+    "text": "protein “s’mores” bowl",
+    "href": "/blogs/recipes/protein-smores-bowl"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.article-item__content > div.article-item__title.t-brand-2-fg > h2.article-item__title",
+    "x": 93,
+    "y": 2613,
+    "w": 393,
+    "h": 38,
+    "level": 2,
+    "text": "protein “s’mores” bowl"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-item.is-layout-3 > div.article-item__image-holder > a.article-item__url",
+    "x": 516,
+    "y": 2577,
+    "w": 393,
+    "h": 25,
+    "text": "protein packed pumpkin bread",
+    "href": "/blogs/recipes/protein-packed-pumpkin-bread"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-item__image-holder > a.article-item__url > img.image-resp",
+    "x": 516,
+    "y": 2352,
+    "w": 393,
+    "h": 245,
+    "text": "protein packed pumpkin bread",
+    "file": "protein_packed_pumpkin_bread_86ad31bb-41"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-item__grid > div.article-item.is-layout-3 > a.article-item__content",
+    "x": 516,
+    "y": 2597,
+    "w": 393,
+    "h": 54,
+    "text": "protein packed pumpkin bread",
+    "href": "/blogs/recipes/protein-packed-pumpkin-bread"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.article-item__content > div.article-item__title.t-brand-2-fg > h2.article-item__title",
+    "x": 516,
+    "y": 2613,
+    "w": 393,
+    "h": 38,
+    "level": 2,
+    "text": "protein packed pumpkin bread"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-item.is-layout-3 > div.article-item__image-holder > a.article-item__url",
+    "x": 939,
+    "y": 2577,
+    "w": 393,
+    "h": 25,
+    "text": "protein french toast",
+    "href": "/blogs/recipes/protein-french-toast"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-item__image-holder > a.article-item__url > img.image-resp",
+    "x": 939,
+    "y": 2352,
+    "w": 393,
+    "h": 245,
+    "text": "protein french toast",
+    "file": "protein_french_toast"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-item__grid > div.article-item.is-layout-3 > a.article-item__content",
+    "x": 939,
+    "y": 2597,
+    "w": 393,
+    "h": 54,
+    "text": "protein french toast",
+    "href": "/blogs/recipes/protein-french-toast"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.article-item__content > div.article-item__title.t-brand-2-fg > h2.article-item__title",
+    "x": 939,
+    "y": 2613,
+    "w": 393,
+    "h": 38,
+    "level": 2,
+    "text": "protein french toast"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.content-banner__content-rebrand-content_banner > div.container.content-banner__content > img",
+    "x": 363,
+    "y": 2775,
+    "w": 700,
+    "h": 86,
+    "text": "",
+    "file": "trusted-banner"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.content-banner__content-rebrand-content_banner > div.container.content-banner__content > div.content-banner__text.content-banner__text-content_banner",
+    "x": 390,
+    "y": 2892,
+    "w": 645,
+    "h": 30,
+    "text": "We offer trusted products, backed by science and made with great ingredients."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#shopify-section-instagram > section.instagram.t-bg > h4.instagram__title",
+    "x": 0,
+    "y": 2975,
+    "w": 1425,
+    "h": 86,
+    "level": 4,
+    "text": "follow @naturesbounty on social for new product releases, healthy tips, and more."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "section.instagram.t-bg > h4.instagram__title > p",
+    "x": 10,
+    "y": 3003,
+    "w": 1405,
+    "h": 30,
+    "text": "Follow @NaturesBounty on social for new product releases, healthy tips, and more"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand",
+    "x": 21,
+    "y": 3061,
+    "w": 271,
+    "h": 271,
+    "text": "<p>advanced magnesium glycinate</p>",
+    "href": "/products/advanced-magnesium-glycinate"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.instagram__blocks > a.instagram__item.instagram__item-rebrand > img",
+    "x": 21,
+    "y": 3061,
+    "w": 271,
+    "h": 271,
+    "text": "<p>advanced magnesium glycinate</p>",
+    "file": "AdvMagGly"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand",
+    "x": 299,
+    "y": 3061,
+    "w": 271,
+    "h": 271,
+    "text": "<p>hair growth capsules</p>",
+    "href": "/products/hair-growth"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.instagram__blocks > a.instagram__item.instagram__item-rebrand > img",
+    "x": 299,
+    "y": 3061,
+    "w": 271,
+    "h": 271,
+    "text": "<p>hair growth capsules</p>",
+    "file": "first_day_of_spring_2025-2"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand",
+    "x": 577,
+    "y": 3061,
+    "w": 271,
+    "h": 271,
+    "text": "<p>super b-complex</p>",
+    "href": "/products/super-b-complex-with-folic-acid-plus-vitamin-c-150-tablets"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.instagram__blocks > a.instagram__item.instagram__item-rebrand > img",
+    "x": 577,
+    "y": 3061,
+    "w": 271,
+    "h": 271,
+    "text": "<p>super b-complex</p>",
+    "file": "SupercomplexB"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand",
+    "x": 855,
+    "y": 3061,
+    "w": 271,
+    "h": 271,
+    "text": "<p>vitamin c</p>",
+    "href": "/products/c-with-rose-hips-tablets-1000-mg-100-coated-caplets"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.instagram__blocks > a.instagram__item.instagram__item-rebrand > img",
+    "x": 855,
+    "y": 3061,
+    "w": 271,
+    "h": 271,
+    "text": "<p>vitamin c</p>",
+    "file": "Vitamin_C"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand",
+    "x": 1133,
+    "y": 3061,
+    "w": 271,
+    "h": 271,
+    "text": "<p>advanced hair, skin + nails pectin gummy</p>",
+    "href": "/products/advanced-hair-skin-and-nails"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.instagram__blocks > a.instagram__item.instagram__item-rebrand > img",
+    "x": 1133,
+    "y": 3061,
+    "w": 271,
+    "h": 271,
+    "text": "<p>advanced hair, skin + nails pectin gummy</p>",
+    "file": "GummiesBillboard"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.footer__logo > a.footer__logo-img",
+    "x": 538,
+    "y": 3459,
+    "w": 350,
+    "h": 55,
+    "text": "nature's bounty",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer__logo > a.footer__logo-img > img",
+    "x": 538,
+    "y": 3459,
+    "w": 350,
+    "h": 55,
+    "text": "nature's bounty",
+    "file": "NB-logo"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer__content > div.footer__newsletter.footer__newsletter-rebrand-footer > div.footer__newsletter-title",
+    "x": 993,
+    "y": 3590,
+    "w": 340,
+    "h": 30,
+    "text": "Join Our Newsletter"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer__content > div.footer__newsletter.footer__newsletter-rebrand-footer > div.footer__newsletter-subtitle",
+    "x": 993,
+    "y": 3636,
+    "w": 340,
+    "h": 60,
+    "text": "Receive the latest news, special offers and new product launches!"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "form#ContactFooter > div.footer__newsletter-input-wrapper > button#Subscribe",
+    "x": 1222,
+    "y": 3716,
+    "w": 111,
+    "h": 65,
+    "text": "sign up"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer__newsletter.footer__newsletter-rebrand-footer > div.footer__newsletter-social.is-desktop > div.footer__newsletter-social-title",
+    "x": 993,
+    "y": 3831,
+    "w": 75,
+    "h": 30,
+    "text": "Follow Us"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer__newsletter-socials > div.footer__newsletter-social-item > a",
+    "x": 1092,
+    "y": 3838,
+    "w": 20,
+    "h": 17,
+    "text": "share on twitter",
+    "href": "/naturesbounty"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer__newsletter-socials > div.footer__newsletter-social-item > a",
+    "x": 1127,
+    "y": 3836,
+    "w": 20,
+    "h": 20,
+    "text": "share on facebook",
+    "href": "/NaturesBounty/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer__newsletter-socials > div.footer__newsletter-social-item > a",
+    "x": 1162,
+    "y": 3836,
+    "w": 20,
+    "h": 21,
+    "text": "pin on pinterest",
+    "href": "/naturesbounty/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer__newsletter-socials > div.footer__newsletter-social-item > a",
+    "x": 1197,
+    "y": 3836,
+    "w": 20,
+    "h": 20,
+    "text": "share on instagram",
+    "href": "/naturesbounty/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer__newsletter-socials > div.footer__newsletter-social-item > a",
+    "x": 1232,
+    "y": 3839,
+    "w": 20,
+    "h": 14,
+    "text": "share on youtube",
+    "href": "/user/NaturesBountyHealth"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer__links > div.footer__navigation-links > div.footer__navigation-link-parent",
+    "x": 93,
+    "y": 3590,
+    "w": 126,
+    "h": 31,
+    "text": "Products"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer__navigation-links-wrapper.is-menu-0 > div.footer__navigation-links-child.footer__navigation-links-child-rebrand-footer > a.footer__navigation-link-child.footer__navigation-link-child-rebrand-footer",
+    "x": 93,
+    "y": 3631,
+    "w": 94,
+    "h": 24,
+    "text": "adult vitamins",
+    "href": "/collections/vitamins"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer__navigation-links-wrapper.is-menu-0 > div.footer__navigation-links-child.footer__navigation-links-child-rebrand-footer > a.footer__navigation-link-child.footer__navigation-link-child-rebrand-footer",
+    "x": 93,
+    "y": 3658,
+    "w": 86,
+    "h": 24,
+    "text": "supplements",
+    "href": "/collections/supplements"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer__navigation-links-wrapper.is-menu-0 > div.footer__navigation-links-child.footer__navigation-links-child-rebrand-footer > a.footer__navigation-link-child.footer__navigation-link-child-rebrand-footer",
+    "x": 93,
+    "y": 3684,
+    "w": 58,
+    "h": 24,
+    "text": "minerals",
+    "href": "/collections/minerals"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer__navigation-links-wrapper.is-menu-0 > div.footer__navigation-links-child.footer__navigation-links-child-rebrand-footer > a.footer__navigation-link-child.footer__navigation-link-child-rebrand-footer",
+    "x": 93,
+    "y": 3711,
+    "w": 39,
+    "h": 24,
+    "text": "herbs",
+    "href": "/collections/herbs"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer__navigation-links-wrapper.is-menu-0 > div.footer__navigation-links-child.footer__navigation-links-child-rebrand-footer > a.footer__navigation-link-child.footer__navigation-link-child-rebrand-footer",
+    "x": 93,
+    "y": 3737,
+    "w": 120,
+    "h": 24,
+    "text": "fish oil & omegas",
+    "href": "/collections/fish-oil-and-omegas"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer__navigation-links-wrapper.is-menu-0 > div.footer__navigation-links-child.footer__navigation-links-child-rebrand-footer > a.footer__navigation-link-child.footer__navigation-link-child-rebrand-footer",
+    "x": 93,
+    "y": 3764,
+    "w": 60,
+    "h": 24,
+    "text": "specialty",
+    "href": "/collections/specialty"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer__links > div.footer__navigation-links > div.footer__navigation-link-parent",
+    "x": 258,
+    "y": 3590,
+    "w": 353,
+    "h": 31,
+    "text": "Health Needs"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer__navigation-links-wrapper.is-menu-1 > div.footer__navigation-links-child.footer__navigation-links-child-rebrand-footer > a.footer__navigation-link-child.footer__navigation-link-child-rebrand-footer",
+    "x": 258,
+    "y": 3631,
+    "w": 119,
+    "h": 24,
+    "text": "women’s wellness",
+    "href": "/collections/womens-health"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer__navigation-links-wrapper.is-menu-1 > div.footer__navigation-links-child.footer__navigation-links-child-rebrand-footer > a.footer__navigation-link-child.footer__navigation-link-child-rebrand-footer",
+    "x": 409,
+    "y": 3631,
+    "w": 86,
+    "h": 24,
+    "text": "men’s health",
+    "href": "/collections/mens-health"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer__navigation-links-wrapper.is-menu-1 > div.footer__navigation-links-child.footer__navigation-links-child-rebrand-footer > a.footer__navigation-link-child.footer__navigation-link-child-rebrand-footer",
+    "x": 258,
+    "y": 3658,
+    "w": 82,
+    "h": 24,
+    "text": "brain health",
+    "href": "/collections/brain-health"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer__navigation-links-wrapper.is-menu-1 > div.footer__navigation-links-child.footer__navigation-links-child-rebrand-footer > a.footer__navigation-link-child.footer__navigation-link-child-rebrand-footer",
+    "x": 409,
+    "y": 3658,
+    "w": 126,
+    "h": 24,
+    "text": "bone & joint health",
+    "href": "/collections/bone-and-joint-health"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer__navigation-links-wrapper.is-menu-1 > div.footer__navigation-links-child.footer__navigation-links-child-rebrand-footer > a.footer__navigation-link-child.footer__navigation-link-child-rebrand-footer",
+    "x": 258,
+    "y": 3684,
+    "w": 70,
+    "h": 24,
+    "text": "eye health",
+    "href": "/collections/eye-health"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer__navigation-links-wrapper.is-menu-1 > div.footer__navigation-links-child.footer__navigation-links-child-rebrand-footer > a.footer__navigation-link-child.footer__navigation-link-child-rebrand-footer",
+    "x": 409,
+    "y": 3684,
+    "w": 93,
+    "h": 24,
+    "text": "healthy aging",
+    "href": "/collections/healthy-aging"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer__navigation-links-wrapper.is-menu-1 > div.footer__navigation-links-child.footer__navigation-links-child-rebrand-footer > a.footer__navigation-link-child.footer__navigation-link-child-rebrand-footer",
+    "x": 258,
+    "y": 3711,
+    "w": 45,
+    "h": 24,
+    "text": "herbal",
+    "href": "/collections/herbs"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer__navigation-links-wrapper.is-menu-1 > div.footer__navigation-links-child.footer__navigation-links-child-rebrand-footer > a.footer__navigation-link-child.footer__navigation-link-child-rebrand-footer",
+    "x": 409,
+    "y": 3711,
+    "w": 132,
+    "h": 24,
+    "text": "urinary tract health",
+    "href": "/collections/urinary-tract-health"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer__navigation-links-wrapper.is-menu-1 > div.footer__navigation-links-child.footer__navigation-links-child-rebrand-footer > a.footer__navigation-link-child.footer__navigation-link-child-rebrand-footer",
+    "x": 258,
+    "y": 3737,
+    "w": 108,
+    "h": 24,
+    "text": "digestive health",
+    "href": "/collections/digestive-health"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer__navigation-links-wrapper.is-menu-1 > div.footer__navigation-links-child.footer__navigation-links-child-rebrand-footer > a.footer__navigation-link-child.footer__navigation-link-child-rebrand-footer",
+    "x": 409,
+    "y": 3737,
+    "w": 103,
+    "h": 24,
+    "text": "energy support",
+    "href": "/collections/energy-support"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer__navigation-links-wrapper.is-menu-1 > div.footer__navigation-links-child.footer__navigation-links-child-rebrand-footer > a.footer__navigation-link-child.footer__navigation-link-child-rebrand-footer",
+    "x": 258,
+    "y": 3764,
+    "w": 85,
+    "h": 24,
+    "text": "heart health",
+    "href": "/collections/heart-health"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer__navigation-links-wrapper.is-menu-1 > div.footer__navigation-links-child.footer__navigation-links-child-rebrand-footer > a.footer__navigation-link-child.footer__navigation-link-child-rebrand-footer",
+    "x": 409,
+    "y": 3764,
+    "w": 202,
+    "h": 24,
+    "text": "immune & antioxidant support",
+    "href": "/collections/immune-and-antioxidant-support"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer__navigation-links-wrapper.is-menu-1 > div.footer__navigation-links-child.footer__navigation-links-child-rebrand-footer > a.footer__navigation-link-child.footer__navigation-link-child-rebrand-footer",
+    "x": 258,
+    "y": 3790,
+    "w": 95,
+    "h": 24,
+    "text": "stress & mood",
+    "href": "/collections/stress-and-mood"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer__navigation-links-wrapper.is-menu-1 > div.footer__navigation-links-child.footer__navigation-links-child-rebrand-footer > a.footer__navigation-link-child.footer__navigation-link-child-rebrand-footer",
+    "x": 409,
+    "y": 3790,
+    "w": 93,
+    "h": 24,
+    "text": "sleep support",
+    "href": "/collections/sleep-support"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer__links > div.footer__navigation-links > div.footer__navigation-link-parent",
+    "x": 651,
+    "y": 3590,
+    "w": 126,
+    "h": 61,
+    "text": "Resource Center"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer__navigation-links-wrapper.is-menu-2 > div.footer__navigation-links-child.footer__navigation-links-child-rebrand-footer > a.footer__navigation-link-child.footer__navigation-link-child-rebrand-footer",
+    "x": 651,
+    "y": 3661,
+    "w": 73,
+    "h": 24,
+    "text": "diy beauty",
+    "href": "/blogs/news/beauty-tips-youll-thank-us-for-later"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer__navigation-links-wrapper.is-menu-2 > div.footer__navigation-links-child.footer__navigation-links-child-rebrand-footer > a.footer__navigation-link-child.footer__navigation-link-child-rebrand-footer",
+    "x": 651,
+    "y": 3688,
+    "w": 93,
+    "h": 24,
+    "text": "healthy living",
+    "href": "/blogs/news/healthy-living-tips-from-dorothy-hamill"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer__navigation-links-wrapper.is-menu-2 > div.footer__navigation-links-child.footer__navigation-links-child-rebrand-footer > a.footer__navigation-link-child.footer__navigation-link-child-rebrand-footer",
+    "x": 651,
+    "y": 3714,
+    "w": 80,
+    "h": 24,
+    "text": "food health",
+    "href": "/blogs/news/beauty-food-and-vitamins"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer__navigation-links-wrapper.is-menu-2 > div.footer__navigation-links-child.footer__navigation-links-child-rebrand-footer > a.footer__navigation-link-child.footer__navigation-link-child-rebrand-footer",
+    "x": 651,
+    "y": 3741,
+    "w": 109,
+    "h": 24,
+    "text": "hair, skin & nails",
+    "href": "/collections/hair-skin-and-nails"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer__navigation-links-wrapper.is-menu-2 > div.footer__navigation-links-child.footer__navigation-links-child-rebrand-footer > a.footer__navigation-link-child.footer__navigation-link-child-rebrand-footer",
+    "x": 651,
+    "y": 3767,
+    "w": 51,
+    "h": 24,
+    "text": "recipes",
+    "href": "/blogs/recipes"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer__links > div.footer__navigation-links > div.footer__navigation-link-parent",
+    "x": 817,
+    "y": 3590,
+    "w": 126,
+    "h": 61,
+    "text": "Nature’s Bounty"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer__navigation-links-wrapper.is-menu-3 > div.footer__navigation-links-child.footer__navigation-links-child-rebrand-footer > a.footer__navigation-link-child.footer__navigation-link-child-rebrand-footer",
+    "x": 817,
+    "y": 3661,
+    "w": 59,
+    "h": 24,
+    "text": "about us",
+    "href": "/pages/about-us"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer__navigation-links-wrapper.is-menu-3 > div.footer__navigation-links-child.footer__navigation-links-child-rebrand-footer > a.footer__navigation-link-child.footer__navigation-link-child-rebrand-footer",
+    "x": 817,
+    "y": 3688,
+    "w": 88,
+    "h": 24,
+    "text": "where to buy",
+    "href": "/pages/store-locator"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer__navigation-links-wrapper.is-menu-3 > div.footer__navigation-links-child.footer__navigation-links-child-rebrand-footer > a.footer__navigation-link-child.footer__navigation-link-child-rebrand-footer",
+    "x": 817,
+    "y": 3714,
+    "w": 72,
+    "h": 24,
+    "text": "contact us",
+    "href": "/pages/contact-us"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer__navigation-links-wrapper.is-menu-3 > div.footer__navigation-links-child.footer__navigation-links-child-rebrand-footer > a.footer__navigation-link-child.footer__navigation-link-child-rebrand-footer",
+    "x": 817,
+    "y": 3741,
+    "w": 52,
+    "h": 24,
+    "text": "careers",
+    "href": "/our-careers"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.footer__navigation-legal-links > a.footer__navigation-legal-link.footer__navigation-legal-link-rebrand-footer",
+    "x": 96,
+    "y": 3913,
+    "w": 108,
+    "h": 30,
+    "text": "terms of use |",
+    "href": "/pages/terms-of-use"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.footer__navigation-legal-links > a.footer__navigation-legal-link.footer__navigation-legal-link-rebrand-footer",
+    "x": 223,
+    "y": 3913,
+    "w": 114,
+    "h": 30,
+    "text": "privacy policy |",
+    "href": "/pages/privacy-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.footer__navigation-legal-links > a.footer__navigation-legal-link.footer__navigation-legal-link-rebrand-footer",
+    "x": 357,
+    "y": 3913,
+    "w": 175,
+    "h": 30,
+    "text": "accessibility statement |",
+    "href": "/pages/accessibility-statement"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.footer__navigation-legal-links > a.footer__navigation-legal-link.footer__navigation-legal-link-rebrand-footer",
+    "x": 552,
+    "y": 3913,
+    "w": 149,
+    "h": 30,
+    "text": "health data notice |",
+    "href": "/pages/health-data-notice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.footer__navigation-legal-links > a.footer__navigation-legal-link.footer__navigation-legal-link-rebrand-footer",
+    "x": 721,
+    "y": 3913,
+    "w": 176,
+    "h": 30,
+    "text": "satisfaction guarantee |",
+    "href": "/pages/satisfaction-guarantee"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.footer__navigation-legal-links > a.footer__navigation-legal-link.footer__navigation-legal-link-rebrand-footer",
+    "x": 917,
+    "y": 3913,
+    "w": 164,
+    "h": 30,
+    "text": "international distributors",
+    "href": "/pages/international"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.footer__navigation-legal-links > a.optanon-toggle-display.is-plain",
+    "x": 1146,
+    "y": 3917,
+    "w": 184,
+    "h": 24,
+    "text": "your privacy choices"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer__navigation-legal-links > a.optanon-toggle-display.is-plain > span.your-privacy-choices",
+    "x": 1193,
+    "y": 3917,
+    "w": 137,
+    "h": 24,
+    "text": "Your Privacy Choices"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "span.footer__separator > p > strong",
+    "x": 248,
+    "y": 4054,
+    "w": 930,
+    "h": 19,
+    "text": "*These statements have not been evaluated by the Food and Drug Administration. T"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.footer__disclaimer.footer__disclaimer-rebrand-footer > p",
+    "x": 235,
+    "y": 4130,
+    "w": 954,
+    "h": 20,
+    "text": "Nature’s Bounty may make changes to products from time to time. Please consult t"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.footer__disclaimer.footer__disclaimer-rebrand-footer > p",
+    "x": 333,
+    "y": 4159,
+    "w": 758,
+    "h": 20,
+    "text": "◊Source: Circana™ OmniMarket – Total MULO+ 52 wks ending 7/26/26 based custom- d"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.footer__disclaimer.footer__disclaimer-rebrand-footer > p",
+    "x": 487,
+    "y": 4189,
+    "w": 452,
+    "h": 20,
+    "text": "†Compared to Nature's Bounty® Optimal Solutions® Hair, Skin & Nails gummies"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.footer__disclaimer.footer__disclaimer-rebrand-footer > p",
+    "x": 113,
+    "y": 4218,
+    "w": 1200,
+    "h": 39,
+    "text": "†Traditional use claims are based on historical or traditional practices. Echina"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.footer__disclaimer.footer__disclaimer-rebrand-footer > p",
+    "x": 133,
+    "y": 4267,
+    "w": 1158,
+    "h": 20,
+    "text": "Nature’s Bounty is a Nestlé Health Science brand. Nestlé Health Science is a lea"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer__disclaimer.footer__disclaimer-rebrand-footer > p > a",
+    "x": 1131,
+    "y": 4267,
+    "w": 161,
+    "h": 19,
+    "text": "www.nestlehealthscience.us",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.footer__disclaimer.footer__disclaimer-rebrand-footer > p",
+    "x": 593,
+    "y": 4297,
+    "w": 239,
+    "h": 20,
+    "text": "Nature's Bounty is a registered trademark."
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 2,
+    "offPage": 8,
+    "textNodes": 117,
+    "controls": 75,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.slick-list.draggable",
+     "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
+     "text": "shop our favorite products",
+     "cutMin": 30,
+     "cutMax": 30
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.slick-list.draggable",
+     "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
+     "text": "shop our favorite products",
+     "cutMin": 30,
+     "cutMax": 30
+    }
+   ]
+  }
+ },
+ "eds": {
+  "url": "https://main--1a676f95--aemcoder.aem.page/blogs/recipes/red-velvet-protein-cupcakes-with-greek-yogurt-frosting",
+  "at": "2026-11-11T04:26:09.582Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 4343,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": -59,
+    "y": 8,
+    "w": 319,
+    "h": 15,
+    "text": "supplementing the knowledge gap in women's health",
+    "href": "/pages/womens-wellness"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 460,
+    "y": 8,
+    "w": 160,
+    "h": 15,
+    "text": "shop our favorite products",
+    "href": "/collections/favorites"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 820,
+    "y": 8,
+    "w": 219,
+    "h": 15,
+    "text": "grow thicker, fuller hair in 3 months*",
+    "href": "/pages/hair-growth"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 1239,
+    "y": 8,
+    "w": 319,
+    "h": 15,
+    "text": "supplementing the knowledge gap in women's health",
+    "href": "/pages/womens-wellness"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-header-logo > p > a",
+    "x": 93,
+    "y": 52,
+    "w": 200,
+    "h": 32,
+    "text": "nature's bounty",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 93,
+    "y": 52,
+    "w": 200,
+    "h": 32,
+    "text": "nature's bounty",
+    "file": "media_11534834dd24678226be025f5eaf8aefb9"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > button.site-header-link",
+    "x": 513,
+    "y": 32,
+    "w": 112,
+    "h": 72,
+    "text": "products"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > button.site-header-link",
+    "x": 513,
+    "y": 32,
+    "w": 112,
+    "h": 72,
+    "label": "trigger",
+    "value": "products",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > button.site-header-link",
+    "x": 650,
+    "y": 32,
+    "w": 170,
+    "h": 72,
+    "text": "health benefits"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > button.site-header-link",
+    "x": 650,
+    "y": 32,
+    "w": 170,
+    "h": 72,
+    "label": "trigger",
+    "value": "health benefits",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > button.site-header-link",
+    "x": 845,
+    "y": 32,
+    "w": 82,
+    "h": 72,
+    "text": "learn"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > button.site-header-link",
+    "x": 845,
+    "y": 32,
+    "w": 82,
+    "h": 72,
+    "label": "trigger",
+    "value": "learn",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 952,
+    "y": 32,
+    "w": 83,
+    "h": 72,
+    "text": "about us",
+    "href": "/pages/about-us"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav.site-header-nav > form.site-search > button.site-search-btn",
+    "x": 1064,
+    "y": 48,
+    "w": 40,
+    "h": 40,
+    "text": ""
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-header-cta > p.button-wrapper > a.button.primary",
+    "x": 1133,
+    "y": 48,
+    "w": 200,
+    "h": 40,
+    "text": "where to buy",
+    "href": "/pages/store-locator"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recipe-hero > picture > img",
+    "x": 0,
+    "y": 104,
+    "w": 1425,
+    "h": 600,
+    "text": "red velvet cupcakes",
+    "file": "media_16e12819b60d5d3333efdd7ef17976b8b9"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recipe-content > div.recipe-title > h1#red-velvet-protein-cupcakes-with-greek-yogurt-frosting",
+    "x": 93,
+    "y": 764,
+    "w": 820,
+    "h": 120,
+    "level": 1,
+    "text": "red velvet protein cupcakes with greek yogurt frosting"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recipe-content > div.recipe-text > p",
+    "x": 93,
+    "y": 914,
+    "w": 820,
+    "h": 60,
+    "text": "Probiotics are friendly bacteria that help to support digestive health.* These m"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recipe-content > div.recipe-text > p",
+    "x": 93,
+    "y": 992,
+    "w": 820,
+    "h": 60,
+    "text": "Check out this indulgent recipe for red velvet cupcakes that provides you with, "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recipe-text > p > strong",
+    "x": 93,
+    "y": 1074,
+    "w": 114,
+    "h": 22,
+    "text": "For Cupcakes:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recipe-text > ul > li",
+    "x": 125,
+    "y": 1118,
+    "w": 788,
+    "h": 30,
+    "text": "2 scoops Nature’s Bounty Optimal Solutions"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > strong > a",
+    "x": 480,
+    "y": 1122,
+    "w": 396,
+    "h": 22,
+    "text": "chocolate complete protein & vitamin shake mix",
+    "href": "/products/complete-protein-and-vitamin-shake-mix-16-oz-chocolate-powder"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recipe-text > ul > li",
+    "x": 125,
+    "y": 1148,
+    "w": 788,
+    "h": 30,
+    "text": "1 cup Whole Wheat Flour"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recipe-text > ul > li",
+    "x": 125,
+    "y": 1178,
+    "w": 788,
+    "h": 30,
+    "text": "1/2 cup cocoa powder"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recipe-text > ul > li",
+    "x": 125,
+    "y": 1208,
+    "w": 788,
+    "h": 30,
+    "text": "1 teaspoon of baking soda"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recipe-text > ul > li",
+    "x": 125,
+    "y": 1238,
+    "w": 788,
+    "h": 30,
+    "text": "1 teaspoon of baking powder"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recipe-text > ul > li",
+    "x": 125,
+    "y": 1268,
+    "w": 788,
+    "h": 30,
+    "text": "2 teaspoons zero calorie sweetner"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recipe-text > ul > li",
+    "x": 125,
+    "y": 1298,
+    "w": 788,
+    "h": 30,
+    "text": "3/4 cup Fat Free Greek Yogurt (plain)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recipe-text > ul > li",
+    "x": 125,
+    "y": 1328,
+    "w": 788,
+    "h": 30,
+    "text": "1/2 cup Egg Whites"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recipe-text > ul > li",
+    "x": 125,
+    "y": 1358,
+    "w": 788,
+    "h": 30,
+    "text": "1 teaspoon vanilla extract"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recipe-text > ul > li",
+    "x": 125,
+    "y": 1388,
+    "w": 788,
+    "h": 30,
+    "text": "2 teaspoons red food coloring"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recipe-text > p > strong",
+    "x": 93,
+    "y": 1440,
+    "w": 102,
+    "h": 22,
+    "text": "For Frosting:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recipe-text > ul > li",
+    "x": 125,
+    "y": 1484,
+    "w": 788,
+    "h": 30,
+    "text": "1 cup reduced fat cream cheese"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recipe-text > ul > li",
+    "x": 125,
+    "y": 1514,
+    "w": 788,
+    "h": 30,
+    "text": "2/3 cup non-fat Greek Yogurt"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recipe-text > ul > li",
+    "x": 125,
+    "y": 1544,
+    "w": 788,
+    "h": 30,
+    "text": "2 cups confectioners’ sugar"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recipe-text > ul > li",
+    "x": 125,
+    "y": 1574,
+    "w": 788,
+    "h": 30,
+    "text": "1 tsp vanilla extract"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recipe-text > p > strong",
+    "x": 93,
+    "y": 1626,
+    "w": 87,
+    "h": 22,
+    "text": "Directions:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recipe-text > ol > li",
+    "x": 125,
+    "y": 1670,
+    "w": 788,
+    "h": 30,
+    "text": "Preheat the oven to 350 degrees"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recipe-text > ol > li",
+    "x": 125,
+    "y": 1700,
+    "w": 788,
+    "h": 30,
+    "text": "Combine dry ingredients first, and then add wet"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recipe-text > ol > li",
+    "x": 125,
+    "y": 1730,
+    "w": 788,
+    "h": 30,
+    "text": "Line tray with cupcake liners and pour batter evenly into the pan"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recipe-text > ol > li",
+    "x": 125,
+    "y": 1760,
+    "w": 788,
+    "h": 30,
+    "text": "Bake cupcakes for 12 minutes, or until toothpick comes out clean"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recipe-text > ol > li",
+    "x": 125,
+    "y": 1790,
+    "w": 788,
+    "h": 30,
+    "text": "While cupcakes are cooling, gather ingredients for cream cheese frosting"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recipe-text > ol > li",
+    "x": 125,
+    "y": 1820,
+    "w": 788,
+    "h": 30,
+    "text": "Using a hand mixer, blend cream cheese, Greek yogurt and vanilla extract."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recipe-text > ol > li",
+    "x": 125,
+    "y": 1850,
+    "w": 788,
+    "h": 30,
+    "text": "Slowly add in the confectioners’ sugar until mixture becomes light and fluffy"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.recipe-text > ol > li",
+    "x": 125,
+    "y": 1880,
+    "w": 788,
+    "h": 30,
+    "text": "When cupcakes are completely cooled, add frosting and enjoy!"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.share-copy > div.share-lead > p",
+    "x": 93,
+    "y": 1940,
+    "w": 820,
+    "h": 30,
+    "text": "Don't keep all the good info to yourself."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.share-copy > div.share-sub > p",
+    "x": 93,
+    "y": 1970,
+    "w": 820,
+    "h": 30,
+    "text": "Share this with friends!"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 93,
+    "y": 2016,
+    "w": 96,
+    "h": 30,
+    "text": "share",
+    "href": "/sharer.php"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 199,
+    "y": 2016,
+    "w": 100,
+    "h": 30,
+    "text": "tweet",
+    "href": "/share"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 309,
+    "y": 2016,
+    "w": 90,
+    "h": 30,
+    "text": "pin it",
+    "href": "/pin/create/button/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 409,
+    "y": 2016,
+    "w": 96,
+    "h": 30,
+    "text": "share",
+    "href": "/sharing/share-offsite/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 516,
+    "y": 2016,
+    "w": 94,
+    "h": 30,
+    "text": "email",
+    "href": ""
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-rail.block > div.product-rail-title > p",
+    "x": 1013,
+    "y": 824,
+    "w": 320,
+    "h": 60,
+    "text": "Looking for better health? Try these products!"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.related-container > div.default-content-wrapper > h2#more-recipes",
+    "x": 93,
+    "y": 2156,
+    "w": 1240,
+    "h": 50,
+    "level": 2,
+    "text": "more recipes"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.related-card > div.related-card-media > a",
+    "x": 93,
+    "y": 2484,
+    "w": 393,
+    "h": 22,
+    "text": "quinoa, avocado & black bean salad",
+    "href": "/blogs/recipes/quinoa-avocado-and-black-bean-salad"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 93,
+    "y": 2256,
+    "w": 393,
+    "h": 245,
+    "text": "quinoa, avocado & black bean salad",
+    "file": "media_137afd43fbab91a4e81691a1790a5cfc73"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.related-grid > div.related-card > a.related-card-link",
+    "x": 93,
+    "y": 2501,
+    "w": 393,
+    "h": 122,
+    "text": "quinoa, avocado & black bean salad try this delicious, low sodium summer recipe!",
+    "href": "/blogs/recipes/quinoa-avocado-and-black-bean-salad"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.related-card-link > div.related-card-title > h3#quinoa-avocado--black-bean-salad",
+    "x": 93,
+    "y": 2517,
+    "w": 393,
+    "h": 76,
+    "level": 3,
+    "text": "quinoa, avocado & black bean salad"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.related-card > div.related-card-media > a",
+    "x": 516,
+    "y": 2484,
+    "w": 393,
+    "h": 22,
+    "text": "quinoa apple cake",
+    "href": "/blogs/recipes/quinoa-apple-cake"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 516,
+    "y": 2256,
+    "w": 393,
+    "h": 245,
+    "text": "quinoa apple cake",
+    "file": "media_19c4abb9555a9475807dcb32122cb1c39a"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.related-grid > div.related-card > a.related-card-link",
+    "x": 516,
+    "y": 2501,
+    "w": 393,
+    "h": 114,
+    "text": "quinoa apple cake the holidays are filled with family, festivities and an abunda",
+    "href": "/blogs/recipes/quinoa-apple-cake"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.related-card-link > div.related-card-title > h3#quinoa-apple-cake",
+    "x": 516,
+    "y": 2517,
+    "w": 393,
+    "h": 38,
+    "level": 3,
+    "text": "quinoa apple cake"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.related-card > div.related-card-media > a",
+    "x": 939,
+    "y": 2484,
+    "w": 393,
+    "h": 22,
+    "text": "protein “s’mores” bowl",
+    "href": "/blogs/recipes/protein-smores-bowl"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 939,
+    "y": 2256,
+    "w": 393,
+    "h": 245,
+    "text": "protein “s’mores” bowl",
+    "file": "media_10bde1397b897129ab61a09b409ad12a19"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.related-grid > div.related-card > a.related-card-link",
+    "x": 939,
+    "y": 2501,
+    "w": 393,
+    "h": 54,
+    "text": "protein “s’mores” bowl",
+    "href": "/blogs/recipes/protein-smores-bowl"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.related-card-link > div.related-card-title > h3#protein-smores-bowl",
+    "x": 939,
+    "y": 2517,
+    "w": 393,
+    "h": 38,
+    "level": 3,
+    "text": "protein “s’mores” bowl"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.trusted-band-img > picture > img",
+    "x": 363,
+    "y": 2747,
+    "w": 700,
+    "h": 86,
+    "text": "",
+    "file": "media_1436ec0fda3cc49c7285c4e92a0431e9e6"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.trusted-band-inner.container > div.trusted-band-text > p",
+    "x": 93,
+    "y": 2864,
+    "w": 1240,
+    "h": 30,
+    "text": "We offer trusted products, backed by science and made with great ingredients."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.social-strip-container > div.default-content-wrapper > h2#follow-naturesbounty-on-social-for-new-product-releases-healthy-tips-and-more",
+    "x": 10,
+    "y": 2975,
+    "w": 1405,
+    "h": 30,
+    "level": 2,
+    "text": "follow @naturesbounty on social for new product releases, healthy tips, and more."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.social-strip.block > div.social-strip-grid > a.social-tile",
+    "x": 21,
+    "y": 3033,
+    "w": 271,
+    "h": 271,
+    "text": "advanced magnesium glycinate",
+    "href": "/products/advanced-magnesium-glycinate"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.social-tile > picture > img",
+    "x": 21,
+    "y": 3033,
+    "w": 271,
+    "h": 271,
+    "text": "advanced magnesium glycinate",
+    "file": "media_15a8e5250c428e900fe32f4727caa5148c"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.social-strip.block > div.social-strip-grid > a.social-tile",
+    "x": 299,
+    "y": 3033,
+    "w": 271,
+    "h": 271,
+    "text": "hair growth capsules",
+    "href": "/products/hair-growth"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.social-tile > picture > img",
+    "x": 299,
+    "y": 3033,
+    "w": 271,
+    "h": 271,
+    "text": "hair growth capsules",
+    "file": "media_1755425563a626f000121a4ec05af52e51"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.social-strip.block > div.social-strip-grid > a.social-tile",
+    "x": 577,
+    "y": 3033,
+    "w": 271,
+    "h": 271,
+    "text": "super b-complex",
+    "href": "/products/super-b-complex-with-folic-acid-plus-vitamin-c-150-tablets"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.social-tile > picture > img",
+    "x": 577,
+    "y": 3033,
+    "w": 271,
+    "h": 271,
+    "text": "super b-complex",
+    "file": "media_1d30d733f22bd56dde852454546ec36ebe"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.social-strip.block > div.social-strip-grid > a.social-tile",
+    "x": 855,
+    "y": 3033,
+    "w": 271,
+    "h": 271,
+    "text": "vitamin c",
+    "href": "/products/c-with-rose-hips-tablets-1000-mg-100-coated-caplets"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.social-tile > picture > img",
+    "x": 855,
+    "y": 3033,
+    "w": 271,
+    "h": 271,
+    "text": "vitamin c",
+    "file": "media_13977f5457eed53b95282e449fb13948ce"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.social-strip.block > div.social-strip-grid > a.social-tile",
+    "x": 1133,
+    "y": 3033,
+    "w": 271,
+    "h": 271,
+    "text": "advanced hair, skin + nails pectin gummy",
+    "href": "/products/advanced-hair-skin-and-nails"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.social-tile > picture > img",
+    "x": 1133,
+    "y": 3033,
+    "w": 271,
+    "h": 271,
+    "text": "advanced hair, skin + nails pectin gummy",
+    "file": "media_1e9e737f51f272b6c7d1b8e6d6e9a8426f"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-logo > p > a",
+    "x": 538,
+    "y": 3431,
+    "w": 350,
+    "h": 55,
+    "text": "nature's bounty",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 538,
+    "y": 3431,
+    "w": 350,
+    "h": 55,
+    "text": "nature's bounty",
+    "file": "media_15b1910fd781f5e6d38aa87f8a98f832c0"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-nl-title > p > strong",
+    "x": 993,
+    "y": 3562,
+    "w": 340,
+    "h": 30,
+    "text": "Join Our Newsletter"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-newsletter > div.site-footer-nl-sub > p",
+    "x": 993,
+    "y": 3608,
+    "w": 340,
+    "h": 60,
+    "text": "Receive the latest news, special offers and new product launches!"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "form.site-footer-form > div.site-footer-field > button.site-footer-submit",
+    "x": 1222,
+    "y": 3688,
+    "w": 111,
+    "h": 65,
+    "text": "sign up"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-social.site-footer-social-desktop > div.site-footer-social-title > p",
+    "x": 993,
+    "y": 3803,
+    "w": 77,
+    "h": 30,
+    "text": "Follow Us"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 1095,
+    "y": 3810,
+    "w": 20,
+    "h": 17,
+    "text": "share on twitter",
+    "href": "/naturesbounty"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 1130,
+    "y": 3808,
+    "w": 20,
+    "h": 20,
+    "text": "share on facebook",
+    "href": "/NaturesBounty/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 1165,
+    "y": 3808,
+    "w": 20,
+    "h": 21,
+    "text": "pin on pinterest",
+    "href": "/naturesbounty/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 1200,
+    "y": 3808,
+    "w": 20,
+    "h": 20,
+    "text": "share on instagram",
+    "href": "/naturesbounty/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 1235,
+    "y": 3811,
+    "w": 20,
+    "h": 14,
+    "text": "share on youtube",
+    "href": "/user/NaturesBountyHealth"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-links > div.site-footer-col > div.site-footer-col-head",
+    "x": 93,
+    "y": 3562,
+    "w": 126,
+    "h": 31,
+    "text": "products"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-links > div.site-footer-col > div.site-footer-col-head",
+    "x": 93,
+    "y": 3562,
+    "w": 126,
+    "h": 31,
+    "label": "trigger",
+    "value": "products",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 93,
+    "y": 3603,
+    "w": 96,
+    "h": 24,
+    "text": "adult vitamins",
+    "href": "/collections/vitamins"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 93,
+    "y": 3630,
+    "w": 86,
+    "h": 24,
+    "text": "supplements",
+    "href": "/collections/supplements"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 93,
+    "y": 3656,
+    "w": 54,
+    "h": 24,
+    "text": "minerals",
+    "href": "/collections/minerals"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 93,
+    "y": 3683,
+    "w": 39,
+    "h": 24,
+    "text": "herbs",
+    "href": "/collections/herbs"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 93,
+    "y": 3709,
+    "w": 118,
+    "h": 24,
+    "text": "fish oil & omegas",
+    "href": "/collections/fish-oil-and-omegas"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 93,
+    "y": 3736,
+    "w": 61,
+    "h": 24,
+    "text": "specialty",
+    "href": "/collections/specialty"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-links > div.site-footer-col.site-footer-col-wide > div.site-footer-col-head",
+    "x": 258,
+    "y": 3562,
+    "w": 353,
+    "h": 31,
+    "text": "health needs"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-links > div.site-footer-col.site-footer-col-wide > div.site-footer-col-head",
+    "x": 258,
+    "y": 3562,
+    "w": 353,
+    "h": 31,
+    "label": "trigger",
+    "value": "health needs",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 258,
+    "y": 3603,
+    "w": 120,
+    "h": 24,
+    "text": "women’s wellness",
+    "href": "/collections/womens-health"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 410,
+    "y": 3603,
+    "w": 83,
+    "h": 24,
+    "text": "men’s health",
+    "href": "/collections/mens-health"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 258,
+    "y": 3630,
+    "w": 79,
+    "h": 24,
+    "text": "brain health",
+    "href": "/collections/brain-health"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 410,
+    "y": 3630,
+    "w": 129,
+    "h": 24,
+    "text": "bone & joint health",
+    "href": "/collections/bone-and-joint-health"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 258,
+    "y": 3656,
+    "w": 71,
+    "h": 24,
+    "text": "eye health",
+    "href": "/collections/eye-health"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 410,
+    "y": 3656,
+    "w": 93,
+    "h": 24,
+    "text": "healthy aging",
+    "href": "/collections/healthy-aging"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 258,
+    "y": 3683,
+    "w": 43,
+    "h": 24,
+    "text": "herbal",
+    "href": "/collections/herbs"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 410,
+    "y": 3683,
+    "w": 130,
+    "h": 24,
+    "text": "urinary tract health",
+    "href": "/collections/urinary-tract-health"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 258,
+    "y": 3709,
+    "w": 108,
+    "h": 24,
+    "text": "digestive health",
+    "href": "/collections/digestive-health"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 410,
+    "y": 3709,
+    "w": 103,
+    "h": 24,
+    "text": "energy support",
+    "href": "/collections/energy-support"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 258,
+    "y": 3736,
+    "w": 83,
+    "h": 24,
+    "text": "heart health",
+    "href": "/collections/heart-health"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 410,
+    "y": 3736,
+    "w": 201,
+    "h": 24,
+    "text": "immune & antioxidant support",
+    "href": "/collections/immune-and-antioxidant-support"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 258,
+    "y": 3762,
+    "w": 95,
+    "h": 24,
+    "text": "stress & mood",
+    "href": "/collections/stress-and-mood"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 410,
+    "y": 3762,
+    "w": 93,
+    "h": 24,
+    "text": "sleep support",
+    "href": "/collections/sleep-support"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-links > div.site-footer-col > div.site-footer-col-head",
+    "x": 651,
+    "y": 3562,
+    "w": 126,
+    "h": 61,
+    "text": "resource center"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-links > div.site-footer-col > div.site-footer-col-head",
+    "x": 651,
+    "y": 3562,
+    "w": 126,
+    "h": 61,
+    "label": "trigger",
+    "value": "resource center",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 651,
+    "y": 3633,
+    "w": 72,
+    "h": 24,
+    "text": "diy beauty",
+    "href": "/blogs/news/beauty-tips-youll-thank-us-for-later"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 651,
+    "y": 3660,
+    "w": 93,
+    "h": 24,
+    "text": "healthy living",
+    "href": "/blogs/news/healthy-living-tips-from-dorothy-hamill"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 651,
+    "y": 3686,
+    "w": 80,
+    "h": 24,
+    "text": "food health",
+    "href": "/blogs/news/beauty-food-and-vitamins"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 651,
+    "y": 3713,
+    "w": 109,
+    "h": 24,
+    "text": "hair, skin & nails",
+    "href": "/collections/hair-skin-and-nails"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 651,
+    "y": 3739,
+    "w": 52,
+    "h": 24,
+    "text": "recipes",
+    "href": "/blogs/recipes"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-links > div.site-footer-col > div.site-footer-col-head",
+    "x": 817,
+    "y": 3562,
+    "w": 126,
+    "h": 61,
+    "text": "nature’s bounty"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-links > div.site-footer-col > div.site-footer-col-head",
+    "x": 817,
+    "y": 3562,
+    "w": 126,
+    "h": 61,
+    "label": "trigger",
+    "value": "nature’s bounty",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 817,
+    "y": 3633,
+    "w": 61,
+    "h": 24,
+    "text": "about us",
+    "href": "/pages/about-us"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 817,
+    "y": 3660,
+    "w": 89,
+    "h": 24,
+    "text": "where to buy",
+    "href": "/pages/store-locator"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 817,
+    "y": 3686,
+    "w": 74,
+    "h": 24,
+    "text": "contact us",
+    "href": "/pages/contact-us"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 817,
+    "y": 3713,
+    "w": 51,
+    "h": 24,
+    "text": "careers",
+    "href": "/our-careers"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 95,
+    "y": 3885,
+    "w": 109,
+    "h": 30,
+    "text": "terms of use |",
+    "href": "/pages/terms-of-use"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 224,
+    "y": 3885,
+    "w": 114,
+    "h": 30,
+    "text": "privacy policy |",
+    "href": "/pages/privacy-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 358,
+    "y": 3885,
+    "w": 179,
+    "h": 30,
+    "text": "accessibility statement |",
+    "href": "/pages/accessibility-statement"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 557,
+    "y": 3885,
+    "w": 149,
+    "h": 30,
+    "text": "health data notice |",
+    "href": "/pages/health-data-notice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 726,
+    "y": 3885,
+    "w": 174,
+    "h": 30,
+    "text": "satisfaction guarantee |",
+    "href": "/pages/satisfaction-guarantee"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 921,
+    "y": 3885,
+    "w": 162,
+    "h": 30,
+    "text": "international distributors",
+    "href": "/pages/international"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a.site-footer-privacy",
+    "x": 1147,
+    "y": 3889,
+    "w": 183,
+    "h": 24,
+    "text": "your privacy choices"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > a.site-footer-privacy > span.site-footer-privacy-label",
+    "x": 1194,
+    "y": 3889,
+    "w": 136,
+    "h": 24,
+    "text": "Your Privacy Choices"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-fda > p > strong",
+    "x": 248,
+    "y": 4028,
+    "w": 928,
+    "h": 15,
+    "text": "*These statements have not been evaluated by the Food and Drug Administration. T"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.site-footer-disclaimer > p",
+    "x": 240,
+    "y": 4102,
+    "w": 946,
+    "h": 20,
+    "text": "Nature’s Bounty may make changes to products from time to time. Please consult t"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.site-footer-disclaimer > p",
+    "x": 337,
+    "y": 4131,
+    "w": 751,
+    "h": 20,
+    "text": "◊Source: Circana™ OmniMarket – Total MULO+ 52 wks ending 7/26/26 based custom- d"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.site-footer-disclaimer > p",
+    "x": 490,
+    "y": 4161,
+    "w": 445,
+    "h": 20,
+    "text": "†Compared to Nature's Bounty® Optimal Solutions® Hair, Skin & Nails gummies"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.site-footer-disclaimer > p",
+    "x": 113,
+    "y": 4190,
+    "w": 1200,
+    "h": 39,
+    "text": "†Traditional use claims are based on historical or traditional practices. Echina"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.site-footer-disclaimer > p",
+    "x": 136,
+    "y": 4239,
+    "w": 1152,
+    "h": 20,
+    "text": "Nature’s Bounty is a Nestlé Health Science brand. Nestlé Health Science is a lea"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-disclaimer > p > a",
+    "x": 1124,
+    "y": 4241,
+    "w": 165,
+    "h": 15,
+    "text": "www.nestlehealthscience.us",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.site-footer-disclaimer > p",
+    "x": 595,
+    "y": 4269,
+    "w": 235,
+    "h": 20,
+    "text": "Nature's Bounty is a registered trademark."
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 4,
+    "offPage": 10,
+    "textNodes": 120,
+    "controls": 80,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 2,
+     "clipper": "div.announce-viewport",
+     "path": "div.announce-track > ul > li > a",
+     "text": "supplementing the knowledge gap in women's health",
+     "cutMin": 61,
+     "cutMax": 131
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 2,
+     "clipper": "div.announce-viewport",
+     "path": "div.announce-track > ul > li > a",
+     "text": "supplementing the knowledge gap in women's health",
+     "cutMin": 61,
+     "cutMax": 131
+    }
+   ],
+   "findings": [
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "cut": 61,
+     "path": "div.announce-track > ul > li > a",
+     "text": "supplementing the knowledge gap in women's health",
+     "clipper": "div.announce-viewport",
+     "rect": {
+      "l": -61,
+      "t": 8,
+      "r": 258,
+      "b": 23,
+      "w": 319,
+      "h": 15
+     },
+     "clip": {
+      "l": 0,
+      "t": 6,
+      "r": 1425,
+      "b": 26,
+      "w": 1425,
+      "h": 20
+     }
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 61,
+     "path": "div.announce-track > ul > li > a",
+     "text": "supplementing the knowledge gap in women's health",
+     "clipper": "div.announce-viewport",
+     "rect": {
+      "l": -61,
+      "t": 8,
+      "r": 258,
+      "b": 23,
+      "w": 319,
+      "h": 15
+     },
+     "clip": {
+      "l": 0,
+      "t": 6,
+      "r": 1425,
+      "b": 26,
+      "w": 1425,
+      "h": 20
+     },
+     "lines": 1
+    },
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "cut": 131,
+     "path": "div.announce-track > ul > li > a",
+     "text": "supplementing the knowledge gap in women's health",
+     "clipper": "div.announce-viewport",
+     "rect": {
+      "l": 1237,
+      "t": 8,
+      "r": 1556,
+      "b": 23,
+      "w": 319,
+      "h": 15
+     },
+     "clip": {
+      "l": 0,
+      "t": 6,
+      "r": 1425,
+      "b": 26,
+      "w": 1425,
+      "h": 20
+     }
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 131,
+     "path": "div.announce-track > ul > li > a",
+     "text": "supplementing the knowledge gap in women's health",
+     "clipper": "div.announce-viewport",
+     "rect": {
+      "l": 1237,
+      "t": 8,
+      "r": 1556,
+      "b": 23,
+      "w": 319,
+      "h": 15
+     },
+     "clip": {
+      "l": 0,
+      "t": 6,
+      "r": 1425,
+      "b": 26,
+      "w": 1425,
+      "h": 20
+     },
+     "lines": 1
+    }
+   ]
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "red velvet protein cupcakes with greek yogurt frosting",
+   "variable": true,
+   "origin": {
+    "link": 12,
+    "button": 0,
+    "text": 31,
+    "image": 3
+   },
+   "eds": {
+    "link": 12,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 30,
+    "textHidden": 0,
+    "image": 3,
+    "imageHidden": 0
+   },
+   "findings": [
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK"
+   ]
+  },
+  {
+   "index": 2,
+   "heading": "protein “s’mores” bowl",
+   "variable": true,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 5,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 6,
+    "imageHidden": 0
+   },
+   "findings": [
+    "MISSING HEADING",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "COUNT IMAGES"
+   ]
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🔴",
+   "kind": "MISSING HEADING",
+   "msg": "h2 \"protein packed pumpkin bread\" (origin y 2613) has no served heading",
+   "band": 2,
+   "text": "protein packed pumpkin bread"
+  },
+  {
+   "sev": "🔴",
+   "kind": "MISSING HEADING",
+   "msg": "h2 \"protein french toast\" (origin y 2613) has no served heading",
+   "band": 3,
+   "text": "protein french toast"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h2 \"more recipes\" (y 2156) has no origin heading",
+   "text": "more recipes"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"quinoa, avocado & black bean salad\" (y 2517) has no origin heading",
+   "text": "quinoa, avocado & black bean salad"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"quinoa apple cake\" (y 2517) has no origin heading",
+   "text": "quinoa apple cake"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h2 \"follow @naturesbounty on social for new product releases, healthy tips, and more.\" (y 2975) has no origin heading",
+   "text": "follow @naturesbounty on social for new product releases, healthy tips, and more."
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"quinoa, avocado & black bean salad\" served in band \"red velvet protein cupcakes with greek yogurt frosting\", no origin link or button",
+   "band": 1,
+   "n": 1,
+   "text": "quinoa, avocado & black bean salad"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"quinoa, avocado & black bean salad try this delicious, low sodium summer recipe!\" served in band \"red velvet protein cupcakes with greek yogurt frosting\", no origin link or button",
+   "band": 1,
+   "n": 1,
+   "text": "quinoa, avocado & black bean salad try this delicious, low sodium summer recipe!"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"quinoa apple cake\" served in band \"red velvet protein cupcakes with greek yogurt frosting\", no origin link or button",
+   "band": 1,
+   "n": 1,
+   "text": "quinoa apple cake"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"quinoa apple cake the holidays are filled with family, festivities and an abunda\" served in band \"red velvet protein cupcakes with greek yogurt frosting\", no origin link or button",
+   "band": 1,
+   "n": 1,
+   "text": "quinoa apple cake the holidays are filled with family, festivities and an abunda"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"advanced magnesium glycinate\" served in band \"protein “s’mores” bowl\", no origin link or button",
+   "band": 2,
+   "n": 1,
+   "text": "advanced magnesium glycinate"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"hair growth capsules\" served in band \"protein “s’mores” bowl\", no origin link or button",
+   "band": 2,
+   "n": 1,
+   "text": "hair growth capsules"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"super b-complex\" served in band \"protein “s’mores” bowl\", no origin link or button",
+   "band": 2,
+   "n": 1,
+   "text": "super b-complex"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"vitamin c\" served in band \"protein “s’mores” bowl\", no origin link or button",
+   "band": 2,
+   "n": 1,
+   "text": "vitamin c"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"advanced hair, skin + nails pectin gummy\" served in band \"protein “s’mores” bowl\", no origin link or button",
+   "band": 2,
+   "n": 1,
+   "text": "advanced hair, skin + nails pectin gummy"
+  },
+  {
+   "sev": "🟡",
+   "kind": "COUNT IMAGES",
+   "msg": "band \"protein “s’mores” bowl\": 0 origin → 6 served visible",
+   "band": 2,
+   "origin": 0,
+   "eds": 6,
+   "hidden": 0
+  }
+ ],
+ "totals": {
+  "missingHeadings": 2,
+  "hiddenHeadings": 0,
+  "extraHeadings": 4,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 9,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 1,
+  "findings": 16,
+  "structural": 2,
+  "missing": 2,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 29,
+    "y": 6,
+    "w": 157,
+    "h": 19
+   },
+   {
+    "x": 386,
+    "y": 6,
+    "w": 213,
+    "h": 19
+   },
+   {
+    "x": 799,
+    "y": 6,
+    "w": 314,
+    "h": 19
+   },
+   {
+    "x": 1313,
+    "y": 6,
+    "w": 157,
+    "h": 19
+   },
+   {
+    "x": 523,
+    "y": 54,
+    "w": 79,
+    "h": 28
+   },
+   {
+    "x": 659,
+    "y": 54,
+    "w": 136,
+    "h": 28
+   },
+   {
+    "x": 852,
+    "y": 54,
+    "w": 51,
+    "h": 28
+   },
+   {
+    "x": 954,
+    "y": 54,
+    "w": 80,
+    "h": 28
+   },
+   {
+    "x": 1179,
+    "y": 55,
+    "w": 107,
+    "h": 25
+   },
+   {
+    "x": 93,
+    "y": 759,
+    "w": 757,
+    "h": 69
+   },
+   {
+    "x": 93,
+    "y": 819,
+    "w": 497,
+    "h": 69
+   },
+   {
+    "x": 93,
+    "y": 916,
+    "w": 789,
+    "h": 25
+   },
+   {
+    "x": 93,
+    "y": 946,
+    "w": 551,
+    "h": 25
+   },
+   {
+    "x": 645,
+    "y": 944,
+    "w": 9,
+    "h": 15
+   },
+   {
+    "x": 652,
+    "y": 946,
+    "w": 248,
+    "h": 25
+   },
+   {
+    "x": 93,
+    "y": 994,
+    "w": 800,
+    "h": 25
+   },
+   {
+    "x": 93,
+    "y": 1024,
+    "w": 489,
+    "h": 25
+   },
+   {
+    "x": 93,
+    "y": 1072,
+    "w": 113,
+    "h": 25
+   },
+   {
+    "x": 125,
+    "y": 1120,
+    "w": 343,
+    "h": 25
+   },
+   {
+    "x": 469,
+    "y": 1118,
+    "w": 9,
+    "h": 15
+   },
+   {
+    "x": 480,
+    "y": 1120,
+    "w": 393,
+    "h": 25
+   },
+   {
+    "x": 125,
+    "y": 1150,
+    "w": 195,
+    "h": 25
+   },
+   {
+    "x": 125,
+    "y": 1180,
+    "w": 176,
+    "h": 25
+   },
+   {
+    "x": 125,
+    "y": 1210,
+    "w": 207,
+    "h": 25
+   },
+   {
+    "x": 125,
+    "y": 1240,
+    "w": 230,
+    "h": 25
+   },
+   {
+    "x": 125,
+    "y": 1270,
+    "w": 271,
+    "h": 25
+   },
+   {
+    "x": 125,
+    "y": 1300,
+    "w": 293,
+    "h": 25
+   },
+   {
+    "x": 125,
+    "y": 1330,
+    "w": 150,
+    "h": 25
+   },
+   {
+    "x": 125,
+    "y": 1360,
+    "w": 202,
+    "h": 25
+   },
+   {
+    "x": 125,
+    "y": 1390,
+    "w": 237,
+    "h": 25
+   },
+   {
+    "x": 93,
+    "y": 1486,
+    "w": 99,
+    "h": 25
+   },
+   {
+    "x": 125,
+    "y": 1534,
+    "w": 253,
+    "h": 25
+   },
+   {
+    "x": 125,
+    "y": 1564,
+    "w": 233,
+    "h": 25
+   },
+   {
+    "x": 125,
+    "y": 1594,
+    "w": 217,
+    "h": 25
+   },
+   {
+    "x": 125,
+    "y": 1624,
+    "w": 151,
+    "h": 25
+   },
+   {
+    "x": 93,
+    "y": 1720,
+    "w": 86,
+    "h": 25
+   },
+   {
+    "x": 133,
+    "y": 1768,
+    "w": 258,
+    "h": 25
+   },
+   {
+    "x": 133,
+    "y": 1798,
+    "w": 379,
+    "h": 25
+   },
+   {
+    "x": 133,
+    "y": 1828,
+    "w": 509,
+    "h": 25
+   },
+   {
+    "x": 133,
+    "y": 1858,
+    "w": 506,
+    "h": 25
+   },
+   {
+    "x": 133,
+    "y": 1888,
+    "w": 579,
+    "h": 25
+   },
+   {
+    "x": 133,
+    "y": 1918,
+    "w": 591,
+    "h": 25
+   },
+   {
+    "x": 133,
+    "y": 1948,
+    "w": 599,
+    "h": 25
+   },
+   {
+    "x": 133,
+    "y": 1978,
+    "w": 498,
+    "h": 25
+   },
+   {
+    "x": 93,
+    "y": 2038,
+    "w": 311,
+    "h": 25
+   },
+   {
+    "x": 93,
+    "y": 2068,
+    "w": 183,
+    "h": 25
+   },
+   {
+    "x": 131,
+    "y": 2114,
+    "w": 48,
+    "h": 25
+   },
+   {
+    "x": 238,
+    "y": 2114,
+    "w": 47,
+    "h": 25
+   },
+   {
+    "x": 345,
+    "y": 2114,
+    "w": 40,
+    "h": 25
+   },
+   {
+    "x": 445,
+    "y": 2114,
+    "w": 48,
+    "h": 25
+   },
+   {
+    "x": 553,
+    "y": 2114,
+    "w": 45,
+    "h": 25
+   },
+   {
+    "x": 1029,
+    "y": 823,
+    "w": 287,
+    "h": 31
+   },
+   {
+    "x": 1096,
+    "y": 853,
+    "w": 152,
+    "h": 31
+   },
+   {
+    "x": 593,
+    "y": 2249,
+    "w": 240,
+    "h": 55
+   },
+   {
+    "x": 93,
+    "y": 2614,
+    "w": 256,
+    "h": 35
+   },
+   {
+    "x": 516,
+    "y": 2614,
+    "w": 348,
+    "h": 35
+   },
+   {
+    "x": 939,
+    "y": 2614,
+    "w": 228,
+    "h": 35
+   },
+   {
+    "x": 400,
+    "y": 2894,
+    "w": 625,
+    "h": 25
+   },
+   {
+    "x": 382,
+    "y": 3005,
+    "w": 662,
+    "h": 25
+   },
+   {
+    "x": 993,
+    "y": 3592,
+    "w": 154,
+    "h": 25
+   },
+   {
+    "x": 993,
+    "y": 3638,
+    "w": 334,
+    "h": 25
+   },
+   {
+    "x": 993,
+    "y": 3668,
+    "w": 181,
+    "h": 25
+   },
+   {
+    "x": 1246,
+    "y": 3736,
+    "w": 62,
+    "h": 25
+   },
+   {
+    "x": 993,
+    "y": 3833,
+    "w": 75,
+    "h": 25
+   },
+   {
+    "x": 93,
+    "y": 3592,
+    "w": 71,
+    "h": 25
+   },
+   {
+    "x": 93,
+    "y": 3631,
+    "w": 94,
+    "h": 21
+   },
+   {
+    "x": 93,
+    "y": 3658,
+    "w": 86,
+    "h": 21
+   },
+   {
+    "x": 93,
+    "y": 3684,
+    "w": 58,
+    "h": 21
+   },
+   {
+    "x": 93,
+    "y": 3711,
+    "w": 39,
+    "h": 21
+   },
+   {
+    "x": 93,
+    "y": 3737,
+    "w": 120,
+    "h": 21
+   },
+   {
+    "x": 93,
+    "y": 3764,
+    "w": 60,
+    "h": 21
+   },
+   {
+    "x": 258,
+    "y": 3592,
+    "w": 108,
+    "h": 25
+   },
+   {
+    "x": 258,
+    "y": 3631,
+    "w": 119,
+    "h": 21
+   },
+   {
+    "x": 409,
+    "y": 3631,
+    "w": 86,
+    "h": 21
+   },
+   {
+    "x": 258,
+    "y": 3658,
+    "w": 82,
+    "h": 21
+   },
+   {
+    "x": 409,
+    "y": 3658,
+    "w": 126,
+    "h": 21
+   },
+   {
+    "x": 258,
+    "y": 3684,
+    "w": 70,
+    "h": 21
+   },
+   {
+    "x": 409,
+    "y": 3684,
+    "w": 93,
+    "h": 21
+   },
+   {
+    "x": 258,
+    "y": 3711,
+    "w": 45,
+    "h": 21
+   },
+   {
+    "x": 409,
+    "y": 3711,
+    "w": 132,
+    "h": 21
+   },
+   {
+    "x": 258,
+    "y": 3737,
+    "w": 108,
+    "h": 21
+   },
+   {
+    "x": 409,
+    "y": 3737,
+    "w": 103,
+    "h": 21
+   },
+   {
+    "x": 258,
+    "y": 3764,
+    "w": 85,
+    "h": 21
+   },
+   {
+    "x": 409,
+    "y": 3764,
+    "w": 202,
+    "h": 21
+   },
+   {
+    "x": 258,
+    "y": 3790,
+    "w": 95,
+    "h": 21
+   },
+   {
+    "x": 409,
+    "y": 3790,
+    "w": 93,
+    "h": 21
+   },
+   {
+    "x": 651,
+    "y": 3592,
+    "w": 74,
+    "h": 25
+   },
+   {
+    "x": 651,
+    "y": 3622,
+    "w": 55,
+    "h": 25
+   },
+   {
+    "x": 651,
+    "y": 3661,
+    "w": 73,
+    "h": 21
+   },
+   {
+    "x": 651,
+    "y": 3688,
+    "w": 93,
+    "h": 21
+   },
+   {
+    "x": 651,
+    "y": 3714,
+    "w": 80,
+    "h": 21
+   },
+   {
+    "x": 651,
+    "y": 3741,
+    "w": 109,
+    "h": 21
+   },
+   {
+    "x": 651,
+    "y": 3767,
+    "w": 51,
+    "h": 21
+   },
+   {
+    "x": 817,
+    "y": 3592,
+    "w": 66,
+    "h": 25
+   },
+   {
+    "x": 817,
+    "y": 3622,
+    "w": 56,
+    "h": 25
+   },
+   {
+    "x": 817,
+    "y": 3661,
+    "w": 59,
+    "h": 21
+   },
+   {
+    "x": 817,
+    "y": 3688,
+    "w": 88,
+    "h": 21
+   },
+   {
+    "x": 817,
+    "y": 3714,
+    "w": 72,
+    "h": 21
+   },
+   {
+    "x": 817,
+    "y": 3741,
+    "w": 52,
+    "h": 21
+   },
+   {
+    "x": 96,
+    "y": 3918,
+    "w": 84,
+    "h": 21
+   },
+   {
+    "x": 199,
+    "y": 3915,
+    "w": 4,
+    "h": 25
+   },
+   {
+    "x": 223,
+    "y": 3918,
+    "w": 90,
+    "h": 21
+   },
+   {
+    "x": 333,
+    "y": 3915,
+    "w": 4,
+    "h": 25
+   },
+   {
+    "x": 357,
+    "y": 3918,
+    "w": 151,
+    "h": 21
+   },
+   {
+    "x": 528,
+    "y": 3915,
+    "w": 4,
+    "h": 25
+   },
+   {
+    "x": 552,
+    "y": 3918,
+    "w": 125,
+    "h": 21
+   },
+   {
+    "x": 697,
+    "y": 3915,
+    "w": 4,
+    "h": 25
+   },
+   {
+    "x": 721,
+    "y": 3918,
+    "w": 152,
+    "h": 21
+   },
+   {
+    "x": 893,
+    "y": 3915,
+    "w": 4,
+    "h": 25
+   },
+   {
+    "x": 917,
+    "y": 3918,
+    "w": 164,
+    "h": 21
+   },
+   {
+    "x": 1122,
+    "y": 3915,
+    "w": 4,
+    "h": 25
+   },
+   {
+    "x": 1193,
+    "y": 3917,
+    "w": 137,
+    "h": 21
+   },
+   {
+    "x": 248,
+    "y": 4054,
+    "w": 930,
+    "h": 19
+   },
+   {
+    "x": 235,
+    "y": 4130,
+    "w": 954,
+    "h": 19
+   },
+   {
+    "x": 333,
+    "y": 4159,
+    "w": 758,
+    "h": 19
+   },
+   {
+    "x": 487,
+    "y": 4189,
+    "w": 452,
+    "h": 19
+   },
+   {
+    "x": 115,
+    "y": 4218,
+    "w": 1196,
+    "h": 19
+   },
+   {
+    "x": 615,
+    "y": 4238,
+    "w": 195,
+    "h": 19
+   },
+   {
+    "x": 133,
+    "y": 4267,
+    "w": 997,
+    "h": 19
+   },
+   {
+    "x": 1131,
+    "y": 4267,
+    "w": 161,
+    "h": 19
+   },
+   {
+    "x": 593,
+    "y": 4297,
+    "w": 239,
+    "h": 19
+   }
+  ],
+  "eds": [
+   {
+    "x": -61,
+    "y": 8,
+    "w": 319,
+    "h": 15
+   },
+   {
+    "x": 458,
+    "y": 8,
+    "w": 160,
+    "h": 15
+   },
+   {
+    "x": 818,
+    "y": 8,
+    "w": 219,
+    "h": 15
+   },
+   {
+    "x": 1237,
+    "y": 8,
+    "w": 319,
+    "h": 15
+   },
+   {
+    "x": 519,
+    "y": 56,
+    "w": 80,
+    "h": 24
+   },
+   {
+    "x": 656,
+    "y": 56,
+    "w": 138,
+    "h": 24
+   },
+   {
+    "x": 851,
+    "y": 56,
+    "w": 50,
+    "h": 24
+   },
+   {
+    "x": 952,
+    "y": 56,
+    "w": 83,
+    "h": 24
+   },
+   {
+    "x": 1178,
+    "y": 57,
+    "w": 109,
+    "h": 22
+   },
+   {
+    "x": 93,
+    "y": 763,
+    "w": 785,
+    "h": 61
+   },
+   {
+    "x": 93,
+    "y": 823,
+    "w": 510,
+    "h": 61
+   },
+   {
+    "x": 93,
+    "y": 918,
+    "w": 779,
+    "h": 22
+   },
+   {
+    "x": 93,
+    "y": 948,
+    "w": 546,
+    "h": 22
+   },
+   {
+    "x": 640,
+    "y": 945,
+    "w": 6,
+    "h": 13
+   },
+   {
+    "x": 645,
+    "y": 948,
+    "w": 246,
+    "h": 22
+   },
+   {
+    "x": 93,
+    "y": 996,
+    "w": 798,
+    "h": 22
+   },
+   {
+    "x": 93,
+    "y": 1026,
+    "w": 489,
+    "h": 22
+   },
+   {
+    "x": 93,
+    "y": 1074,
+    "w": 114,
+    "h": 22
+   },
+   {
+    "x": 125,
+    "y": 1122,
+    "w": 345,
+    "h": 22
+   },
+   {
+    "x": 470,
+    "y": 1119,
+    "w": 6,
+    "h": 13
+   },
+   {
+    "x": 480,
+    "y": 1122,
+    "w": 396,
+    "h": 22
+   },
+   {
+    "x": 125,
+    "y": 1152,
+    "w": 196,
+    "h": 22
+   },
+   {
+    "x": 125,
+    "y": 1182,
+    "w": 175,
+    "h": 22
+   },
+   {
+    "x": 125,
+    "y": 1212,
+    "w": 204,
+    "h": 22
+   },
+   {
+    "x": 125,
+    "y": 1242,
+    "w": 227,
+    "h": 22
+   },
+   {
+    "x": 125,
+    "y": 1272,
+    "w": 268,
+    "h": 22
+   },
+   {
+    "x": 125,
+    "y": 1302,
+    "w": 291,
+    "h": 22
+   },
+   {
+    "x": 125,
+    "y": 1332,
+    "w": 153,
+    "h": 22
+   },
+   {
+    "x": 125,
+    "y": 1362,
+    "w": 198,
+    "h": 22
+   },
+   {
+    "x": 125,
+    "y": 1392,
+    "w": 235,
+    "h": 22
+   },
+   {
+    "x": 93,
+    "y": 1440,
+    "w": 102,
+    "h": 22
+   },
+   {
+    "x": 125,
+    "y": 1488,
+    "w": 250,
+    "h": 22
+   },
+   {
+    "x": 125,
+    "y": 1518,
+    "w": 232,
+    "h": 22
+   },
+   {
+    "x": 125,
+    "y": 1548,
+    "w": 216,
+    "h": 22
+   },
+   {
+    "x": 125,
+    "y": 1578,
+    "w": 149,
+    "h": 22
+   },
+   {
+    "x": 93,
+    "y": 1626,
+    "w": 87,
+    "h": 22
+   },
+   {
+    "x": 125,
+    "y": 1674,
+    "w": 257,
+    "h": 22
+   },
+   {
+    "x": 125,
+    "y": 1704,
+    "w": 375,
+    "h": 22
+   },
+   {
+    "x": 125,
+    "y": 1734,
+    "w": 502,
+    "h": 22
+   },
+   {
+    "x": 125,
+    "y": 1764,
+    "w": 508,
+    "h": 22
+   },
+   {
+    "x": 125,
+    "y": 1794,
+    "w": 572,
+    "h": 22
+   },
+   {
+    "x": 125,
+    "y": 1824,
+    "w": 575,
+    "h": 22
+   },
+   {
+    "x": 125,
+    "y": 1854,
+    "w": 596,
+    "h": 22
+   },
+   {
+    "x": 125,
+    "y": 1884,
+    "w": 493,
+    "h": 22
+   },
+   {
+    "x": 93,
+    "y": 1944,
+    "w": 314,
+    "h": 22
+   },
+   {
+    "x": 93,
+    "y": 1974,
+    "w": 185,
+    "h": 22
+   },
+   {
+    "x": 131,
+    "y": 2020,
+    "w": 46,
+    "h": 22
+   },
+   {
+    "x": 237,
+    "y": 2020,
+    "w": 50,
+    "h": 22
+   },
+   {
+    "x": 347,
+    "y": 2020,
+    "w": 40,
+    "h": 22
+   },
+   {
+    "x": 447,
+    "y": 2020,
+    "w": 46,
+    "h": 22
+   },
+   {
+    "x": 554,
+    "y": 2020,
+    "w": 44,
+    "h": 22
+   },
+   {
+    "x": 1026,
+    "y": 825,
+    "w": 294,
+    "h": 27
+   },
+   {
+    "x": 1095,
+    "y": 855,
+    "w": 155,
+    "h": 27
+   },
+   {
+    "x": 593,
+    "y": 2157,
+    "w": 239,
+    "h": 48
+   },
+   {
+    "x": 93,
+    "y": 2521,
+    "w": 341,
+    "h": 30
+   },
+   {
+    "x": 93,
+    "y": 2559,
+    "w": 62,
+    "h": 30
+   },
+   {
+    "x": 93,
+    "y": 2597,
+    "w": 355,
+    "h": 22
+   },
+   {
+    "x": 516,
+    "y": 2521,
+    "w": 216,
+    "h": 30
+   },
+   {
+    "x": 516,
+    "y": 2559,
+    "w": 378,
+    "h": 22
+   },
+   {
+    "x": 516,
+    "y": 2589,
+    "w": 301,
+    "h": 22
+   },
+   {
+    "x": 939,
+    "y": 2521,
+    "w": 258,
+    "h": 30
+   },
+   {
+    "x": 402,
+    "y": 2868,
+    "w": 620,
+    "h": 22
+   },
+   {
+    "x": 381,
+    "y": 2979,
+    "w": 664,
+    "h": 22
+   },
+   {
+    "x": 993,
+    "y": 3566,
+    "w": 162,
+    "h": 22
+   },
+   {
+    "x": 993,
+    "y": 3612,
+    "w": 333,
+    "h": 22
+   },
+   {
+    "x": 993,
+    "y": 3642,
+    "w": 179,
+    "h": 22
+   },
+   {
+    "x": 1246,
+    "y": 3710,
+    "w": 63,
+    "h": 22
+   },
+   {
+    "x": 993,
+    "y": 3807,
+    "w": 77,
+    "h": 22
+   },
+   {
+    "x": 93,
+    "y": 3566,
+    "w": 72,
+    "h": 22
+   },
+   {
+    "x": 93,
+    "y": 3605,
+    "w": 96,
+    "h": 18
+   },
+   {
+    "x": 93,
+    "y": 3632,
+    "w": 86,
+    "h": 18
+   },
+   {
+    "x": 93,
+    "y": 3658,
+    "w": 54,
+    "h": 18
+   },
+   {
+    "x": 93,
+    "y": 3685,
+    "w": 39,
+    "h": 18
+   },
+   {
+    "x": 93,
+    "y": 3711,
+    "w": 118,
+    "h": 18
+   },
+   {
+    "x": 93,
+    "y": 3738,
+    "w": 61,
+    "h": 18
+   },
+   {
+    "x": 258,
+    "y": 3566,
+    "w": 109,
+    "h": 22
+   },
+   {
+    "x": 258,
+    "y": 3605,
+    "w": 120,
+    "h": 18
+   },
+   {
+    "x": 410,
+    "y": 3605,
+    "w": 83,
+    "h": 18
+   },
+   {
+    "x": 258,
+    "y": 3632,
+    "w": 79,
+    "h": 18
+   },
+   {
+    "x": 410,
+    "y": 3632,
+    "w": 129,
+    "h": 18
+   },
+   {
+    "x": 258,
+    "y": 3658,
+    "w": 71,
+    "h": 18
+   },
+   {
+    "x": 410,
+    "y": 3658,
+    "w": 93,
+    "h": 18
+   },
+   {
+    "x": 258,
+    "y": 3685,
+    "w": 43,
+    "h": 18
+   },
+   {
+    "x": 410,
+    "y": 3685,
+    "w": 130,
+    "h": 18
+   },
+   {
+    "x": 258,
+    "y": 3711,
+    "w": 108,
+    "h": 18
+   },
+   {
+    "x": 410,
+    "y": 3711,
+    "w": 103,
+    "h": 18
+   },
+   {
+    "x": 258,
+    "y": 3738,
+    "w": 83,
+    "h": 18
+   },
+   {
+    "x": 410,
+    "y": 3738,
+    "w": 201,
+    "h": 18
+   },
+   {
+    "x": 258,
+    "y": 3764,
+    "w": 95,
+    "h": 18
+   },
+   {
+    "x": 410,
+    "y": 3764,
+    "w": 93,
+    "h": 18
+   },
+   {
+    "x": 651,
+    "y": 3566,
+    "w": 75,
+    "h": 22
+   },
+   {
+    "x": 651,
+    "y": 3596,
+    "w": 56,
+    "h": 22
+   },
+   {
+    "x": 651,
+    "y": 3635,
+    "w": 72,
+    "h": 18
+   },
+   {
+    "x": 651,
+    "y": 3662,
+    "w": 93,
+    "h": 18
+   },
+   {
+    "x": 651,
+    "y": 3688,
+    "w": 80,
+    "h": 18
+   },
+   {
+    "x": 651,
+    "y": 3715,
+    "w": 109,
+    "h": 18
+   },
+   {
+    "x": 651,
+    "y": 3741,
+    "w": 52,
+    "h": 18
+   },
+   {
+    "x": 817,
+    "y": 3566,
+    "w": 66,
+    "h": 22
+   },
+   {
+    "x": 817,
+    "y": 3596,
+    "w": 58,
+    "h": 22
+   },
+   {
+    "x": 817,
+    "y": 3635,
+    "w": 61,
+    "h": 18
+   },
+   {
+    "x": 817,
+    "y": 3662,
+    "w": 89,
+    "h": 18
+   },
+   {
+    "x": 817,
+    "y": 3688,
+    "w": 74,
+    "h": 18
+   },
+   {
+    "x": 817,
+    "y": 3715,
+    "w": 51,
+    "h": 18
+   },
+   {
+    "x": 95,
+    "y": 3892,
+    "w": 85,
+    "h": 18
+   },
+   {
+    "x": 200,
+    "y": 3889,
+    "w": 4,
+    "h": 22
+   },
+   {
+    "x": 224,
+    "y": 3892,
+    "w": 89,
+    "h": 18
+   },
+   {
+    "x": 334,
+    "y": 3889,
+    "w": 4,
+    "h": 22
+   },
+   {
+    "x": 358,
+    "y": 3892,
+    "w": 155,
+    "h": 18
+   },
+   {
+    "x": 533,
+    "y": 3889,
+    "w": 4,
+    "h": 22
+   },
+   {
+    "x": 557,
+    "y": 3892,
+    "w": 125,
+    "h": 18
+   },
+   {
+    "x": 702,
+    "y": 3889,
+    "w": 4,
+    "h": 22
+   },
+   {
+    "x": 726,
+    "y": 3892,
+    "w": 150,
+    "h": 18
+   },
+   {
+    "x": 896,
+    "y": 3889,
+    "w": 4,
+    "h": 22
+   },
+   {
+    "x": 921,
+    "y": 3892,
+    "w": 162,
+    "h": 18
+   },
+   {
+    "x": 1122,
+    "y": 3889,
+    "w": 4,
+    "h": 22
+   },
+   {
+    "x": 1194,
+    "y": 3891,
+    "w": 136,
+    "h": 18
+   },
+   {
+    "x": 248,
+    "y": 4028,
+    "w": 928,
+    "h": 15
+   },
+   {
+    "x": 240,
+    "y": 4104,
+    "w": 946,
+    "h": 15
+   },
+   {
+    "x": 337,
+    "y": 4133,
+    "w": 751,
+    "h": 15
+   },
+   {
+    "x": 490,
+    "y": 4163,
+    "w": 445,
+    "h": 15
+   },
+   {
+    "x": 125,
+    "y": 4192,
+    "w": 1174,
+    "h": 15
+   },
+   {
+    "x": 615,
+    "y": 4212,
+    "w": 196,
+    "h": 15
+   },
+   {
+    "x": 136,
+    "y": 4241,
+    "w": 988,
+    "h": 15
+   },
+   {
+    "x": 1124,
+    "y": 4241,
+    "w": 165,
+    "h": 15
+   },
+   {
+    "x": 595,
+    "y": 4271,
+    "w": 235,
+    "h": 15
+   }
+  ]
+ }
+}

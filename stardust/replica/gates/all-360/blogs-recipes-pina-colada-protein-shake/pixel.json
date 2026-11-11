@@ -1,0 +1,84 @@
+{
+  "a": "stardust/replica/gates/all-360/blogs-recipes-pina-colada-protein-shake/origin.png",
+  "b": "stardust/replica/gates/all-360/blogs-recipes-pina-colada-protein-shake/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 5474,
+    "mode": "overlap"
+  },
+  "heightDelta": -175,
+  "differingPixels": 372289,
+  "pct": 26.17,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-360/blogs-recipes-pina-colada-protein-shake/diff.png",
+  "masks": [
+    {
+      "yA": 1414,
+      "h": 1522,
+      "yB": 1414
+    }
+  ],
+  "maskedRows": 1522,
+  "textPct": 19.34,
+  "textBoxes": 86,
+  "textPixels": 263049,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 1.9
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 6.6
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 2
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 9.9
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 79.7
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 68.4
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 18.8
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 6
+    },
+    {
+      "y0": 5000,
+      "y1": 5474,
+      "pct": 14.3
+    }
+  ],
+  "maskReason": "server-rotated 'More recipes' row"
+}

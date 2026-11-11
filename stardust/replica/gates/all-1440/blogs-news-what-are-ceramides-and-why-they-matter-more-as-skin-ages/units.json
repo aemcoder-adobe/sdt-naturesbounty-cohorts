@@ -1,0 +1,1688 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-11T05:41:46.339Z",
+  "tol": 4,
+  "n": 5,
+  "width": 1440,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://naturesbounty.com/blogs/news/what-are-ceramides-and-why-they-matter-more-as-skin-ages",
+  "at": "2026-11-11T03:51:37.439Z",
+  "docH": 6921
+ },
+ "eds": {
+  "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/what-are-ceramides-and-why-they-matter-more-as-skin-ages",
+  "at": "2026-11-11T05:41:46.222Z",
+  "docH": 6793
+ },
+ "results": [
+  {
+   "sel": ".article-main__related .article-item=.related .related-card",
+   "family": null,
+   "required": true,
+   "originMatches": 3,
+   "edsMatches": 3,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.article-main__related.container__tight > div.article-item__grid > div.article-item.is-layout-3"
+     },
+     "eds": {
+      "path": "div.related.block > div.related-grid > div.related-card"
+     },
+     "rows": [
+      {
+       "key": "image:why magnesium matters more than ever",
+       "role": "image",
+       "text": "why magnesium matters more than ever",
+       "edsText": "why magnesium matters more than ever",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:a.article-item__url#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 225,
+        "w": 393,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 228,
+        "w": 393,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 3,
+       "dw": 0,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:why magnesium matters more than ever",
+       "role": "link",
+       "text": "why magnesium matters more than ever",
+       "edsText": "why magnesium matters more than ever",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 245,
+        "w": 393,
+        "h": 92
+       },
+       "eds": {
+        "x": 0,
+        "y": 245,
+        "w": 393,
+        "h": 92,
+        "sel": "a.related-card-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "heading:why magnesium matters more than ever",
+       "role": "heading",
+       "text": "why magnesium matters more than ever",
+       "edsText": "why magnesium matters more than ever",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 261,
+        "w": 393,
+        "h": 76
+       },
+       "eds": {
+        "x": 0,
+        "y": 261,
+        "w": 393,
+        "h": 76,
+        "sel": "h3#why-magnesium-matters-more-than-ever",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "25/38/700",
+        "eds": "25/38/700"
+       }
+      },
+      {
+       "key": "link:magnesium has always been an essential m",
+       "role": "link",
+       "text": "magnesium has always been an essential mineral, but lately, ",
+       "edsText": "magnesium has always been an essential mineral, but lately, ",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 357,
+        "w": 377,
+        "h": 85
+       },
+       "eds": {
+        "x": 0,
+        "y": 359,
+        "w": 384,
+        "h": 52,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 2,
+       "dw": 7,
+       "dh": -33,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 228,
+       "w": 393,
+       "h": 22,
+       "absY": 4816,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 93,
+       "y": 4704,
+       "w": 393,
+       "h": 463
+      },
+      "eds": {
+       "x": 93,
+       "y": 4588,
+       "w": 393,
+       "h": 433
+      },
+      "dx": 0,
+      "dy": -116,
+      "dw": 0,
+      "dh": -30
+     },
+     "summary": {
+      "elements": 5,
+      "within": 4,
+      "off": 1,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.article-main__related.container__tight > div.article-item__grid > div.article-item.is-layout-3"
+     },
+     "eds": {
+      "path": "div.related.block > div.related-grid > div.related-card"
+     },
+     "rows": [
+      {
+       "key": "image:how to choose the right probiotic for da",
+       "role": "image",
+       "text": "how to choose the right probiotic for daily support",
+       "edsText": "how to choose the right probiotic for daily support",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:a.article-item__url#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 225,
+        "w": 393,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 228,
+        "w": 393,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 3,
+       "dw": 0,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:how to choose the right probiotic for da",
+       "role": "link",
+       "text": "how to choose the right probiotic for daily support",
+       "edsText": "how to choose the right probiotic for daily support",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 245,
+        "w": 393,
+        "h": 92
+       },
+       "eds": {
+        "x": 0,
+        "y": 245,
+        "w": 393,
+        "h": 92,
+        "sel": "a.related-card-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "heading:how to choose the right probiotic for da",
+       "role": "heading",
+       "text": "how to choose the right probiotic for daily support",
+       "edsText": "how to choose the right probiotic for daily support",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 261,
+        "w": 393,
+        "h": 76
+       },
+       "eds": {
+        "x": 0,
+        "y": 261,
+        "w": 393,
+        "h": 76,
+        "sel": "h3#how-to-choose-the-right-probiotic-for-daily-support",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "25/38/700",
+        "eds": "25/38/700"
+       }
+      },
+      {
+       "key": "link:support your gut health routine with tip",
+       "role": "link",
+       "text": "support your gut health routine with tips for choosing a pro",
+       "edsText": "support your gut health routine with tips for choosing a pro",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 357,
+        "w": 368,
+        "h": 85
+       },
+       "eds": {
+        "x": 0,
+        "y": 359,
+        "w": 367,
+        "h": 82,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 2,
+       "dw": -1,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 228,
+       "w": 393,
+       "h": 22,
+       "absY": 4816,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 516,
+       "y": 4704,
+       "w": 393,
+       "h": 463
+      },
+      "eds": {
+       "x": 516,
+       "y": 4588,
+       "w": 393,
+       "h": 463
+      },
+      "dx": 0,
+      "dy": -116,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.article-main__related.container__tight > div.article-item__grid > div.article-item.is-layout-3"
+     },
+     "eds": {
+      "path": "div.related.block > div.related-grid > div.related-card"
+     },
+     "rows": [
+      {
+       "key": "image:women’s health awareness: 5 ways to rese",
+       "role": "image",
+       "text": "women’s health awareness: 5 ways to reset your wellness rout",
+       "edsText": "women’s health awareness: 5 ways to reset your wellness rout",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:a.article-item__url#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 225,
+        "w": 393,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 228,
+        "w": 393,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 3,
+       "dw": 0,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:women's wellness",
+       "role": "link",
+       "text": "women's wellness",
+       "edsText": "women's wellness",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 265,
+        "w": 132,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 265,
+        "w": 139,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 7,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "link:women’s health awareness: 5 ways to rese",
+       "role": "link",
+       "text": "women’s health awareness: 5 ways to reset your wellness rout",
+       "edsText": "women’s health awareness: 5 ways to reset your wellness rout",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 295,
+        "w": 393,
+        "h": 190
+       },
+       "eds": {
+        "x": 0,
+        "y": 295,
+        "w": 393,
+        "h": 190,
+        "sel": "a.related-card-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "heading:women’s health awareness: 5 ways to rese",
+       "role": "heading",
+       "text": "women’s health awareness: 5 ways to reset your wellness rout",
+       "edsText": "women’s health awareness: 5 ways to reset your wellness rout",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 311,
+        "w": 393,
+        "h": 114
+       },
+       "eds": {
+        "x": 0,
+        "y": 311,
+        "w": 393,
+        "h": 114,
+        "sel": "h3#womens-health-awareness-5-ways-to-reset-your-wellness-routine",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "25/38/700",
+        "eds": "25/38/700"
+       }
+      },
+      {
+       "key": "text:explore tips to help you push the reset ",
+       "role": "text",
+       "text": "explore tips to help you push the reset button",
+       "edsText": "explore tips to help you push the reset button and discover ",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 427,
+        "w": 357,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 429,
+        "w": 392,
+        "h": 52,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 2,
+       "dw": 35,
+       "dh": 27,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "text",
+       "tag": "span",
+       "sel": "span",
+       "text": "and discover healthy practices that...",
+       "boxed": false,
+       "x": 0,
+       "y": 427,
+       "w": 392,
+       "h": 55,
+       "absY": 5131,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "text:and discover healthy practices that..."
+      }
+     ],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 228,
+       "w": 393,
+       "h": 22,
+       "absY": 4816,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 939,
+       "y": 4704,
+       "w": 393,
+       "h": 485
+      },
+      "eds": {
+       "x": 939,
+       "y": 4588,
+       "w": 393,
+       "h": 485
+      },
+      "dx": 0,
+      "dy": -116,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 7,
+      "within": 4,
+      "off": 2,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 1,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".article-main__products-grid .product-item=.product-rail__grid .product-card, .product-rail .product-rail-grid .product-card",
+   "family": null,
+   "required": true,
+   "originMatches": 1,
+   "edsMatches": 1,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.article-main__products > div.article-main__products-grid > div.product-item"
+     },
+     "eds": {
+      "path": "div.product-rail.block > div.product-rail-grid > div.product-card"
+     },
+     "rows": [
+      {
+       "key": "link:age defying skin renewal 30 capsules 4.5",
+       "role": "link",
+       "text": "age defying skin renewal 30 capsules 4.5 1 capsule a day and",
+       "edsText": "age defying skin renewal 30 capsules 4.5 1 capsule a day and",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 342,
+        "h": 573
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 342,
+        "h": 573,
+        "sel": "a.product-card-inner",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "image:age defying skin renewal",
+       "role": "image",
+       "text": "age defying skin renewal",
+       "edsText": "age defying skin renewal",
+       "byPosition": false,
+       "origin": {
+        "x": 21,
+        "y": 56,
+        "w": 300,
+        "h": 200
+       },
+       "eds": {
+        "x": 21,
+        "y": 56,
+        "w": 300,
+        "h": 200,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "heading:age defying skin renewal",
+       "role": "heading",
+       "text": "age defying skin renewal",
+       "edsText": "age defying skin renewal",
+       "byPosition": false,
+       "origin": {
+        "x": 21,
+        "y": 307,
+        "w": 300,
+        "h": 60
+       },
+       "eds": {
+        "x": 41,
+        "y": 307,
+        "w": 260,
+        "h": 44,
+        "sel": "h3#age-defying-skin-renewal",
+        "role": "heading"
+       },
+       "dx": 20,
+       "dy": 0,
+       "dw": -40,
+       "dh": -16,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "22/22/800",
+        "eds": "22/22/800"
+       }
+      },
+      {
+       "key": "text:30 capsules",
+       "role": "text",
+       "text": "30 capsules",
+       "edsText": "30 capsules",
+       "byPosition": false,
+       "origin": {
+        "x": 21,
+        "y": 367,
+        "w": 300,
+        "h": 30
+       },
+       "eds": {
+        "x": 21,
+        "y": 367,
+        "w": 300,
+        "h": 30,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "button:4.5",
+       "role": "button",
+       "text": "4.5",
+       "edsText": "4.5",
+       "byPosition": false,
+       "origin": {
+        "x": 21,
+        "y": 407,
+        "w": 300,
+        "h": 25
+       },
+       "eds": {
+        "x": 222,
+        "y": 407,
+        "w": 17,
+        "h": 25,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 201,
+       "dy": 0,
+       "dw": -283,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "12/25/500"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 100,
+        "y": 410,
+        "w": 21,
+        "h": 20
+       },
+       "eds": {
+        "x": 21,
+        "y": 56,
+        "w": 300,
+        "h": 200,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": -79,
+       "dy": -354,
+       "dw": 279,
+       "dh": 180,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "text:1 capsule a day and visible results in 3",
+       "role": "text",
+       "text": "1 capsule a day and visible results in 30 days",
+       "edsText": "1 capsule a day and visible results in 30 days",
+       "byPosition": false,
+       "origin": {
+        "x": 21,
+        "y": 442,
+        "w": 300,
+        "h": 22
+       },
+       "eds": {
+        "x": 21,
+        "y": 442,
+        "w": 300,
+        "h": 22,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "15/22/500",
+        "eds": "15/22/500"
+       }
+      },
+      {
+       "key": "button:view product",
+       "role": "button",
+       "text": "view product",
+       "edsText": "view product",
+       "byPosition": false,
+       "origin": {
+        "x": 38,
+        "y": 484,
+        "w": 266,
+        "h": 68
+       },
+       "eds": {
+        "x": 38,
+        "y": 484,
+        "w": 266,
+        "h": 68,
+        "sel": "p.button-wrapper",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/700",
+        "eds": "18/30/700"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 121,
+       "y": 410,
+       "w": 21,
+       "h": 20,
+       "absY": 2445,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#2"
+      },
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 142,
+       "y": 410,
+       "w": 21,
+       "h": 20,
+       "absY": 2445,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#3"
+      },
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 163,
+       "y": 410,
+       "w": 21,
+       "h": 20,
+       "absY": 2445,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#4"
+      },
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 184,
+       "y": 410,
+       "w": 20,
+       "h": 20,
+       "absY": 2445,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#5"
+      }
+     ],
+     "extra": [
+      {
+       "role": "box",
+       "tag": "span",
+       "sel": "span.rating-star",
+       "text": "",
+       "boxed": true,
+       "x": 102,
+       "y": 410,
+       "w": 20,
+       "h": 20,
+       "absY": 2445,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": "rgb(233, 239, 236)",
+       "position": "static",
+       "key": "box:span.rating-star#1"
+      },
+      {
+       "role": "box",
+       "tag": "span",
+       "sel": "span.rating-star",
+       "text": "",
+       "boxed": true,
+       "x": 123,
+       "y": 410,
+       "w": 20,
+       "h": 20,
+       "absY": 2445,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": "rgb(233, 239, 236)",
+       "position": "static",
+       "key": "box:span.rating-star#2"
+      },
+      {
+       "role": "box",
+       "tag": "span",
+       "sel": "span.rating-star",
+       "text": "",
+       "boxed": true,
+       "x": 144,
+       "y": 410,
+       "w": 20,
+       "h": 20,
+       "absY": 2445,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": "rgb(233, 239, 236)",
+       "position": "static",
+       "key": "box:span.rating-star#3"
+      },
+      {
+       "role": "box",
+       "tag": "span",
+       "sel": "span.rating-star",
+       "text": "",
+       "boxed": true,
+       "x": 165,
+       "y": 410,
+       "w": 20,
+       "h": 20,
+       "absY": 2445,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": "rgb(233, 239, 236)",
+       "position": "static",
+       "key": "box:span.rating-star#4"
+      },
+      {
+       "role": "box",
+       "tag": "span",
+       "sel": "span.rating-star",
+       "text": "",
+       "boxed": true,
+       "x": 186,
+       "y": 410,
+       "w": 20,
+       "h": 20,
+       "absY": 2445,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": "rgb(233, 239, 236)",
+       "position": "static",
+       "key": "box:span.rating-star#5"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 1013,
+       "y": 2035,
+       "w": 342,
+       "h": 573
+      },
+      "eds": {
+       "x": 1013,
+       "y": 2035,
+       "w": 342,
+       "h": 573
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 12,
+      "within": 5,
+      "off": 3,
+      "hidden": 0,
+      "missing": 4,
+      "extra": 5,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".instagram__blocks .instagram__item=.social-strip__grid .social-tile, .social-strip .social-strip-grid .social-tile",
+   "family": null,
+   "required": true,
+   "originMatches": 5,
+   "edsMatches": 5,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand"
+     },
+     "eds": {
+      "path": "div.social-strip.block > div.social-strip-grid > a.social-tile"
+     },
+     "rows": [
+      {
+       "key": "image:<p>advanced magnesium glycinate</p>",
+       "role": "image",
+       "text": "<p>advanced magnesium glycinate</p>",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "advanced magnesium glycinate",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 271,
+       "h": 271,
+       "absY": 5483,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:advanced magnesium glycinate"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 21,
+       "y": 5599,
+       "w": 271,
+       "h": 271
+      },
+      "eds": {
+       "x": 21,
+       "y": 5483,
+       "w": 271,
+       "h": 271
+      },
+      "dx": 0,
+      "dy": -116,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand"
+     },
+     "eds": {
+      "path": "div.social-strip.block > div.social-strip-grid > a.social-tile"
+     },
+     "rows": [
+      {
+       "key": "image:<p>hair growth capsules</p>",
+       "role": "image",
+       "text": "<p>hair growth capsules</p>",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "hair growth capsules",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 271,
+       "h": 271,
+       "absY": 5483,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:hair growth capsules"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 299,
+       "y": 5599,
+       "w": 271,
+       "h": 271
+      },
+      "eds": {
+       "x": 299,
+       "y": 5483,
+       "w": 271,
+       "h": 271
+      },
+      "dx": 0,
+      "dy": -116,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand"
+     },
+     "eds": {
+      "path": "div.social-strip.block > div.social-strip-grid > a.social-tile"
+     },
+     "rows": [
+      {
+       "key": "image:<p>super b-complex</p>",
+       "role": "image",
+       "text": "<p>super b-complex</p>",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "super b-complex",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 271,
+       "h": 271,
+       "absY": 5483,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:super b-complex"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 577,
+       "y": 5599,
+       "w": 271,
+       "h": 271
+      },
+      "eds": {
+       "x": 577,
+       "y": 5483,
+       "w": 271,
+       "h": 271
+      },
+      "dx": 0,
+      "dy": -116,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand"
+     },
+     "eds": {
+      "path": "div.social-strip.block > div.social-strip-grid > a.social-tile"
+     },
+     "rows": [
+      {
+       "key": "image:<p>vitamin c</p>",
+       "role": "image",
+       "text": "<p>vitamin c</p>",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "vitamin c",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 271,
+       "h": 271,
+       "absY": 5483,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:vitamin c"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 855,
+       "y": 5599,
+       "w": 271,
+       "h": 271
+      },
+      "eds": {
+       "x": 855,
+       "y": 5483,
+       "w": 271,
+       "h": 271
+      },
+      "dx": 0,
+      "dy": -116,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand"
+     },
+     "eds": {
+      "path": "div.social-strip.block > div.social-strip-grid > a.social-tile"
+     },
+     "rows": [
+      {
+       "key": "image:<p>advanced hair, skin + nails pectin gu",
+       "role": "image",
+       "text": "<p>advanced hair, skin + nails pectin gummy</p>",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "advanced hair, skin + nails pectin gummy",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 271,
+       "h": 271,
+       "absY": 5483,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:advanced hair, skin + nails pectin gummy"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 1133,
+       "y": 5599,
+       "w": 271,
+       "h": 271
+      },
+      "eds": {
+       "x": 1133,
+       "y": 5483,
+       "w": 271,
+       "h": 271
+      },
+      "dx": 0,
+      "dy": -116,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 9,
+  "within": 23,
+  "off": 6,
+  "hidden": 0,
+  "missing": 5,
+  "errors": 0,
+  "requiredOff": 11
+ }
+}

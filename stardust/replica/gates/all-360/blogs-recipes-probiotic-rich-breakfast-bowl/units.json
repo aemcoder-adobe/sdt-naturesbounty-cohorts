@@ -1,0 +1,1404 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-11T06:18:23.660Z",
+  "tol": 4,
+  "n": 6,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://naturesbounty.com/blogs/recipes/probiotic-rich-breakfast-bowl",
+  "at": "2026-11-11T03:20:32.195Z",
+  "docH": 3899
+ },
+ "eds": {
+  "url": "https://main--1a676f95--aemcoder.aem.page/blogs/recipes/probiotic-rich-breakfast-bowl",
+  "at": "2026-11-11T06:18:23.562Z",
+  "docH": 5819
+ },
+ "results": [
+  {
+   "sel": ".article-main__related .article-item=.related .related-card",
+   "family": null,
+   "required": true,
+   "originMatches": 3,
+   "edsMatches": 3,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.article-main__related.container__tight > div.article-item__grid > div.article-item.is-layout-3"
+     },
+     "eds": {
+      "path": "div.related.block > div.related-grid > div.related-card"
+     },
+     "rows": [
+      {
+       "key": "image:pina colada protein shake",
+       "role": "image",
+       "text": "pina colada protein shake",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245
+       },
+       "eds": {
+        "x": 0,
+        "y": 183,
+        "w": 305,
+        "h": 22,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 183,
+       "dw": -88,
+       "dh": -223,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:a.article-item__url#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 225,
+        "w": 393,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 183,
+        "w": 305,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -42,
+       "dw": -88,
+       "dh": -3,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "link",
+       "tag": "a",
+       "sel": "a.article-item__content",
+       "text": "pina colada protein shake",
+       "boxed": false,
+       "x": 0,
+       "y": 245,
+       "w": 393,
+       "h": 54,
+       "absY": 2075,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "link:pina colada protein shake"
+      },
+      {
+       "role": "heading",
+       "tag": "h2",
+       "sel": "h2.article-item__title",
+       "text": "pina colada protein shake",
+       "boxed": false,
+       "x": 0,
+       "y": 261,
+       "w": 393,
+       "h": 38,
+       "absY": 2091,
+       "hidden": false,
+       "fs": 25,
+       "lh": 38,
+       "fw": "700",
+       "color": "rgb(52, 119, 63)",
+       "bg": null,
+       "position": "static",
+       "key": "heading:pina colada protein shake"
+      }
+     ],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "heart friendly kettle popcorn",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 305,
+       "h": 200,
+       "absY": 1830,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:heart friendly kettle popcorn"
+      },
+      {
+       "role": "link",
+       "tag": "a",
+       "sel": "a.related-card-link",
+       "text": "heart friendly kettle popcorn when prepared without the exce",
+       "boxed": false,
+       "x": 0,
+       "y": 200,
+       "w": 305,
+       "h": 182,
+       "absY": 2030,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "link:heart friendly kettle popcorn when prepa"
+      },
+      {
+       "role": "heading",
+       "tag": "h3",
+       "sel": "h3#heart-friendly-kettle-popcorn",
+       "text": "heart friendly kettle popcorn",
+       "boxed": false,
+       "x": 0,
+       "y": 216,
+       "w": 305,
+       "h": 76,
+       "absY": 2046,
+       "hidden": false,
+       "fs": 25,
+       "lh": 38,
+       "fw": "700",
+       "color": "rgb(52, 119, 63)",
+       "bg": null,
+       "position": "static",
+       "key": "heading:heart friendly kettle popcorn"
+      },
+      {
+       "role": "text",
+       "tag": "p",
+       "sel": "p",
+       "text": "when prepared without the excess salt and butter, popcorn ca",
+       "boxed": false,
+       "x": 0,
+       "y": 296,
+       "w": 286,
+       "h": 82,
+       "absY": 2126,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "text:when prepared without the excess salt an"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 93,
+       "y": 1830,
+       "w": 393,
+       "h": 299
+      },
+      "eds": {
+       "x": 20,
+       "y": 1830,
+       "w": 305,
+       "h": 382
+      },
+      "dx": -73,
+      "dy": 0,
+      "dw": -88,
+      "dh": 83
+     },
+     "summary": {
+      "elements": 4,
+      "within": 0,
+      "off": 2,
+      "hidden": 0,
+      "missing": 2,
+      "extra": 4,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.article-main__related.container__tight > div.article-item__grid > div.article-item.is-layout-3"
+     },
+     "eds": {
+      "path": "div.related.block > div.related-grid > div.related-card"
+     },
+     "rows": [
+      {
+       "key": "image:peanut butter and jelly protein shake",
+       "role": "image",
+       "text": "peanut butter and jelly protein shake",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245
+       },
+       "eds": {
+        "x": 0,
+        "y": 183,
+        "w": 305,
+        "h": 22,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 183,
+       "dw": -88,
+       "dh": -223,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:a.article-item__url#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 225,
+        "w": 393,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 183,
+        "w": 305,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -42,
+       "dw": -88,
+       "dh": -3,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "link",
+       "tag": "a",
+       "sel": "a.article-item__content",
+       "text": "peanut butter and jelly protein shake",
+       "boxed": false,
+       "x": 0,
+       "y": 245,
+       "w": 393,
+       "h": 92,
+       "absY": 2075,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "link:peanut butter and jelly protein shake"
+      },
+      {
+       "role": "heading",
+       "tag": "h2",
+       "sel": "h2.article-item__title",
+       "text": "peanut butter and jelly protein shake",
+       "boxed": false,
+       "x": 0,
+       "y": 261,
+       "w": 393,
+       "h": 76,
+       "absY": 2091,
+       "hidden": false,
+       "fs": 25,
+       "lh": 38,
+       "fw": "700",
+       "color": "rgb(52, 119, 63)",
+       "bg": null,
+       "position": "static",
+       "key": "heading:peanut butter and jelly protein shake"
+      }
+     ],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "5 homemade healthy snacks",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 305,
+       "h": 200,
+       "absY": 2262,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:5 homemade healthy snacks"
+      },
+      {
+       "role": "link",
+       "tag": "a",
+       "sel": "a.related-card-link",
+       "text": "5 homemade healthy snacks don’t wait until you feel famished",
+       "boxed": false,
+       "x": 0,
+       "y": 200,
+       "w": 305,
+       "h": 152,
+       "absY": 2462,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "link:5 homemade healthy snacks don’t wait unt"
+      },
+      {
+       "role": "heading",
+       "tag": "h3",
+       "sel": "h3#homemade-healthy-snacks",
+       "text": "5 homemade healthy snacks",
+       "boxed": false,
+       "x": 0,
+       "y": 216,
+       "w": 305,
+       "h": 76,
+       "absY": 2478,
+       "hidden": false,
+       "fs": 25,
+       "lh": 38,
+       "fw": "700",
+       "color": "rgb(52, 119, 63)",
+       "bg": null,
+       "position": "static",
+       "key": "heading:5 homemade healthy snacks"
+      },
+      {
+       "role": "text",
+       "tag": "p",
+       "sel": "p",
+       "text": "don’t wait until you feel famished to relieve those hunger p",
+       "boxed": false,
+       "x": 0,
+       "y": 296,
+       "w": 282,
+       "h": 52,
+       "absY": 2558,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "text:don’t wait until you feel famished to re"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 516,
+       "y": 1830,
+       "w": 393,
+       "h": 337
+      },
+      "eds": {
+       "x": 20,
+       "y": 2262,
+       "w": 305,
+       "h": 352
+      },
+      "dx": -496,
+      "dy": 432,
+      "dw": -88,
+      "dh": 15
+     },
+     "summary": {
+      "elements": 4,
+      "within": 0,
+      "off": 2,
+      "hidden": 0,
+      "missing": 2,
+      "extra": 4,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.article-main__related.container__tight > div.article-item__grid > div.article-item.is-layout-3"
+     },
+     "eds": {
+      "path": "div.related.block > div.related-grid > div.related-card"
+     },
+     "rows": [
+      {
+       "key": "image:peach, pear & plum smoothie",
+       "role": "image",
+       "text": "peach, pear & plum smoothie",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245
+       },
+       "eds": {
+        "x": 0,
+        "y": 183,
+        "w": 305,
+        "h": 22,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 183,
+       "dw": -88,
+       "dh": -223,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:a.article-item__url#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 225,
+        "w": 393,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 183,
+        "w": 305,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -42,
+       "dw": -88,
+       "dh": -3,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "link",
+       "tag": "a",
+       "sel": "a.article-item__content",
+       "text": "peach, pear & plum smoothie",
+       "boxed": false,
+       "x": 0,
+       "y": 245,
+       "w": 393,
+       "h": 54,
+       "absY": 2075,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "link:peach, pear & plum smoothie"
+      },
+      {
+       "role": "heading",
+       "tag": "h2",
+       "sel": "h2.article-item__title",
+       "text": "peach, pear & plum smoothie",
+       "boxed": false,
+       "x": 0,
+       "y": 261,
+       "w": 393,
+       "h": 38,
+       "absY": 2091,
+       "hidden": false,
+       "fs": 25,
+       "lh": 38,
+       "fw": "700",
+       "color": "rgb(52, 119, 63)",
+       "bg": null,
+       "position": "static",
+       "key": "heading:peach, pear & plum smoothie"
+      }
+     ],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "hazelnut coffee smoothie",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 305,
+       "h": 200,
+       "absY": 2664,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:hazelnut coffee smoothie"
+      },
+      {
+       "role": "link",
+       "tag": "a",
+       "sel": "a.related-card-link",
+       "text": "hazelnut coffee smoothie",
+       "boxed": false,
+       "x": 0,
+       "y": 200,
+       "w": 305,
+       "h": 54,
+       "absY": 2864,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "link:hazelnut coffee smoothie"
+      },
+      {
+       "role": "heading",
+       "tag": "h3",
+       "sel": "h3#hazelnut-coffee-smoothie",
+       "text": "hazelnut coffee smoothie",
+       "boxed": false,
+       "x": 0,
+       "y": 216,
+       "w": 305,
+       "h": 38,
+       "absY": 2880,
+       "hidden": false,
+       "fs": 25,
+       "lh": 38,
+       "fw": "700",
+       "color": "rgb(52, 119, 63)",
+       "bg": null,
+       "position": "static",
+       "key": "heading:hazelnut coffee smoothie"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 939,
+       "y": 1830,
+       "w": 393,
+       "h": 299
+      },
+      "eds": {
+       "x": 20,
+       "y": 2664,
+       "w": 305,
+       "h": 254
+      },
+      "dx": -919,
+      "dy": 834,
+      "dw": -88,
+      "dh": -45
+     },
+     "summary": {
+      "elements": 4,
+      "within": 0,
+      "off": 2,
+      "hidden": 0,
+      "missing": 2,
+      "extra": 3,
+      "unitOff": true
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".instagram__blocks .instagram__item=.social-strip__grid .social-tile, .social-strip .social-strip-grid .social-tile",
+   "family": null,
+   "required": true,
+   "originMatches": 5,
+   "edsMatches": 5,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand"
+     },
+     "eds": {
+      "path": "div.social-strip.block > div.social-strip-grid > a.social-tile"
+     },
+     "rows": [
+      {
+       "key": "image:<p>advanced magnesium glycinate</p>",
+       "role": "image",
+       "text": "<p>advanced magnesium glycinate</p>",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 315,
+        "h": 315,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 44,
+       "dh": 44,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "advanced magnesium glycinate",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 315,
+       "h": 315,
+       "absY": 3391,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:advanced magnesium glycinate"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 21,
+       "y": 2577,
+       "w": 271,
+       "h": 271
+      },
+      "eds": {
+       "x": 15,
+       "y": 3391,
+       "w": 315,
+       "h": 315
+      },
+      "dx": -6,
+      "dy": 814,
+      "dw": 44,
+      "dh": 44
+     },
+     "summary": {
+      "elements": 1,
+      "within": 0,
+      "off": 1,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand"
+     },
+     "eds": {
+      "path": "div.social-strip.block > div.social-strip-grid > a.social-tile"
+     },
+     "rows": [
+      {
+       "key": "image:<p>hair growth capsules</p>",
+       "role": "image",
+       "text": "<p>hair growth capsules</p>",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 150,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -121,
+       "dh": -121,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "hair growth capsules",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 150,
+       "h": 150,
+       "absY": 3721,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:hair growth capsules"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 299,
+       "y": 2577,
+       "w": 271,
+       "h": 271
+      },
+      "eds": {
+       "x": 15,
+       "y": 3721,
+       "w": 150,
+       "h": 150
+      },
+      "dx": -284,
+      "dy": 1144,
+      "dw": -121,
+      "dh": -121
+     },
+     "summary": {
+      "elements": 1,
+      "within": 0,
+      "off": 1,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand"
+     },
+     "eds": {
+      "path": "div.social-strip.block > div.social-strip-grid > a.social-tile"
+     },
+     "rows": [
+      {
+       "key": "image:<p>super b-complex</p>",
+       "role": "image",
+       "text": "<p>super b-complex</p>",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 150,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -121,
+       "dh": -121,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "super b-complex",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 150,
+       "h": 150,
+       "absY": 3721,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:super b-complex"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 577,
+       "y": 2577,
+       "w": 271,
+       "h": 271
+      },
+      "eds": {
+       "x": 180,
+       "y": 3721,
+       "w": 150,
+       "h": 150
+      },
+      "dx": -397,
+      "dy": 1144,
+      "dw": -121,
+      "dh": -121
+     },
+     "summary": {
+      "elements": 1,
+      "within": 0,
+      "off": 1,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand"
+     },
+     "eds": {
+      "path": "div.social-strip.block > div.social-strip-grid > a.social-tile"
+     },
+     "rows": [
+      {
+       "key": "image:<p>vitamin c</p>",
+       "role": "image",
+       "text": "<p>vitamin c</p>",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 150,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -121,
+       "dh": -121,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "vitamin c",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 150,
+       "h": 150,
+       "absY": 3886,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:vitamin c"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 855,
+       "y": 2577,
+       "w": 271,
+       "h": 271
+      },
+      "eds": {
+       "x": 15,
+       "y": 3886,
+       "w": 150,
+       "h": 150
+      },
+      "dx": -840,
+      "dy": 1309,
+      "dw": -121,
+      "dh": -121
+     },
+     "summary": {
+      "elements": 1,
+      "within": 0,
+      "off": 1,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand"
+     },
+     "eds": {
+      "path": "div.social-strip.block > div.social-strip-grid > a.social-tile"
+     },
+     "rows": [
+      {
+       "key": "image:<p>advanced hair, skin + nails pectin gu",
+       "role": "image",
+       "text": "<p>advanced hair, skin + nails pectin gummy</p>",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 150,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -121,
+       "dh": -121,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "advanced hair, skin + nails pectin gummy",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 150,
+       "h": 150,
+       "absY": 3886,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:advanced hair, skin + nails pectin gummy"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 1133,
+       "y": 2577,
+       "w": 271,
+       "h": 271
+      },
+      "eds": {
+       "x": 180,
+       "y": 3886,
+       "w": 150,
+       "h": 150
+      },
+      "dx": -953,
+      "dy": 1309,
+      "dw": -121,
+      "dh": -121
+     },
+     "summary": {
+      "elements": 1,
+      "within": 0,
+      "off": 1,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": true
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".article-main__content-recipe .article-main__text ul > li=.recipe__text ul > li, .recipe .recipe-text ul > li",
+   "family": null,
+   "required": true,
+   "originMatches": 7,
+   "edsMatches": 7,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.article-main__text.rte > ul > li"
+     },
+     "eds": {
+      "path": "div.recipe-text > ul > li"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 125,
+       "y": 1040,
+       "w": 788,
+       "h": 30
+      },
+      "eds": {
+       "x": 45,
+       "y": 948,
+       "w": 280,
+       "h": 30
+      },
+      "dx": -80,
+      "dy": -92,
+      "dw": -508,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.article-main__text.rte > ul > li"
+     },
+     "eds": {
+      "path": "div.recipe-text > ul > li"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 125,
+       "y": 1070,
+       "w": 788,
+       "h": 30
+      },
+      "eds": {
+       "x": 45,
+       "y": 978,
+       "w": 280,
+       "h": 30
+      },
+      "dx": -80,
+      "dy": -92,
+      "dw": -508,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.article-main__text.rte > ul > li"
+     },
+     "eds": {
+      "path": "div.recipe-text > ul > li"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 125,
+       "y": 1100,
+       "w": 788,
+       "h": 30
+      },
+      "eds": {
+       "x": 45,
+       "y": 1008,
+       "w": 280,
+       "h": 30
+      },
+      "dx": -80,
+      "dy": -92,
+      "dw": -508,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.article-main__text.rte > ul > li"
+     },
+     "eds": {
+      "path": "div.recipe-text > ul > li"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 125,
+       "y": 1130,
+       "w": 788,
+       "h": 30
+      },
+      "eds": {
+       "x": 45,
+       "y": 1038,
+       "w": 280,
+       "h": 30
+      },
+      "dx": -80,
+      "dy": -92,
+      "dw": -508,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div.article-main__text.rte > ul > li"
+     },
+     "eds": {
+      "path": "div.recipe-text > ul > li"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 125,
+       "y": 1160,
+       "w": 788,
+       "h": 30
+      },
+      "eds": {
+       "x": 45,
+       "y": 1068,
+       "w": 280,
+       "h": 30
+      },
+      "dx": -80,
+      "dy": -92,
+      "dw": -508,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 5,
+     "origin": {
+      "path": "div.article-main__text.rte > ul > li"
+     },
+     "eds": {
+      "path": "div.recipe-text > ul > li"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 125,
+       "y": 1190,
+       "w": 788,
+       "h": 30
+      },
+      "eds": {
+       "x": 45,
+       "y": 1098,
+       "w": 280,
+       "h": 30
+      },
+      "dx": -80,
+      "dy": -92,
+      "dw": -508,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 14,
+  "within": 0,
+  "off": 11,
+  "hidden": 0,
+  "missing": 6,
+  "errors": 0,
+  "requiredOff": 17
+ }
+}

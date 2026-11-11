@@ -1,0 +1,1459 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-11T06:08:55.603Z",
+  "tol": 4,
+  "n": 6,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://naturesbounty.com/blogs/recipes/peanut-butter-and-jelly-protein-shake",
+  "at": "2026-11-11T03:09:15.505Z",
+  "docH": 3597
+ },
+ "eds": {
+  "url": "https://main--1a676f95--aemcoder.aem.page/blogs/recipes/peanut-butter-and-jelly-protein-shake",
+  "at": "2026-11-11T06:08:55.473Z",
+  "docH": 5655
+ },
+ "results": [
+  {
+   "sel": ".article-main__related .article-item=.related .related-card",
+   "family": null,
+   "required": true,
+   "originMatches": 3,
+   "edsMatches": 3,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.article-main__related.container__tight > div.article-item__grid > div.article-item.is-layout-3"
+     },
+     "eds": {
+      "path": "div.related.block > div.related-grid > div.related-card"
+     },
+     "rows": [
+      {
+       "key": "image:quinoa apple cake",
+       "role": "image",
+       "text": "quinoa apple cake",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245
+       },
+       "eds": {
+        "x": 0,
+        "y": 183,
+        "w": 305,
+        "h": 22,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 183,
+       "dw": -88,
+       "dh": -223,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:a.article-item__url#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 225,
+        "w": 393,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 183,
+        "w": 305,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -42,
+       "dw": -88,
+       "dh": -3,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "text:the holidays are filled with family, fes",
+       "role": "text",
+       "text": "the holidays are filled with family, festivities and an abun",
+       "edsText": "check out this indulgent recipe for red velvet cupcakes that",
+       "byPosition": true,
+       "origin": {
+        "x": 0,
+        "y": 301,
+        "w": 381,
+        "h": 55
+       },
+       "eds": {
+        "x": 0,
+        "y": 334,
+        "w": 302,
+        "h": 82,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 33,
+       "dw": -79,
+       "dh": 27,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "link",
+       "tag": "a",
+       "sel": "a.article-item__content",
+       "text": "quinoa apple cake the holidays are filled with family, festi",
+       "boxed": false,
+       "x": 0,
+       "y": 245,
+       "w": 393,
+       "h": 114,
+       "absY": 1751,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "link:quinoa apple cake the holidays are fille"
+      },
+      {
+       "role": "heading",
+       "tag": "h2",
+       "sel": "h2.article-item__title",
+       "text": "quinoa apple cake",
+       "boxed": false,
+       "x": 0,
+       "y": 261,
+       "w": 393,
+       "h": 38,
+       "absY": 1767,
+       "hidden": false,
+       "fs": 25,
+       "lh": 38,
+       "fw": "700",
+       "color": "rgb(52, 119, 63)",
+       "bg": null,
+       "position": "static",
+       "key": "heading:quinoa apple cake"
+      }
+     ],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "red velvet protein cupcakes with greek yogurt frosting",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 305,
+       "h": 200,
+       "absY": 1538,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:red velvet protein cupcakes with greek y"
+      },
+      {
+       "role": "link",
+       "tag": "a",
+       "sel": "a.related-card-link",
+       "text": "red velvet protein cupcakes with greek yogurt frosting check",
+       "boxed": false,
+       "x": 0,
+       "y": 200,
+       "w": 305,
+       "h": 220,
+       "absY": 1738,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "link:red velvet protein cupcakes with greek y"
+      },
+      {
+       "role": "heading",
+       "tag": "h3",
+       "sel": "h3#red-velvet-protein-cupcakes-with-greek-yogurt-frosting",
+       "text": "red velvet protein cupcakes with greek yogurt frosting",
+       "boxed": false,
+       "x": 0,
+       "y": 216,
+       "w": 305,
+       "h": 114,
+       "absY": 1754,
+       "hidden": false,
+       "fs": 25,
+       "lh": 38,
+       "fw": "700",
+       "color": "rgb(52, 119, 63)",
+       "bg": null,
+       "position": "static",
+       "key": "heading:red velvet protein cupcakes with greek y"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 93,
+       "y": 1506,
+       "w": 393,
+       "h": 359
+      },
+      "eds": {
+       "x": 20,
+       "y": 1538,
+       "w": 305,
+       "h": 420
+      },
+      "dx": -73,
+      "dy": 32,
+      "dw": -88,
+      "dh": 61
+     },
+     "summary": {
+      "elements": 5,
+      "within": 0,
+      "off": 3,
+      "hidden": 0,
+      "missing": 2,
+      "extra": 3,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.article-main__related.container__tight > div.article-item__grid > div.article-item.is-layout-3"
+     },
+     "eds": {
+      "path": "div.related.block > div.related-grid > div.related-card"
+     },
+     "rows": [
+      {
+       "key": "image:protein “s’mores” bowl",
+       "role": "image",
+       "text": "protein “s’mores” bowl",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245
+       },
+       "eds": {
+        "x": 0,
+        "y": 183,
+        "w": 305,
+        "h": 22,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 183,
+       "dw": -88,
+       "dh": -223,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:a.article-item__url#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 225,
+        "w": 393,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 183,
+        "w": 305,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -42,
+       "dw": -88,
+       "dh": -3,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "link",
+       "tag": "a",
+       "sel": "a.article-item__content",
+       "text": "protein “s’mores” bowl",
+       "boxed": false,
+       "x": 0,
+       "y": 245,
+       "w": 393,
+       "h": 54,
+       "absY": 1751,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "link:protein “s’mores” bowl"
+      },
+      {
+       "role": "heading",
+       "tag": "h2",
+       "sel": "h2.article-item__title",
+       "text": "protein “s’mores” bowl",
+       "boxed": false,
+       "x": 0,
+       "y": 261,
+       "w": 393,
+       "h": 38,
+       "absY": 1767,
+       "hidden": false,
+       "fs": 25,
+       "lh": 38,
+       "fw": "700",
+       "color": "rgb(52, 119, 63)",
+       "bg": null,
+       "position": "static",
+       "key": "heading:protein “s’mores” bowl"
+      }
+     ],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "quinoa, avocado & black bean salad",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 305,
+       "h": 200,
+       "absY": 2008,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:quinoa, avocado & black bean salad"
+      },
+      {
+       "role": "link",
+       "tag": "a",
+       "sel": "a.related-card-link",
+       "text": "quinoa, avocado & black bean salad try this delicious, low s",
+       "boxed": false,
+       "x": 0,
+       "y": 200,
+       "w": 305,
+       "h": 152,
+       "absY": 2208,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "link:quinoa, avocado & black bean salad try t"
+      },
+      {
+       "role": "heading",
+       "tag": "h3",
+       "sel": "h3#quinoa-avocado--black-bean-salad",
+       "text": "quinoa, avocado & black bean salad",
+       "boxed": false,
+       "x": 0,
+       "y": 216,
+       "w": 305,
+       "h": 76,
+       "absY": 2224,
+       "hidden": false,
+       "fs": 25,
+       "lh": 38,
+       "fw": "700",
+       "color": "rgb(52, 119, 63)",
+       "bg": null,
+       "position": "static",
+       "key": "heading:quinoa, avocado & black bean salad"
+      },
+      {
+       "role": "text",
+       "tag": "p",
+       "sel": "p",
+       "text": "try this delicious, low sodium summer recipe!",
+       "boxed": false,
+       "x": 0,
+       "y": 296,
+       "w": 296,
+       "h": 52,
+       "absY": 2304,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "text:try this delicious, low sodium summer re"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 516,
+       "y": 1506,
+       "w": 393,
+       "h": 299
+      },
+      "eds": {
+       "x": 20,
+       "y": 2008,
+       "w": 305,
+       "h": 352
+      },
+      "dx": -496,
+      "dy": 502,
+      "dw": -88,
+      "dh": 53
+     },
+     "summary": {
+      "elements": 4,
+      "within": 0,
+      "off": 2,
+      "hidden": 0,
+      "missing": 2,
+      "extra": 4,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.article-main__related.container__tight > div.article-item__grid > div.article-item.is-layout-3"
+     },
+     "eds": {
+      "path": "div.related.block > div.related-grid > div.related-card"
+     },
+     "rows": [
+      {
+       "key": "image:protein packed pumpkin bread",
+       "role": "image",
+       "text": "protein packed pumpkin bread",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245
+       },
+       "eds": {
+        "x": 0,
+        "y": 183,
+        "w": 305,
+        "h": 22,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 183,
+       "dw": -88,
+       "dh": -223,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:a.article-item__url#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 225,
+        "w": 393,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 183,
+        "w": 305,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -42,
+       "dw": -88,
+       "dh": -3,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "link",
+       "tag": "a",
+       "sel": "a.article-item__content",
+       "text": "protein packed pumpkin bread",
+       "boxed": false,
+       "x": 0,
+       "y": 245,
+       "w": 393,
+       "h": 54,
+       "absY": 1751,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "link:protein packed pumpkin bread"
+      },
+      {
+       "role": "heading",
+       "tag": "h2",
+       "sel": "h2.article-item__title",
+       "text": "protein packed pumpkin bread",
+       "boxed": false,
+       "x": 0,
+       "y": 261,
+       "w": 393,
+       "h": 38,
+       "absY": 1767,
+       "hidden": false,
+       "fs": 25,
+       "lh": 38,
+       "fw": "700",
+       "color": "rgb(52, 119, 63)",
+       "bg": null,
+       "position": "static",
+       "key": "heading:protein packed pumpkin bread"
+      }
+     ],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "quinoa apple cake",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 305,
+       "h": 200,
+       "absY": 2410,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:quinoa apple cake"
+      },
+      {
+       "role": "link",
+       "tag": "a",
+       "sel": "a.related-card-link",
+       "text": "quinoa apple cake the holidays are filled with family, festi",
+       "boxed": false,
+       "x": 0,
+       "y": 200,
+       "w": 305,
+       "h": 144,
+       "absY": 2610,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "link:quinoa apple cake the holidays are fille"
+      },
+      {
+       "role": "heading",
+       "tag": "h3",
+       "sel": "h3#quinoa-apple-cake",
+       "text": "quinoa apple cake",
+       "boxed": false,
+       "x": 0,
+       "y": 216,
+       "w": 305,
+       "h": 38,
+       "absY": 2626,
+       "hidden": false,
+       "fs": 25,
+       "lh": 38,
+       "fw": "700",
+       "color": "rgb(52, 119, 63)",
+       "bg": null,
+       "position": "static",
+       "key": "heading:quinoa apple cake"
+      },
+      {
+       "role": "text",
+       "tag": "p",
+       "sel": "p",
+       "text": "the holidays are filled with family, festivities and an abun",
+       "boxed": false,
+       "x": 0,
+       "y": 258,
+       "w": 290,
+       "h": 82,
+       "absY": 2668,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "text:the holidays are filled with family, fes"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 939,
+       "y": 1506,
+       "w": 393,
+       "h": 299
+      },
+      "eds": {
+       "x": 20,
+       "y": 2410,
+       "w": 305,
+       "h": 344
+      },
+      "dx": -919,
+      "dy": 904,
+      "dw": -88,
+      "dh": 45
+     },
+     "summary": {
+      "elements": 4,
+      "within": 0,
+      "off": 2,
+      "hidden": 0,
+      "missing": 2,
+      "extra": 4,
+      "unitOff": true
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".instagram__blocks .instagram__item=.social-strip__grid .social-tile, .social-strip .social-strip-grid .social-tile",
+   "family": null,
+   "required": true,
+   "originMatches": 5,
+   "edsMatches": 5,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand"
+     },
+     "eds": {
+      "path": "div.social-strip.block > div.social-strip-grid > a.social-tile"
+     },
+     "rows": [
+      {
+       "key": "image:<p>advanced magnesium glycinate</p>",
+       "role": "image",
+       "text": "<p>advanced magnesium glycinate</p>",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 315,
+        "h": 315,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 44,
+       "dh": 44,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "advanced magnesium glycinate",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 315,
+       "h": 315,
+       "absY": 3227,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:advanced magnesium glycinate"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 21,
+       "y": 2275,
+       "w": 271,
+       "h": 271
+      },
+      "eds": {
+       "x": 15,
+       "y": 3227,
+       "w": 315,
+       "h": 315
+      },
+      "dx": -6,
+      "dy": 952,
+      "dw": 44,
+      "dh": 44
+     },
+     "summary": {
+      "elements": 1,
+      "within": 0,
+      "off": 1,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand"
+     },
+     "eds": {
+      "path": "div.social-strip.block > div.social-strip-grid > a.social-tile"
+     },
+     "rows": [
+      {
+       "key": "image:<p>hair growth capsules</p>",
+       "role": "image",
+       "text": "<p>hair growth capsules</p>",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 150,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -121,
+       "dh": -121,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "hair growth capsules",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 150,
+       "h": 150,
+       "absY": 3557,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:hair growth capsules"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 299,
+       "y": 2275,
+       "w": 271,
+       "h": 271
+      },
+      "eds": {
+       "x": 15,
+       "y": 3557,
+       "w": 150,
+       "h": 150
+      },
+      "dx": -284,
+      "dy": 1282,
+      "dw": -121,
+      "dh": -121
+     },
+     "summary": {
+      "elements": 1,
+      "within": 0,
+      "off": 1,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand"
+     },
+     "eds": {
+      "path": "div.social-strip.block > div.social-strip-grid > a.social-tile"
+     },
+     "rows": [
+      {
+       "key": "image:<p>super b-complex</p>",
+       "role": "image",
+       "text": "<p>super b-complex</p>",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 150,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -121,
+       "dh": -121,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "super b-complex",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 150,
+       "h": 150,
+       "absY": 3557,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:super b-complex"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 577,
+       "y": 2275,
+       "w": 271,
+       "h": 271
+      },
+      "eds": {
+       "x": 180,
+       "y": 3557,
+       "w": 150,
+       "h": 150
+      },
+      "dx": -397,
+      "dy": 1282,
+      "dw": -121,
+      "dh": -121
+     },
+     "summary": {
+      "elements": 1,
+      "within": 0,
+      "off": 1,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand"
+     },
+     "eds": {
+      "path": "div.social-strip.block > div.social-strip-grid > a.social-tile"
+     },
+     "rows": [
+      {
+       "key": "image:<p>vitamin c</p>",
+       "role": "image",
+       "text": "<p>vitamin c</p>",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 150,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -121,
+       "dh": -121,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "vitamin c",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 150,
+       "h": 150,
+       "absY": 3722,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:vitamin c"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 855,
+       "y": 2275,
+       "w": 271,
+       "h": 271
+      },
+      "eds": {
+       "x": 15,
+       "y": 3722,
+       "w": 150,
+       "h": 150
+      },
+      "dx": -840,
+      "dy": 1447,
+      "dw": -121,
+      "dh": -121
+     },
+     "summary": {
+      "elements": 1,
+      "within": 0,
+      "off": 1,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand"
+     },
+     "eds": {
+      "path": "div.social-strip.block > div.social-strip-grid > a.social-tile"
+     },
+     "rows": [
+      {
+       "key": "image:<p>advanced hair, skin + nails pectin gu",
+       "role": "image",
+       "text": "<p>advanced hair, skin + nails pectin gummy</p>",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 150,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -121,
+       "dh": -121,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "advanced hair, skin + nails pectin gummy",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 150,
+       "h": 150,
+       "absY": 3722,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:advanced hair, skin + nails pectin gummy"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 1133,
+       "y": 2275,
+       "w": 271,
+       "h": 271
+      },
+      "eds": {
+       "x": 180,
+       "y": 3722,
+       "w": 150,
+       "h": 150
+      },
+      "dx": -953,
+      "dy": 1447,
+      "dw": -121,
+      "dh": -121
+     },
+     "summary": {
+      "elements": 1,
+      "within": 0,
+      "off": 1,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": true
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".article-main__content-recipe .article-main__text ul > li=.recipe__text ul > li, .recipe .recipe-text ul > li",
+   "family": null,
+   "required": true,
+   "originMatches": 5,
+   "edsMatches": 5,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.article-main__text.rte > ul > li"
+     },
+     "eds": {
+      "path": "div.recipe-text > ul > li"
+     },
+     "rows": [
+      {
+       "key": "text:®",
+       "role": "text",
+       "text": "®",
+       "edsText": "®",
+       "byPosition": false,
+       "origin": {
+        "x": 217,
+        "y": 0,
+        "w": 9,
+        "h": 15
+       },
+       "eds": {
+        "x": 219,
+        "y": 1,
+        "w": 6,
+        "h": 13,
+        "sel": "sup",
+        "role": "text"
+       },
+       "dx": 2,
+       "dy": 1,
+       "dw": -3,
+       "dh": -2,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "11/30/500",
+        "eds": "11/30/500"
+       }
+      },
+      {
+       "key": "link:vanilla complete protein & vitamin shake",
+       "role": "link",
+       "text": "vanilla complete protein & vitamin shake mix",
+       "edsText": "vanilla complete protein & vitamin shake mix",
+       "byPosition": false,
+       "origin": {
+        "x": 229,
+        "y": 2,
+        "w": 364,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 34,
+        "w": 214,
+        "h": 52,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": -229,
+       "dy": 32,
+       "dw": -150,
+       "dh": 27,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/700",
+        "eds": "18/30/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 125,
+       "y": 962,
+       "w": 788,
+       "h": 30
+      },
+      "eds": {
+       "x": 45,
+       "y": 704,
+       "w": 280,
+       "h": 90
+      },
+      "dx": -80,
+      "dy": -258,
+      "dw": -508,
+      "dh": 60
+     },
+     "summary": {
+      "elements": 2,
+      "within": 1,
+      "off": 1,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.article-main__text.rte > ul > li"
+     },
+     "eds": {
+      "path": "div.recipe-text > ul > li"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 125,
+       "y": 992,
+       "w": 788,
+       "h": 30
+      },
+      "eds": {
+       "x": 45,
+       "y": 794,
+       "w": 280,
+       "h": 30
+      },
+      "dx": -80,
+      "dy": -198,
+      "dw": -508,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.article-main__text.rte > ul > li"
+     },
+     "eds": {
+      "path": "div.recipe-text > ul > li"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 125,
+       "y": 1022,
+       "w": 788,
+       "h": 30
+      },
+      "eds": {
+       "x": 45,
+       "y": 824,
+       "w": 280,
+       "h": 30
+      },
+      "dx": -80,
+      "dy": -198,
+      "dw": -508,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.article-main__text.rte > ul > li"
+     },
+     "eds": {
+      "path": "div.recipe-text > ul > li"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 125,
+       "y": 1052,
+       "w": 788,
+       "h": 30
+      },
+      "eds": {
+       "x": 45,
+       "y": 854,
+       "w": 280,
+       "h": 30
+      },
+      "dx": -80,
+      "dy": -198,
+      "dw": -508,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div.article-main__text.rte > ul > li"
+     },
+     "eds": {
+      "path": "div.recipe-text > ul > li"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 125,
+       "y": 1082,
+       "w": 788,
+       "h": 30
+      },
+      "eds": {
+       "x": 45,
+       "y": 884,
+       "w": 280,
+       "h": 30
+      },
+      "dx": -80,
+      "dy": -198,
+      "dw": -508,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 13,
+  "within": 1,
+  "off": 13,
+  "hidden": 0,
+  "missing": 6,
+  "errors": 0,
+  "requiredOff": 19
+ }
+}

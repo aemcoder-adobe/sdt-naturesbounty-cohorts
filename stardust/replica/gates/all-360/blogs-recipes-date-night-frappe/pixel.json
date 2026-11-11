@@ -1,0 +1,77 @@
+{
+  "a": "stardust/replica/gates/all-360/blogs-recipes-date-night-frappe/origin.png",
+  "b": "stardust/replica/gates/all-360/blogs-recipes-date-night-frappe/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 5251,
+    "mode": "overlap"
+  },
+  "heightDelta": 179,
+  "differingPixels": 607561,
+  "pct": 32.14,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-360/blogs-recipes-date-night-frappe/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 21.54,
+  "textBoxes": 84,
+  "textPixels": 333937,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 2.1
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 5.4
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 19
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 43.4
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 54.8
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 67.9
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 71.5
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 51.7
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 6.3
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 9
+    },
+    {
+      "y0": 5000,
+      "y1": 5251,
+      "pct": 12.7
+    }
+  ]
+}

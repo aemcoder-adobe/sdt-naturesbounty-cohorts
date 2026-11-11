@@ -1,0 +1,82 @@
+{
+  "a": "stardust/replica/gates/all-1440/blogs-news-the-step-by-step-guide-for-your-daily-skincare-routine/origin.png",
+  "b": "stardust/replica/gates/all-1440/blogs-news-the-step-by-step-guide-for-your-daily-skincare-routine/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 5629,
+    "mode": "overlap"
+  },
+  "heightDelta": 84,
+  "differingPixels": 1301155,
+  "pct": 16.05,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-1440/blogs-news-the-step-by-step-guide-for-your-daily-skincare-routine/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 17.67,
+  "textBoxes": 214,
+  "textPixels": 1549825,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.8
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 3.9
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 7.2
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 6.4
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 6.1
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 5.6
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 16.4
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 33.1
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 49.6
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 40.5
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 9.5
+    },
+    {
+      "y0": 5500,
+      "y1": 5629,
+      "pct": 6.3
+    }
+  ]
+}

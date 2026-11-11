@@ -1,0 +1,1290 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-11T05:46:08.331Z",
+  "tol": 4,
+  "n": 5,
+  "width": 1440,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://naturesbounty.com/blogs/news/what-women-need-to-know-about-detecting-breast-cancer-early-an-interview-with-susan-brown-m-s-r-n-at-susan-g-komen%C2%AE",
+  "at": "2026-11-11T03:57:41.267Z",
+  "docH": 6100
+ },
+ "eds": {
+  "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/what-women-need-to-know-about-detecting-breast-cancer-early-an-interview-with-susan-brown-m-s-r-n-at-susan-g-komen-c2-ae",
+  "at": "2026-11-11T05:46:08.227Z",
+  "docH": 5710
+ },
+ "results": [
+  {
+   "sel": ".article-main__related .article-item=.related .related-card",
+   "family": null,
+   "required": true,
+   "originMatches": 3,
+   "edsMatches": 3,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.article-main__related.container__tight > div.article-item__grid > div.article-item.is-layout-3"
+     },
+     "eds": {
+      "path": "div.related.block > div.related-grid > div.related-card"
+     },
+     "rows": [
+      {
+       "key": "image:why magnesium matters more than ever",
+       "role": "image",
+       "text": "why magnesium matters more than ever",
+       "edsText": "why magnesium matters more than ever",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:a.article-item__url#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 225,
+        "w": 393,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 228,
+        "w": 393,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 3,
+       "dw": 0,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:why magnesium matters more than ever",
+       "role": "link",
+       "text": "why magnesium matters more than ever",
+       "edsText": "why magnesium matters more than ever",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 245,
+        "w": 393,
+        "h": 92
+       },
+       "eds": {
+        "x": 0,
+        "y": 245,
+        "w": 393,
+        "h": 92,
+        "sel": "a.related-card-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "heading:why magnesium matters more than ever",
+       "role": "heading",
+       "text": "why magnesium matters more than ever",
+       "edsText": "why magnesium matters more than ever",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 261,
+        "w": 393,
+        "h": 76
+       },
+       "eds": {
+        "x": 0,
+        "y": 261,
+        "w": 393,
+        "h": 76,
+        "sel": "h3#why-magnesium-matters-more-than-ever",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "25/38/700",
+        "eds": "25/38/700"
+       }
+      },
+      {
+       "key": "link:magnesium has always been an essential m",
+       "role": "link",
+       "text": "magnesium has always been an essential mineral, but lately, ",
+       "edsText": "magnesium has always been an essential mineral, but lately, ",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 357,
+        "w": 377,
+        "h": 85
+       },
+       "eds": {
+        "x": 0,
+        "y": 359,
+        "w": 384,
+        "h": 52,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 2,
+       "dw": 7,
+       "dh": -33,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 228,
+       "w": 393,
+       "h": 22,
+       "absY": 3705,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 93,
+       "y": 3855,
+       "w": 393,
+       "h": 463
+      },
+      "eds": {
+       "x": 93,
+       "y": 3477,
+       "w": 393,
+       "h": 433
+      },
+      "dx": 0,
+      "dy": -378,
+      "dw": 0,
+      "dh": -30
+     },
+     "summary": {
+      "elements": 5,
+      "within": 4,
+      "off": 1,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.article-main__related.container__tight > div.article-item__grid > div.article-item.is-layout-3"
+     },
+     "eds": {
+      "path": "div.related.block > div.related-grid > div.related-card"
+     },
+     "rows": [
+      {
+       "key": "image:how to choose the right probiotic for da",
+       "role": "image",
+       "text": "how to choose the right probiotic for daily support",
+       "edsText": "how to choose the right probiotic for daily support",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:a.article-item__url#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 225,
+        "w": 393,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 228,
+        "w": 393,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 3,
+       "dw": 0,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:how to choose the right probiotic for da",
+       "role": "link",
+       "text": "how to choose the right probiotic for daily support",
+       "edsText": "how to choose the right probiotic for daily support",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 245,
+        "w": 393,
+        "h": 92
+       },
+       "eds": {
+        "x": 0,
+        "y": 245,
+        "w": 393,
+        "h": 92,
+        "sel": "a.related-card-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "heading:how to choose the right probiotic for da",
+       "role": "heading",
+       "text": "how to choose the right probiotic for daily support",
+       "edsText": "how to choose the right probiotic for daily support",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 261,
+        "w": 393,
+        "h": 76
+       },
+       "eds": {
+        "x": 0,
+        "y": 261,
+        "w": 393,
+        "h": 76,
+        "sel": "h3#how-to-choose-the-right-probiotic-for-daily-support",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "25/38/700",
+        "eds": "25/38/700"
+       }
+      },
+      {
+       "key": "link:support your gut health routine with tip",
+       "role": "link",
+       "text": "support your gut health routine with tips for choosing a pro",
+       "edsText": "support your gut health routine with tips for choosing a pro",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 357,
+        "w": 368,
+        "h": 85
+       },
+       "eds": {
+        "x": 0,
+        "y": 359,
+        "w": 367,
+        "h": 82,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 2,
+       "dw": -1,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 228,
+       "w": 393,
+       "h": 22,
+       "absY": 3705,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 516,
+       "y": 3855,
+       "w": 393,
+       "h": 463
+      },
+      "eds": {
+       "x": 516,
+       "y": 3477,
+       "w": 393,
+       "h": 463
+      },
+      "dx": 0,
+      "dy": -378,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.article-main__related.container__tight > div.article-item__grid > div.article-item.is-layout-3"
+     },
+     "eds": {
+      "path": "div.related.block > div.related-grid > div.related-card"
+     },
+     "rows": [
+      {
+       "key": "image:what are ceramides and why they matter m",
+       "role": "image",
+       "text": "what are ceramides and why they matter more as skin ages",
+       "edsText": "what are ceramides and why they matter more as skin ages",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:a.article-item__url#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 225,
+        "w": 393,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 228,
+        "w": 393,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 3,
+       "dw": 0,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:age defying skin renewal",
+       "role": "link",
+       "text": "age defying skin renewal",
+       "edsText": "age defying skin renewal",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 265,
+        "w": 182,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 265,
+        "w": 189,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 7,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "text:|",
+       "role": "text",
+       "text": "|",
+       "edsText": "|",
+       "byPosition": false,
+       "origin": {
+        "x": 187,
+        "y": 265,
+        "w": 3,
+        "h": 30
+       },
+       "eds": {
+        "x": 194,
+        "y": 265,
+        "w": 3,
+        "h": 30,
+        "sel": "span.related-card-sep",
+        "role": "text"
+       },
+       "dx": 7,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "link:hair",
+       "role": "link",
+       "text": "hair",
+       "edsText": "hair",
+       "byPosition": false,
+       "origin": {
+        "x": 195,
+        "y": 265,
+        "w": 30,
+        "h": 30
+       },
+       "eds": {
+        "x": 203,
+        "y": 265,
+        "w": 32,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 8,
+       "dy": 0,
+       "dw": 2,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "link:nails",
+       "role": "link",
+       "text": "nails",
+       "edsText": "nails",
+       "byPosition": false,
+       "origin": {
+        "x": 238,
+        "y": 265,
+        "w": 36,
+        "h": 30
+       },
+       "eds": {
+        "x": 248,
+        "y": 265,
+        "w": 39,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 10,
+       "dy": 0,
+       "dw": 3,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "link:what are ceramides and why they matter m",
+       "role": "link",
+       "text": "what are ceramides and why they matter more as skin ages",
+       "edsText": "what are ceramides and why they matter more as skin ages",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 295,
+        "w": 393,
+        "h": 92
+       },
+       "eds": {
+        "x": 0,
+        "y": 295,
+        "w": 393,
+        "h": 92,
+        "sel": "a.related-card-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "heading:what are ceramides and why they matter m",
+       "role": "heading",
+       "text": "what are ceramides and why they matter more as skin ages",
+       "edsText": "what are ceramides and why they matter more as skin ages",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 311,
+        "w": 393,
+        "h": 76
+       },
+       "eds": {
+        "x": 0,
+        "y": 311,
+        "w": 393,
+        "h": 76,
+        "sel": "h3#what-are-ceramides-and-why-they-matter-more-as-skin-ages",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "25/38/700",
+        "eds": "25/38/700"
+       }
+      },
+      {
+       "key": "link:ceramides are essential to healthy, yout",
+       "role": "link",
+       "text": "ceramides are essential to healthy, youthful-looking skin, a",
+       "edsText": "ceramides are essential to healthy, youthful-looking skin, a",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 407,
+        "w": 358,
+        "h": 85
+       },
+       "eds": {
+        "x": 0,
+        "y": 409,
+        "w": 388,
+        "h": 82,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 2,
+       "dw": 30,
+       "dh": -3,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 228,
+       "w": 393,
+       "h": 22,
+       "absY": 3705,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 939,
+       "y": 3855,
+       "w": 393,
+       "h": 513
+      },
+      "eds": {
+       "x": 939,
+       "y": 3477,
+       "w": 393,
+       "h": 513
+      },
+      "dx": 0,
+      "dy": -378,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 9,
+      "within": 4,
+      "off": 5,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".article-main__products-grid .product-item=.product-rail__grid .product-card, .product-rail .product-rail-grid .product-card",
+   "family": null,
+   "required": true,
+   "originMatches": 0,
+   "edsMatches": 0,
+   "units": [],
+   "error": "no visible unit on the origin side (0 / 0 DOM matches)"
+  },
+  {
+   "sel": ".instagram__blocks .instagram__item=.social-strip__grid .social-tile, .social-strip .social-strip-grid .social-tile",
+   "family": null,
+   "required": true,
+   "originMatches": 5,
+   "edsMatches": 5,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand"
+     },
+     "eds": {
+      "path": "div.social-strip.block > div.social-strip-grid > a.social-tile"
+     },
+     "rows": [
+      {
+       "key": "image:<p>advanced magnesium glycinate</p>",
+       "role": "image",
+       "text": "<p>advanced magnesium glycinate</p>",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "advanced magnesium glycinate",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 271,
+       "h": 271,
+       "absY": 4400,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:advanced magnesium glycinate"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 21,
+       "y": 4778,
+       "w": 271,
+       "h": 271
+      },
+      "eds": {
+       "x": 21,
+       "y": 4400,
+       "w": 271,
+       "h": 271
+      },
+      "dx": 0,
+      "dy": -378,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand"
+     },
+     "eds": {
+      "path": "div.social-strip.block > div.social-strip-grid > a.social-tile"
+     },
+     "rows": [
+      {
+       "key": "image:<p>hair growth capsules</p>",
+       "role": "image",
+       "text": "<p>hair growth capsules</p>",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "hair growth capsules",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 271,
+       "h": 271,
+       "absY": 4400,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:hair growth capsules"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 299,
+       "y": 4778,
+       "w": 271,
+       "h": 271
+      },
+      "eds": {
+       "x": 299,
+       "y": 4400,
+       "w": 271,
+       "h": 271
+      },
+      "dx": 0,
+      "dy": -378,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand"
+     },
+     "eds": {
+      "path": "div.social-strip.block > div.social-strip-grid > a.social-tile"
+     },
+     "rows": [
+      {
+       "key": "image:<p>super b-complex</p>",
+       "role": "image",
+       "text": "<p>super b-complex</p>",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "super b-complex",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 271,
+       "h": 271,
+       "absY": 4400,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:super b-complex"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 577,
+       "y": 4778,
+       "w": 271,
+       "h": 271
+      },
+      "eds": {
+       "x": 577,
+       "y": 4400,
+       "w": 271,
+       "h": 271
+      },
+      "dx": 0,
+      "dy": -378,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand"
+     },
+     "eds": {
+      "path": "div.social-strip.block > div.social-strip-grid > a.social-tile"
+     },
+     "rows": [
+      {
+       "key": "image:<p>vitamin c</p>",
+       "role": "image",
+       "text": "<p>vitamin c</p>",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "vitamin c",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 271,
+       "h": 271,
+       "absY": 4400,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:vitamin c"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 855,
+       "y": 4778,
+       "w": 271,
+       "h": 271
+      },
+      "eds": {
+       "x": 855,
+       "y": 4400,
+       "w": 271,
+       "h": 271
+      },
+      "dx": 0,
+      "dy": -378,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand"
+     },
+     "eds": {
+      "path": "div.social-strip.block > div.social-strip-grid > a.social-tile"
+     },
+     "rows": [
+      {
+       "key": "image:<p>advanced hair, skin + nails pectin gu",
+       "role": "image",
+       "text": "<p>advanced hair, skin + nails pectin gummy</p>",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "advanced hair, skin + nails pectin gummy",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 271,
+       "h": 271,
+       "absY": 4400,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:advanced hair, skin + nails pectin gummy"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 1133,
+       "y": 4778,
+       "w": 271,
+       "h": 271
+      },
+      "eds": {
+       "x": 1133,
+       "y": 4400,
+       "w": 271,
+       "h": 271
+      },
+      "dx": 0,
+      "dy": -378,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 8,
+  "within": 18,
+  "off": 6,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 1,
+  "requiredOff": 6
+ }
+}

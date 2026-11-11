@@ -1,0 +1,1498 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-11T06:02:40.190Z",
+  "tol": 4,
+  "n": 6,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://naturesbounty.com/blogs/recipes/banana-walnut-protein-pancakes",
+  "at": "2026-11-11T04:12:53.815Z",
+  "docH": 4187
+ },
+ "eds": {
+  "url": "https://main--1a676f95--aemcoder.aem.page/blogs/recipes/banana-walnut-protein-pancakes",
+  "at": "2026-11-11T06:02:40.072Z",
+  "docH": 6267
+ },
+ "results": [
+  {
+   "sel": ".article-main__related .article-item=.related .related-card",
+   "family": null,
+   "required": true,
+   "originMatches": 3,
+   "edsMatches": 3,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.article-main__related.container__tight > div.article-item__grid > div.article-item.is-layout-3"
+     },
+     "eds": {
+      "path": "div.related.block > div.related-grid > div.related-card"
+     },
+     "rows": [
+      {
+       "key": "image:lean-beef burger with sweet potato fries",
+       "role": "image",
+       "text": "lean-beef burger with sweet potato fries",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245
+       },
+       "eds": {
+        "x": 0,
+        "y": 183,
+        "w": 305,
+        "h": 22,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 183,
+       "dw": -88,
+       "dh": -223,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:a.article-item__url#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 225,
+        "w": 393,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 183,
+        "w": 305,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -42,
+       "dw": -88,
+       "dh": -3,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "link",
+       "tag": "a",
+       "sel": "a.article-item__content",
+       "text": "lean-beef burger with sweet potato fries try this delicious ",
+       "boxed": false,
+       "x": 0,
+       "y": 245,
+       "w": 393,
+       "h": 152,
+       "absY": 2303,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "link:lean-beef burger with sweet potato fries"
+      },
+      {
+       "role": "heading",
+       "tag": "h2",
+       "sel": "h2.article-item__title",
+       "text": "lean-beef burger with sweet potato fries",
+       "boxed": false,
+       "x": 0,
+       "y": 261,
+       "w": 393,
+       "h": 76,
+       "absY": 2319,
+       "hidden": false,
+       "fs": 25,
+       "lh": 38,
+       "fw": "700",
+       "color": "rgb(52, 119, 63)",
+       "bg": null,
+       "position": "static",
+       "key": "heading:lean-beef burger with sweet potato fries"
+      },
+      {
+       "role": "text",
+       "tag": "span",
+       "sel": "span.article-item__excerpt",
+       "text": "try this delicious lean-burger recipe with a side of sweet p",
+       "boxed": false,
+       "x": 0,
+       "y": 339,
+       "w": 374,
+       "h": 55,
+       "absY": 2397,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "text:try this delicious lean-burger recipe wi"
+      }
+     ],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "oatmeal cookie shake",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 305,
+       "h": 200,
+       "absY": 2346,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:oatmeal cookie shake"
+      },
+      {
+       "role": "link",
+       "tag": "a",
+       "sel": "a.related-card-link",
+       "text": "oatmeal cookie shake delicious nature's bounty® optimal solu",
+       "boxed": false,
+       "x": 0,
+       "y": 200,
+       "w": 305,
+       "h": 114,
+       "absY": 2546,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "link:oatmeal cookie shake delicious nature's "
+      },
+      {
+       "role": "heading",
+       "tag": "h3",
+       "sel": "h3#oatmeal-cookie-shake",
+       "text": "oatmeal cookie shake",
+       "boxed": false,
+       "x": 0,
+       "y": 216,
+       "w": 305,
+       "h": 38,
+       "absY": 2562,
+       "hidden": false,
+       "fs": 25,
+       "lh": 38,
+       "fw": "700",
+       "color": "rgb(52, 119, 63)",
+       "bg": null,
+       "position": "static",
+       "key": "heading:oatmeal cookie shake"
+      },
+      {
+       "role": "text",
+       "tag": "p",
+       "sel": "p",
+       "text": "delicious nature's bounty® optimal solutions® shake!",
+       "boxed": false,
+       "x": 0,
+       "y": 258,
+       "w": 280,
+       "h": 52,
+       "absY": 2604,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "text:delicious nature's bounty® optimal solut"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 93,
+       "y": 2058,
+       "w": 393,
+       "h": 397
+      },
+      "eds": {
+       "x": 20,
+       "y": 2346,
+       "w": 305,
+       "h": 314
+      },
+      "dx": -73,
+      "dy": 288,
+      "dw": -88,
+      "dh": -83
+     },
+     "summary": {
+      "elements": 5,
+      "within": 0,
+      "off": 2,
+      "hidden": 0,
+      "missing": 3,
+      "extra": 4,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.article-main__related.container__tight > div.article-item__grid > div.article-item.is-layout-3"
+     },
+     "eds": {
+      "path": "div.related.block > div.related-grid > div.related-card"
+     },
+     "rows": [
+      {
+       "key": "image:instant chocolate pancake mix",
+       "role": "image",
+       "text": "instant chocolate pancake mix",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245
+       },
+       "eds": {
+        "x": 0,
+        "y": 183,
+        "w": 305,
+        "h": 22,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 183,
+       "dw": -88,
+       "dh": -223,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:a.article-item__url#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 225,
+        "w": 393,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 183,
+        "w": 305,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -42,
+       "dw": -88,
+       "dh": -3,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "link",
+       "tag": "a",
+       "sel": "a.article-item__content",
+       "text": "instant chocolate pancake mix",
+       "boxed": false,
+       "x": 0,
+       "y": 245,
+       "w": 393,
+       "h": 54,
+       "absY": 2303,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "link:instant chocolate pancake mix"
+      },
+      {
+       "role": "heading",
+       "tag": "h2",
+       "sel": "h2.article-item__title",
+       "text": "instant chocolate pancake mix",
+       "boxed": false,
+       "x": 0,
+       "y": 261,
+       "w": 393,
+       "h": 38,
+       "absY": 2319,
+       "hidden": false,
+       "fs": 25,
+       "lh": 38,
+       "fw": "700",
+       "color": "rgb(52, 119, 63)",
+       "bg": null,
+       "position": "static",
+       "key": "heading:instant chocolate pancake mix"
+      }
+     ],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "mango berry cloud",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 305,
+       "h": 200,
+       "absY": 2710,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:mango berry cloud"
+      },
+      {
+       "role": "link",
+       "tag": "a",
+       "sel": "a.related-card-link",
+       "text": "mango berry cloud",
+       "boxed": false,
+       "x": 0,
+       "y": 200,
+       "w": 305,
+       "h": 54,
+       "absY": 2910,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "link:mango berry cloud"
+      },
+      {
+       "role": "heading",
+       "tag": "h3",
+       "sel": "h3#mango-berry-cloud",
+       "text": "mango berry cloud",
+       "boxed": false,
+       "x": 0,
+       "y": 216,
+       "w": 305,
+       "h": 38,
+       "absY": 2926,
+       "hidden": false,
+       "fs": 25,
+       "lh": 38,
+       "fw": "700",
+       "color": "rgb(52, 119, 63)",
+       "bg": null,
+       "position": "static",
+       "key": "heading:mango berry cloud"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 516,
+       "y": 2058,
+       "w": 393,
+       "h": 299
+      },
+      "eds": {
+       "x": 20,
+       "y": 2710,
+       "w": 305,
+       "h": 254
+      },
+      "dx": -496,
+      "dy": 652,
+      "dw": -88,
+      "dh": -45
+     },
+     "summary": {
+      "elements": 4,
+      "within": 0,
+      "off": 2,
+      "hidden": 0,
+      "missing": 2,
+      "extra": 3,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.article-main__related.container__tight > div.article-item__grid > div.article-item.is-layout-3"
+     },
+     "eds": {
+      "path": "div.related.block > div.related-grid > div.related-card"
+     },
+     "rows": [
+      {
+       "key": "image:heart friendly kettle popcorn",
+       "role": "image",
+       "text": "heart friendly kettle popcorn",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245
+       },
+       "eds": {
+        "x": 0,
+        "y": 183,
+        "w": 305,
+        "h": 22,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 183,
+       "dw": -88,
+       "dh": -223,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:a.article-item__url#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 225,
+        "w": 393,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 183,
+        "w": 305,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -42,
+       "dw": -88,
+       "dh": -3,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "text:when prepared without the excess salt an",
+       "role": "text",
+       "text": "when prepared without the excess salt and butter, popcorn ca",
+       "edsText": "try this delicious lean-burger recipe with a side of sweet p",
+       "byPosition": true,
+       "origin": {
+        "x": 0,
+        "y": 301,
+        "w": 369,
+        "h": 55
+       },
+       "eds": {
+        "x": 0,
+        "y": 296,
+        "w": 280,
+        "h": 52,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -5,
+       "dw": -89,
+       "dh": -3,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "link",
+       "tag": "a",
+       "sel": "a.article-item__content",
+       "text": "heart friendly kettle popcorn when prepared without the exce",
+       "boxed": false,
+       "x": 0,
+       "y": 245,
+       "w": 393,
+       "h": 114,
+       "absY": 2303,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "link:heart friendly kettle popcorn when prepa"
+      },
+      {
+       "role": "heading",
+       "tag": "h2",
+       "sel": "h2.article-item__title",
+       "text": "heart friendly kettle popcorn",
+       "boxed": false,
+       "x": 0,
+       "y": 261,
+       "w": 393,
+       "h": 38,
+       "absY": 2319,
+       "hidden": false,
+       "fs": 25,
+       "lh": 38,
+       "fw": "700",
+       "color": "rgb(52, 119, 63)",
+       "bg": null,
+       "position": "static",
+       "key": "heading:heart friendly kettle popcorn"
+      }
+     ],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "lean-beef burger with sweet potato fries",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 305,
+       "h": 200,
+       "absY": 3014,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:lean-beef burger with sweet potato fries"
+      },
+      {
+       "role": "link",
+       "tag": "a",
+       "sel": "a.related-card-link",
+       "text": "lean-beef burger with sweet potato fries try this delicious ",
+       "boxed": false,
+       "x": 0,
+       "y": 200,
+       "w": 305,
+       "h": 152,
+       "absY": 3214,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "link:lean-beef burger with sweet potato fries"
+      },
+      {
+       "role": "heading",
+       "tag": "h3",
+       "sel": "h3#lean-beef-burger-with-sweet-potato-fries",
+       "text": "lean-beef burger with sweet potato fries",
+       "boxed": false,
+       "x": 0,
+       "y": 216,
+       "w": 305,
+       "h": 76,
+       "absY": 3230,
+       "hidden": false,
+       "fs": 25,
+       "lh": 38,
+       "fw": "700",
+       "color": "rgb(52, 119, 63)",
+       "bg": null,
+       "position": "static",
+       "key": "heading:lean-beef burger with sweet potato fries"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 939,
+       "y": 2058,
+       "w": 393,
+       "h": 359
+      },
+      "eds": {
+       "x": 20,
+       "y": 3014,
+       "w": 305,
+       "h": 352
+      },
+      "dx": -919,
+      "dy": 956,
+      "dw": -88,
+      "dh": -7
+     },
+     "summary": {
+      "elements": 5,
+      "within": 0,
+      "off": 3,
+      "hidden": 0,
+      "missing": 2,
+      "extra": 3,
+      "unitOff": true
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".instagram__blocks .instagram__item=.social-strip__grid .social-tile, .social-strip .social-strip-grid .social-tile",
+   "family": null,
+   "required": true,
+   "originMatches": 5,
+   "edsMatches": 5,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand"
+     },
+     "eds": {
+      "path": "div.social-strip.block > div.social-strip-grid > a.social-tile"
+     },
+     "rows": [
+      {
+       "key": "image:<p>advanced magnesium glycinate</p>",
+       "role": "image",
+       "text": "<p>advanced magnesium glycinate</p>",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 315,
+        "h": 315,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 44,
+       "dh": 44,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "advanced magnesium glycinate",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 315,
+       "h": 315,
+       "absY": 3839,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:advanced magnesium glycinate"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 21,
+       "y": 2865,
+       "w": 271,
+       "h": 271
+      },
+      "eds": {
+       "x": 15,
+       "y": 3839,
+       "w": 315,
+       "h": 315
+      },
+      "dx": -6,
+      "dy": 974,
+      "dw": 44,
+      "dh": 44
+     },
+     "summary": {
+      "elements": 1,
+      "within": 0,
+      "off": 1,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand"
+     },
+     "eds": {
+      "path": "div.social-strip.block > div.social-strip-grid > a.social-tile"
+     },
+     "rows": [
+      {
+       "key": "image:<p>hair growth capsules</p>",
+       "role": "image",
+       "text": "<p>hair growth capsules</p>",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 150,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -121,
+       "dh": -121,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "hair growth capsules",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 150,
+       "h": 150,
+       "absY": 4169,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:hair growth capsules"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 299,
+       "y": 2865,
+       "w": 271,
+       "h": 271
+      },
+      "eds": {
+       "x": 15,
+       "y": 4169,
+       "w": 150,
+       "h": 150
+      },
+      "dx": -284,
+      "dy": 1304,
+      "dw": -121,
+      "dh": -121
+     },
+     "summary": {
+      "elements": 1,
+      "within": 0,
+      "off": 1,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand"
+     },
+     "eds": {
+      "path": "div.social-strip.block > div.social-strip-grid > a.social-tile"
+     },
+     "rows": [
+      {
+       "key": "image:<p>super b-complex</p>",
+       "role": "image",
+       "text": "<p>super b-complex</p>",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 150,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -121,
+       "dh": -121,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "super b-complex",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 150,
+       "h": 150,
+       "absY": 4169,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:super b-complex"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 577,
+       "y": 2865,
+       "w": 271,
+       "h": 271
+      },
+      "eds": {
+       "x": 180,
+       "y": 4169,
+       "w": 150,
+       "h": 150
+      },
+      "dx": -397,
+      "dy": 1304,
+      "dw": -121,
+      "dh": -121
+     },
+     "summary": {
+      "elements": 1,
+      "within": 0,
+      "off": 1,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand"
+     },
+     "eds": {
+      "path": "div.social-strip.block > div.social-strip-grid > a.social-tile"
+     },
+     "rows": [
+      {
+       "key": "image:<p>vitamin c</p>",
+       "role": "image",
+       "text": "<p>vitamin c</p>",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 150,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -121,
+       "dh": -121,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "vitamin c",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 150,
+       "h": 150,
+       "absY": 4334,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:vitamin c"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 855,
+       "y": 2865,
+       "w": 271,
+       "h": 271
+      },
+      "eds": {
+       "x": 15,
+       "y": 4334,
+       "w": 150,
+       "h": 150
+      },
+      "dx": -840,
+      "dy": 1469,
+      "dw": -121,
+      "dh": -121
+     },
+     "summary": {
+      "elements": 1,
+      "within": 0,
+      "off": 1,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand"
+     },
+     "eds": {
+      "path": "div.social-strip.block > div.social-strip-grid > a.social-tile"
+     },
+     "rows": [
+      {
+       "key": "image:<p>advanced hair, skin + nails pectin gu",
+       "role": "image",
+       "text": "<p>advanced hair, skin + nails pectin gummy</p>",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 150,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -121,
+       "dh": -121,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "advanced hair, skin + nails pectin gummy",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 150,
+       "h": 150,
+       "absY": 4334,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:advanced hair, skin + nails pectin gummy"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 1133,
+       "y": 2865,
+       "w": 271,
+       "h": 271
+      },
+      "eds": {
+       "x": 180,
+       "y": 4334,
+       "w": 150,
+       "h": 150
+      },
+      "dx": -953,
+      "dy": 1469,
+      "dw": -121,
+      "dh": -121
+     },
+     "summary": {
+      "elements": 1,
+      "within": 0,
+      "off": 1,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": true
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".article-main__content-recipe .article-main__text ul > li=.recipe__text ul > li, .recipe .recipe-text ul > li",
+   "family": null,
+   "required": true,
+   "originMatches": 12,
+   "edsMatches": 12,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.article-main__text.rte > ul > li"
+     },
+     "eds": {
+      "path": "div.recipe-text > ul > li"
+     },
+     "rows": [
+      {
+       "key": "text:®",
+       "role": "text",
+       "text": "®",
+       "edsText": "®",
+       "byPosition": false,
+       "origin": {
+        "x": 217,
+        "y": 0,
+        "w": 9,
+        "h": 15
+       },
+       "eds": {
+        "x": 219,
+        "y": 1,
+        "w": 6,
+        "h": 13,
+        "sel": "sup",
+        "role": "text"
+       },
+       "dx": 2,
+       "dy": 1,
+       "dw": -3,
+       "dh": -2,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "11/30/500",
+        "eds": "11/30/500"
+       }
+      },
+      {
+       "key": "link:vanilla complete protein & vitamin shake",
+       "role": "link",
+       "text": "vanilla complete protein & vitamin shake mix",
+       "edsText": "vanilla complete protein & vitamin shake mix",
+       "byPosition": false,
+       "origin": {
+        "x": 229,
+        "y": 2,
+        "w": 364,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 34,
+        "w": 214,
+        "h": 52,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": -229,
+       "dy": 32,
+       "dw": -150,
+       "dh": 27,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/700",
+        "eds": "18/30/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 125,
+       "y": 980,
+       "w": 788,
+       "h": 30
+      },
+      "eds": {
+       "x": 45,
+       "y": 738,
+       "w": 280,
+       "h": 90
+      },
+      "dx": -80,
+      "dy": -242,
+      "dw": -508,
+      "dh": 60
+     },
+     "summary": {
+      "elements": 2,
+      "within": 1,
+      "off": 1,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.article-main__text.rte > ul > li"
+     },
+     "eds": {
+      "path": "div.recipe-text > ul > li"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 125,
+       "y": 1010,
+       "w": 788,
+       "h": 30
+      },
+      "eds": {
+       "x": 45,
+       "y": 828,
+       "w": 280,
+       "h": 60
+      },
+      "dx": -80,
+      "dy": -182,
+      "dw": -508,
+      "dh": 30
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.article-main__text.rte > ul > li"
+     },
+     "eds": {
+      "path": "div.recipe-text > ul > li"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 125,
+       "y": 1040,
+       "w": 788,
+       "h": 30
+      },
+      "eds": {
+       "x": 45,
+       "y": 888,
+       "w": 280,
+       "h": 30
+      },
+      "dx": -80,
+      "dy": -152,
+      "dw": -508,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.article-main__text.rte > ul > li"
+     },
+     "eds": {
+      "path": "div.recipe-text > ul > li"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 125,
+       "y": 1070,
+       "w": 788,
+       "h": 30
+      },
+      "eds": {
+       "x": 45,
+       "y": 918,
+       "w": 280,
+       "h": 30
+      },
+      "dx": -80,
+      "dy": -152,
+      "dw": -508,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div.article-main__text.rte > ul > li"
+     },
+     "eds": {
+      "path": "div.recipe-text > ul > li"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 125,
+       "y": 1100,
+       "w": 788,
+       "h": 30
+      },
+      "eds": {
+       "x": 45,
+       "y": 948,
+       "w": 280,
+       "h": 30
+      },
+      "dx": -80,
+      "dy": -152,
+      "dw": -508,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 5,
+     "origin": {
+      "path": "div.article-main__text.rte > ul > li"
+     },
+     "eds": {
+      "path": "div.recipe-text > ul > li"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 125,
+       "y": 1130,
+       "w": 788,
+       "h": 30
+      },
+      "eds": {
+       "x": 45,
+       "y": 978,
+       "w": 280,
+       "h": 30
+      },
+      "dx": -80,
+      "dy": -152,
+      "dw": -508,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 14,
+  "within": 1,
+  "off": 13,
+  "hidden": 0,
+  "missing": 7,
+  "errors": 0,
+  "requiredOff": 20
+ }
+}

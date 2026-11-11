@@ -1,0 +1,84 @@
+{
+  "a": "stardust/replica/gates/all-360/blogs-recipes-peach-pear-and-plum-smoothie/origin.png",
+  "b": "stardust/replica/gates/all-360/blogs-recipes-peach-pear-and-plum-smoothie/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 5405,
+    "mode": "overlap"
+  },
+  "heightDelta": 123,
+  "differingPixels": 359643,
+  "pct": 24.86,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-360/blogs-recipes-peach-pear-and-plum-smoothie/diff.png",
+  "masks": [
+    {
+      "yA": 1416,
+      "h": 1387,
+      "yB": 1416
+    }
+  ],
+  "maskedRows": 1387,
+  "textPct": 22.17,
+  "textBoxes": 94,
+  "textPixels": 240974,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 1.8
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 7.8
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 13.9
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 22.5
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 66.5
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 54.6
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 15.1
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 6.9
+    },
+    {
+      "y0": 5000,
+      "y1": 5405,
+      "pct": 13.2
+    }
+  ],
+  "maskReason": "server-rotated 'More recipes' row"
+}

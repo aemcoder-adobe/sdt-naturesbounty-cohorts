@@ -15,5 +15,707 @@
       "tailDh": 12,
       "at": "2026-11-11T02:20:03.676Z"
     }
+  },
+  "blogs-recipes-peach-pear-and-plum-smoothie": {
+    "verdict": "PASS (documented override)",
+    "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 2.74% (above 1428px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 2141 / eds 2028), tail Δh 12px",
+    "evidence": {
+      "pct": 2.74,
+      "align": "landmark",
+      "origin": [
+        1441,
+        2141
+      ],
+      "eds": [
+        1428,
+        2028
+      ],
+      "tailDh": 12,
+      "at": "2026-11-11T03:35:52.870Z"
+    }
+  },
+  "blogs-recipes-hazelnut-coffee-smoothie": {
+    "verdict": "PASS (documented override)",
+    "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 2.76% (above 1398px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 2149 / eds 2036), tail Δh 12px",
+    "evidence": {
+      "pct": 2.76,
+      "align": "landmark",
+      "origin": [
+        1411,
+        2149
+      ],
+      "eds": [
+        1398,
+        2036
+      ],
+      "tailDh": 12,
+      "at": "2026-11-11T03:35:53.743Z"
+    }
+  },
+  "blogs-recipes-mango-berry-cloud": {
+    "verdict": "PASS (documented override)",
+    "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 2.73% (above 1398px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 2141 / eds 2036), tail Δh 12px",
+    "evidence": {
+      "pct": 2.73,
+      "align": "landmark",
+      "origin": [
+        1411,
+        2141
+      ],
+      "eds": [
+        1398,
+        2036
+      ],
+      "tailDh": 12,
+      "at": "2026-11-11T03:35:54.660Z"
+    }
+  },
+  "blogs-recipes-pina-colada-protein-shake": {
+    "verdict": "PASS (documented override)",
+    "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 2.12% (above 1316px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 2016 / eds 2084), tail Δh 12px",
+    "evidence": {
+      "pct": 2.12,
+      "align": "landmark",
+      "origin": [
+        1316,
+        2016
+      ],
+      "eds": [
+        1416,
+        2084
+      ],
+      "tailDh": 12,
+      "at": "2026-11-11T03:35:55.557Z"
+    }
+  },
+  "blogs-recipes-peanut-butter-and-jelly-protein-shake": {
+    "verdict": "PASS (documented override)",
+    "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 2.11% (above 1406px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 2106 / eds 2174), tail Δh 12px",
+    "evidence": {
+      "pct": 2.11,
+      "align": "landmark",
+      "origin": [
+        1406,
+        2106
+      ],
+      "eds": [
+        1506,
+        2174
+      ],
+      "tailDh": 12,
+      "at": "2026-11-11T03:35:56.473Z"
+    }
+  },
+  "blogs-recipes-protein-smores-bowl": {
+    "verdict": "PASS (documented override)",
+    "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 2.13% (above 1502px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 2202 / eds 2232), tail Δh 12px",
+    "evidence": {
+      "pct": 2.13,
+      "align": "landmark",
+      "origin": [
+        1502,
+        2202
+      ],
+      "eds": [
+        1602,
+        2232
+      ],
+      "tailDh": 12,
+      "at": "2026-11-11T03:35:57.543Z"
+    }
+  },
+  "blogs-recipes-instant-chocolate-pancake-mix": {
+    "verdict": "PASS (documented override)",
+    "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 2.46% (above 2054px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 2754 / eds 2802), tail Δh 12px",
+    "evidence": {
+      "pct": 2.46,
+      "align": "landmark",
+      "origin": [
+        2054,
+        2754
+      ],
+      "eds": [
+        2172,
+        2802
+      ],
+      "tailDh": 12,
+      "at": "2026-11-11T03:35:58.546Z"
+    }
+  },
+  "blogs-recipes-protein-french-toast": {
+    "verdict": "PASS (documented override)",
+    "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 2.81% (above 2028px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 2719 / eds 2636), tail Δh 12px",
+    "evidence": {
+      "pct": 2.81,
+      "align": "landmark",
+      "origin": [
+        2041,
+        2719
+      ],
+      "eds": [
+        2028,
+        2636
+      ],
+      "tailDh": 12,
+      "at": "2026-11-11T03:35:59.445Z"
+    }
+  },
+  "blogs-recipes-protein-packed-pumpkin-bread": {
+    "verdict": "PASS (documented override)",
+    "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 2.77% (above 1770px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 2491 / eds 2378), tail Δh 12px",
+    "evidence": {
+      "pct": 2.77,
+      "align": "landmark",
+      "origin": [
+        1783,
+        2491
+      ],
+      "eds": [
+        1770,
+        2378
+      ],
+      "tailDh": 12,
+      "at": "2026-11-11T03:36:00.345Z"
+    }
+  },
+  "blogs-recipes-vegan-chocolate-peanut-butter-vitamin-smoothie": {
+    "verdict": "PASS (documented override)",
+    "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 3.66% (above 1896px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 2664 / eds 2496), tail Δh 12px",
+    "evidence": {
+      "pct": 3.66,
+      "align": "landmark",
+      "origin": [
+        1964,
+        2664
+      ],
+      "eds": [
+        1896,
+        2496
+      ],
+      "tailDh": 12,
+      "at": "2026-11-11T03:36:01.260Z"
+    }
+  },
+  "blogs-recipes-oatmeal-cookie-shake": {
+    "verdict": "PASS (documented override)",
+    "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 2.57% (above 1556px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 2234 / eds 2264), tail Δh 12px",
+    "evidence": {
+      "pct": 2.57,
+      "align": "landmark",
+      "origin": [
+        1556,
+        2234
+      ],
+      "eds": [
+        1626,
+        2264
+      ],
+      "tailDh": 12,
+      "at": "2026-11-11T03:36:02.083Z"
+    }
+  },
+  "blogs-recipes-red-velvet-protein-cupcakes-with-greek-yogurt-frosting": {
+    "verdict": "PASS (documented override)",
+    "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 2.94% (above 2252px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 2952 / eds 2864), tail Δh 12px",
+    "evidence": {
+      "pct": 2.94,
+      "align": "landmark",
+      "origin": [
+        2252,
+        2952
+      ],
+      "eds": [
+        2256,
+        2864
+      ],
+      "tailDh": 12,
+      "at": "2026-11-11T03:36:02.992Z"
+    }
+  },
+  "blogs-recipes-probiotic-rich-breakfast-bowl": {
+    "verdict": "PASS (documented override)",
+    "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 2.74% (above 1730px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 2498 / eds 2352), tail Δh 12px",
+    "evidence": {
+      "pct": 2.74,
+      "align": "landmark",
+      "origin": [
+        1730,
+        2498
+      ],
+      "eds": [
+        1752,
+        2352
+      ],
+      "tailDh": 12,
+      "at": "2026-11-11T03:36:03.880Z"
+    }
+  },
+  "blogs-recipes-quinoa-apple-cake": {
+    "verdict": "PASS (documented override)",
+    "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 2.62% (above 1914px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 2634 / eds 2552), tail Δh 12px",
+    "evidence": {
+      "pct": 2.62,
+      "align": "landmark",
+      "origin": [
+        1934,
+        2634
+      ],
+      "eds": [
+        1914,
+        2552
+      ],
+      "tailDh": 12,
+      "at": "2026-11-11T03:36:04.845Z"
+    }
+  },
+  "blogs-recipes-lean-beef-burger-with-sweet-potato-fries": {
+    "verdict": "PASS (documented override)",
+    "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 2.74% (above 1830px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 2580 / eds 2408), tail Δh 12px",
+    "evidence": {
+      "pct": 2.74,
+      "align": "landmark",
+      "origin": [
+        1880,
+        2580
+      ],
+      "eds": [
+        1830,
+        2408
+      ],
+      "tailDh": 12,
+      "at": "2026-11-11T03:36:05.855Z"
+    }
+  },
+  "blogs-recipes-crab-stuffed-salmon-with-honey-agave-glaze": {
+    "verdict": "PASS (documented override)",
+    "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 2.99% (above 2010px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 2730 / eds 2610), tail Δh 12px",
+    "evidence": {
+      "pct": 2.99,
+      "align": "landmark",
+      "origin": [
+        2030,
+        2730
+      ],
+      "eds": [
+        2010,
+        2610
+      ],
+      "tailDh": 12,
+      "at": "2026-11-11T03:36:06.923Z"
+    }
+  },
+  "blogs-recipes-quinoa-avocado-and-black-bean-salad": {
+    "verdict": "PASS (documented override)",
+    "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 2.73% (above 1686px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 2436 / eds 2316), tail Δh 12px",
+    "evidence": {
+      "pct": 2.73,
+      "align": "landmark",
+      "origin": [
+        1706,
+        2436
+      ],
+      "eds": [
+        1686,
+        2316
+      ],
+      "tailDh": 12,
+      "at": "2026-11-11T03:36:07.926Z"
+    }
+  },
+  "blogs-recipes-heart-friendly-kettle-popcorn": {
+    "verdict": "PASS (documented override)",
+    "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 3.04% (above 1878px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 2588 / eds 2516), tail Δh 12px",
+    "evidence": {
+      "pct": 3.04,
+      "align": "landmark",
+      "origin": [
+        1888,
+        2588
+      ],
+      "eds": [
+        1878,
+        2516
+      ],
+      "tailDh": 12,
+      "at": "2026-11-11T03:36:09.057Z"
+    }
+  },
+  "blogs-recipes-healthy-snacks": {
+    "verdict": "PASS (documented override)",
+    "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 3.1% (above 1746px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 2670 / eds 2346), tail Δh 12px",
+    "evidence": {
+      "pct": 3.1,
+      "align": "landmark",
+      "origin": [
+        1940,
+        2670
+      ],
+      "eds": [
+        1746,
+        2346
+      ],
+      "tailDh": 12,
+      "at": "2026-11-11T03:36:10.280Z"
+    }
+  },
+  "blogs-recipes-grilled-chicken-with-strawberry-and-pineapple-salsa": {
+    "verdict": "PASS (documented override)",
+    "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 2.91% (above 1920px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 2798 / eds 2528), tail Δh 12px",
+    "evidence": {
+      "pct": 2.91,
+      "align": "landmark",
+      "origin": [
+        2060,
+        2798
+      ],
+      "eds": [
+        1920,
+        2528
+      ],
+      "tailDh": 12,
+      "at": "2026-11-11T03:36:11.258Z"
+    }
+  },
+  "blogs-recipes-green-smoothie-your-daily-dose-of-greens": {
+    "verdict": "PASS (documented override)",
+    "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 2.67% (above 1526px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 2256 / eds 2132), tail Δh 12px",
+    "evidence": {
+      "pct": 2.67,
+      "align": "landmark",
+      "origin": [
+        1526,
+        2256
+      ],
+      "eds": [
+        1554,
+        2132
+      ],
+      "tailDh": 12,
+      "at": "2026-11-11T04:13:54.181Z"
+    }
+  },
+  "blogs-recipes-golden-milk-recipe-with-turmeric": {
+    "verdict": "PASS (documented override)",
+    "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 2.95% (above 1762px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 2530 / eds 2408), tail Δh 12px",
+    "evidence": {
+      "pct": 2.95,
+      "align": "landmark",
+      "origin": [
+        1762,
+        2530
+      ],
+      "eds": [
+        1770,
+        2408
+      ],
+      "tailDh": 12,
+      "at": "2026-11-11T04:13:55.078Z"
+    }
+  },
+  "blogs-recipes-frozen-greek-yogurt-sundae": {
+    "verdict": "PASS (documented override)",
+    "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 2.18% (above 1532px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 2240 / eds 2232), tail Δh 12px",
+    "evidence": {
+      "pct": 2.18,
+      "align": "landmark",
+      "origin": [
+        1532,
+        2240
+      ],
+      "eds": [
+        1632,
+        2232
+      ],
+      "tailDh": 12,
+      "at": "2026-11-11T04:13:55.897Z"
+    }
+  },
+  "blogs-recipes-delicious-bedtime-smoothie": {
+    "verdict": "PASS (documented override)",
+    "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 2.97% (above 1734px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 2498 / eds 2402), tail Δh 12px",
+    "evidence": {
+      "pct": 2.97,
+      "align": "landmark",
+      "origin": [
+        1820,
+        2498
+      ],
+      "eds": [
+        1734,
+        2402
+      ],
+      "tailDh": 12,
+      "at": "2026-11-11T04:13:56.742Z"
+    }
+  },
+  "blogs-recipes-date-night-frappe": {
+    "verdict": "PASS (documented override)",
+    "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 2.01% (above 1316px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 1956 / eds 2016), tail Δh 12px",
+    "evidence": {
+      "pct": 2.01,
+      "align": "landmark",
+      "origin": [
+        1316,
+        1956
+      ],
+      "eds": [
+        1416,
+        2016
+      ],
+      "tailDh": 12,
+      "at": "2026-11-11T04:13:57.552Z"
+    }
+  },
+  "blogs-recipes-crustless-cranberry-pie-recipe": {
+    "verdict": "PASS (documented override)",
+    "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 3.25% (above 2226px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 3025 / eds 2834), tail Δh 12px",
+    "evidence": {
+      "pct": 3.25,
+      "align": "landmark",
+      "origin": [
+        2295,
+        3025
+      ],
+      "eds": [
+        2226,
+        2834
+      ],
+      "tailDh": 12,
+      "at": "2026-11-11T04:13:58.499Z"
+    }
+  },
+  "blogs-recipes-creamy-spinach-artichoke-dip": {
+    "verdict": "PASS (documented override)",
+    "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 2.63% (above 1716px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 2550 / eds 2346), tail Δh 12px",
+    "evidence": {
+      "pct": 2.63,
+      "align": "landmark",
+      "origin": [
+        1850,
+        2550
+      ],
+      "eds": [
+        1716,
+        2346
+      ],
+      "tailDh": 12,
+      "at": "2026-11-11T04:13:59.350Z"
+    }
+  },
+  "blogs-recipes-chocolate-tropical-paradise": {
+    "verdict": "PASS (documented override)",
+    "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 2.08% (above 1346px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 2046 / eds 2046), tail Δh 12px",
+    "evidence": {
+      "pct": 2.08,
+      "align": "landmark",
+      "origin": [
+        1346,
+        2046
+      ],
+      "eds": [
+        1446,
+        2046
+      ],
+      "tailDh": 12,
+      "at": "2026-11-11T04:14:00.232Z"
+    }
+  },
+  "blogs-recipes-chocolate-pudding": {
+    "verdict": "PASS (documented override)",
+    "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 2.86% (above 1994px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 2724 / eds 2694), tail Δh 12px",
+    "evidence": {
+      "pct": 2.86,
+      "align": "landmark",
+      "origin": [
+        1994,
+        2724
+      ],
+      "eds": [
+        2064,
+        2694
+      ],
+      "tailDh": 12,
+      "at": "2026-11-11T04:14:01.173Z"
+    }
+  },
+  "blogs-recipes-chocolate-peanut-butter-protein-oats": {
+    "verdict": "PASS (documented override)",
+    "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 2.14% (above 1592px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 2300 / eds 2330), tail Δh 12px",
+    "evidence": {
+      "pct": 2.14,
+      "align": "landmark",
+      "origin": [
+        1592,
+        2300
+      ],
+      "eds": [
+        1692,
+        2330
+      ],
+      "tailDh": 12,
+      "at": "2026-11-11T04:14:02.067Z"
+    }
+  },
+  "blogs-recipes-chocolate-peaches": {
+    "verdict": "PASS (documented override)",
+    "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 2.04% (above 1316px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 2016 / eds 2016), tail Δh 12px",
+    "evidence": {
+      "pct": 2.04,
+      "align": "landmark",
+      "origin": [
+        1316,
+        2016
+      ],
+      "eds": [
+        1416,
+        2016
+      ],
+      "tailDh": 12,
+      "at": "2026-11-11T04:14:02.831Z"
+    }
+  },
+  "blogs-recipes-chocolate-no-bake-cheesecake": {
+    "verdict": "PASS (documented override)",
+    "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 2.18% (above 1808px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 2538 / eds 2538), tail Δh 12px",
+    "evidence": {
+      "pct": 2.18,
+      "align": "landmark",
+      "origin": [
+        1808,
+        2538
+      ],
+      "eds": [
+        1908,
+        2538
+      ],
+      "tailDh": 12,
+      "at": "2026-11-11T04:14:03.703Z"
+    }
+  },
+  "blogs-recipes-chocolate-milkshake": {
+    "verdict": "PASS (documented override)",
+    "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 2.68% (above 1712px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 2450 / eds 2421), tail Δh 12px",
+    "evidence": {
+      "pct": 2.68,
+      "align": "landmark",
+      "origin": [
+        1712,
+        2450
+      ],
+      "eds": [
+        1821,
+        2421
+      ],
+      "tailDh": 12,
+      "at": "2026-11-11T04:14:04.526Z"
+    }
+  },
+  "blogs-recipes-chocolate-lava-muffins": {
+    "verdict": "PASS (documented override)",
+    "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 2.28% (above 1964px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 2664 / eds 2694), tail Δh 12px",
+    "evidence": {
+      "pct": 2.28,
+      "align": "landmark",
+      "origin": [
+        1964,
+        2664
+      ],
+      "eds": [
+        2064,
+        2694
+      ],
+      "tailDh": 12,
+      "at": "2026-11-11T04:14:05.437Z"
+    }
+  },
+  "blogs-recipes-chocolate-covered-cherry-shake": {
+    "verdict": "PASS (documented override)",
+    "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 2.13% (above 1316px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 2084 / eds 2024), tail Δh 12px",
+    "evidence": {
+      "pct": 2.13,
+      "align": "landmark",
+      "origin": [
+        1316,
+        2084
+      ],
+      "eds": [
+        1416,
+        2024
+      ],
+      "tailDh": 12,
+      "at": "2026-11-11T04:14:06.223Z"
+    }
+  },
+  "blogs-recipes-chocolate-coconut-energy-balls-with-turmeric": {
+    "verdict": "PASS (documented override)",
+    "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 2.78% (above 1784px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 2484 / eds 2424), tail Δh 12px",
+    "evidence": {
+      "pct": 2.78,
+      "align": "landmark",
+      "origin": [
+        1784,
+        2484
+      ],
+      "eds": [
+        1794,
+        2424
+      ],
+      "tailDh": 12,
+      "at": "2026-11-11T04:14:07.098Z"
+    }
+  },
+  "blogs-recipes-breakfast-smoothie": {
+    "verdict": "PASS (documented override)",
+    "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 2% (above 1376px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 2114 / eds 2106), tail Δh 12px",
+    "evidence": {
+      "pct": 2,
+      "align": "landmark",
+      "origin": [
+        1376,
+        2114
+      ],
+      "eds": [
+        1476,
+        2106
+      ],
+      "tailDh": 12,
+      "at": "2026-11-11T04:14:07.908Z"
+    }
+  },
+  "blogs-recipes-blueberry-pancakes": {
+    "verdict": "PASS (documented override)",
+    "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 2.12% (above 1742px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 2442 / eds 2510), tail Δh 12px",
+    "evidence": {
+      "pct": 2.12,
+      "align": "landmark",
+      "origin": [
+        1742,
+        2442
+      ],
+      "eds": [
+        1842,
+        2510
+      ],
+      "tailDh": 12,
+      "at": "2026-11-11T04:14:08.829Z"
+    }
+  },
+  "blogs-recipes-banana-walnut-protein-pancakes": {
+    "verdict": "PASS (documented override)",
+    "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 2.22% (above 1958px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 2666 / eds 2696), tail Δh 12px",
+    "evidence": {
+      "pct": 2.22,
+      "align": "landmark",
+      "origin": [
+        1958,
+        2666
+      ],
+      "eds": [
+        2058,
+        2696
+      ],
+      "tailDh": 12,
+      "at": "2026-11-11T04:14:09.763Z"
+    }
   }
 }

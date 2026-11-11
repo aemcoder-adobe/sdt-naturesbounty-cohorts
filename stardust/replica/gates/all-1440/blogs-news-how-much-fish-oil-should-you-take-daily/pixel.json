@@ -1,0 +1,67 @@
+{
+  "a": "stardust/replica/gates/all-1440/blogs-news-how-much-fish-oil-should-you-take-daily/origin.png",
+  "b": "stardust/replica/gates/all-1440/blogs-news-how-much-fish-oil-should-you-take-daily/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 4368,
+    "mode": "overlap"
+  },
+  "heightDelta": 42,
+  "differingPixels": 626122,
+  "pct": 9.95,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/blogs-news-how-much-fish-oil-should-you-take-daily/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 17.15,
+  "textBoxes": 151,
+  "textPixels": 886883,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 1.7
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 2.9
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 7
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 4.6
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 1.5
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 15.9
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 41
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 7.9
+    },
+    {
+      "y0": 4000,
+      "y1": 4368,
+      "pct": 5.9
+    }
+  ]
+}

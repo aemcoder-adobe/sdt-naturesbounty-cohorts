@@ -1,0 +1,74 @@
+{
+  "a": "stardust/replica/gates/all-1440/blogs-recipes-crab-stuffed-salmon-with-honey-agave-glaze/origin.png",
+  "b": "stardust/replica/gates/all-1440/blogs-recipes-crab-stuffed-salmon-with-honey-agave-glaze/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 4089,
+    "mode": "overlap"
+  },
+  "heightDelta": 132,
+  "differingPixels": 814935,
+  "pct": 16.8,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-1440/blogs-recipes-crab-stuffed-salmon-with-honey-agave-glaze/diff.png",
+  "masks": [
+    {
+      "yA": 2010,
+      "h": 720,
+      "yB": 2010
+    }
+  ],
+  "maskedRows": 720,
+  "textPct": 18.46,
+  "textBoxes": 122,
+  "textPixels": 551101,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 1.7
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 3.7
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 1.9
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 6.5
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 44.1
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 46.4
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 8.1
+    },
+    {
+      "y0": 4000,
+      "y1": 4089,
+      "pct": 4.5
+    }
+  ],
+  "maskReason": "server-rotated 'More recipes' row"
+}

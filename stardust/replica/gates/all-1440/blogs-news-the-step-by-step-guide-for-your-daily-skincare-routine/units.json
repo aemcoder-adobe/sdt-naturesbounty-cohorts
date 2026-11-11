@@ -1,0 +1,2478 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-11T05:56:10.940Z",
+  "tol": 4,
+  "n": 5,
+  "width": 1440,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://naturesbounty.com/blogs/news/the-step-by-step-guide-for-your-daily-skincare-routine",
+  "at": "2026-11-11T04:11:40.355Z",
+  "docH": 5713
+ },
+ "eds": {
+  "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/the-step-by-step-guide-for-your-daily-skincare-routine",
+  "at": "2026-11-11T05:56:10.814Z",
+  "docH": 5629
+ },
+ "results": [
+  {
+   "sel": ".article-main__related .article-item=.related .related-card",
+   "family": null,
+   "required": true,
+   "originMatches": 3,
+   "edsMatches": 3,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.article-main__related.container__tight > div.article-item__grid > div.article-item.is-layout-3"
+     },
+     "eds": {
+      "path": "div.related.block > div.related-grid > div.related-card"
+     },
+     "rows": [
+      {
+       "key": "image:what are ceramides and why they matter m",
+       "role": "image",
+       "text": "what are ceramides and why they matter more as skin ages",
+       "edsText": "what are ceramides and why they matter more as skin ages",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:a.article-item__url#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 225,
+        "w": 393,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 228,
+        "w": 393,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 3,
+       "dw": 0,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:age defying skin renewal",
+       "role": "link",
+       "text": "age defying skin renewal",
+       "edsText": "age defying skin renewal",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 265,
+        "w": 182,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 265,
+        "w": 189,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 7,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "text:|",
+       "role": "text",
+       "text": "|",
+       "edsText": "|",
+       "byPosition": false,
+       "origin": {
+        "x": 187,
+        "y": 265,
+        "w": 3,
+        "h": 30
+       },
+       "eds": {
+        "x": 194,
+        "y": 265,
+        "w": 3,
+        "h": 30,
+        "sel": "span.related-card-sep",
+        "role": "text"
+       },
+       "dx": 7,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "link:hair",
+       "role": "link",
+       "text": "hair",
+       "edsText": "hair",
+       "byPosition": false,
+       "origin": {
+        "x": 195,
+        "y": 265,
+        "w": 30,
+        "h": 30
+       },
+       "eds": {
+        "x": 203,
+        "y": 265,
+        "w": 32,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 8,
+       "dy": 0,
+       "dw": 2,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "link:nails",
+       "role": "link",
+       "text": "nails",
+       "edsText": "nails",
+       "byPosition": false,
+       "origin": {
+        "x": 238,
+        "y": 265,
+        "w": 36,
+        "h": 30
+       },
+       "eds": {
+        "x": 248,
+        "y": 265,
+        "w": 39,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 10,
+       "dy": 0,
+       "dw": 3,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "link:what are ceramides and why they matter m",
+       "role": "link",
+       "text": "what are ceramides and why they matter more as skin ages",
+       "edsText": "what are ceramides and why they matter more as skin ages",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 295,
+        "w": 393,
+        "h": 92
+       },
+       "eds": {
+        "x": 0,
+        "y": 295,
+        "w": 393,
+        "h": 92,
+        "sel": "a.related-card-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "heading:what are ceramides and why they matter m",
+       "role": "heading",
+       "text": "what are ceramides and why they matter more as skin ages",
+       "edsText": "what are ceramides and why they matter more as skin ages",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 311,
+        "w": 393,
+        "h": 76
+       },
+       "eds": {
+        "x": 0,
+        "y": 311,
+        "w": 393,
+        "h": 76,
+        "sel": "h3#what-are-ceramides-and-why-they-matter-more-as-skin-ages",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "25/38/700",
+        "eds": "25/38/700"
+       }
+      },
+      {
+       "key": "link:ceramides are essential to healthy, yout",
+       "role": "link",
+       "text": "ceramides are essential to healthy, youthful-looking skin, a",
+       "edsText": "ceramides are essential to healthy, youthful-looking skin, a",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 407,
+        "w": 358,
+        "h": 85
+       },
+       "eds": {
+        "x": 0,
+        "y": 409,
+        "w": 388,
+        "h": 82,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 2,
+       "dw": 30,
+       "dh": -3,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 228,
+       "w": 393,
+       "h": 22,
+       "absY": 3624,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 93,
+       "y": 3468,
+       "w": 393,
+       "h": 513
+      },
+      "eds": {
+       "x": 93,
+       "y": 3396,
+       "w": 393,
+       "h": 513
+      },
+      "dx": 0,
+      "dy": -72,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 9,
+      "within": 4,
+      "off": 5,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.article-main__related.container__tight > div.article-item__grid > div.article-item.is-layout-3"
+     },
+     "eds": {
+      "path": "div.related.block > div.related-grid > div.related-card"
+     },
+     "rows": [
+      {
+       "key": "image:5 tips to reset your beauty routine this",
+       "role": "image",
+       "text": "5 tips to reset your beauty routine this winter",
+       "edsText": "5 tips to reset your beauty routine this winter",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:a.article-item__url#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 225,
+        "w": 393,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 228,
+        "w": 393,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 3,
+       "dw": 0,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:hair",
+       "role": "link",
+       "text": "hair",
+       "edsText": "hair",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 265,
+        "w": 30,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 265,
+        "w": 32,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 2,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "text:|",
+       "role": "text",
+       "text": "|",
+       "edsText": "|",
+       "byPosition": false,
+       "origin": {
+        "x": 35,
+        "y": 265,
+        "w": 3,
+        "h": 30
+       },
+       "eds": {
+        "x": 37,
+        "y": 265,
+        "w": 3,
+        "h": 30,
+        "sel": "span.related-card-sep",
+        "role": "text"
+       },
+       "dx": 2,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "link:nails",
+       "role": "link",
+       "text": "nails",
+       "edsText": "nails",
+       "byPosition": false,
+       "origin": {
+        "x": 43,
+        "y": 265,
+        "w": 36,
+        "h": 30
+       },
+       "eds": {
+        "x": 45,
+        "y": 265,
+        "w": 39,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 2,
+       "dy": 0,
+       "dw": 3,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "link:skin",
+       "role": "link",
+       "text": "skin",
+       "edsText": "skin",
+       "byPosition": false,
+       "origin": {
+        "x": 92,
+        "y": 265,
+        "w": 29,
+        "h": 30
+       },
+       "eds": {
+        "x": 97,
+        "y": 265,
+        "w": 31,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 5,
+       "dy": 0,
+       "dw": 2,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "link:5 tips to reset your beauty routine this",
+       "role": "link",
+       "text": "5 tips to reset your beauty routine this winter try these ti",
+       "edsText": "5 tips to reset your beauty routine this winter try these ti",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 295,
+        "w": 393,
+        "h": 122
+       },
+       "eds": {
+        "x": 0,
+        "y": 295,
+        "w": 393,
+        "h": 122,
+        "sel": "a.related-card-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "heading:5 tips to reset your beauty routine this",
+       "role": "heading",
+       "text": "5 tips to reset your beauty routine this winter",
+       "edsText": "5 tips to reset your beauty routine this winter",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 311,
+        "w": 393,
+        "h": 76
+       },
+       "eds": {
+        "x": 0,
+        "y": 311,
+        "w": 393,
+        "h": 76,
+        "sel": "h3#tips-to-reset-your-beauty-routine-this-winter",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "25/38/700",
+        "eds": "25/38/700"
+       }
+      },
+      {
+       "key": "text:try these tips to...",
+       "role": "text",
+       "text": "try these tips to...",
+       "edsText": "try these tips to...",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 389,
+        "w": 136,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 391,
+        "w": 138,
+        "h": 22,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 2,
+       "dw": 2,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 228,
+       "w": 393,
+       "h": 22,
+       "absY": 3624,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 516,
+       "y": 3468,
+       "w": 393,
+       "h": 417
+      },
+      "eds": {
+       "x": 516,
+       "y": 3396,
+       "w": 393,
+       "h": 417
+      },
+      "dx": 0,
+      "dy": -72,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 9,
+      "within": 8,
+      "off": 1,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.article-main__related.container__tight > div.article-item__grid > div.article-item.is-layout-3"
+     },
+     "eds": {
+      "path": "div.related.block > div.related-grid > div.related-card"
+     },
+     "rows": [
+      {
+       "key": "image:build beauty from within*—your 2024 vita",
+       "role": "image",
+       "text": "build beauty from within*—your 2024 vitamin routine",
+       "edsText": "build beauty from within*—your 2024 vitamin routine",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:a.article-item__url#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 225,
+        "w": 393,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 228,
+        "w": 393,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 3,
+       "dw": 0,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:hair",
+       "role": "link",
+       "text": "hair",
+       "edsText": "hair",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 265,
+        "w": 30,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 265,
+        "w": 32,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 2,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "text:|",
+       "role": "text",
+       "text": "|",
+       "edsText": "|",
+       "byPosition": false,
+       "origin": {
+        "x": 35,
+        "y": 265,
+        "w": 3,
+        "h": 30
+       },
+       "eds": {
+        "x": 37,
+        "y": 265,
+        "w": 3,
+        "h": 30,
+        "sel": "span.related-card-sep",
+        "role": "text"
+       },
+       "dx": 2,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "link:sleep support",
+       "role": "link",
+       "text": "sleep support",
+       "edsText": "sleep support",
+       "byPosition": false,
+       "origin": {
+        "x": 43,
+        "y": 265,
+        "w": 101,
+        "h": 30
+       },
+       "eds": {
+        "x": 45,
+        "y": 265,
+        "w": 103,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 2,
+       "dy": 0,
+       "dw": 2,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "link:women's health",
+       "role": "link",
+       "text": "women's health",
+       "edsText": "women's health",
+       "byPosition": false,
+       "origin": {
+        "x": 157,
+        "y": 265,
+        "w": 115,
+        "h": 30
+       },
+       "eds": {
+        "x": 161,
+        "y": 265,
+        "w": 120,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 4,
+       "dy": 0,
+       "dw": 5,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "link:build beauty from within*—your 2024 vita",
+       "role": "link",
+       "text": "build beauty from within*—your 2024 vitamin routine let’s ge",
+       "edsText": "build beauty from within*—your 2024 vitamin routine let’s ge",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 295,
+        "w": 393,
+        "h": 152
+       },
+       "eds": {
+        "x": 0,
+        "y": 295,
+        "w": 393,
+        "h": 152,
+        "sel": "a.related-card-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "heading:build beauty from within*—your 2024 vita",
+       "role": "heading",
+       "text": "build beauty from within*—your 2024 vitamin routine",
+       "edsText": "build beauty from within*—your 2024 vitamin routine",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 311,
+        "w": 393,
+        "h": 76
+       },
+       "eds": {
+        "x": 0,
+        "y": 311,
+        "w": 393,
+        "h": 76,
+        "sel": "h3#build-beauty-from-withinyour-2024-vitamin-routine",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "25/38/700",
+        "eds": "25/38/700"
+       }
+      },
+      {
+       "key": "text:let’s get started on building your vitam",
+       "role": "text",
+       "text": "let’s get started on building your vitamin routine to help y",
+       "edsText": "let’s get started on building your vitamin routine to help y",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 389,
+        "w": 383,
+        "h": 55
+       },
+       "eds": {
+        "x": 0,
+        "y": 391,
+        "w": 379,
+        "h": 52,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 2,
+       "dw": -4,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 228,
+       "w": 393,
+       "h": 22,
+       "absY": 3624,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 939,
+       "y": 3468,
+       "w": 393,
+       "h": 447
+      },
+      "eds": {
+       "x": 939,
+       "y": 3396,
+       "w": 393,
+       "h": 447
+      },
+      "dx": 0,
+      "dy": -72,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 9,
+      "within": 8,
+      "off": 1,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".article-main__products-grid .product-item=.product-rail__grid .product-card, .product-rail .product-rail-grid .product-card",
+   "family": null,
+   "required": true,
+   "originMatches": 2,
+   "edsMatches": 2,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.article-main__products > div.article-main__products-grid > div.product-item"
+     },
+     "eds": {
+      "path": "div.product-rail.block > div.product-rail-grid > div.product-card"
+     },
+     "rows": [
+      {
+       "key": "link:extra strength hair, skin & nails 5,000 ",
+       "role": "link",
+       "text": "extra strength hair, skin & nails 5,000 mcg of biotin, 150 s",
+       "edsText": "extra strength hair, skin & nails 5,000 mcg of biotin, 150 s",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 342,
+        "h": 617
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 342,
+        "h": 617,
+        "sel": "a.product-card-inner",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "image:extra strength hair, skin & nails",
+       "role": "image",
+       "text": "extra strength hair, skin & nails",
+       "edsText": "extra strength hair, skin & nails",
+       "byPosition": false,
+       "origin": {
+        "x": 21,
+        "y": 56,
+        "w": 300,
+        "h": 200
+       },
+       "eds": {
+        "x": 21,
+        "y": 56,
+        "w": 300,
+        "h": 200,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "heading:extra strength hair, skin & nails",
+       "role": "heading",
+       "text": "extra strength hair, skin & nails",
+       "edsText": "extra strength hair, skin & nails",
+       "byPosition": false,
+       "origin": {
+        "x": 21,
+        "y": 307,
+        "w": 300,
+        "h": 60
+       },
+       "eds": {
+        "x": 41,
+        "y": 307,
+        "w": 260,
+        "h": 44,
+        "sel": "h3#extra-strength-hair-skin--nails",
+        "role": "heading"
+       },
+       "dx": 20,
+       "dy": 0,
+       "dw": -40,
+       "dh": -16,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "22/22/800",
+        "eds": "22/22/800"
+       }
+      },
+      {
+       "key": "text:5,000 mcg of biotin, 150 softgels",
+       "role": "text",
+       "text": "5,000 mcg of biotin, 150 softgels",
+       "edsText": "5,000 mcg of biotin, 150 softgels",
+       "byPosition": false,
+       "origin": {
+        "x": 21,
+        "y": 367,
+        "w": 300,
+        "h": 30
+       },
+       "eds": {
+        "x": 21,
+        "y": 367,
+        "w": 300,
+        "h": 30,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "button:4.2",
+       "role": "button",
+       "text": "4.2",
+       "edsText": "4.2",
+       "byPosition": false,
+       "origin": {
+        "x": 21,
+        "y": 407,
+        "w": 300,
+        "h": 25
+       },
+       "eds": {
+        "x": 222,
+        "y": 407,
+        "w": 17,
+        "h": 25,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 201,
+       "dy": 0,
+       "dw": -283,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "12/25/500"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 100,
+        "y": 410,
+        "w": 21,
+        "h": 20
+       },
+       "eds": {
+        "x": 21,
+        "y": 56,
+        "w": 300,
+        "h": 200,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": -79,
+       "dy": -354,
+       "dw": 279,
+       "dh": 180,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "text:2x biotin (5,000 mcg per serving) compar",
+       "role": "text",
+       "text": "2x biotin (5,000 mcg per serving) compared to nature’s bount",
+       "edsText": "2x biotin (5,000 mcg per serving) compared to nature’s bount",
+       "byPosition": false,
+       "origin": {
+        "x": 21,
+        "y": 442,
+        "w": 300,
+        "h": 66
+       },
+       "eds": {
+        "x": 21,
+        "y": 442,
+        "w": 300,
+        "h": 66,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "15/22/500",
+        "eds": "15/22/500"
+       }
+      },
+      {
+       "key": "button:view product",
+       "role": "button",
+       "text": "view product",
+       "edsText": "view product",
+       "byPosition": false,
+       "origin": {
+        "x": 38,
+        "y": 528,
+        "w": 266,
+        "h": 68
+       },
+       "eds": {
+        "x": 38,
+        "y": 528,
+        "w": 266,
+        "h": 68,
+        "sel": "p.button-wrapper",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/700",
+        "eds": "18/30/700"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 121,
+       "y": 410,
+       "w": 21,
+       "h": 20,
+       "absY": 2415,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#2"
+      },
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 142,
+       "y": 410,
+       "w": 21,
+       "h": 20,
+       "absY": 2415,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#3"
+      },
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 163,
+       "y": 410,
+       "w": 21,
+       "h": 20,
+       "absY": 2415,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#4"
+      },
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 184,
+       "y": 410,
+       "w": 20,
+       "h": 20,
+       "absY": 2415,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#5"
+      }
+     ],
+     "extra": [
+      {
+       "role": "box",
+       "tag": "span",
+       "sel": "span.rating-star",
+       "text": "",
+       "boxed": true,
+       "x": 102,
+       "y": 410,
+       "w": 20,
+       "h": 20,
+       "absY": 2415,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": "rgb(233, 239, 236)",
+       "position": "static",
+       "key": "box:span.rating-star#1"
+      },
+      {
+       "role": "box",
+       "tag": "span",
+       "sel": "span.rating-star",
+       "text": "",
+       "boxed": true,
+       "x": 123,
+       "y": 410,
+       "w": 20,
+       "h": 20,
+       "absY": 2415,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": "rgb(233, 239, 236)",
+       "position": "static",
+       "key": "box:span.rating-star#2"
+      },
+      {
+       "role": "box",
+       "tag": "span",
+       "sel": "span.rating-star",
+       "text": "",
+       "boxed": true,
+       "x": 144,
+       "y": 410,
+       "w": 20,
+       "h": 20,
+       "absY": 2415,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": "rgb(233, 239, 236)",
+       "position": "static",
+       "key": "box:span.rating-star#3"
+      },
+      {
+       "role": "box",
+       "tag": "span",
+       "sel": "span.rating-star",
+       "text": "",
+       "boxed": true,
+       "x": 165,
+       "y": 410,
+       "w": 20,
+       "h": 20,
+       "absY": 2415,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": "rgb(233, 239, 236)",
+       "position": "static",
+       "key": "box:span.rating-star#4"
+      },
+      {
+       "role": "box",
+       "tag": "span",
+       "sel": "span.rating-star",
+       "text": "",
+       "boxed": true,
+       "x": 186,
+       "y": 410,
+       "w": 20,
+       "h": 20,
+       "absY": 2415,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": "rgb(233, 239, 236)",
+       "position": "static",
+       "key": "box:span.rating-star#5"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 1013,
+       "y": 2005,
+       "w": 342,
+       "h": 617
+      },
+      "eds": {
+       "x": 1013,
+       "y": 2005,
+       "w": 342,
+       "h": 617
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 12,
+      "within": 5,
+      "off": 3,
+      "hidden": 0,
+      "missing": 4,
+      "extra": 5,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.article-main__products > div.article-main__products-grid > div.product-item"
+     },
+     "eds": {
+      "path": "div.product-rail.block > div.product-rail-grid > div.product-card"
+     },
+     "rows": [
+      {
+       "key": "link:hair, skin & nails gummies – strawberry ",
+       "role": "link",
+       "text": "hair, skin & nails gummies – strawberry flavored 2,500 mcg o",
+       "edsText": "hair, skin & nails gummies – strawberry flavored 2,500 mcg o",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 342,
+        "h": 579
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 342,
+        "h": 579,
+        "sel": "a.product-card-inner",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "image:hair, skin & nails gummies – strawberry ",
+       "role": "image",
+       "text": "hair, skin & nails gummies – strawberry flavored",
+       "edsText": "hair, skin & nails gummies – strawberry flavored",
+       "byPosition": false,
+       "origin": {
+        "x": 21,
+        "y": 56,
+        "w": 300,
+        "h": 200
+       },
+       "eds": {
+        "x": 21,
+        "y": 56,
+        "w": 300,
+        "h": 200,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "heading:hair, skin & nails gummies – strawberry ",
+       "role": "heading",
+       "text": "hair, skin & nails gummies – strawberry flavored",
+       "edsText": "hair, skin & nails gummies – strawberry flavored",
+       "byPosition": false,
+       "origin": {
+        "x": 21,
+        "y": 307,
+        "w": 300,
+        "h": 66
+       },
+       "eds": {
+        "x": 41,
+        "y": 307,
+        "w": 260,
+        "h": 66,
+        "sel": "h3#hair-skin--nails-gummies--strawberry-flavored",
+        "role": "heading"
+       },
+       "dx": 20,
+       "dy": 0,
+       "dw": -40,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "22/22/800",
+        "eds": "22/22/800"
+       }
+      },
+      {
+       "key": "text:2,500 mcg of biotin, 80 gummies",
+       "role": "text",
+       "text": "2,500 mcg of biotin, 80 gummies",
+       "edsText": "2,500 mcg of biotin, 80 gummies",
+       "byPosition": false,
+       "origin": {
+        "x": 21,
+        "y": 373,
+        "w": 300,
+        "h": 30
+       },
+       "eds": {
+        "x": 21,
+        "y": 373,
+        "w": 300,
+        "h": 30,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "button:4.2",
+       "role": "button",
+       "text": "4.2",
+       "edsText": "4.2",
+       "byPosition": false,
+       "origin": {
+        "x": 21,
+        "y": 413,
+        "w": 300,
+        "h": 25
+       },
+       "eds": {
+        "x": 222,
+        "y": 413,
+        "w": 17,
+        "h": 25,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 201,
+       "dy": 0,
+       "dw": -283,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "12/25/500"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 100,
+        "y": 416,
+        "w": 21,
+        "h": 20
+       },
+       "eds": {
+        "x": 21,
+        "y": 56,
+        "w": 300,
+        "h": 200,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": -79,
+       "dy": -360,
+       "dw": 279,
+       "dh": 180,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "text:delicious strawberry flavored gummy",
+       "role": "text",
+       "text": "delicious strawberry flavored gummy",
+       "edsText": "delicious strawberry flavored gummy",
+       "byPosition": false,
+       "origin": {
+        "x": 21,
+        "y": 448,
+        "w": 300,
+        "h": 22
+       },
+       "eds": {
+        "x": 21,
+        "y": 448,
+        "w": 300,
+        "h": 22,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "15/22/500",
+        "eds": "15/22/500"
+       }
+      },
+      {
+       "key": "button:view product",
+       "role": "button",
+       "text": "view product",
+       "edsText": "view product",
+       "byPosition": false,
+       "origin": {
+        "x": 38,
+        "y": 490,
+        "w": 266,
+        "h": 68
+       },
+       "eds": {
+        "x": 38,
+        "y": 490,
+        "w": 266,
+        "h": 68,
+        "sel": "p.button-wrapper",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/700",
+        "eds": "18/30/700"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 121,
+       "y": 416,
+       "w": 21,
+       "h": 20,
+       "absY": 3073,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#2"
+      },
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 142,
+       "y": 416,
+       "w": 21,
+       "h": 20,
+       "absY": 3073,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#3"
+      },
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 163,
+       "y": 416,
+       "w": 21,
+       "h": 20,
+       "absY": 3073,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#4"
+      },
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 184,
+       "y": 416,
+       "w": 20,
+       "h": 20,
+       "absY": 3073,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#5"
+      }
+     ],
+     "extra": [
+      {
+       "role": "box",
+       "tag": "span",
+       "sel": "span.rating-star",
+       "text": "",
+       "boxed": true,
+       "x": 102,
+       "y": 416,
+       "w": 20,
+       "h": 20,
+       "absY": 3073,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": "rgb(233, 239, 236)",
+       "position": "static",
+       "key": "box:span.rating-star#1"
+      },
+      {
+       "role": "box",
+       "tag": "span",
+       "sel": "span.rating-star",
+       "text": "",
+       "boxed": true,
+       "x": 123,
+       "y": 416,
+       "w": 20,
+       "h": 20,
+       "absY": 3073,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": "rgb(233, 239, 236)",
+       "position": "static",
+       "key": "box:span.rating-star#2"
+      },
+      {
+       "role": "box",
+       "tag": "span",
+       "sel": "span.rating-star",
+       "text": "",
+       "boxed": true,
+       "x": 144,
+       "y": 416,
+       "w": 20,
+       "h": 20,
+       "absY": 3073,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": "rgb(233, 239, 236)",
+       "position": "static",
+       "key": "box:span.rating-star#3"
+      },
+      {
+       "role": "box",
+       "tag": "span",
+       "sel": "span.rating-star",
+       "text": "",
+       "boxed": true,
+       "x": 165,
+       "y": 416,
+       "w": 20,
+       "h": 20,
+       "absY": 3073,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": "rgb(233, 239, 236)",
+       "position": "static",
+       "key": "box:span.rating-star#4"
+      },
+      {
+       "role": "box",
+       "tag": "span",
+       "sel": "span.rating-star",
+       "text": "",
+       "boxed": true,
+       "x": 186,
+       "y": 416,
+       "w": 20,
+       "h": 20,
+       "absY": 3073,
+       "hidden": false,
+       "fs": 16,
+       "lh": 16,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": "rgb(233, 239, 236)",
+       "position": "static",
+       "key": "box:span.rating-star#5"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 1013,
+       "y": 2657,
+       "w": 342,
+       "h": 579
+      },
+      "eds": {
+       "x": 1013,
+       "y": 2657,
+       "w": 342,
+       "h": 579
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 12,
+      "within": 5,
+      "off": 3,
+      "hidden": 0,
+      "missing": 4,
+      "extra": 5,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".instagram__blocks .instagram__item=.social-strip__grid .social-tile, .social-strip .social-strip-grid .social-tile",
+   "family": null,
+   "required": true,
+   "originMatches": 5,
+   "edsMatches": 5,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand"
+     },
+     "eds": {
+      "path": "div.social-strip.block > div.social-strip-grid > a.social-tile"
+     },
+     "rows": [
+      {
+       "key": "image:<p>advanced magnesium glycinate</p>",
+       "role": "image",
+       "text": "<p>advanced magnesium glycinate</p>",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "advanced magnesium glycinate",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 271,
+       "h": 271,
+       "absY": 4319,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:advanced magnesium glycinate"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 21,
+       "y": 4391,
+       "w": 271,
+       "h": 271
+      },
+      "eds": {
+       "x": 21,
+       "y": 4319,
+       "w": 271,
+       "h": 271
+      },
+      "dx": 0,
+      "dy": -72,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand"
+     },
+     "eds": {
+      "path": "div.social-strip.block > div.social-strip-grid > a.social-tile"
+     },
+     "rows": [
+      {
+       "key": "image:<p>hair growth capsules</p>",
+       "role": "image",
+       "text": "<p>hair growth capsules</p>",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "hair growth capsules",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 271,
+       "h": 271,
+       "absY": 4319,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:hair growth capsules"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 299,
+       "y": 4391,
+       "w": 271,
+       "h": 271
+      },
+      "eds": {
+       "x": 299,
+       "y": 4319,
+       "w": 271,
+       "h": 271
+      },
+      "dx": 0,
+      "dy": -72,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand"
+     },
+     "eds": {
+      "path": "div.social-strip.block > div.social-strip-grid > a.social-tile"
+     },
+     "rows": [
+      {
+       "key": "image:<p>super b-complex</p>",
+       "role": "image",
+       "text": "<p>super b-complex</p>",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "super b-complex",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 271,
+       "h": 271,
+       "absY": 4319,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:super b-complex"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 577,
+       "y": 4391,
+       "w": 271,
+       "h": 271
+      },
+      "eds": {
+       "x": 577,
+       "y": 4319,
+       "w": 271,
+       "h": 271
+      },
+      "dx": 0,
+      "dy": -72,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand"
+     },
+     "eds": {
+      "path": "div.social-strip.block > div.social-strip-grid > a.social-tile"
+     },
+     "rows": [
+      {
+       "key": "image:<p>vitamin c</p>",
+       "role": "image",
+       "text": "<p>vitamin c</p>",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "vitamin c",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 271,
+       "h": 271,
+       "absY": 4319,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:vitamin c"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 855,
+       "y": 4391,
+       "w": 271,
+       "h": 271
+      },
+      "eds": {
+       "x": 855,
+       "y": 4319,
+       "w": 271,
+       "h": 271
+      },
+      "dx": 0,
+      "dy": -72,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand"
+     },
+     "eds": {
+      "path": "div.social-strip.block > div.social-strip-grid > a.social-tile"
+     },
+     "rows": [
+      {
+       "key": "image:<p>advanced hair, skin + nails pectin gu",
+       "role": "image",
+       "text": "<p>advanced hair, skin + nails pectin gummy</p>",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "advanced hair, skin + nails pectin gummy",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 271,
+       "h": 271,
+       "absY": 4319,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:advanced hair, skin + nails pectin gummy"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 1133,
+       "y": 4391,
+       "w": 271,
+       "h": 271
+      },
+      "eds": {
+       "x": 1133,
+       "y": 4319,
+       "w": 271,
+       "h": 271
+      },
+      "dx": 0,
+      "dy": -72,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 10,
+  "within": 35,
+  "off": 13,
+  "hidden": 0,
+  "missing": 8,
+  "errors": 0,
+  "requiredOff": 21
+ }
+}

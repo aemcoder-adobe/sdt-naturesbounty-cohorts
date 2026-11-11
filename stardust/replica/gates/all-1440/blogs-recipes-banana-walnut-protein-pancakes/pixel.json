@@ -1,0 +1,74 @@
+{
+  "a": "stardust/replica/gates/all-1440/blogs-recipes-banana-walnut-protein-pancakes/origin.png",
+  "b": "stardust/replica/gates/all-1440/blogs-recipes-banana-walnut-protein-pancakes/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 4157,
+    "mode": "overlap"
+  },
+  "heightDelta": -18,
+  "differingPixels": 503438,
+  "pct": 10.23,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-1440/blogs-recipes-banana-walnut-protein-pancakes/diff.png",
+  "masks": [
+    {
+      "yA": 1958,
+      "h": 738,
+      "yB": 1958
+    }
+  ],
+  "maskedRows": 738,
+  "textPct": 17.45,
+  "textBoxes": 119,
+  "textPixels": 528592,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 1.7
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 2.4
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 1.9
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 2.2
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 25.3
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 24.7
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 7.5
+    },
+    {
+      "y0": 4000,
+      "y1": 4157,
+      "pct": 13.5
+    }
+  ],
+  "maskReason": "server-rotated 'More recipes' row"
+}

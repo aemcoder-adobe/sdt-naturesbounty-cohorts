@@ -1,0 +1,1764 @@
+{
+  "_provenance": {
+    "writtenBy": "gate-all.mjs",
+    "writtenAt": "2026-11-11T04:34:53.102Z",
+    "stage": "published",
+    "breakpoint": 1440,
+    "threshold": 10,
+    "heightTolerance": 0.05,
+    "clipMax": 0,
+    "unitTol": 4,
+    "criteria": {
+      "pixel": true,
+      "height": true,
+      "clip": true,
+      "content": true
+    },
+    "verdict": "overlap pixel % ≤ 10 AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance) AND content MISSING + HIDDEN links/headings = 0",
+    "origin": "https://naturesbounty.com",
+    "eds": "https://main--1a676f95--aemcoder.aem.page",
+    "edsHostOverride": "https://main--1a676f95--aemcoder.aem.page",
+    "only": [
+      "blogs-recipes-peach-pear-and-plum-smoothie",
+      "blogs-recipes-hazelnut-coffee-smoothie",
+      "blogs-recipes-mango-berry-cloud",
+      "blogs-recipes-pina-colada-protein-shake",
+      "blogs-recipes-peanut-butter-and-jelly-protein-shake",
+      "blogs-recipes-protein-smores-bowl",
+      "blogs-recipes-instant-chocolate-pancake-mix",
+      "blogs-recipes-protein-french-toast",
+      "blogs-recipes-protein-packed-pumpkin-bread",
+      "blogs-recipes-vegan-chocolate-peanut-butter-vitamin-smoothie",
+      "blogs-recipes-oatmeal-cookie-shake",
+      "blogs-recipes-red-velvet-protein-cupcakes-with-greek-yogurt-frosting",
+      "blogs-recipes-probiotic-rich-breakfast-bowl",
+      "blogs-recipes-quinoa-apple-cake",
+      "blogs-recipes-lean-beef-burger-with-sweet-potato-fries",
+      "blogs-recipes-crab-stuffed-salmon-with-honey-agave-glaze",
+      "blogs-recipes-quinoa-avocado-and-black-bean-salad",
+      "blogs-recipes-heart-friendly-kettle-popcorn",
+      "blogs-recipes-healthy-snacks",
+      "blogs-recipes-grilled-chicken-with-strawberry-and-pineapple-salsa"
+    ]
+  },
+  "totals": {
+    "pages": 20,
+    "pass": 0,
+    "pixelOnlyPass": 0,
+    "overridePass": 20,
+    "fail": 20,
+    "error": 0,
+    "failPixel": 20,
+    "failHeight": 2,
+    "failClip": 0,
+    "failContent": 19,
+    "failUnits": 20,
+    "fontsNotLoaded": 20,
+    "fontChecksSkipped": 0,
+    "contentNA": 0,
+    "asymmetricOrigins": 0,
+    "degradedTier": 0,
+    "passWithOverrides": 20
+  },
+  "rows": [
+    {
+      "slug": "blogs-recipes-peach-pear-and-plum-smoothie",
+      "path": "/blogs/recipes/peach-pear-and-plum-smoothie",
+      "template": "recipe",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 19.34,
+      "textPct": 23.82,
+      "heightDelta": 125,
+      "originH": 3632,
+      "edsH": 3507,
+      "pixelPass": false,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": false,
+      "contentNA": null,
+      "unitPass": false,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "passWithOverride": true,
+      "fontsNotLoaded": [
+        "figtree-fallback"
+      ],
+      "fontChecksSkipped": [],
+      "reasons": [
+        "pixel 19.34% > 10%",
+        "content MISSING 1 / HIDDEN 0",
+        "units off 5 hidden 0 missing 3",
+        "font-not-loaded:figtree-fallback"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 1,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 11,
+        "variable": [
+          ".article-main__related=.related"
+        ]
+      },
+      "units": {
+        "units": 14,
+        "within": 12,
+        "off": 5,
+        "hidden": 0,
+        "missing": 3,
+        "errors": 0,
+        "requiredOff": 8
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": {
+        "verdict": "PASS (documented override)",
+        "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 2.74% (above 1428px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 2141 / eds 2028), tail Δh 12px",
+        "evidence": {
+          "pct": 2.74,
+          "align": "landmark",
+          "origin": [
+            1441,
+            2141
+          ],
+          "eds": [
+            1428,
+            2028
+          ],
+          "tailDh": 12,
+          "at": "2026-11-11T03:35:52.870Z"
+        }
+      },
+      "masked": true,
+      "maskedRows": 713,
+      "maskReason": "server-rotated 'More recipes' row",
+      "hotBands": [
+        "2000-2500:56.9%",
+        "2500-3000:35.3%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "blogs-recipes-hazelnut-coffee-smoothie",
+      "path": "/blogs/recipes/hazelnut-coffee-smoothie",
+      "template": "recipe",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 19.53,
+      "textPct": 24.12,
+      "heightDelta": 125,
+      "originH": 3640,
+      "edsH": 3515,
+      "pixelPass": false,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": false,
+      "contentNA": null,
+      "unitPass": false,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "passWithOverride": true,
+      "fontsNotLoaded": [
+        "figtree-fallback"
+      ],
+      "fontChecksSkipped": [],
+      "reasons": [
+        "pixel 19.53% > 10%",
+        "content MISSING 2 / HIDDEN 0",
+        "units off 4 hidden 0 missing 4",
+        "font-not-loaded:figtree-fallback"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 2,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 15,
+        "variable": [
+          ".article-main__related=.related"
+        ]
+      },
+      "units": {
+        "units": 13,
+        "within": 12,
+        "off": 4,
+        "hidden": 0,
+        "missing": 4,
+        "errors": 0,
+        "requiredOff": 8
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": {
+        "verdict": "PASS (documented override)",
+        "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 2.76% (above 1398px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 2149 / eds 2036), tail Δh 12px",
+        "evidence": {
+          "pct": 2.76,
+          "align": "landmark",
+          "origin": [
+            1411,
+            2149
+          ],
+          "eds": [
+            1398,
+            2036
+          ],
+          "tailDh": 12,
+          "at": "2026-11-11T03:35:53.743Z"
+        }
+      },
+      "masked": true,
+      "maskedRows": 751,
+      "maskReason": "server-rotated 'More recipes' row",
+      "hotBands": [
+        "2000-2500:55.6%",
+        "2500-3000:36.2%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "blogs-recipes-mango-berry-cloud",
+      "path": "/blogs/recipes/mango-berry-cloud",
+      "template": "recipe",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 19.34,
+      "textPct": 24.77,
+      "heightDelta": 117,
+      "originH": 3632,
+      "edsH": 3515,
+      "pixelPass": false,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": false,
+      "contentNA": null,
+      "unitPass": false,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "passWithOverride": true,
+      "fontsNotLoaded": [
+        "figtree-fallback"
+      ],
+      "fontChecksSkipped": [],
+      "reasons": [
+        "pixel 19.34% > 10%",
+        "content MISSING 3 / HIDDEN 0",
+        "units off 4 hidden 0 missing 4",
+        "font-not-loaded:figtree-fallback"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 3,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 19,
+        "variable": [
+          ".article-main__related=.related"
+        ]
+      },
+      "units": {
+        "units": 13,
+        "within": 12,
+        "off": 4,
+        "hidden": 0,
+        "missing": 4,
+        "errors": 0,
+        "requiredOff": 8
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": {
+        "verdict": "PASS (documented override)",
+        "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 2.73% (above 1398px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 2141 / eds 2036), tail Δh 12px",
+        "evidence": {
+          "pct": 2.73,
+          "align": "landmark",
+          "origin": [
+            1411,
+            2141
+          ],
+          "eds": [
+            1398,
+            2036
+          ],
+          "tailDh": 12,
+          "at": "2026-11-11T03:35:54.660Z"
+        }
+      },
+      "masked": true,
+      "maskedRows": 743,
+      "maskReason": "server-rotated 'More recipes' row",
+      "hotBands": [
+        "2000-2500:56.3%",
+        "2500-3000:35.3%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "blogs-recipes-pina-colada-protein-shake",
+      "path": "/blogs/recipes/pina-colada-protein-shake",
+      "template": "recipe",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 17.55,
+      "textPct": 14.29,
+      "heightDelta": -56,
+      "originH": 3507,
+      "edsH": 3563,
+      "pixelPass": false,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": false,
+      "contentNA": null,
+      "unitPass": false,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "passWithOverride": true,
+      "fontsNotLoaded": [
+        "figtree-fallback"
+      ],
+      "fontChecksSkipped": [],
+      "reasons": [
+        "pixel 17.55% > 10%",
+        "content MISSING 3 / HIDDEN 0",
+        "units off 6 hidden 0 missing 3",
+        "font-not-loaded:figtree-fallback"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 3,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 20,
+        "variable": [
+          ".article-main__related=.related"
+        ]
+      },
+      "units": {
+        "units": 12,
+        "within": 11,
+        "off": 6,
+        "hidden": 0,
+        "missing": 3,
+        "errors": 0,
+        "requiredOff": 9
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": {
+        "verdict": "PASS (documented override)",
+        "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 2.12% (above 1316px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 2016 / eds 2084), tail Δh 12px",
+        "evidence": {
+          "pct": 2.12,
+          "align": "landmark",
+          "origin": [
+            1316,
+            2016
+          ],
+          "eds": [
+            1416,
+            2084
+          ],
+          "tailDh": 12,
+          "at": "2026-11-11T03:35:55.557Z"
+        }
+      },
+      "masked": true,
+      "maskedRows": 768,
+      "maskReason": "server-rotated 'More recipes' row",
+      "hotBands": [
+        "2000-2500:57%",
+        "2500-3000:26.2%",
+        "3500-3507:95.1%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "blogs-recipes-peanut-butter-and-jelly-protein-shake",
+      "path": "/blogs/recipes/peanut-butter-and-jelly-protein-shake",
+      "template": "recipe",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 17.04,
+      "textPct": 19.2,
+      "heightDelta": -56,
+      "originH": 3597,
+      "edsH": 3653,
+      "pixelPass": false,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": false,
+      "contentNA": null,
+      "unitPass": false,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "passWithOverride": true,
+      "fontsNotLoaded": [
+        "figtree-fallback"
+      ],
+      "fontChecksSkipped": [],
+      "reasons": [
+        "pixel 17.04% > 10%",
+        "content MISSING 3 / HIDDEN 0",
+        "units off 6 hidden 0 missing 3",
+        "font-not-loaded:figtree-fallback"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 3,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 20,
+        "variable": [
+          ".article-main__related=.related"
+        ]
+      },
+      "units": {
+        "units": 13,
+        "within": 11,
+        "off": 6,
+        "hidden": 0,
+        "missing": 3,
+        "errors": 0,
+        "requiredOff": 9
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": {
+        "verdict": "PASS (documented override)",
+        "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 2.11% (above 1406px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 2106 / eds 2174), tail Δh 12px",
+        "evidence": {
+          "pct": 2.11,
+          "align": "landmark",
+          "origin": [
+            1406,
+            2106
+          ],
+          "eds": [
+            1506,
+            2174
+          ],
+          "tailDh": 12,
+          "at": "2026-11-11T03:35:56.473Z"
+        }
+      },
+      "masked": true,
+      "maskedRows": 768,
+      "maskReason": "server-rotated 'More recipes' row",
+      "hotBands": [
+        "2000-2500:43.4%",
+        "2500-3000:36.5%",
+        "3500-3597:16.5%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "blogs-recipes-protein-smores-bowl",
+      "path": "/blogs/recipes/protein-smores-bowl",
+      "template": "recipe",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 11.37,
+      "textPct": 17.46,
+      "heightDelta": -18,
+      "originH": 3693,
+      "edsH": 3711,
+      "pixelPass": false,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": false,
+      "contentNA": null,
+      "unitPass": false,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "passWithOverride": true,
+      "fontsNotLoaded": [
+        "figtree-fallback"
+      ],
+      "fontChecksSkipped": [],
+      "reasons": [
+        "pixel 11.37% > 10%",
+        "content MISSING 3 / HIDDEN 0",
+        "units off 4 hidden 0 missing 5",
+        "font-not-loaded:figtree-fallback"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 3,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 18,
+        "variable": [
+          ".article-main__related=.related"
+        ]
+      },
+      "units": {
+        "units": 14,
+        "within": 13,
+        "off": 4,
+        "hidden": 0,
+        "missing": 5,
+        "errors": 0,
+        "requiredOff": 9
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": {
+        "verdict": "PASS (documented override)",
+        "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 2.13% (above 1502px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 2202 / eds 2232), tail Δh 12px",
+        "evidence": {
+          "pct": 2.13,
+          "align": "landmark",
+          "origin": [
+            1502,
+            2202
+          ],
+          "eds": [
+            1602,
+            2232
+          ],
+          "tailDh": 12,
+          "at": "2026-11-11T03:35:57.543Z"
+        }
+      },
+      "masked": true,
+      "maskedRows": 730,
+      "maskReason": "server-rotated 'More recipes' row",
+      "hotBands": [
+        "2000-2500:21.9%",
+        "2500-3000:27.2%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "blogs-recipes-instant-chocolate-pancake-mix",
+      "path": "/blogs/recipes/instant-chocolate-pancake-mix",
+      "template": "recipe",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 12.4,
+      "textPct": 13.27,
+      "heightDelta": -36,
+      "originH": 4245,
+      "edsH": 4281,
+      "pixelPass": false,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": false,
+      "contentNA": null,
+      "unitPass": false,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "passWithOverride": true,
+      "fontsNotLoaded": [
+        "figtree-fallback"
+      ],
+      "fontChecksSkipped": [],
+      "reasons": [
+        "pixel 12.4% > 10%",
+        "content MISSING 3 / HIDDEN 0",
+        "units off 4 hidden 0 missing 4",
+        "font-not-loaded:figtree-fallback"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 3,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 18,
+        "variable": [
+          ".article-main__related=.related"
+        ]
+      },
+      "units": {
+        "units": 14,
+        "within": 12,
+        "off": 4,
+        "hidden": 0,
+        "missing": 4,
+        "errors": 0,
+        "requiredOff": 8
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": {
+        "verdict": "PASS (documented override)",
+        "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 2.46% (above 2054px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 2754 / eds 2802), tail Δh 12px",
+        "evidence": {
+          "pct": 2.46,
+          "align": "landmark",
+          "origin": [
+            2054,
+            2754
+          ],
+          "eds": [
+            2172,
+            2802
+          ],
+          "tailDh": 12,
+          "at": "2026-11-11T03:35:58.546Z"
+        }
+      },
+      "masked": true,
+      "maskedRows": 748,
+      "maskReason": "server-rotated 'More recipes' row",
+      "hotBands": [
+        "2500-3000:21.3%",
+        "3000-3500:40.2%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "blogs-recipes-protein-french-toast",
+      "path": "/blogs/recipes/protein-french-toast",
+      "template": "recipe",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 16.04,
+      "textPct": 20.08,
+      "heightDelta": 95,
+      "originH": 4210,
+      "edsH": 4115,
+      "pixelPass": false,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": false,
+      "contentNA": null,
+      "unitPass": false,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "passWithOverride": true,
+      "fontsNotLoaded": [
+        "figtree-fallback"
+      ],
+      "fontChecksSkipped": [],
+      "reasons": [
+        "pixel 16.04% > 10%",
+        "content MISSING 3 / HIDDEN 0",
+        "units off 5 hidden 0 missing 3",
+        "font-not-loaded:figtree-fallback"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 3,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 19,
+        "variable": [
+          ".article-main__related=.related"
+        ]
+      },
+      "units": {
+        "units": 14,
+        "within": 11,
+        "off": 5,
+        "hidden": 0,
+        "missing": 3,
+        "errors": 0,
+        "requiredOff": 8
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": {
+        "verdict": "PASS (documented override)",
+        "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 2.81% (above 2028px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 2719 / eds 2636), tail Δh 12px",
+        "evidence": {
+          "pct": 2.81,
+          "align": "landmark",
+          "origin": [
+            2041,
+            2719
+          ],
+          "eds": [
+            2028,
+            2636
+          ],
+          "tailDh": 12,
+          "at": "2026-11-11T03:35:59.445Z"
+        }
+      },
+      "masked": true,
+      "maskedRows": 691,
+      "maskReason": "server-rotated 'More recipes' row",
+      "hotBands": [
+        "2500-3000:44%",
+        "3000-3500:42.8%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "blogs-recipes-protein-packed-pumpkin-bread",
+      "path": "/blogs/recipes/protein-packed-pumpkin-bread",
+      "template": "recipe",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 17.56,
+      "textPct": 22.21,
+      "heightDelta": 125,
+      "originH": 3982,
+      "edsH": 3857,
+      "pixelPass": false,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": false,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "passWithOverride": true,
+      "fontsNotLoaded": [
+        "figtree-fallback"
+      ],
+      "fontChecksSkipped": [],
+      "reasons": [
+        "pixel 17.56% > 10%",
+        "units off 6 hidden 0 missing 3",
+        "font-not-loaded:figtree-fallback"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 8,
+        "variable": [
+          ".article-main__related=.related"
+        ]
+      },
+      "units": {
+        "units": 14,
+        "within": 11,
+        "off": 6,
+        "hidden": 0,
+        "missing": 3,
+        "errors": 0,
+        "requiredOff": 9
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": {
+        "verdict": "PASS (documented override)",
+        "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 2.77% (above 1770px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 2491 / eds 2378), tail Δh 12px",
+        "evidence": {
+          "pct": 2.77,
+          "align": "landmark",
+          "origin": [
+            1783,
+            2491
+          ],
+          "eds": [
+            1770,
+            2378
+          ],
+          "tailDh": 12,
+          "at": "2026-11-11T03:36:00.345Z"
+        }
+      },
+      "masked": true,
+      "maskedRows": 721,
+      "maskReason": "server-rotated 'More recipes' row",
+      "hotBands": [
+        "2500-3000:81.4%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "blogs-recipes-vegan-chocolate-peanut-butter-vitamin-smoothie",
+      "path": "/blogs/recipes/vegan-chocolate-peanut-butter-vitamin-smoothie",
+      "template": "recipe",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 18.88,
+      "textPct": 20.09,
+      "heightDelta": 180,
+      "originH": 4155,
+      "edsH": 3975,
+      "pixelPass": false,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": false,
+      "contentNA": null,
+      "unitPass": false,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "passWithOverride": true,
+      "fontsNotLoaded": [
+        "figtree-fallback"
+      ],
+      "fontChecksSkipped": [],
+      "reasons": [
+        "pixel 18.88% > 10%",
+        "content MISSING 3 / HIDDEN 0",
+        "units off 4 hidden 0 missing 4",
+        "font-not-loaded:figtree-fallback"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 3,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 21,
+        "variable": [
+          ".article-main__related=.related"
+        ]
+      },
+      "units": {
+        "units": 14,
+        "within": 11,
+        "off": 4,
+        "hidden": 0,
+        "missing": 4,
+        "errors": 0,
+        "requiredOff": 8
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": {
+        "verdict": "PASS (documented override)",
+        "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 3.66% (above 1896px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 2664 / eds 2496), tail Δh 12px",
+        "evidence": {
+          "pct": 3.66,
+          "align": "landmark",
+          "origin": [
+            1964,
+            2664
+          ],
+          "eds": [
+            1896,
+            2496
+          ],
+          "tailDh": 12,
+          "at": "2026-11-11T03:36:01.260Z"
+        }
+      },
+      "masked": true,
+      "maskedRows": 768,
+      "maskReason": "server-rotated 'More recipes' row",
+      "hotBands": [
+        "2500-3000:56.2%",
+        "3000-3500:40.1%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "blogs-recipes-oatmeal-cookie-shake",
+      "path": "/blogs/recipes/oatmeal-cookie-shake",
+      "template": "recipe",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 11.64,
+      "textPct": 19.39,
+      "heightDelta": -18,
+      "originH": 3725,
+      "edsH": 3743,
+      "pixelPass": false,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": false,
+      "contentNA": null,
+      "unitPass": false,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "passWithOverride": true,
+      "fontsNotLoaded": [
+        "figtree-fallback"
+      ],
+      "fontChecksSkipped": [],
+      "reasons": [
+        "pixel 11.64% > 10%",
+        "content MISSING 1 / HIDDEN 0",
+        "units off 7 hidden 0 missing 4",
+        "font-not-loaded:figtree-fallback"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 1,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 12,
+        "variable": [
+          ".article-main__related=.related"
+        ]
+      },
+      "units": {
+        "units": 14,
+        "within": 10,
+        "off": 7,
+        "hidden": 0,
+        "missing": 4,
+        "errors": 0,
+        "requiredOff": 11
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": {
+        "verdict": "PASS (documented override)",
+        "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 2.57% (above 1556px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 2234 / eds 2264), tail Δh 12px",
+        "evidence": {
+          "pct": 2.57,
+          "align": "landmark",
+          "origin": [
+            1556,
+            2234
+          ],
+          "eds": [
+            1626,
+            2264
+          ],
+          "tailDh": 12,
+          "at": "2026-11-11T03:36:02.083Z"
+        }
+      },
+      "masked": true,
+      "maskedRows": 708,
+      "maskReason": "server-rotated 'More recipes' row",
+      "hotBands": [
+        "2000-2500:18.7%",
+        "2500-3000:30%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "blogs-recipes-red-velvet-protein-cupcakes-with-greek-yogurt-frosting",
+      "path": "/blogs/recipes/red-velvet-protein-cupcakes-with-greek-yogurt-frosting",
+      "template": "recipe",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 15.47,
+      "textPct": 17.24,
+      "heightDelta": 100,
+      "originH": 4443,
+      "edsH": 4343,
+      "pixelPass": false,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": false,
+      "contentNA": null,
+      "unitPass": false,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "passWithOverride": true,
+      "fontsNotLoaded": [
+        "figtree-fallback"
+      ],
+      "fontChecksSkipped": [],
+      "reasons": [
+        "pixel 15.47% > 10%",
+        "content MISSING 2 / HIDDEN 0",
+        "units off 6 hidden 0 missing 3",
+        "font-not-loaded:figtree-fallback"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 2,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 16,
+        "variable": [
+          ".article-main__related=.related"
+        ]
+      },
+      "units": {
+        "units": 14,
+        "within": 11,
+        "off": 6,
+        "hidden": 0,
+        "missing": 3,
+        "errors": 0,
+        "requiredOff": 9
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": {
+        "verdict": "PASS (documented override)",
+        "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 2.94% (above 2252px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 2952 / eds 2864), tail Δh 12px",
+        "evidence": {
+          "pct": 2.94,
+          "align": "landmark",
+          "origin": [
+            2252,
+            2952
+          ],
+          "eds": [
+            2256,
+            2864
+          ],
+          "tailDh": 12,
+          "at": "2026-11-11T03:36:02.992Z"
+        }
+      },
+      "masked": true,
+      "maskedRows": 700,
+      "maskReason": "server-rotated 'More recipes' row",
+      "hotBands": [
+        "3000-3500:74.9%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "blogs-recipes-probiotic-rich-breakfast-bowl",
+      "path": "/blogs/recipes/probiotic-rich-breakfast-bowl",
+      "template": "recipe",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 18.35,
+      "textPct": 22.78,
+      "heightDelta": 158,
+      "originH": 3989,
+      "edsH": 3831,
+      "pixelPass": false,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": false,
+      "contentNA": null,
+      "unitPass": false,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "passWithOverride": true,
+      "fontsNotLoaded": [
+        "figtree-fallback"
+      ],
+      "fontChecksSkipped": [],
+      "reasons": [
+        "pixel 18.35% > 10%",
+        "content MISSING 3 / HIDDEN 0",
+        "units off 4 hidden 0 missing 3",
+        "font-not-loaded:figtree-fallback"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 3,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 19,
+        "variable": [
+          ".article-main__related=.related"
+        ]
+      },
+      "units": {
+        "units": 14,
+        "within": 10,
+        "off": 4,
+        "hidden": 0,
+        "missing": 3,
+        "errors": 0,
+        "requiredOff": 7
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": {
+        "verdict": "PASS (documented override)",
+        "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 2.74% (above 1730px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 2498 / eds 2352), tail Δh 12px",
+        "evidence": {
+          "pct": 2.74,
+          "align": "landmark",
+          "origin": [
+            1730,
+            2498
+          ],
+          "eds": [
+            1752,
+            2352
+          ],
+          "tailDh": 12,
+          "at": "2026-11-11T03:36:03.880Z"
+        }
+      },
+      "masked": true,
+      "maskedRows": 768,
+      "maskReason": "server-rotated 'More recipes' row",
+      "hotBands": [
+        "2500-3000:84%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "blogs-recipes-quinoa-apple-cake",
+      "path": "/blogs/recipes/quinoa-apple-cake",
+      "template": "recipe",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 16.21,
+      "textPct": 17.78,
+      "heightDelta": 94,
+      "originH": 4125,
+      "edsH": 4031,
+      "pixelPass": false,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": false,
+      "contentNA": null,
+      "unitPass": false,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "passWithOverride": true,
+      "fontsNotLoaded": [
+        "figtree-fallback"
+      ],
+      "fontChecksSkipped": [],
+      "reasons": [
+        "pixel 16.21% > 10%",
+        "content MISSING 3 / HIDDEN 0",
+        "units off 6 hidden 0 missing 3",
+        "font-not-loaded:figtree-fallback"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 3,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 19,
+        "variable": [
+          ".article-main__related=.related"
+        ]
+      },
+      "units": {
+        "units": 14,
+        "within": 9,
+        "off": 6,
+        "hidden": 0,
+        "missing": 3,
+        "errors": 0,
+        "requiredOff": 9
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": {
+        "verdict": "PASS (documented override)",
+        "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 2.62% (above 1914px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 2634 / eds 2552), tail Δh 12px",
+        "evidence": {
+          "pct": 2.62,
+          "align": "landmark",
+          "origin": [
+            1934,
+            2634
+          ],
+          "eds": [
+            1914,
+            2552
+          ],
+          "tailDh": 12,
+          "at": "2026-11-11T03:36:04.845Z"
+        }
+      },
+      "masked": true,
+      "maskedRows": 720,
+      "maskReason": "server-rotated 'More recipes' row",
+      "hotBands": [
+        "2500-3000:54.5%",
+        "3000-3500:35.3%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "blogs-recipes-lean-beef-burger-with-sweet-potato-fries",
+      "path": "/blogs/recipes/lean-beef-burger-with-sweet-potato-fries",
+      "template": "recipe",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 18.28,
+      "textPct": 22.93,
+      "heightDelta": 184,
+      "originH": 4071,
+      "edsH": 3887,
+      "pixelPass": false,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": false,
+      "contentNA": null,
+      "unitPass": false,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "passWithOverride": true,
+      "fontsNotLoaded": [
+        "figtree-fallback"
+      ],
+      "fontChecksSkipped": [],
+      "reasons": [
+        "pixel 18.28% > 10%",
+        "content MISSING 3 / HIDDEN 0",
+        "units off 4 hidden 0 missing 4",
+        "font-not-loaded:figtree-fallback"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 3,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 17,
+        "variable": [
+          ".article-main__related=.related"
+        ]
+      },
+      "units": {
+        "units": 14,
+        "within": 10,
+        "off": 4,
+        "hidden": 0,
+        "missing": 4,
+        "errors": 0,
+        "requiredOff": 8
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": {
+        "verdict": "PASS (documented override)",
+        "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 2.74% (above 1830px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 2580 / eds 2408), tail Δh 12px",
+        "evidence": {
+          "pct": 2.74,
+          "align": "landmark",
+          "origin": [
+            1880,
+            2580
+          ],
+          "eds": [
+            1830,
+            2408
+          ],
+          "tailDh": 12,
+          "at": "2026-11-11T03:36:05.855Z"
+        }
+      },
+      "masked": true,
+      "maskedRows": 750,
+      "maskReason": "server-rotated 'More recipes' row",
+      "hotBands": [
+        "2500-3000:71%",
+        "3000-3500:28.4%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "blogs-recipes-crab-stuffed-salmon-with-honey-agave-glaze",
+      "path": "/blogs/recipes/crab-stuffed-salmon-with-honey-agave-glaze",
+      "template": "recipe",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 16.8,
+      "textPct": 18.46,
+      "heightDelta": 132,
+      "originH": 4221,
+      "edsH": 4089,
+      "pixelPass": false,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": false,
+      "contentNA": null,
+      "unitPass": false,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "passWithOverride": true,
+      "fontsNotLoaded": [
+        "figtree-fallback"
+      ],
+      "fontChecksSkipped": [],
+      "reasons": [
+        "pixel 16.8% > 10%",
+        "content MISSING 3 / HIDDEN 0",
+        "units off 3 hidden 0 missing 5",
+        "font-not-loaded:figtree-fallback"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 3,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 18,
+        "variable": [
+          ".article-main__related=.related"
+        ]
+      },
+      "units": {
+        "units": 14,
+        "within": 11,
+        "off": 3,
+        "hidden": 0,
+        "missing": 5,
+        "errors": 0,
+        "requiredOff": 8
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": {
+        "verdict": "PASS (documented override)",
+        "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 2.99% (above 2010px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 2730 / eds 2610), tail Δh 12px",
+        "evidence": {
+          "pct": 2.99,
+          "align": "landmark",
+          "origin": [
+            2030,
+            2730
+          ],
+          "eds": [
+            2010,
+            2610
+          ],
+          "tailDh": 12,
+          "at": "2026-11-11T03:36:06.923Z"
+        }
+      },
+      "masked": true,
+      "maskedRows": 720,
+      "maskReason": "server-rotated 'More recipes' row",
+      "hotBands": [
+        "2500-3000:44.1%",
+        "3000-3500:46.4%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "blogs-recipes-quinoa-avocado-and-black-bean-salad",
+      "path": "/blogs/recipes/quinoa-avocado-and-black-bean-salad",
+      "template": "recipe",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 18,
+      "textPct": 21.17,
+      "heightDelta": 132,
+      "originH": 3927,
+      "edsH": 3795,
+      "pixelPass": false,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": false,
+      "contentNA": null,
+      "unitPass": false,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "passWithOverride": true,
+      "fontsNotLoaded": [
+        "figtree-fallback"
+      ],
+      "fontChecksSkipped": [],
+      "reasons": [
+        "pixel 18% > 10%",
+        "content MISSING 3 / HIDDEN 0",
+        "units off 4 hidden 0 missing 4",
+        "font-not-loaded:figtree-fallback"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 3,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 18,
+        "variable": [
+          ".article-main__related=.related"
+        ]
+      },
+      "units": {
+        "units": 8,
+        "within": 11,
+        "off": 4,
+        "hidden": 0,
+        "missing": 4,
+        "errors": 1,
+        "requiredOff": 8
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": {
+        "verdict": "PASS (documented override)",
+        "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 2.73% (above 1686px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 2436 / eds 2316), tail Δh 12px",
+        "evidence": {
+          "pct": 2.73,
+          "align": "landmark",
+          "origin": [
+            1706,
+            2436
+          ],
+          "eds": [
+            1686,
+            2316
+          ],
+          "tailDh": 12,
+          "at": "2026-11-11T03:36:07.926Z"
+        }
+      },
+      "masked": true,
+      "maskedRows": 750,
+      "maskReason": "server-rotated 'More recipes' row",
+      "hotBands": [
+        "2500-3000:74.2%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "blogs-recipes-heart-friendly-kettle-popcorn",
+      "path": "/blogs/recipes/heart-friendly-kettle-popcorn",
+      "template": "recipe",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 15.91,
+      "textPct": 19.82,
+      "heightDelta": 84,
+      "originH": 4079,
+      "edsH": 3995,
+      "pixelPass": false,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": false,
+      "contentNA": null,
+      "unitPass": false,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "passWithOverride": true,
+      "fontsNotLoaded": [
+        "figtree-fallback"
+      ],
+      "fontChecksSkipped": [],
+      "reasons": [
+        "pixel 15.91% > 10%",
+        "content MISSING 2 / HIDDEN 0",
+        "units off 5 hidden 0 missing 5",
+        "font-not-loaded:figtree-fallback"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 2,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 15,
+        "variable": [
+          ".article-main__related=.related"
+        ]
+      },
+      "units": {
+        "units": 12,
+        "within": 9,
+        "off": 5,
+        "hidden": 0,
+        "missing": 5,
+        "errors": 0,
+        "requiredOff": 10
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": {
+        "verdict": "PASS (documented override)",
+        "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 3.04% (above 1878px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 2588 / eds 2516), tail Δh 12px",
+        "evidence": {
+          "pct": 3.04,
+          "align": "landmark",
+          "origin": [
+            1888,
+            2588
+          ],
+          "eds": [
+            1878,
+            2516
+          ],
+          "tailDh": 12,
+          "at": "2026-11-11T03:36:09.057Z"
+        }
+      },
+      "masked": true,
+      "maskedRows": 710,
+      "maskReason": "server-rotated 'More recipes' row",
+      "hotBands": [
+        "2500-3000:58%",
+        "3000-3500:27.4%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "blogs-recipes-healthy-snacks",
+      "path": "/blogs/recipes/healthy-snacks",
+      "template": "recipe",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 18.25,
+      "textPct": 16.98,
+      "heightDelta": 336,
+      "originH": 4161,
+      "edsH": 3825,
+      "pixelPass": false,
+      "heightPass": false,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": false,
+      "contentNA": null,
+      "unitPass": false,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "passWithOverride": true,
+      "fontsNotLoaded": [
+        "figtree-fallback"
+      ],
+      "fontChecksSkipped": [],
+      "reasons": [
+        "pixel 18.25% > 10%",
+        "Δh 336px > 5% of 4161",
+        "content MISSING 3 / HIDDEN 0",
+        "units off 4 hidden 0 missing 4",
+        "font-not-loaded:figtree-fallback"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 3,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 19,
+        "variable": [
+          ".article-main__related=.related"
+        ]
+      },
+      "units": {
+        "units": 8,
+        "within": 10,
+        "off": 4,
+        "hidden": 0,
+        "missing": 4,
+        "errors": 1,
+        "requiredOff": 8
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": {
+        "verdict": "PASS (documented override)",
+        "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 3.1% (above 1746px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 2670 / eds 2346), tail Δh 12px",
+        "evidence": {
+          "pct": 3.1,
+          "align": "landmark",
+          "origin": [
+            1940,
+            2670
+          ],
+          "eds": [
+            1746,
+            2346
+          ],
+          "tailDh": 12,
+          "at": "2026-11-11T03:36:10.280Z"
+        }
+      },
+      "masked": true,
+      "maskedRows": 924,
+      "maskReason": "server-rotated 'More recipes' row",
+      "hotBands": [
+        "2500-3000:48.4%",
+        "3000-3500:38.5%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "blogs-recipes-grilled-chicken-with-strawberry-and-pineapple-salsa",
+      "path": "/blogs/recipes/grilled-chicken-with-strawberry-and-pineapple-salsa",
+      "template": "recipe",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 18.61,
+      "textPct": 17.48,
+      "heightDelta": 282,
+      "originH": 4289,
+      "edsH": 4007,
+      "pixelPass": false,
+      "heightPass": false,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": false,
+      "contentNA": null,
+      "unitPass": false,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "passWithOverride": true,
+      "fontsNotLoaded": [
+        "figtree-fallback"
+      ],
+      "fontChecksSkipped": [],
+      "reasons": [
+        "pixel 18.61% > 10%",
+        "Δh 282px > 5% of 4289",
+        "content MISSING 3 / HIDDEN 0",
+        "units off 5 hidden 0 missing 3",
+        "font-not-loaded:figtree-fallback"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 3,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 0,
+        "hiddenButtons": 0,
+        "findings": 19,
+        "variable": [
+          ".article-main__related=.related"
+        ]
+      },
+      "units": {
+        "units": 8,
+        "within": 9,
+        "off": 5,
+        "hidden": 0,
+        "missing": 3,
+        "errors": 1,
+        "requiredOff": 8
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": {
+        "verdict": "PASS (documented override)",
+        "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 2.91% (above 1920px same-y, below re-aligned at landmark \"We offer trusted products, backed by sci\" origin 2798 / eds 2528), tail Δh 12px",
+        "evidence": {
+          "pct": 2.91,
+          "align": "landmark",
+          "origin": [
+            2060,
+            2798
+          ],
+          "eds": [
+            1920,
+            2528
+          ],
+          "tailDh": 12,
+          "at": "2026-11-11T03:36:11.258Z"
+        }
+      },
+      "masked": true,
+      "maskedRows": 878,
+      "maskReason": "server-rotated 'More recipes' row",
+      "hotBands": [
+        "2500-3000:34.6%",
+        "3000-3500:60.5%"
+      ],
+      "error": null
+    }
+  ]
+}

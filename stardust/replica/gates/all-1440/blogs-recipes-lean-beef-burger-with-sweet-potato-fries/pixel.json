@@ -1,0 +1,69 @@
+{
+  "a": "stardust/replica/gates/all-1440/blogs-recipes-lean-beef-burger-with-sweet-potato-fries/origin.png",
+  "b": "stardust/replica/gates/all-1440/blogs-recipes-lean-beef-burger-with-sweet-potato-fries/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 3887,
+    "mode": "overlap"
+  },
+  "heightDelta": 184,
+  "differingPixels": 825724,
+  "pct": 18.28,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-1440/blogs-recipes-lean-beef-burger-with-sweet-potato-fries/diff.png",
+  "masks": [
+    {
+      "yA": 1830,
+      "h": 750,
+      "yB": 1830
+    }
+  ],
+  "maskedRows": 750,
+  "textPct": 22.93,
+  "textBoxes": 110,
+  "textPixels": 440129,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 1.7
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 2.4
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 2.7
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 4.3
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 71
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 28.4
+    },
+    {
+      "y0": 3500,
+      "y1": 3887,
+      "pct": 5.5
+    }
+  ],
+  "maskReason": "server-rotated 'More recipes' row"
+}

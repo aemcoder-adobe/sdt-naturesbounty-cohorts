@@ -1,0 +1,64 @@
+{
+  "a": "stardust/replica/gates/all-1440/blogs-recipes-chocolate-peaches/origin.png",
+  "b": "stardust/replica/gates/all-1440/blogs-recipes-chocolate-peaches/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 3495,
+    "mode": "overlap"
+  },
+  "heightDelta": 12,
+  "differingPixels": 82191,
+  "pct": 2.04,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/blogs-recipes-chocolate-peaches/diff.png",
+  "masks": [
+    {
+      "yA": 1316,
+      "h": 700,
+      "yB": 1316
+    }
+  ],
+  "maskedRows": 700,
+  "textPct": 10.54,
+  "textBoxes": 98,
+  "textPixels": 393428,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 1.7
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 1.9
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0.7
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0.8
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 2.2
+    },
+    {
+      "y0": 3000,
+      "y1": 3495,
+      "pct": 4.1
+    }
+  ],
+  "maskReason": "server-rotated 'More recipes' row"
+}

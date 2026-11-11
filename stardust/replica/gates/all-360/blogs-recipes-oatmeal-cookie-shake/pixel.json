@@ -1,0 +1,89 @@
+{
+  "a": "stardust/replica/gates/all-360/blogs-recipes-oatmeal-cookie-shake/origin.png",
+  "b": "stardust/replica/gates/all-360/blogs-recipes-oatmeal-cookie-shake/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 5586,
+    "mode": "overlap"
+  },
+  "heightDelta": -175,
+  "differingPixels": 377561,
+  "pct": 25.02,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-360/blogs-recipes-oatmeal-cookie-shake/diff.png",
+  "masks": [
+    {
+      "yA": 1654,
+      "h": 1394,
+      "yB": 1654
+    }
+  ],
+  "maskedRows": 1394,
+  "textPct": 21.55,
+  "textBoxes": 91,
+  "textPixels": 302741,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 2.5
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 5.6
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 4.4
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0.9
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 0
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 70.9
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 79.4
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 25
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 6.3
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 10.9
+    },
+    {
+      "y0": 5500,
+      "y1": 5586,
+      "pct": 22.3
+    }
+  ],
+  "maskReason": "server-rotated 'More recipes' row"
+}

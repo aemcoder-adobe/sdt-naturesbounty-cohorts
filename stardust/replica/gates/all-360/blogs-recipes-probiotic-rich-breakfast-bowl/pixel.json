@@ -1,0 +1,89 @@
+{
+  "a": "stardust/replica/gates/all-360/blogs-recipes-probiotic-rich-breakfast-bowl/origin.png",
+  "b": "stardust/replica/gates/all-360/blogs-recipes-probiotic-rich-breakfast-bowl/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 5819,
+    "mode": "overlap"
+  },
+  "heightDelta": 61,
+  "differingPixels": 291003,
+  "pct": 18.12,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-360/blogs-recipes-probiotic-rich-breakfast-bowl/diff.png",
+  "masks": [
+    {
+      "yA": 1798,
+      "h": 1357,
+      "yB": 1798
+    }
+  ],
+  "maskedRows": 1357,
+  "textPct": 17.21,
+  "textBoxes": 99,
+  "textPixels": 353446,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 3.5
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 8.5
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 6
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 11.4
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 0
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 20.6
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 51.6
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 36.9
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 5.9
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 9.1
+    },
+    {
+      "y0": 5500,
+      "y1": 5819,
+      "pct": 12.7
+    }
+  ],
+  "maskReason": "server-rotated 'More recipes' row"
+}

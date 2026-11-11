@@ -1,0 +1,69 @@
+{
+  "a": "stardust/replica/gates/all-1440/blogs-recipes-golden-milk-recipe-with-turmeric/origin.png",
+  "b": "stardust/replica/gates/all-1440/blogs-recipes-golden-milk-recipe-with-turmeric/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 3887,
+    "mode": "overlap"
+  },
+  "heightDelta": 134,
+  "differingPixels": 803864,
+  "pct": 17.9,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-1440/blogs-recipes-golden-milk-recipe-with-turmeric/diff.png",
+  "masks": [
+    {
+      "yA": 1762,
+      "h": 768,
+      "yB": 1762
+    }
+  ],
+  "maskedRows": 768,
+  "textPct": 16.91,
+  "textBoxes": 111,
+  "textPixels": 518731,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 1.7
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 3.9
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 2.7
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 3.7
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 76.5
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 18.5
+    },
+    {
+      "y0": 3500,
+      "y1": 3887,
+      "pct": 5.9
+    }
+  ],
+  "maskReason": "server-rotated 'More recipes' row"
+}

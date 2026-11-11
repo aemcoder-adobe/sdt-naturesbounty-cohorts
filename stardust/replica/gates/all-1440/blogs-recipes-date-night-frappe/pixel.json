@@ -1,0 +1,64 @@
+{
+  "a": "stardust/replica/gates/all-1440/blogs-recipes-date-night-frappe/origin.png",
+  "b": "stardust/replica/gates/all-1440/blogs-recipes-date-night-frappe/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 3447,
+    "mode": "overlap"
+  },
+  "heightDelta": -48,
+  "differingPixels": 652378,
+  "pct": 16.49,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-1440/blogs-recipes-date-night-frappe/diff.png",
+  "masks": [
+    {
+      "yA": 1316,
+      "h": 700,
+      "yB": 1316
+    }
+  ],
+  "maskedRows": 700,
+  "textPct": 24.33,
+  "textBoxes": 98,
+  "textPixels": 371733,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 1.7
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 1.8
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0.6
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 62
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 17
+    },
+    {
+      "y0": 3000,
+      "y1": 3447,
+      "pct": 8.3
+    }
+  ],
+  "maskReason": "server-rotated 'More recipes' row"
+}
