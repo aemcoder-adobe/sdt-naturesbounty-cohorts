@@ -59,9 +59,9 @@ main > .section > .content-newsletter-wrapper {
   font-weight: 100;
 }
 
+/* the live title lines are real <h3>s: UA 1.17em of the 2rem title, its 1.2 line-height */
 .content-newsletter .content-newsletter-title :is(h2, h3, h4, p) {
   margin: 0;
-  font: inherit;
   color: inherit;
 }
 

@@ -70,12 +70,13 @@ main > .section > .testimonials-wrapper {
 }
 
 .testimonials .testimonials-media picture {
-  display: contents;
+  display: block;
 }
 
 .testimonials .testimonials-media img {
   display: block;
   width: auto;
+  max-width: none;
   max-height: 310px;
 }
 
