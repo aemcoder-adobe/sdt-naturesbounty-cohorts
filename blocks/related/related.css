@@ -30,19 +30,14 @@ main > .section.related-container .default-content-wrapper :is(h2, h3, p),
 
 .related .related-card-media {
   height: 200px;
-  line-height: 0;
-}
-
-.related .related-card-media :is(a, picture) {
-  display: block;
-  height: 100%;
 }
 
 .related .related-card-media img {
-  display: block;
+  display: inline;
   width: 100%;
   height: 100%;
   object-fit: cover;
+  vertical-align: baseline;
 }
 
 .related .related-card-tags {
@@ -100,8 +95,10 @@ main > .section.related-container .default-content-wrapper :is(h2, h3, p),
   margin: 0;
 }
 
-.related .related-card-excerpt {
-  margin-top: 0;
+/* the source's excerpt is an inline span inside the card link */
+.related .related-card-excerpt,
+.related .related-card-excerpt p {
+  display: inline;
 }
 
 .related .related-card-more {
