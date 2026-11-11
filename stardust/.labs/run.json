@@ -1,7 +1,7 @@
 {
   "experimentId": "1a676f95-d55d-44d7-b20f-1348fe3d7f68",
   "attempt": 1,
-  "session": 2,
+  "session": 3,
   "scope": {
     "mode": "site",
     "sourceUrl": "https://naturesbounty.com/",
@@ -13,7 +13,7 @@
   "startedAt": "2026-11-10T22:09:40.591Z",
   "deadlineAt": "2026-11-11T22:09:29.396Z",
   "previewUrl": "https://main--1a676f95--aemcoder.aem.page/",
-  "sessionStartSha": "5ee7945896d59ad59ed5ccdac97c227cdc9ce734",
+  "sessionStartSha": "101b4209ac963fecfb722357b3158675bd68bcd7",
   "stardustVersion": "0.37.2+0044687c99d0",
   "claudeCodeVersion": "2.1.312",
   "model": "claude-opus-5-5",
@@ -28,9 +28,12 @@
     "/home/node/.claude/projects/-workspace-1a676f95/160a47b0-cbf2-4c41-ad24-82c8bcebc6d5/subagents/agent-ae216b8cbe62a9aee.jsonl": 9183852,
     "/home/node/.claude/projects/-workspace-1a676f95/160a47b0-cbf2-4c41-ad24-82c8bcebc6d5/subagents/agent-ad23c9f62fb15b904.jsonl": 2780341,
     "/home/node/.claude/projects/-workspace-1a676f95/160a47b0-cbf2-4c41-ad24-82c8bcebc6d5/subagents/agent-a77b88082a6660e59.jsonl": 4074592,
-    "/home/node/.claude/projects/-workspace-1a676f95/160a47b0-cbf2-4c41-ad24-82c8bcebc6d5/subagents/agent-a12609a23dcef9201.jsonl": 6381918
+    "/home/node/.claude/projects/-workspace-1a676f95/160a47b0-cbf2-4c41-ad24-82c8bcebc6d5/subagents/agent-a12609a23dcef9201.jsonl": 6381918,
+    "/home/node/.claude/projects/-workspace-1a676f95/6f26a851-2453-406d-b0be-98035e98f0d6.jsonl": 1785660,
+    "/home/node/.claude/projects/-workspace-1a676f95/6f26a851-2453-406d-b0be-98035e98f0d6/subagents/agent-a9a8675e73dafa0a5.jsonl": 2513530,
+    "/home/node/.claude/projects/-workspace-1a676f95/6f26a851-2453-406d-b0be-98035e98f0d6/subagents/agent-a3b305f0f71ad9ffd.jsonl": 3734619
   },
-  "lastPhase": "stardust:replica:source-fidelity-gate",
-  "resumePhase": "after stardust:replica:source-fidelity-gate",
+  "lastPhase": "stardust:rollout:C-deliver",
+  "resumePhase": "stardust:rollout:C-deliver",
   "parts": []
 }

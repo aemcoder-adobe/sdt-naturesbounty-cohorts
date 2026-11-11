@@ -1,0 +1,113 @@
+{
+  "_provenance": {
+    "writtenBy": "gate-all.mjs",
+    "writtenAt": "2026-11-11T02:16:47.726Z",
+    "stage": "published",
+    "breakpoint": 1440,
+    "threshold": 10,
+    "heightTolerance": 0.05,
+    "clipMax": 0,
+    "unitTol": 4,
+    "criteria": {
+      "pixel": true,
+      "height": true,
+      "clip": true,
+      "content": true
+    },
+    "verdict": "overlap pixel % ≤ 10 AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance) AND content MISSING + HIDDEN links/headings = 0",
+    "origin": "https://naturesbounty.com",
+    "eds": "https://main--1a676f95--aemcoder.aem.page",
+    "edsHostOverride": "https://main--1a676f95--aemcoder.aem.page",
+    "only": [
+      "index"
+    ]
+  },
+  "totals": {
+    "pages": 1,
+    "pass": 0,
+    "pixelOnlyPass": 0,
+    "overridePass": 0,
+    "fail": 1,
+    "error": 0,
+    "failPixel": 1,
+    "failHeight": 0,
+    "failClip": 0,
+    "failContent": 0,
+    "failUnits": 1,
+    "fontsNotLoaded": 1,
+    "fontChecksSkipped": 0,
+    "contentNA": 0,
+    "asymmetricOrigins": 0,
+    "degradedTier": 0,
+    "passWithOverrides": 0
+  },
+  "rows": [
+    {
+      "slug": "index",
+      "path": "/",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 14.19,
+      "textPct": 18.54,
+      "heightDelta": -109,
+      "originH": 8337,
+      "edsH": 8446,
+      "pixelPass": false,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": true,
+      "contentNA": null,
+      "unitPass": false,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "passWithOverride": false,
+      "fontsNotLoaded": [
+        "figtree-fallback"
+      ],
+      "fontChecksSkipped": [],
+      "reasons": [
+        "pixel 14.19% > 10%",
+        "units off 51 hidden 25 missing 24",
+        "font-not-loaded:figtree-fallback"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 0,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 6,
+        "hiddenButtons": 0,
+        "findings": 22,
+        "variable": []
+      },
+      "units": {
+        "units": 24,
+        "within": 50,
+        "off": 51,
+        "hidden": 25,
+        "missing": 24,
+        "errors": 0,
+        "requiredOff": 100
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "hotBands": [
+        "5000-5500:25.9%",
+        "5500-6000:17.6%",
+        "6000-6500:20%",
+        "6500-7000:49.1%",
+        "7000-7500:80%"
+      ],
+      "error": null
+    }
+  ]
+}

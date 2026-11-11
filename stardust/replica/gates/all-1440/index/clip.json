@@ -1,0 +1,107 @@
+{
+ "url": "https://main--1a676f95--aemcoder.aem.page/",
+ "at": "2026-11-11T02:22:03.851Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 7,
+  "offPage": 175,
+  "textNodes": 283,
+  "controls": 130,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "CONTROL X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.tabbed-products-slider",
+   "path": "div.tabbed-products.block > div.tabbed-products-inner.container > div.tabbed-products-slider > button.tabbed-products-nav.tabbed-products-nav-prev",
+   "text": "previous slide",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "CONTROL X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.tabbed-products-track",
+   "path": "div.tabbed-products-track > div.tabbed-products-slide > div.product-card > a.product-card-inner",
+   "text": "advanced hair, skin & nails80 gummies4.4(139)with over 2x th",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.tabbed-products-track",
+   "path": "a.product-card-inner > div.product-card-body > div.product-card-title > h3#advanced-hair-skin--nails",
+   "text": "advanced hair, skin & nails",
+   "cutMin": 257,
+   "cutMax": 257
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.tabbed-products-track",
+   "path": "a.product-card-inner > div.product-card-body > div.product-card-desc > p",
+   "text": "with over 2x the biotin† from the #1 brand for hair, skin & ",
+   "cutMin": 243,
+   "cutMax": 243
+  },
+  {
+   "kind": "CONTROL X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.tabbed-products-slider",
+   "path": "div.tabbed-products.block > div.tabbed-products-inner.container > div.tabbed-products-slider > button.tabbed-products-nav.tabbed-products-nav-next",
+   "text": "next slide",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "CONTROL X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.testimonials-viewport",
+   "path": "div.testimonials-item > div.testimonials-media > p > a",
+   "text": "shop now",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.testimonials-viewport",
+   "path": "div.testimonials-item > div.testimonials-media > p > a",
+   "text": "shop now",
+   "cutMin": 82,
+   "cutMax": 82
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 12,
+   "offPage": 223,
+   "textNodes": 293,
+   "controls": 175,
+   "total": 0
+  }
+ }
+}
