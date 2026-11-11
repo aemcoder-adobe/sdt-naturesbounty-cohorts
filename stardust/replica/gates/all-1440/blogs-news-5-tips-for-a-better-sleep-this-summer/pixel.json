@@ -3,20 +3,20 @@
   "b": "stardust/replica/gates/all-1440/blogs-news-5-tips-for-a-better-sleep-this-summer/eds.png",
   "compared": {
     "width": 1440,
-    "height": 4287,
+    "height": 4335,
     "mode": "overlap"
   },
-  "heightDelta": 60,
-  "differingPixels": 958457,
-  "pct": 15.53,
+  "heightDelta": 12,
+  "differingPixels": 176427,
+  "pct": 2.83,
   "threshold": 10,
-  "pass": false,
+  "pass": true,
   "diff": "stardust/replica/gates/all-1440/blogs-news-5-tips-for-a-better-sleep-this-summer/diff.png",
   "masks": [],
   "maskedRows": 0,
-  "textPct": 16.74,
+  "textPct": 18,
   "textBoxes": 163,
-  "textPixels": 918882,
+  "textPixels": 918065,
   "bands": [
     {
       "y0": 0,
@@ -26,42 +26,42 @@
     {
       "y0": 500,
       "y1": 1000,
-      "pct": 3.1
+      "pct": 2.7
     },
     {
       "y0": 1000,
       "y1": 1500,
-      "pct": 5.2
+      "pct": 4.9
     },
     {
       "y0": 1500,
       "y1": 2000,
-      "pct": 8.2
+      "pct": 5.4
     },
     {
       "y0": 2000,
       "y1": 2500,
-      "pct": 28
+      "pct": 1.7
     },
     {
       "y0": 2500,
       "y1": 3000,
-      "pct": 26.5
+      "pct": 1.8
     },
     {
       "y0": 3000,
       "y1": 3500,
-      "pct": 47.5
+      "pct": 0
     },
     {
       "y0": 3500,
       "y1": 4000,
-      "pct": 9.3
+      "pct": 2.8
     },
     {
       "y0": 4000,
-      "y1": 4287,
-      "pct": 6.2
+      "y1": 4335,
+      "pct": 5.3
     }
   ]
 }

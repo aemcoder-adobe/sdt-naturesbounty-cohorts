@@ -1,0 +1,67 @@
+{
+  "a": "stardust/replica/gates/all-1440/blogs-news-trust-us-youre-always-better-off-healthy/origin.png",
+  "b": "stardust/replica/gates/all-1440/blogs-news-trust-us-youre-always-better-off-healthy/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 4220,
+    "mode": "overlap"
+  },
+  "heightDelta": 12,
+  "differingPixels": 160717,
+  "pct": 2.64,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/blogs-news-trust-us-youre-always-better-off-healthy/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 17.73,
+  "textBoxes": 150,
+  "textPixels": 841901,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 1.7
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 2.4
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 5.7
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 2.7
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 2.7
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 0.8
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 0.5
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 3.3
+    },
+    {
+      "y0": 4000,
+      "y1": 4220,
+      "pct": 5.6
+    }
+  ]
+}

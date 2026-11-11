@@ -1,0 +1,2991 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-11T09:31:01.327Z",
+  "tol": 4,
+  "n": 5,
+  "width": 1440,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://naturesbounty.com/blogs/news/probiotics-for-everyday-health",
+  "at": "2026-11-11T06:54:25.846Z",
+  "docH": 6875
+ },
+ "eds": {
+  "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/probiotics-for-everyday-health",
+  "at": "2026-11-11T09:31:01.184Z",
+  "docH": 6863
+ },
+ "results": [
+  {
+   "sel": ".article-main__related .article-item=.related .related-card",
+   "family": null,
+   "required": true,
+   "originMatches": 3,
+   "edsMatches": 3,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.article-main__related.container__tight > div.article-item__grid > div.article-item.is-layout-3"
+     },
+     "eds": {
+      "path": "div.related.block > div.related-grid > div.related-card"
+     },
+     "rows": [
+      {
+       "key": "image:your gut may play a powerful role in you",
+       "role": "image",
+       "text": "your gut may play a powerful role in your well-being, our su",
+       "edsText": "your gut may play a powerful role in your well-being, our su",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:a.article-item__url#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 225,
+        "w": 393,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 228,
+        "w": 393,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 3,
+       "dw": 0,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:digestive health",
+       "role": "link",
+       "text": "digestive health",
+       "edsText": "digestive health",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 265,
+        "w": 117,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 265,
+        "w": 116,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "link:your gut may play a powerful role in you",
+       "role": "link",
+       "text": "your gut may play a powerful role in your well-being, our su",
+       "edsText": "your gut may play a powerful role in your well-being, our su",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 295,
+        "w": 393,
+        "h": 190
+       },
+       "eds": {
+        "x": 0,
+        "y": 295,
+        "w": 393,
+        "h": 190,
+        "sel": "a.related-card-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "heading:your gut may play a powerful role in you",
+       "role": "heading",
+       "text": "your gut may play a powerful role in your well-being, our su",
+       "edsText": "your gut may play a powerful role in your well-being, our su",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 311,
+        "w": 393,
+        "h": 114
+       },
+       "eds": {
+        "x": 0,
+        "y": 311,
+        "w": 393,
+        "h": 114,
+        "sel": "h3#your-gut-may-play-a-powerful-role-in-your-well-being-our-survey-finds",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "25/38/700",
+        "eds": "25/38/700"
+       }
+      },
+      {
+       "key": "text:learn more about living an active life a",
+       "role": "text",
+       "text": "learn more about living an active life and nurturing your di",
+       "edsText": "learn more about living an active life and nurturing your di",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 427,
+        "w": 330,
+        "h": 55
+       },
+       "eds": {
+        "x": 0,
+        "y": 429,
+        "w": 325,
+        "h": 52,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 2,
+       "dw": -5,
+       "dh": -3,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 393,
+       "h": 245,
+       "absY": 4658,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 93,
+       "y": 4658,
+       "w": 393,
+       "h": 485
+      },
+      "eds": {
+       "x": 93,
+       "y": 4658,
+       "w": 393,
+       "h": 485
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 5,
+      "off": 1,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.article-main__related.container__tight > div.article-item__grid > div.article-item.is-layout-3"
+     },
+     "eds": {
+      "path": "div.related.block > div.related-grid > div.related-card"
+     },
+     "rows": [
+      {
+       "key": "image:enhance your digestive wellness with the",
+       "role": "image",
+       "text": "enhance your digestive wellness with these 4 probiotic suppl",
+       "edsText": "enhance your digestive wellness with these 4 probiotic suppl",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:a.article-item__url#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 225,
+        "w": 393,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 228,
+        "w": 393,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 3,
+       "dw": 0,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:digestive health",
+       "role": "link",
+       "text": "digestive health",
+       "edsText": "digestive health",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 265,
+        "w": 117,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 265,
+        "w": 116,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "link:enhance your digestive wellness with the",
+       "role": "link",
+       "text": "enhance your digestive wellness with these 4 probiotic suppl",
+       "edsText": "enhance your digestive wellness with these 4 probiotic suppl",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 295,
+        "w": 393,
+        "h": 190
+       },
+       "eds": {
+        "x": 0,
+        "y": 295,
+        "w": 393,
+        "h": 190,
+        "sel": "a.related-card-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "heading:enhance your digestive wellness with the",
+       "role": "heading",
+       "text": "enhance your digestive wellness with these 4 probiotic suppl",
+       "edsText": "enhance your digestive wellness with these 4 probiotic suppl",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 311,
+        "w": 393,
+        "h": 114
+       },
+       "eds": {
+        "x": 0,
+        "y": 311,
+        "w": 393,
+        "h": 114,
+        "sel": "h3#enhance-your-digestive-wellness-with-these-4-probiotic-supplements",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "25/38/700",
+        "eds": "25/38/700"
+       }
+      },
+      {
+       "key": "text:explore a range of practical and effecti",
+       "role": "text",
+       "text": "explore a range of practical and effective solutions that ca",
+       "edsText": "explore a range of practical and effective solutions that ca",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 427,
+        "w": 343,
+        "h": 55
+       },
+       "eds": {
+        "x": 0,
+        "y": 429,
+        "w": 343,
+        "h": 52,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 2,
+       "dw": 0,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 393,
+       "h": 245,
+       "absY": 4658,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 516,
+       "y": 4658,
+       "w": 393,
+       "h": 485
+      },
+      "eds": {
+       "x": 516,
+       "y": 4658,
+       "w": 393,
+       "h": 485
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.article-main__related.container__tight > div.article-item__grid > div.article-item.is-layout-3"
+     },
+     "eds": {
+      "path": "div.related.block > div.related-grid > div.related-card"
+     },
+     "rows": [
+      {
+       "key": "image:digestive probiotic 10",
+       "role": "image",
+       "text": "digestive probiotic 10",
+       "edsText": "digestive probiotic 10",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:a.article-item__url#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 225,
+        "w": 393,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 228,
+        "w": 393,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 3,
+       "dw": 0,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:digestive health",
+       "role": "link",
+       "text": "digestive health",
+       "edsText": "digestive health",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 265,
+        "w": 117,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 265,
+        "w": 116,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "link:digestive probiotic 10 by natalie meriwe",
+       "role": "link",
+       "text": "digestive probiotic 10 by natalie meriwether, bsn",
+       "edsText": "digestive probiotic 10 by natalie meriwether, bsn",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 295,
+        "w": 393,
+        "h": 84
+       },
+       "eds": {
+        "x": 0,
+        "y": 295,
+        "w": 393,
+        "h": 84,
+        "sel": "a.related-card-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "heading:digestive probiotic 10",
+       "role": "heading",
+       "text": "digestive probiotic 10",
+       "edsText": "digestive probiotic 10",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 311,
+        "w": 393,
+        "h": 38
+       },
+       "eds": {
+        "x": 0,
+        "y": 311,
+        "w": 393,
+        "h": 38,
+        "sel": "h3#digestive-probiotic-10",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "25/38/700",
+        "eds": "25/38/700"
+       }
+      },
+      {
+       "key": "text:by natalie meriwether, bsn",
+       "role": "text",
+       "text": "by natalie meriwether, bsn",
+       "edsText": "by natalie meriwether, bsn",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 351,
+        "w": 218,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 353,
+        "w": 220,
+        "h": 22,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 2,
+       "dw": 2,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 393,
+       "h": 245,
+       "absY": 4658,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 939,
+       "y": 4658,
+       "w": 393,
+       "h": 379
+      },
+      "eds": {
+       "x": 939,
+       "y": 4658,
+       "w": 393,
+       "h": 379
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".article-main__products-grid .product-item=.product-rail__grid .product-card, .product-rail .product-rail-grid .product-card",
+   "family": null,
+   "required": true,
+   "originMatches": 4,
+   "edsMatches": 4,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.article-main__products > div.article-main__products-grid > div.product-item"
+     },
+     "eds": {
+      "path": "div.product-rail.block > div.product-rail-grid > div.product-card"
+     },
+     "rows": [
+      {
+       "key": "link:probiotic cd 30 caplets 4.4 advanced sup",
+       "role": "link",
+       "text": "probiotic cd 30 caplets 4.4 advanced support for digestive, ",
+       "edsText": "probiotic cd 30 caplets 4.4 advanced support for digestive, ",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 342,
+        "h": 595
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 342,
+        "h": 595,
+        "sel": "a.product-card-inner",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "image:probiotic cd",
+       "role": "image",
+       "text": "probiotic cd",
+       "edsText": "probiotic cd",
+       "byPosition": false,
+       "origin": {
+        "x": 21,
+        "y": 56,
+        "w": 300,
+        "h": 200
+       },
+       "eds": {
+        "x": 21,
+        "y": 56,
+        "w": 300,
+        "h": 200,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "heading:probiotic cd",
+       "role": "heading",
+       "text": "probiotic cd",
+       "edsText": "probiotic cd",
+       "byPosition": false,
+       "origin": {
+        "x": 21,
+        "y": 307,
+        "w": 300,
+        "h": 60
+       },
+       "eds": {
+        "x": 21,
+        "y": 307,
+        "w": 300,
+        "h": 60,
+        "sel": "h3#probiotic-cd",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "22/22/800",
+        "eds": "22/22/800"
+       }
+      },
+      {
+       "key": "text:30 caplets",
+       "role": "text",
+       "text": "30 caplets",
+       "edsText": "30 caplets",
+       "byPosition": false,
+       "origin": {
+        "x": 21,
+        "y": 367,
+        "w": 300,
+        "h": 30
+       },
+       "eds": {
+        "x": 21,
+        "y": 367,
+        "w": 300,
+        "h": 30,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "button:4.4",
+       "role": "button",
+       "text": "4.4",
+       "edsText": "4.4",
+       "byPosition": false,
+       "origin": {
+        "x": 21,
+        "y": 407,
+        "w": 300,
+        "h": 25
+       },
+       "eds": {
+        "x": 21,
+        "y": 407,
+        "w": 300,
+        "h": 25,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "12/25/500"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 100,
+        "y": 410,
+        "w": 21,
+        "h": 20
+       },
+       "eds": {
+        "x": 102,
+        "y": 410,
+        "w": 20,
+        "h": 20,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 2,
+       "dy": 0,
+       "dw": -1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "12/25/500"
+       }
+      },
+      {
+       "key": "image:svg#2",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 121,
+        "y": 410,
+        "w": 21,
+        "h": 20
+       },
+       "eds": {
+        "x": 123,
+        "y": 410,
+        "w": 20,
+        "h": 20,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 2,
+       "dy": 0,
+       "dw": -1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "12/25/500"
+       }
+      },
+      {
+       "key": "image:svg#3",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 142,
+        "y": 410,
+        "w": 21,
+        "h": 20
+       },
+       "eds": {
+        "x": 144,
+        "y": 410,
+        "w": 20,
+        "h": 20,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 2,
+       "dy": 0,
+       "dw": -1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "12/25/500"
+       }
+      },
+      {
+       "key": "image:svg#4",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 163,
+        "y": 410,
+        "w": 21,
+        "h": 20
+       },
+       "eds": {
+        "x": 165,
+        "y": 410,
+        "w": 20,
+        "h": 20,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 2,
+       "dy": 0,
+       "dw": -1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "12/25/500"
+       }
+      },
+      {
+       "key": "image:svg#5",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 184,
+        "y": 410,
+        "w": 20,
+        "h": 20
+       },
+       "eds": {
+        "x": 186,
+        "y": 410,
+        "w": 20,
+        "h": 20,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 2,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "12/25/500"
+       }
+      },
+      {
+       "key": "text:advanced support for digestive, intestin",
+       "role": "text",
+       "text": "advanced support for digestive, intestinal & immune health*",
+       "edsText": "advanced support for digestive, intestinal & immune health*",
+       "byPosition": false,
+       "origin": {
+        "x": 21,
+        "y": 442,
+        "w": 300,
+        "h": 44
+       },
+       "eds": {
+        "x": 21,
+        "y": 442,
+        "w": 300,
+        "h": 44,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "15/22/500",
+        "eds": "15/22/500"
+       }
+      },
+      {
+       "key": "button:view product",
+       "role": "button",
+       "text": "view product",
+       "edsText": "view product",
+       "byPosition": false,
+       "origin": {
+        "x": 38,
+        "y": 506,
+        "w": 266,
+        "h": 68
+       },
+       "eds": {
+        "x": 38,
+        "y": 506,
+        "w": 266,
+        "h": 68,
+        "sel": "p.button-wrapper",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/700",
+        "eds": "18/30/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 21,
+       "y": 56,
+       "w": 300,
+       "h": 200,
+       "absY": 2061,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 1013,
+       "y": 2005,
+       "w": 342,
+       "h": 595
+      },
+      "eds": {
+       "x": 1013,
+       "y": 2005,
+       "w": 342,
+       "h": 595
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 12,
+      "within": 12,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.article-main__products > div.article-main__products-grid > div.product-item"
+     },
+     "eds": {
+      "path": "div.product-rail.block > div.product-rail-grid > div.product-card"
+     },
+     "rows": [
+      {
+       "key": "link:probiotic 10 20 billion live probiotic c",
+       "role": "link",
+       "text": "probiotic 10 20 billion live probiotic cultures , 30 capsule",
+       "edsText": "probiotic 10 20 billion live probiotic cultures , 30 capsule",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 342,
+        "h": 603
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 342,
+        "h": 603,
+        "sel": "a.product-card-inner",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "image:probiotic 10",
+       "role": "image",
+       "text": "probiotic 10",
+       "edsText": "probiotic 10",
+       "byPosition": false,
+       "origin": {
+        "x": 21,
+        "y": 56,
+        "w": 300,
+        "h": 200
+       },
+       "eds": {
+        "x": 21,
+        "y": 56,
+        "w": 300,
+        "h": 200,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "heading:probiotic 10",
+       "role": "heading",
+       "text": "probiotic 10",
+       "edsText": "probiotic 10",
+       "byPosition": false,
+       "origin": {
+        "x": 21,
+        "y": 307,
+        "w": 300,
+        "h": 60
+       },
+       "eds": {
+        "x": 21,
+        "y": 307,
+        "w": 300,
+        "h": 60,
+        "sel": "h3#probiotic-10",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "22/22/800",
+        "eds": "22/22/800"
+       }
+      },
+      {
+       "key": "text:20 billion live probiotic cultures , 30 ",
+       "role": "text",
+       "text": "20 billion live probiotic cultures , 30 capsules",
+       "edsText": "20 billion live probiotic cultures , 30 capsules",
+       "byPosition": false,
+       "origin": {
+        "x": 21,
+        "y": 367,
+        "w": 300,
+        "h": 60
+       },
+       "eds": {
+        "x": 21,
+        "y": 367,
+        "w": 300,
+        "h": 60,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "button:4.3",
+       "role": "button",
+       "text": "4.3",
+       "edsText": "4.3",
+       "byPosition": false,
+       "origin": {
+        "x": 21,
+        "y": 437,
+        "w": 300,
+        "h": 25
+       },
+       "eds": {
+        "x": 21,
+        "y": 437,
+        "w": 300,
+        "h": 25,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "12/25/500"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 100,
+        "y": 440,
+        "w": 21,
+        "h": 20
+       },
+       "eds": {
+        "x": 102,
+        "y": 440,
+        "w": 20,
+        "h": 20,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 2,
+       "dy": 0,
+       "dw": -1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "12/25/500"
+       }
+      },
+      {
+       "key": "image:svg#2",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 121,
+        "y": 440,
+        "w": 21,
+        "h": 20
+       },
+       "eds": {
+        "x": 123,
+        "y": 440,
+        "w": 20,
+        "h": 20,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 2,
+       "dy": 0,
+       "dw": -1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "12/25/500"
+       }
+      },
+      {
+       "key": "image:svg#3",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 142,
+        "y": 440,
+        "w": 21,
+        "h": 20
+       },
+       "eds": {
+        "x": 144,
+        "y": 440,
+        "w": 20,
+        "h": 20,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 2,
+       "dy": 0,
+       "dw": -1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "12/25/500"
+       }
+      },
+      {
+       "key": "image:svg#4",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 163,
+        "y": 440,
+        "w": 21,
+        "h": 20
+       },
+       "eds": {
+        "x": 165,
+        "y": 440,
+        "w": 20,
+        "h": 20,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 2,
+       "dy": 0,
+       "dw": -1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "12/25/500"
+       }
+      },
+      {
+       "key": "image:svg#5",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 184,
+        "y": 440,
+        "w": 20,
+        "h": 20
+       },
+       "eds": {
+        "x": 186,
+        "y": 440,
+        "w": 20,
+        "h": 20,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 2,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "12/25/500"
+       }
+      },
+      {
+       "key": "text:one-per-day formula",
+       "role": "text",
+       "text": "one-per-day formula",
+       "edsText": "one-per-day formula",
+       "byPosition": false,
+       "origin": {
+        "x": 21,
+        "y": 472,
+        "w": 300,
+        "h": 22
+       },
+       "eds": {
+        "x": 21,
+        "y": 472,
+        "w": 300,
+        "h": 22,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "15/22/500",
+        "eds": "15/22/500"
+       }
+      },
+      {
+       "key": "button:view product",
+       "role": "button",
+       "text": "view product",
+       "edsText": "view product",
+       "byPosition": false,
+       "origin": {
+        "x": 38,
+        "y": 514,
+        "w": 266,
+        "h": 68
+       },
+       "eds": {
+        "x": 38,
+        "y": 514,
+        "w": 266,
+        "h": 68,
+        "sel": "p.button-wrapper",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/700",
+        "eds": "18/30/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 21,
+       "y": 56,
+       "w": 300,
+       "h": 200,
+       "absY": 2691,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 1013,
+       "y": 2635,
+       "w": 342,
+       "h": 603
+      },
+      "eds": {
+       "x": 1013,
+       "y": 2635,
+       "w": 342,
+       "h": 603
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 12,
+      "within": 12,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.article-main__products > div.article-main__products-grid > div.product-item"
+     },
+     "eds": {
+      "path": "div.product-rail.block > div.product-rail-grid > div.product-card"
+     },
+     "rows": [
+      {
+       "key": "link:probiotic gummies 60 gummies 4.6 provide",
+       "role": "link",
+       "text": "probiotic gummies 60 gummies 4.6 provides relief from occasi",
+       "edsText": "probiotic gummies 60 gummies 4.6 provides relief from occasi",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 342,
+        "h": 595
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 342,
+        "h": 595,
+        "sel": "a.product-card-inner",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "image:probiotic gummies",
+       "role": "image",
+       "text": "probiotic gummies",
+       "edsText": "probiotic gummies",
+       "byPosition": false,
+       "origin": {
+        "x": 21,
+        "y": 56,
+        "w": 300,
+        "h": 200
+       },
+       "eds": {
+        "x": 21,
+        "y": 56,
+        "w": 300,
+        "h": 200,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "heading:probiotic gummies",
+       "role": "heading",
+       "text": "probiotic gummies",
+       "edsText": "probiotic gummies",
+       "byPosition": false,
+       "origin": {
+        "x": 21,
+        "y": 307,
+        "w": 300,
+        "h": 60
+       },
+       "eds": {
+        "x": 21,
+        "y": 307,
+        "w": 300,
+        "h": 60,
+        "sel": "h3#probiotic-gummies",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "22/22/800",
+        "eds": "22/22/800"
+       }
+      },
+      {
+       "key": "text:60 gummies",
+       "role": "text",
+       "text": "60 gummies",
+       "edsText": "60 gummies",
+       "byPosition": false,
+       "origin": {
+        "x": 21,
+        "y": 367,
+        "w": 300,
+        "h": 30
+       },
+       "eds": {
+        "x": 21,
+        "y": 367,
+        "w": 300,
+        "h": 30,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "button:4.6",
+       "role": "button",
+       "text": "4.6",
+       "edsText": "4.6",
+       "byPosition": false,
+       "origin": {
+        "x": 21,
+        "y": 407,
+        "w": 300,
+        "h": 25
+       },
+       "eds": {
+        "x": 21,
+        "y": 407,
+        "w": 300,
+        "h": 25,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "12/25/500"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 100,
+        "y": 410,
+        "w": 21,
+        "h": 20
+       },
+       "eds": {
+        "x": 102,
+        "y": 410,
+        "w": 20,
+        "h": 20,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 2,
+       "dy": 0,
+       "dw": -1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "12/25/500"
+       }
+      },
+      {
+       "key": "image:svg#2",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 121,
+        "y": 410,
+        "w": 21,
+        "h": 20
+       },
+       "eds": {
+        "x": 123,
+        "y": 410,
+        "w": 20,
+        "h": 20,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 2,
+       "dy": 0,
+       "dw": -1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "12/25/500"
+       }
+      },
+      {
+       "key": "image:svg#3",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 142,
+        "y": 410,
+        "w": 21,
+        "h": 20
+       },
+       "eds": {
+        "x": 144,
+        "y": 410,
+        "w": 20,
+        "h": 20,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 2,
+       "dy": 0,
+       "dw": -1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "12/25/500"
+       }
+      },
+      {
+       "key": "image:svg#4",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 163,
+        "y": 410,
+        "w": 21,
+        "h": 20
+       },
+       "eds": {
+        "x": 165,
+        "y": 410,
+        "w": 20,
+        "h": 20,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 2,
+       "dy": 0,
+       "dw": -1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "12/25/500"
+       }
+      },
+      {
+       "key": "image:svg#5",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 184,
+        "y": 410,
+        "w": 20,
+        "h": 20
+       },
+       "eds": {
+        "x": 186,
+        "y": 410,
+        "w": 20,
+        "h": 20,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 2,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "12/25/500"
+       }
+      },
+      {
+       "key": "text:provides relief from occasional constipa",
+       "role": "text",
+       "text": "provides relief from occasional constipation, gas and bloati",
+       "edsText": "provides relief from occasional constipation, gas and bloati",
+       "byPosition": false,
+       "origin": {
+        "x": 21,
+        "y": 442,
+        "w": 300,
+        "h": 44
+       },
+       "eds": {
+        "x": 21,
+        "y": 442,
+        "w": 300,
+        "h": 44,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "15/22/500",
+        "eds": "15/22/500"
+       }
+      },
+      {
+       "key": "button:view product",
+       "role": "button",
+       "text": "view product",
+       "edsText": "view product",
+       "byPosition": false,
+       "origin": {
+        "x": 38,
+        "y": 506,
+        "w": 266,
+        "h": 68
+       },
+       "eds": {
+        "x": 38,
+        "y": 506,
+        "w": 266,
+        "h": 68,
+        "sel": "p.button-wrapper",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/700",
+        "eds": "18/30/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 21,
+       "y": 56,
+       "w": 300,
+       "h": 200,
+       "absY": 3329,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 1013,
+       "y": 3273,
+       "w": 342,
+       "h": 595
+      },
+      "eds": {
+       "x": 1013,
+       "y": 3273,
+       "w": 342,
+       "h": 595
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 12,
+      "within": 12,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.article-main__products > div.article-main__products-grid > div.product-item"
+     },
+     "eds": {
+      "path": "div.product-rail.block > div.product-rail-grid > div.product-card"
+     },
+     "rows": [
+      {
+       "key": "link:probiotic gx 25 capsules 4.6 patent pend",
+       "role": "link",
+       "text": "probiotic gx 25 capsules 4.6 patent pending strain studied b",
+       "edsText": "probiotic gx 25 capsules 4.6 patent pending strain studied b",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 342,
+        "h": 595
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 342,
+        "h": 595,
+        "sel": "a.product-card-inner",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "image:probiotic gx",
+       "role": "image",
+       "text": "probiotic gx",
+       "edsText": "probiotic gx",
+       "byPosition": false,
+       "origin": {
+        "x": 21,
+        "y": 56,
+        "w": 300,
+        "h": 200
+       },
+       "eds": {
+        "x": 21,
+        "y": 56,
+        "w": 300,
+        "h": 200,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "heading:probiotic gx",
+       "role": "heading",
+       "text": "probiotic gx",
+       "edsText": "probiotic gx",
+       "byPosition": false,
+       "origin": {
+        "x": 21,
+        "y": 307,
+        "w": 300,
+        "h": 60
+       },
+       "eds": {
+        "x": 21,
+        "y": 307,
+        "w": 300,
+        "h": 60,
+        "sel": "h3#probiotic-gx",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "22/22/800",
+        "eds": "22/22/800"
+       }
+      },
+      {
+       "key": "text:25 capsules",
+       "role": "text",
+       "text": "25 capsules",
+       "edsText": "25 capsules",
+       "byPosition": false,
+       "origin": {
+        "x": 21,
+        "y": 367,
+        "w": 300,
+        "h": 30
+       },
+       "eds": {
+        "x": 21,
+        "y": 367,
+        "w": 300,
+        "h": 30,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "button:4.6",
+       "role": "button",
+       "text": "4.6",
+       "edsText": "4.6",
+       "byPosition": false,
+       "origin": {
+        "x": 21,
+        "y": 407,
+        "w": 300,
+        "h": 25
+       },
+       "eds": {
+        "x": 21,
+        "y": 407,
+        "w": 300,
+        "h": 25,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "12/25/500"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 100,
+        "y": 410,
+        "w": 21,
+        "h": 20
+       },
+       "eds": {
+        "x": 102,
+        "y": 410,
+        "w": 20,
+        "h": 20,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 2,
+       "dy": 0,
+       "dw": -1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "12/25/500"
+       }
+      },
+      {
+       "key": "image:svg#2",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 121,
+        "y": 410,
+        "w": 21,
+        "h": 20
+       },
+       "eds": {
+        "x": 123,
+        "y": 410,
+        "w": 20,
+        "h": 20,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 2,
+       "dy": 0,
+       "dw": -1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "12/25/500"
+       }
+      },
+      {
+       "key": "image:svg#3",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 142,
+        "y": 410,
+        "w": 21,
+        "h": 20
+       },
+       "eds": {
+        "x": 144,
+        "y": 410,
+        "w": 20,
+        "h": 20,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 2,
+       "dy": 0,
+       "dw": -1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "12/25/500"
+       }
+      },
+      {
+       "key": "image:svg#4",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 163,
+        "y": 410,
+        "w": 21,
+        "h": 20
+       },
+       "eds": {
+        "x": 165,
+        "y": 410,
+        "w": 20,
+        "h": 20,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 2,
+       "dy": 0,
+       "dw": -1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "12/25/500"
+       }
+      },
+      {
+       "key": "image:svg#5",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 184,
+        "y": 410,
+        "w": 20,
+        "h": 20
+       },
+       "eds": {
+        "x": 186,
+        "y": 410,
+        "w": 20,
+        "h": 20,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 2,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "12/25/500"
+       }
+      },
+      {
+       "key": "text:patent pending strain studied by gastroe",
+       "role": "text",
+       "text": "patent pending strain studied by gastroenterologists",
+       "edsText": "patent pending strain studied by gastroenterologists",
+       "byPosition": false,
+       "origin": {
+        "x": 21,
+        "y": 442,
+        "w": 300,
+        "h": 44
+       },
+       "eds": {
+        "x": 21,
+        "y": 442,
+        "w": 300,
+        "h": 44,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "15/22/500",
+        "eds": "15/22/500"
+       }
+      },
+      {
+       "key": "button:view product",
+       "role": "button",
+       "text": "view product",
+       "edsText": "view product",
+       "byPosition": false,
+       "origin": {
+        "x": 38,
+        "y": 506,
+        "w": 266,
+        "h": 68
+       },
+       "eds": {
+        "x": 38,
+        "y": 506,
+        "w": 266,
+        "h": 68,
+        "sel": "p.button-wrapper",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/700",
+        "eds": "18/30/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 21,
+       "y": 56,
+       "w": 300,
+       "h": 200,
+       "absY": 3959,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 1013,
+       "y": 3903,
+       "w": 342,
+       "h": 595
+      },
+      "eds": {
+       "x": 1013,
+       "y": 3903,
+       "w": 342,
+       "h": 595
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 12,
+      "within": 12,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".instagram__blocks .instagram__item=.social-strip__grid .social-tile, .social-strip .social-strip-grid .social-tile",
+   "family": null,
+   "required": true,
+   "originMatches": 5,
+   "edsMatches": 5,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand"
+     },
+     "eds": {
+      "path": "div.social-strip.block > div.social-strip-grid > a.social-tile"
+     },
+     "rows": [
+      {
+       "key": "image:<p>advanced magnesium glycinate</p>",
+       "role": "image",
+       "text": "<p>advanced magnesium glycinate</p>",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "advanced magnesium glycinate",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 271,
+       "h": 271,
+       "absY": 5553,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:advanced magnesium glycinate"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 21,
+       "y": 5553,
+       "w": 271,
+       "h": 271
+      },
+      "eds": {
+       "x": 21,
+       "y": 5553,
+       "w": 271,
+       "h": 271
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand"
+     },
+     "eds": {
+      "path": "div.social-strip.block > div.social-strip-grid > a.social-tile"
+     },
+     "rows": [
+      {
+       "key": "image:<p>hair growth capsules</p>",
+       "role": "image",
+       "text": "<p>hair growth capsules</p>",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "hair growth capsules",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 271,
+       "h": 271,
+       "absY": 5553,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:hair growth capsules"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 299,
+       "y": 5553,
+       "w": 271,
+       "h": 271
+      },
+      "eds": {
+       "x": 299,
+       "y": 5553,
+       "w": 271,
+       "h": 271
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand"
+     },
+     "eds": {
+      "path": "div.social-strip.block > div.social-strip-grid > a.social-tile"
+     },
+     "rows": [
+      {
+       "key": "image:<p>super b-complex</p>",
+       "role": "image",
+       "text": "<p>super b-complex</p>",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "super b-complex",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 271,
+       "h": 271,
+       "absY": 5553,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:super b-complex"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 577,
+       "y": 5553,
+       "w": 271,
+       "h": 271
+      },
+      "eds": {
+       "x": 577,
+       "y": 5553,
+       "w": 271,
+       "h": 271
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand"
+     },
+     "eds": {
+      "path": "div.social-strip.block > div.social-strip-grid > a.social-tile"
+     },
+     "rows": [
+      {
+       "key": "image:<p>vitamin c</p>",
+       "role": "image",
+       "text": "<p>vitamin c</p>",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "vitamin c",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 271,
+       "h": 271,
+       "absY": 5553,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:vitamin c"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 855,
+       "y": 5553,
+       "w": 271,
+       "h": 271
+      },
+      "eds": {
+       "x": 855,
+       "y": 5553,
+       "w": 271,
+       "h": 271
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand"
+     },
+     "eds": {
+      "path": "div.social-strip.block > div.social-strip-grid > a.social-tile"
+     },
+     "rows": [
+      {
+       "key": "image:<p>advanced hair, skin + nails pectin gu",
+       "role": "image",
+       "text": "<p>advanced hair, skin + nails pectin gummy</p>",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 271,
+        "h": 271,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "advanced hair, skin + nails pectin gummy",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 271,
+       "h": 271,
+       "absY": 5553,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:advanced hair, skin + nails pectin gummy"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 1133,
+       "y": 5553,
+       "w": 271,
+       "h": 271
+      },
+      "eds": {
+       "x": 1133,
+       "y": 5553,
+       "w": 271,
+       "h": 271
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 12,
+  "within": 70,
+  "off": 1,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 1
+ }
+}

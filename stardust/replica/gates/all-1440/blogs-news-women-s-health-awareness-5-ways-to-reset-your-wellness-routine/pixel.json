@@ -3,20 +3,20 @@
   "b": "stardust/replica/gates/all-1440/blogs-news-women-s-health-awareness-5-ways-to-reset-your-wellness-routine/eds.png",
   "compared": {
     "width": 1440,
-    "height": 5468,
+    "height": 5448,
     "mode": "overlap"
   },
-  "heightDelta": -59,
-  "differingPixels": 1255825,
-  "pct": 15.95,
+  "heightDelta": 20,
+  "differingPixels": 505372,
+  "pct": 6.44,
   "threshold": 10,
-  "pass": false,
+  "pass": true,
   "diff": "stardust/replica/gates/all-1440/blogs-news-women-s-health-awareness-5-ways-to-reset-your-wellness-routine/diff.png",
   "masks": [],
   "maskedRows": 0,
-  "textPct": 18.21,
+  "textPct": 18.61,
   "textBoxes": 198,
-  "textPixels": 1542625,
+  "textPixels": 1542758,
   "bands": [
     {
       "y0": 0,
@@ -26,52 +26,52 @@
     {
       "y0": 500,
       "y1": 1000,
-      "pct": 4.4
+      "pct": 3.6
     },
     {
       "y0": 1000,
       "y1": 1500,
-      "pct": 6.6
+      "pct": 6.2
     },
     {
       "y0": 1500,
       "y1": 2000,
-      "pct": 6.8
+      "pct": 6.2
     },
     {
       "y0": 2000,
       "y1": 2500,
-      "pct": 6.6
+      "pct": 6
     },
     {
       "y0": 2500,
       "y1": 3000,
-      "pct": 6.7
+      "pct": 5.9
     },
     {
       "y0": 3000,
       "y1": 3500,
-      "pct": 21.5
+      "pct": 1.5
     },
     {
       "y0": 3500,
       "y1": 4000,
-      "pct": 27.2
+      "pct": 5.7
     },
     {
       "y0": 4000,
       "y1": 4500,
-      "pct": 62.9
+      "pct": 22.9
     },
     {
       "y0": 4500,
       "y1": 5000,
-      "pct": 22.4
+      "pct": 5.4
     },
     {
       "y0": 5000,
-      "y1": 5468,
-      "pct": 8
+      "y1": 5448,
+      "pct": 5.7
     }
   ]
 }

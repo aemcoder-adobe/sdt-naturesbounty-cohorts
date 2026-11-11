@@ -3,20 +3,20 @@
   "b": "stardust/replica/gates/all-1440/blogs-news-what-are-ceramides-and-why-they-matter-more-as-skin-ages/eds.png",
   "compared": {
     "width": 1440,
-    "height": 6793,
+    "height": 6875,
     "mode": "overlap"
   },
-  "heightDelta": 128,
-  "differingPixels": 1655328,
-  "pct": 16.92,
+  "heightDelta": 46,
+  "differingPixels": 1085492,
+  "pct": 10.96,
   "threshold": 10,
   "pass": false,
   "diff": "stardust/replica/gates/all-1440/blogs-news-what-are-ceramides-and-why-they-matter-more-as-skin-ages/diff.png",
   "masks": [],
   "maskedRows": 0,
-  "textPct": 19.85,
-  "textBoxes": 253,
-  "textPixels": 2031098,
+  "textPct": 17.74,
+  "textBoxes": 254,
+  "textPixels": 2058848,
   "bands": [
     {
       "y0": 0,
@@ -26,67 +26,67 @@
     {
       "y0": 500,
       "y1": 1000,
-      "pct": 3.9
+      "pct": 3.6
     },
     {
       "y0": 1000,
       "y1": 1500,
-      "pct": 5.5
+      "pct": 5.8
     },
     {
       "y0": 1500,
       "y1": 2000,
-      "pct": 7.2
+      "pct": 6.2
     },
     {
       "y0": 2000,
       "y1": 2500,
-      "pct": 7.1
+      "pct": 6.9
     },
     {
       "y0": 2500,
       "y1": 3000,
-      "pct": 5.3
+      "pct": 4.8
     },
     {
       "y0": 3000,
       "y1": 3500,
-      "pct": 5.9
+      "pct": 6.3
     },
     {
       "y0": 3500,
       "y1": 4000,
-      "pct": 5.6
+      "pct": 5.1
     },
     {
       "y0": 4000,
       "y1": 4500,
-      "pct": 7.3
+      "pct": 7.7
     },
     {
       "y0": 4500,
       "y1": 5000,
-      "pct": 50.6
+      "pct": 29.7
     },
     {
       "y0": 5000,
       "y1": 5500,
-      "pct": 44.1
+      "pct": 15.9
     },
     {
       "y0": 5500,
       "y1": 6000,
-      "pct": 72.8
+      "pct": 45.4
     },
     {
       "y0": 6000,
       "y1": 6500,
-      "pct": 10.4
+      "pct": 8.2
     },
     {
       "y0": 6500,
-      "y1": 6793,
-      "pct": 5.9
+      "y1": 6875,
+      "pct": 5.7
     }
   ]
 }

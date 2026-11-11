@@ -1,0 +1,77 @@
+{
+  "a": "stardust/replica/gates/all-1440/blogs-news-the-top-10-reasons-to-exercise-regularly/origin.png",
+  "b": "stardust/replica/gates/all-1440/blogs-news-the-top-10-reasons-to-exercise-regularly/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 5233,
+    "mode": "overlap"
+  },
+  "heightDelta": 72,
+  "differingPixels": 1114535,
+  "pct": 14.79,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-1440/blogs-news-the-top-10-reasons-to-exercise-regularly/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 17.66,
+  "textBoxes": 178,
+  "textPixels": 1219239,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 1.7
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 2.5
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 5.4
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 5.6
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 4.7
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 6.4
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 30
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 38.6
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 46.3
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 10.4
+    },
+    {
+      "y0": 5000,
+      "y1": 5233,
+      "pct": 6.8
+    }
+  ]
+}

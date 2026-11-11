@@ -3,20 +3,20 @@
   "b": "stardust/replica/gates/all-1440/blogs-news-your-gut-may-play-a-powerful-role-in-your-well-being-our-survey-finds/eds.png",
   "compared": {
     "width": 1440,
-    "height": 5191,
+    "height": 5141,
     "mode": "overlap"
   },
-  "heightDelta": 22,
-  "differingPixels": 605089,
-  "pct": 8.09,
+  "heightDelta": 72,
+  "differingPixels": 1186117,
+  "pct": 16.02,
   "threshold": 10,
-  "pass": true,
+  "pass": false,
   "diff": "stardust/replica/gates/all-1440/blogs-news-your-gut-may-play-a-powerful-role-in-your-well-being-our-survey-finds/diff.png",
   "masks": [],
   "maskedRows": 0,
-  "textPct": 18.84,
+  "textPct": 18.52,
   "textBoxes": 180,
-  "textPixels": 1330387,
+  "textPixels": 1328508,
   "bands": [
     {
       "y0": 0,
@@ -26,52 +26,52 @@
     {
       "y0": 500,
       "y1": 1000,
-      "pct": 3
+      "pct": 4.6
     },
     {
       "y0": 1000,
       "y1": 1500,
-      "pct": 6.6
+      "pct": 7.9
     },
     {
       "y0": 1500,
       "y1": 2000,
-      "pct": 6.3
+      "pct": 6.2
     },
     {
       "y0": 2000,
       "y1": 2500,
-      "pct": 6
+      "pct": 6.7
     },
     {
       "y0": 2500,
       "y1": 3000,
-      "pct": 5.6
+      "pct": 13
     },
     {
       "y0": 3000,
       "y1": 3500,
-      "pct": 14.9
+      "pct": 30.2
     },
     {
       "y0": 3500,
       "y1": 4000,
-      "pct": 15.6
+      "pct": 45.3
     },
     {
       "y0": 4000,
       "y1": 4500,
-      "pct": 16
+      "pct": 37.4
     },
     {
       "y0": 4500,
       "y1": 5000,
-      "pct": 6.3
+      "pct": 9.9
     },
     {
       "y0": 5000,
-      "y1": 5191,
-      "pct": 5.8
+      "y1": 5141,
+      "pct": 6.3
     }
   ]
 }

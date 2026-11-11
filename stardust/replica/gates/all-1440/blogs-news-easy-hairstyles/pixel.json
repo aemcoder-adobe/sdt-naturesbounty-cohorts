@@ -1,0 +1,72 @@
+{
+  "a": "stardust/replica/gates/all-1440/blogs-news-easy-hairstyles/origin.png",
+  "b": "stardust/replica/gates/all-1440/blogs-news-easy-hairstyles/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 4823,
+    "mode": "overlap"
+  },
+  "heightDelta": 3462,
+  "differingPixels": 2332945,
+  "pct": 33.59,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-1440/blogs-news-easy-hairstyles/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 39.96,
+  "textBoxes": 172,
+  "textPixels": 358595,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 1.7
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 1.9
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 2.4
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 2.8
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 3.2
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 37.1
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 50
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 71.8
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 92.7
+    },
+    {
+      "y0": 4500,
+      "y1": 4823,
+      "pct": 93.6
+    }
+  ]
+}

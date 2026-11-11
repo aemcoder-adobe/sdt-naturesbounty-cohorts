@@ -1,14 +1,14 @@
 {
  "_provenance": {
   "writtenBy": "content-presence.mjs",
-  "at": "2026-11-11T05:41:21.371Z",
+  "at": "2026-11-11T09:00:48.188Z",
   "width": 1440,
   "variable": [],
   "tier": "chrome"
  },
  "origin": {
   "url": "https://naturesbounty.com/blogs/news/what-are-ceramides-and-why-they-matter-more-as-skin-ages",
-  "at": "2026-11-11T05:40:57.342Z",
+  "at": "2026-11-11T09:00:24.461Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 6921,
@@ -21,7 +21,21 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 179,
+    "x": -112,
+    "y": 6,
+    "w": 157,
+    "h": 20,
+    "text": "shop our favorite products",
+    "href": "/collections/favorites"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
+    "x": 245,
     "y": 6,
     "w": 213,
     "h": 20,
@@ -35,7 +49,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 591,
+    "x": 658,
     "y": 6,
     "w": 314,
     "h": 20,
@@ -49,7 +63,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 1106,
+    "x": 1172,
     "y": 6,
     "w": 157,
     "h": 20,
@@ -2650,7 +2664,7 @@
     "collapsed": 0,
     "scrollHidden": 0,
     "horizontal": 0,
-    "offPage": 10,
+    "offPage": 8,
     "textNodes": 192,
     "controls": 112,
     "total": 0
@@ -2660,20 +2674,20 @@
  },
  "eds": {
   "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/what-are-ceramides-and-why-they-matter-more-as-skin-ages",
-  "at": "2026-11-11T05:41:21.183Z",
+  "at": "2026-11-11T09:00:48.071Z",
   "status": 200,
   "settlePasses": 2,
-  "docH": 6793,
+  "docH": 6875,
   "root": "main",
   "items": [
    {
     "kind": "link",
-    "state": "visible",
+    "state": "hidden",
     "variable": false,
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": -153,
+    "x": -161,
     "y": 8,
     "w": 319,
     "h": 15,
@@ -2687,7 +2701,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 367,
+    "x": 358,
     "y": 8,
     "w": 160,
     "h": 15,
@@ -2701,7 +2715,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 727,
+    "x": 719,
     "y": 8,
     "w": 219,
     "h": 15,
@@ -2715,7 +2729,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 1146,
+    "x": 1137,
     "y": 8,
     "w": 319,
     "h": 15,
@@ -2936,9 +2950,9 @@
     "inRoot": true,
     "inChrome": false,
     "path": "div.article-text > p > a",
-    "x": 294,
+    "x": 297,
     "y": 1204,
-    "w": 192,
+    "w": 194,
     "h": 22,
     "text": "foundational skin health",
     "href": "/blogs/news/give-your-hair-skin-and-nails-a-healthy-foundation-to-shine"
@@ -2979,7 +2993,7 @@
     "path": "div.article-text > p > a",
     "x": 93,
     "y": 1330,
-    "w": 87,
+    "w": 88,
     "h": 22,
     "text": "ceramides",
     "href": "/39912256/"
@@ -3005,7 +3019,7 @@
     "inChrome": false,
     "path": "div.article-content > div.article-text > h2#why-ceramide-levels-decline-with-age",
     "x": 93,
-    "y": 1602,
+    "y": 1650,
     "w": 820,
     "h": 30,
     "level": 2,
@@ -3019,7 +3033,7 @@
     "inChrome": false,
     "path": "div.article-content > div.article-text > p",
     "x": 93,
-    "y": 1650,
+    "y": 1698,
     "w": 820,
     "h": 90,
     "text": "It’s no secret that the skin of your twenties doesn’t maintain its moisture and "
@@ -3032,7 +3046,7 @@
     "inChrome": false,
     "path": "div.article-content > div.article-text > p",
     "x": 93,
-    "y": 1758,
+    "y": 1806,
     "w": 820,
     "h": 30,
     "text": "Several factors drive changes to the skin barrier:"
@@ -3045,9 +3059,9 @@
     "inChrome": false,
     "path": "div.article-text > ul > li",
     "x": 125,
-    "y": 1806,
+    "y": 1854,
     "w": 788,
-    "h": 60,
+    "h": 61,
     "text": "The skin gradually produces fewer lipids, including ceramides, as part of the na"
    },
    {
@@ -3058,9 +3072,9 @@
     "inChrome": false,
     "path": "div.article-text > ul > li",
     "x": 125,
-    "y": 1866,
+    "y": 1915,
     "w": 788,
-    "h": 60,
+    "h": 61,
     "text": "Sun damage degrades the skin's lipid barrier over time, especially if appropriat"
    },
    {
@@ -3071,9 +3085,9 @@
     "inChrome": false,
     "path": "div.article-text > ul > li",
     "x": 125,
-    "y": 1926,
+    "y": 1976,
     "w": 788,
-    "h": 30,
+    "h": 31,
     "text": "Pollution and harsh weather negatively influence of the skin barrier."
    },
    {
@@ -3084,9 +3098,9 @@
     "inChrome": false,
     "path": "div.article-text > ul > li",
     "x": 125,
-    "y": 1956,
+    "y": 2007,
     "w": 788,
-    "h": 60,
+    "h": 61,
     "text": "Poor sleep, a diet low in , smoking, and habits like over-cleansing or taking lo"
    },
    {
@@ -3096,9 +3110,9 @@
     "inRoot": true,
     "inChrome": false,
     "path": "ul > li > a",
-    "x": 456,
-    "y": 1960,
-    "w": 160,
+    "x": 493,
+    "y": 2012,
+    "w": 163,
     "h": 22,
     "text": "essential fatty acids",
     "href": "/articles/PMC7875671/"
@@ -3111,7 +3125,7 @@
     "inChrome": false,
     "path": "div.article-content > div.article-text > p",
     "x": 93,
-    "y": 2034,
+    "y": 2086,
     "w": 820,
     "h": 60,
     "text": "The result shows up as the most common complaints of aging skin, including incre"
@@ -3124,7 +3138,7 @@
     "inChrome": false,
     "path": "div.article-content > div.article-text > h2#topical-vs-ingestible-ceramides",
     "x": 93,
-    "y": 2112,
+    "y": 2164,
     "w": 820,
     "h": 30,
     "level": 2,
@@ -3138,7 +3152,7 @@
     "inChrome": false,
     "path": "div.article-content > div.article-text > p",
     "x": 93,
-    "y": 2160,
+    "y": 2212,
     "w": 820,
     "h": 90,
     "text": "For years, ceramides have been a staple of dermatologist-recommended moisturizer"
@@ -3150,9 +3164,9 @@
     "inRoot": true,
     "inChrome": false,
     "path": "div.article-text > p > a",
-    "x": 726,
-    "y": 2194,
-    "w": 71,
+    "x": 790,
+    "y": 2246,
+    "w": 72,
     "h": 22,
     "text": "supports",
     "href": "/articles/PMC6197824/"
@@ -3165,7 +3179,7 @@
     "inChrome": false,
     "path": "div.article-content > div.article-text > p",
     "x": 93,
-    "y": 2268,
+    "y": 2320,
     "w": 820,
     "h": 120,
     "text": "More recently, oral (ingestible) ceramide supplements have emerged as a compleme"
@@ -3177,9 +3191,9 @@
     "inRoot": true,
     "inChrome": false,
     "path": "div.article-text > p > a",
-    "x": 257,
-    "y": 2362,
-    "w": 145,
+    "x": 260,
+    "y": 2414,
+    "w": 147,
     "h": 22,
     "text": "different pathway",
     "href": "/2079-9284/4/4/37"
@@ -3192,7 +3206,7 @@
     "inChrome": false,
     "path": "div.article-content > div.article-text > p",
     "x": 93,
-    "y": 2406,
+    "y": 2458,
     "w": 820,
     "h": 90,
     "text": "The two approaches don't compete; they target the same goal from different direc"
@@ -3205,7 +3219,7 @@
     "inChrome": false,
     "path": "div.article-content > div.article-text > h2#natures-bounty-age-defying-skin-renewal",
     "x": 93,
-    "y": 2514,
+    "y": 2566,
     "w": 820,
     "h": 30,
     "level": 2,
@@ -3219,9 +3233,9 @@
     "inChrome": false,
     "path": "div.article-content > div.article-text > p",
     "x": 93,
-    "y": 2562,
+    "y": 2614,
     "w": 820,
-    "h": 60,
+    "h": 90,
     "text": "For those looking to add ingestible ceramides to their routine, is a once-daily "
    },
    {
@@ -3232,8 +3246,8 @@
     "inChrome": false,
     "path": "div.article-text > p > a",
     "x": 93,
-    "y": 2566,
-    "w": 818,
+    "y": 2618,
+    "w": 785,
     "h": 52,
     "text": "nature's bounty® optimal solutions age-defying skin renewal",
     "href": "/products/age-defying-skin-renewal"
@@ -3246,7 +3260,7 @@
     "inChrome": false,
     "path": "div.article-text > ul > li",
     "x": 125,
-    "y": 2640,
+    "y": 2722,
     "w": 788,
     "h": 30,
     "text": "Fine lines and wrinkles"
@@ -3259,7 +3273,7 @@
     "inChrome": false,
     "path": "div.article-text > ul > li",
     "x": 125,
-    "y": 2670,
+    "y": 2752,
     "w": 788,
     "h": 30,
     "text": "Elasticity"
@@ -3272,7 +3286,7 @@
     "inChrome": false,
     "path": "div.article-text > ul > li",
     "x": 125,
-    "y": 2700,
+    "y": 2782,
     "w": 788,
     "h": 30,
     "text": "Hydration"
@@ -3285,7 +3299,7 @@
     "inChrome": false,
     "path": "div.article-text > ul > li",
     "x": 125,
-    "y": 2730,
+    "y": 2812,
     "w": 788,
     "h": 30,
     "text": "Texture"
@@ -3298,7 +3312,7 @@
     "inChrome": false,
     "path": "div.article-text > ul > li",
     "x": 125,
-    "y": 2760,
+    "y": 2842,
     "w": 788,
     "h": 30,
     "text": "Skin barrier integrity"
@@ -3311,7 +3325,7 @@
     "inChrome": false,
     "path": "div.article-content > div.article-text > p",
     "x": 93,
-    "y": 2808,
+    "y": 2890,
     "w": 820,
     "h": 90,
     "text": "The formula features a specific ceramide, ingredient that has been evaluated in "
@@ -3324,7 +3338,7 @@
     "inChrome": false,
     "path": "div.article-content > div.article-text > p",
     "x": 93,
-    "y": 2916,
+    "y": 2998,
     "w": 820,
     "h": 120,
     "text": "The formula also pairs ceramides with green tea extract, which provides antioxid"
@@ -3337,7 +3351,7 @@
     "inChrome": false,
     "path": "div.article-content > div.article-text > p",
     "x": 93,
-    "y": 3054,
+    "y": 3136,
     "w": 820,
     "h": 60,
     "text": "One capsule a day makes it a straightforward addition to any existing , with opt"
@@ -3349,9 +3363,9 @@
     "inRoot": true,
     "inChrome": false,
     "path": "div.article-text > p > a",
-    "x": 636,
-    "y": 3058,
-    "w": 58,
+    "x": 644,
+    "y": 3140,
+    "w": 59,
     "h": 22,
     "text": "routine",
     "href": "/blogs/news/the-step-by-step-guide-for-your-daily-skincare-routine"
@@ -3364,7 +3378,7 @@
     "inChrome": false,
     "path": "div.article-content > div.article-text > h2#ceramides-in-your-routine",
     "x": 93,
-    "y": 3132,
+    "y": 3214,
     "w": 820,
     "h": 30,
     "level": 2,
@@ -3378,7 +3392,7 @@
     "inChrome": false,
     "path": "div.article-content > div.article-text > p",
     "x": 93,
-    "y": 3180,
+    "y": 3262,
     "w": 820,
     "h": 60,
     "text": "Ceramides can work well as part of your everyday skin health routine. Some peopl"
@@ -3391,7 +3405,7 @@
     "inChrome": false,
     "path": "div.article-content > div.article-text > p",
     "x": 93,
-    "y": 3258,
+    "y": 3340,
     "w": 820,
     "h": 120,
     "text": "Oral ceramides, like , offer once-daily support to address 5 key signs of aging "
@@ -3403,9 +3417,9 @@
     "inRoot": true,
     "inChrome": false,
     "path": "div.article-text > p > a",
-    "x": 249,
-    "y": 3262,
-    "w": 507,
+    "x": 251,
+    "y": 3344,
+    "w": 514,
     "h": 22,
     "text": "nature's bounty® optimal solutions age-defying skin renewal",
     "href": "/products/age-defying-skin-renewal"
@@ -3418,7 +3432,7 @@
     "inChrome": false,
     "path": "div.article-content > div.article-text > p",
     "x": 93,
-    "y": 3396,
+    "y": 3478,
     "w": 820,
     "h": 60,
     "text": "Consistency matters more than intensity, as ceramide benefits build over time ra"
@@ -3431,7 +3445,7 @@
     "inChrome": false,
     "path": "div.article-content > div.article-text > h2#ceramides-and-skin-what-to-remember",
     "x": 93,
-    "y": 3474,
+    "y": 3556,
     "w": 820,
     "h": 30,
     "level": 2,
@@ -3445,7 +3459,7 @@
     "inChrome": false,
     "path": "div.article-content > div.article-text > p",
     "x": 93,
-    "y": 3522,
+    "y": 3604,
     "w": 820,
     "h": 60,
     "text": "Ceramides are a foundational piece of how healthy skin functions, and their natu"
@@ -3458,7 +3472,7 @@
     "inChrome": false,
     "path": "div.article-content > div.article-text > p",
     "x": 93,
-    "y": 3600,
+    "y": 3682,
     "w": 820,
     "h": 90,
     "text": "Supporting ceramide levels, whether through topical products, a daily supplement"
@@ -3471,8 +3485,8 @@
     "inChrome": false,
     "path": "div.article-text > p > a",
     "x": 93,
-    "y": 3604,
-    "w": 818,
+    "y": 3686,
+    "w": 756,
     "h": 52,
     "text": "nature's bounty® optimal solutions age-defying skin renewal",
     "href": "/products/age-defying-skin-renewal"
@@ -3485,7 +3499,7 @@
     "inChrome": false,
     "path": "div.article-content > div.article-text > p",
     "x": 93,
-    "y": 3708,
+    "y": 3790,
     "w": 820,
     "h": 30,
     "text": "Check out the full line of Nature’s Bounty® ."
@@ -3497,9 +3511,9 @@
     "inRoot": true,
     "inChrome": false,
     "path": "div.article-text > p > a",
-    "x": 429,
-    "y": 3712,
-    "w": 284,
+    "x": 434,
+    "y": 3794,
+    "w": 288,
     "h": 22,
     "text": "skin, hair, and nail support products",
     "href": "/collections/hair-skin-and-nails"
@@ -3512,8 +3526,8 @@
     "inChrome": false,
     "path": "div.article-text > p > em",
     "x": 93,
-    "y": 3760,
-    "w": 792,
+    "y": 3842,
+    "w": 804,
     "h": 52,
     "text": "*These statements have not been evaluated by the Food and Drug Administration. T"
    },
@@ -3525,8 +3539,8 @@
     "inChrome": false,
     "path": "div.article-text > p > strong",
     "x": 93,
-    "y": 3838,
-    "w": 91,
+    "y": 3920,
+    "w": 92,
     "h": 22,
     "text": "References"
    },
@@ -3538,7 +3552,7 @@
     "inChrome": false,
     "path": "div.article-text > ol > li",
     "x": 133,
-    "y": 3882,
+    "y": 3964,
     "w": 780,
     "h": 60,
     "text": "Yong TL, Zaman R, Rehman N, Tan CK. Ceramides and skin health: New insights. Exp"
@@ -3551,7 +3565,7 @@
     "inChrome": false,
     "path": "div.article-text > ol > li",
     "x": 133,
-    "y": 3942,
+    "y": 4024,
     "w": 780,
     "h": 120,
     "text": "Bizot V, Cestone E, Michelotti A, Nobile V. Improving Skin Hydration and Age-rel"
@@ -3564,8 +3578,8 @@
     "inChrome": false,
     "path": "ol > li > a",
     "x": 133,
-    "y": 4036,
-    "w": 356,
+    "y": 4118,
+    "w": 361,
     "h": 22,
     "text": "https://doi.org/10.3390/cosmetics4040037",
     "href": "/10.3390/cosmetics4040037"
@@ -3578,7 +3592,7 @@
     "inChrome": false,
     "path": "div.article-text > ol > li",
     "x": 133,
-    "y": 4062,
+    "y": 4144,
     "w": 780,
     "h": 90,
     "text": "Parke MA, Perez-Sanchez A, Zamil DH, Katta R. Diet and Skin Barrier: The Role of"
@@ -3591,7 +3605,7 @@
     "inChrome": false,
     "path": "div.article-text > ol > li",
     "x": 133,
-    "y": 4152,
+    "y": 4234,
     "w": 780,
     "h": 90,
     "text": "Spada F, Barnes TM, Greive KA. Skin hydration is significantly increased by a cr"
@@ -3604,7 +3618,7 @@
     "inChrome": false,
     "path": "div.share-copy > div.share-lead > p",
     "x": 93,
-    "y": 4272,
+    "y": 4354,
     "w": 820,
     "h": 30,
     "text": "Don't keep all the good info to yourself."
@@ -3617,7 +3631,7 @@
     "inChrome": false,
     "path": "div.share-copy > div.share-sub > p",
     "x": 93,
-    "y": 4302,
+    "y": 4384,
     "w": 820,
     "h": 30,
     "text": "Share this with friends!"
@@ -3630,7 +3644,7 @@
     "inChrome": false,
     "path": "ul > li > a",
     "x": 93,
-    "y": 4348,
+    "y": 4430,
     "w": 96,
     "h": 30,
     "text": "share",
@@ -3644,7 +3658,7 @@
     "inChrome": false,
     "path": "ul > li > a",
     "x": 199,
-    "y": 4348,
+    "y": 4430,
     "w": 100,
     "h": 30,
     "text": "tweet",
@@ -3658,7 +3672,7 @@
     "inChrome": false,
     "path": "ul > li > a",
     "x": 309,
-    "y": 4348,
+    "y": 4430,
     "w": 90,
     "h": 30,
     "text": "pin it",
@@ -3672,7 +3686,7 @@
     "inChrome": false,
     "path": "ul > li > a",
     "x": 409,
-    "y": 4348,
+    "y": 4430,
     "w": 96,
     "h": 30,
     "text": "share",
@@ -3686,7 +3700,7 @@
     "inChrome": false,
     "path": "ul > li > a",
     "x": 516,
-    "y": 4348,
+    "y": 4430,
     "w": 94,
     "h": 30,
     "text": "email",
@@ -4047,10 +4061,10 @@
     "inRoot": true,
     "inChrome": false,
     "path": "div.product-card-body > div.product-card-title > h3#age-defying-skin-renewal",
-    "x": 1054,
+    "x": 1034,
     "y": 2342,
-    "w": 260,
-    "h": 44,
+    "w": 300,
+    "h": 60,
     "level": 3,
     "text": "age defying skin renewal"
    },
@@ -4062,7 +4076,7 @@
     "inChrome": false,
     "path": "div.section.related-container > div.default-content-wrapper > h2#more-to-explore-from-age-defying-skin-renewal",
     "x": 93,
-    "y": 4488,
+    "y": 4570,
     "w": 1240,
     "h": 50,
     "level": 2,
@@ -4076,7 +4090,7 @@
     "inChrome": false,
     "path": "div.related-card > div.related-card-media > a",
     "x": 93,
-    "y": 4816,
+    "y": 4898,
     "w": 393,
     "h": 22,
     "text": "why magnesium matters more than ever",
@@ -4090,7 +4104,7 @@
     "inChrome": false,
     "path": "a > picture > img",
     "x": 93,
-    "y": 4588,
+    "y": 4670,
     "w": 393,
     "h": 245,
     "text": "why magnesium matters more than ever",
@@ -4104,7 +4118,7 @@
     "inChrome": false,
     "path": "div.related-grid > div.related-card > a.related-card-link",
     "x": 93,
-    "y": 4833,
+    "y": 4915,
     "w": 393,
     "h": 92,
     "text": "why magnesium matters more than ever",
@@ -4118,7 +4132,7 @@
     "inChrome": false,
     "path": "a.related-card-link > div.related-card-title > h3#why-magnesium-matters-more-than-ever",
     "x": 93,
-    "y": 4849,
+    "y": 4931,
     "w": 393,
     "h": 76,
     "level": 3,
@@ -4132,7 +4146,7 @@
     "inChrome": false,
     "path": "div.related-card-more > p > a",
     "x": 93,
-    "y": 4947,
+    "y": 5029,
     "w": 384,
     "h": 52,
     "text": "magnesium has always been an essential mineral, but lately, it’s getting more at",
@@ -4146,7 +4160,7 @@
     "inChrome": false,
     "path": "div.related-card > div.related-card-media > a",
     "x": 516,
-    "y": 4816,
+    "y": 4898,
     "w": 393,
     "h": 22,
     "text": "how to choose the right probiotic for daily support",
@@ -4160,7 +4174,7 @@
     "inChrome": false,
     "path": "a > picture > img",
     "x": 516,
-    "y": 4588,
+    "y": 4670,
     "w": 393,
     "h": 245,
     "text": "how to choose the right probiotic for daily support",
@@ -4174,7 +4188,7 @@
     "inChrome": false,
     "path": "div.related-grid > div.related-card > a.related-card-link",
     "x": 516,
-    "y": 4833,
+    "y": 4915,
     "w": 393,
     "h": 92,
     "text": "how to choose the right probiotic for daily support",
@@ -4188,7 +4202,7 @@
     "inChrome": false,
     "path": "a.related-card-link > div.related-card-title > h3#how-to-choose-the-right-probiotic-for-daily-support",
     "x": 516,
-    "y": 4849,
+    "y": 4931,
     "w": 393,
     "h": 76,
     "level": 3,
@@ -4202,7 +4216,7 @@
     "inChrome": false,
     "path": "div.related-card-more > p > a",
     "x": 516,
-    "y": 4947,
+    "y": 5029,
     "w": 367,
     "h": 82,
     "text": "support your gut health routine with tips for choosing a probiotic, including cf",
@@ -4216,7 +4230,7 @@
     "inChrome": false,
     "path": "div.related-card > div.related-card-media > a",
     "x": 939,
-    "y": 4816,
+    "y": 4898,
     "w": 393,
     "h": 22,
     "text": "women’s health awareness: 5 ways to reset your wellness routine",
@@ -4230,7 +4244,7 @@
     "inChrome": false,
     "path": "a > picture > img",
     "x": 939,
-    "y": 4588,
+    "y": 4670,
     "w": 393,
     "h": 245,
     "text": "women’s health awareness: 5 ways to reset your wellness rout",
@@ -4244,8 +4258,8 @@
     "inChrome": false,
     "path": "ul > li > a",
     "x": 939,
-    "y": 4853,
-    "w": 139,
+    "y": 4935,
+    "w": 132,
     "h": 30,
     "text": "women's wellness",
     "href": "/blogs/news/tagged/womens-wellness"
@@ -4258,7 +4272,7 @@
     "inChrome": false,
     "path": "div.related-grid > div.related-card > a.related-card-link",
     "x": 939,
-    "y": 4883,
+    "y": 4965,
     "w": 393,
     "h": 190,
     "text": "women’s health awareness: 5 ways to reset your wellness routine explore tips to ",
@@ -4272,7 +4286,7 @@
     "inChrome": false,
     "path": "a.related-card-link > div.related-card-title > h3#womens-health-awareness-5-ways-to-reset-your-wellness-routine",
     "x": 939,
-    "y": 4899,
+    "y": 4981,
     "w": 393,
     "h": 114,
     "level": 3,
@@ -4286,7 +4300,7 @@
     "inChrome": false,
     "path": "div.trusted-band-img > picture > img",
     "x": 363,
-    "y": 5197,
+    "y": 5279,
     "w": 700,
     "h": 86,
     "text": "",
@@ -4300,7 +4314,7 @@
     "inChrome": false,
     "path": "div.trusted-band-inner.container > div.trusted-band-text > p",
     "x": 93,
-    "y": 5314,
+    "y": 5396,
     "w": 1240,
     "h": 30,
     "text": "We offer trusted products, backed by science and made with great ingredients."
@@ -4313,7 +4327,7 @@
     "inChrome": false,
     "path": "div.section.social-strip-container > div.default-content-wrapper > h2#follow-naturesbounty-on-social-for-new-product-releases-healthy-tips-and-more",
     "x": 10,
-    "y": 5425,
+    "y": 5507,
     "w": 1405,
     "h": 30,
     "level": 2,
@@ -4327,7 +4341,7 @@
     "inChrome": false,
     "path": "div.social-strip.block > div.social-strip-grid > a.social-tile",
     "x": 21,
-    "y": 5483,
+    "y": 5565,
     "w": 271,
     "h": 271,
     "text": "advanced magnesium glycinate",
@@ -4341,7 +4355,7 @@
     "inChrome": false,
     "path": "a.social-tile > picture > img",
     "x": 21,
-    "y": 5483,
+    "y": 5565,
     "w": 271,
     "h": 271,
     "text": "advanced magnesium glycinate",
@@ -4355,7 +4369,7 @@
     "inChrome": false,
     "path": "div.social-strip.block > div.social-strip-grid > a.social-tile",
     "x": 299,
-    "y": 5483,
+    "y": 5565,
     "w": 271,
     "h": 271,
     "text": "hair growth capsules",
@@ -4369,7 +4383,7 @@
     "inChrome": false,
     "path": "a.social-tile > picture > img",
     "x": 299,
-    "y": 5483,
+    "y": 5565,
     "w": 271,
     "h": 271,
     "text": "hair growth capsules",
@@ -4383,7 +4397,7 @@
     "inChrome": false,
     "path": "div.social-strip.block > div.social-strip-grid > a.social-tile",
     "x": 577,
-    "y": 5483,
+    "y": 5565,
     "w": 271,
     "h": 271,
     "text": "super b-complex",
@@ -4397,7 +4411,7 @@
     "inChrome": false,
     "path": "a.social-tile > picture > img",
     "x": 577,
-    "y": 5483,
+    "y": 5565,
     "w": 271,
     "h": 271,
     "text": "super b-complex",
@@ -4411,7 +4425,7 @@
     "inChrome": false,
     "path": "div.social-strip.block > div.social-strip-grid > a.social-tile",
     "x": 855,
-    "y": 5483,
+    "y": 5565,
     "w": 271,
     "h": 271,
     "text": "vitamin c",
@@ -4425,7 +4439,7 @@
     "inChrome": false,
     "path": "a.social-tile > picture > img",
     "x": 855,
-    "y": 5483,
+    "y": 5565,
     "w": 271,
     "h": 271,
     "text": "vitamin c",
@@ -4439,7 +4453,7 @@
     "inChrome": false,
     "path": "div.social-strip.block > div.social-strip-grid > a.social-tile",
     "x": 1133,
-    "y": 5483,
+    "y": 5565,
     "w": 271,
     "h": 271,
     "text": "advanced hair, skin + nails pectin gummy",
@@ -4453,7 +4467,7 @@
     "inChrome": false,
     "path": "a.social-tile > picture > img",
     "x": 1133,
-    "y": 5483,
+    "y": 5565,
     "w": 271,
     "h": 271,
     "text": "advanced hair, skin + nails pectin gummy",
@@ -4467,7 +4481,7 @@
     "inChrome": true,
     "path": "div.site-footer-logo > p > a",
     "x": 538,
-    "y": 5881,
+    "y": 5963,
     "w": 350,
     "h": 55,
     "text": "nature's bounty",
@@ -4481,7 +4495,7 @@
     "inChrome": true,
     "path": "a > picture > img",
     "x": 538,
-    "y": 5881,
+    "y": 5963,
     "w": 350,
     "h": 55,
     "text": "nature's bounty",
@@ -4495,7 +4509,7 @@
     "inChrome": true,
     "path": "div.site-footer-nl-title > p > strong",
     "x": 993,
-    "y": 6012,
+    "y": 6094,
     "w": 340,
     "h": 30,
     "text": "Join Our Newsletter"
@@ -4508,7 +4522,7 @@
     "inChrome": true,
     "path": "div.site-footer-newsletter > div.site-footer-nl-sub > p",
     "x": 993,
-    "y": 6058,
+    "y": 6140,
     "w": 340,
     "h": 60,
     "text": "Receive the latest news, special offers and new product launches!"
@@ -4521,7 +4535,7 @@
     "inChrome": true,
     "path": "form.site-footer-form > div.site-footer-field > button.site-footer-submit",
     "x": 1222,
-    "y": 6138,
+    "y": 6220,
     "w": 111,
     "h": 65,
     "text": "sign up"
@@ -4534,7 +4548,7 @@
     "inChrome": true,
     "path": "div.site-footer-social.site-footer-social-desktop > div.site-footer-social-title > p",
     "x": 993,
-    "y": 6253,
+    "y": 6335,
     "w": 77,
     "h": 30,
     "text": "Follow Us"
@@ -4547,7 +4561,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 1095,
-    "y": 6260,
+    "y": 6342,
     "w": 20,
     "h": 17,
     "text": "share on twitter",
@@ -4561,7 +4575,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 1130,
-    "y": 6258,
+    "y": 6340,
     "w": 20,
     "h": 20,
     "text": "share on facebook",
@@ -4575,7 +4589,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 1165,
-    "y": 6258,
+    "y": 6340,
     "w": 20,
     "h": 21,
     "text": "pin on pinterest",
@@ -4589,7 +4603,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 1200,
-    "y": 6258,
+    "y": 6340,
     "w": 20,
     "h": 20,
     "text": "share on instagram",
@@ -4603,7 +4617,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 1235,
-    "y": 6261,
+    "y": 6343,
     "w": 20,
     "h": 14,
     "text": "share on youtube",
@@ -4617,7 +4631,7 @@
     "inChrome": true,
     "path": "div.site-footer-links > div.site-footer-col > div.site-footer-col-head",
     "x": 93,
-    "y": 6012,
+    "y": 6094,
     "w": 126,
     "h": 31,
     "text": "products"
@@ -4630,7 +4644,7 @@
     "inChrome": true,
     "path": "div.site-footer-links > div.site-footer-col > div.site-footer-col-head",
     "x": 93,
-    "y": 6012,
+    "y": 6094,
     "w": 126,
     "h": 31,
     "label": "trigger",
@@ -4645,7 +4659,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 93,
-    "y": 6053,
+    "y": 6135,
     "w": 96,
     "h": 24,
     "text": "adult vitamins",
@@ -4659,7 +4673,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 93,
-    "y": 6080,
+    "y": 6162,
     "w": 86,
     "h": 24,
     "text": "supplements",
@@ -4673,7 +4687,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 93,
-    "y": 6106,
+    "y": 6188,
     "w": 54,
     "h": 24,
     "text": "minerals",
@@ -4687,7 +4701,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 93,
-    "y": 6133,
+    "y": 6215,
     "w": 39,
     "h": 24,
     "text": "herbs",
@@ -4701,7 +4715,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 93,
-    "y": 6159,
+    "y": 6241,
     "w": 118,
     "h": 24,
     "text": "fish oil & omegas",
@@ -4715,7 +4729,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 93,
-    "y": 6186,
+    "y": 6268,
     "w": 61,
     "h": 24,
     "text": "specialty",
@@ -4729,7 +4743,7 @@
     "inChrome": true,
     "path": "div.site-footer-links > div.site-footer-col.site-footer-col-wide > div.site-footer-col-head",
     "x": 258,
-    "y": 6012,
+    "y": 6094,
     "w": 353,
     "h": 31,
     "text": "health needs"
@@ -4742,7 +4756,7 @@
     "inChrome": true,
     "path": "div.site-footer-links > div.site-footer-col.site-footer-col-wide > div.site-footer-col-head",
     "x": 258,
-    "y": 6012,
+    "y": 6094,
     "w": 353,
     "h": 31,
     "label": "trigger",
@@ -4757,7 +4771,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 258,
-    "y": 6053,
+    "y": 6135,
     "w": 120,
     "h": 24,
     "text": "women’s wellness",
@@ -4771,7 +4785,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 410,
-    "y": 6053,
+    "y": 6135,
     "w": 83,
     "h": 24,
     "text": "men’s health",
@@ -4785,7 +4799,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 258,
-    "y": 6080,
+    "y": 6162,
     "w": 79,
     "h": 24,
     "text": "brain health",
@@ -4799,7 +4813,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 410,
-    "y": 6080,
+    "y": 6162,
     "w": 129,
     "h": 24,
     "text": "bone & joint health",
@@ -4813,7 +4827,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 258,
-    "y": 6106,
+    "y": 6188,
     "w": 71,
     "h": 24,
     "text": "eye health",
@@ -4827,7 +4841,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 410,
-    "y": 6106,
+    "y": 6188,
     "w": 93,
     "h": 24,
     "text": "healthy aging",
@@ -4841,7 +4855,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 258,
-    "y": 6133,
+    "y": 6215,
     "w": 43,
     "h": 24,
     "text": "herbal",
@@ -4855,7 +4869,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 410,
-    "y": 6133,
+    "y": 6215,
     "w": 130,
     "h": 24,
     "text": "urinary tract health",
@@ -4869,7 +4883,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 258,
-    "y": 6159,
+    "y": 6241,
     "w": 108,
     "h": 24,
     "text": "digestive health",
@@ -4883,7 +4897,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 410,
-    "y": 6159,
+    "y": 6241,
     "w": 103,
     "h": 24,
     "text": "energy support",
@@ -4897,7 +4911,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 258,
-    "y": 6186,
+    "y": 6268,
     "w": 83,
     "h": 24,
     "text": "heart health",
@@ -4911,7 +4925,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 410,
-    "y": 6186,
+    "y": 6268,
     "w": 201,
     "h": 24,
     "text": "immune & antioxidant support",
@@ -4925,7 +4939,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 258,
-    "y": 6212,
+    "y": 6294,
     "w": 95,
     "h": 24,
     "text": "stress & mood",
@@ -4939,7 +4953,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 410,
-    "y": 6212,
+    "y": 6294,
     "w": 93,
     "h": 24,
     "text": "sleep support",
@@ -4953,7 +4967,7 @@
     "inChrome": true,
     "path": "div.site-footer-links > div.site-footer-col > div.site-footer-col-head",
     "x": 651,
-    "y": 6012,
+    "y": 6094,
     "w": 126,
     "h": 61,
     "text": "resource center"
@@ -4966,7 +4980,7 @@
     "inChrome": true,
     "path": "div.site-footer-links > div.site-footer-col > div.site-footer-col-head",
     "x": 651,
-    "y": 6012,
+    "y": 6094,
     "w": 126,
     "h": 61,
     "label": "trigger",
@@ -4981,7 +4995,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 651,
-    "y": 6083,
+    "y": 6165,
     "w": 72,
     "h": 24,
     "text": "diy beauty",
@@ -4995,7 +5009,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 651,
-    "y": 6110,
+    "y": 6192,
     "w": 93,
     "h": 24,
     "text": "healthy living",
@@ -5009,7 +5023,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 651,
-    "y": 6136,
+    "y": 6218,
     "w": 80,
     "h": 24,
     "text": "food health",
@@ -5023,7 +5037,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 651,
-    "y": 6163,
+    "y": 6245,
     "w": 109,
     "h": 24,
     "text": "hair, skin & nails",
@@ -5037,7 +5051,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 651,
-    "y": 6189,
+    "y": 6271,
     "w": 52,
     "h": 24,
     "text": "recipes",
@@ -5051,7 +5065,7 @@
     "inChrome": true,
     "path": "div.site-footer-links > div.site-footer-col > div.site-footer-col-head",
     "x": 817,
-    "y": 6012,
+    "y": 6094,
     "w": 126,
     "h": 61,
     "text": "nature’s bounty"
@@ -5064,7 +5078,7 @@
     "inChrome": true,
     "path": "div.site-footer-links > div.site-footer-col > div.site-footer-col-head",
     "x": 817,
-    "y": 6012,
+    "y": 6094,
     "w": 126,
     "h": 61,
     "label": "trigger",
@@ -5079,7 +5093,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 817,
-    "y": 6083,
+    "y": 6165,
     "w": 61,
     "h": 24,
     "text": "about us",
@@ -5093,7 +5107,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 817,
-    "y": 6110,
+    "y": 6192,
     "w": 89,
     "h": 24,
     "text": "where to buy",
@@ -5107,7 +5121,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 817,
-    "y": 6136,
+    "y": 6218,
     "w": 74,
     "h": 24,
     "text": "contact us",
@@ -5121,7 +5135,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 817,
-    "y": 6163,
+    "y": 6245,
     "w": 51,
     "h": 24,
     "text": "careers",
@@ -5135,7 +5149,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 95,
-    "y": 6335,
+    "y": 6417,
     "w": 109,
     "h": 30,
     "text": "terms of use |",
@@ -5149,7 +5163,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 224,
-    "y": 6335,
+    "y": 6417,
     "w": 114,
     "h": 30,
     "text": "privacy policy |",
@@ -5163,7 +5177,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 358,
-    "y": 6335,
+    "y": 6417,
     "w": 179,
     "h": 30,
     "text": "accessibility statement |",
@@ -5177,7 +5191,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 557,
-    "y": 6335,
+    "y": 6417,
     "w": 149,
     "h": 30,
     "text": "health data notice |",
@@ -5191,7 +5205,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 726,
-    "y": 6335,
+    "y": 6417,
     "w": 174,
     "h": 30,
     "text": "satisfaction guarantee |",
@@ -5205,7 +5219,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 921,
-    "y": 6335,
+    "y": 6417,
     "w": 162,
     "h": 30,
     "text": "international distributors",
@@ -5219,7 +5233,7 @@
     "inChrome": true,
     "path": "ul > li > a.site-footer-privacy",
     "x": 1147,
-    "y": 6339,
+    "y": 6421,
     "w": 183,
     "h": 24,
     "text": "your privacy choices"
@@ -5232,7 +5246,7 @@
     "inChrome": true,
     "path": "li > a.site-footer-privacy > span.site-footer-privacy-label",
     "x": 1194,
-    "y": 6339,
+    "y": 6421,
     "w": 136,
     "h": 24,
     "text": "Your Privacy Choices"
@@ -5245,7 +5259,7 @@
     "inChrome": true,
     "path": "div.site-footer-fda > p > strong",
     "x": 248,
-    "y": 6478,
+    "y": 6560,
     "w": 928,
     "h": 15,
     "text": "*These statements have not been evaluated by the Food and Drug Administration. T"
@@ -5258,7 +5272,7 @@
     "inChrome": true,
     "path": "div.container > div.site-footer-disclaimer > p",
     "x": 240,
-    "y": 6552,
+    "y": 6634,
     "w": 946,
     "h": 20,
     "text": "Nature’s Bounty may make changes to products from time to time. Please consult t"
@@ -5271,7 +5285,7 @@
     "inChrome": true,
     "path": "div.container > div.site-footer-disclaimer > p",
     "x": 337,
-    "y": 6581,
+    "y": 6663,
     "w": 751,
     "h": 20,
     "text": "◊Source: Circana™ OmniMarket – Total MULO+ 52 wks ending 7/26/26 based custom- d"
@@ -5284,7 +5298,7 @@
     "inChrome": true,
     "path": "div.container > div.site-footer-disclaimer > p",
     "x": 490,
-    "y": 6611,
+    "y": 6693,
     "w": 445,
     "h": 20,
     "text": "†Compared to Nature's Bounty® Optimal Solutions® Hair, Skin & Nails gummies"
@@ -5297,7 +5311,7 @@
     "inChrome": true,
     "path": "div.container > div.site-footer-disclaimer > p",
     "x": 113,
-    "y": 6640,
+    "y": 6722,
     "w": 1200,
     "h": 39,
     "text": "†Traditional use claims are based on historical or traditional practices. Echina"
@@ -5310,7 +5324,7 @@
     "inChrome": true,
     "path": "div.container > div.site-footer-disclaimer > p",
     "x": 136,
-    "y": 6689,
+    "y": 6771,
     "w": 1152,
     "h": 20,
     "text": "Nature’s Bounty is a Nestlé Health Science brand. Nestlé Health Science is a lea"
@@ -5323,7 +5337,7 @@
     "inChrome": true,
     "path": "div.site-footer-disclaimer > p > a",
     "x": 1124,
-    "y": 6691,
+    "y": 6773,
     "w": 165,
     "h": 15,
     "text": "www.nestlehealthscience.us",
@@ -5337,7 +5351,7 @@
     "inChrome": true,
     "path": "div.container > div.site-footer-disclaimer > p",
     "x": 595,
-    "y": 6719,
+    "y": 6801,
     "w": 235,
     "h": 20,
     "text": "Nature's Bounty is a registered trademark."
@@ -5366,8 +5380,8 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 38,
-     "cutMax": 155
+     "cutMin": 30,
+     "cutMax": 163
     },
     {
      "kind": "TEXT X-CUT",
@@ -5376,22 +5390,22 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 38,
-     "cutMax": 155
+     "cutMin": 30,
+     "cutMax": 163
     }
    ],
    "findings": [
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 155,
+     "cut": 163,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -155,
+      "l": -163,
       "t": 8,
-      "r": 164,
+      "r": 157,
       "b": 23,
       "w": 319,
       "h": 15
@@ -5408,14 +5422,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 155,
+     "cut": 163,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -155,
+      "l": -163,
       "t": 8,
-      "r": 164,
+      "r": 157,
       "b": 23,
       "w": 319,
       "h": 15
@@ -5433,14 +5447,14 @@
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 38,
+     "cut": 30,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 1143,
+      "l": 1135,
       "t": 8,
-      "r": 1463,
+      "r": 1455,
       "b": 23,
       "w": 319,
       "h": 15
@@ -5457,14 +5471,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 38,
+     "cut": 30,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 1143,
+      "l": 1135,
       "t": 8,
-      "r": 1463,
+      "r": 1455,
       "b": 23,
       "w": 319,
       "h": 15
@@ -5538,7 +5552,7 @@
     "image": 0
    },
    "eds": {
-    "link": 8,
+    "link": 9,
     "linkHidden": 0,
     "button": 0,
     "buttonHidden": 0,
@@ -5547,9 +5561,7 @@
     "image": 0,
     "imageHidden": 0
    },
-   "findings": [
-    "MOVED LINK"
-   ]
+   "findings": []
   },
   {
    "index": 3,
@@ -5562,7 +5574,7 @@
     "image": 1
    },
    "eds": {
-    "link": 6,
+    "link": 5,
     "linkHidden": 0,
     "button": 0,
     "buttonHidden": 0,
@@ -5765,22 +5777,14 @@
   {
    "sev": "🟡",
    "kind": "EXTRA HEADING",
-   "msg": "served h2 \"more to explore from age defying skin renewal\" (y 4488) has no origin heading",
+   "msg": "served h2 \"more to explore from age defying skin renewal\" (y 4570) has no origin heading",
    "text": "more to explore from age defying skin renewal"
   },
   {
    "sev": "🟡",
    "kind": "EXTRA HEADING",
-   "msg": "served h2 \"follow @naturesbounty on social for new product releases, healthy tips, and more.\" (y 5425) has no origin heading",
+   "msg": "served h2 \"follow @naturesbounty on social for new product releases, healthy tips, and more.\" (y 5507) has no origin heading",
    "text": "follow @naturesbounty on social for new product releases, healthy tips, and more."
-  },
-  {
-   "sev": "🟡",
-   "kind": "MOVED LINK",
-   "msg": "\"stress & mood\" short in band \"what are ceramides?\" but visible elsewhere on the served page",
-   "band": 2,
-   "n": 1,
-   "text": "stress & mood"
   },
   {
    "sev": "🟡",
@@ -5846,13 +5850,13 @@
   "extraHeadings": 3,
   "missingLinks": 0,
   "hiddenLinks": 0,
-  "movedLinks": 1,
+  "movedLinks": 0,
   "extraLinks": 5,
   "missingButtons": 2,
   "hiddenButtons": 0,
   "controlState": 0,
   "countDeltas": 1,
-  "findings": 13,
+  "findings": 12,
   "structural": 0,
   "missing": 0,
   "hidden": 0
@@ -5860,19 +5864,25 @@
  "textBoxes": {
   "origin": [
    {
-    "x": 176,
+    "x": -114,
+    "y": 6,
+    "w": 157,
+    "h": 19
+   },
+   {
+    "x": 243,
     "y": 6,
     "w": 213,
     "h": 19
    },
    {
-    "x": 589,
+    "x": 656,
     "y": 6,
     "w": 314,
     "h": 19
    },
    {
-    "x": 1103,
+    "x": 1170,
     "y": 6,
     "w": 157,
     "h": 19
@@ -7380,25 +7390,25 @@
   ],
   "eds": [
    {
-    "x": -155,
+    "x": -163,
     "y": 8,
     "w": 319,
     "h": 15
    },
    {
-    "x": 364,
+    "x": 357,
     "y": 8,
     "w": 160,
     "h": 15
    },
    {
-    "x": 725,
+    "x": 717,
     "y": 8,
     "w": 219,
     "h": 15
    },
    {
-    "x": 1143,
+    "x": 1135,
     "y": 8,
     "w": 319,
     "h": 15
@@ -7436,13 +7446,13 @@
    {
     "x": 93,
     "y": 763,
-    "w": 695,
+    "w": 790,
     "h": 61
    },
    {
     "x": 93,
     "y": 823,
-    "w": 715,
+    "w": 566,
     "h": 61
    },
    {
@@ -7466,696 +7476,702 @@
    {
     "x": 93,
     "y": 1144,
-    "w": 788,
+    "w": 800,
     "h": 22
    },
    {
     "x": 93,
     "y": 1174,
-    "w": 787,
+    "w": 799,
     "h": 22
    },
    {
     "x": 93,
     "y": 1204,
-    "w": 202,
+    "w": 205,
     "h": 22
    },
    {
-    "x": 294,
+    "x": 297,
     "y": 1204,
-    "w": 192,
+    "w": 194,
     "h": 22
    },
    {
-    "x": 486,
+    "x": 491,
     "y": 1204,
-    "w": 388,
+    "w": 394,
     "h": 22
    },
    {
     "x": 93,
     "y": 1234,
-    "w": 460,
+    "w": 467,
     "h": 22
    },
    {
     "x": 93,
     "y": 1276,
-    "w": 261,
+    "w": 263,
     "h": 33
    },
    {
     "x": 93,
     "y": 1330,
-    "w": 87,
+    "w": 88,
     "h": 22
    },
    {
-    "x": 179,
+    "x": 180,
     "y": 1330,
-    "w": 702,
+    "w": 713,
     "h": 22
    },
    {
     "x": 93,
     "y": 1360,
-    "w": 755,
+    "w": 767,
     "h": 22
    },
    {
     "x": 93,
     "y": 1390,
-    "w": 804,
-    "h": 22
-   },
-   {
-    "x": 93,
-    "y": 1420,
-    "w": 337,
-    "h": 22
-   },
-   {
-    "x": 93,
-    "y": 1468,
-    "w": 776,
-    "h": 22
-   },
-   {
-    "x": 93,
-    "y": 1498,
-    "w": 810,
-    "h": 22
-   },
-   {
-    "x": 93,
-    "y": 1528,
-    "w": 771,
-    "h": 22
-   },
-   {
-    "x": 93,
-    "y": 1558,
-    "w": 687,
-    "h": 22
-   },
-   {
-    "x": 93,
-    "y": 1600,
-    "w": 466,
-    "h": 33
-   },
-   {
-    "x": 93,
-    "y": 1654,
-    "w": 792,
-    "h": 22
-   },
-   {
-    "x": 93,
-    "y": 1684,
-    "w": 755,
-    "h": 22
-   },
-   {
-    "x": 93,
-    "y": 1714,
-    "w": 779,
-    "h": 22
-   },
-   {
-    "x": 93,
-    "y": 1762,
-    "w": 376,
-    "h": 22
-   },
-   {
-    "x": 125,
-    "y": 1810,
-    "w": 132,
-    "h": 22
-   },
-   {
-    "x": 256,
-    "y": 1810,
-    "w": 652,
-    "h": 22
-   },
-   {
-    "x": 125,
-    "y": 1840,
-    "w": 113,
-    "h": 22
-   },
-   {
-    "x": 125,
-    "y": 1870,
-    "w": 108,
-    "h": 22
-   },
-   {
-    "x": 232,
-    "y": 1870,
-    "w": 651,
-    "h": 22
-   },
-   {
-    "x": 125,
-    "y": 1900,
-    "w": 223,
-    "h": 22
-   },
-   {
-    "x": 125,
-    "y": 1930,
-    "w": 198,
-    "h": 22
-   },
-   {
-    "x": 322,
-    "y": 1930,
-    "w": 528,
-    "h": 22
-   },
-   {
-    "x": 125,
-    "y": 1960,
-    "w": 135,
-    "h": 22
-   },
-   {
-    "x": 260,
-    "y": 1960,
-    "w": 196,
-    "h": 22
-   },
-   {
-    "x": 456,
-    "y": 1960,
-    "w": 160,
-    "h": 22
-   },
-   {
-    "x": 617,
-    "y": 1960,
-    "w": 240,
-    "h": 22
-   },
-   {
-    "x": 125,
-    "y": 1990,
-    "w": 751,
-    "h": 22
-   },
-   {
-    "x": 93,
-    "y": 2038,
-    "w": 804,
-    "h": 22
-   },
-   {
-    "x": 93,
-    "y": 2068,
-    "w": 716,
-    "h": 22
-   },
-   {
-    "x": 93,
-    "y": 2110,
-    "w": 380,
-    "h": 33
-   },
-   {
-    "x": 93,
-    "y": 2164,
-    "w": 820,
-    "h": 22
-   },
-   {
-    "x": 93,
-    "y": 2194,
-    "w": 633,
-    "h": 22
-   },
-   {
-    "x": 726,
-    "y": 2194,
-    "w": 71,
-    "h": 22
-   },
-   {
-    "x": 797,
-    "y": 2194,
-    "w": 108,
-    "h": 22
-   },
-   {
-    "x": 93,
-    "y": 2224,
-    "w": 739,
-    "h": 22
-   },
-   {
-    "x": 93,
-    "y": 2272,
-    "w": 783,
-    "h": 22
-   },
-   {
-    "x": 93,
-    "y": 2302,
-    "w": 728,
-    "h": 22
-   },
-   {
-    "x": 93,
-    "y": 2332,
-    "w": 794,
-    "h": 22
-   },
-   {
-    "x": 93,
-    "y": 2362,
-    "w": 165,
-    "h": 22
-   },
-   {
-    "x": 257,
-    "y": 2362,
-    "w": 145,
-    "h": 22
-   },
-   {
-    "x": 403,
-    "y": 2362,
-    "w": 239,
-    "h": 22
-   },
-   {
-    "x": 93,
-    "y": 2410,
-    "w": 796,
-    "h": 22
-   },
-   {
-    "x": 93,
-    "y": 2440,
-    "w": 815,
-    "h": 22
-   },
-   {
-    "x": 93,
-    "y": 2470,
-    "w": 171,
-    "h": 22
-   },
-   {
-    "x": 93,
-    "y": 2512,
-    "w": 533,
-    "h": 33
-   },
-   {
-    "x": 93,
-    "y": 2566,
-    "w": 485,
-    "h": 22
-   },
-   {
-    "x": 578,
-    "y": 2566,
-    "w": 332,
-    "h": 22
-   },
-   {
-    "x": 93,
-    "y": 2596,
-    "w": 175,
-    "h": 22
-   },
-   {
-    "x": 267,
-    "y": 2596,
-    "w": 594,
-    "h": 22
-   },
-   {
-    "x": 125,
-    "y": 2644,
-    "w": 174,
-    "h": 22
-   },
-   {
-    "x": 125,
-    "y": 2674,
-    "w": 72,
-    "h": 22
-   },
-   {
-    "x": 125,
-    "y": 2704,
-    "w": 79,
-    "h": 22
-   },
-   {
-    "x": 125,
-    "y": 2734,
-    "w": 59,
-    "h": 22
-   },
-   {
-    "x": 125,
-    "y": 2764,
-    "w": 159,
-    "h": 22
-   },
-   {
-    "x": 93,
-    "y": 2812,
-    "w": 802,
-    "h": 22
-   },
-   {
-    "x": 93,
-    "y": 2842,
-    "w": 804,
-    "h": 22
-   },
-   {
-    "x": 93,
-    "y": 2872,
-    "w": 369,
-    "h": 22
-   },
-   {
-    "x": 93,
-    "y": 2920,
-    "w": 819,
-    "h": 22
-   },
-   {
-    "x": 93,
-    "y": 2950,
-    "w": 775,
-    "h": 22
-   },
-   {
-    "x": 93,
-    "y": 2980,
-    "w": 802,
-    "h": 22
-   },
-   {
-    "x": 93,
-    "y": 3010,
-    "w": 450,
-    "h": 22
-   },
-   {
-    "x": 93,
-    "y": 3058,
-    "w": 543,
-    "h": 22
-   },
-   {
-    "x": 636,
-    "y": 3058,
-    "w": 58,
-    "h": 22
-   },
-   {
-    "x": 694,
-    "y": 3058,
-    "w": 204,
-    "h": 22
-   },
-   {
-    "x": 93,
-    "y": 3088,
-    "w": 162,
-    "h": 22
-   },
-   {
-    "x": 93,
-    "y": 3130,
-    "w": 315,
-    "h": 33
-   },
-   {
-    "x": 93,
-    "y": 3184,
-    "w": 795,
-    "h": 22
-   },
-   {
-    "x": 93,
-    "y": 3214,
-    "w": 265,
-    "h": 22
-   },
-   {
-    "x": 93,
-    "y": 3262,
-    "w": 156,
-    "h": 22
-   },
-   {
-    "x": 249,
-    "y": 3262,
-    "w": 507,
-    "h": 22
-   },
-   {
-    "x": 756,
-    "y": 3262,
-    "w": 134,
-    "h": 22
-   },
-   {
-    "x": 93,
-    "y": 3292,
     "w": 816,
     "h": 22
    },
    {
     "x": 93,
-    "y": 3322,
+    "y": 1420,
+    "w": 342,
+    "h": 22
+   },
+   {
+    "x": 93,
+    "y": 1468,
+    "w": 787,
+    "h": 22
+   },
+   {
+    "x": 93,
+    "y": 1498,
+    "w": 779,
+    "h": 22
+   },
+   {
+    "x": 93,
+    "y": 1528,
+    "w": 769,
+    "h": 22
+   },
+   {
+    "x": 93,
+    "y": 1558,
+    "w": 750,
+    "h": 22
+   },
+   {
+    "x": 93,
+    "y": 1648,
+    "w": 470,
+    "h": 33
+   },
+   {
+    "x": 93,
+    "y": 1702,
+    "w": 804,
+    "h": 22
+   },
+   {
+    "x": 93,
+    "y": 1732,
+    "w": 766,
+    "h": 22
+   },
+   {
+    "x": 93,
+    "y": 1762,
+    "w": 791,
+    "h": 22
+   },
+   {
+    "x": 93,
+    "y": 1810,
+    "w": 382,
+    "h": 22
+   },
+   {
+    "x": 125,
+    "y": 1855,
+    "w": 164,
+    "h": 27
+   },
+   {
+    "x": 289,
+    "y": 1859,
+    "w": 603,
+    "h": 22
+   },
+   {
+    "x": 125,
+    "y": 1889,
+    "w": 174,
+    "h": 22
+   },
+   {
+    "x": 125,
+    "y": 1916,
+    "w": 134,
+    "h": 27
+   },
+   {
+    "x": 258,
+    "y": 1920,
+    "w": 632,
+    "h": 22
+   },
+   {
+    "x": 125,
+    "y": 1950,
+    "w": 255,
+    "h": 22
+   },
+   {
+    "x": 125,
+    "y": 1977,
+    "w": 246,
+    "h": 27
+   },
+   {
+    "x": 371,
+    "y": 1981,
+    "w": 536,
+    "h": 22
+   },
+   {
+    "x": 125,
+    "y": 2008,
+    "w": 169,
+    "h": 27
+   },
+   {
+    "x": 293,
+    "y": 2012,
+    "w": 200,
+    "h": 22
+   },
+   {
+    "x": 493,
+    "y": 2012,
+    "w": 163,
+    "h": 22
+   },
+   {
+    "x": 656,
+    "y": 2012,
+    "w": 243,
+    "h": 22
+   },
+   {
+    "x": 125,
+    "y": 2042,
+    "w": 762,
+    "h": 22
+   },
+   {
+    "x": 93,
+    "y": 2090,
+    "w": 816,
+    "h": 22
+   },
+   {
+    "x": 93,
+    "y": 2120,
+    "w": 727,
+    "h": 22
+   },
+   {
+    "x": 93,
+    "y": 2162,
+    "w": 384,
+    "h": 33
+   },
+   {
+    "x": 93,
+    "y": 2216,
+    "w": 778,
+    "h": 22
+   },
+   {
+    "x": 93,
+    "y": 2246,
+    "w": 697,
+    "h": 22
+   },
+   {
+    "x": 790,
+    "y": 2246,
+    "w": 72,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 2246,
+    "w": 41,
+    "h": 22
+   },
+   {
+    "x": 93,
+    "y": 2276,
+    "w": 819,
+    "h": 22
+   },
+   {
+    "x": 93,
+    "y": 2324,
+    "w": 795,
+    "h": 22
+   },
+   {
+    "x": 93,
+    "y": 2354,
+    "w": 739,
+    "h": 22
+   },
+   {
+    "x": 93,
+    "y": 2384,
+    "w": 805,
+    "h": 22
+   },
+   {
+    "x": 93,
+    "y": 2414,
+    "w": 167,
+    "h": 22
+   },
+   {
+    "x": 260,
+    "y": 2414,
+    "w": 147,
+    "h": 22
+   },
+   {
+    "x": 407,
+    "y": 2414,
+    "w": 243,
+    "h": 22
+   },
+   {
+    "x": 93,
+    "y": 2462,
     "w": 808,
     "h": 22
    },
    {
     "x": 93,
-    "y": 3352,
-    "w": 368,
+    "y": 2492,
+    "w": 784,
     "h": 22
    },
    {
     "x": 93,
-    "y": 3400,
-    "w": 806,
+    "y": 2522,
+    "w": 217,
     "h": 22
    },
    {
     "x": 93,
-    "y": 3430,
-    "w": 360,
-    "h": 22
-   },
-   {
-    "x": 93,
-    "y": 3472,
-    "w": 482,
+    "y": 2564,
+    "w": 537,
     "h": 33
    },
    {
     "x": 93,
-    "y": 3526,
-    "w": 796,
+    "y": 2618,
+    "w": 493,
+    "h": 22
+   },
+   {
+    "x": 585,
+    "y": 2618,
+    "w": 293,
     "h": 22
    },
    {
     "x": 93,
-    "y": 3556,
-    "w": 498,
+    "y": 2648,
+    "w": 217,
+    "h": 22
+   },
+   {
+    "x": 310,
+    "y": 2648,
+    "w": 563,
     "h": 22
    },
    {
     "x": 93,
-    "y": 3604,
-    "w": 676,
+    "y": 2678,
+    "w": 36,
     "h": 22
    },
    {
-    "x": 769,
-    "y": 3604,
-    "w": 141,
+    "x": 125,
+    "y": 2726,
+    "w": 177,
+    "h": 22
+   },
+   {
+    "x": 125,
+    "y": 2756,
+    "w": 73,
+    "h": 22
+   },
+   {
+    "x": 125,
+    "y": 2786,
+    "w": 80,
+    "h": 22
+   },
+   {
+    "x": 125,
+    "y": 2816,
+    "w": 60,
+    "h": 22
+   },
+   {
+    "x": 125,
+    "y": 2846,
+    "w": 162,
     "h": 22
    },
    {
     "x": 93,
-    "y": 3634,
-    "w": 362,
-    "h": 22
-   },
-   {
-    "x": 454,
-    "y": 3634,
-    "w": 431,
+    "y": 2894,
+    "w": 814,
     "h": 22
    },
    {
     "x": 93,
-    "y": 3664,
-    "w": 691,
+    "y": 2924,
+    "w": 815,
     "h": 22
    },
    {
     "x": 93,
-    "y": 3712,
-    "w": 336,
+    "y": 2954,
+    "w": 375,
     "h": 22
    },
    {
-    "x": 429,
-    "y": 3712,
-    "w": 284,
+    "x": 93,
+    "y": 3002,
+    "w": 789,
     "h": 22
    },
    {
-    "x": 713,
-    "y": 3712,
+    "x": 93,
+    "y": 3032,
+    "w": 777,
+    "h": 22
+   },
+   {
+    "x": 93,
+    "y": 3062,
+    "w": 800,
+    "h": 22
+   },
+   {
+    "x": 93,
+    "y": 3092,
+    "w": 524,
+    "h": 22
+   },
+   {
+    "x": 93,
+    "y": 3140,
+    "w": 552,
+    "h": 22
+   },
+   {
+    "x": 644,
+    "y": 3140,
+    "w": 59,
+    "h": 22
+   },
+   {
+    "x": 703,
+    "y": 3140,
+    "w": 207,
+    "h": 22
+   },
+   {
+    "x": 93,
+    "y": 3170,
+    "w": 165,
+    "h": 22
+   },
+   {
+    "x": 93,
+    "y": 3212,
+    "w": 318,
+    "h": 33
+   },
+   {
+    "x": 93,
+    "y": 3266,
+    "w": 807,
+    "h": 22
+   },
+   {
+    "x": 93,
+    "y": 3296,
+    "w": 270,
+    "h": 22
+   },
+   {
+    "x": 93,
+    "y": 3344,
+    "w": 159,
+    "h": 22
+   },
+   {
+    "x": 251,
+    "y": 3344,
+    "w": 514,
+    "h": 22
+   },
+   {
+    "x": 765,
+    "y": 3344,
+    "w": 136,
+    "h": 22
+   },
+   {
+    "x": 93,
+    "y": 3374,
+    "w": 798,
+    "h": 22
+   },
+   {
+    "x": 93,
+    "y": 3404,
+    "w": 803,
+    "h": 22
+   },
+   {
+    "x": 93,
+    "y": 3434,
+    "w": 421,
+    "h": 22
+   },
+   {
+    "x": 93,
+    "y": 3482,
+    "w": 818,
+    "h": 22
+   },
+   {
+    "x": 93,
+    "y": 3512,
+    "w": 365,
+    "h": 22
+   },
+   {
+    "x": 93,
+    "y": 3554,
+    "w": 486,
+    "h": 33
+   },
+   {
+    "x": 93,
+    "y": 3608,
+    "w": 808,
+    "h": 22
+   },
+   {
+    "x": 93,
+    "y": 3638,
+    "w": 506,
+    "h": 22
+   },
+   {
+    "x": 93,
+    "y": 3686,
+    "w": 687,
+    "h": 22
+   },
+   {
+    "x": 779,
+    "y": 3686,
+    "w": 69,
+    "h": 22
+   },
+   {
+    "x": 93,
+    "y": 3716,
+    "w": 440,
+    "h": 22
+   },
+   {
+    "x": 533,
+    "y": 3716,
+    "w": 326,
+    "h": 22
+   },
+   {
+    "x": 93,
+    "y": 3746,
+    "w": 812,
+    "h": 22
+   },
+   {
+    "x": 93,
+    "y": 3794,
+    "w": 341,
+    "h": 22
+   },
+   {
+    "x": 434,
+    "y": 3794,
+    "w": 288,
+    "h": 22
+   },
+   {
+    "x": 722,
+    "y": 3794,
     "w": 4,
     "h": 22
    },
    {
     "x": 93,
-    "y": 3760,
-    "w": 792,
+    "y": 3842,
+    "w": 804,
     "h": 22
    },
    {
     "x": 93,
-    "y": 3790,
-    "w": 444,
+    "y": 3872,
+    "w": 450,
     "h": 22
    },
    {
     "x": 93,
-    "y": 3838,
-    "w": 91,
+    "y": 3920,
+    "w": 92,
     "h": 22
    },
    {
     "x": 133,
-    "y": 3886,
-    "w": 736,
+    "y": 3968,
+    "w": 747,
     "h": 22
    },
    {
     "x": 133,
-    "y": 3916,
-    "w": 159,
+    "y": 3998,
+    "w": 161,
     "h": 22
    },
    {
     "x": 133,
-    "y": 3946,
-    "w": 778,
+    "y": 4028,
+    "w": 765,
     "h": 22
    },
    {
     "x": 133,
-    "y": 3976,
-    "w": 760,
+    "y": 4058,
+    "w": 733,
     "h": 22
    },
    {
     "x": 133,
-    "y": 4006,
-    "w": 255,
+    "y": 4088,
+    "w": 321,
     "h": 22
    },
    {
     "x": 133,
-    "y": 4036,
-    "w": 356,
+    "y": 4118,
+    "w": 361,
     "h": 22
    },
    {
     "x": 133,
-    "y": 4066,
-    "w": 688,
+    "y": 4148,
+    "w": 698,
     "h": 22
    },
    {
     "x": 133,
-    "y": 4096,
-    "w": 741,
+    "y": 4178,
+    "w": 752,
     "h": 22
    },
    {
     "x": 133,
-    "y": 4126,
-    "w": 304,
+    "y": 4208,
+    "w": 308,
     "h": 22
    },
    {
     "x": 133,
-    "y": 4156,
-    "w": 758,
+    "y": 4238,
+    "w": 770,
     "h": 22
    },
    {
     "x": 133,
-    "y": 4186,
-    "w": 779,
+    "y": 4268,
+    "w": 755,
     "h": 22
    },
    {
     "x": 133,
-    "y": 4216,
-    "w": 391,
+    "y": 4298,
+    "w": 435,
     "h": 22
    },
    {
     "x": 93,
-    "y": 4276,
+    "y": 4358,
     "w": 314,
     "h": 22
    },
    {
     "x": 93,
-    "y": 4306,
+    "y": 4388,
     "w": 185,
     "h": 22
    },
    {
     "x": 131,
-    "y": 4352,
+    "y": 4434,
     "w": 46,
     "h": 22
    },
    {
     "x": 237,
-    "y": 4352,
+    "y": 4434,
     "w": 50,
     "h": 22
    },
    {
     "x": 347,
-    "y": 4352,
+    "y": 4434,
     "w": 40,
     "h": 22
    },
    {
     "x": 447,
-    "y": 4352,
+    "y": 4434,
     "w": 46,
     "h": 22
    },
    {
     "x": 554,
-    "y": 4352,
+    "y": 4434,
     "w": 44,
     "h": 22
    },
@@ -8353,481 +8369,481 @@
    },
    {
     "x": 281,
-    "y": 4489,
+    "y": 4571,
     "w": 864,
     "h": 48
    },
    {
     "x": 93,
-    "y": 4853,
-    "w": 345,
+    "y": 4935,
+    "w": 340,
     "h": 30
    },
    {
     "x": 93,
-    "y": 4891,
-    "w": 111,
+    "y": 4973,
+    "w": 110,
     "h": 30
    },
    {
     "x": 93,
-    "y": 4947,
+    "y": 5029,
     "w": 384,
     "h": 22
    },
    {
     "x": 93,
-    "y": 4977,
+    "y": 5059,
     "w": 376,
     "h": 22
    },
    {
     "x": 516,
-    "y": 4853,
-    "w": 391,
+    "y": 4935,
+    "w": 385,
     "h": 30
    },
    {
     "x": 516,
-    "y": 4891,
-    "w": 192,
+    "y": 4973,
+    "w": 189,
     "h": 30
    },
    {
     "x": 516,
-    "y": 4947,
+    "y": 5029,
     "w": 346,
     "h": 22
    },
    {
     "x": 516,
-    "y": 4977,
+    "y": 5059,
     "w": 367,
     "h": 22
    },
    {
     "x": 516,
-    "y": 5007,
+    "y": 5089,
     "w": 67,
     "h": 22
    },
    {
     "x": 939,
-    "y": 4859,
-    "w": 139,
+    "y": 4941,
+    "w": 132,
     "h": 17
    },
    {
     "x": 939,
-    "y": 4903,
-    "w": 337,
+    "y": 4985,
+    "w": 332,
     "h": 30
    },
    {
     "x": 939,
-    "y": 4941,
-    "w": 322,
+    "y": 5023,
+    "w": 317,
     "h": 30
    },
    {
     "x": 939,
-    "y": 4979,
-    "w": 88,
+    "y": 5061,
+    "w": 86,
     "h": 30
    },
    {
     "x": 939,
-    "y": 5017,
-    "w": 392,
+    "y": 5099,
+    "w": 363,
     "h": 22
    },
    {
     "x": 939,
-    "y": 5047,
-    "w": 253,
+    "y": 5129,
+    "w": 290,
     "h": 22
    },
    {
     "x": 402,
-    "y": 5318,
+    "y": 5400,
     "w": 620,
     "h": 22
    },
    {
     "x": 381,
-    "y": 5429,
+    "y": 5511,
     "w": 664,
     "h": 22
    },
    {
     "x": 993,
-    "y": 6016,
+    "y": 6098,
     "w": 162,
     "h": 22
    },
    {
     "x": 993,
-    "y": 6062,
+    "y": 6144,
     "w": 333,
     "h": 22
    },
    {
     "x": 993,
-    "y": 6092,
+    "y": 6174,
     "w": 179,
     "h": 22
    },
    {
     "x": 1246,
-    "y": 6160,
+    "y": 6242,
     "w": 63,
     "h": 22
    },
    {
     "x": 993,
-    "y": 6257,
+    "y": 6339,
     "w": 77,
     "h": 22
    },
    {
     "x": 93,
-    "y": 6016,
+    "y": 6098,
     "w": 72,
     "h": 22
    },
    {
     "x": 93,
-    "y": 6055,
+    "y": 6137,
     "w": 96,
     "h": 18
    },
    {
     "x": 93,
-    "y": 6082,
+    "y": 6164,
     "w": 86,
     "h": 18
    },
    {
     "x": 93,
-    "y": 6108,
+    "y": 6190,
     "w": 54,
     "h": 18
    },
    {
     "x": 93,
-    "y": 6135,
+    "y": 6217,
     "w": 39,
     "h": 18
    },
    {
     "x": 93,
-    "y": 6161,
+    "y": 6243,
     "w": 118,
     "h": 18
    },
    {
     "x": 93,
-    "y": 6188,
+    "y": 6270,
     "w": 61,
     "h": 18
    },
    {
     "x": 258,
-    "y": 6016,
+    "y": 6098,
     "w": 109,
     "h": 22
    },
    {
     "x": 258,
-    "y": 6055,
+    "y": 6137,
     "w": 120,
     "h": 18
    },
    {
     "x": 410,
-    "y": 6055,
+    "y": 6137,
     "w": 83,
     "h": 18
    },
    {
     "x": 258,
-    "y": 6082,
+    "y": 6164,
     "w": 79,
     "h": 18
    },
    {
     "x": 410,
-    "y": 6082,
+    "y": 6164,
     "w": 129,
     "h": 18
    },
    {
     "x": 258,
-    "y": 6108,
+    "y": 6190,
     "w": 71,
     "h": 18
    },
    {
     "x": 410,
-    "y": 6108,
+    "y": 6190,
     "w": 93,
     "h": 18
    },
    {
     "x": 258,
-    "y": 6135,
+    "y": 6217,
     "w": 43,
     "h": 18
    },
    {
     "x": 410,
-    "y": 6135,
+    "y": 6217,
     "w": 130,
     "h": 18
    },
    {
     "x": 258,
-    "y": 6161,
+    "y": 6243,
     "w": 108,
     "h": 18
    },
    {
     "x": 410,
-    "y": 6161,
+    "y": 6243,
     "w": 103,
     "h": 18
    },
    {
     "x": 258,
-    "y": 6188,
+    "y": 6270,
     "w": 83,
     "h": 18
    },
    {
     "x": 410,
-    "y": 6188,
+    "y": 6270,
     "w": 201,
     "h": 18
    },
    {
     "x": 258,
-    "y": 6214,
+    "y": 6296,
     "w": 95,
     "h": 18
    },
    {
     "x": 410,
-    "y": 6214,
+    "y": 6296,
     "w": 93,
     "h": 18
    },
    {
     "x": 651,
-    "y": 6016,
+    "y": 6098,
     "w": 75,
     "h": 22
    },
    {
     "x": 651,
-    "y": 6046,
+    "y": 6128,
     "w": 56,
     "h": 22
    },
    {
     "x": 651,
-    "y": 6085,
+    "y": 6167,
     "w": 72,
     "h": 18
    },
    {
     "x": 651,
-    "y": 6112,
+    "y": 6194,
     "w": 93,
     "h": 18
    },
    {
     "x": 651,
-    "y": 6138,
+    "y": 6220,
     "w": 80,
     "h": 18
    },
    {
     "x": 651,
-    "y": 6165,
+    "y": 6247,
     "w": 109,
     "h": 18
    },
    {
     "x": 651,
-    "y": 6191,
+    "y": 6273,
     "w": 52,
     "h": 18
    },
    {
     "x": 817,
-    "y": 6016,
+    "y": 6098,
     "w": 66,
     "h": 22
    },
    {
     "x": 817,
-    "y": 6046,
+    "y": 6128,
     "w": 58,
     "h": 22
    },
    {
     "x": 817,
-    "y": 6085,
+    "y": 6167,
     "w": 61,
     "h": 18
    },
    {
     "x": 817,
-    "y": 6112,
+    "y": 6194,
     "w": 89,
     "h": 18
    },
    {
     "x": 817,
-    "y": 6138,
+    "y": 6220,
     "w": 74,
     "h": 18
    },
    {
     "x": 817,
-    "y": 6165,
+    "y": 6247,
     "w": 51,
     "h": 18
    },
    {
     "x": 95,
-    "y": 6342,
+    "y": 6424,
     "w": 85,
     "h": 18
    },
    {
     "x": 200,
-    "y": 6339,
+    "y": 6421,
     "w": 4,
     "h": 22
    },
    {
     "x": 224,
-    "y": 6342,
+    "y": 6424,
     "w": 89,
     "h": 18
    },
    {
     "x": 334,
-    "y": 6339,
+    "y": 6421,
     "w": 4,
     "h": 22
    },
    {
     "x": 358,
-    "y": 6342,
+    "y": 6424,
     "w": 155,
     "h": 18
    },
    {
     "x": 533,
-    "y": 6339,
+    "y": 6421,
     "w": 4,
     "h": 22
    },
    {
     "x": 557,
-    "y": 6342,
+    "y": 6424,
     "w": 125,
     "h": 18
    },
    {
     "x": 702,
-    "y": 6339,
+    "y": 6421,
     "w": 4,
     "h": 22
    },
    {
     "x": 726,
-    "y": 6342,
+    "y": 6424,
     "w": 150,
     "h": 18
    },
    {
     "x": 896,
-    "y": 6339,
+    "y": 6421,
     "w": 4,
     "h": 22
    },
    {
     "x": 921,
-    "y": 6342,
+    "y": 6424,
     "w": 162,
     "h": 18
    },
    {
     "x": 1122,
-    "y": 6339,
+    "y": 6421,
     "w": 4,
     "h": 22
    },
    {
     "x": 1194,
-    "y": 6341,
+    "y": 6423,
     "w": 136,
     "h": 18
    },
    {
     "x": 248,
-    "y": 6478,
+    "y": 6560,
     "w": 928,
     "h": 15
    },
    {
     "x": 240,
-    "y": 6554,
+    "y": 6636,
     "w": 946,
     "h": 15
    },
    {
     "x": 337,
-    "y": 6583,
+    "y": 6665,
     "w": 751,
     "h": 15
    },
    {
     "x": 490,
-    "y": 6613,
+    "y": 6695,
     "w": 445,
     "h": 15
    },
    {
     "x": 125,
-    "y": 6642,
+    "y": 6724,
     "w": 1174,
     "h": 15
    },
    {
     "x": 615,
-    "y": 6662,
+    "y": 6744,
     "w": 196,
     "h": 15
    },
    {
     "x": 136,
-    "y": 6691,
+    "y": 6773,
     "w": 988,
     "h": 15
    },
    {
     "x": 1124,
-    "y": 6691,
+    "y": 6773,
     "w": 165,
     "h": 15
    },
    {
     "x": 595,
-    "y": 6721,
+    "y": 6803,
     "w": 235,
     "h": 15
    }

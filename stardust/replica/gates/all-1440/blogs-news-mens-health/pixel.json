@@ -7,16 +7,16 @@
     "mode": "overlap"
   },
   "heightDelta": 12,
-  "differingPixels": 185506,
-  "pct": 3.03,
+  "differingPixels": 185645,
+  "pct": 3.04,
   "threshold": 10,
   "pass": true,
   "diff": "stardust/replica/gates/all-1440/blogs-news-mens-health/diff.png",
   "masks": [],
   "maskedRows": 0,
-  "textPct": 18.09,
+  "textPct": 18,
   "textBoxes": 153,
-  "textPixels": 884744,
+  "textPixels": 884250,
   "bands": [
     {
       "y0": 0,
@@ -41,12 +41,12 @@
     {
       "y0": 2000,
       "y1": 2500,
-      "pct": 3.1
+      "pct": 3.2
     },
     {
       "y0": 2500,
       "y1": 3000,
-      "pct": 1
+      "pct": 0.9
     },
     {
       "y0": 3000,

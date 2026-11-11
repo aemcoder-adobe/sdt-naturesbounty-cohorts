@@ -1,7 +1,7 @@
 {
  "_provenance": {
   "writtenBy": "unit-geometry.mjs",
-  "at": "2026-11-11T05:57:14.264Z",
+  "at": "2026-11-11T09:09:09.902Z",
   "tol": 4,
   "n": 5,
   "width": 1440,
@@ -14,8 +14,8 @@
  },
  "eds": {
   "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/smarter-better-health-every-day",
-  "at": "2026-11-11T05:57:14.137Z",
-  "docH": 4512
+  "at": "2026-11-11T09:09:09.799Z",
+  "docH": 4709
  },
  "results": [
   {
@@ -111,16 +111,16 @@
        "eds": {
         "x": 0,
         "y": 265,
-        "w": 123,
+        "w": 116,
         "h": 30,
         "sel": "a",
         "role": "link"
        },
        "dx": 0,
        "dy": 0,
-       "dw": 6,
+       "dw": -1,
        "dh": 0,
-       "off": true,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "14/30/500",
@@ -204,14 +204,14 @@
        "eds": {
         "x": 0,
         "y": 429,
-        "w": 320,
+        "w": 325,
         "h": 52,
         "sel": "p",
         "role": "text"
        },
        "dx": 0,
        "dy": 2,
-       "dw": -10,
+       "dw": -5,
        "dh": -3,
        "off": true,
        "hidden": false,
@@ -230,10 +230,10 @@
        "text": "",
        "boxed": false,
        "x": 0,
-       "y": 228,
+       "y": 0,
        "w": 393,
-       "h": 22,
-       "absY": 2535,
+       "h": 245,
+       "absY": 2504,
        "hidden": false,
        "fs": 18,
        "lh": 30,
@@ -253,19 +253,19 @@
       },
       "eds": {
        "x": 93,
-       "y": 2307,
+       "y": 2504,
        "w": 393,
        "h": 485
       },
       "dx": 0,
-      "dy": -206,
+      "dy": -9,
       "dw": 0,
       "dh": 0
      },
      "summary": {
       "elements": 6,
-      "within": 4,
-      "off": 2,
+      "within": 5,
+      "off": 1,
       "hidden": 0,
       "missing": 0,
       "extra": 1,
@@ -358,16 +358,16 @@
        "eds": {
         "x": 0,
         "y": 265,
-        "w": 123,
+        "w": 116,
         "h": 30,
         "sel": "a",
         "role": "link"
        },
        "dx": 0,
        "dy": 0,
-       "dw": 6,
+       "dw": -1,
        "dh": 0,
-       "off": true,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "14/30/500",
@@ -451,16 +451,16 @@
        "eds": {
         "x": 0,
         "y": 429,
-        "w": 338,
+        "w": 343,
         "h": 52,
         "sel": "p",
         "role": "text"
        },
        "dx": 0,
        "dy": 2,
-       "dw": -5,
+       "dw": 0,
        "dh": -3,
-       "off": true,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "18/30/500",
@@ -477,10 +477,10 @@
        "text": "",
        "boxed": false,
        "x": 0,
-       "y": 228,
+       "y": 0,
        "w": 393,
-       "h": 22,
-       "absY": 2535,
+       "h": 245,
+       "absY": 2504,
        "hidden": false,
        "fs": 18,
        "lh": 30,
@@ -500,19 +500,19 @@
       },
       "eds": {
        "x": 516,
-       "y": 2307,
+       "y": 2504,
        "w": 393,
        "h": 485
       },
       "dx": 0,
-      "dy": -206,
+      "dy": -9,
       "dw": 0,
       "dh": 0
      },
      "summary": {
       "elements": 6,
-      "within": 4,
-      "off": 2,
+      "within": 6,
+      "off": 0,
       "hidden": 0,
       "missing": 0,
       "extra": 1,
@@ -605,16 +605,16 @@
        "eds": {
         "x": 0,
         "y": 265,
-        "w": 123,
+        "w": 116,
         "h": 30,
         "sel": "a",
         "role": "link"
        },
        "dx": 0,
        "dy": 0,
-       "dw": 6,
+       "dw": -1,
        "dh": 0,
-       "off": true,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "14/30/500",
@@ -698,14 +698,14 @@
        "eds": {
         "x": 0,
         "y": 353,
-        "w": 218,
+        "w": 220,
         "h": 22,
         "sel": "p",
         "role": "text"
        },
        "dx": 0,
        "dy": 2,
-       "dw": 0,
+       "dw": 2,
        "dh": -3,
        "off": false,
        "hidden": false,
@@ -724,10 +724,10 @@
        "text": "",
        "boxed": false,
        "x": 0,
-       "y": 228,
+       "y": 0,
        "w": 393,
-       "h": 22,
-       "absY": 2535,
+       "h": 245,
+       "absY": 2504,
        "hidden": false,
        "fs": 18,
        "lh": 30,
@@ -747,19 +747,19 @@
       },
       "eds": {
        "x": 939,
-       "y": 2307,
+       "y": 2504,
        "w": 393,
        "h": 379
       },
       "dx": 0,
-      "dy": -206,
+      "dy": -9,
       "dw": 0,
       "dh": 0
      },
      "summary": {
       "elements": 6,
-      "within": 5,
-      "off": 1,
+      "within": 6,
+      "off": 0,
       "hidden": 0,
       "missing": 0,
       "extra": 1,
@@ -837,7 +837,7 @@
        "y": 0,
        "w": 271,
        "h": 271,
-       "absY": 3202,
+       "absY": 3399,
        "hidden": false,
        "fs": 18,
        "lh": 30,
@@ -857,12 +857,12 @@
       },
       "eds": {
        "x": 21,
-       "y": 3202,
+       "y": 3399,
        "w": 271,
        "h": 271
       },
       "dx": 0,
-      "dy": -206,
+      "dy": -9,
       "dw": 0,
       "dh": 0
      },
@@ -929,7 +929,7 @@
        "y": 0,
        "w": 271,
        "h": 271,
-       "absY": 3202,
+       "absY": 3399,
        "hidden": false,
        "fs": 18,
        "lh": 30,
@@ -949,12 +949,12 @@
       },
       "eds": {
        "x": 299,
-       "y": 3202,
+       "y": 3399,
        "w": 271,
        "h": 271
       },
       "dx": 0,
-      "dy": -206,
+      "dy": -9,
       "dw": 0,
       "dh": 0
      },
@@ -1021,7 +1021,7 @@
        "y": 0,
        "w": 271,
        "h": 271,
-       "absY": 3202,
+       "absY": 3399,
        "hidden": false,
        "fs": 18,
        "lh": 30,
@@ -1041,12 +1041,12 @@
       },
       "eds": {
        "x": 577,
-       "y": 3202,
+       "y": 3399,
        "w": 271,
        "h": 271
       },
       "dx": 0,
-      "dy": -206,
+      "dy": -9,
       "dw": 0,
       "dh": 0
      },
@@ -1113,7 +1113,7 @@
        "y": 0,
        "w": 271,
        "h": 271,
-       "absY": 3202,
+       "absY": 3399,
        "hidden": false,
        "fs": 18,
        "lh": 30,
@@ -1133,12 +1133,12 @@
       },
       "eds": {
        "x": 855,
-       "y": 3202,
+       "y": 3399,
        "w": 271,
        "h": 271
       },
       "dx": 0,
-      "dy": -206,
+      "dy": -9,
       "dw": 0,
       "dh": 0
      },
@@ -1205,7 +1205,7 @@
        "y": 0,
        "w": 271,
        "h": 271,
-       "absY": 3202,
+       "absY": 3399,
        "hidden": false,
        "fs": 18,
        "lh": 30,
@@ -1225,12 +1225,12 @@
       },
       "eds": {
        "x": 1133,
-       "y": 3202,
+       "y": 3399,
        "w": 271,
        "h": 271
       },
       "dx": 0,
-      "dy": -206,
+      "dy": -9,
       "dw": 0,
       "dh": 0
      },
@@ -1249,11 +1249,11 @@
  ],
  "verdict": {
   "units": 8,
-  "within": 18,
-  "off": 5,
+  "within": 22,
+  "off": 1,
   "hidden": 0,
   "missing": 0,
   "errors": 1,
-  "requiredOff": 5
+  "requiredOff": 1
  }
 }

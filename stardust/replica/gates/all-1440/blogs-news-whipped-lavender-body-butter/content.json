@@ -1,14 +1,14 @@
 {
  "_provenance": {
   "writtenBy": "content-presence.mjs",
-  "at": "2026-11-11T05:42:29.670Z",
+  "at": "2026-11-11T09:01:39.131Z",
   "width": 1440,
   "variable": [],
   "tier": "chrome"
  },
  "origin": {
   "url": "https://naturesbounty.com/blogs/news/whipped-lavender-body-butter",
-  "at": "2026-11-11T05:42:08.847Z",
+  "at": "2026-11-11T09:01:19.105Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 4410,
@@ -21,7 +21,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": -15,
+    "x": 14,
     "y": 6,
     "w": 157,
     "h": 20,
@@ -35,7 +35,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 342,
+    "x": 372,
     "y": 6,
     "w": 213,
     "h": 20,
@@ -49,7 +49,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 755,
+    "x": 785,
     "y": 6,
     "w": 314,
     "h": 20,
@@ -63,7 +63,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 1269,
+    "x": 1299,
     "y": 6,
     "w": 157,
     "h": 20,
@@ -2131,18 +2131,39 @@
     "clamped": 0,
     "collapsed": 0,
     "scrollHidden": 0,
-    "horizontal": 0,
+    "horizontal": 2,
     "offPage": 8,
     "textNodes": 139,
     "controls": 106,
     "total": 0
    },
-   "groups": []
+   "groups": [
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.slick-list.draggable",
+     "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
+     "text": "shop our favorite products",
+     "cutMin": 14,
+     "cutMax": 14
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.slick-list.draggable",
+     "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
+     "text": "shop our favorite products",
+     "cutMin": 14,
+     "cutMax": 14
+    }
+   ]
   }
  },
  "eds": {
   "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/whipped-lavender-body-butter",
-  "at": "2026-11-11T05:42:29.544Z",
+  "at": "2026-11-11T09:01:39.026Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 4398,
@@ -2155,7 +2176,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": -57,
+    "x": -56,
     "y": 8,
     "w": 319,
     "h": 15,
@@ -2169,7 +2190,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 462,
+    "x": 463,
     "y": 8,
     "w": 160,
     "h": 15,
@@ -2183,7 +2204,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 822,
+    "x": 823,
     "y": 8,
     "w": 219,
     "h": 15,
@@ -2197,7 +2218,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 1241,
+    "x": 1242,
     "y": 8,
     "w": 319,
     "h": 15,
@@ -2458,9 +2479,9 @@
     "inRoot": true,
     "inChrome": false,
     "path": "ul > li > a",
-    "x": 214,
+    "x": 215,
     "y": 1200,
-    "w": 235,
+    "w": 238,
     "h": 22,
     "text": "nature's bounty vitamin e oil",
     "href": "/products/vitamin-e-oil-30000-iu-25-oz-liquid"
@@ -2998,7 +3019,7 @@
     "path": "ul > li > a",
     "x": 93,
     "y": 2430,
-    "w": 189,
+    "w": 180,
     "h": 30,
     "text": "age defying skin renewal",
     "href": "/blogs/news/tagged/age-defying-skin-renewal"
@@ -3010,9 +3031,9 @@
     "inRoot": true,
     "inChrome": false,
     "path": "ul > li > a",
-    "x": 295,
+    "x": 286,
     "y": 2430,
-    "w": 32,
+    "w": 30,
     "h": 30,
     "text": "hair",
     "href": "/blogs/news/tagged/hair"
@@ -3024,9 +3045,9 @@
     "inRoot": true,
     "inChrome": false,
     "path": "ul > li > a",
-    "x": 340,
+    "x": 329,
     "y": 2430,
-    "w": 39,
+    "w": 37,
     "h": 30,
     "text": "nails",
     "href": "/blogs/news/tagged/nails"
@@ -3110,7 +3131,7 @@
     "path": "ul > li > a",
     "x": 516,
     "y": 2430,
-    "w": 32,
+    "w": 30,
     "h": 30,
     "text": "hair",
     "href": "/blogs/news/tagged/hair"
@@ -3122,9 +3143,9 @@
     "inRoot": true,
     "inChrome": false,
     "path": "ul > li > a",
-    "x": 561,
+    "x": 559,
     "y": 2430,
-    "w": 39,
+    "w": 37,
     "h": 30,
     "text": "nails",
     "href": "/blogs/news/tagged/nails"
@@ -3136,9 +3157,9 @@
     "inRoot": true,
     "inChrome": false,
     "path": "ul > li > a",
-    "x": 613,
+    "x": 610,
     "y": 2430,
-    "w": 31,
+    "w": 29,
     "h": 30,
     "text": "skin",
     "href": "/blogs/news/tagged/skin"
@@ -3208,7 +3229,7 @@
     "path": "ul > li > a",
     "x": 939,
     "y": 2430,
-    "w": 32,
+    "w": 30,
     "h": 30,
     "text": "hair",
     "href": "/blogs/news/tagged/hair"
@@ -3220,9 +3241,9 @@
     "inRoot": true,
     "inChrome": false,
     "path": "ul > li > a",
-    "x": 984,
+    "x": 983,
     "y": 2430,
-    "w": 103,
+    "w": 98,
     "h": 30,
     "text": "sleep support",
     "href": "/blogs/news/tagged/sleep-support"
@@ -3234,9 +3255,9 @@
     "inRoot": true,
     "inChrome": false,
     "path": "ul > li > a",
-    "x": 1101,
+    "x": 1094,
     "y": 2430,
-    "w": 120,
+    "w": 114,
     "h": 30,
     "text": "women's health",
     "href": "/blogs/news/tagged/womens-health"
@@ -4357,8 +4378,8 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 59,
-     "cutMax": 134
+     "cutMin": 58,
+     "cutMax": 135
     },
     {
      "kind": "TEXT X-CUT",
@@ -4367,22 +4388,22 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 59,
-     "cutMax": 134
+     "cutMin": 58,
+     "cutMax": 135
     }
    ],
    "findings": [
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 59,
+     "cut": 58,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -59,
+      "l": -58,
       "t": 8,
-      "r": 261,
+      "r": 262,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4399,14 +4420,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 59,
+     "cut": 58,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -59,
+      "l": -58,
       "t": 8,
-      "r": 261,
+      "r": 262,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4424,14 +4445,14 @@
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 134,
+     "cut": 135,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 1240,
+      "l": 1241,
       "t": 8,
-      "r": 1559,
+      "r": 1560,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4448,14 +4469,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 134,
+     "cut": 135,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 1240,
+      "l": 1241,
       "t": 8,
-      "r": 1559,
+      "r": 1560,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4675,25 +4696,25 @@
  "textBoxes": {
   "origin": [
    {
-    "x": -18,
+    "x": 13,
     "y": 6,
     "w": 157,
     "h": 19
    },
    {
-    "x": 339,
+    "x": 370,
     "y": 6,
     "w": 213,
     "h": 19
    },
    {
-    "x": 752,
+    "x": 783,
     "y": 6,
     "w": 314,
     "h": 19
    },
    {
-    "x": 1266,
+    "x": 1297,
     "y": 6,
     "w": 157,
     "h": 19
@@ -5571,25 +5592,25 @@
   ],
   "eds": [
    {
-    "x": -59,
+    "x": -58,
     "y": 8,
     "w": 319,
     "h": 15
    },
    {
-    "x": 461,
+    "x": 462,
     "y": 8,
     "w": 160,
     "h": 15
    },
    {
-    "x": 821,
+    "x": 822,
     "y": 8,
     "w": 219,
     "h": 15
    },
    {
-    "x": 1240,
+    "x": 1241,
     "y": 8,
     "w": 319,
     "h": 15
@@ -5627,7 +5648,7 @@
    {
     "x": 93,
     "y": 763,
-    "w": 722,
+    "w": 694,
     "h": 61
    },
    {
@@ -5639,73 +5660,73 @@
    {
     "x": 93,
     "y": 1014,
-    "w": 819,
+    "w": 741,
     "h": 22
    },
    {
     "x": 93,
     "y": 1044,
-    "w": 752,
+    "w": 819,
     "h": 22
    },
    {
     "x": 93,
     "y": 1074,
-    "w": 150,
+    "w": 186,
     "h": 22
    },
    {
     "x": 93,
     "y": 1122,
-    "w": 94,
+    "w": 98,
     "h": 22
    },
    {
     "x": 125,
     "y": 1170,
-    "w": 133,
+    "w": 135,
     "h": 22
    },
    {
     "x": 125,
     "y": 1200,
-    "w": 89,
+    "w": 91,
     "h": 22
    },
    {
-    "x": 214,
+    "x": 215,
     "y": 1200,
-    "w": 235,
+    "w": 238,
     "h": 22
    },
    {
     "x": 125,
     "y": 1230,
-    "w": 469,
+    "w": 476,
     "h": 22
    },
    {
     "x": 93,
     "y": 1278,
-    "w": 98,
+    "w": 102,
     "h": 22
    },
    {
     "x": 133,
     "y": 1326,
-    "w": 430,
+    "w": 436,
     "h": 22
    },
    {
     "x": 133,
     "y": 1356,
-    "w": 469,
+    "w": 476,
     "h": 22
    },
    {
     "x": 133,
     "y": 1386,
-    "w": 707,
+    "w": 718,
     "h": 22
    },
    {
@@ -5909,29 +5930,29 @@
    {
     "x": 93,
     "y": 2436,
-    "w": 189,
+    "w": 180,
     "h": 17
    },
    {
-    "x": 295,
+    "x": 286,
     "y": 2436,
-    "w": 32,
+    "w": 30,
     "h": 17
    },
    {
-    "x": 340,
+    "x": 329,
     "y": 2436,
-    "w": 39,
+    "w": 37,
     "h": 17
    },
    {
-    "x": 287,
+    "x": 277,
     "y": 2436,
     "w": 3,
     "h": 17
    },
    {
-    "x": 332,
+    "x": 321,
     "y": 2436,
     "w": 3,
     "h": 17
@@ -5939,13 +5960,13 @@
    {
     "x": 93,
     "y": 2480,
-    "w": 339,
+    "w": 334,
     "h": 30
    },
    {
     "x": 93,
     "y": 2518,
-    "w": 348,
+    "w": 343,
     "h": 30
    },
    {
@@ -5969,29 +5990,29 @@
    {
     "x": 516,
     "y": 2436,
-    "w": 32,
+    "w": 30,
     "h": 17
    },
    {
-    "x": 561,
+    "x": 559,
     "y": 2436,
-    "w": 39,
+    "w": 37,
     "h": 17
    },
    {
-    "x": 613,
+    "x": 610,
     "y": 2436,
-    "w": 31,
+    "w": 29,
     "h": 17
    },
    {
-    "x": 553,
+    "x": 551,
     "y": 2436,
     "w": 3,
     "h": 17
    },
    {
-    "x": 605,
+    "x": 601,
     "y": 2436,
     "w": 3,
     "h": 17
@@ -5999,47 +6020,47 @@
    {
     "x": 516,
     "y": 2480,
-    "w": 308,
+    "w": 303,
     "h": 30
    },
    {
     "x": 516,
     "y": 2518,
-    "w": 222,
+    "w": 218,
     "h": 30
    },
    {
     "x": 516,
     "y": 2556,
-    "w": 138,
+    "w": 140,
     "h": 22
    },
    {
     "x": 939,
     "y": 2436,
-    "w": 32,
+    "w": 30,
     "h": 17
    },
    {
-    "x": 984,
+    "x": 983,
     "y": 2436,
-    "w": 103,
+    "w": 98,
     "h": 17
    },
    {
-    "x": 1101,
+    "x": 1094,
     "y": 2436,
-    "w": 120,
+    "w": 114,
     "h": 17
    },
    {
-    "x": 976,
+    "x": 974,
     "y": 2436,
     "w": 3,
     "h": 17
    },
    {
-    "x": 1092,
+    "x": 1085,
     "y": 2436,
     "w": 3,
     "h": 17
@@ -6047,25 +6068,25 @@
    {
     "x": 939,
     "y": 2480,
-    "w": 372,
+    "w": 366,
     "h": 30
    },
    {
     "x": 939,
     "y": 2518,
-    "w": 247,
+    "w": 244,
     "h": 30
    },
    {
     "x": 939,
     "y": 2556,
-    "w": 379,
+    "w": 384,
     "h": 22
    },
    {
     "x": 939,
     "y": 2586,
-    "w": 249,
+    "w": 252,
     "h": 22
    },
    {

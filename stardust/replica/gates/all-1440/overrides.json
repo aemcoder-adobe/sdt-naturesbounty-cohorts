@@ -717,5 +717,48 @@
       "tailDh": 12,
       "at": "2026-11-11T04:14:09.763Z"
     }
+  },
+  "blogs-news-easy-hairstyles": {
+    "verdict": "PASS (documented override)",
+    "reason": "capture-state: the 8 source images on images.vitaminimages.com never load (the host times out from the migration host; the live page shows 8 empty 300x400 boxes) — not deliverable as content, omitted; register residual: page without the 8 blank box(es) 5.24% (Δh -4px)",
+    "evidence": {
+      "pct": 5.24,
+      "cuts": [
+        [
+          1092,
+          1520
+        ],
+        [
+          1644,
+          2082
+        ],
+        [
+          2238,
+          2676
+        ],
+        [
+          2832,
+          3240
+        ],
+        [
+          3396,
+          3834
+        ],
+        [
+          3990,
+          4428
+        ],
+        [
+          4584,
+          5022
+        ],
+        [
+          5178,
+          5618
+        ]
+      ],
+      "dh": -4,
+      "at": "2026-11-11T10:00:31.454Z"
+    }
   }
 }

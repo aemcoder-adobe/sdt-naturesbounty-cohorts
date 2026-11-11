@@ -30,3 +30,17 @@ supplied; the one entry below is a licensing constraint, not a design improvemen
 - **Minimal change:** render the lime pill (the majority style) on every template; no other header change.
 - **Status:** applied
 - **Where:** recipe pages, header only.
+
+## R-02 — Source images that never load (capture state, /blogs/news/easy-hairstyles)
+
+- **Evidence:** the article's 8 body images are served from `images.vitaminimages.com`; from the
+  migration host the requests time out (curl and Chrome alike), and the live capture shows 8 empty
+  300×400 boxes (gate-all 1440 `blogs-news-easy-hairstyles/content.json`, origin image items without
+  a source).
+- **Finding:** the binaries cannot be fetched, so they cannot be uploaded as editorial media; an empty
+  reserved box is not authorable content.
+- **Minimal change:** the images are omitted from the delivered body; the gate row carries a
+  documented override measured on the page without the 8 blank boxes
+  (`stardust/rollout/tools/cut-bands.mjs`, `gates/all-<w>/overrides.json`).
+- **Status:** applied — re-add the images when the owner supplies the files.
+- **Where:** /blogs/news/easy-hairstyles only.

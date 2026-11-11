@@ -1,7 +1,7 @@
 {
  "_provenance": {
   "writtenBy": "unit-geometry.mjs",
-  "at": "2026-11-11T06:38:41.751Z",
+  "at": "2026-11-11T09:24:29.966Z",
   "tol": 4,
   "n": 5,
   "width": 1440,
@@ -14,8 +14,8 @@
  },
  "eds": {
   "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/support-thicker-fuller-hair-with-our-new-supplement-for-hair-growth",
-  "at": "2026-11-11T06:38:41.522Z",
-  "docH": 5512
+  "at": "2026-11-11T09:24:29.808Z",
+  "docH": 5482
  },
  "results": [
   {
@@ -111,16 +111,16 @@
        "eds": {
         "x": 0,
         "y": 265,
-        "w": 189,
+        "w": 180,
         "h": 30,
         "sel": "a",
         "role": "link"
        },
        "dx": 0,
        "dy": 0,
-       "dw": 7,
+       "dw": -2,
        "dh": 0,
-       "off": true,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "14/30/500",
@@ -140,18 +140,18 @@
         "h": 30
        },
        "eds": {
-        "x": 194,
+        "x": 185,
         "y": 265,
         "w": 3,
         "h": 30,
         "sel": "span.related-card-sep",
         "role": "text"
        },
-       "dx": 7,
+       "dx": -2,
        "dy": 0,
        "dw": 0,
        "dh": 0,
-       "off": true,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "14/30/500",
@@ -171,18 +171,18 @@
         "h": 30
        },
        "eds": {
-        "x": 203,
+        "x": 193,
         "y": 265,
-        "w": 32,
+        "w": 30,
         "h": 30,
         "sel": "a",
         "role": "link"
        },
-       "dx": 8,
+       "dx": -2,
        "dy": 0,
-       "dw": 2,
+       "dw": 0,
        "dh": 0,
-       "off": true,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "14/30/500",
@@ -202,18 +202,18 @@
         "h": 30
        },
        "eds": {
-        "x": 248,
+        "x": 237,
         "y": 265,
-        "w": 39,
+        "w": 37,
         "h": 30,
         "sel": "a",
         "role": "link"
        },
-       "dx": 10,
+       "dx": -1,
        "dy": 0,
-       "dw": 3,
+       "dw": 1,
        "dh": 0,
-       "off": true,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "14/30/500",
@@ -323,10 +323,10 @@
        "text": "",
        "boxed": false,
        "x": 0,
-       "y": 228,
+       "y": 0,
        "w": 393,
-       "h": 22,
-       "absY": 3507,
+       "h": 245,
+       "absY": 3249,
        "hidden": false,
        "fs": 18,
        "lh": 30,
@@ -346,19 +346,19 @@
       },
       "eds": {
        "x": 93,
-       "y": 3279,
+       "y": 3249,
        "w": 393,
        "h": 513
       },
       "dx": 0,
-      "dy": -60,
+      "dy": -90,
       "dw": 0,
       "dh": 0
      },
      "summary": {
       "elements": 9,
-      "within": 4,
-      "off": 5,
+      "within": 8,
+      "off": 1,
       "hidden": 0,
       "missing": 0,
       "extra": 1,
@@ -451,14 +451,14 @@
        "eds": {
         "x": 0,
         "y": 265,
-        "w": 32,
+        "w": 30,
         "h": 30,
         "sel": "a",
         "role": "link"
        },
        "dx": 0,
        "dy": 0,
-       "dw": 2,
+       "dw": 0,
        "dh": 0,
        "off": false,
        "hidden": false,
@@ -480,14 +480,14 @@
         "h": 30
        },
        "eds": {
-        "x": 37,
+        "x": 35,
         "y": 265,
         "w": 3,
         "h": 30,
         "sel": "span.related-card-sep",
         "role": "text"
        },
-       "dx": 2,
+       "dx": 0,
        "dy": 0,
        "dw": 0,
        "dh": 0,
@@ -511,16 +511,16 @@
         "h": 30
        },
        "eds": {
-        "x": 45,
+        "x": 43,
         "y": 265,
-        "w": 39,
+        "w": 37,
         "h": 30,
         "sel": "a",
         "role": "link"
        },
-       "dx": 2,
+       "dx": 0,
        "dy": 0,
-       "dw": 3,
+       "dw": 1,
        "dh": 0,
        "off": false,
        "hidden": false,
@@ -542,18 +542,18 @@
         "h": 30
        },
        "eds": {
-        "x": 97,
+        "x": 94,
         "y": 265,
-        "w": 31,
+        "w": 29,
         "h": 30,
         "sel": "a",
         "role": "link"
        },
-       "dx": 5,
+       "dx": 2,
        "dy": 0,
-       "dw": 2,
+       "dw": 0,
        "dh": 0,
-       "off": true,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "14/30/500",
@@ -637,14 +637,14 @@
        "eds": {
         "x": 0,
         "y": 391,
-        "w": 138,
+        "w": 140,
         "h": 22,
         "sel": "p",
         "role": "text"
        },
        "dx": 0,
        "dy": 2,
-       "dw": 2,
+       "dw": 4,
        "dh": -3,
        "off": false,
        "hidden": false,
@@ -663,10 +663,10 @@
        "text": "",
        "boxed": false,
        "x": 0,
-       "y": 228,
+       "y": 0,
        "w": 393,
-       "h": 22,
-       "absY": 3507,
+       "h": 245,
+       "absY": 3249,
        "hidden": false,
        "fs": 18,
        "lh": 30,
@@ -686,19 +686,19 @@
       },
       "eds": {
        "x": 516,
-       "y": 3279,
+       "y": 3249,
        "w": 393,
        "h": 417
       },
       "dx": 0,
-      "dy": -60,
+      "dy": -90,
       "dw": 0,
       "dh": 0
      },
      "summary": {
       "elements": 9,
-      "within": 8,
-      "off": 1,
+      "within": 9,
+      "off": 0,
       "hidden": 0,
       "missing": 0,
       "extra": 1,
@@ -791,14 +791,14 @@
        "eds": {
         "x": 0,
         "y": 265,
-        "w": 32,
+        "w": 30,
         "h": 30,
         "sel": "a",
         "role": "link"
        },
        "dx": 0,
        "dy": 0,
-       "dw": 2,
+       "dw": 0,
        "dh": 0,
        "off": false,
        "hidden": false,
@@ -820,14 +820,14 @@
         "h": 30
        },
        "eds": {
-        "x": 37,
+        "x": 35,
         "y": 265,
         "w": 3,
         "h": 30,
         "sel": "span.related-card-sep",
         "role": "text"
        },
-       "dx": 2,
+       "dx": 0,
        "dy": 0,
        "dw": 0,
        "dh": 0,
@@ -851,16 +851,16 @@
         "h": 30
        },
        "eds": {
-        "x": 45,
+        "x": 43,
         "y": 265,
-        "w": 103,
+        "w": 98,
         "h": 30,
         "sel": "a",
         "role": "link"
        },
-       "dx": 2,
+       "dx": 0,
        "dy": 0,
-       "dw": 2,
+       "dw": -3,
        "dh": 0,
        "off": false,
        "hidden": false,
@@ -882,18 +882,18 @@
         "h": 30
        },
        "eds": {
-        "x": 161,
+        "x": 155,
         "y": 265,
-        "w": 120,
+        "w": 114,
         "h": 30,
         "sel": "a",
         "role": "link"
        },
-       "dx": 4,
+       "dx": -2,
        "dy": 0,
-       "dw": 5,
+       "dw": -1,
        "dh": 0,
-       "off": true,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "14/30/500",
@@ -977,14 +977,14 @@
        "eds": {
         "x": 0,
         "y": 391,
-        "w": 379,
+        "w": 384,
         "h": 52,
         "sel": "p",
         "role": "text"
        },
        "dx": 0,
        "dy": 2,
-       "dw": -4,
+       "dw": 1,
        "dh": -3,
        "off": false,
        "hidden": false,
@@ -1003,10 +1003,10 @@
        "text": "",
        "boxed": false,
        "x": 0,
-       "y": 228,
+       "y": 0,
        "w": 393,
-       "h": 22,
-       "absY": 3507,
+       "h": 245,
+       "absY": 3249,
        "hidden": false,
        "fs": 18,
        "lh": 30,
@@ -1026,19 +1026,19 @@
       },
       "eds": {
        "x": 939,
-       "y": 3279,
+       "y": 3249,
        "w": 393,
        "h": 447
       },
       "dx": 0,
-      "dy": -60,
+      "dy": -90,
       "dw": 0,
       "dh": 0
      },
      "summary": {
       "elements": 9,
-      "within": 8,
-      "off": 1,
+      "within": 9,
+      "off": 0,
       "hidden": 0,
       "missing": 0,
       "extra": 1,
@@ -1116,7 +1116,7 @@
        "y": 0,
        "w": 271,
        "h": 271,
-       "absY": 4202,
+       "absY": 4172,
        "hidden": false,
        "fs": 18,
        "lh": 30,
@@ -1136,12 +1136,12 @@
       },
       "eds": {
        "x": 21,
-       "y": 4202,
+       "y": 4172,
        "w": 271,
        "h": 271
       },
       "dx": 0,
-      "dy": -60,
+      "dy": -90,
       "dw": 0,
       "dh": 0
      },
@@ -1208,7 +1208,7 @@
        "y": 0,
        "w": 271,
        "h": 271,
-       "absY": 4202,
+       "absY": 4172,
        "hidden": false,
        "fs": 18,
        "lh": 30,
@@ -1228,12 +1228,12 @@
       },
       "eds": {
        "x": 299,
-       "y": 4202,
+       "y": 4172,
        "w": 271,
        "h": 271
       },
       "dx": 0,
-      "dy": -60,
+      "dy": -90,
       "dw": 0,
       "dh": 0
      },
@@ -1300,7 +1300,7 @@
        "y": 0,
        "w": 271,
        "h": 271,
-       "absY": 4202,
+       "absY": 4172,
        "hidden": false,
        "fs": 18,
        "lh": 30,
@@ -1320,12 +1320,12 @@
       },
       "eds": {
        "x": 577,
-       "y": 4202,
+       "y": 4172,
        "w": 271,
        "h": 271
       },
       "dx": 0,
-      "dy": -60,
+      "dy": -90,
       "dw": 0,
       "dh": 0
      },
@@ -1392,7 +1392,7 @@
        "y": 0,
        "w": 271,
        "h": 271,
-       "absY": 4202,
+       "absY": 4172,
        "hidden": false,
        "fs": 18,
        "lh": 30,
@@ -1412,12 +1412,12 @@
       },
       "eds": {
        "x": 855,
-       "y": 4202,
+       "y": 4172,
        "w": 271,
        "h": 271
       },
       "dx": 0,
-      "dy": -60,
+      "dy": -90,
       "dw": 0,
       "dh": 0
      },
@@ -1484,7 +1484,7 @@
        "y": 0,
        "w": 271,
        "h": 271,
-       "absY": 4202,
+       "absY": 4172,
        "hidden": false,
        "fs": 18,
        "lh": 30,
@@ -1504,12 +1504,12 @@
       },
       "eds": {
        "x": 1133,
-       "y": 4202,
+       "y": 4172,
        "w": 271,
        "h": 271
       },
       "dx": 0,
-      "dy": -60,
+      "dy": -90,
       "dw": 0,
       "dh": 0
      },
@@ -1528,11 +1528,11 @@
  ],
  "verdict": {
   "units": 8,
-  "within": 25,
-  "off": 7,
+  "within": 31,
+  "off": 1,
   "hidden": 0,
   "missing": 0,
   "errors": 1,
-  "requiredOff": 7
+  "requiredOff": 1
  }
 }

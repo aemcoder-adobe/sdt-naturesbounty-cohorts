@@ -1,0 +1,72 @@
+{
+  "a": "stardust/replica/gates/all-1440/blogs-news-tips-for-healthy-digestion-and-quality-sleep/origin.png",
+  "b": "stardust/replica/gates/all-1440/blogs-news-tips-for-healthy-digestion-and-quality-sleep/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 4686,
+    "mode": "overlap"
+  },
+  "heightDelta": -60,
+  "differingPixels": 1264315,
+  "pct": 18.74,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-1440/blogs-news-tips-for-healthy-digestion-and-quality-sleep/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 17.96,
+  "textBoxes": 153,
+  "textPixels": 1098822,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 1.7
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 3.3
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 6.1
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 6.5
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 10.9
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 37.3
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 50
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 44.8
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 10.2
+    },
+    {
+      "y0": 4500,
+      "y1": 4686,
+      "pct": 12.9
+    }
+  ]
+}

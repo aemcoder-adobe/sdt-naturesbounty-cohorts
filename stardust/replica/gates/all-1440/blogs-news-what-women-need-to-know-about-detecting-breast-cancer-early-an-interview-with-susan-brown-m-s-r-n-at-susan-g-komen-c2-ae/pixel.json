@@ -3,20 +3,20 @@
   "b": "stardust/replica/gates/all-1440/blogs-news-what-women-need-to-know-about-detecting-breast-cancer-early-an-interview-with-susan-brown-m-s-r-n-at-susan-g-komen-c2-ae/eds.png",
   "compared": {
     "width": 1440,
-    "height": 5710,
+    "height": 6046,
     "mode": "overlap"
   },
-  "heightDelta": 390,
-  "differingPixels": 1969872,
-  "pct": 23.96,
+  "heightDelta": 54,
+  "differingPixels": 1068028,
+  "pct": 12.27,
   "threshold": 10,
   "pass": false,
   "diff": "stardust/replica/gates/all-1440/blogs-news-what-women-need-to-know-about-detecting-breast-cancer-early-an-interview-with-susan-brown-m-s-r-n-at-susan-g-komen-c2-ae/diff.png",
   "masks": [],
   "maskedRows": 0,
-  "textPct": 23.38,
-  "textBoxes": 203,
-  "textPixels": 1485642,
+  "textPct": 16.61,
+  "textBoxes": 202,
+  "textPixels": 1596241,
   "bands": [
     {
       "y0": 0,
@@ -26,57 +26,62 @@
     {
       "y0": 500,
       "y1": 1000,
-      "pct": 5.7
+      "pct": 5.1
     },
     {
       "y0": 1000,
       "y1": 1500,
-      "pct": 5.3
+      "pct": 4.4
     },
     {
       "y0": 1500,
       "y1": 2000,
-      "pct": 6.7
+      "pct": 6.2
     },
     {
       "y0": 2000,
       "y1": 2500,
-      "pct": 4.6
+      "pct": 4.1
     },
     {
       "y0": 2500,
       "y1": 3000,
-      "pct": 5.9
+      "pct": 5.2
     },
     {
       "y0": 3000,
       "y1": 3500,
-      "pct": 8.2
+      "pct": 5.1
     },
     {
       "y0": 3500,
       "y1": 4000,
-      "pct": 54.4
+      "pct": 21
     },
     {
       "y0": 4000,
       "y1": 4500,
-      "pct": 72
+      "pct": 24.4
     },
     {
       "y0": 4500,
       "y1": 5000,
-      "pct": 78.7
+      "pct": 40.9
     },
     {
       "y0": 5000,
       "y1": 5500,
-      "pct": 27.6
+      "pct": 23.8
     },
     {
       "y0": 5500,
-      "y1": 5710,
-      "pct": 5.4
+      "y1": 6000,
+      "pct": 5.9
+    },
+    {
+      "y0": 6000,
+      "y1": 6046,
+      "pct": 1
     }
   ]
 }

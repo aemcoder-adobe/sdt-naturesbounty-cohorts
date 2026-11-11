@@ -1,14 +1,14 @@
 {
  "_provenance": {
   "writtenBy": "content-presence.mjs",
-  "at": "2026-11-11T05:56:52.785Z",
+  "at": "2026-11-11T09:08:48.930Z",
   "width": 1440,
   "variable": [],
   "tier": "chrome"
  },
  "origin": {
   "url": "https://naturesbounty.com/blogs/news/smarter-better-health-every-day",
-  "at": "2026-11-11T05:56:32.153Z",
+  "at": "2026-11-11T09:08:28.463Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 4730,
@@ -21,7 +21,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 14,
+    "x": -65,
     "y": 6,
     "w": 157,
     "h": 20,
@@ -35,7 +35,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 372,
+    "x": 292,
     "y": 6,
     "w": 213,
     "h": 20,
@@ -49,7 +49,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 785,
+    "x": 705,
     "y": 6,
     "w": 314,
     "h": 20,
@@ -63,7 +63,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 1299,
+    "x": 1219,
     "y": 6,
     "w": 157,
     "h": 20,
@@ -2105,42 +2105,21 @@
     "clamped": 0,
     "collapsed": 0,
     "scrollHidden": 0,
-    "horizontal": 2,
+    "horizontal": 0,
     "offPage": 8,
     "textNodes": 140,
     "controls": 108,
     "total": 0
    },
-   "groups": [
-    {
-     "kind": "CONTROL X-CUT",
-     "advisory": true,
-     "n": 1,
-     "clipper": "div.slick-list.draggable",
-     "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
-     "text": "shop our favorite products",
-     "cutMin": 14,
-     "cutMax": 14
-    },
-    {
-     "kind": "TEXT X-CUT",
-     "advisory": true,
-     "n": 1,
-     "clipper": "div.slick-list.draggable",
-     "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
-     "text": "shop our favorite products",
-     "cutMin": 14,
-     "cutMax": 14
-    }
-   ]
+   "groups": []
   }
  },
  "eds": {
   "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/smarter-better-health-every-day",
-  "at": "2026-11-11T05:56:52.594Z",
+  "at": "2026-11-11T09:08:48.808Z",
   "status": 200,
   "settlePasses": 2,
-  "docH": 4512,
+  "docH": 4709,
   "root": "main",
   "items": [
    {
@@ -2150,7 +2129,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": -72,
+    "x": -70,
     "y": 8,
     "w": 319,
     "h": 15,
@@ -2164,7 +2143,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 447,
+    "x": 449,
     "y": 8,
     "w": 160,
     "h": 15,
@@ -2178,7 +2157,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 808,
+    "x": 810,
     "y": 8,
     "w": 219,
     "h": 15,
@@ -2192,7 +2171,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 1226,
+    "x": 1228,
     "y": 8,
     "w": 319,
     "h": 15,
@@ -2413,10 +2392,10 @@
     "inRoot": true,
     "inChrome": false,
     "path": "div.article-text > ul > li",
-    "x": 125,
+    "x": 157,
     "y": 1199,
-    "w": 788,
-    "h": 150,
+    "w": 756,
+    "h": 151,
     "text": "If you have concerns about digestive health and you’re looking for a digestive a"
    },
    {
@@ -2426,10 +2405,10 @@
     "inRoot": true,
     "inChrome": false,
     "path": "li > strong > a",
-    "x": 125,
-    "y": 1203,
-    "w": 133,
-    "h": 22,
+    "x": 157,
+    "y": 1200,
+    "w": 166,
+    "h": 27,
     "text": "digestive health",
     "href": "/collections/digestive-health"
    },
@@ -2440,9 +2419,9 @@
     "inRoot": true,
     "inChrome": false,
     "path": "li > strong > a",
-    "x": 579,
-    "y": 1293,
-    "w": 73,
+    "x": 618,
+    "y": 1294,
+    "w": 74,
     "h": 22,
     "text": "probiotic",
     "href": "/collections/probiotics"
@@ -2454,10 +2433,10 @@
     "inRoot": true,
     "inChrome": false,
     "path": "div.article-text > ul > li",
-    "x": 125,
-    "y": 1367,
-    "w": 788,
-    "h": 150,
+    "x": 157,
+    "y": 1416,
+    "w": 756,
+    "h": 151,
     "text": "Sleep is a crucial component of your overall wellness routine. Making sure you a"
    },
    {
@@ -2467,10 +2446,10 @@
     "inRoot": true,
     "inChrome": false,
     "path": "li > strong > a",
-    "x": 125,
-    "y": 1371,
-    "w": 119,
-    "h": 22,
+    "x": 157,
+    "y": 1417,
+    "w": 148,
+    "h": 27,
     "text": "sleep support:",
     "href": "/collections/sleep-support"
    },
@@ -2481,9 +2460,9 @@
     "inRoot": true,
     "inChrome": false,
     "path": "li > strong > a",
-    "x": 592,
-    "y": 1431,
-    "w": 80,
+    "x": 674,
+    "y": 1481,
+    "w": 81,
     "h": 22,
     "text": "melatonin",
     "href": "/collections/sleep-support"
@@ -2495,10 +2474,10 @@
     "inRoot": true,
     "inChrome": false,
     "path": "div.article-text > ul > li",
-    "x": 125,
-    "y": 1535,
-    "w": 788,
-    "h": 120,
+    "x": 157,
+    "y": 1633,
+    "w": 756,
+    "h": 121,
     "text": "Assist your body with support for energy metabolism and help maintain cellular e"
    },
    {
@@ -2508,10 +2487,10 @@
     "inRoot": true,
     "inChrome": false,
     "path": "li > strong > a",
-    "x": 125,
-    "y": 1539,
-    "w": 62,
-    "h": 22,
+    "x": 157,
+    "y": 1634,
+    "w": 77,
+    "h": 27,
     "text": "energy:",
     "href": "/collections/energy-support"
    },
@@ -2522,9 +2501,9 @@
     "inRoot": true,
     "inChrome": false,
     "path": "li > strong > a",
-    "x": 155,
-    "y": 1599,
-    "w": 28,
+    "x": 226,
+    "y": 1698,
+    "w": 29,
     "h": 22,
     "text": "b12",
     "href": "/search"
@@ -2536,10 +2515,10 @@
     "inRoot": true,
     "inChrome": false,
     "path": "div.article-text > ul > li",
-    "x": 125,
-    "y": 1673,
-    "w": 788,
-    "h": 120,
+    "x": 157,
+    "y": 1820,
+    "w": 756,
+    "h": 121,
     "text": "Your beauty routine is just as important as anything else when it comes to welln"
    },
    {
@@ -2549,10 +2528,10 @@
     "inRoot": true,
     "inChrome": false,
     "path": "li > strong > a",
-    "x": 125,
-    "y": 1677,
-    "w": 62,
-    "h": 22,
+    "x": 157,
+    "y": 1821,
+    "w": 77,
+    "h": 27,
     "text": "beauty:",
     "href": "/collections/womens-health"
    },
@@ -2563,9 +2542,9 @@
     "inRoot": true,
     "inChrome": false,
     "path": "li > strong > a",
-    "x": 649,
-    "y": 1707,
-    "w": 136,
+    "x": 740,
+    "y": 1855,
+    "w": 138,
     "h": 22,
     "text": "hair, skin & nails",
     "href": "/collections/hair-skin-and-nails"
@@ -2577,10 +2556,10 @@
     "inRoot": true,
     "inChrome": false,
     "path": "div.article-text > ul > li",
-    "x": 125,
-    "y": 1811,
-    "w": 788,
-    "h": 150,
+    "x": 157,
+    "y": 2007,
+    "w": 756,
+    "h": 151,
     "text": "Taking care of the muscle at the center of all your body’s functions is one of t"
    },
    {
@@ -2590,10 +2569,10 @@
     "inRoot": true,
     "inChrome": false,
     "path": "li > strong > a",
-    "x": 125,
-    "y": 1815,
-    "w": 108,
-    "h": 22,
+    "x": 157,
+    "y": 2008,
+    "w": 135,
+    "h": 27,
     "text": "heart health:",
     "href": "/collections/heart-health"
    },
@@ -2604,9 +2583,9 @@
     "inRoot": true,
     "inChrome": false,
     "path": "li > strong > a",
-    "x": 565,
-    "y": 1905,
-    "w": 59,
+    "x": 780,
+    "y": 2102,
+    "w": 60,
     "h": 22,
     "text": "fish oil",
     "href": "/collections/fish-oil-and-omegas"
@@ -2619,7 +2598,7 @@
     "inChrome": false,
     "path": "div.share-copy > div.share-lead > p",
     "x": 93,
-    "y": 1991,
+    "y": 2188,
     "w": 820,
     "h": 30,
     "text": "Don't keep all the good info to yourself."
@@ -2632,7 +2611,7 @@
     "inChrome": false,
     "path": "div.share-copy > div.share-sub > p",
     "x": 93,
-    "y": 2021,
+    "y": 2218,
     "w": 820,
     "h": 30,
     "text": "Share this with friends!"
@@ -2645,7 +2624,7 @@
     "inChrome": false,
     "path": "ul > li > a",
     "x": 93,
-    "y": 2067,
+    "y": 2264,
     "w": 96,
     "h": 30,
     "text": "share",
@@ -2659,7 +2638,7 @@
     "inChrome": false,
     "path": "ul > li > a",
     "x": 199,
-    "y": 2067,
+    "y": 2264,
     "w": 100,
     "h": 30,
     "text": "tweet",
@@ -2673,7 +2652,7 @@
     "inChrome": false,
     "path": "ul > li > a",
     "x": 309,
-    "y": 2067,
+    "y": 2264,
     "w": 90,
     "h": 30,
     "text": "pin it",
@@ -2687,7 +2666,7 @@
     "inChrome": false,
     "path": "ul > li > a",
     "x": 409,
-    "y": 2067,
+    "y": 2264,
     "w": 96,
     "h": 30,
     "text": "share",
@@ -2701,7 +2680,7 @@
     "inChrome": false,
     "path": "ul > li > a",
     "x": 516,
-    "y": 2067,
+    "y": 2264,
     "w": 94,
     "h": 30,
     "text": "email",
@@ -3022,7 +3001,7 @@
     "inChrome": false,
     "path": "div.section.related-container > div.default-content-wrapper > h2#more-to-explore-from-digestive-health",
     "x": 93,
-    "y": 2207,
+    "y": 2404,
     "w": 1240,
     "h": 50,
     "level": 2,
@@ -3036,7 +3015,7 @@
     "inChrome": false,
     "path": "div.related-card > div.related-card-media > a",
     "x": 93,
-    "y": 2535,
+    "y": 2732,
     "w": 393,
     "h": 22,
     "text": "your gut may play a powerful role in your well-being, our survey finds",
@@ -3050,7 +3029,7 @@
     "inChrome": false,
     "path": "a > picture > img",
     "x": 93,
-    "y": 2307,
+    "y": 2504,
     "w": 393,
     "h": 245,
     "text": "your gut may play a powerful role in your well-being, our su",
@@ -3064,8 +3043,8 @@
     "inChrome": false,
     "path": "ul > li > a",
     "x": 93,
-    "y": 2572,
-    "w": 123,
+    "y": 2769,
+    "w": 116,
     "h": 30,
     "text": "digestive health",
     "href": "/blogs/news/tagged/digestive-health"
@@ -3078,7 +3057,7 @@
     "inChrome": false,
     "path": "div.related-grid > div.related-card > a.related-card-link",
     "x": 93,
-    "y": 2602,
+    "y": 2799,
     "w": 393,
     "h": 190,
     "text": "your gut may play a powerful role in your well-being, our survey finds learn mor",
@@ -3092,7 +3071,7 @@
     "inChrome": false,
     "path": "a.related-card-link > div.related-card-title > h3#your-gut-may-play-a-powerful-role-in-your-well-being-our-survey-finds",
     "x": 93,
-    "y": 2618,
+    "y": 2815,
     "w": 393,
     "h": 114,
     "level": 3,
@@ -3106,7 +3085,7 @@
     "inChrome": false,
     "path": "div.related-card > div.related-card-media > a",
     "x": 516,
-    "y": 2535,
+    "y": 2732,
     "w": 393,
     "h": 22,
     "text": "enhance your digestive wellness with these 4 probiotic supplements",
@@ -3120,7 +3099,7 @@
     "inChrome": false,
     "path": "a > picture > img",
     "x": 516,
-    "y": 2307,
+    "y": 2504,
     "w": 393,
     "h": 245,
     "text": "enhance your digestive wellness with these 4 probiotic suppl",
@@ -3134,8 +3113,8 @@
     "inChrome": false,
     "path": "ul > li > a",
     "x": 516,
-    "y": 2572,
-    "w": 123,
+    "y": 2769,
+    "w": 116,
     "h": 30,
     "text": "digestive health",
     "href": "/blogs/news/tagged/digestive-health"
@@ -3148,7 +3127,7 @@
     "inChrome": false,
     "path": "div.related-grid > div.related-card > a.related-card-link",
     "x": 516,
-    "y": 2602,
+    "y": 2799,
     "w": 393,
     "h": 190,
     "text": "enhance your digestive wellness with these 4 probiotic supplements explore a ran",
@@ -3162,7 +3141,7 @@
     "inChrome": false,
     "path": "a.related-card-link > div.related-card-title > h3#enhance-your-digestive-wellness-with-these-4-probiotic-supplements",
     "x": 516,
-    "y": 2618,
+    "y": 2815,
     "w": 393,
     "h": 114,
     "level": 3,
@@ -3176,7 +3155,7 @@
     "inChrome": false,
     "path": "div.related-card > div.related-card-media > a",
     "x": 939,
-    "y": 2535,
+    "y": 2732,
     "w": 393,
     "h": 22,
     "text": "digestive probiotic 10",
@@ -3190,7 +3169,7 @@
     "inChrome": false,
     "path": "a > picture > img",
     "x": 939,
-    "y": 2307,
+    "y": 2504,
     "w": 393,
     "h": 245,
     "text": "digestive probiotic 10",
@@ -3204,8 +3183,8 @@
     "inChrome": false,
     "path": "ul > li > a",
     "x": 939,
-    "y": 2572,
-    "w": 123,
+    "y": 2769,
+    "w": 116,
     "h": 30,
     "text": "digestive health",
     "href": "/blogs/news/tagged/digestive-health"
@@ -3218,7 +3197,7 @@
     "inChrome": false,
     "path": "div.related-grid > div.related-card > a.related-card-link",
     "x": 939,
-    "y": 2602,
+    "y": 2799,
     "w": 393,
     "h": 84,
     "text": "digestive probiotic 10 by natalie meriwether, bsn",
@@ -3232,7 +3211,7 @@
     "inChrome": false,
     "path": "a.related-card-link > div.related-card-title > h3#digestive-probiotic-10",
     "x": 939,
-    "y": 2618,
+    "y": 2815,
     "w": 393,
     "h": 38,
     "level": 3,
@@ -3246,7 +3225,7 @@
     "inChrome": false,
     "path": "div.trusted-band-img > picture > img",
     "x": 363,
-    "y": 2916,
+    "y": 3113,
     "w": 700,
     "h": 86,
     "text": "",
@@ -3260,7 +3239,7 @@
     "inChrome": false,
     "path": "div.trusted-band-inner.container > div.trusted-band-text > p",
     "x": 93,
-    "y": 3033,
+    "y": 3230,
     "w": 1240,
     "h": 30,
     "text": "We offer trusted products, backed by science and made with great ingredients."
@@ -3273,7 +3252,7 @@
     "inChrome": false,
     "path": "div.section.social-strip-container > div.default-content-wrapper > h2#follow-naturesbounty-on-social-for-new-product-releases-healthy-tips-and-more",
     "x": 10,
-    "y": 3144,
+    "y": 3341,
     "w": 1405,
     "h": 30,
     "level": 2,
@@ -3287,7 +3266,7 @@
     "inChrome": false,
     "path": "div.social-strip.block > div.social-strip-grid > a.social-tile",
     "x": 21,
-    "y": 3202,
+    "y": 3399,
     "w": 271,
     "h": 271,
     "text": "advanced magnesium glycinate",
@@ -3301,7 +3280,7 @@
     "inChrome": false,
     "path": "a.social-tile > picture > img",
     "x": 21,
-    "y": 3202,
+    "y": 3399,
     "w": 271,
     "h": 271,
     "text": "advanced magnesium glycinate",
@@ -3315,7 +3294,7 @@
     "inChrome": false,
     "path": "div.social-strip.block > div.social-strip-grid > a.social-tile",
     "x": 299,
-    "y": 3202,
+    "y": 3399,
     "w": 271,
     "h": 271,
     "text": "hair growth capsules",
@@ -3329,7 +3308,7 @@
     "inChrome": false,
     "path": "a.social-tile > picture > img",
     "x": 299,
-    "y": 3202,
+    "y": 3399,
     "w": 271,
     "h": 271,
     "text": "hair growth capsules",
@@ -3343,7 +3322,7 @@
     "inChrome": false,
     "path": "div.social-strip.block > div.social-strip-grid > a.social-tile",
     "x": 577,
-    "y": 3202,
+    "y": 3399,
     "w": 271,
     "h": 271,
     "text": "super b-complex",
@@ -3357,7 +3336,7 @@
     "inChrome": false,
     "path": "a.social-tile > picture > img",
     "x": 577,
-    "y": 3202,
+    "y": 3399,
     "w": 271,
     "h": 271,
     "text": "super b-complex",
@@ -3371,7 +3350,7 @@
     "inChrome": false,
     "path": "div.social-strip.block > div.social-strip-grid > a.social-tile",
     "x": 855,
-    "y": 3202,
+    "y": 3399,
     "w": 271,
     "h": 271,
     "text": "vitamin c",
@@ -3385,7 +3364,7 @@
     "inChrome": false,
     "path": "a.social-tile > picture > img",
     "x": 855,
-    "y": 3202,
+    "y": 3399,
     "w": 271,
     "h": 271,
     "text": "vitamin c",
@@ -3399,7 +3378,7 @@
     "inChrome": false,
     "path": "div.social-strip.block > div.social-strip-grid > a.social-tile",
     "x": 1133,
-    "y": 3202,
+    "y": 3399,
     "w": 271,
     "h": 271,
     "text": "advanced hair, skin + nails pectin gummy",
@@ -3413,7 +3392,7 @@
     "inChrome": false,
     "path": "a.social-tile > picture > img",
     "x": 1133,
-    "y": 3202,
+    "y": 3399,
     "w": 271,
     "h": 271,
     "text": "advanced hair, skin + nails pectin gummy",
@@ -3427,7 +3406,7 @@
     "inChrome": true,
     "path": "div.site-footer-logo > p > a",
     "x": 538,
-    "y": 3600,
+    "y": 3797,
     "w": 350,
     "h": 55,
     "text": "nature's bounty",
@@ -3441,7 +3420,7 @@
     "inChrome": true,
     "path": "a > picture > img",
     "x": 538,
-    "y": 3600,
+    "y": 3797,
     "w": 350,
     "h": 55,
     "text": "nature's bounty",
@@ -3455,7 +3434,7 @@
     "inChrome": true,
     "path": "div.site-footer-nl-title > p > strong",
     "x": 993,
-    "y": 3731,
+    "y": 3928,
     "w": 340,
     "h": 30,
     "text": "Join Our Newsletter"
@@ -3468,7 +3447,7 @@
     "inChrome": true,
     "path": "div.site-footer-newsletter > div.site-footer-nl-sub > p",
     "x": 993,
-    "y": 3777,
+    "y": 3974,
     "w": 340,
     "h": 60,
     "text": "Receive the latest news, special offers and new product launches!"
@@ -3481,7 +3460,7 @@
     "inChrome": true,
     "path": "form.site-footer-form > div.site-footer-field > button.site-footer-submit",
     "x": 1222,
-    "y": 3857,
+    "y": 4054,
     "w": 111,
     "h": 65,
     "text": "sign up"
@@ -3494,7 +3473,7 @@
     "inChrome": true,
     "path": "div.site-footer-social.site-footer-social-desktop > div.site-footer-social-title > p",
     "x": 993,
-    "y": 3972,
+    "y": 4169,
     "w": 77,
     "h": 30,
     "text": "Follow Us"
@@ -3507,7 +3486,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 1095,
-    "y": 3979,
+    "y": 4176,
     "w": 20,
     "h": 17,
     "text": "share on twitter",
@@ -3521,7 +3500,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 1130,
-    "y": 3977,
+    "y": 4174,
     "w": 20,
     "h": 20,
     "text": "share on facebook",
@@ -3535,7 +3514,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 1165,
-    "y": 3977,
+    "y": 4174,
     "w": 20,
     "h": 21,
     "text": "pin on pinterest",
@@ -3549,7 +3528,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 1200,
-    "y": 3977,
+    "y": 4174,
     "w": 20,
     "h": 20,
     "text": "share on instagram",
@@ -3563,7 +3542,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 1235,
-    "y": 3980,
+    "y": 4177,
     "w": 20,
     "h": 14,
     "text": "share on youtube",
@@ -3577,7 +3556,7 @@
     "inChrome": true,
     "path": "div.site-footer-links > div.site-footer-col > div.site-footer-col-head",
     "x": 93,
-    "y": 3731,
+    "y": 3928,
     "w": 126,
     "h": 31,
     "text": "products"
@@ -3590,7 +3569,7 @@
     "inChrome": true,
     "path": "div.site-footer-links > div.site-footer-col > div.site-footer-col-head",
     "x": 93,
-    "y": 3731,
+    "y": 3928,
     "w": 126,
     "h": 31,
     "label": "trigger",
@@ -3605,7 +3584,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 93,
-    "y": 3772,
+    "y": 3969,
     "w": 96,
     "h": 24,
     "text": "adult vitamins",
@@ -3619,7 +3598,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 93,
-    "y": 3799,
+    "y": 3996,
     "w": 86,
     "h": 24,
     "text": "supplements",
@@ -3633,7 +3612,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 93,
-    "y": 3825,
+    "y": 4022,
     "w": 54,
     "h": 24,
     "text": "minerals",
@@ -3647,7 +3626,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 93,
-    "y": 3852,
+    "y": 4049,
     "w": 39,
     "h": 24,
     "text": "herbs",
@@ -3661,7 +3640,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 93,
-    "y": 3878,
+    "y": 4075,
     "w": 118,
     "h": 24,
     "text": "fish oil & omegas",
@@ -3675,7 +3654,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 93,
-    "y": 3905,
+    "y": 4102,
     "w": 61,
     "h": 24,
     "text": "specialty",
@@ -3689,7 +3668,7 @@
     "inChrome": true,
     "path": "div.site-footer-links > div.site-footer-col.site-footer-col-wide > div.site-footer-col-head",
     "x": 258,
-    "y": 3731,
+    "y": 3928,
     "w": 353,
     "h": 31,
     "text": "health needs"
@@ -3702,7 +3681,7 @@
     "inChrome": true,
     "path": "div.site-footer-links > div.site-footer-col.site-footer-col-wide > div.site-footer-col-head",
     "x": 258,
-    "y": 3731,
+    "y": 3928,
     "w": 353,
     "h": 31,
     "label": "trigger",
@@ -3717,7 +3696,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 258,
-    "y": 3772,
+    "y": 3969,
     "w": 120,
     "h": 24,
     "text": "women’s wellness",
@@ -3731,7 +3710,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 410,
-    "y": 3772,
+    "y": 3969,
     "w": 83,
     "h": 24,
     "text": "men’s health",
@@ -3745,7 +3724,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 258,
-    "y": 3799,
+    "y": 3996,
     "w": 79,
     "h": 24,
     "text": "brain health",
@@ -3759,7 +3738,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 410,
-    "y": 3799,
+    "y": 3996,
     "w": 129,
     "h": 24,
     "text": "bone & joint health",
@@ -3773,7 +3752,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 258,
-    "y": 3825,
+    "y": 4022,
     "w": 71,
     "h": 24,
     "text": "eye health",
@@ -3787,7 +3766,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 410,
-    "y": 3825,
+    "y": 4022,
     "w": 93,
     "h": 24,
     "text": "healthy aging",
@@ -3801,7 +3780,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 258,
-    "y": 3852,
+    "y": 4049,
     "w": 43,
     "h": 24,
     "text": "herbal",
@@ -3815,7 +3794,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 410,
-    "y": 3852,
+    "y": 4049,
     "w": 130,
     "h": 24,
     "text": "urinary tract health",
@@ -3829,7 +3808,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 258,
-    "y": 3878,
+    "y": 4075,
     "w": 108,
     "h": 24,
     "text": "digestive health",
@@ -3843,7 +3822,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 410,
-    "y": 3878,
+    "y": 4075,
     "w": 103,
     "h": 24,
     "text": "energy support",
@@ -3857,7 +3836,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 258,
-    "y": 3905,
+    "y": 4102,
     "w": 83,
     "h": 24,
     "text": "heart health",
@@ -3871,7 +3850,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 410,
-    "y": 3905,
+    "y": 4102,
     "w": 201,
     "h": 24,
     "text": "immune & antioxidant support",
@@ -3885,7 +3864,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 258,
-    "y": 3931,
+    "y": 4128,
     "w": 95,
     "h": 24,
     "text": "stress & mood",
@@ -3899,7 +3878,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 410,
-    "y": 3931,
+    "y": 4128,
     "w": 93,
     "h": 24,
     "text": "sleep support",
@@ -3913,7 +3892,7 @@
     "inChrome": true,
     "path": "div.site-footer-links > div.site-footer-col > div.site-footer-col-head",
     "x": 651,
-    "y": 3731,
+    "y": 3928,
     "w": 126,
     "h": 61,
     "text": "resource center"
@@ -3926,7 +3905,7 @@
     "inChrome": true,
     "path": "div.site-footer-links > div.site-footer-col > div.site-footer-col-head",
     "x": 651,
-    "y": 3731,
+    "y": 3928,
     "w": 126,
     "h": 61,
     "label": "trigger",
@@ -3941,7 +3920,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 651,
-    "y": 3802,
+    "y": 3999,
     "w": 72,
     "h": 24,
     "text": "diy beauty",
@@ -3955,7 +3934,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 651,
-    "y": 3829,
+    "y": 4026,
     "w": 93,
     "h": 24,
     "text": "healthy living",
@@ -3969,7 +3948,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 651,
-    "y": 3855,
+    "y": 4052,
     "w": 80,
     "h": 24,
     "text": "food health",
@@ -3983,7 +3962,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 651,
-    "y": 3882,
+    "y": 4079,
     "w": 109,
     "h": 24,
     "text": "hair, skin & nails",
@@ -3997,7 +3976,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 651,
-    "y": 3908,
+    "y": 4105,
     "w": 52,
     "h": 24,
     "text": "recipes",
@@ -4011,7 +3990,7 @@
     "inChrome": true,
     "path": "div.site-footer-links > div.site-footer-col > div.site-footer-col-head",
     "x": 817,
-    "y": 3731,
+    "y": 3928,
     "w": 126,
     "h": 61,
     "text": "nature’s bounty"
@@ -4024,7 +4003,7 @@
     "inChrome": true,
     "path": "div.site-footer-links > div.site-footer-col > div.site-footer-col-head",
     "x": 817,
-    "y": 3731,
+    "y": 3928,
     "w": 126,
     "h": 61,
     "label": "trigger",
@@ -4039,7 +4018,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 817,
-    "y": 3802,
+    "y": 3999,
     "w": 61,
     "h": 24,
     "text": "about us",
@@ -4053,7 +4032,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 817,
-    "y": 3829,
+    "y": 4026,
     "w": 89,
     "h": 24,
     "text": "where to buy",
@@ -4067,7 +4046,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 817,
-    "y": 3855,
+    "y": 4052,
     "w": 74,
     "h": 24,
     "text": "contact us",
@@ -4081,7 +4060,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 817,
-    "y": 3882,
+    "y": 4079,
     "w": 51,
     "h": 24,
     "text": "careers",
@@ -4095,7 +4074,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 95,
-    "y": 4054,
+    "y": 4251,
     "w": 109,
     "h": 30,
     "text": "terms of use |",
@@ -4109,7 +4088,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 224,
-    "y": 4054,
+    "y": 4251,
     "w": 114,
     "h": 30,
     "text": "privacy policy |",
@@ -4123,7 +4102,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 358,
-    "y": 4054,
+    "y": 4251,
     "w": 179,
     "h": 30,
     "text": "accessibility statement |",
@@ -4137,7 +4116,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 557,
-    "y": 4054,
+    "y": 4251,
     "w": 149,
     "h": 30,
     "text": "health data notice |",
@@ -4151,7 +4130,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 726,
-    "y": 4054,
+    "y": 4251,
     "w": 174,
     "h": 30,
     "text": "satisfaction guarantee |",
@@ -4165,7 +4144,7 @@
     "inChrome": true,
     "path": "ul > li > a",
     "x": 921,
-    "y": 4054,
+    "y": 4251,
     "w": 162,
     "h": 30,
     "text": "international distributors",
@@ -4179,7 +4158,7 @@
     "inChrome": true,
     "path": "ul > li > a.site-footer-privacy",
     "x": 1147,
-    "y": 4058,
+    "y": 4255,
     "w": 183,
     "h": 24,
     "text": "your privacy choices"
@@ -4192,7 +4171,7 @@
     "inChrome": true,
     "path": "li > a.site-footer-privacy > span.site-footer-privacy-label",
     "x": 1194,
-    "y": 4058,
+    "y": 4255,
     "w": 136,
     "h": 24,
     "text": "Your Privacy Choices"
@@ -4205,7 +4184,7 @@
     "inChrome": true,
     "path": "div.site-footer-fda > p > strong",
     "x": 248,
-    "y": 4197,
+    "y": 4394,
     "w": 928,
     "h": 15,
     "text": "*These statements have not been evaluated by the Food and Drug Administration. T"
@@ -4218,7 +4197,7 @@
     "inChrome": true,
     "path": "div.container > div.site-footer-disclaimer > p",
     "x": 240,
-    "y": 4271,
+    "y": 4468,
     "w": 946,
     "h": 20,
     "text": "Nature’s Bounty may make changes to products from time to time. Please consult t"
@@ -4231,7 +4210,7 @@
     "inChrome": true,
     "path": "div.container > div.site-footer-disclaimer > p",
     "x": 337,
-    "y": 4300,
+    "y": 4497,
     "w": 751,
     "h": 20,
     "text": "◊Source: Circana™ OmniMarket – Total MULO+ 52 wks ending 7/26/26 based custom- d"
@@ -4244,7 +4223,7 @@
     "inChrome": true,
     "path": "div.container > div.site-footer-disclaimer > p",
     "x": 490,
-    "y": 4330,
+    "y": 4527,
     "w": 445,
     "h": 20,
     "text": "†Compared to Nature's Bounty® Optimal Solutions® Hair, Skin & Nails gummies"
@@ -4257,7 +4236,7 @@
     "inChrome": true,
     "path": "div.container > div.site-footer-disclaimer > p",
     "x": 113,
-    "y": 4359,
+    "y": 4556,
     "w": 1200,
     "h": 39,
     "text": "†Traditional use claims are based on historical or traditional practices. Echina"
@@ -4270,7 +4249,7 @@
     "inChrome": true,
     "path": "div.container > div.site-footer-disclaimer > p",
     "x": 136,
-    "y": 4408,
+    "y": 4605,
     "w": 1152,
     "h": 20,
     "text": "Nature’s Bounty is a Nestlé Health Science brand. Nestlé Health Science is a lea"
@@ -4283,7 +4262,7 @@
     "inChrome": true,
     "path": "div.site-footer-disclaimer > p > a",
     "x": 1124,
-    "y": 4410,
+    "y": 4607,
     "w": 165,
     "h": 15,
     "text": "www.nestlehealthscience.us",
@@ -4297,7 +4276,7 @@
     "inChrome": true,
     "path": "div.container > div.site-footer-disclaimer > p",
     "x": 595,
-    "y": 4438,
+    "y": 4635,
     "w": 235,
     "h": 20,
     "text": "Nature's Bounty is a registered trademark."
@@ -4326,8 +4305,8 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 74,
-     "cutMax": 119
+     "cutMin": 72,
+     "cutMax": 121
     },
     {
      "kind": "TEXT X-CUT",
@@ -4336,22 +4315,22 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 74,
-     "cutMax": 119
+     "cutMin": 72,
+     "cutMax": 121
     }
    ],
    "findings": [
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 74,
+     "cut": 72,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -74,
+      "l": -72,
       "t": 8,
-      "r": 246,
+      "r": 247,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4368,14 +4347,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 74,
+     "cut": 72,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -74,
+      "l": -72,
       "t": 8,
-      "r": 246,
+      "r": 247,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4393,14 +4372,14 @@
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 119,
+     "cut": 121,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 1224,
+      "l": 1226,
       "t": 8,
-      "r": 1544,
+      "r": 1546,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4417,14 +4396,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 119,
+     "cut": 121,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 1224,
+      "l": 1226,
       "t": 8,
-      "r": 1544,
+      "r": 1546,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4565,13 +4544,13 @@
   {
    "sev": "🟡",
    "kind": "EXTRA HEADING",
-   "msg": "served h2 \"more to explore from digestive health\" (y 2207) has no origin heading",
+   "msg": "served h2 \"more to explore from digestive health\" (y 2404) has no origin heading",
    "text": "more to explore from digestive health"
   },
   {
    "sev": "🟡",
    "kind": "EXTRA HEADING",
-   "msg": "served h2 \"follow @naturesbounty on social for new product releases, healthy tips, and more.\" (y 3144) has no origin heading",
+   "msg": "served h2 \"follow @naturesbounty on social for new product releases, healthy tips, and more.\" (y 3341) has no origin heading",
    "text": "follow @naturesbounty on social for new product releases, healthy tips, and more."
   },
   {
@@ -4644,25 +4623,25 @@
  "textBoxes": {
   "origin": [
    {
-    "x": 13,
+    "x": -67,
     "y": 6,
     "w": 157,
     "h": 19
    },
    {
-    "x": 370,
+    "x": 290,
     "y": 6,
     "w": 213,
     "h": 19
    },
    {
-    "x": 783,
+    "x": 703,
     "y": 6,
     "w": 314,
     "h": 19
    },
    {
-    "x": 1297,
+    "x": 1217,
     "y": 6,
     "w": 157,
     "h": 19
@@ -5642,25 +5621,25 @@
   ],
   "eds": [
    {
-    "x": -74,
+    "x": -72,
     "y": 8,
     "w": 319,
     "h": 15
    },
    {
-    "x": 446,
+    "x": 447,
     "y": 8,
     "w": 160,
     "h": 15
    },
    {
-    "x": 806,
+    "x": 808,
     "y": 8,
     "w": 219,
     "h": 15
    },
    {
-    "x": 1224,
+    "x": 1226,
     "y": 8,
     "w": 319,
     "h": 15
@@ -5698,7 +5677,7 @@
    {
     "x": 93,
     "y": 763,
-    "w": 756,
+    "w": 726,
     "h": 61
    },
    {
@@ -5716,31 +5695,31 @@
    {
     "x": 93,
     "y": 1005,
-    "w": 819,
+    "w": 769,
     "h": 22
    },
    {
     "x": 93,
     "y": 1035,
-    "w": 786,
+    "w": 783,
     "h": 22
    },
    {
     "x": 93,
     "y": 1065,
-    "w": 715,
+    "w": 802,
     "h": 22
    },
    {
     "x": 93,
     "y": 1095,
-    "w": 793,
+    "w": 804,
     "h": 22
    },
    {
     "x": 93,
     "y": 1125,
-    "w": 767,
+    "w": 778,
     "h": 22
    },
    {
@@ -5750,254 +5729,242 @@
     "h": 22
    },
    {
-    "x": 125,
-    "y": 1203,
-    "w": 133,
+    "x": 157,
+    "y": 1200,
+    "w": 166,
+    "h": 27
+   },
+   {
+    "x": 322,
+    "y": 1200,
+    "w": 6,
+    "h": 27
+   },
+   {
+    "x": 157,
+    "y": 1234,
+    "w": 750,
     "h": 22
    },
    {
-    "x": 258,
-    "y": 1203,
-    "w": 5,
+    "x": 157,
+    "y": 1264,
+    "w": 738,
     "h": 22
    },
    {
-    "x": 125,
-    "y": 1233,
-    "w": 760,
+    "x": 157,
+    "y": 1294,
+    "w": 462,
     "h": 22
    },
    {
-    "x": 125,
-    "y": 1263,
-    "w": 707,
+    "x": 618,
+    "y": 1294,
+    "w": 74,
     "h": 22
    },
    {
-    "x": 125,
-    "y": 1293,
-    "w": 455,
+    "x": 693,
+    "y": 1294,
+    "w": 187,
     "h": 22
    },
    {
-    "x": 579,
-    "y": 1293,
-    "w": 73,
+    "x": 157,
+    "y": 1324,
+    "w": 437,
     "h": 22
    },
    {
-    "x": 653,
-    "y": 1293,
-    "w": 185,
+    "x": 157,
+    "y": 1417,
+    "w": 148,
+    "h": 27
+   },
+   {
+    "x": 157,
+    "y": 1451,
+    "w": 736,
     "h": 22
    },
    {
-    "x": 125,
-    "y": 1323,
-    "w": 430,
+    "x": 157,
+    "y": 1481,
+    "w": 518,
     "h": 22
    },
    {
-    "x": 125,
-    "y": 1371,
-    "w": 119,
+    "x": 674,
+    "y": 1481,
+    "w": 81,
     "h": 22
    },
    {
-    "x": 125,
-    "y": 1401,
-    "w": 768,
+    "x": 755,
+    "y": 1481,
+    "w": 152,
     "h": 22
    },
    {
-    "x": 125,
-    "y": 1431,
-    "w": 468,
+    "x": 157,
+    "y": 1511,
+    "w": 710,
     "h": 22
    },
    {
-    "x": 592,
-    "y": 1431,
-    "w": 80,
+    "x": 157,
+    "y": 1541,
+    "w": 233,
     "h": 22
    },
    {
-    "x": 672,
-    "y": 1431,
-    "w": 234,
+    "x": 157,
+    "y": 1634,
+    "w": 77,
+    "h": 27
+   },
+   {
+    "x": 157,
+    "y": 1668,
+    "w": 737,
     "h": 22
    },
    {
-    "x": 125,
-    "y": 1461,
-    "w": 780,
+    "x": 157,
+    "y": 1698,
+    "w": 70,
     "h": 22
    },
    {
-    "x": 125,
-    "y": 1491,
-    "w": 63,
+    "x": 226,
+    "y": 1698,
+    "w": 29,
     "h": 22
    },
    {
-    "x": 125,
-    "y": 1539,
-    "w": 62,
+    "x": 255,
+    "y": 1698,
+    "w": 609,
     "h": 22
    },
    {
-    "x": 125,
-    "y": 1569,
-    "w": 765,
+    "x": 157,
+    "y": 1728,
+    "w": 322,
     "h": 22
    },
    {
-    "x": 125,
-    "y": 1599,
-    "w": 30,
+    "x": 157,
+    "y": 1821,
+    "w": 77,
+    "h": 27
+   },
+   {
+    "x": 233,
+    "y": 1825,
+    "w": 666,
     "h": 22
    },
    {
-    "x": 155,
-    "y": 1599,
-    "w": 28,
+    "x": 157,
+    "y": 1855,
+    "w": 584,
     "h": 22
    },
    {
-    "x": 183,
-    "y": 1599,
-    "w": 715,
+    "x": 740,
+    "y": 1855,
+    "w": 138,
     "h": 22
    },
    {
-    "x": 125,
-    "y": 1629,
-    "w": 203,
+    "x": 157,
+    "y": 1885,
+    "w": 733,
     "h": 22
    },
    {
-    "x": 125,
-    "y": 1677,
-    "w": 62,
+    "x": 157,
+    "y": 1915,
+    "w": 145,
     "h": 22
    },
    {
-    "x": 186,
-    "y": 1677,
-    "w": 706,
+    "x": 157,
+    "y": 2008,
+    "w": 135,
+    "h": 27
+   },
+   {
+    "x": 157,
+    "y": 2042,
+    "w": 675,
     "h": 22
    },
    {
-    "x": 125,
-    "y": 1707,
-    "w": 525,
+    "x": 157,
+    "y": 2072,
+    "w": 683,
     "h": 22
    },
    {
-    "x": 649,
-    "y": 1707,
-    "w": 136,
+    "x": 157,
+    "y": 2102,
+    "w": 623,
     "h": 22
    },
    {
-    "x": 785,
-    "y": 1707,
-    "w": 75,
+    "x": 780,
+    "y": 2102,
+    "w": 60,
     "h": 22
    },
    {
-    "x": 125,
-    "y": 1737,
-    "w": 742,
-    "h": 22
-   },
-   {
-    "x": 125,
-    "y": 1767,
-    "w": 47,
-    "h": 22
-   },
-   {
-    "x": 125,
-    "y": 1815,
-    "w": 108,
-    "h": 22
-   },
-   {
-    "x": 125,
-    "y": 1845,
-    "w": 747,
-    "h": 22
-   },
-   {
-    "x": 125,
-    "y": 1875,
-    "w": 765,
-    "h": 22
-   },
-   {
-    "x": 125,
-    "y": 1905,
-    "w": 441,
-    "h": 22
-   },
-   {
-    "x": 565,
-    "y": 1905,
-    "w": 59,
-    "h": 22
-   },
-   {
-    "x": 624,
-    "y": 1905,
-    "w": 251,
-    "h": 22
-   },
-   {
-    "x": 125,
-    "y": 1935,
-    "w": 418,
+    "x": 157,
+    "y": 2132,
+    "w": 678,
     "h": 22
    },
    {
     "x": 93,
-    "y": 1995,
+    "y": 2192,
     "w": 314,
     "h": 22
    },
    {
     "x": 93,
-    "y": 2025,
+    "y": 2222,
     "w": 185,
     "h": 22
    },
    {
     "x": 131,
-    "y": 2071,
+    "y": 2268,
     "w": 46,
     "h": 22
    },
    {
     "x": 237,
-    "y": 2071,
+    "y": 2268,
     "w": 50,
     "h": 22
    },
    {
     "x": 347,
-    "y": 2071,
+    "y": 2268,
     "w": 40,
     "h": 22
    },
    {
     "x": 447,
-    "y": 2071,
+    "y": 2268,
     "w": 46,
     "h": 22
    },
    {
     "x": 554,
-    "y": 2071,
+    "y": 2268,
     "w": 44,
     "h": 22
    },
@@ -6141,481 +6108,481 @@
    },
    {
     "x": 364,
-    "y": 2208,
+    "y": 2405,
     "w": 697,
     "h": 48
    },
    {
     "x": 93,
-    "y": 2578,
-    "w": 123,
+    "y": 2775,
+    "w": 116,
     "h": 17
    },
    {
     "x": 93,
-    "y": 2622,
-    "w": 386,
+    "y": 2819,
+    "w": 380,
     "h": 30
    },
    {
     "x": 93,
-    "y": 2660,
-    "w": 343,
-    "h": 30
-   },
-   {
-    "x": 93,
-    "y": 2698,
-    "w": 60,
-    "h": 30
-   },
-   {
-    "x": 93,
-    "y": 2736,
-    "w": 320,
-    "h": 22
-   },
-   {
-    "x": 93,
-    "y": 2766,
-    "w": 252,
-    "h": 22
-   },
-   {
-    "x": 516,
-    "y": 2578,
-    "w": 123,
-    "h": 17
-   },
-   {
-    "x": 516,
-    "y": 2622,
-    "w": 369,
-    "h": 30
-   },
-   {
-    "x": 516,
-    "y": 2660,
-    "w": 253,
-    "h": 30
-   },
-   {
-    "x": 516,
-    "y": 2698,
-    "w": 148,
-    "h": 30
-   },
-   {
-    "x": 516,
-    "y": 2736,
-    "w": 322,
-    "h": 22
-   },
-   {
-    "x": 516,
-    "y": 2766,
+    "y": 2857,
     "w": 338,
+    "h": 30
+   },
+   {
+    "x": 93,
+    "y": 2895,
+    "w": 59,
+    "h": 30
+   },
+   {
+    "x": 93,
+    "y": 2933,
+    "w": 325,
+    "h": 22
+   },
+   {
+    "x": 93,
+    "y": 2963,
+    "w": 256,
+    "h": 22
+   },
+   {
+    "x": 516,
+    "y": 2775,
+    "w": 116,
+    "h": 17
+   },
+   {
+    "x": 516,
+    "y": 2819,
+    "w": 364,
+    "h": 30
+   },
+   {
+    "x": 516,
+    "y": 2857,
+    "w": 249,
+    "h": 30
+   },
+   {
+    "x": 516,
+    "y": 2895,
+    "w": 146,
+    "h": 30
+   },
+   {
+    "x": 516,
+    "y": 2933,
+    "w": 327,
+    "h": 22
+   },
+   {
+    "x": 516,
+    "y": 2963,
+    "w": 343,
     "h": 22
    },
    {
     "x": 939,
-    "y": 2578,
-    "w": 123,
+    "y": 2775,
+    "w": 116,
     "h": 17
    },
    {
     "x": 939,
-    "y": 2622,
-    "w": 247,
+    "y": 2819,
+    "w": 243,
     "h": 30
    },
    {
     "x": 939,
-    "y": 2660,
-    "w": 218,
+    "y": 2857,
+    "w": 220,
     "h": 22
    },
    {
     "x": 402,
-    "y": 3037,
+    "y": 3234,
     "w": 620,
     "h": 22
    },
    {
     "x": 381,
-    "y": 3148,
+    "y": 3345,
     "w": 664,
     "h": 22
    },
    {
     "x": 993,
-    "y": 3735,
+    "y": 3932,
     "w": 162,
     "h": 22
    },
    {
     "x": 993,
-    "y": 3781,
+    "y": 3978,
     "w": 333,
     "h": 22
    },
    {
     "x": 993,
-    "y": 3811,
+    "y": 4008,
     "w": 179,
     "h": 22
    },
    {
     "x": 1246,
-    "y": 3879,
+    "y": 4076,
     "w": 63,
     "h": 22
    },
    {
     "x": 993,
-    "y": 3976,
+    "y": 4173,
     "w": 77,
     "h": 22
    },
    {
     "x": 93,
-    "y": 3735,
+    "y": 3932,
     "w": 72,
     "h": 22
    },
    {
     "x": 93,
-    "y": 3774,
+    "y": 3971,
     "w": 96,
     "h": 18
    },
    {
     "x": 93,
-    "y": 3801,
+    "y": 3998,
     "w": 86,
     "h": 18
    },
    {
     "x": 93,
-    "y": 3827,
+    "y": 4024,
     "w": 54,
     "h": 18
    },
    {
     "x": 93,
-    "y": 3854,
+    "y": 4051,
     "w": 39,
     "h": 18
    },
    {
     "x": 93,
-    "y": 3880,
+    "y": 4077,
     "w": 118,
     "h": 18
    },
    {
     "x": 93,
-    "y": 3907,
+    "y": 4104,
     "w": 61,
     "h": 18
    },
    {
     "x": 258,
-    "y": 3735,
+    "y": 3932,
     "w": 109,
     "h": 22
    },
    {
     "x": 258,
-    "y": 3774,
+    "y": 3971,
     "w": 120,
     "h": 18
    },
    {
     "x": 410,
-    "y": 3774,
+    "y": 3971,
     "w": 83,
     "h": 18
    },
    {
     "x": 258,
-    "y": 3801,
+    "y": 3998,
     "w": 79,
     "h": 18
    },
    {
     "x": 410,
-    "y": 3801,
+    "y": 3998,
     "w": 129,
     "h": 18
    },
    {
     "x": 258,
-    "y": 3827,
+    "y": 4024,
     "w": 71,
     "h": 18
    },
    {
     "x": 410,
-    "y": 3827,
+    "y": 4024,
     "w": 93,
     "h": 18
    },
    {
     "x": 258,
-    "y": 3854,
+    "y": 4051,
     "w": 43,
     "h": 18
    },
    {
     "x": 410,
-    "y": 3854,
+    "y": 4051,
     "w": 130,
     "h": 18
    },
    {
     "x": 258,
-    "y": 3880,
+    "y": 4077,
     "w": 108,
     "h": 18
    },
    {
     "x": 410,
-    "y": 3880,
+    "y": 4077,
     "w": 103,
     "h": 18
    },
    {
     "x": 258,
-    "y": 3907,
+    "y": 4104,
     "w": 83,
     "h": 18
    },
    {
     "x": 410,
-    "y": 3907,
+    "y": 4104,
     "w": 201,
     "h": 18
    },
    {
     "x": 258,
-    "y": 3933,
+    "y": 4130,
     "w": 95,
     "h": 18
    },
    {
     "x": 410,
-    "y": 3933,
+    "y": 4130,
     "w": 93,
     "h": 18
    },
    {
     "x": 651,
-    "y": 3735,
+    "y": 3932,
     "w": 75,
     "h": 22
    },
    {
     "x": 651,
-    "y": 3765,
+    "y": 3962,
     "w": 56,
     "h": 22
    },
    {
     "x": 651,
-    "y": 3804,
+    "y": 4001,
     "w": 72,
     "h": 18
    },
    {
     "x": 651,
-    "y": 3831,
+    "y": 4028,
     "w": 93,
     "h": 18
    },
    {
     "x": 651,
-    "y": 3857,
+    "y": 4054,
     "w": 80,
     "h": 18
    },
    {
     "x": 651,
-    "y": 3884,
+    "y": 4081,
     "w": 109,
     "h": 18
    },
    {
     "x": 651,
-    "y": 3910,
+    "y": 4107,
     "w": 52,
     "h": 18
    },
    {
     "x": 817,
-    "y": 3735,
+    "y": 3932,
     "w": 66,
     "h": 22
    },
    {
     "x": 817,
-    "y": 3765,
+    "y": 3962,
     "w": 58,
     "h": 22
    },
    {
     "x": 817,
-    "y": 3804,
+    "y": 4001,
     "w": 61,
     "h": 18
    },
    {
     "x": 817,
-    "y": 3831,
+    "y": 4028,
     "w": 89,
     "h": 18
    },
    {
     "x": 817,
-    "y": 3857,
+    "y": 4054,
     "w": 74,
     "h": 18
    },
    {
     "x": 817,
-    "y": 3884,
+    "y": 4081,
     "w": 51,
     "h": 18
    },
    {
     "x": 95,
-    "y": 4061,
+    "y": 4258,
     "w": 85,
     "h": 18
    },
    {
     "x": 200,
-    "y": 4058,
+    "y": 4255,
     "w": 4,
     "h": 22
    },
    {
     "x": 224,
-    "y": 4061,
+    "y": 4258,
     "w": 89,
     "h": 18
    },
    {
     "x": 334,
-    "y": 4058,
+    "y": 4255,
     "w": 4,
     "h": 22
    },
    {
     "x": 358,
-    "y": 4061,
+    "y": 4258,
     "w": 155,
     "h": 18
    },
    {
     "x": 533,
-    "y": 4058,
+    "y": 4255,
     "w": 4,
     "h": 22
    },
    {
     "x": 557,
-    "y": 4061,
+    "y": 4258,
     "w": 125,
     "h": 18
    },
    {
     "x": 702,
-    "y": 4058,
+    "y": 4255,
     "w": 4,
     "h": 22
    },
    {
     "x": 726,
-    "y": 4061,
+    "y": 4258,
     "w": 150,
     "h": 18
    },
    {
     "x": 896,
-    "y": 4058,
+    "y": 4255,
     "w": 4,
     "h": 22
    },
    {
     "x": 921,
-    "y": 4061,
+    "y": 4258,
     "w": 162,
     "h": 18
    },
    {
     "x": 1122,
-    "y": 4058,
+    "y": 4255,
     "w": 4,
     "h": 22
    },
    {
     "x": 1194,
-    "y": 4060,
+    "y": 4257,
     "w": 136,
     "h": 18
    },
    {
     "x": 248,
-    "y": 4197,
+    "y": 4394,
     "w": 928,
     "h": 15
    },
    {
     "x": 240,
-    "y": 4273,
+    "y": 4470,
     "w": 946,
     "h": 15
    },
    {
     "x": 337,
-    "y": 4302,
+    "y": 4499,
     "w": 751,
     "h": 15
    },
    {
     "x": 490,
-    "y": 4332,
+    "y": 4529,
     "w": 445,
     "h": 15
    },
    {
     "x": 125,
-    "y": 4361,
+    "y": 4558,
     "w": 1174,
     "h": 15
    },
    {
     "x": 615,
-    "y": 4381,
+    "y": 4578,
     "w": 196,
     "h": 15
    },
    {
     "x": 136,
-    "y": 4410,
+    "y": 4607,
     "w": 988,
     "h": 15
    },
    {
     "x": 1124,
-    "y": 4410,
+    "y": 4607,
     "w": 165,
     "h": 15
    },
    {
     "x": 595,
-    "y": 4440,
+    "y": 4637,
     "w": 235,
     "h": 15
    }

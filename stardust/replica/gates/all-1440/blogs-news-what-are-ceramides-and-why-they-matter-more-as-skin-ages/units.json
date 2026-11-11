@@ -1,7 +1,7 @@
 {
  "_provenance": {
   "writtenBy": "unit-geometry.mjs",
-  "at": "2026-11-11T05:41:46.339Z",
+  "at": "2026-11-11T09:01:12.439Z",
   "tol": 4,
   "n": 5,
   "width": 1440,
@@ -14,8 +14,8 @@
  },
  "eds": {
   "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/what-are-ceramides-and-why-they-matter-more-as-skin-ages",
-  "at": "2026-11-11T05:41:46.222Z",
-  "docH": 6793
+  "at": "2026-11-11T09:01:12.327Z",
+  "docH": 6875
  },
  "results": [
   {
@@ -199,10 +199,10 @@
        "text": "",
        "boxed": false,
        "x": 0,
-       "y": 228,
+       "y": 0,
        "w": 393,
-       "h": 22,
-       "absY": 4816,
+       "h": 245,
+       "absY": 4670,
        "hidden": false,
        "fs": 18,
        "lh": 30,
@@ -222,12 +222,12 @@
       },
       "eds": {
        "x": 93,
-       "y": 4588,
+       "y": 4670,
        "w": 393,
        "h": 433
       },
       "dx": 0,
-      "dy": -116,
+      "dy": -34,
       "dw": 0,
       "dh": -30
      },
@@ -415,10 +415,10 @@
        "text": "",
        "boxed": false,
        "x": 0,
-       "y": 228,
+       "y": 0,
        "w": 393,
-       "h": 22,
-       "absY": 4816,
+       "h": 245,
+       "absY": 4670,
        "hidden": false,
        "fs": 18,
        "lh": 30,
@@ -438,12 +438,12 @@
       },
       "eds": {
        "x": 516,
-       "y": 4588,
+       "y": 4670,
        "w": 393,
        "h": 463
       },
       "dx": 0,
-      "dy": -116,
+      "dy": -34,
       "dw": 0,
       "dh": 0
      },
@@ -543,16 +543,16 @@
        "eds": {
         "x": 0,
         "y": 265,
-        "w": 139,
+        "w": 132,
         "h": 30,
         "sel": "a",
         "role": "link"
        },
        "dx": 0,
        "dy": 0,
-       "dw": 7,
+       "dw": 0,
        "dh": 0,
-       "off": true,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "14/30/500",
@@ -636,14 +636,14 @@
        "eds": {
         "x": 0,
         "y": 429,
-        "w": 392,
+        "w": 363,
         "h": 52,
         "sel": "p",
         "role": "text"
        },
        "dx": 0,
        "dy": 2,
-       "dw": 35,
+       "dw": 6,
        "dh": 27,
        "off": true,
        "hidden": false,
@@ -683,10 +683,10 @@
        "text": "",
        "boxed": false,
        "x": 0,
-       "y": 228,
+       "y": 0,
        "w": 393,
-       "h": 22,
-       "absY": 4816,
+       "h": 245,
+       "absY": 4670,
        "hidden": false,
        "fs": 18,
        "lh": 30,
@@ -706,19 +706,19 @@
       },
       "eds": {
        "x": 939,
-       "y": 4588,
+       "y": 4670,
        "w": 393,
        "h": 485
       },
       "dx": 0,
-      "dy": -116,
+      "dy": -34,
       "dw": 0,
       "dh": 0
      },
      "summary": {
       "elements": 7,
-      "within": 4,
-      "off": 2,
+      "within": 5,
+      "off": 1,
       "hidden": 0,
       "missing": 1,
       "extra": 1,
@@ -818,18 +818,18 @@
         "h": 60
        },
        "eds": {
-        "x": 41,
+        "x": 21,
         "y": 307,
-        "w": 260,
-        "h": 44,
+        "w": 300,
+        "h": 60,
         "sel": "h3#age-defying-skin-renewal",
         "role": "heading"
        },
-       "dx": 20,
+       "dx": 0,
        "dy": 0,
-       "dw": -40,
-       "dh": -16,
-       "off": true,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "22/22/800",
@@ -880,18 +880,18 @@
         "h": 25
        },
        "eds": {
-        "x": 222,
+        "x": 21,
         "y": 407,
-        "w": 17,
+        "w": 300,
         "h": 25,
         "sel": "p",
         "role": "text"
        },
-       "dx": 201,
+       "dx": 0,
        "dy": 0,
-       "dw": -283,
+       "dw": 0,
        "dh": 0,
-       "off": true,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "16/16/400",
@@ -911,22 +911,146 @@
         "h": 20
        },
        "eds": {
-        "x": 21,
-        "y": 56,
-        "w": 300,
-        "h": 200,
-        "sel": "picture",
+        "x": 102,
+        "y": 410,
+        "w": 20,
+        "h": 20,
+        "sel": "svg",
         "role": "image"
        },
-       "dx": -79,
-       "dy": -354,
-       "dw": 279,
-       "dh": 180,
-       "off": true,
+       "dx": 2,
+       "dy": 0,
+       "dw": -1,
+       "dh": 0,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "16/16/400",
-        "eds": "18/30/500"
+        "eds": "12/25/500"
+       }
+      },
+      {
+       "key": "image:svg#2",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 121,
+        "y": 410,
+        "w": 21,
+        "h": 20
+       },
+       "eds": {
+        "x": 123,
+        "y": 410,
+        "w": 20,
+        "h": 20,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 2,
+       "dy": 0,
+       "dw": -1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "12/25/500"
+       }
+      },
+      {
+       "key": "image:svg#3",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 142,
+        "y": 410,
+        "w": 21,
+        "h": 20
+       },
+       "eds": {
+        "x": 144,
+        "y": 410,
+        "w": 20,
+        "h": 20,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 2,
+       "dy": 0,
+       "dw": -1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "12/25/500"
+       }
+      },
+      {
+       "key": "image:svg#4",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 163,
+        "y": 410,
+        "w": 21,
+        "h": 20
+       },
+       "eds": {
+        "x": 165,
+        "y": 410,
+        "w": 20,
+        "h": 20,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 2,
+       "dy": 0,
+       "dw": -1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "12/25/500"
+       }
+      },
+      {
+       "key": "image:svg#5",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 184,
+        "y": 410,
+        "w": 20,
+        "h": 20
+       },
+       "eds": {
+        "x": 186,
+        "y": 410,
+        "w": 20,
+        "h": 20,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 2,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "12/25/500"
        }
       },
       {
@@ -992,188 +1116,27 @@
        }
       }
      ],
-     "missing": [
-      {
-       "role": "image",
-       "tag": "svg",
-       "sel": "svg",
-       "text": "",
-       "boxed": false,
-       "x": 121,
-       "y": 410,
-       "w": 21,
-       "h": 20,
-       "absY": 2445,
-       "hidden": false,
-       "fs": 16,
-       "lh": 16,
-       "fw": "400",
-       "color": "rgb(0, 0, 0)",
-       "bg": null,
-       "position": "static",
-       "key": "image:svg#2"
-      },
-      {
-       "role": "image",
-       "tag": "svg",
-       "sel": "svg",
-       "text": "",
-       "boxed": false,
-       "x": 142,
-       "y": 410,
-       "w": 21,
-       "h": 20,
-       "absY": 2445,
-       "hidden": false,
-       "fs": 16,
-       "lh": 16,
-       "fw": "400",
-       "color": "rgb(0, 0, 0)",
-       "bg": null,
-       "position": "static",
-       "key": "image:svg#3"
-      },
-      {
-       "role": "image",
-       "tag": "svg",
-       "sel": "svg",
-       "text": "",
-       "boxed": false,
-       "x": 163,
-       "y": 410,
-       "w": 21,
-       "h": 20,
-       "absY": 2445,
-       "hidden": false,
-       "fs": 16,
-       "lh": 16,
-       "fw": "400",
-       "color": "rgb(0, 0, 0)",
-       "bg": null,
-       "position": "static",
-       "key": "image:svg#4"
-      },
-      {
-       "role": "image",
-       "tag": "svg",
-       "sel": "svg",
-       "text": "",
-       "boxed": false,
-       "x": 184,
-       "y": 410,
-       "w": 20,
-       "h": 20,
-       "absY": 2445,
-       "hidden": false,
-       "fs": 16,
-       "lh": 16,
-       "fw": "400",
-       "color": "rgb(0, 0, 0)",
-       "bg": null,
-       "position": "static",
-       "key": "image:svg#5"
-      }
-     ],
+     "missing": [],
      "extra": [
       {
-       "role": "box",
-       "tag": "span",
-       "sel": "span.rating-star",
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
        "text": "",
-       "boxed": true,
-       "x": 102,
-       "y": 410,
-       "w": 20,
-       "h": 20,
-       "absY": 2445,
+       "boxed": false,
+       "x": 21,
+       "y": 56,
+       "w": 300,
+       "h": 200,
+       "absY": 2091,
        "hidden": false,
-       "fs": 16,
-       "lh": 16,
+       "fs": 18,
+       "lh": 30,
        "fw": "500",
        "color": "rgb(0, 0, 0)",
-       "bg": "rgb(233, 239, 236)",
+       "bg": null,
        "position": "static",
-       "key": "box:span.rating-star#1"
-      },
-      {
-       "role": "box",
-       "tag": "span",
-       "sel": "span.rating-star",
-       "text": "",
-       "boxed": true,
-       "x": 123,
-       "y": 410,
-       "w": 20,
-       "h": 20,
-       "absY": 2445,
-       "hidden": false,
-       "fs": 16,
-       "lh": 16,
-       "fw": "500",
-       "color": "rgb(0, 0, 0)",
-       "bg": "rgb(233, 239, 236)",
-       "position": "static",
-       "key": "box:span.rating-star#2"
-      },
-      {
-       "role": "box",
-       "tag": "span",
-       "sel": "span.rating-star",
-       "text": "",
-       "boxed": true,
-       "x": 144,
-       "y": 410,
-       "w": 20,
-       "h": 20,
-       "absY": 2445,
-       "hidden": false,
-       "fs": 16,
-       "lh": 16,
-       "fw": "500",
-       "color": "rgb(0, 0, 0)",
-       "bg": "rgb(233, 239, 236)",
-       "position": "static",
-       "key": "box:span.rating-star#3"
-      },
-      {
-       "role": "box",
-       "tag": "span",
-       "sel": "span.rating-star",
-       "text": "",
-       "boxed": true,
-       "x": 165,
-       "y": 410,
-       "w": 20,
-       "h": 20,
-       "absY": 2445,
-       "hidden": false,
-       "fs": 16,
-       "lh": 16,
-       "fw": "500",
-       "color": "rgb(0, 0, 0)",
-       "bg": "rgb(233, 239, 236)",
-       "position": "static",
-       "key": "box:span.rating-star#4"
-      },
-      {
-       "role": "box",
-       "tag": "span",
-       "sel": "span.rating-star",
-       "text": "",
-       "boxed": true,
-       "x": 186,
-       "y": 410,
-       "w": 20,
-       "h": 20,
-       "absY": 2445,
-       "hidden": false,
-       "fs": 16,
-       "lh": 16,
-       "fw": "500",
-       "color": "rgb(0, 0, 0)",
-       "bg": "rgb(233, 239, 236)",
-       "position": "static",
-       "key": "box:span.rating-star#5"
+       "key": "image:picture#1"
       }
      ],
      "unit": {
@@ -1196,11 +1159,11 @@
      },
      "summary": {
       "elements": 12,
-      "within": 5,
-      "off": 3,
+      "within": 12,
+      "off": 0,
       "hidden": 0,
-      "missing": 4,
-      "extra": 5,
+      "missing": 0,
+      "extra": 1,
       "unitOff": false
      }
     }
@@ -1266,7 +1229,7 @@
        "y": 0,
        "w": 271,
        "h": 271,
-       "absY": 5483,
+       "absY": 5565,
        "hidden": false,
        "fs": 18,
        "lh": 30,
@@ -1286,12 +1249,12 @@
       },
       "eds": {
        "x": 21,
-       "y": 5483,
+       "y": 5565,
        "w": 271,
        "h": 271
       },
       "dx": 0,
-      "dy": -116,
+      "dy": -34,
       "dw": 0,
       "dh": 0
      },
@@ -1358,7 +1321,7 @@
        "y": 0,
        "w": 271,
        "h": 271,
-       "absY": 5483,
+       "absY": 5565,
        "hidden": false,
        "fs": 18,
        "lh": 30,
@@ -1378,12 +1341,12 @@
       },
       "eds": {
        "x": 299,
-       "y": 5483,
+       "y": 5565,
        "w": 271,
        "h": 271
       },
       "dx": 0,
-      "dy": -116,
+      "dy": -34,
       "dw": 0,
       "dh": 0
      },
@@ -1450,7 +1413,7 @@
        "y": 0,
        "w": 271,
        "h": 271,
-       "absY": 5483,
+       "absY": 5565,
        "hidden": false,
        "fs": 18,
        "lh": 30,
@@ -1470,12 +1433,12 @@
       },
       "eds": {
        "x": 577,
-       "y": 5483,
+       "y": 5565,
        "w": 271,
        "h": 271
       },
       "dx": 0,
-      "dy": -116,
+      "dy": -34,
       "dw": 0,
       "dh": 0
      },
@@ -1542,7 +1505,7 @@
        "y": 0,
        "w": 271,
        "h": 271,
-       "absY": 5483,
+       "absY": 5565,
        "hidden": false,
        "fs": 18,
        "lh": 30,
@@ -1562,12 +1525,12 @@
       },
       "eds": {
        "x": 855,
-       "y": 5483,
+       "y": 5565,
        "w": 271,
        "h": 271
       },
       "dx": 0,
-      "dy": -116,
+      "dy": -34,
       "dw": 0,
       "dh": 0
      },
@@ -1634,7 +1597,7 @@
        "y": 0,
        "w": 271,
        "h": 271,
-       "absY": 5483,
+       "absY": 5565,
        "hidden": false,
        "fs": 18,
        "lh": 30,
@@ -1654,12 +1617,12 @@
       },
       "eds": {
        "x": 1133,
-       "y": 5483,
+       "y": 5565,
        "w": 271,
        "h": 271
       },
       "dx": 0,
-      "dy": -116,
+      "dy": -34,
       "dw": 0,
       "dh": 0
      },
@@ -1678,11 +1641,11 @@
  ],
  "verdict": {
   "units": 9,
-  "within": 23,
-  "off": 6,
+  "within": 31,
+  "off": 2,
   "hidden": 0,
-  "missing": 5,
+  "missing": 1,
   "errors": 0,
-  "requiredOff": 11
+  "requiredOff": 3
  }
 }
