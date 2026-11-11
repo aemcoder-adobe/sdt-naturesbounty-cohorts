@@ -80,11 +80,15 @@
   padding: 24px;
 }
 
+.need-hero .need-hero-media picture {
+  display: contents;
+}
+
 .need-hero .need-hero-media img {
-  width: 100%;
-  max-width: 340px;
+  width: auto;
+  max-width: 100%;
   height: auto;
-  aspect-ratio: auto;
+  max-height: 300px;
   object-fit: contain;
 }
 
@@ -105,6 +109,6 @@
   }
 
   .need-hero .need-hero-media img {
-    max-width: 420px;
+    max-height: 440px;
   }
 }
