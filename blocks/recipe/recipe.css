@@ -1,0 +1,162 @@
+/* recipe — lifted from the gated prototype (recipe.css, component-article-main.css) */
+main > .section > .recipe-wrapper {
+  max-width: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.recipe .recipe-hero {
+  height: 340px;
+  margin: 0;
+  line-height: 0;
+}
+
+.recipe .recipe-hero picture,
+.recipe .recipe-hero img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.recipe .recipe-hero img {
+  object-fit: cover;
+  object-position: top;
+}
+
+.recipe .recipe-content {
+  padding-bottom: 50px;
+}
+
+.recipe .recipe-title {
+  margin-top: 20px;
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: var(--fw-extrabold);
+}
+
+.recipe .recipe-title :is(h1, h2, h3) {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+
+.recipe .recipe-text {
+  display: flow-root;
+  margin-top: 30px;
+}
+
+/* nutrition line, ingredient list, directions (bundle.theme.css .rte + UA defaults) */
+.recipe .recipe-text :is(p, ul, ol, blockquote) {
+  margin: 1em 0;
+}
+
+.recipe .recipe-text > :first-child {
+  margin-top: 0;
+}
+
+.recipe .recipe-text > :last-child {
+  margin-bottom: 0;
+}
+
+.recipe .recipe-text ul {
+  list-style: disc;
+  padding-left: 2rem;
+}
+
+.recipe .recipe-text ol {
+  list-style: decimal;
+  padding-left: 2rem;
+}
+
+.recipe .recipe-text li {
+  list-style: inherit;
+}
+
+.recipe .recipe-text :is(h2, h3, h4) {
+  margin: 1em 0;
+  font-weight: var(--fw-bold);
+}
+
+.recipe .recipe-text img {
+  max-width: 100%;
+  height: auto;
+}
+
+.recipe .recipe-text a {
+  color: var(--green);
+  font-weight: var(--fw-bold);
+  text-decoration: underline;
+  text-underline-offset: 0.3rem;
+  text-decoration-thickness: 0.1rem;
+  transition: text-decoration-thickness 0.15s ease;
+}
+
+.recipe .recipe-text a:hover,
+.recipe .recipe-text a:active {
+  text-decoration-thickness: 0.2rem;
+}
+
+.recipe .recipe-text::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+@media (width <= 768px) {
+  .recipe .recipe-text :is(ul, ol) {
+    padding-left: 25px;
+  }
+}
+
+@media (width >= 768px) {
+  .recipe .recipe-hero {
+    height: 400px;
+  }
+
+  .recipe .recipe-title {
+    font-size: 50px;
+    line-height: 60px;
+  }
+}
+
+@media (width >= 992px) {
+  .recipe .recipe-hero {
+    height: 500px;
+  }
+
+  .recipe .recipe-body {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    gap: 60px;
+  }
+
+  .recipe .recipe-body.recipe-body-single {
+    display: block;
+  }
+
+  .recipe .recipe-sidebar {
+    margin-top: 60px;
+  }
+
+  .recipe .recipe-title {
+    margin-top: 60px;
+  }
+}
+
+@media (width >= 1400px) {
+  .recipe .recipe-hero {
+    height: 600px;
+  }
+
+  .recipe .recipe-body {
+    gap: 100px;
+  }
+}
+
+@media (width >= 1680px) {
+  .recipe .recipe-hero {
+    height: 900px;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+}

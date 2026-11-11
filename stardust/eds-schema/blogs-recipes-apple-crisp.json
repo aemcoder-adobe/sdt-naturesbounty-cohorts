@@ -1,0 +1,63 @@
+{
+ "source": "file:///workspace/1a676f95/stardust/prototypes/apple-crisp-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "product-rail",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Looking for better health? Try these products!"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "related",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "More recipes"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Peach, Pear & Plum Smoothie",
+     "href": "/blogs/recipes/peach-pear-and-plum-smoothie"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Oatmeal Cookie Shake Delicious Nature's Bounty® Optimal Solutions® Shake!",
+     "href": "/blogs/recipes/oatmeal-cookie-shake"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Mango Berry Cloud",
+     "href": "/blogs/recipes/mango-berry-cloud"
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "DIV.related-card",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  }
+ ]
+}
