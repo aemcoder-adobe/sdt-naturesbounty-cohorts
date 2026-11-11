@@ -562,6 +562,12 @@ export default async function decorate(block) {
 
   const logo = slot('site-header-logo', ...(brandW ? brandW.children : []));
 
+  // an image-only logo link needs a name (its picture has no alt and the title is blank)
+  logo.querySelectorAll('a').forEach((a) => {
+    if (!a.title.trim()) a.removeAttribute('title');
+    if (!a.textContent.trim() && !a.getAttribute('aria-label')) a.setAttribute('aria-label', 'Nature’s Bounty home');
+  });
+
   const nav = el('nav', { class: 'site-header-nav', 'aria-label': 'Main' });
   const mega = el('div', { class: 'mega' });
   if (navList) {

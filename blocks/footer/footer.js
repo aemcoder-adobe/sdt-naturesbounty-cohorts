@@ -230,6 +230,12 @@ export default async function decorate(block) {
 
   const [brandW, newsW, colsW, legalW, discW, ...rest] = sectionWrappers(fragment);
   const logo = slot('site-footer-logo', ...(brandW ? brandW.children : []));
+
+  // an image-only logo link needs a name (its picture has no alt and the title is blank)
+  logo.querySelectorAll('a').forEach((a) => {
+    if (!a.title.trim()) a.removeAttribute('title');
+    if (!a.textContent.trim() && !a.getAttribute('aria-label')) a.setAttribute('aria-label', 'Nature’s Bounty home');
+  });
   const { box: newsletter, social } = buildNewsletter(newsW);
   const links = buildColumns(colsW);
   if (social.childElementCount) {

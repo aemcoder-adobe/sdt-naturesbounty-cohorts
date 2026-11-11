@@ -384,7 +384,6 @@ body[data-experience="agent"] *::after {
 
 body[data-experience="agent"] > header {
   position: static;
-  min-height: var(--header-h);
 }
 
 body[data-experience="agent"] .header .announce,
