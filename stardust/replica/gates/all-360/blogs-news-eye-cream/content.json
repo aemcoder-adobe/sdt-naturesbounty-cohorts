@@ -1,14 +1,14 @@
 {
  "_provenance": {
   "writtenBy": "content-presence.mjs",
-  "at": "2026-11-11T12:06:40.295Z",
+  "at": "2026-11-11T15:47:05.971Z",
   "width": 360,
   "variable": [],
   "tier": "chrome"
  },
  "origin": {
   "url": "https://naturesbounty.com/blogs/news/eye-cream",
-  "at": "2026-11-11T12:06:16.004Z",
+  "at": "2026-11-11T15:46:41.237Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 7259,
@@ -21,7 +21,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 80,
+    "x": 81,
     "y": 6,
     "w": 314,
     "h": 20,
@@ -1560,8 +1560,8 @@
      "clipper": "div.slick-list.draggable",
      "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 32,
-     "cutMax": 32
+     "cutMin": 34,
+     "cutMax": 34
     },
     {
      "kind": "TEXT X-CUT",
@@ -1570,15 +1570,15 @@
      "clipper": "div.slick-list.draggable",
      "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 32,
-     "cutMax": 32
+     "cutMin": 34,
+     "cutMax": 34
     }
    ]
   }
  },
  "eds": {
   "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/eye-cream",
-  "at": "2026-11-11T12:06:40.198Z",
+  "at": "2026-11-11T15:47:05.840Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 7242,
@@ -1591,7 +1591,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": -102,
+    "x": -109,
     "y": 9,
     "w": 202,
     "h": 14,
@@ -1605,7 +1605,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 300,
+    "x": 292,
     "y": 9,
     "w": 295,
     "h": 14,
@@ -3207,8 +3207,8 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "grow thicker, fuller hair in 3 months*",
-     "cutMin": 103,
-     "cutMax": 249
+     "cutMin": 111,
+     "cutMax": 241
     },
     {
      "kind": "TEXT X-CUT",
@@ -3217,22 +3217,22 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "grow thicker, fuller hair in 3 months*",
-     "cutMin": 103,
-     "cutMax": 249
+     "cutMin": 111,
+     "cutMax": 241
     }
    ],
    "findings": [
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 103,
+     "cut": 111,
      "path": "div.announce-track > ul > li > a",
      "text": "grow thicker, fuller hair in 3 months*",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -103,
+      "l": -111,
       "t": 9,
-      "r": 99,
+      "r": 91,
       "b": 23,
       "w": 202,
       "h": 14
@@ -3249,14 +3249,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 103,
+     "cut": 111,
      "path": "div.announce-track > ul > li > a",
      "text": "grow thicker, fuller hair in 3 months*",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -103,
+      "l": -111,
       "t": 9,
-      "r": 99,
+      "r": 91,
       "b": 23,
       "w": 202,
       "h": 14
@@ -3274,14 +3274,14 @@
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 249,
+     "cut": 241,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 299,
+      "l": 291,
       "t": 9,
-      "r": 594,
+      "r": 586,
       "b": 23,
       "w": 295,
       "h": 14
@@ -3298,14 +3298,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 249,
+     "cut": 241,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 299,
+      "l": 291,
       "t": 9,
-      "r": 594,
+      "r": 586,
       "b": 23,
       "w": 295,
       "h": 14
@@ -3525,7 +3525,7 @@
  "textBoxes": {
   "origin": [
    {
-    "x": 78,
+    "x": 79,
     "y": 6,
     "w": 314,
     "h": 19
@@ -4325,13 +4325,13 @@
   ],
   "eds": [
    {
-    "x": -103,
+    "x": -111,
     "y": 9,
     "w": 202,
     "h": 14
    },
    {
-    "x": 299,
+    "x": 291,
     "y": 9,
     "w": 295,
     "h": 14

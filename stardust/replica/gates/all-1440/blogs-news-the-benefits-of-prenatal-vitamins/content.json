@@ -1,14 +1,14 @@
 {
  "_provenance": {
   "writtenBy": "content-presence.mjs",
-  "at": "2026-11-11T13:42:17.032Z",
+  "at": "2026-11-11T15:05:42.501Z",
   "width": 1440,
   "variable": [],
   "tier": "chrome"
  },
  "origin": {
   "url": "https://naturesbounty.com/blogs/news/the-benefits-of-prenatal-vitamins",
-  "at": "2026-11-11T13:41:56.880Z",
+  "at": "2026-11-11T15:05:22.375Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 4360,
@@ -21,7 +21,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 36,
+    "x": 21,
     "y": 6,
     "w": 157,
     "h": 20,
@@ -35,7 +35,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 393,
+    "x": 378,
     "y": 6,
     "w": 213,
     "h": 20,
@@ -49,7 +49,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 806,
+    "x": 791,
     "y": 6,
     "w": 314,
     "h": 20,
@@ -63,7 +63,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 1320,
+    "x": 1305,
     "y": 6,
     "w": 157,
     "h": 20,
@@ -1997,8 +1997,8 @@
      "clipper": "div.slick-list.draggable",
      "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
      "text": "shop our favorite products",
-     "cutMin": 35,
-     "cutMax": 35
+     "cutMin": 20,
+     "cutMax": 20
     },
     {
      "kind": "TEXT X-CUT",
@@ -2007,15 +2007,15 @@
      "clipper": "div.slick-list.draggable",
      "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
      "text": "shop our favorite products",
-     "cutMin": 35,
-     "cutMax": 35
+     "cutMin": 20,
+     "cutMax": 20
     }
    ]
   }
  },
  "eds": {
   "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/the-benefits-of-prenatal-vitamins",
-  "at": "2026-11-11T13:42:16.895Z",
+  "at": "2026-11-11T15:05:42.372Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 4332,
@@ -2056,7 +2056,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 819,
+    "x": 820,
     "y": 8,
     "w": 219,
     "h": 15,
@@ -4134,8 +4134,8 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 62,
-     "cutMax": 130
+     "cutMin": 61,
+     "cutMax": 131
     },
     {
      "kind": "TEXT X-CUT",
@@ -4144,22 +4144,22 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 62,
-     "cutMax": 130
+     "cutMin": 61,
+     "cutMax": 131
     }
    ],
    "findings": [
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 62,
+     "cut": 61,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -62,
+      "l": -61,
       "t": 8,
-      "r": 257,
+      "r": 258,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4176,14 +4176,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 62,
+     "cut": 61,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -62,
+      "l": -61,
       "t": 8,
-      "r": 257,
+      "r": 258,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4201,14 +4201,14 @@
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 130,
+     "cut": 131,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 1236,
+      "l": 1237,
       "t": 8,
-      "r": 1555,
+      "r": 1556,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4225,14 +4225,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 130,
+     "cut": 131,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 1236,
+      "l": 1237,
       "t": 8,
-      "r": 1555,
+      "r": 1556,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4452,25 +4452,25 @@
  "textBoxes": {
   "origin": [
    {
-    "x": 34,
+    "x": 19,
     "y": 6,
     "w": 157,
     "h": 19
    },
    {
-    "x": 391,
+    "x": 376,
     "y": 6,
     "w": 213,
     "h": 19
    },
    {
-    "x": 804,
+    "x": 789,
     "y": 6,
     "w": 314,
     "h": 19
    },
    {
-    "x": 1318,
+    "x": 1303,
     "y": 6,
     "w": 157,
     "h": 19
@@ -5342,25 +5342,25 @@
   ],
   "eds": [
    {
-    "x": -62,
+    "x": -61,
     "y": 8,
     "w": 319,
     "h": 15
    },
    {
-    "x": 457,
+    "x": 458,
     "y": 8,
     "w": 160,
     "h": 15
    },
    {
-    "x": 817,
+    "x": 818,
     "y": 8,
     "w": 219,
     "h": 15
    },
    {
-    "x": 1236,
+    "x": 1237,
     "y": 8,
     "w": 319,
     "h": 15

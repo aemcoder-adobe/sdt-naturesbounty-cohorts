@@ -1,14 +1,14 @@
 {
  "_provenance": {
   "writtenBy": "content-presence.mjs",
-  "at": "2026-11-11T14:07:43.049Z",
+  "at": "2026-11-11T15:22:31.544Z",
   "width": 1440,
   "variable": [],
   "tier": "chrome"
  },
  "origin": {
   "url": "https://naturesbounty.com/blogs/news/what-are-probiotics",
-  "at": "2026-11-11T14:07:21.907Z",
+  "at": "2026-11-11T15:22:09.988Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 4977,
@@ -21,7 +21,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": -20,
+    "x": -42,
     "y": 6,
     "w": 157,
     "h": 20,
@@ -35,7 +35,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 337,
+    "x": 315,
     "y": 6,
     "w": 213,
     "h": 20,
@@ -49,7 +49,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 750,
+    "x": 728,
     "y": 6,
     "w": 314,
     "h": 20,
@@ -63,7 +63,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 1264,
+    "x": 1242,
     "y": 6,
     "w": 157,
     "h": 20,
@@ -2035,7 +2035,7 @@
  },
  "eds": {
   "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/what-are-probiotics",
-  "at": "2026-11-11T14:07:42.919Z",
+  "at": "2026-11-11T15:22:31.390Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 4965,
@@ -2048,21 +2048,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": -88,
-    "y": 8,
-    "w": 319,
-    "h": 15,
-    "text": "supplementing the knowledge gap in women's health",
-    "href": "/pages/womens-wellness"
-   },
-   {
-    "kind": "link",
-    "state": "visible",
-    "variable": false,
-    "inRoot": false,
-    "inChrome": true,
-    "path": "ul > li > a",
-    "x": 431,
+    "x": -26,
     "y": 8,
     "w": 160,
     "h": 15,
@@ -2076,7 +2062,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 792,
+    "x": 334,
     "y": 8,
     "w": 219,
     "h": 15,
@@ -2090,12 +2076,26 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 1210,
+    "x": 753,
     "y": 8,
     "w": 319,
     "h": 15,
     "text": "supplementing the knowledge gap in women's health",
     "href": "/pages/womens-wellness"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 1272,
+    "y": 8,
+    "w": 160,
+    "h": 15,
+    "text": "shop our favorite products",
+    "href": "/collections/favorites"
    },
    {
     "kind": "link",
@@ -4153,9 +4153,9 @@
      "n": 2,
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
-     "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 89,
-     "cutMax": 103
+     "text": "shop our favorite products",
+     "cutMin": 6,
+     "cutMax": 28
     },
     {
      "kind": "TEXT X-CUT",
@@ -4163,25 +4163,25 @@
      "n": 2,
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
-     "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 89,
-     "cutMax": 103
+     "text": "shop our favorite products",
+     "cutMin": 6,
+     "cutMax": 28
     }
    ],
    "findings": [
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 89,
+     "cut": 28,
      "path": "div.announce-track > ul > li > a",
-     "text": "supplementing the knowledge gap in women's health",
+     "text": "shop our favorite products",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -89,
+      "l": -28,
       "t": 8,
-      "r": 230,
+      "r": 133,
       "b": 23,
-      "w": 319,
+      "w": 160,
       "h": 15
      },
      "clip": {
@@ -4196,16 +4196,16 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 89,
+     "cut": 28,
      "path": "div.announce-track > ul > li > a",
-     "text": "supplementing the knowledge gap in women's health",
+     "text": "shop our favorite products",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -89,
+      "l": -28,
       "t": 8,
-      "r": 230,
+      "r": 133,
       "b": 23,
-      "w": 319,
+      "w": 160,
       "h": 15
      },
      "clip": {
@@ -4221,16 +4221,16 @@
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 103,
+     "cut": 6,
      "path": "div.announce-track > ul > li > a",
-     "text": "supplementing the knowledge gap in women's health",
+     "text": "shop our favorite products",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 1209,
+      "l": 1271,
       "t": 8,
-      "r": 1528,
+      "r": 1431,
       "b": 23,
-      "w": 319,
+      "w": 160,
       "h": 15
      },
      "clip": {
@@ -4245,16 +4245,16 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 103,
+     "cut": 6,
      "path": "div.announce-track > ul > li > a",
-     "text": "supplementing the knowledge gap in women's health",
+     "text": "shop our favorite products",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 1209,
+      "l": 1271,
       "t": 8,
-      "r": 1528,
+      "r": 1431,
       "b": 23,
-      "w": 319,
+      "w": 160,
       "h": 15
      },
      "clip": {
@@ -4506,25 +4506,25 @@
  "textBoxes": {
   "origin": [
    {
-    "x": -22,
+    "x": -44,
     "y": 6,
     "w": 157,
     "h": 19
    },
    {
-    "x": 336,
+    "x": 313,
     "y": 6,
     "w": 213,
     "h": 19
    },
    {
-    "x": 748,
+    "x": 726,
     "y": 6,
     "w": 314,
     "h": 19
    },
    {
-    "x": 1262,
+    "x": 1240,
     "y": 6,
     "w": 157,
     "h": 19
@@ -5438,27 +5438,27 @@
   ],
   "eds": [
    {
-    "x": -89,
-    "y": 8,
-    "w": 319,
-    "h": 15
-   },
-   {
-    "x": 430,
+    "x": -28,
     "y": 8,
     "w": 160,
     "h": 15
    },
    {
-    "x": 790,
+    "x": 333,
     "y": 8,
     "w": 219,
     "h": 15
    },
    {
-    "x": 1209,
+    "x": 751,
     "y": 8,
     "w": 319,
+    "h": 15
+   },
+   {
+    "x": 1271,
+    "y": 8,
+    "w": 160,
     "h": 15
    },
    {

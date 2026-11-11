@@ -1,14 +1,14 @@
 {
  "_provenance": {
   "writtenBy": "content-presence.mjs",
-  "at": "2026-11-11T12:43:03.960Z",
+  "at": "2026-11-11T16:29:45.750Z",
   "width": 360,
   "variable": [],
   "tier": "chrome"
  },
  "origin": {
   "url": "https://naturesbounty.com/blogs/news/gut-check-exploring-the-power-of-probiotics-with-nature-s-bounty%C2%AE",
-  "at": "2026-11-11T12:42:32.814Z",
+  "at": "2026-11-11T16:29:14.151Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 12505,
@@ -21,12 +21,26 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": -136,
+    "x": -201,
     "y": 6,
     "w": 314,
     "h": 20,
     "text": "supplementing the knowledge gap in women's health",
     "href": "/pages/womens-wellness"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
+    "x": 314,
+    "y": 6,
+    "w": 157,
+    "h": 20,
+    "text": "shop our favorite products",
+    "href": "/collections/favorites"
    },
    {
     "kind": "link",
@@ -2296,18 +2310,39 @@
     "clamped": 0,
     "collapsed": 0,
     "scrollHidden": 0,
-    "horizontal": 0,
-    "offPage": 179,
+    "horizontal": 2,
+    "offPage": 177,
     "textNodes": 225,
     "controls": 158,
     "total": 0
    },
-   "groups": []
+   "groups": [
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.slick-list.draggable",
+     "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
+     "text": "shop our favorite products",
+     "cutMin": 108,
+     "cutMax": 108
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.slick-list.draggable",
+     "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
+     "text": "shop our favorite products",
+     "cutMin": 108,
+     "cutMax": 108
+    }
+   ]
   }
  },
  "eds": {
   "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/gut-check-exploring-the-power-of-probiotics-with-nature-s-bounty-c2-ae",
-  "at": "2026-11-11T12:43:03.813Z",
+  "at": "2026-11-11T16:29:45.568Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 12492,
@@ -2320,7 +2355,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 80,
+    "x": 73,
     "y": 9,
     "w": 295,
     "h": 14,
@@ -4308,8 +4343,8 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 26,
-     "cutMax": 26
+     "cutMin": 20,
+     "cutMax": 20
     },
     {
      "kind": "TEXT X-CUT",
@@ -4318,22 +4353,22 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 26,
-     "cutMax": 26
+     "cutMin": 20,
+     "cutMax": 20
     }
    ],
    "findings": [
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 26,
+     "cut": 20,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 77,
+      "l": 70,
       "t": 9,
-      "r": 371,
+      "r": 365,
       "b": 23,
       "w": 295,
       "h": 14
@@ -4350,14 +4385,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 26,
+     "cut": 20,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 77,
+      "l": 70,
       "t": 9,
-      "r": 371,
+      "r": 365,
       "b": 23,
       "w": 295,
       "h": 14
@@ -4786,9 +4821,15 @@
  "textBoxes": {
   "origin": [
    {
-    "x": -138,
+    "x": -203,
     "y": 6,
     "w": 314,
+    "h": 19
+   },
+   {
+    "x": 311,
+    "y": 6,
+    "w": 157,
     "h": 19
    },
    {
@@ -6720,7 +6761,7 @@
   ],
   "eds": [
    {
-    "x": 77,
+    "x": 70,
     "y": 9,
     "w": 295,
     "h": 14

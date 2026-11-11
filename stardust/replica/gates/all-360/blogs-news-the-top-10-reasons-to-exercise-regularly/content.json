@@ -1,14 +1,14 @@
 {
  "_provenance": {
   "writtenBy": "content-presence.mjs",
-  "at": "2026-11-11T12:39:18.587Z",
+  "at": "2026-11-11T16:25:29.007Z",
   "width": 360,
   "variable": [],
   "tier": "chrome"
  },
  "origin": {
   "url": "https://naturesbounty.com/blogs/news/the-top-10-reasons-to-exercise-regularly",
-  "at": "2026-11-11T12:38:50.964Z",
+  "at": "2026-11-11T16:25:00.554Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 10125,
@@ -21,7 +21,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": -25,
+    "x": -96,
     "y": 6,
     "w": 314,
     "h": 20,
@@ -1478,7 +1478,7 @@
  },
  "eds": {
   "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/the-top-10-reasons-to-exercise-regularly",
-  "at": "2026-11-11T12:39:18.466Z",
+  "at": "2026-11-11T16:25:28.837Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 9992,
@@ -1486,26 +1486,12 @@
   "items": [
    {
     "kind": "link",
-    "state": "hidden",
+    "state": "visible",
     "variable": false,
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": -202,
-    "y": 9,
-    "w": 202,
-    "h": 14,
-    "text": "grow thicker, fuller hair in 3 months*",
-    "href": "/pages/hair-growth"
-   },
-   {
-    "kind": "link",
-    "state": "hidden",
-    "variable": false,
-    "inRoot": false,
-    "inChrome": true,
-    "path": "ul > li > a",
-    "x": 200,
+    "x": 184,
     "y": 9,
     "w": 295,
     "h": 14,
@@ -3184,8 +3170,8 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 148,
-     "cutMax": 148
+     "cutMin": 132,
+     "cutMax": 132
     },
     {
      "kind": "TEXT X-CUT",
@@ -3194,22 +3180,22 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 148,
-     "cutMax": 148
+     "cutMin": 132,
+     "cutMax": 132
     }
    ],
    "findings": [
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 148,
+     "cut": 132,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 199,
+      "l": 182,
       "t": 9,
-      "r": 493,
+      "r": 477,
       "b": 23,
       "w": 295,
       "h": 14
@@ -3226,14 +3212,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 148,
+     "cut": 132,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 199,
+      "l": 182,
       "t": 9,
-      "r": 493,
+      "r": 477,
       "b": 23,
       "w": 295,
       "h": 14
@@ -3464,7 +3450,7 @@
  "textBoxes": {
   "origin": [
    {
-    "x": -26,
+    "x": -98,
     "y": 6,
     "w": 314,
     "h": 19
@@ -4804,7 +4790,7 @@
   ],
   "eds": [
    {
-    "x": 199,
+    "x": 182,
     "y": 9,
     "w": 295,
     "h": 14

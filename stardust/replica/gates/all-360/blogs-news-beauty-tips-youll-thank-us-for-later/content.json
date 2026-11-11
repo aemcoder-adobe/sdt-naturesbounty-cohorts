@@ -1,14 +1,14 @@
 {
  "_provenance": {
   "writtenBy": "content-presence.mjs",
-  "at": "2026-11-11T13:24:20.411Z",
+  "at": "2026-11-11T15:39:41.242Z",
   "width": 360,
   "variable": [],
   "tier": "chrome"
  },
  "origin": {
   "url": "https://naturesbounty.com/blogs/news/beauty-tips-youll-thank-us-for-later",
-  "at": "2026-11-11T13:23:52.923Z",
+  "at": "2026-11-11T15:39:13.096Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 9551,
@@ -21,7 +21,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 7,
+    "x": -9,
     "y": 6,
     "w": 314,
     "h": 20,
@@ -1760,7 +1760,7 @@
  },
  "eds": {
   "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/beauty-tips-youll-thank-us-for-later",
-  "at": "2026-11-11T13:24:20.311Z",
+  "at": "2026-11-11T15:39:41.120Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 9694,
@@ -1768,26 +1768,12 @@
   "items": [
    {
     "kind": "link",
-    "state": "hidden",
+    "state": "visible",
     "variable": false,
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": -201,
-    "y": 9,
-    "w": 202,
-    "h": 14,
-    "text": "grow thicker, fuller hair in 3 months*",
-    "href": "/pages/hair-growth"
-   },
-   {
-    "kind": "link",
-    "state": "hidden",
-    "variable": false,
-    "inRoot": false,
-    "inChrome": true,
-    "path": "ul > li > a",
-    "x": 201,
+    "x": 194,
     "y": 9,
     "w": 295,
     "h": 14,
@@ -3551,8 +3537,8 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 149,
-     "cutMax": 149
+     "cutMin": 142,
+     "cutMax": 142
     },
     {
      "kind": "TEXT X-CUT",
@@ -3561,22 +3547,22 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 149,
-     "cutMax": 149
+     "cutMin": 142,
+     "cutMax": 142
     }
    ],
    "findings": [
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 149,
+     "cut": 142,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 199,
+      "l": 192,
       "t": 9,
-      "r": 494,
+      "r": 487,
       "b": 23,
       "w": 295,
       "h": 14
@@ -3593,14 +3579,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 149,
+     "cut": 142,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 199,
+      "l": 192,
       "t": 9,
-      "r": 494,
+      "r": 487,
       "b": 23,
       "w": 295,
       "h": 14
@@ -3854,7 +3840,7 @@
  "textBoxes": {
   "origin": [
    {
-    "x": 5,
+    "x": -11,
     "y": 6,
     "w": 314,
     "h": 19
@@ -5056,7 +5042,7 @@
   ],
   "eds": [
    {
-    "x": 199,
+    "x": 192,
     "y": 9,
     "w": 295,
     "h": 14

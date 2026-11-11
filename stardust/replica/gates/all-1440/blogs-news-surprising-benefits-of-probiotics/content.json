@@ -1,14 +1,14 @@
 {
  "_provenance": {
   "writtenBy": "content-presence.mjs",
-  "at": "2026-11-11T14:19:52.193Z",
+  "at": "2026-11-11T15:32:48.705Z",
   "width": 1440,
   "variable": [],
   "tier": "chrome"
  },
  "origin": {
   "url": "https://naturesbounty.com/blogs/news/surprising-benefits-of-probiotics",
-  "at": "2026-11-11T14:19:31.896Z",
+  "at": "2026-11-11T15:32:28.221Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 4232,
@@ -21,7 +21,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 5,
+    "x": -21,
     "y": 6,
     "w": 157,
     "h": 20,
@@ -35,7 +35,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 362,
+    "x": 336,
     "y": 6,
     "w": 213,
     "h": 20,
@@ -49,7 +49,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 775,
+    "x": 749,
     "y": 6,
     "w": 314,
     "h": 20,
@@ -63,7 +63,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 1289,
+    "x": 1263,
     "y": 6,
     "w": 157,
     "h": 20,
@@ -1900,39 +1900,18 @@
     "clamped": 0,
     "collapsed": 0,
     "scrollHidden": 0,
-    "horizontal": 2,
+    "horizontal": 0,
     "offPage": 8,
     "textNodes": 123,
     "controls": 98,
     "total": 0
    },
-   "groups": [
-    {
-     "kind": "CONTROL X-CUT",
-     "advisory": true,
-     "n": 1,
-     "clipper": "div.slick-list.draggable",
-     "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
-     "text": "shop our favorite products",
-     "cutMin": 5,
-     "cutMax": 5
-    },
-    {
-     "kind": "TEXT X-CUT",
-     "advisory": true,
-     "n": 1,
-     "clipper": "div.slick-list.draggable",
-     "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
-     "text": "shop our favorite products",
-     "cutMin": 5,
-     "cutMax": 5
-    }
-   ]
+   "groups": []
   }
  },
  "eds": {
   "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/surprising-benefits-of-probiotics",
-  "at": "2026-11-11T14:19:52.018Z",
+  "at": "2026-11-11T15:32:48.557Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 4220,
@@ -1945,7 +1924,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": -56,
+    "x": -59,
     "y": 8,
     "w": 319,
     "h": 15,
@@ -1959,7 +1938,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 464,
+    "x": 460,
     "y": 8,
     "w": 160,
     "h": 15,
@@ -1973,7 +1952,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 824,
+    "x": 820,
     "y": 8,
     "w": 219,
     "h": 15,
@@ -1987,7 +1966,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 1242,
+    "x": 1239,
     "y": 8,
     "w": 319,
     "h": 15,
@@ -3968,8 +3947,8 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 57,
-     "cutMax": 135
+     "cutMin": 61,
+     "cutMax": 131
     },
     {
      "kind": "TEXT X-CUT",
@@ -3978,22 +3957,22 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 57,
-     "cutMax": 135
+     "cutMin": 61,
+     "cutMax": 131
     }
    ],
    "findings": [
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 57,
+     "cut": 61,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -57,
+      "l": -61,
       "t": 8,
-      "r": 262,
+      "r": 258,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4010,14 +3989,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 57,
+     "cut": 61,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -57,
+      "l": -61,
       "t": 8,
-      "r": 262,
+      "r": 258,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4035,14 +4014,14 @@
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 135,
+     "cut": 131,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 1241,
+      "l": 1237,
       "t": 8,
-      "r": 1560,
+      "r": 1556,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4059,14 +4038,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 135,
+     "cut": 131,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 1241,
+      "l": 1237,
       "t": 8,
-      "r": 1560,
+      "r": 1556,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4286,25 +4265,25 @@
  "textBoxes": {
   "origin": [
    {
-    "x": 4,
+    "x": -24,
     "y": 6,
     "w": 157,
     "h": 19
    },
    {
-    "x": 361,
+    "x": 333,
     "y": 6,
     "w": 213,
     "h": 19
    },
    {
-    "x": 774,
+    "x": 746,
     "y": 6,
     "w": 314,
     "h": 19
    },
    {
-    "x": 1288,
+    "x": 1260,
     "y": 6,
     "w": 157,
     "h": 19
@@ -5116,25 +5095,25 @@
   ],
   "eds": [
    {
-    "x": -57,
+    "x": -61,
     "y": 8,
     "w": 319,
     "h": 15
    },
    {
-    "x": 462,
+    "x": 458,
     "y": 8,
     "w": 160,
     "h": 15
    },
    {
-    "x": 822,
+    "x": 818,
     "y": 8,
     "w": 219,
     "h": 15
    },
    {
-    "x": 1241,
+    "x": 1237,
     "y": 8,
     "w": 319,
     "h": 15

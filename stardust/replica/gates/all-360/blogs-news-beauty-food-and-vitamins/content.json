@@ -1,14 +1,14 @@
 {
  "_provenance": {
   "writtenBy": "content-presence.mjs",
-  "at": "2026-11-11T13:22:21.700Z",
+  "at": "2026-11-11T16:38:40.219Z",
   "width": 360,
   "variable": [],
   "tier": "chrome"
  },
  "origin": {
   "url": "https://naturesbounty.com/blogs/news/beauty-food-and-vitamins",
-  "at": "2026-11-11T13:21:50.624Z",
+  "at": "2026-11-11T16:38:08.325Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 12482,
@@ -21,7 +21,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": -207,
+    "x": -170,
     "y": 6,
     "w": 314,
     "h": 20,
@@ -35,7 +35,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 307,
+    "x": 344,
     "y": 6,
     "w": 157,
     "h": 20,
@@ -1829,8 +1829,8 @@
      "clipper": "div.slick-list.draggable",
      "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
      "text": "shop our favorite products",
-     "cutMin": 102,
-     "cutMax": 102
+     "cutMin": 138,
+     "cutMax": 138
     },
     {
      "kind": "TEXT X-CUT",
@@ -1839,15 +1839,15 @@
      "clipper": "div.slick-list.draggable",
      "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
      "text": "shop our favorite products",
-     "cutMin": 102,
-     "cutMax": 102
+     "cutMin": 138,
+     "cutMax": 138
     }
    ]
   }
  },
  "eds": {
   "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/beauty-food-and-vitamins",
-  "at": "2026-11-11T13:22:21.571Z",
+  "at": "2026-11-11T16:38:40.084Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 12469,
@@ -1860,7 +1860,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 83,
+    "x": 68,
     "y": 9,
     "w": 295,
     "h": 14,
@@ -3676,8 +3676,8 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 31,
-     "cutMax": 31
+     "cutMin": 15,
+     "cutMax": 15
     },
     {
      "kind": "TEXT X-CUT",
@@ -3686,22 +3686,22 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 31,
-     "cutMax": 31
+     "cutMin": 15,
+     "cutMax": 15
     }
    ],
    "findings": [
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 31,
+     "cut": 15,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 81,
+      "l": 65,
       "t": 9,
-      "r": 376,
+      "r": 360,
       "b": 23,
       "w": 295,
       "h": 14
@@ -3718,14 +3718,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 31,
+     "cut": 15,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 81,
+      "l": 65,
       "t": 9,
-      "r": 376,
+      "r": 360,
       "b": 23,
       "w": 295,
       "h": 14
@@ -3979,13 +3979,13 @@
  "textBoxes": {
   "origin": [
    {
-    "x": -209,
+    "x": -173,
     "y": 6,
     "w": 314,
     "h": 19
    },
    {
-    "x": 305,
+    "x": 341,
     "y": 6,
     "w": 157,
     "h": 19
@@ -5769,7 +5769,7 @@
   ],
   "eds": [
    {
-    "x": 81,
+    "x": 65,
     "y": 9,
     "w": 295,
     "h": 14

@@ -1,14 +1,14 @@
 {
  "_provenance": {
   "writtenBy": "content-presence.mjs",
-  "at": "2026-11-11T12:56:36.281Z",
+  "at": "2026-11-11T16:23:09.719Z",
   "width": 360,
   "variable": [],
   "tier": "chrome"
  },
  "origin": {
   "url": "https://naturesbounty.com/blogs/news/how-much-sleep-do-you-really-need",
-  "at": "2026-11-11T12:56:08.737Z",
+  "at": "2026-11-11T16:22:41.231Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 9711,
@@ -21,7 +21,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": -81,
+    "x": -119,
     "y": 6,
     "w": 314,
     "h": 20,
@@ -1625,7 +1625,7 @@
  },
  "eds": {
   "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/how-much-sleep-do-you-really-need",
-  "at": "2026-11-11T12:56:36.187Z",
+  "at": "2026-11-11T16:23:09.532Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 9864,
@@ -1633,26 +1633,12 @@
   "items": [
    {
     "kind": "link",
-    "state": "hidden",
+    "state": "visible",
     "variable": false,
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": -201,
-    "y": 9,
-    "w": 202,
-    "h": 14,
-    "text": "grow thicker, fuller hair in 3 months*",
-    "href": "/pages/hair-growth"
-   },
-   {
-    "kind": "link",
-    "state": "hidden",
-    "variable": false,
-    "inRoot": false,
-    "inChrome": true,
-    "path": "ul > li > a",
-    "x": 201,
+    "x": 188,
     "y": 9,
     "w": 295,
     "h": 14,
@@ -3308,8 +3294,8 @@
     "clamped": 0,
     "collapsed": 0,
     "scrollHidden": 0,
-    "horizontal": 4,
-    "offPage": 179,
+    "horizontal": 2,
+    "offPage": 181,
     "textNodes": 189,
     "controls": 166,
     "total": 0
@@ -3318,85 +3304,36 @@
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "n": 2,
+     "n": 1,
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
-     "text": "grow thicker, fuller hair in 3 months*",
-     "cutMin": 150,
-     "cutMax": 202
+     "text": "supplementing the knowledge gap in women's health",
+     "cutMin": 136,
+     "cutMax": 136
     },
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "n": 2,
+     "n": 1,
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
-     "text": "grow thicker, fuller hair in 3 months*",
-     "cutMin": 150,
-     "cutMax": 202
+     "text": "supplementing the knowledge gap in women's health",
+     "cutMin": 136,
+     "cutMax": 136
     }
    ],
    "findings": [
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 202,
-     "path": "div.announce-track > ul > li > a",
-     "text": "grow thicker, fuller hair in 3 months*",
-     "clipper": "div.announce-viewport",
-     "rect": {
-      "l": -202,
-      "t": 9,
-      "r": 0,
-      "b": 23,
-      "w": 202,
-      "h": 14
-     },
-     "clip": {
-      "l": 0,
-      "t": 7,
-      "r": 345,
-      "b": 25,
-      "w": 345,
-      "h": 18
-     }
-    },
-    {
-     "kind": "TEXT X-CUT",
-     "advisory": true,
-     "cut": 202,
-     "path": "div.announce-track > ul > li > a",
-     "text": "grow thicker, fuller hair in 3 months*",
-     "clipper": "div.announce-viewport",
-     "rect": {
-      "l": -202,
-      "t": 9,
-      "r": 0,
-      "b": 23,
-      "w": 202,
-      "h": 14
-     },
-     "clip": {
-      "l": 0,
-      "t": 7,
-      "r": 345,
-      "b": 25,
-      "w": 345,
-      "h": 18
-     },
-     "lines": 1
-    },
-    {
-     "kind": "CONTROL X-CUT",
-     "advisory": true,
-     "cut": 150,
+     "cut": 136,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 200,
+      "l": 186,
       "t": 9,
-      "r": 495,
+      "r": 481,
       "b": 23,
       "w": 295,
       "h": 14
@@ -3413,14 +3350,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 150,
+     "cut": 136,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 200,
+      "l": 186,
       "t": 9,
-      "r": 495,
+      "r": 481,
       "b": 23,
       "w": 295,
       "h": 14
@@ -3640,7 +3577,7 @@
  "textBoxes": {
   "origin": [
    {
-    "x": -82,
+    "x": -121,
     "y": 6,
     "w": 314,
     "h": 19
@@ -4962,13 +4899,7 @@
   ],
   "eds": [
    {
-    "x": -202,
-    "y": 9,
-    "w": 202,
-    "h": 14
-   },
-   {
-    "x": 200,
+    "x": 186,
     "y": 9,
     "w": 295,
     "h": 14

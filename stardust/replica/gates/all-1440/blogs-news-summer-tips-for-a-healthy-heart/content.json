@@ -1,14 +1,14 @@
 {
  "_provenance": {
   "writtenBy": "content-presence.mjs",
-  "at": "2026-11-11T14:02:22.741Z",
+  "at": "2026-11-11T15:11:15.382Z",
   "width": 1440,
   "variable": [],
   "tier": "chrome"
  },
  "origin": {
   "url": "https://naturesbounty.com/blogs/news/summer-tips-for-a-healthy-heart",
-  "at": "2026-11-11T14:02:02.194Z",
+  "at": "2026-11-11T15:10:54.931Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 4455,
@@ -21,7 +21,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 15,
+    "x": -25,
     "y": 6,
     "w": 157,
     "h": 20,
@@ -35,7 +35,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 372,
+    "x": 332,
     "y": 6,
     "w": 213,
     "h": 20,
@@ -49,7 +49,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 785,
+    "x": 745,
     "y": 6,
     "w": 314,
     "h": 20,
@@ -63,7 +63,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 1299,
+    "x": 1259,
     "y": 6,
     "w": 157,
     "h": 20,
@@ -2075,39 +2075,18 @@
     "clamped": 0,
     "collapsed": 0,
     "scrollHidden": 0,
-    "horizontal": 2,
+    "horizontal": 0,
     "offPage": 8,
     "textNodes": 138,
     "controls": 104,
     "total": 0
    },
-   "groups": [
-    {
-     "kind": "CONTROL X-CUT",
-     "advisory": true,
-     "n": 1,
-     "clipper": "div.slick-list.draggable",
-     "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
-     "text": "shop our favorite products",
-     "cutMin": 14,
-     "cutMax": 14
-    },
-    {
-     "kind": "TEXT X-CUT",
-     "advisory": true,
-     "n": 1,
-     "clipper": "div.slick-list.draggable",
-     "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
-     "text": "shop our favorite products",
-     "cutMin": 14,
-     "cutMax": 14
-    }
-   ]
+   "groups": []
   }
  },
  "eds": {
   "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/summer-tips-for-a-healthy-heart",
-  "at": "2026-11-11T14:02:22.629Z",
+  "at": "2026-11-11T15:11:15.261Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 4443,
@@ -2120,7 +2099,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": -72,
+    "x": -71,
     "y": 8,
     "w": 319,
     "h": 15,
@@ -2134,7 +2113,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 447,
+    "x": 448,
     "y": 8,
     "w": 160,
     "h": 15,
@@ -2162,7 +2141,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 1226,
+    "x": 1227,
     "y": 8,
     "w": 319,
     "h": 15,
@@ -4267,7 +4246,7 @@
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "cutMin": 73,
-     "cutMax": 119
+     "cutMax": 120
     },
     {
      "kind": "TEXT X-CUT",
@@ -4277,7 +4256,7 @@
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "cutMin": 73,
-     "cutMax": 119
+     "cutMax": 120
     }
    ],
    "findings": [
@@ -4291,7 +4270,7 @@
      "rect": {
       "l": -73,
       "t": 8,
-      "r": 246,
+      "r": 247,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4315,7 +4294,7 @@
      "rect": {
       "l": -73,
       "t": 8,
-      "r": 246,
+      "r": 247,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4333,14 +4312,14 @@
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 119,
+     "cut": 120,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
       "l": 1225,
       "t": 8,
-      "r": 1544,
+      "r": 1545,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4357,14 +4336,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 119,
+     "cut": 120,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
       "l": 1225,
       "t": 8,
-      "r": 1544,
+      "r": 1545,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4584,25 +4563,25 @@
  "textBoxes": {
   "origin": [
    {
-    "x": 13,
+    "x": -28,
     "y": 6,
     "w": 157,
     "h": 19
    },
    {
-    "x": 370,
+    "x": 330,
     "y": 6,
     "w": 213,
     "h": 19
    },
    {
-    "x": 783,
+    "x": 742,
     "y": 6,
     "w": 314,
     "h": 19
    },
    {
-    "x": 1297,
+    "x": 1256,
     "y": 6,
     "w": 157,
     "h": 19
@@ -5534,13 +5513,13 @@
     "h": 15
    },
    {
-    "x": 446,
+    "x": 447,
     "y": 8,
     "w": 160,
     "h": 15
    },
    {
-    "x": 806,
+    "x": 807,
     "y": 8,
     "w": 219,
     "h": 15

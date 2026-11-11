@@ -1,14 +1,14 @@
 {
  "_provenance": {
   "writtenBy": "content-presence.mjs",
-  "at": "2026-11-11T12:08:35.930Z",
+  "at": "2026-11-11T15:50:04.873Z",
   "width": 360,
   "variable": [],
   "tier": "chrome"
  },
  "origin": {
   "url": "https://naturesbounty.com/blogs/news/10-tips-for-when-you-find-out-you-are-pregnant",
-  "at": "2026-11-11T12:08:05.436Z",
+  "at": "2026-11-11T15:49:33.451Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 12247,
@@ -21,7 +21,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": -186,
+    "x": -180,
     "y": 6,
     "w": 314,
     "h": 20,
@@ -35,7 +35,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 328,
+    "x": 334,
     "y": 6,
     "w": 157,
     "h": 20,
@@ -1736,8 +1736,8 @@
      "clipper": "div.slick-list.draggable",
      "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
      "text": "shop our favorite products",
-     "cutMin": 124,
-     "cutMax": 124
+     "cutMin": 129,
+     "cutMax": 129
     },
     {
      "kind": "TEXT X-CUT",
@@ -1746,15 +1746,15 @@
      "clipper": "div.slick-list.draggable",
      "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
      "text": "shop our favorite products",
-     "cutMin": 124,
-     "cutMax": 124
+     "cutMin": 129,
+     "cutMax": 129
     }
    ]
   }
  },
  "eds": {
   "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/10-tips-for-when-you-find-out-you-are-pregnant",
-  "at": "2026-11-11T12:08:35.802Z",
+  "at": "2026-11-11T15:50:04.636Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 12294,
@@ -1767,7 +1767,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 103,
+    "x": 88,
     "y": 9,
     "w": 295,
     "h": 14,
@@ -3490,8 +3490,8 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 51,
-     "cutMax": 51
+     "cutMin": 35,
+     "cutMax": 35
     },
     {
      "kind": "TEXT X-CUT",
@@ -3500,22 +3500,22 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 51,
-     "cutMax": 51
+     "cutMin": 35,
+     "cutMax": 35
     }
    ],
    "findings": [
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 51,
+     "cut": 35,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 101,
+      "l": 85,
       "t": 9,
-      "r": 396,
+      "r": 380,
       "b": 23,
       "w": 295,
       "h": 14
@@ -3532,14 +3532,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 51,
+     "cut": 35,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 101,
+      "l": 85,
       "t": 9,
-      "r": 396,
+      "r": 380,
       "b": 23,
       "w": 295,
       "h": 14
@@ -3793,13 +3793,13 @@
  "textBoxes": {
   "origin": [
    {
-    "x": -188,
+    "x": -182,
     "y": 6,
     "w": 314,
     "h": 19
    },
    {
-    "x": 326,
+    "x": 332,
     "y": 6,
     "w": 157,
     "h": 19
@@ -5493,7 +5493,7 @@
   ],
   "eds": [
    {
-    "x": 101,
+    "x": 85,
     "y": 9,
     "w": 295,
     "h": 14

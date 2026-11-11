@@ -1,14 +1,14 @@
 {
  "_provenance": {
   "writtenBy": "content-presence.mjs",
-  "at": "2026-11-11T14:00:01.088Z",
+  "at": "2026-11-11T15:05:34.694Z",
   "width": 1440,
   "variable": [],
   "tier": "chrome"
  },
  "origin": {
   "url": "https://naturesbounty.com/blogs/news/what-products-do-i-need-new-year-must-haves",
-  "at": "2026-11-11T13:59:40.444Z",
+  "at": "2026-11-11T15:05:13.932Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 4782,
@@ -21,7 +21,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": -2,
+    "x": 7,
     "y": 6,
     "w": 157,
     "h": 20,
@@ -35,7 +35,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 355,
+    "x": 364,
     "y": 6,
     "w": 213,
     "h": 20,
@@ -49,7 +49,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 768,
+    "x": 777,
     "y": 6,
     "w": 314,
     "h": 20,
@@ -63,7 +63,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 1282,
+    "x": 1291,
     "y": 6,
     "w": 157,
     "h": 20,
@@ -2054,18 +2054,39 @@
     "clamped": 0,
     "collapsed": 0,
     "scrollHidden": 0,
-    "horizontal": 0,
+    "horizontal": 2,
     "offPage": 8,
     "textNodes": 144,
     "controls": 109,
     "total": 0
    },
-   "groups": []
+   "groups": [
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.slick-list.draggable",
+     "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
+     "text": "shop our favorite products",
+     "cutMin": 6,
+     "cutMax": 6
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.slick-list.draggable",
+     "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
+     "text": "shop our favorite products",
+     "cutMin": 6,
+     "cutMax": 6
+    }
+   ]
   }
  },
  "eds": {
   "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/what-products-do-i-need-new-year-must-haves",
-  "at": "2026-11-11T14:00:00.951Z",
+  "at": "2026-11-11T15:05:34.550Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 4770,
@@ -2078,7 +2099,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": -73,
+    "x": -76,
     "y": 8,
     "w": 319,
     "h": 15,
@@ -2092,7 +2113,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 446,
+    "x": 444,
     "y": 8,
     "w": 160,
     "h": 15,
@@ -2106,7 +2127,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 806,
+    "x": 804,
     "y": 8,
     "w": 219,
     "h": 15,
@@ -2120,7 +2141,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 1225,
+    "x": 1223,
     "y": 8,
     "w": 319,
     "h": 15,
@@ -4242,8 +4263,8 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 75,
-     "cutMax": 118
+     "cutMin": 77,
+     "cutMax": 115
     },
     {
      "kind": "TEXT X-CUT",
@@ -4252,22 +4273,22 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 75,
-     "cutMax": 118
+     "cutMin": 77,
+     "cutMax": 115
     }
    ],
    "findings": [
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 75,
+     "cut": 77,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -75,
+      "l": -77,
       "t": 8,
-      "r": 245,
+      "r": 242,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4284,14 +4305,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 75,
+     "cut": 77,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -75,
+      "l": -77,
       "t": 8,
-      "r": 245,
+      "r": 242,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4309,14 +4330,14 @@
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 118,
+     "cut": 115,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 1224,
+      "l": 1221,
       "t": 8,
-      "r": 1543,
+      "r": 1540,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4333,14 +4354,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 118,
+     "cut": 115,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 1224,
+      "l": 1221,
       "t": 8,
-      "r": 1543,
+      "r": 1540,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4560,25 +4581,25 @@
  "textBoxes": {
   "origin": [
    {
-    "x": -4,
+    "x": 4,
     "y": 6,
     "w": 157,
     "h": 19
    },
    {
-    "x": 353,
+    "x": 362,
     "y": 6,
     "w": 213,
     "h": 19
    },
    {
-    "x": 766,
+    "x": 774,
     "y": 6,
     "w": 314,
     "h": 19
    },
    {
-    "x": 1280,
+    "x": 1288,
     "y": 6,
     "w": 157,
     "h": 19
@@ -5636,25 +5657,25 @@
   ],
   "eds": [
    {
-    "x": -75,
+    "x": -77,
     "y": 8,
     "w": 319,
     "h": 15
    },
    {
-    "x": 445,
+    "x": 442,
     "y": 8,
     "w": 160,
     "h": 15
    },
    {
-    "x": 805,
+    "x": 802,
     "y": 8,
     "w": 219,
     "h": 15
    },
    {
-    "x": 1224,
+    "x": 1221,
     "y": 8,
     "w": 319,
     "h": 15

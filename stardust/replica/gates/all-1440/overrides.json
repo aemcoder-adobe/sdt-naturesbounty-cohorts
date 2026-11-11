@@ -760,5 +760,1189 @@
       "dh": -4,
       "at": "2026-11-11T10:00:31.454Z"
     }
+  },
+  "blogs-news-mens-health": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 46 shared text anchors the page reads 3.23%, and 0.32% outside the text boxes (layout, images, paint); 3 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01); 1 declared unit family absent on both sides (0 / 0)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 46,
+      "alignedPct": 3.23,
+      "nonTextPct": 0.32,
+      "textMaskPct": 32.8,
+      "unitRowsOffByText": 3,
+      "unitFamiliesAbsent": 1,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:36:55.511Z"
+    }
+  },
+  "blogs-news-why-magnesium-matters-more-than-ever": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 87 shared text anchors the page reads 3.99%, and 0.21% outside the text boxes (layout, images, paint); 2 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01); 1 declared unit family absent on both sides (0 / 0); 1 unit text row(s) served joined into the row above (#87 granularity)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 87,
+      "alignedPct": 3.99,
+      "nonTextPct": 0.21,
+      "textMaskPct": 37.4,
+      "unitRowsOffByText": 2,
+      "unitFamiliesAbsent": 1,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 1,
+      "at": "2026-11-11T14:36:56.876Z"
+    }
+  },
+  "blogs-news-how-to-choose-the-right-probiotic-for-daily-support": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 81 shared text anchors the page reads 4.1%, and 0.22% outside the text boxes (layout, images, paint); 3 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01); 1 declared unit family absent on both sides (0 / 0); 1 unit text row(s) served joined into the row above (#87 granularity)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 81,
+      "alignedPct": 4.1,
+      "nonTextPct": 0.22,
+      "textMaskPct": 37.7,
+      "unitRowsOffByText": 3,
+      "unitFamiliesAbsent": 1,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 1,
+      "at": "2026-11-11T14:36:58.220Z"
+    }
+  },
+  "blogs-news-what-are-ceramides-and-why-they-matter-more-as-skin-ages": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 89 shared text anchors the page reads 4.31%, and 0.26% outside the text boxes (layout, images, paint); 2 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01); 1 unit text row(s) served joined into the row above (#87 granularity)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 89,
+      "alignedPct": 4.31,
+      "nonTextPct": 0.26,
+      "textMaskPct": 40.4,
+      "unitRowsOffByText": 2,
+      "unitFamiliesAbsent": 0,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 1,
+      "at": "2026-11-11T14:36:59.588Z"
+    }
+  },
+  "blogs-news-whipped-lavender-body-butter": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 53 shared text anchors the page reads 2.45%, and 0.29% outside the text boxes (layout, images, paint); 1 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01); 1 declared unit family absent on both sides (0 / 0)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 53,
+      "alignedPct": 2.45,
+      "nonTextPct": 0.29,
+      "textMaskPct": 28.6,
+      "unitRowsOffByText": 1,
+      "unitFamiliesAbsent": 1,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:37:00.482Z"
+    }
+  },
+  "blogs-news-beauty-facts": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 53 shared text anchors the page reads 3.43%, and 0.31% outside the text boxes (layout, images, paint); 1 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01); 1 declared unit family absent on both sides (0 / 0)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 53,
+      "alignedPct": 3.43,
+      "nonTextPct": 0.31,
+      "textMaskPct": 35,
+      "unitRowsOffByText": 1,
+      "unitFamiliesAbsent": 1,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:37:01.499Z"
+    }
+  },
+  "blogs-news-how-much-fish-oil-should-you-take-daily": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 49 shared text anchors the page reads 3.79%, and 1.59% outside the text boxes (layout, images, paint); 2 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01); 1 declared unit family absent on both sides (0 / 0)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 49,
+      "alignedPct": 3.79,
+      "nonTextPct": 1.59,
+      "textMaskPct": 32,
+      "unitRowsOffByText": 2,
+      "unitFamiliesAbsent": 1,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:37:02.401Z"
+    }
+  },
+  "blogs-news-what-women-need-to-know-about-detecting-breast-cancer-early-an-interview-with-susan-brown-m-s-r-n-at-susan-g-komen-c2-ae": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 70 shared text anchors the page reads 3.68%, and 0.35% outside the text boxes (layout, images, paint); 2 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01); 1 declared unit family absent on both sides (0 / 0)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 70,
+      "alignedPct": 3.68,
+      "nonTextPct": 0.35,
+      "textMaskPct": 35.1,
+      "unitRowsOffByText": 2,
+      "unitFamiliesAbsent": 1,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:37:03.607Z"
+    }
+  },
+  "blogs-news-women-s-health-awareness-5-ways-to-reset-your-wellness-routine": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 62 shared text anchors the page reads 4.25%, and 0.61% outside the text boxes (layout, images, paint); 2 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01); 1 declared unit family absent on both sides (0 / 0); content-presence false red (#87 granularity): the h2 \"Customer Favorites … Nails♢\" is served verbatim (source <b>…Nails</b><b>♢</b>, no space between the runs; the probe joins the origin runs with one)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 62,
+      "alignedPct": 4.25,
+      "nonTextPct": 0.61,
+      "textMaskPct": 35.3,
+      "unitRowsOffByText": 2,
+      "unitFamiliesAbsent": 1,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:37:04.686Z"
+    }
+  },
+  "blogs-news-what-type-of-magnesium-supplement-is-perfect-for-me-understanding-your-options": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 81 shared text anchors the page reads 4.04%, and 0.16% outside the text boxes (layout, images, paint); 1 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01); 1 declared unit family absent on both sides (0 / 0)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 81,
+      "alignedPct": 4.04,
+      "nonTextPct": 0.16,
+      "textMaskPct": 37.8,
+      "unitRowsOffByText": 1,
+      "unitFamiliesAbsent": 1,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:37:06.086Z"
+    }
+  },
+  "blogs-news-the-benefits-of-prenatal-vitamins": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 50 shared text anchors the page reads 3.49%, and 1.03% outside the text boxes (layout, images, paint); 1 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01); 1 declared unit family absent on both sides (0 / 0)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 50,
+      "alignedPct": 3.49,
+      "nonTextPct": 1.03,
+      "textMaskPct": 32.9,
+      "unitRowsOffByText": 1,
+      "unitFamiliesAbsent": 1,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:37:07.004Z"
+    }
+  },
+  "blogs-news-hair-skin-and-beauty-hacks-every-woman-needs-to-know": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 49 shared text anchors the page reads 2.76%, and 0.25% outside the text boxes (layout, images, paint); 1 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 49,
+      "alignedPct": 2.76,
+      "nonTextPct": 0.25,
+      "textMaskPct": 35.3,
+      "unitRowsOffByText": 1,
+      "unitFamiliesAbsent": 0,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:37:08.101Z"
+    }
+  },
+  "blogs-news-your-gut-may-play-a-powerful-role-in-your-well-being-our-survey-finds": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 59 shared text anchors the page reads 3.73%, and 0.29% outside the text boxes (layout, images, paint); 1 declared unit family absent on both sides (0 / 0)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 59,
+      "alignedPct": 3.73,
+      "nonTextPct": 0.29,
+      "textMaskPct": 35.8,
+      "unitRowsOffByText": 0,
+      "unitFamiliesAbsent": 1,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:37:09.212Z"
+    }
+  },
+  "blogs-news-digestive-probiotic-10": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 55 shared text anchors the page reads 3.24%, and 0.21% outside the text boxes (layout, images, paint); 1 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01); 1 declared unit family absent on both sides (0 / 0)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 55,
+      "alignedPct": 3.24,
+      "nonTextPct": 0.21,
+      "textMaskPct": 33.2,
+      "unitRowsOffByText": 1,
+      "unitFamiliesAbsent": 1,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:37:10.179Z"
+    }
+  },
+  "blogs-news-enhance-your-digestive-wellness-with-these-4-probiotic-supplements": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 59 shared text anchors the page reads 3.62%, and 0.15% outside the text boxes (layout, images, paint); 1 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01); 1 declared unit family absent on both sides (0 / 0)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 59,
+      "alignedPct": 3.62,
+      "nonTextPct": 0.15,
+      "textMaskPct": 33.9,
+      "unitRowsOffByText": 1,
+      "unitFamiliesAbsent": 1,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:37:11.214Z"
+    }
+  },
+  "blogs-news-5-tips-for-a-better-sleep-this-summer": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 54 shared text anchors the page reads 2.91%, and 0.16% outside the text boxes (layout, images, paint); 1 declared unit family absent on both sides (0 / 0)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 54,
+      "alignedPct": 2.91,
+      "nonTextPct": 0.16,
+      "textMaskPct": 32.9,
+      "unitRowsOffByText": 0,
+      "unitFamiliesAbsent": 1,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:37:12.107Z"
+    }
+  },
+  "blogs-news-the-step-by-step-guide-for-your-daily-skincare-routine": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 56 shared text anchors the page reads 4.34%, and 0.51% outside the text boxes (layout, images, paint); 1 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 56,
+      "alignedPct": 4.34,
+      "nonTextPct": 0.51,
+      "textMaskPct": 43.6,
+      "unitRowsOffByText": 1,
+      "unitFamiliesAbsent": 0,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:37:13.217Z"
+    }
+  },
+  "blogs-news-smarter-better-health-every-day": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 55 shared text anchors the page reads 3.05%, and 0.16% outside the text boxes (layout, images, paint); 1 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01); 1 declared unit family absent on both sides (0 / 0)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 55,
+      "alignedPct": 3.05,
+      "nonTextPct": 0.16,
+      "textMaskPct": 32.5,
+      "unitRowsOffByText": 1,
+      "unitFamiliesAbsent": 1,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:37:14.186Z"
+    }
+  },
+  "blogs-news-beauty-food-and-vitamins": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 64 shared text anchors the page reads 3.69%, and 0.25% outside the text boxes (layout, images, paint); 1 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 64,
+      "alignedPct": 3.69,
+      "nonTextPct": 0.25,
+      "textMaskPct": 38.8,
+      "unitRowsOffByText": 1,
+      "unitFamiliesAbsent": 0,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:37:15.347Z"
+    }
+  },
+  "blogs-news-support-a-good-night-s-rest-with-sleep3-time-release-melatonin-gummies": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 67 shared text anchors the page reads 3.53%, and 0.15% outside the text boxes (layout, images, paint); 5 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01); 1 declared unit family absent on both sides (0 / 0)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 67,
+      "alignedPct": 3.53,
+      "nonTextPct": 0.15,
+      "textMaskPct": 35.8,
+      "unitRowsOffByText": 5,
+      "unitFamiliesAbsent": 1,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:37:16.442Z"
+    }
+  },
+  "blogs-news-beauty-tips-youll-thank-us-for-later": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 54 shared text anchors the page reads 3.43%, and 0.4% outside the text boxes (layout, images, paint); 1 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 54,
+      "alignedPct": 3.43,
+      "nonTextPct": 0.4,
+      "textMaskPct": 34.4,
+      "unitRowsOffByText": 1,
+      "unitFamiliesAbsent": 0,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:37:17.468Z"
+    }
+  },
+  "blogs-news-simple-heart-healthy-steps-for-you-and-your-sweetheart": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 59 shared text anchors the page reads 3.13%, and 0.27% outside the text boxes (layout, images, paint); 3 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01); 1 declared unit family absent on both sides (0 / 0)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 59,
+      "alignedPct": 3.13,
+      "nonTextPct": 0.27,
+      "textMaskPct": 34.5,
+      "unitRowsOffByText": 3,
+      "unitFamiliesAbsent": 1,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:37:18.472Z"
+    }
+  },
+  "blogs-news-healthy-living-tips-from-dorothy-hamill": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 64 shared text anchors the page reads 3.18%, and 0.34% outside the text boxes (layout, images, paint); 9 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 64,
+      "alignedPct": 3.18,
+      "nonTextPct": 0.34,
+      "textMaskPct": 35,
+      "unitRowsOffByText": 9,
+      "unitFamiliesAbsent": 0,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:37:19.673Z"
+    }
+  },
+  "blogs-news-your-guide-to-festival-prep": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 54 shared text anchors the page reads 3.7%, and 0.3% outside the text boxes (layout, images, paint); 1 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 54,
+      "alignedPct": 3.7,
+      "nonTextPct": 0.3,
+      "textMaskPct": 37.8,
+      "unitRowsOffByText": 1,
+      "unitFamiliesAbsent": 0,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:37:20.697Z"
+    }
+  },
+  "blogs-news-eye-cream": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 57 shared text anchors the page reads 2.69%, and 0.96% outside the text boxes (layout, images, paint); 1 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01); 1 declared unit family absent on both sides (0 / 0)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 57,
+      "alignedPct": 2.69,
+      "nonTextPct": 0.96,
+      "textMaskPct": 27.7,
+      "unitRowsOffByText": 1,
+      "unitFamiliesAbsent": 1,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:37:21.465Z"
+    }
+  },
+  "blogs-news-5-tips-to-reset-your-beauty-routine-this-winter": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 57 shared text anchors the page reads 3.66%, and 0.29% outside the text boxes (layout, images, paint); 2 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01); 1 declared unit family absent on both sides (0 / 0)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 57,
+      "alignedPct": 3.66,
+      "nonTextPct": 0.29,
+      "textMaskPct": 34.7,
+      "unitRowsOffByText": 2,
+      "unitFamiliesAbsent": 1,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:37:22.432Z"
+    }
+  },
+  "blogs-news-10-tips-for-when-you-find-out-you-are-pregnant": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 57 shared text anchors the page reads 3.53%, and 0.15% outside the text boxes (layout, images, paint); 1 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 57,
+      "alignedPct": 3.53,
+      "nonTextPct": 0.15,
+      "textMaskPct": 39.3,
+      "unitRowsOffByText": 1,
+      "unitFamiliesAbsent": 0,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:37:23.490Z"
+    }
+  },
+  "blogs-news-exploring-heart-health-omega-3-supplements-beyond-fish-oil": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 72 shared text anchors the page reads 3.65%, and 0.15% outside the text boxes (layout, images, paint); 4 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01); 1 declared unit family absent on both sides (0 / 0); content-presence false red (#87 granularity): the link \"Nature’s Bounty® Omega-3 Softgels\" → /products/plant-based-omega-3 is served verbatim (source splits the anchor text across a <span> mid-word, \"S|oftgels\")",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 72,
+      "alignedPct": 3.65,
+      "nonTextPct": 0.15,
+      "textMaskPct": 37.6,
+      "unitRowsOffByText": 4,
+      "unitFamiliesAbsent": 1,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:37:24.615Z"
+    }
+  },
+  "blogs-news-what-products-do-i-need-new-year-must-haves": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 47 shared text anchors the page reads 3.75%, and 0.31% outside the text boxes (layout, images, paint); 1 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01); 1 declared unit family absent on both sides (0 / 0)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 47,
+      "alignedPct": 3.75,
+      "nonTextPct": 0.31,
+      "textMaskPct": 36.4,
+      "unitRowsOffByText": 1,
+      "unitFamiliesAbsent": 1,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:37:25.581Z"
+    }
+  },
+  "blogs-news-staying-healthy-as-you-age-tips-to-help-you-grow-older-with-confidence": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 78 shared text anchors the page reads 4.01%, and 0.17% outside the text boxes (layout, images, paint); 1 declared unit family absent on both sides (0 / 0)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 78,
+      "alignedPct": 4.01,
+      "nonTextPct": 0.17,
+      "textMaskPct": 38.3,
+      "unitRowsOffByText": 0,
+      "unitFamiliesAbsent": 1,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:37:26.936Z"
+    }
+  },
+  "blogs-news-support-year-round-health-with-wellness-tips-for-every-season": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 68 shared text anchors the page reads 4.08%, and 0.24% outside the text boxes (layout, images, paint); 2 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01); 1 declared unit family absent on both sides (0 / 0)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 68,
+      "alignedPct": 4.08,
+      "nonTextPct": 0.24,
+      "textMaskPct": 37.5,
+      "unitRowsOffByText": 2,
+      "unitFamiliesAbsent": 1,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:37:28.224Z"
+    }
+  },
+  "blogs-news-support-thicker-fuller-hair-with-our-new-supplement-for-hair-growth": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 56 shared text anchors the page reads 3.48%, and 0.51% outside the text boxes (layout, images, paint); 1 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01); 1 declared unit family absent on both sides (0 / 0)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 56,
+      "alignedPct": 3.48,
+      "nonTextPct": 0.51,
+      "textMaskPct": 34.7,
+      "unitRowsOffByText": 1,
+      "unitFamiliesAbsent": 1,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:37:29.255Z"
+    }
+  },
+  "blogs-news-what-is-berberine-get-the-facts-behind-this-popular-supplement": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 55 shared text anchors the page reads 3.33%, and 0.34% outside the text boxes (layout, images, paint); 1 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01); 1 declared unit family absent on both sides (0 / 0)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 55,
+      "alignedPct": 3.33,
+      "nonTextPct": 0.34,
+      "textMaskPct": 33.6,
+      "unitRowsOffByText": 1,
+      "unitFamiliesAbsent": 1,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:37:30.185Z"
+    }
+  },
+  "blogs-news-summer-tips-for-a-healthy-heart": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 54 shared text anchors the page reads 2.98%, and 0.3% outside the text boxes (layout, images, paint); 3 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01); 1 declared unit family absent on both sides (0 / 0)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 54,
+      "alignedPct": 2.98,
+      "nonTextPct": 0.3,
+      "textMaskPct": 33.3,
+      "unitRowsOffByText": 3,
+      "unitFamiliesAbsent": 1,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:37:31.103Z"
+    }
+  },
+  "blogs-news-10-popular-foods-that-can-nourish-hair": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 63 shared text anchors the page reads 3.22%, and 0.25% outside the text boxes (layout, images, paint); 1 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01); 1 declared unit family absent on both sides (0 / 0)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 63,
+      "alignedPct": 3.22,
+      "nonTextPct": 0.25,
+      "textMaskPct": 32.4,
+      "unitRowsOffByText": 1,
+      "unitFamiliesAbsent": 1,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:37:32.182Z"
+    }
+  },
+  "blogs-news-top-5-holiday-self-care-tips": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 52 shared text anchors the page reads 3.57%, and 0.17% outside the text boxes (layout, images, paint); 3 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01); 1 declared unit family absent on both sides (0 / 0)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 52,
+      "alignedPct": 3.57,
+      "nonTextPct": 0.17,
+      "textMaskPct": 35.8,
+      "unitRowsOffByText": 3,
+      "unitFamiliesAbsent": 1,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:37:33.213Z"
+    }
+  },
+  "blogs-news-probiotic-gummies": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 48 shared text anchors the page reads 2.59%, and 0.33% outside the text boxes (layout, images, paint); 1 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 48,
+      "alignedPct": 2.59,
+      "nonTextPct": 0.33,
+      "textMaskPct": 30.8,
+      "unitRowsOffByText": 1,
+      "unitFamiliesAbsent": 0,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:37:34.129Z"
+    }
+  },
+  "blogs-news-trust-us-youre-always-better-off-healthy": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 47 shared text anchors the page reads 2.76%, and 0.2% outside the text boxes (layout, images, paint); 1 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01); 1 declared unit family absent on both sides (0 / 0)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 47,
+      "alignedPct": 2.76,
+      "nonTextPct": 0.2,
+      "textMaskPct": 33.1,
+      "unitRowsOffByText": 1,
+      "unitFamiliesAbsent": 1,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:37:35.026Z"
+    }
+  },
+  "blogs-news-help-manage-your-weight-with-metabolism-booster": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 64 shared text anchors the page reads 3.34%, and 0.16% outside the text boxes (layout, images, paint); 1 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01); 1 declared unit family absent on both sides (0 / 0); content-presence false red (#87 granularity): the link \"Learn more about … Metabolism Booster.\" → /products/metabolism-booster is served verbatim (source splits the anchor text across a <span> mid-word, \"Boost|er\")",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 64,
+      "alignedPct": 3.34,
+      "nonTextPct": 0.16,
+      "textMaskPct": 35.3,
+      "unitRowsOffByText": 1,
+      "unitFamiliesAbsent": 1,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:37:36.093Z"
+    }
+  },
+  "blogs-news-womens-multivitamin-more-than-just-a-great-taste": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 53 shared text anchors the page reads 3.13%, and 0.33% outside the text boxes (layout, images, paint); 1 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01); 1 declared unit family absent on both sides (0 / 0)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 53,
+      "alignedPct": 3.13,
+      "nonTextPct": 0.33,
+      "textMaskPct": 34,
+      "unitRowsOffByText": 1,
+      "unitFamiliesAbsent": 1,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:37:36.964Z"
+    }
+  },
+  "blogs-news-helpful-tips-to-reduce-stress-this-spring": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 52 shared text anchors the page reads 3.16%, and 0.19% outside the text boxes (layout, images, paint); 4 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01); 1 declared unit family absent on both sides (0 / 0)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 52,
+      "alignedPct": 3.16,
+      "nonTextPct": 0.19,
+      "textMaskPct": 33.7,
+      "unitRowsOffByText": 4,
+      "unitFamiliesAbsent": 1,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:37:37.916Z"
+    }
+  },
+  "blogs-news-over-40-years-of-trusted-quality": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 49 shared text anchors the page reads 3.29%, and 0.3% outside the text boxes (layout, images, paint); 1 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01); 1 declared unit family absent on both sides (0 / 0)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 49,
+      "alignedPct": 3.29,
+      "nonTextPct": 0.3,
+      "textMaskPct": 32.4,
+      "unitRowsOffByText": 1,
+      "unitFamiliesAbsent": 1,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:37:38.756Z"
+    }
+  },
+  "blogs-news-probiotics-for-everyday-health": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 64 shared text anchors the page reads 2.09%, and 0.1% outside the text boxes (layout, images, paint); 1 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 64,
+      "alignedPct": 2.09,
+      "nonTextPct": 0.1,
+      "textMaskPct": 30.1,
+      "unitRowsOffByText": 1,
+      "unitFamiliesAbsent": 0,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:37:39.951Z"
+    }
+  },
+  "blogs-news-what-are-probiotics": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 49 shared text anchors the page reads 3.11%, and 0.19% outside the text boxes (layout, images, paint); 1 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 49,
+      "alignedPct": 3.11,
+      "nonTextPct": 0.19,
+      "textMaskPct": 34.4,
+      "unitRowsOffByText": 1,
+      "unitFamiliesAbsent": 0,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:37:40.910Z"
+    }
+  },
+  "blogs-news-q-a-2-key-steps-in-reducing-abdominal-fat-a-conversation-with-nutrition-expert-maile-combs-ms": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 66 shared text anchors the page reads 4.2%, and 0.19% outside the text boxes (layout, images, paint); 1 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01); 1 declared unit family absent on both sides (0 / 0)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 66,
+      "alignedPct": 4.2,
+      "nonTextPct": 0.19,
+      "textMaskPct": 36,
+      "unitRowsOffByText": 1,
+      "unitFamiliesAbsent": 1,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:37:42.066Z"
+    }
+  },
+  "blogs-news-feel-full-again-the-science-behind-hair-growth-with-nutrition-expert-jaclyn-safrath": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 67 shared text anchors the page reads 3.84%, and 0.24% outside the text boxes (layout, images, paint); 1 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01); 1 declared unit family absent on both sides (0 / 0)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 67,
+      "alignedPct": 3.84,
+      "nonTextPct": 0.24,
+      "textMaskPct": 35.8,
+      "unitRowsOffByText": 1,
+      "unitFamiliesAbsent": 1,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:37:43.261Z"
+    }
+  },
+  "blogs-news-build-beauty-from-within-your-2024-vitamin-routine": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 54 shared text anchors the page reads 3.88%, and 0.27% outside the text boxes (layout, images, paint); 2 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01); 1 declared unit family absent on both sides (0 / 0)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 54,
+      "alignedPct": 3.88,
+      "nonTextPct": 0.27,
+      "textMaskPct": 36.3,
+      "unitRowsOffByText": 2,
+      "unitFamiliesAbsent": 1,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:37:44.250Z"
+    }
+  },
+  "blogs-news-healthy-summer-travel-tips": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 47 shared text anchors the page reads 3.1%, and 0.29% outside the text boxes (layout, images, paint); 1 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01); 1 declared unit family absent on both sides (0 / 0)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 47,
+      "alignedPct": 3.1,
+      "nonTextPct": 0.29,
+      "textMaskPct": 35.5,
+      "unitRowsOffByText": 1,
+      "unitFamiliesAbsent": 1,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:37:45.179Z"
+    }
+  },
+  "blogs-news-fall-into-an-active-autumn": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 52 shared text anchors the page reads 3.67%, and 0.25% outside the text boxes (layout, images, paint); 1 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 52,
+      "alignedPct": 3.67,
+      "nonTextPct": 0.25,
+      "textMaskPct": 39.4,
+      "unitRowsOffByText": 1,
+      "unitFamiliesAbsent": 0,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:37:46.206Z"
+    }
+  },
+  "blogs-news-celebrate-women-s-history-month-with-the-inspiring-women-at-nature-s-bounty-c2-ae": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 65 shared text anchors the page reads 3.5%, and 0.19% outside the text boxes (layout, images, paint); 3 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01); 1 declared unit family absent on both sides (0 / 0)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 65,
+      "alignedPct": 3.5,
+      "nonTextPct": 0.19,
+      "textMaskPct": 33.4,
+      "unitRowsOffByText": 3,
+      "unitFamiliesAbsent": 1,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:37:47.308Z"
+    }
+  },
+  "blogs-news-the-top-10-reasons-to-exercise-regularly": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 46 shared text anchors the page reads 3.18%, and 0.19% outside the text boxes (layout, images, paint); 1 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01); 1 declared unit family absent on both sides (0 / 0)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 46,
+      "alignedPct": 3.18,
+      "nonTextPct": 0.19,
+      "textMaskPct": 38,
+      "unitRowsOffByText": 1,
+      "unitFamiliesAbsent": 1,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:37:48.352Z"
+    }
+  },
+  "blogs-news-importance-of-sleep": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 49 shared text anchors the page reads 3.31%, and 0.25% outside the text boxes (layout, images, paint); 1 declared unit family absent on both sides (0 / 0)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 49,
+      "alignedPct": 3.31,
+      "nonTextPct": 0.25,
+      "textMaskPct": 34.3,
+      "unitRowsOffByText": 0,
+      "unitFamiliesAbsent": 1,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:37:49.272Z"
+    }
+  },
+  "blogs-news-surprising-benefits-of-probiotics": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 47 shared text anchors the page reads 2.92%, and 0.2% outside the text boxes (layout, images, paint); 1 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01); 1 declared unit family absent on both sides (0 / 0)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 47,
+      "alignedPct": 2.92,
+      "nonTextPct": 0.2,
+      "textMaskPct": 33.6,
+      "unitRowsOffByText": 1,
+      "unitFamiliesAbsent": 1,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:37:50.113Z"
+    }
+  },
+  "blogs-news-gut-check-exploring-the-power-of-probiotics-with-nature-s-bounty-c2-ae": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 64 shared text anchors the page reads 3.86%, and 0.22% outside the text boxes (layout, images, paint); 2 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01); 1 declared unit family absent on both sides (0 / 0)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 64,
+      "alignedPct": 3.86,
+      "nonTextPct": 0.22,
+      "textMaskPct": 37,
+      "unitRowsOffByText": 2,
+      "unitFamiliesAbsent": 1,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:37:51.297Z"
+    }
+  },
+  "blogs-news-tips-for-healthy-digestion-and-quality-sleep": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 45 shared text anchors the page reads 3.23%, and 0.17% outside the text boxes (layout, images, paint); 1 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01); 1 declared unit family absent on both sides (0 / 0)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 45,
+      "alignedPct": 3.23,
+      "nonTextPct": 0.17,
+      "textMaskPct": 36.6,
+      "unitRowsOffByText": 1,
+      "unitFamiliesAbsent": 1,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:37:52.261Z"
+    }
+  },
+  "blogs-news-the-kroger-wellness-festival-is-back-september-22-23-2023": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 66 shared text anchors the page reads 3.73%, and 0.31% outside the text boxes (layout, images, paint); 2 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01); 1 declared unit family absent on both sides (0 / 0)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 66,
+      "alignedPct": 3.73,
+      "nonTextPct": 0.31,
+      "textMaskPct": 35.8,
+      "unitRowsOffByText": 2,
+      "unitFamiliesAbsent": 1,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:37:53.370Z"
+    }
+  },
+  "blogs-news-support-immune-health-during-back-to-school-season-tips-for-the-whole-family": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 67 shared text anchors the page reads 3.82%, and 0.26% outside the text boxes (layout, images, paint); 2 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01); 1 declared unit family absent on both sides (0 / 0)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 67,
+      "alignedPct": 3.82,
+      "nonTextPct": 0.26,
+      "textMaskPct": 36.2,
+      "unitRowsOffByText": 2,
+      "unitFamiliesAbsent": 1,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:37:54.506Z"
+    }
+  },
+  "blogs-news-partnering-with-susan-g-komen-to-end-breast-cancer-forever": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 74 shared text anchors the page reads 3.52%, and 0.28% outside the text boxes (layout, images, paint); 2 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01); 1 declared unit family absent on both sides (0 / 0)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 74,
+      "alignedPct": 3.52,
+      "nonTextPct": 0.28,
+      "textMaskPct": 33.8,
+      "unitRowsOffByText": 2,
+      "unitFamiliesAbsent": 1,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:37:55.695Z"
+    }
+  },
+  "blogs-news-quick-fix-beauty-tips": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 55 shared text anchors the page reads 3.57%, and 0.55% outside the text boxes (layout, images, paint); 1 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 55,
+      "alignedPct": 3.57,
+      "nonTextPct": 0.55,
+      "textMaskPct": 36.8,
+      "unitRowsOffByText": 1,
+      "unitFamiliesAbsent": 0,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:37:56.786Z"
+    }
+  },
+  "blogs-news-make-better-food-swaps-this-season": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 47 shared text anchors the page reads 2.87%, and 0.17% outside the text boxes (layout, images, paint); 1 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01); 1 declared unit family absent on both sides (0 / 0)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 47,
+      "alignedPct": 2.87,
+      "nonTextPct": 0.17,
+      "textMaskPct": 35.9,
+      "unitRowsOffByText": 1,
+      "unitFamiliesAbsent": 1,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:37:57.748Z"
+    }
+  },
+  "blogs-news-heart-health": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 62 shared text anchors the page reads 3.18%, and 0.28% outside the text boxes (layout, images, paint); 3 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01); 1 Bazaarvoice ratings button(s) not delivered (dynamic-features row 8: static snapshot); Bazaarvoice ratings summary button (dynamics row 8, interim static snapshot, assumption A4): the five captured stars are served in place, within 4 px, as a static row, not the vendor's interactive button",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 62,
+      "alignedPct": 3.18,
+      "nonTextPct": 0.28,
+      "textMaskPct": 34,
+      "unitRowsOffByText": 3,
+      "unitFamiliesAbsent": 0,
+      "unitRowsMissingAllowed": 1,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:37:58.732Z"
+    }
+  },
+  "blogs-news-5-reasons-to-try-tropical-citrus-hair-skin-and-nails-gummies": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 57 shared text anchors the page reads 3.52%, and 0.36% outside the text boxes (layout, images, paint); 1 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 57,
+      "alignedPct": 3.52,
+      "nonTextPct": 0.36,
+      "textMaskPct": 35.5,
+      "unitRowsOffByText": 1,
+      "unitFamiliesAbsent": 0,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:37:59.762Z"
+    }
+  },
+  "blogs-news-your-go-to-guide-for-festival-ready-hair": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 53 shared text anchors the page reads 3.74%, and 0.32% outside the text boxes (layout, images, paint); 2 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 53,
+      "alignedPct": 3.74,
+      "nonTextPct": 0.32,
+      "textMaskPct": 40.7,
+      "unitRowsOffByText": 2,
+      "unitFamiliesAbsent": 0,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:38:00.881Z"
+    }
+  },
+  "blogs-news-supplement-your-beauty-routine-with-hair-skin-nails": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 47 shared text anchors the page reads 2.54%, and 0.26% outside the text boxes (layout, images, paint); 1 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 47,
+      "alignedPct": 2.54,
+      "nonTextPct": 0.26,
+      "textMaskPct": 30.9,
+      "unitRowsOffByText": 1,
+      "unitFamiliesAbsent": 0,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:38:01.896Z"
+    }
+  },
+  "blogs-news-refresh-your-beauty-routine-this-spring": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 64 shared text anchors the page reads 3.26%, and 0.25% outside the text boxes (layout, images, paint); 1 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 64,
+      "alignedPct": 3.26,
+      "nonTextPct": 0.25,
+      "textMaskPct": 37,
+      "unitRowsOffByText": 1,
+      "unitFamiliesAbsent": 0,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:38:03.024Z"
+    }
+  },
+  "blogs-news-one-week-makeup-detox": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 58 shared text anchors the page reads 3.55%, and 0.28% outside the text boxes (layout, images, paint); 1 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 58,
+      "alignedPct": 3.55,
+      "nonTextPct": 0.28,
+      "textMaskPct": 39.3,
+      "unitRowsOffByText": 1,
+      "unitFamiliesAbsent": 0,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:38:04.133Z"
+    }
+  },
+  "blogs-news-natures-bounty-optimal-solutions-wanderlust": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 45 shared text anchors the page reads 2.58%, and 0.17% outside the text boxes (layout, images, paint); 1 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 45,
+      "alignedPct": 2.58,
+      "nonTextPct": 0.17,
+      "textMaskPct": 31.5,
+      "unitRowsOffByText": 1,
+      "unitFamiliesAbsent": 0,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:38:05.126Z"
+    }
+  },
+  "blogs-news-how-much-sleep-do-you-really-need": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 52 shared text anchors the page reads 3.73%, and 0.33% outside the text boxes (layout, images, paint); 5 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01); 1 declared unit family absent on both sides (0 / 0)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 52,
+      "alignedPct": 3.73,
+      "nonTextPct": 0.33,
+      "textMaskPct": 35.7,
+      "unitRowsOffByText": 5,
+      "unitFamiliesAbsent": 1,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:38:06.142Z"
+    }
+  },
+  "blogs-news-hot-looks-for-summer-2018": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 55 shared text anchors the page reads 3.03%, and 0.31% outside the text boxes (layout, images, paint); 1 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 55,
+      "alignedPct": 3.03,
+      "nonTextPct": 0.31,
+      "textMaskPct": 35.6,
+      "unitRowsOffByText": 1,
+      "unitFamiliesAbsent": 0,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:38:07.277Z"
+    }
+  },
+  "blogs-news-hot-hairstyles-to-try-this-fall": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 50 shared text anchors the page reads 3.46%, and 0.29% outside the text boxes (layout, images, paint); 1 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01); 1 declared unit family absent on both sides (0 / 0)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 50,
+      "alignedPct": 3.46,
+      "nonTextPct": 0.29,
+      "textMaskPct": 36.8,
+      "unitRowsOffByText": 1,
+      "unitFamiliesAbsent": 1,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:38:08.320Z"
+    }
+  },
+  "blogs-news-healthy-holiday-hacks": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 60 shared text anchors the page reads 3.18%, and 0.2% outside the text boxes (layout, images, paint); 1 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 60,
+      "alignedPct": 3.18,
+      "nonTextPct": 0.2,
+      "textMaskPct": 34.2,
+      "unitRowsOffByText": 1,
+      "unitFamiliesAbsent": 0,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:38:09.352Z"
+    }
+  },
+  "blogs-news-digest-these-healthy-eating-habits": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 61 shared text anchors the page reads 3.27%, and 0.18% outside the text boxes (layout, images, paint); 1 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 61,
+      "alignedPct": 3.27,
+      "nonTextPct": 0.18,
+      "textMaskPct": 36.1,
+      "unitRowsOffByText": 1,
+      "unitFamiliesAbsent": 0,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:38:10.411Z"
+    }
+  },
+  "blogs-news-benefits-of-fish-oil": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 48 shared text anchors the page reads 2.88%, and 0.18% outside the text boxes (layout, images, paint); 1 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01); 1 declared unit family absent on both sides (0 / 0)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 48,
+      "alignedPct": 2.88,
+      "nonTextPct": 0.18,
+      "textMaskPct": 35,
+      "unitRowsOffByText": 1,
+      "unitFamiliesAbsent": 1,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:38:11.278Z"
+    }
+  },
+  "blogs-news-give-your-hair-skin-and-nails-a-healthy-foundation-to-shine": {
+    "verdict": "PASS (documented override)",
+    "reason": "register R-01 (licensed sofia-pro → metric-matched Figtree): glyph and line-wrap deltas carry the number; re-aligned on 52 shared text anchors the page reads 2.52%, and 0.23% outside the text boxes (layout, images, paint); 1 repeated-unit row(s) off by text width or a re-wrapped line above only (R-01)",
+    "evidence": {
+      "tool": "stardust/rollout/tools/r01-align.mjs",
+      "anchors": 52,
+      "alignedPct": 2.52,
+      "nonTextPct": 0.23,
+      "textMaskPct": 30.9,
+      "unitRowsOffByText": 1,
+      "unitFamiliesAbsent": 0,
+      "unitRowsMissingAllowed": 0,
+      "unitRowsJoined": 0,
+      "at": "2026-11-11T14:38:12.306Z"
+    }
   }
 }

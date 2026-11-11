@@ -1,14 +1,14 @@
 {
  "_provenance": {
   "writtenBy": "content-presence.mjs",
-  "at": "2026-11-11T12:45:10.371Z",
+  "at": "2026-11-11T16:06:42.233Z",
   "width": 360,
   "variable": [],
   "tier": "chrome"
  },
  "origin": {
   "url": "https://naturesbounty.com/blogs/news/support-immune-health-during-back-to-school-season-tips-for-the-whole-family",
-  "at": "2026-11-11T12:44:40.305Z",
+  "at": "2026-11-11T16:06:11.778Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 11714,
@@ -21,26 +21,12 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": -171,
+    "x": -115,
     "y": 6,
     "w": 314,
     "h": 20,
     "text": "supplementing the knowledge gap in women's health",
     "href": "/pages/womens-wellness"
-   },
-   {
-    "kind": "link",
-    "state": "visible",
-    "variable": false,
-    "inRoot": false,
-    "inChrome": true,
-    "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 343,
-    "y": 6,
-    "w": 157,
-    "h": 20,
-    "text": "shop our favorite products",
-    "href": "/collections/favorites"
    },
    {
     "kind": "link",
@@ -1993,39 +1979,18 @@
     "clamped": 0,
     "collapsed": 0,
     "scrollHidden": 0,
-    "horizontal": 2,
-    "offPage": 177,
+    "horizontal": 0,
+    "offPage": 179,
     "textNodes": 202,
     "controls": 157,
     "total": 0
    },
-   "groups": [
-    {
-     "kind": "CONTROL X-CUT",
-     "advisory": true,
-     "n": 1,
-     "clipper": "div.slick-list.draggable",
-     "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
-     "text": "shop our favorite products",
-     "cutMin": 139,
-     "cutMax": 139
-    },
-    {
-     "kind": "TEXT X-CUT",
-     "advisory": true,
-     "n": 1,
-     "clipper": "div.slick-list.draggable",
-     "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
-     "text": "shop our favorite products",
-     "cutMin": 139,
-     "cutMax": 139
-    }
-   ]
+   "groups": []
   }
  },
  "eds": {
   "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/support-immune-health-during-back-to-school-season-tips-for-the-whole-family",
-  "at": "2026-11-11T12:45:10.244Z",
+  "at": "2026-11-11T16:06:42.108Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 11697,
@@ -2038,7 +2003,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 121,
+    "x": 115,
     "y": 9,
     "w": 295,
     "h": 14,
@@ -3865,8 +3830,8 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 69,
-     "cutMax": 69
+     "cutMin": 63,
+     "cutMax": 63
     },
     {
      "kind": "TEXT X-CUT",
@@ -3875,22 +3840,22 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 69,
-     "cutMax": 69
+     "cutMin": 63,
+     "cutMax": 63
     }
    ],
    "findings": [
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 69,
+     "cut": 63,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 119,
+      "l": 113,
       "t": 9,
-      "r": 414,
+      "r": 408,
       "b": 23,
       "w": 295,
       "h": 14
@@ -3907,14 +3872,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 69,
+     "cut": 63,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 119,
+      "l": 113,
       "t": 9,
-      "r": 414,
+      "r": 408,
       "b": 23,
       "w": 295,
       "h": 14
@@ -4222,15 +4187,9 @@
  "textBoxes": {
   "origin": [
    {
-    "x": -173,
+    "x": -116,
     "y": 6,
     "w": 314,
-    "h": 19
-   },
-   {
-    "x": 341,
-    "y": 6,
-    "w": 157,
     "h": 19
    },
    {
@@ -5940,7 +5899,7 @@
   ],
   "eds": [
    {
-    "x": 119,
+    "x": 113,
     "y": 9,
     "w": 295,
     "h": 14

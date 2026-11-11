@@ -1,14 +1,14 @@
 {
  "_provenance": {
   "writtenBy": "content-presence.mjs",
-  "at": "2026-11-11T13:20:12.636Z",
+  "at": "2026-11-11T16:01:52.366Z",
   "width": 360,
   "variable": [],
   "tier": "chrome"
  },
  "origin": {
   "url": "https://naturesbounty.com/blogs/news/the-step-by-step-guide-for-your-daily-skincare-routine",
-  "at": "2026-11-11T13:19:41.432Z",
+  "at": "2026-11-11T16:01:20.252Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 12576,
@@ -1860,8 +1860,8 @@
      "clipper": "div.slick-list.draggable",
      "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
      "text": "shop our favorite products",
-     "cutMin": 105,
-     "cutMax": 105
+     "cutMin": 104,
+     "cutMax": 104
     },
     {
      "kind": "TEXT X-CUT",
@@ -1870,15 +1870,15 @@
      "clipper": "div.slick-list.draggable",
      "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
      "text": "shop our favorite products",
-     "cutMin": 105,
-     "cutMax": 105
+     "cutMin": 104,
+     "cutMax": 104
     }
    ]
   }
  },
  "eds": {
   "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/the-step-by-step-guide-for-your-daily-skincare-routine",
-  "at": "2026-11-11T13:20:12.505Z",
+  "at": "2026-11-11T16:01:52.235Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 12708,
@@ -1891,7 +1891,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 79,
+    "x": 65,
     "y": 9,
     "w": 295,
     "h": 14,
@@ -3697,8 +3697,8 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 27,
-     "cutMax": 27
+     "cutMin": 12,
+     "cutMax": 12
     },
     {
      "kind": "TEXT X-CUT",
@@ -3707,22 +3707,22 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 27,
-     "cutMax": 27
+     "cutMin": 12,
+     "cutMax": 12
     }
    ],
    "findings": [
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 27,
+     "cut": 12,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 77,
+      "l": 62,
       "t": 9,
-      "r": 372,
+      "r": 357,
       "b": 23,
       "w": 295,
       "h": 14
@@ -3739,14 +3739,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 27,
+     "cut": 12,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 77,
+      "l": 62,
       "t": 9,
-      "r": 372,
+      "r": 357,
       "b": 23,
       "w": 295,
       "h": 14
@@ -4007,13 +4007,13 @@
  "textBoxes": {
   "origin": [
    {
-    "x": -206,
+    "x": -207,
     "y": 6,
     "w": 314,
     "h": 19
    },
    {
-    "x": 308,
+    "x": 307,
     "y": 6,
     "w": 157,
     "h": 19
@@ -5707,7 +5707,7 @@
   ],
   "eds": [
    {
-    "x": 77,
+    "x": 62,
     "y": 9,
     "w": 295,
     "h": 14

@@ -1,14 +1,14 @@
 {
  "_provenance": {
   "writtenBy": "content-presence.mjs",
-  "at": "2026-11-11T12:25:57.201Z",
+  "at": "2026-11-11T16:18:01.267Z",
   "width": 360,
   "variable": [],
   "tier": "chrome"
  },
  "origin": {
   "url": "https://naturesbounty.com/blogs/news/feel-full-again-the-science-behind-hair-growth-with-nutrition-expert-jaclyn-safrath",
-  "at": "2026-11-11T12:25:26.533Z",
+  "at": "2026-11-11T16:17:29.879Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 12027,
@@ -21,12 +21,26 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": -120,
+    "x": -161,
     "y": 6,
     "w": 314,
     "h": 20,
     "text": "supplementing the knowledge gap in women's health",
     "href": "/pages/womens-wellness"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
+    "x": 353,
+    "y": 6,
+    "w": 157,
+    "h": 20,
+    "text": "shop our favorite products",
+    "href": "/collections/favorites"
    },
    {
     "kind": "link",
@@ -1898,18 +1912,39 @@
     "clamped": 0,
     "collapsed": 0,
     "scrollHidden": 0,
-    "horizontal": 0,
-    "offPage": 179,
+    "horizontal": 2,
+    "offPage": 177,
     "textNodes": 204,
     "controls": 159,
     "total": 0
    },
-   "groups": []
+   "groups": [
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.slick-list.draggable",
+     "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
+     "text": "shop our favorite products",
+     "cutMin": 148,
+     "cutMax": 148
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.slick-list.draggable",
+     "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
+     "text": "shop our favorite products",
+     "cutMin": 148,
+     "cutMax": 148
+    }
+   ]
   }
  },
  "eds": {
   "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/feel-full-again-the-science-behind-hair-growth-with-nutrition-expert-jaclyn-safrath",
-  "at": "2026-11-11T12:25:57.031Z",
+  "at": "2026-11-11T16:18:01.130Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 12074,
@@ -1922,7 +1957,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 102,
+    "x": 86,
     "y": 9,
     "w": 295,
     "h": 14,
@@ -3772,8 +3807,8 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 49,
-     "cutMax": 49
+     "cutMin": 33,
+     "cutMax": 33
     },
     {
      "kind": "TEXT X-CUT",
@@ -3782,22 +3817,22 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 49,
-     "cutMax": 49
+     "cutMin": 33,
+     "cutMax": 33
     }
    ],
    "findings": [
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 49,
+     "cut": 33,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 99,
+      "l": 84,
       "t": 9,
-      "r": 394,
+      "r": 378,
       "b": 23,
       "w": 295,
       "h": 14
@@ -3814,14 +3849,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 49,
+     "cut": 33,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 99,
+      "l": 84,
       "t": 9,
-      "r": 394,
+      "r": 378,
       "b": 23,
       "w": 295,
       "h": 14
@@ -4041,9 +4076,15 @@
  "textBoxes": {
   "origin": [
    {
-    "x": -121,
+    "x": -163,
     "y": 6,
     "w": 314,
+    "h": 19
+   },
+   {
+    "x": 351,
+    "y": 6,
+    "w": 157,
     "h": 19
    },
    {
@@ -5795,7 +5836,7 @@
   ],
   "eds": [
    {
-    "x": 99,
+    "x": 84,
     "y": 9,
     "w": 295,
     "h": 14

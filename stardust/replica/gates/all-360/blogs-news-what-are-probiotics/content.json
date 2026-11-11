@@ -1,14 +1,14 @@
 {
  "_provenance": {
   "writtenBy": "content-presence.mjs",
-  "at": "2026-11-11T12:23:58.951Z",
+  "at": "2026-11-11T16:14:51.880Z",
   "width": 360,
   "variable": [],
   "tier": "chrome"
  },
  "origin": {
   "url": "https://naturesbounty.com/blogs/news/what-are-probiotics",
-  "at": "2026-11-11T12:23:31.946Z",
+  "at": "2026-11-11T16:14:24.296Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 9322,
@@ -21,7 +21,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": -66,
+    "x": -6,
     "y": 6,
     "w": 314,
     "h": 20,
@@ -1505,7 +1505,7 @@
  },
  "eds": {
   "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/what-are-probiotics",
-  "at": "2026-11-11T12:23:58.844Z",
+  "at": "2026-11-11T16:14:51.757Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 9423,
@@ -1518,7 +1518,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": -187,
+    "x": -194,
     "y": 9,
     "w": 202,
     "h": 14,
@@ -1532,7 +1532,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 215,
+    "x": 207,
     "y": 9,
     "w": 295,
     "h": 14,
@@ -3093,8 +3093,8 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "grow thicker, fuller hair in 3 months*",
-     "cutMin": 163,
-     "cutMax": 188
+     "cutMin": 156,
+     "cutMax": 196
     },
     {
      "kind": "TEXT X-CUT",
@@ -3103,22 +3103,22 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "grow thicker, fuller hair in 3 months*",
-     "cutMin": 163,
-     "cutMax": 188
+     "cutMin": 156,
+     "cutMax": 196
     }
    ],
    "findings": [
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 188,
+     "cut": 196,
      "path": "div.announce-track > ul > li > a",
      "text": "grow thicker, fuller hair in 3 months*",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -188,
+      "l": -196,
       "t": 9,
-      "r": 14,
+      "r": 6,
       "b": 23,
       "w": 202,
       "h": 14
@@ -3135,14 +3135,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 188,
+     "cut": 196,
      "path": "div.announce-track > ul > li > a",
      "text": "grow thicker, fuller hair in 3 months*",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -188,
+      "l": -196,
       "t": 9,
-      "r": 14,
+      "r": 6,
       "b": 23,
       "w": 202,
       "h": 14
@@ -3160,14 +3160,14 @@
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 163,
+     "cut": 156,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 214,
+      "l": 206,
       "t": 9,
-      "r": 508,
+      "r": 501,
       "b": 23,
       "w": 295,
       "h": 14
@@ -3184,14 +3184,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 163,
+     "cut": 156,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 214,
+      "l": 206,
       "t": 9,
-      "r": 508,
+      "r": 501,
       "b": 23,
       "w": 295,
       "h": 14
@@ -3445,7 +3445,7 @@
  "textBoxes": {
   "origin": [
    {
-    "x": -67,
+    "x": -8,
     "y": 6,
     "w": 314,
     "h": 19
@@ -4533,13 +4533,13 @@
   ],
   "eds": [
    {
-    "x": -188,
+    "x": -196,
     "y": 9,
     "w": 202,
     "h": 14
    },
    {
-    "x": 214,
+    "x": 206,
     "y": 9,
     "w": 295,
     "h": 14

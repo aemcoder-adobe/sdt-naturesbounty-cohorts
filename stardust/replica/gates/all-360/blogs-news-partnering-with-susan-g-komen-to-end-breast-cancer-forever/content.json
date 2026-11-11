@@ -1,14 +1,14 @@
 {
  "_provenance": {
   "writtenBy": "content-presence.mjs",
-  "at": "2026-11-11T12:46:55.773Z",
+  "at": "2026-11-11T16:08:14.591Z",
   "width": 360,
   "variable": [],
   "tier": "chrome"
  },
  "origin": {
   "url": "https://naturesbounty.com/blogs/news/partnering-with-susan-g-komen-to-end-breast-cancer-forever",
-  "at": "2026-11-11T12:46:26.296Z",
+  "at": "2026-11-11T16:07:44.462Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 11188,
@@ -21,7 +21,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": -139,
+    "x": -90,
     "y": 6,
     "w": 314,
     "h": 20,
@@ -2190,7 +2190,7 @@
  },
  "eds": {
   "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/partnering-with-susan-g-komen-to-end-breast-cancer-forever",
-  "at": "2026-11-11T12:46:55.640Z",
+  "at": "2026-11-11T16:08:14.455Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 11231,
@@ -2203,7 +2203,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 139,
+    "x": 129,
     "y": 9,
     "w": 295,
     "h": 14,
@@ -4204,8 +4204,8 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 88,
-     "cutMax": 88
+     "cutMin": 76,
+     "cutMax": 76
     },
     {
      "kind": "TEXT X-CUT",
@@ -4214,22 +4214,22 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 88,
-     "cutMax": 88
+     "cutMin": 76,
+     "cutMax": 76
     }
    ],
    "findings": [
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 88,
+     "cut": 76,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 138,
+      "l": 126,
       "t": 9,
-      "r": 433,
+      "r": 421,
       "b": 23,
       "w": 295,
       "h": 14
@@ -4246,14 +4246,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 88,
+     "cut": 76,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 138,
+      "l": 126,
       "t": 9,
-      "r": 433,
+      "r": 421,
       "b": 23,
       "w": 295,
       "h": 14
@@ -4561,7 +4561,7 @@
  "textBoxes": {
   "origin": [
    {
-    "x": -140,
+    "x": -92,
     "y": 6,
     "w": 314,
     "h": 19
@@ -6147,7 +6147,7 @@
   ],
   "eds": [
    {
-    "x": 138,
+    "x": 126,
     "y": 9,
     "w": 295,
     "h": 14

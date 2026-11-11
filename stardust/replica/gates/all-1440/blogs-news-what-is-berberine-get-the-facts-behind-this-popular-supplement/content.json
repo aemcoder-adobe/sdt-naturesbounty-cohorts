@@ -1,14 +1,14 @@
 {
  "_provenance": {
   "writtenBy": "content-presence.mjs",
-  "at": "2026-11-11T14:02:14.544Z",
+  "at": "2026-11-11T15:10:10.473Z",
   "width": 1440,
   "variable": [],
   "tier": "chrome"
  },
  "origin": {
   "url": "https://naturesbounty.com/blogs/news/what-is-berberine-get-the-facts-behind-this-popular-supplement",
-  "at": "2026-11-11T14:01:53.887Z",
+  "at": "2026-11-11T15:09:49.858Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 4502,
@@ -21,7 +21,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 16,
+    "x": -16,
     "y": 6,
     "w": 157,
     "h": 20,
@@ -35,7 +35,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 373,
+    "x": 341,
     "y": 6,
     "w": 213,
     "h": 20,
@@ -49,7 +49,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 786,
+    "x": 754,
     "y": 6,
     "w": 314,
     "h": 20,
@@ -63,7 +63,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 1300,
+    "x": 1268,
     "y": 6,
     "w": 157,
     "h": 20,
@@ -2324,39 +2324,18 @@
     "clamped": 0,
     "collapsed": 0,
     "scrollHidden": 0,
-    "horizontal": 2,
+    "horizontal": 0,
     "offPage": 8,
     "textNodes": 153,
     "controls": 106,
     "total": 0
    },
-   "groups": [
-    {
-     "kind": "CONTROL X-CUT",
-     "advisory": true,
-     "n": 1,
-     "clipper": "div.slick-list.draggable",
-     "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
-     "text": "shop our favorite products",
-     "cutMin": 16,
-     "cutMax": 16
-    },
-    {
-     "kind": "TEXT X-CUT",
-     "advisory": true,
-     "n": 1,
-     "clipper": "div.slick-list.draggable",
-     "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
-     "text": "shop our favorite products",
-     "cutMin": 16,
-     "cutMax": 16
-    }
-   ]
+   "groups": []
   }
  },
  "eds": {
   "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/what-is-berberine-get-the-facts-behind-this-popular-supplement",
-  "at": "2026-11-11T14:02:14.416Z",
+  "at": "2026-11-11T15:10:10.245Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 4490,
@@ -2369,7 +2348,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": -74,
+    "x": -71,
     "y": 8,
     "w": 319,
     "h": 15,
@@ -2383,7 +2362,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 445,
+    "x": 448,
     "y": 8,
     "w": 160,
     "h": 15,
@@ -2397,7 +2376,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 805,
+    "x": 808,
     "y": 8,
     "w": 219,
     "h": 15,
@@ -2411,7 +2390,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 1224,
+    "x": 1227,
     "y": 8,
     "w": 319,
     "h": 15,
@@ -4582,8 +4561,8 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 76,
-     "cutMax": 117
+     "cutMin": 73,
+     "cutMax": 119
     },
     {
      "kind": "TEXT X-CUT",
@@ -4592,22 +4571,22 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 76,
-     "cutMax": 117
+     "cutMin": 73,
+     "cutMax": 119
     }
    ],
    "findings": [
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 76,
+     "cut": 73,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -76,
+      "l": -73,
       "t": 8,
-      "r": 244,
+      "r": 246,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4624,14 +4603,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 76,
+     "cut": 73,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -76,
+      "l": -73,
       "t": 8,
-      "r": 244,
+      "r": 246,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4649,14 +4628,14 @@
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 117,
+     "cut": 119,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 1223,
+      "l": 1225,
       "t": 8,
-      "r": 1542,
+      "r": 1544,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4673,14 +4652,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 117,
+     "cut": 119,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 1223,
+      "l": 1225,
       "t": 8,
-      "r": 1542,
+      "r": 1544,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4911,25 +4890,25 @@
  "textBoxes": {
   "origin": [
    {
-    "x": 14,
+    "x": -18,
     "y": 6,
     "w": 157,
     "h": 19
    },
    {
-    "x": 372,
+    "x": 340,
     "y": 6,
     "w": 213,
     "h": 19
    },
    {
-    "x": 784,
+    "x": 752,
     "y": 6,
     "w": 314,
     "h": 19
    },
    {
-    "x": 1299,
+    "x": 1266,
     "y": 6,
     "w": 157,
     "h": 19
@@ -5963,25 +5942,25 @@
   ],
   "eds": [
    {
-    "x": -76,
+    "x": -73,
     "y": 8,
     "w": 319,
     "h": 15
    },
    {
-    "x": 444,
+    "x": 446,
     "y": 8,
     "w": 160,
     "h": 15
    },
    {
-    "x": 804,
+    "x": 806,
     "y": 8,
     "w": 219,
     "h": 15
    },
    {
-    "x": 1223,
+    "x": 1225,
     "y": 8,
     "w": 319,
     "h": 15

@@ -1,14 +1,14 @@
 {
  "_provenance": {
   "writtenBy": "content-presence.mjs",
-  "at": "2026-11-11T12:20:18.980Z",
+  "at": "2026-11-11T16:09:18.817Z",
   "width": 360,
   "variable": [],
   "tier": "chrome"
  },
  "origin": {
   "url": "https://naturesbounty.com/blogs/news/womens-multivitamin-more-than-just-a-great-taste",
-  "at": "2026-11-11T12:19:53.553Z",
+  "at": "2026-11-11T16:08:52.593Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 8323,
@@ -21,7 +21,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 1,
+    "x": -5,
     "y": 6,
     "w": 314,
     "h": 20,
@@ -1635,7 +1635,7 @@
  },
  "eds": {
   "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/womens-multivitamin-more-than-just-a-great-taste",
-  "at": "2026-11-11T12:20:18.848Z",
+  "at": "2026-11-11T16:09:18.699Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 8328,
@@ -1648,7 +1648,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": -137,
+    "x": -150,
     "y": 9,
     "w": 202,
     "h": 14,
@@ -1662,7 +1662,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 265,
+    "x": 252,
     "y": 9,
     "w": 295,
     "h": 14,
@@ -3342,8 +3342,8 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "grow thicker, fuller hair in 3 months*",
-     "cutMin": 139,
-     "cutMax": 212
+     "cutMin": 151,
+     "cutMax": 200
     },
     {
      "kind": "TEXT X-CUT",
@@ -3352,22 +3352,22 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "grow thicker, fuller hair in 3 months*",
-     "cutMin": 139,
-     "cutMax": 212
+     "cutMin": 151,
+     "cutMax": 200
     }
    ],
    "findings": [
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 139,
+     "cut": 151,
      "path": "div.announce-track > ul > li > a",
      "text": "grow thicker, fuller hair in 3 months*",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -139,
+      "l": -151,
       "t": 9,
-      "r": 63,
+      "r": 51,
       "b": 23,
       "w": 202,
       "h": 14
@@ -3384,14 +3384,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 139,
+     "cut": 151,
      "path": "div.announce-track > ul > li > a",
      "text": "grow thicker, fuller hair in 3 months*",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -139,
+      "l": -151,
       "t": 9,
-      "r": 63,
+      "r": 51,
       "b": 23,
       "w": 202,
       "h": 14
@@ -3409,14 +3409,14 @@
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 212,
+     "cut": 200,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 263,
+      "l": 251,
       "t": 9,
-      "r": 557,
+      "r": 545,
       "b": 23,
       "w": 295,
       "h": 14
@@ -3433,14 +3433,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 212,
+     "cut": 200,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 263,
+      "l": 251,
       "t": 9,
-      "r": 557,
+      "r": 545,
       "b": 23,
       "w": 295,
       "h": 14
@@ -3660,7 +3660,7 @@
  "textBoxes": {
   "origin": [
    {
-    "x": 0,
+    "x": -8,
     "y": 6,
     "w": 314,
     "h": 19
@@ -4784,13 +4784,13 @@
   ],
   "eds": [
    {
-    "x": -139,
+    "x": -151,
     "y": 9,
     "w": 202,
     "h": 14
    },
    {
-    "x": 263,
+    "x": 251,
     "y": 9,
     "w": 295,
     "h": 14

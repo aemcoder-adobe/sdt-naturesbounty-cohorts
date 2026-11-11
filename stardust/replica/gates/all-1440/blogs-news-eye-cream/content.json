@@ -1,14 +1,14 @@
 {
  "_provenance": {
   "writtenBy": "content-presence.mjs",
-  "at": "2026-11-11T13:57:49.554Z",
+  "at": "2026-11-11T15:01:07.754Z",
   "width": 1440,
   "variable": [],
   "tier": "chrome"
  },
  "origin": {
   "url": "https://naturesbounty.com/blogs/news/eye-cream",
-  "at": "2026-11-11T13:57:29.378Z",
+  "at": "2026-11-11T15:00:47.616Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 4360,
@@ -21,7 +21,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 8,
+    "x": 1,
     "y": 6,
     "w": 157,
     "h": 20,
@@ -35,7 +35,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 365,
+    "x": 359,
     "y": 6,
     "w": 213,
     "h": 20,
@@ -49,7 +49,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 778,
+    "x": 771,
     "y": 6,
     "w": 314,
     "h": 20,
@@ -63,7 +63,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 1292,
+    "x": 1285,
     "y": 6,
     "w": 157,
     "h": 20,
@@ -2076,39 +2076,18 @@
     "clamped": 0,
     "collapsed": 0,
     "scrollHidden": 0,
-    "horizontal": 2,
+    "horizontal": 0,
     "offPage": 8,
     "textNodes": 130,
     "controls": 103,
     "total": 0
    },
-   "groups": [
-    {
-     "kind": "CONTROL X-CUT",
-     "advisory": true,
-     "n": 1,
-     "clipper": "div.slick-list.draggable",
-     "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
-     "text": "shop our favorite products",
-     "cutMin": 8,
-     "cutMax": 8
-    },
-    {
-     "kind": "TEXT X-CUT",
-     "advisory": true,
-     "n": 1,
-     "clipper": "div.slick-list.draggable",
-     "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
-     "text": "shop our favorite products",
-     "cutMin": 8,
-     "cutMax": 8
-    }
-   ]
+   "groups": []
   }
  },
  "eds": {
   "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/eye-cream",
-  "at": "2026-11-11T13:57:49.442Z",
+  "at": "2026-11-11T15:01:07.631Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 4332,
@@ -2121,7 +2100,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": -58,
+    "x": -57,
     "y": 8,
     "w": 319,
     "h": 15,
@@ -4293,7 +4272,7 @@
      "rect": {
       "l": -59,
       "t": 8,
-      "r": 260,
+      "r": 261,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4317,7 +4296,7 @@
      "rect": {
       "l": -59,
       "t": 8,
-      "r": 260,
+      "r": 261,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4340,7 +4319,7 @@
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 1239,
+      "l": 1240,
       "t": 8,
       "r": 1559,
       "b": 23,
@@ -4364,7 +4343,7 @@
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 1239,
+      "l": 1240,
       "t": 8,
       "r": 1559,
       "b": 23,
@@ -4586,25 +4565,25 @@
  "textBoxes": {
   "origin": [
    {
-    "x": 6,
+    "x": 0,
     "y": 6,
     "w": 157,
     "h": 19
    },
    {
-    "x": 364,
+    "x": 357,
     "y": 6,
     "w": 213,
     "h": 19
    },
    {
-    "x": 776,
+    "x": 770,
     "y": 6,
     "w": 314,
     "h": 19
    },
    {
-    "x": 1290,
+    "x": 1284,
     "y": 6,
     "w": 157,
     "h": 19
@@ -5428,7 +5407,7 @@
     "h": 15
    },
    {
-    "x": 460,
+    "x": 461,
     "y": 8,
     "w": 160,
     "h": 15
@@ -5440,7 +5419,7 @@
     "h": 15
    },
    {
-    "x": 1239,
+    "x": 1240,
     "y": 8,
     "w": 319,
     "h": 15

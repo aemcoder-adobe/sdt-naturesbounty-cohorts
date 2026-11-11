@@ -1,14 +1,14 @@
 {
  "_provenance": {
   "writtenBy": "content-presence.mjs",
-  "at": "2026-11-11T12:53:08.402Z",
+  "at": "2026-11-11T16:18:36.781Z",
   "width": 360,
   "variable": [],
   "tier": "chrome"
  },
  "origin": {
   "url": "https://naturesbounty.com/blogs/news/refresh-your-beauty-routine-this-spring",
-  "at": "2026-11-11T12:52:38.206Z",
+  "at": "2026-11-11T16:18:05.911Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 11907,
@@ -21,12 +21,26 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": -99,
+    "x": -164,
     "y": 6,
     "w": 314,
     "h": 20,
     "text": "supplementing the knowledge gap in women's health",
     "href": "/pages/womens-wellness"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
+    "x": 350,
+    "y": 6,
+    "w": 157,
+    "h": 20,
+    "text": "shop our favorite products",
+    "href": "/collections/favorites"
    },
    {
     "kind": "link",
@@ -1884,18 +1898,39 @@
     "clamped": 0,
     "collapsed": 0,
     "scrollHidden": 0,
-    "horizontal": 0,
-    "offPage": 179,
+    "horizontal": 2,
+    "offPage": 177,
     "textNodes": 203,
     "controls": 167,
     "total": 0
    },
-   "groups": []
+   "groups": [
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.slick-list.draggable",
+     "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
+     "text": "shop our favorite products",
+     "cutMin": 145,
+     "cutMax": 145
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.slick-list.draggable",
+     "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
+     "text": "shop our favorite products",
+     "cutMin": 145,
+     "cutMax": 145
+    }
+   ]
   }
  },
  "eds": {
   "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/refresh-your-beauty-routine-this-spring",
-  "at": "2026-11-11T12:53:08.235Z",
+  "at": "2026-11-11T16:18:36.575Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 11932,
@@ -1908,7 +1943,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 117,
+    "x": 107,
     "y": 9,
     "w": 295,
     "h": 14,
@@ -3766,8 +3801,8 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 65,
-     "cutMax": 65
+     "cutMin": 53,
+     "cutMax": 53
     },
     {
      "kind": "TEXT X-CUT",
@@ -3776,22 +3811,22 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 65,
-     "cutMax": 65
+     "cutMin": 53,
+     "cutMax": 53
     }
    ],
    "findings": [
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 65,
+     "cut": 53,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 115,
+      "l": 103,
       "t": 9,
-      "r": 410,
+      "r": 398,
       "b": 23,
       "w": 295,
       "h": 14
@@ -3808,14 +3843,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 65,
+     "cut": 53,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 115,
+      "l": 103,
       "t": 9,
-      "r": 410,
+      "r": 398,
       "b": 23,
       "w": 295,
       "h": 14
@@ -4076,9 +4111,15 @@
  "textBoxes": {
   "origin": [
    {
-    "x": -100,
+    "x": -167,
     "y": 6,
     "w": 314,
+    "h": 19
+   },
+   {
+    "x": 348,
+    "y": 6,
+    "w": 157,
     "h": 19
    },
    {
@@ -5602,7 +5643,7 @@
   ],
   "eds": [
    {
-    "x": 115,
+    "x": 103,
     "y": 9,
     "w": 295,
     "h": 14

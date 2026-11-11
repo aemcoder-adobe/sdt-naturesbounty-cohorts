@@ -106,3 +106,9 @@
 - (session 3) archetype-landing (home): 7 new blocks, encoder landing.mjs, gate 1440 2.66 % / 360 8.49 % (R-01);
   hero mp4 served from DA media. Remaining units: cluster-listing, cluster-recipe, cluster-article, gate-all, final.
 - gate-all `--eds-host` needs the https:// prefix.
+- (session 7) cluster-article closed: 1440 overrides written for 74 rows by r01-align.mjs `--write` (aligned ≤ 10 %,
+  non-text ≤ 1 %; content false reds carried with the 360 notes; heart-health `--allow-missing bv_ratings_summary`,
+  Bazaarvoice static snapshot), then `--compare-only` in 4 batches of 19 at both widths: 1440 76/76, 360 76/76.
+  Found: unit-geometry's origin cache `stardust/current/measure/<slug>-units.json` has no width key — a 360 run
+  reuses the 1440 origin inventory (two passing 360 rows read `off 35/44`); re-measured with the cache set aside
+  (360 copies under stardust/.work/measure-360). The roster gate-all must swap caches per width.

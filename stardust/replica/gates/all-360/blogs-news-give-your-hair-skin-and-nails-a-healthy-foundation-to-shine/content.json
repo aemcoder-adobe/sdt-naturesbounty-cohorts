@@ -1,14 +1,14 @@
 {
  "_provenance": {
   "writtenBy": "content-presence.mjs",
-  "at": "2026-11-11T13:04:57.538Z",
+  "at": "2026-11-11T16:33:27.172Z",
   "width": 360,
   "variable": [],
   "tier": "chrome"
  },
  "origin": {
   "url": "https://naturesbounty.com/blogs/news/give-your-hair-skin-and-nails-a-healthy-foundation-to-shine",
-  "at": "2026-11-11T13:04:29.400Z",
+  "at": "2026-11-11T16:32:58.667Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 9829,
@@ -21,7 +21,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": -85,
+    "x": -59,
     "y": 6,
     "w": 314,
     "h": 20,
@@ -1738,7 +1738,7 @@
  },
  "eds": {
   "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/give-your-hair-skin-and-nails-a-healthy-foundation-to-shine",
-  "at": "2026-11-11T13:04:57.420Z",
+  "at": "2026-11-11T16:33:26.987Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 9854,
@@ -1746,12 +1746,12 @@
   "items": [
    {
     "kind": "link",
-    "state": "hidden",
+    "state": "visible",
     "variable": false,
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 200,
+    "x": 182,
     "y": 9,
     "w": 295,
     "h": 14,
@@ -3452,8 +3452,8 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 148,
-     "cutMax": 148
+     "cutMin": 130,
+     "cutMax": 130
     },
     {
      "kind": "TEXT X-CUT",
@@ -3462,22 +3462,22 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 148,
-     "cutMax": 148
+     "cutMin": 130,
+     "cutMax": 130
     }
    ],
    "findings": [
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 148,
+     "cut": 130,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 198,
+      "l": 180,
       "t": 9,
-      "r": 493,
+      "r": 475,
       "b": 23,
       "w": 295,
       "h": 14
@@ -3494,14 +3494,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 148,
+     "cut": 130,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 198,
+      "l": 180,
       "t": 9,
-      "r": 493,
+      "r": 475,
       "b": 23,
       "w": 295,
       "h": 14
@@ -3762,7 +3762,7 @@
  "textBoxes": {
   "origin": [
    {
-    "x": -86,
+    "x": -61,
     "y": 6,
     "w": 314,
     "h": 19
@@ -4958,7 +4958,7 @@
   ],
   "eds": [
    {
-    "x": 198,
+    "x": 180,
     "y": 9,
     "w": 295,
     "h": 14

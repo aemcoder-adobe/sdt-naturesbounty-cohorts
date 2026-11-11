@@ -1,14 +1,14 @@
 {
  "_provenance": {
   "writtenBy": "content-presence.mjs",
-  "at": "2026-11-11T14:31:56.009Z",
+  "at": "2026-11-11T15:35:27.196Z",
   "width": 1440,
   "variable": [],
   "tier": "chrome"
  },
  "origin": {
   "url": "https://naturesbounty.com/blogs/news/benefits-of-fish-oil",
-  "at": "2026-11-11T14:31:35.423Z",
+  "at": "2026-11-11T15:35:05.300Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 4409,
@@ -21,7 +21,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 8,
+    "x": 3,
     "y": 6,
     "w": 157,
     "h": 20,
@@ -35,7 +35,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 365,
+    "x": 360,
     "y": 6,
     "w": 213,
     "h": 20,
@@ -49,7 +49,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 778,
+    "x": 773,
     "y": 6,
     "w": 314,
     "h": 20,
@@ -63,7 +63,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 1292,
+    "x": 1287,
     "y": 6,
     "w": 157,
     "h": 20,
@@ -1928,8 +1928,8 @@
      "clipper": "div.slick-list.draggable",
      "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
      "text": "shop our favorite products",
-     "cutMin": 7,
-     "cutMax": 7
+     "cutMin": 2,
+     "cutMax": 2
     },
     {
      "kind": "TEXT X-CUT",
@@ -1938,15 +1938,15 @@
      "clipper": "div.slick-list.draggable",
      "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
      "text": "shop our favorite products",
-     "cutMin": 7,
-     "cutMax": 7
+     "cutMin": 2,
+     "cutMax": 2
     }
    ]
   }
  },
  "eds": {
   "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/benefits-of-fish-oil",
-  "at": "2026-11-11T14:31:55.888Z",
+  "at": "2026-11-11T15:35:26.963Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 4403,
@@ -1959,7 +1959,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": -73,
+    "x": -75,
     "y": 8,
     "w": 319,
     "h": 15,
@@ -1973,7 +1973,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 446,
+    "x": 444,
     "y": 8,
     "w": 160,
     "h": 15,
@@ -1987,7 +1987,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 806,
+    "x": 804,
     "y": 8,
     "w": 219,
     "h": 15,
@@ -2001,7 +2001,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 1225,
+    "x": 1223,
     "y": 8,
     "w": 319,
     "h": 15,
@@ -3996,8 +3996,8 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 75,
-     "cutMax": 117
+     "cutMin": 77,
+     "cutMax": 115
     },
     {
      "kind": "TEXT X-CUT",
@@ -4006,22 +4006,22 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 75,
-     "cutMax": 117
+     "cutMin": 77,
+     "cutMax": 115
     }
    ],
    "findings": [
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 75,
+     "cut": 77,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -75,
+      "l": -77,
       "t": 8,
-      "r": 244,
+      "r": 242,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4038,14 +4038,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 75,
+     "cut": 77,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -75,
+      "l": -77,
       "t": 8,
-      "r": 244,
+      "r": 242,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4063,14 +4063,14 @@
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 117,
+     "cut": 115,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 1223,
+      "l": 1221,
       "t": 8,
-      "r": 1542,
+      "r": 1540,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4087,14 +4087,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 117,
+     "cut": 115,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 1223,
+      "l": 1221,
       "t": 8,
-      "r": 1542,
+      "r": 1540,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4314,25 +4314,25 @@
  "textBoxes": {
   "origin": [
    {
-    "x": 6,
+    "x": 1,
     "y": 6,
     "w": 157,
     "h": 19
    },
    {
-    "x": 363,
+    "x": 358,
     "y": 6,
     "w": 213,
     "h": 19
    },
    {
-    "x": 776,
+    "x": 771,
     "y": 6,
     "w": 314,
     "h": 19
    },
    {
-    "x": 1290,
+    "x": 1285,
     "y": 6,
     "w": 157,
     "h": 19
@@ -5186,25 +5186,25 @@
   ],
   "eds": [
    {
-    "x": -75,
+    "x": -77,
     "y": 8,
     "w": 319,
     "h": 15
    },
    {
-    "x": 444,
+    "x": 442,
     "y": 8,
     "w": 160,
     "h": 15
    },
    {
-    "x": 804,
+    "x": 802,
     "y": 8,
     "w": 219,
     "h": 15
    },
    {
-    "x": 1223,
+    "x": 1221,
     "y": 8,
     "w": 319,
     "h": 15

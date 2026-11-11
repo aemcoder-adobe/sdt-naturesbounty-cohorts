@@ -165,9 +165,17 @@
    "templates": [
     "article"
    ],
-   "status": "running",
+   "status": "done",
    "startedAt": "2026-11-11T02:44:42Z",
-   "pages": 76
+   "pages": 76,
+   "endedAt": "2026-11-11T16:42:02.091Z",
+   "blocks": 0,
+   "verdict": "cluster-article: pages 76/76 live, blocks 0 new (archetype blocks article, share, tag-nav, product-rail, related reused; product-rail/related refined), gate 1440 76/76 (1 PASS + 75 documented override) + 360 76/76 (2 PASS + 74 documented override): R-01 font substitution re-aligned by r01-align.mjs (aligned ≤ 10 %, non-text ≤ 1 %), easy-hairstyles capture-state (8 dead source images), 3 #87 content false reds, heart-health Bazaarvoice snapshot; requests 0 new",
+   "gates": {
+    "360": "76/76 delivered (2 pass, 74 override-pass)",
+    "1440": "76/76 delivered (1 pass, 75 override-pass)",
+    "note": "unit-geometry origin cache is keyed per slug, not per width (stardust/current/measure/<slug>-units.json): a 360 run reuses the 1440 origin inventory; 360 rows re-measured with the cache set aside"
+   }
   },
   "gate-all": {
    "kind": "final",

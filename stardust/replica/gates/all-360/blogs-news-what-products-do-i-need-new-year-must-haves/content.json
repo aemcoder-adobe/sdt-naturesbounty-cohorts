@@ -1,14 +1,14 @@
 {
  "_provenance": {
   "writtenBy": "content-presence.mjs",
-  "at": "2026-11-11T12:10:38.428Z",
+  "at": "2026-11-11T15:53:09.793Z",
   "width": 360,
   "variable": [],
   "tier": "chrome"
  },
  "origin": {
   "url": "https://naturesbounty.com/blogs/news/what-products-do-i-need-new-year-must-haves",
-  "at": "2026-11-11T12:10:10.867Z",
+  "at": "2026-11-11T15:52:41.847Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 9652,
@@ -21,7 +21,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": -94,
+    "x": -97,
     "y": 6,
     "w": 314,
     "h": 20,
@@ -1535,7 +1535,7 @@
  },
  "eds": {
   "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/what-products-do-i-need-new-year-must-haves",
-  "at": "2026-11-11T12:10:38.318Z",
+  "at": "2026-11-11T15:53:09.646Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 9639,
@@ -1543,12 +1543,12 @@
   "items": [
    {
     "kind": "link",
-    "state": "hidden",
+    "state": "visible",
     "variable": false,
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 200,
+    "x": 197,
     "y": 9,
     "w": 295,
     "h": 14,
@@ -3167,8 +3167,8 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 148,
-     "cutMax": 148
+     "cutMin": 145,
+     "cutMax": 145
     },
     {
      "kind": "TEXT X-CUT",
@@ -3177,22 +3177,22 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 148,
-     "cutMax": 148
+     "cutMin": 145,
+     "cutMax": 145
     }
    ],
    "findings": [
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 148,
+     "cut": 145,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 198,
+      "l": 196,
       "t": 9,
-      "r": 493,
+      "r": 490,
       "b": 23,
       "w": 295,
       "h": 14
@@ -3209,14 +3209,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 148,
+     "cut": 145,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 198,
+      "l": 196,
       "t": 9,
-      "r": 493,
+      "r": 490,
       "b": 23,
       "w": 295,
       "h": 14
@@ -3436,7 +3436,7 @@
  "textBoxes": {
   "origin": [
    {
-    "x": -96,
+    "x": -100,
     "y": 6,
     "w": 314,
     "h": 19
@@ -4800,7 +4800,7 @@
   ],
   "eds": [
    {
-    "x": 198,
+    "x": 196,
     "y": 9,
     "w": 295,
     "h": 14

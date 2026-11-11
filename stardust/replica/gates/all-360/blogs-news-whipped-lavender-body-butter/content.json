@@ -1,14 +1,14 @@
 {
  "_provenance": {
   "writtenBy": "content-presence.mjs",
-  "at": "2026-11-11T13:09:42.393Z",
+  "at": "2026-11-11T15:44:09.637Z",
   "width": 360,
   "variable": [],
   "tier": "chrome"
  },
  "origin": {
   "url": "https://naturesbounty.com/blogs/news/whipped-lavender-body-butter",
-  "at": "2026-11-11T13:09:17.953Z",
+  "at": "2026-11-11T15:43:44.756Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 7537,
@@ -21,7 +21,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 113,
+    "x": 53,
     "y": 6,
     "w": 314,
     "h": 20,
@@ -1615,8 +1615,8 @@
      "clipper": "div.slick-list.draggable",
      "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 65,
-     "cutMax": 65
+     "cutMin": 5,
+     "cutMax": 5
     },
     {
      "kind": "TEXT X-CUT",
@@ -1625,15 +1625,15 @@
      "clipper": "div.slick-list.draggable",
      "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 65,
-     "cutMax": 65
+     "cutMin": 5,
+     "cutMax": 5
     }
    ]
   }
  },
  "eds": {
   "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/whipped-lavender-body-butter",
-  "at": "2026-11-11T13:09:42.277Z",
+  "at": "2026-11-11T15:44:09.504Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 7476,
@@ -1646,7 +1646,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": -107,
+    "x": -109,
     "y": 9,
     "w": 202,
     "h": 14,
@@ -1660,7 +1660,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 295,
+    "x": 292,
     "y": 9,
     "w": 295,
     "h": 14,
@@ -3317,8 +3317,8 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "grow thicker, fuller hair in 3 months*",
-     "cutMin": 108,
-     "cutMax": 243
+     "cutMin": 111,
+     "cutMax": 240
     },
     {
      "kind": "TEXT X-CUT",
@@ -3327,22 +3327,22 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "grow thicker, fuller hair in 3 months*",
-     "cutMin": 108,
-     "cutMax": 243
+     "cutMin": 111,
+     "cutMax": 240
     }
    ],
    "findings": [
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 108,
+     "cut": 111,
      "path": "div.announce-track > ul > li > a",
      "text": "grow thicker, fuller hair in 3 months*",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -108,
+      "l": -111,
       "t": 9,
-      "r": 93,
+      "r": 90,
       "b": 23,
       "w": 202,
       "h": 14
@@ -3359,14 +3359,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 108,
+     "cut": 111,
      "path": "div.announce-track > ul > li > a",
      "text": "grow thicker, fuller hair in 3 months*",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -108,
+      "l": -111,
       "t": 9,
-      "r": 93,
+      "r": 90,
       "b": 23,
       "w": 202,
       "h": 14
@@ -3384,14 +3384,14 @@
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 243,
+     "cut": 240,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 293,
+      "l": 290,
       "t": 9,
-      "r": 588,
+      "r": 585,
       "b": 23,
       "w": 295,
       "h": 14
@@ -3408,14 +3408,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 243,
+     "cut": 240,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 293,
+      "l": 290,
       "t": 9,
-      "r": 588,
+      "r": 585,
       "b": 23,
       "w": 295,
       "h": 14
@@ -3635,7 +3635,7 @@
  "textBoxes": {
   "origin": [
    {
-    "x": 111,
+    "x": 51,
     "y": 6,
     "w": 314,
     "h": 19
@@ -4519,13 +4519,13 @@
   ],
   "eds": [
    {
-    "x": -108,
+    "x": -111,
     "y": 9,
     "w": 202,
     "h": 14
    },
    {
-    "x": 293,
+    "x": 290,
     "y": 9,
     "w": 295,
     "h": 14

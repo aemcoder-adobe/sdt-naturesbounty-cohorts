@@ -1,14 +1,14 @@
 {
  "_provenance": {
   "writtenBy": "content-presence.mjs",
-  "at": "2026-11-11T14:22:02.300Z",
+  "at": "2026-11-11T15:36:13.622Z",
   "width": 1440,
   "variable": [],
   "tier": "chrome"
  },
  "origin": {
   "url": "https://naturesbounty.com/blogs/news/the-kroger-wellness-festival-is-back-september-22-23-2023",
-  "at": "2026-11-11T14:21:40.111Z",
+  "at": "2026-11-11T15:35:50.704Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 5668,
@@ -21,7 +21,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": -58,
+    "x": -84,
     "y": 6,
     "w": 157,
     "h": 20,
@@ -35,7 +35,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 299,
+    "x": 273,
     "y": 6,
     "w": 213,
     "h": 20,
@@ -49,7 +49,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 712,
+    "x": 686,
     "y": 6,
     "w": 314,
     "h": 20,
@@ -63,7 +63,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 1226,
+    "x": 1200,
     "y": 6,
     "w": 157,
     "h": 20,
@@ -2718,7 +2718,7 @@
  },
  "eds": {
   "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/the-kroger-wellness-festival-is-back-september-22-23-2023",
-  "at": "2026-11-11T14:22:02.188Z",
+  "at": "2026-11-11T15:36:13.429Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 5691,
@@ -2731,7 +2731,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": -118,
+    "x": -122,
     "y": 8,
     "w": 319,
     "h": 15,
@@ -2745,7 +2745,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 402,
+    "x": 397,
     "y": 8,
     "w": 160,
     "h": 15,
@@ -2759,7 +2759,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 762,
+    "x": 757,
     "y": 8,
     "w": 219,
     "h": 15,
@@ -2773,7 +2773,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 1181,
+    "x": 1176,
     "y": 8,
     "w": 319,
     "h": 15,
@@ -5197,8 +5197,8 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 73,
-     "cutMax": 119
+     "cutMin": 67,
+     "cutMax": 125
     },
     {
      "kind": "TEXT X-CUT",
@@ -5207,22 +5207,22 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 73,
-     "cutMax": 119
+     "cutMin": 67,
+     "cutMax": 125
     }
    ],
    "findings": [
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 119,
+     "cut": 125,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -119,
+      "l": -125,
       "t": 8,
-      "r": 200,
+      "r": 194,
       "b": 23,
       "w": 319,
       "h": 15
@@ -5239,14 +5239,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 119,
+     "cut": 125,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -119,
+      "l": -125,
       "t": 8,
-      "r": 200,
+      "r": 194,
       "b": 23,
       "w": 319,
       "h": 15
@@ -5264,14 +5264,14 @@
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 73,
+     "cut": 67,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 1179,
+      "l": 1173,
       "t": 8,
-      "r": 1498,
+      "r": 1492,
       "b": 23,
       "w": 319,
       "h": 15
@@ -5288,14 +5288,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 73,
+     "cut": 67,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 1179,
+      "l": 1173,
       "t": 8,
-      "r": 1498,
+      "r": 1492,
       "b": 23,
       "w": 319,
       "h": 15
@@ -5633,25 +5633,25 @@
  "textBoxes": {
   "origin": [
    {
-    "x": -60,
+    "x": -87,
     "y": 6,
     "w": 157,
     "h": 19
    },
    {
-    "x": 297,
+    "x": 271,
     "y": 6,
     "w": 213,
     "h": 19
    },
    {
-    "x": 710,
+    "x": 683,
     "y": 6,
     "w": 314,
     "h": 19
    },
    {
-    "x": 1224,
+    "x": 1197,
     "y": 6,
     "w": 157,
     "h": 19
@@ -6961,25 +6961,25 @@
   ],
   "eds": [
    {
-    "x": -119,
+    "x": -125,
     "y": 8,
     "w": 319,
     "h": 15
    },
    {
-    "x": 400,
+    "x": 394,
     "y": 8,
     "w": 160,
     "h": 15
    },
    {
-    "x": 760,
+    "x": 754,
     "y": 8,
     "w": 219,
     "h": 15
    },
    {
-    "x": 1179,
+    "x": 1173,
     "y": 8,
     "w": 319,
     "h": 15

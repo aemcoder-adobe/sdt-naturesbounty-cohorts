@@ -1,14 +1,14 @@
 {
  "_provenance": {
   "writtenBy": "content-presence.mjs",
-  "at": "2026-11-11T12:52:38.915Z",
+  "at": "2026-11-11T16:17:04.675Z",
   "width": 360,
   "variable": [],
   "tier": "chrome"
  },
  "origin": {
   "url": "https://naturesbounty.com/blogs/news/supplement-your-beauty-routine-with-hair-skin-nails",
-  "at": "2026-11-11T12:52:12.866Z",
+  "at": "2026-11-11T16:16:37.877Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 8710,
@@ -21,7 +21,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": -44,
+    "x": -18,
     "y": 6,
     "w": 314,
     "h": 20,
@@ -1589,7 +1589,7 @@
  },
  "eds": {
   "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/supplement-your-beauty-routine-with-hair-skin-nails",
-  "at": "2026-11-11T12:52:38.767Z",
+  "at": "2026-11-11T16:17:04.503Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 8727,
@@ -1602,7 +1602,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": -154,
+    "x": -162,
     "y": 9,
     "w": 202,
     "h": 14,
@@ -1616,7 +1616,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 248,
+    "x": 240,
     "y": 9,
     "w": 295,
     "h": 14,
@@ -3235,8 +3235,8 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "grow thicker, fuller hair in 3 months*",
-     "cutMin": 155,
-     "cutMax": 196
+     "cutMin": 164,
+     "cutMax": 188
     },
     {
      "kind": "TEXT X-CUT",
@@ -3245,22 +3245,22 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "grow thicker, fuller hair in 3 months*",
-     "cutMin": 155,
-     "cutMax": 196
+     "cutMin": 164,
+     "cutMax": 188
     }
    ],
    "findings": [
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 155,
+     "cut": 164,
      "path": "div.announce-track > ul > li > a",
      "text": "grow thicker, fuller hair in 3 months*",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -155,
+      "l": -164,
       "t": 9,
-      "r": 47,
+      "r": 38,
       "b": 23,
       "w": 202,
       "h": 14
@@ -3277,14 +3277,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 155,
+     "cut": 164,
      "path": "div.announce-track > ul > li > a",
      "text": "grow thicker, fuller hair in 3 months*",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -155,
+      "l": -164,
       "t": 9,
-      "r": 47,
+      "r": 38,
       "b": 23,
       "w": 202,
       "h": 14
@@ -3302,14 +3302,14 @@
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 196,
+     "cut": 188,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 247,
+      "l": 238,
       "t": 9,
-      "r": 541,
+      "r": 533,
       "b": 23,
       "w": 295,
       "h": 14
@@ -3326,14 +3326,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 196,
+     "cut": 188,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 247,
+      "l": 238,
       "t": 9,
-      "r": 541,
+      "r": 533,
       "b": 23,
       "w": 295,
       "h": 14
@@ -3587,7 +3587,7 @@
  "textBoxes": {
   "origin": [
    {
-    "x": -46,
+    "x": -20,
     "y": 6,
     "w": 314,
     "h": 19
@@ -4633,13 +4633,13 @@
   ],
   "eds": [
    {
-    "x": -155,
+    "x": -164,
     "y": 9,
     "w": 202,
     "h": 14
    },
    {
-    "x": 247,
+    "x": 238,
     "y": 9,
     "w": 295,
     "h": 14

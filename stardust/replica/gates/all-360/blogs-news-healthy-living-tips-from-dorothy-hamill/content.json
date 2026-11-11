@@ -1,14 +1,14 @@
 {
  "_provenance": {
   "writtenBy": "content-presence.mjs",
-  "at": "2026-11-11T13:26:23.025Z",
+  "at": "2026-11-11T15:42:46.609Z",
   "width": 360,
   "variable": [],
   "tier": "chrome"
  },
  "origin": {
   "url": "https://naturesbounty.com/blogs/news/healthy-living-tips-from-dorothy-hamill",
-  "at": "2026-11-11T13:25:51.408Z",
+  "at": "2026-11-11T15:42:14.605Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 13256,
@@ -21,7 +21,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": -165,
+    "x": -239,
     "y": 6,
     "w": 314,
     "h": 20,
@@ -35,7 +35,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 349,
+    "x": 275,
     "y": 6,
     "w": 157,
     "h": 20,
@@ -2001,8 +2001,8 @@
      "clipper": "div.slick-list.draggable",
      "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
      "text": "shop our favorite products",
-     "cutMin": 144,
-     "cutMax": 144
+     "cutMin": 70,
+     "cutMax": 70
     },
     {
      "kind": "TEXT X-CUT",
@@ -2011,15 +2011,15 @@
      "clipper": "div.slick-list.draggable",
      "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
      "text": "shop our favorite products",
-     "cutMin": 144,
-     "cutMax": 144
+     "cutMin": 70,
+     "cutMax": 70
     }
    ]
   }
  },
  "eds": {
   "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/healthy-living-tips-from-dorothy-hamill",
-  "at": "2026-11-11T13:26:22.926Z",
+  "at": "2026-11-11T15:42:46.457Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 13033,
@@ -2032,7 +2032,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 60,
+    "x": 58,
     "y": 9,
     "w": 295,
     "h": 14,
@@ -3897,8 +3897,8 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 7,
-     "cutMax": 7
+     "cutMin": 6,
+     "cutMax": 6
     },
     {
      "kind": "TEXT X-CUT",
@@ -3907,22 +3907,22 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 7,
-     "cutMax": 7
+     "cutMin": 6,
+     "cutMax": 6
     }
    ],
    "findings": [
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 7,
+     "cut": 6,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 58,
+      "l": 56,
       "t": 9,
-      "r": 352,
+      "r": 351,
       "b": 23,
       "w": 295,
       "h": 14
@@ -3939,14 +3939,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 7,
+     "cut": 6,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 58,
+      "l": 56,
       "t": 9,
-      "r": 352,
+      "r": 351,
       "b": 23,
       "w": 295,
       "h": 14
@@ -4255,13 +4255,13 @@
  "textBoxes": {
   "origin": [
    {
-    "x": -167,
+    "x": -241,
     "y": 6,
     "w": 314,
     "h": 19
    },
    {
-    "x": 347,
+    "x": 273,
     "y": 6,
     "w": 157,
     "h": 19
@@ -5895,7 +5895,7 @@
   ],
   "eds": [
    {
-    "x": 58,
+    "x": 56,
     "y": 9,
     "w": 295,
     "h": 14

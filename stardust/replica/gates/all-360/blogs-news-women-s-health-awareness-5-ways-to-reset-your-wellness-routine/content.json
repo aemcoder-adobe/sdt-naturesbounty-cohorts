@@ -1,14 +1,14 @@
 {
  "_provenance": {
   "writtenBy": "content-presence.mjs",
-  "at": "2026-11-11T13:12:26.840Z",
+  "at": "2026-11-11T15:49:58.364Z",
   "width": 360,
   "variable": [],
   "tier": "chrome"
  },
  "origin": {
   "url": "https://naturesbounty.com/blogs/news/women-s-health-awareness-5-ways-to-reset-your-wellness-routine",
-  "at": "2026-11-11T13:11:57.575Z",
+  "at": "2026-11-11T15:49:28.526Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 11156,
@@ -21,12 +21,26 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": -68,
+    "x": -155,
     "y": 6,
     "w": 314,
     "h": 20,
     "text": "supplementing the knowledge gap in women's health",
     "href": "/pages/womens-wellness"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
+    "x": 359,
+    "y": 6,
+    "w": 157,
+    "h": 20,
+    "text": "shop our favorite products",
+    "href": "/collections/favorites"
    },
    {
     "kind": "link",
@@ -1889,18 +1903,39 @@
     "clamped": 0,
     "collapsed": 0,
     "scrollHidden": 0,
-    "horizontal": 0,
-    "offPage": 179,
+    "horizontal": 2,
+    "offPage": 177,
     "textNodes": 200,
     "controls": 161,
     "total": 0
    },
-   "groups": []
+   "groups": [
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.slick-list.draggable",
+     "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
+     "text": "shop our favorite products",
+     "cutMin": 154,
+     "cutMax": 154
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.slick-list.draggable",
+     "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
+     "text": "shop our favorite products",
+     "cutMin": 154,
+     "cutMax": 154
+    }
+   ]
   }
  },
  "eds": {
   "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/women-s-health-awareness-5-ways-to-reset-your-wellness-routine",
-  "at": "2026-11-11T13:12:26.724Z",
+  "at": "2026-11-11T15:49:58.237Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 11143,
@@ -1913,7 +1948,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 150,
+    "x": 142,
     "y": 9,
     "w": 295,
     "h": 14,
@@ -3715,8 +3750,8 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 98,
-     "cutMax": 98
+     "cutMin": 89,
+     "cutMax": 89
     },
     {
      "kind": "TEXT X-CUT",
@@ -3725,22 +3760,22 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 98,
-     "cutMax": 98
+     "cutMin": 89,
+     "cutMax": 89
     }
    ],
    "findings": [
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 98,
+     "cut": 89,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 149,
+      "l": 139,
       "t": 9,
-      "r": 443,
+      "r": 434,
       "b": 23,
       "w": 295,
       "h": 14
@@ -3757,14 +3792,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 98,
+     "cut": 89,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 149,
+      "l": 139,
       "t": 9,
-      "r": 443,
+      "r": 434,
       "b": 23,
       "w": 295,
       "h": 14
@@ -4031,9 +4066,15 @@
  "textBoxes": {
   "origin": [
    {
-    "x": -70,
+    "x": -158,
     "y": 6,
     "w": 314,
+    "h": 19
+   },
+   {
+    "x": 356,
+    "y": 6,
+    "w": 157,
     "h": 19
    },
    {
@@ -5641,7 +5682,7 @@
   ],
   "eds": [
    {
-    "x": 149,
+    "x": 139,
     "y": 9,
     "w": 295,
     "h": 14

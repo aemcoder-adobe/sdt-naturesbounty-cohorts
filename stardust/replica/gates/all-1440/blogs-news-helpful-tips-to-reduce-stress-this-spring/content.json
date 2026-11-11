@@ -1,14 +1,14 @@
 {
  "_provenance": {
   "writtenBy": "content-presence.mjs",
-  "at": "2026-11-11T14:06:33.949Z",
+  "at": "2026-11-11T15:19:09.614Z",
   "width": 1440,
   "variable": [],
   "tier": "chrome"
  },
  "origin": {
   "url": "https://naturesbounty.com/blogs/news/helpful-tips-to-reduce-stress-this-spring",
-  "at": "2026-11-11T14:06:13.895Z",
+  "at": "2026-11-11T15:18:49.514Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 4388,
@@ -21,7 +21,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 17,
+    "x": 33,
     "y": 6,
     "w": 157,
     "h": 20,
@@ -35,7 +35,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 375,
+    "x": 390,
     "y": 6,
     "w": 213,
     "h": 20,
@@ -49,7 +49,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 787,
+    "x": 803,
     "y": 6,
     "w": 314,
     "h": 20,
@@ -63,7 +63,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 1302,
+    "x": 1317,
     "y": 6,
     "w": 157,
     "h": 20,
@@ -2234,8 +2234,8 @@
      "clipper": "div.slick-list.draggable",
      "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
      "text": "shop our favorite products",
-     "cutMin": 17,
-     "cutMax": 17
+     "cutMin": 32,
+     "cutMax": 32
     },
     {
      "kind": "TEXT X-CUT",
@@ -2244,15 +2244,15 @@
      "clipper": "div.slick-list.draggable",
      "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
      "text": "shop our favorite products",
-     "cutMin": 17,
-     "cutMax": 17
+     "cutMin": 32,
+     "cutMax": 32
     }
    ]
   }
  },
  "eds": {
   "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/helpful-tips-to-reduce-stress-this-spring",
-  "at": "2026-11-11T14:06:33.827Z",
+  "at": "2026-11-11T15:19:09.466Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 4376,
@@ -2265,7 +2265,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": -57,
+    "x": -27,
     "y": 8,
     "w": 319,
     "h": 15,
@@ -2279,7 +2279,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 462,
+    "x": 492,
     "y": 8,
     "w": 160,
     "h": 15,
@@ -2293,7 +2293,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 822,
+    "x": 853,
     "y": 8,
     "w": 219,
     "h": 15,
@@ -2302,12 +2302,12 @@
    },
    {
     "kind": "link",
-    "state": "visible",
+    "state": "hidden",
     "variable": false,
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 1241,
+    "x": 1271,
     "y": 8,
     "w": 319,
     "h": 15,
@@ -4439,8 +4439,8 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 59,
-     "cutMax": 134
+     "cutMin": 28,
+     "cutMax": 164
     },
     {
      "kind": "TEXT X-CUT",
@@ -4449,22 +4449,22 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 59,
-     "cutMax": 134
+     "cutMin": 28,
+     "cutMax": 164
     }
    ],
    "findings": [
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 59,
+     "cut": 28,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -59,
+      "l": -28,
       "t": 8,
-      "r": 261,
+      "r": 291,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4481,14 +4481,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 59,
+     "cut": 28,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -59,
+      "l": -28,
       "t": 8,
-      "r": 261,
+      "r": 291,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4506,14 +4506,14 @@
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 134,
+     "cut": 164,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 1240,
+      "l": 1270,
       "t": 8,
-      "r": 1559,
+      "r": 1589,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4530,14 +4530,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 134,
+     "cut": 164,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 1240,
+      "l": 1270,
       "t": 8,
-      "r": 1559,
+      "r": 1589,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4759,25 +4759,25 @@
  "textBoxes": {
   "origin": [
    {
-    "x": 16,
+    "x": 30,
     "y": 6,
     "w": 157,
     "h": 19
    },
    {
-    "x": 373,
+    "x": 388,
     "y": 6,
     "w": 213,
     "h": 19
    },
    {
-    "x": 786,
+    "x": 800,
     "y": 6,
     "w": 314,
     "h": 19
    },
    {
-    "x": 1300,
+    "x": 1315,
     "y": 6,
     "w": 157,
     "h": 19
@@ -5757,25 +5757,25 @@
   ],
   "eds": [
    {
-    "x": -59,
+    "x": -28,
     "y": 8,
     "w": 319,
     "h": 15
    },
    {
-    "x": 461,
+    "x": 491,
     "y": 8,
     "w": 160,
     "h": 15
    },
    {
-    "x": 821,
+    "x": 851,
     "y": 8,
     "w": 219,
     "h": 15
    },
    {
-    "x": 1240,
+    "x": 1270,
     "y": 8,
     "w": 319,
     "h": 15

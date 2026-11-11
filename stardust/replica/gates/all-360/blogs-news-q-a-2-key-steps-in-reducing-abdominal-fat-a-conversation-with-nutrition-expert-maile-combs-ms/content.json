@@ -1,14 +1,14 @@
 {
  "_provenance": {
   "writtenBy": "content-presence.mjs",
-  "at": "2026-11-11T12:25:56.201Z",
+  "at": "2026-11-11T16:16:24.769Z",
   "width": 360,
   "variable": [],
   "tier": "chrome"
  },
  "origin": {
   "url": "https://naturesbounty.com/blogs/news/q-a-2-key-steps-in-reducing-abdominal-fat-a-conversation-with-nutrition-expert-maile-combs-ms",
-  "at": "2026-11-11T12:25:25.620Z",
+  "at": "2026-11-11T16:15:53.573Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 12136,
@@ -21,12 +21,26 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": -129,
+    "x": -169,
     "y": 6,
     "w": 314,
     "h": 20,
     "text": "supplementing the knowledge gap in women's health",
     "href": "/pages/womens-wellness"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
+    "x": 345,
+    "y": 6,
+    "w": 157,
+    "h": 20,
+    "text": "shop our favorite products",
+    "href": "/collections/favorites"
    },
    {
     "kind": "link",
@@ -1795,18 +1809,39 @@
     "clamped": 0,
     "collapsed": 0,
     "scrollHidden": 0,
-    "horizontal": 0,
-    "offPage": 179,
+    "horizontal": 2,
+    "offPage": 177,
     "textNodes": 196,
     "controls": 160,
     "total": 0
    },
-   "groups": []
+   "groups": [
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.slick-list.draggable",
+     "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
+     "text": "shop our favorite products",
+     "cutMin": 140,
+     "cutMax": 140
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.slick-list.draggable",
+     "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
+     "text": "shop our favorite products",
+     "cutMin": 140,
+     "cutMax": 140
+    }
+   ]
   }
  },
  "eds": {
   "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/q-a-2-key-steps-in-reducing-abdominal-fat-a-conversation-with-nutrition-expert-maile-combs-ms",
-  "at": "2026-11-11T12:25:56.072Z",
+  "at": "2026-11-11T16:16:24.612Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 12093,
@@ -1819,7 +1854,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 103,
+    "x": 93,
     "y": 9,
     "w": 295,
     "h": 14,
@@ -3605,8 +3640,8 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 50,
-     "cutMax": 50
+     "cutMin": 40,
+     "cutMax": 40
     },
     {
      "kind": "TEXT X-CUT",
@@ -3615,22 +3650,22 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 50,
-     "cutMax": 50
+     "cutMin": 40,
+     "cutMax": 40
     }
    ],
    "findings": [
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 50,
+     "cut": 40,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 100,
+      "l": 91,
       "t": 9,
-      "r": 395,
+      "r": 385,
       "b": 23,
       "w": 295,
       "h": 14
@@ -3647,14 +3682,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 50,
+     "cut": 40,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 100,
+      "l": 91,
       "t": 9,
-      "r": 395,
+      "r": 385,
       "b": 23,
       "w": 295,
       "h": 14
@@ -3874,9 +3909,15 @@
  "textBoxes": {
   "origin": [
    {
-    "x": -131,
+    "x": -171,
     "y": 6,
     "w": 314,
+    "h": 19
+   },
+   {
+    "x": 343,
+    "y": 6,
+    "w": 157,
     "h": 19
    },
    {
@@ -5628,7 +5669,7 @@
   ],
   "eds": [
    {
-    "x": 100,
+    "x": 91,
     "y": 9,
     "w": 295,
     "h": 14
