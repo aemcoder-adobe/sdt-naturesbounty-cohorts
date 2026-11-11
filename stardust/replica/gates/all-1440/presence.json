@@ -1,0 +1,8 @@
+{
+  "blogs-recipes-apple-crisp": {
+    "variable": [
+      ".article-main__related=.related"
+    ],
+    "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation)"
+  }
+}

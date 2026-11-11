@@ -1,0 +1,19 @@
+{
+  "blogs-recipes-apple-crisp": {
+    "verdict": "PASS (documented override)",
+    "reason": "server-rotated 'More recipes' row (live picks 3 recipes per request; delivered = captured snapshot, register residual listing-rotation): page without the row 4.44% (above 1400px same-y, below re-aligned at row end origin 2568 / eds 2440), tail Δh 13px",
+    "evidence": {
+      "pct": 4.44,
+      "origin": [
+        1400,
+        2568
+      ],
+      "eds": [
+        1480,
+        2440
+      ],
+      "tailDh": 13,
+      "at": "2026-11-11T02:20:02.895Z"
+    }
+  }
+}

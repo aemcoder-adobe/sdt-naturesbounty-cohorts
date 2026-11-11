@@ -1,14 +1,16 @@
 {
  "_provenance": {
   "writtenBy": "content-presence.mjs",
-  "at": "2026-11-11T02:10:21.069Z",
+  "at": "2026-11-11T02:22:02.788Z",
   "width": 360,
-  "variable": [],
+  "variable": [
+   ".article-main__related"
+  ],
   "tier": "chrome"
  },
  "origin": {
   "url": "https://naturesbounty.com/blogs/recipes/apple-crisp",
-  "at": "2026-11-11T02:09:58.611Z",
+  "at": "2026-11-11T02:21:40.344Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 5482,
@@ -21,7 +23,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 155,
+    "x": 110,
     "y": 6,
     "w": 314,
     "h": 20,
@@ -327,7 +329,7 @@
    {
     "kind": "text",
     "state": "visible",
-    "variable": false,
+    "variable": true,
     "inRoot": true,
     "inChrome": false,
     "path": "section.article-main > div.article-main__related.container__tight > div.article-main__related-title.text-section-title",
@@ -340,7 +342,7 @@
    {
     "kind": "link",
     "state": "visible",
-    "variable": false,
+    "variable": true,
     "inRoot": true,
     "inChrome": false,
     "path": "div.article-item.is-layout-3 > div.article-item__image-holder > a.article-item__url",
@@ -354,7 +356,7 @@
    {
     "kind": "image",
     "state": "visible",
-    "variable": false,
+    "variable": true,
     "inRoot": true,
     "inChrome": false,
     "path": "div.article-item__image-holder > a.article-item__url > img.image-resp",
@@ -368,7 +370,7 @@
    {
     "kind": "link",
     "state": "visible",
-    "variable": false,
+    "variable": true,
     "inRoot": true,
     "inChrome": false,
     "path": "div.article-item__grid > div.article-item.is-layout-3 > a.article-item__content",
@@ -382,7 +384,7 @@
    {
     "kind": "heading",
     "state": "visible",
-    "variable": false,
+    "variable": true,
     "inRoot": true,
     "inChrome": false,
     "path": "a.article-item__content > div.article-item__title.t-brand-2-fg > h2.article-item__title",
@@ -396,7 +398,7 @@
    {
     "kind": "link",
     "state": "visible",
-    "variable": false,
+    "variable": true,
     "inRoot": true,
     "inChrome": false,
     "path": "div.article-item.is-layout-3 > div.article-item__image-holder > a.article-item__url",
@@ -410,7 +412,7 @@
    {
     "kind": "image",
     "state": "visible",
-    "variable": false,
+    "variable": true,
     "inRoot": true,
     "inChrome": false,
     "path": "div.article-item__image-holder > a.article-item__url > img.image-resp",
@@ -424,7 +426,7 @@
    {
     "kind": "link",
     "state": "visible",
-    "variable": false,
+    "variable": true,
     "inRoot": true,
     "inChrome": false,
     "path": "div.article-item__grid > div.article-item.is-layout-3 > a.article-item__content",
@@ -438,7 +440,7 @@
    {
     "kind": "heading",
     "state": "visible",
-    "variable": false,
+    "variable": true,
     "inRoot": true,
     "inChrome": false,
     "path": "a.article-item__content > div.article-item__title.t-brand-2-fg > h2.article-item__title",
@@ -452,7 +454,7 @@
    {
     "kind": "link",
     "state": "visible",
-    "variable": false,
+    "variable": true,
     "inRoot": true,
     "inChrome": false,
     "path": "div.article-item.is-layout-3 > div.article-item__image-holder > a.article-item__url",
@@ -466,7 +468,7 @@
    {
     "kind": "image",
     "state": "visible",
-    "variable": false,
+    "variable": true,
     "inRoot": true,
     "inChrome": false,
     "path": "div.article-item__image-holder > a.article-item__url > img.image-resp",
@@ -480,7 +482,7 @@
    {
     "kind": "link",
     "state": "visible",
-    "variable": false,
+    "variable": true,
     "inRoot": true,
     "inChrome": false,
     "path": "div.article-item__grid > div.article-item.is-layout-3 > a.article-item__content",
@@ -494,7 +496,7 @@
    {
     "kind": "heading",
     "state": "visible",
-    "variable": false,
+    "variable": true,
     "inRoot": true,
     "inChrome": false,
     "path": "a.article-item__content > div.article-item__title.t-brand-2-fg > h2.article-item__title",
@@ -1140,8 +1142,8 @@
      "clipper": "div.slick-list.draggable",
      "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 108,
-     "cutMax": 108
+     "cutMin": 62,
+     "cutMax": 62
     },
     {
      "kind": "TEXT X-CUT",
@@ -1150,15 +1152,15 @@
      "clipper": "div.slick-list.draggable",
      "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 108,
-     "cutMax": 108
+     "cutMin": 62,
+     "cutMax": 62
     }
    ]
   }
  },
  "eds": {
   "url": "https://main--1a676f95--aemcoder.aem.page/blogs/recipes/apple-crisp",
-  "at": "2026-11-11T02:10:20.901Z",
+  "at": "2026-11-11T02:22:02.646Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 5341,
@@ -1171,7 +1173,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": -114,
+    "x": -106,
     "y": 9,
     "w": 202,
     "h": 14,
@@ -1185,7 +1187,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 288,
+    "x": 296,
     "y": 9,
     "w": 295,
     "h": 14,
@@ -1520,7 +1522,7 @@
    {
     "kind": "link",
     "state": "visible",
-    "variable": false,
+    "variable": true,
     "inRoot": true,
     "inChrome": false,
     "path": "div.related-card > div.related-card-media > a",
@@ -1534,7 +1536,7 @@
    {
     "kind": "image",
     "state": "visible",
-    "variable": false,
+    "variable": true,
     "inRoot": true,
     "inChrome": false,
     "path": "a > picture > img",
@@ -1548,7 +1550,7 @@
    {
     "kind": "link",
     "state": "visible",
-    "variable": false,
+    "variable": true,
     "inRoot": true,
     "inChrome": false,
     "path": "div.related-grid > div.related-card > a.related-card-link",
@@ -1562,7 +1564,7 @@
    {
     "kind": "heading",
     "state": "visible",
-    "variable": false,
+    "variable": true,
     "inRoot": true,
     "inChrome": false,
     "path": "a.related-card-link > div.related-card-title > h3#peach-pear--plum-smoothie",
@@ -1576,7 +1578,7 @@
    {
     "kind": "link",
     "state": "visible",
-    "variable": false,
+    "variable": true,
     "inRoot": true,
     "inChrome": false,
     "path": "div.related-card > div.related-card-media > a",
@@ -1590,7 +1592,7 @@
    {
     "kind": "image",
     "state": "visible",
-    "variable": false,
+    "variable": true,
     "inRoot": true,
     "inChrome": false,
     "path": "a > picture > img",
@@ -1604,7 +1606,7 @@
    {
     "kind": "link",
     "state": "visible",
-    "variable": false,
+    "variable": true,
     "inRoot": true,
     "inChrome": false,
     "path": "div.related-grid > div.related-card > a.related-card-link",
@@ -1618,7 +1620,7 @@
    {
     "kind": "heading",
     "state": "visible",
-    "variable": false,
+    "variable": true,
     "inRoot": true,
     "inChrome": false,
     "path": "a.related-card-link > div.related-card-title > h3#oatmeal-cookie-shake",
@@ -1632,7 +1634,7 @@
    {
     "kind": "link",
     "state": "visible",
-    "variable": false,
+    "variable": true,
     "inRoot": true,
     "inChrome": false,
     "path": "div.related-card > div.related-card-media > a",
@@ -1646,7 +1648,7 @@
    {
     "kind": "image",
     "state": "visible",
-    "variable": false,
+    "variable": true,
     "inRoot": true,
     "inChrome": false,
     "path": "a > picture > img",
@@ -1660,7 +1662,7 @@
    {
     "kind": "link",
     "state": "visible",
-    "variable": false,
+    "variable": true,
     "inRoot": true,
     "inChrome": false,
     "path": "div.related-grid > div.related-card > a.related-card-link",
@@ -1674,7 +1676,7 @@
    {
     "kind": "heading",
     "state": "visible",
-    "variable": false,
+    "variable": true,
     "inRoot": true,
     "inChrome": false,
     "path": "a.related-card-link > div.related-card-title > h3#mango-berry-cloud",
@@ -2367,8 +2369,8 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "grow thicker, fuller hair in 3 months*",
-     "cutMin": 115,
-     "cutMax": 236
+     "cutMin": 108,
+     "cutMax": 244
     },
     {
      "kind": "TEXT X-CUT",
@@ -2377,22 +2379,22 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "grow thicker, fuller hair in 3 months*",
-     "cutMin": 115,
-     "cutMax": 236
+     "cutMin": 108,
+     "cutMax": 244
     }
    ],
    "findings": [
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 115,
+     "cut": 108,
      "path": "div.announce-track > ul > li > a",
      "text": "grow thicker, fuller hair in 3 months*",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -115,
+      "l": -108,
       "t": 9,
-      "r": 87,
+      "r": 94,
       "b": 23,
       "w": 202,
       "h": 14
@@ -2409,14 +2411,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 115,
+     "cut": 108,
      "path": "div.announce-track > ul > li > a",
      "text": "grow thicker, fuller hair in 3 months*",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -115,
+      "l": -108,
       "t": 9,
-      "r": 87,
+      "r": 94,
       "b": 23,
       "w": 202,
       "h": 14
@@ -2434,14 +2436,14 @@
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 236,
+     "cut": 244,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 287,
+      "l": 294,
       "t": 9,
-      "r": 581,
+      "r": 589,
       "b": 23,
       "w": 295,
       "h": 14
@@ -2458,14 +2460,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 236,
+     "cut": 244,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 287,
+      "l": 294,
       "t": 9,
-      "r": 581,
+      "r": 589,
       "b": 23,
       "w": 295,
       "h": 14
@@ -2509,7 +2511,7 @@
   {
    "index": 1,
    "heading": "apple crisp",
-   "variable": false,
+   "variable": true,
    "origin": {
     "link": 12,
     "button": 0,
@@ -2528,11 +2530,6 @@
    },
    "findings": [
     "MISSING HEADING",
-    "MISSING LINK",
-    "MISSING LINK",
-    "MISSING LINK",
-    "MISSING LINK",
-    "MISSING LINK",
     "EXTRA LINK",
     "EXTRA LINK",
     "EXTRA LINK",
@@ -2567,51 +2564,6 @@
    "msg": "h2 \"hazelnut coffee smoothie\" (origin y 2530) has no served heading",
    "band": 3,
    "text": "hazelnut coffee smoothie"
-  },
-  {
-   "sev": "🔴",
-   "kind": "MISSING LINK",
-   "msg": "\"heart friendly kettle popcorn\" → /blogs/recipes/heart-friendly-kettle-popcorn in band \"apple crisp\" (origin y 1660) not on the served page",
-   "band": 1,
-   "n": 1,
-   "text": "heart friendly kettle popcorn",
-   "href": "/blogs/recipes/heart-friendly-kettle-popcorn"
-  },
-  {
-   "sev": "🔴",
-   "kind": "MISSING LINK",
-   "msg": "\"heart friendly kettle popcorn when prepared without the excess salt and butter, \" → /blogs/recipes/heart-friendly-kettle-popcorn in band \"apple crisp\" (origin y 1680) not on the served page",
-   "band": 1,
-   "n": 1,
-   "text": "heart friendly kettle popcorn when prepared without the excess salt and butter, ",
-   "href": "/blogs/recipes/heart-friendly-kettle-popcorn"
-  },
-  {
-   "sev": "🔴",
-   "kind": "MISSING LINK",
-   "msg": "\"5 homemade healthy snacks\" → /blogs/recipes/healthy-snacks in band \"apple crisp\" (origin y 2092) not on the served page",
-   "band": 1,
-   "n": 1,
-   "text": "5 homemade healthy snacks",
-   "href": "/blogs/recipes/healthy-snacks"
-  },
-  {
-   "sev": "🔴",
-   "kind": "MISSING LINK",
-   "msg": "\"5 homemade healthy snacks don’t wait until you feel famished to relieve those hu\" → /blogs/recipes/healthy-snacks in band \"apple crisp\" (origin y 2112) not on the served page",
-   "band": 1,
-   "n": 1,
-   "text": "5 homemade healthy snacks don’t wait until you feel famished to relieve those hu",
-   "href": "/blogs/recipes/healthy-snacks"
-  },
-  {
-   "sev": "🔴",
-   "kind": "MISSING LINK",
-   "msg": "×2 \"hazelnut coffee smoothie\" → /blogs/recipes/hazelnut-coffee-smoothie in band \"apple crisp\" (origin y 2494) not on the served page",
-   "band": 1,
-   "n": 2,
-   "text": "hazelnut coffee smoothie",
-   "href": "/blogs/recipes/hazelnut-coffee-smoothie"
   },
   {
    "sev": "🟡",
@@ -2729,7 +2681,7 @@
   "missingHeadings": 3,
   "hiddenHeadings": 0,
   "extraHeadings": 5,
-  "missingLinks": 6,
+  "missingLinks": 0,
   "hiddenLinks": 0,
   "movedLinks": 0,
   "extraLinks": 11,
@@ -2737,15 +2689,15 @@
   "hiddenButtons": 0,
   "controlState": 0,
   "countDeltas": 1,
-  "findings": 23,
-  "structural": 8,
-  "missing": 9,
+  "findings": 18,
+  "structural": 3,
+  "missing": 3,
   "hidden": 0
  },
  "textBoxes": {
   "origin": [
    {
-    "x": 154,
+    "x": 108,
     "y": 6,
     "w": 314,
     "h": 19
@@ -3281,13 +3233,13 @@
   ],
   "eds": [
    {
-    "x": -115,
+    "x": -108,
     "y": 9,
     "w": 202,
     "h": 14
    },
    {
-    "x": 287,
+    "x": 294,
     "y": 9,
     "w": 295,
     "h": 14

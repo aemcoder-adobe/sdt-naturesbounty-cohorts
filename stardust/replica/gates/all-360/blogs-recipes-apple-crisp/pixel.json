@@ -7,16 +7,22 @@
     "mode": "overlap"
   },
   "heightDelta": 141,
-  "differingPixels": 610171,
-  "pct": 31.73,
+  "differingPixels": 375888,
+  "pct": 25.02,
   "threshold": 10,
   "pass": false,
   "diff": "stardust/replica/gates/all-360/blogs-recipes-apple-crisp/diff.png",
-  "masks": [],
-  "maskedRows": 0,
-  "textPct": 27.89,
+  "masks": [
+    {
+      "yA": 1400,
+      "h": 1168,
+      "yB": 1400
+    }
+  ],
+  "maskedRows": 1168,
+  "textPct": 25.67,
   "textBoxes": 89,
-  "textPixels": 358816,
+  "textPixels": 287177,
   "bands": [
     {
       "y0": 0,
@@ -31,22 +37,22 @@
     {
       "y0": 1000,
       "y1": 1500,
-      "pct": 5.7
+      "pct": 2
     },
     {
       "y0": 1500,
       "y1": 2000,
-      "pct": 53.8
+      "pct": 0
     },
     {
       "y0": 2000,
       "y1": 2500,
-      "pct": 61.4
+      "pct": 0
     },
     {
       "y0": 2500,
       "y1": 3000,
-      "pct": 57.7
+      "pct": 46.4
     },
     {
       "y0": 3000,
@@ -73,5 +79,6 @@
       "y1": 5341,
       "pct": 13.5
     }
-  ]
+  ],
+  "maskReason": "server-rotated 'More recipes' row"
 }
