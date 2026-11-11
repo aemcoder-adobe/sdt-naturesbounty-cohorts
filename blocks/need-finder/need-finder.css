@@ -140,8 +140,16 @@
 
 .need-finder.for-agent legend {
   padding: 0 6px;
-  font-size: 19px;
+  font-size: 16px;
+  line-height: 24px;
   font-weight: var(--fw-bold);
+  white-space: nowrap;
+}
+
+@media (width >= 768px) {
+  .need-finder.for-agent legend {
+    font-size: 19px;
+  }
 }
 
 .need-finder.for-agent .need-finder-option {
