@@ -151,15 +151,21 @@
 }
 
 .need-finder.for-agent input[type="radio"] {
-  width: 22px;
-  height: 22px;
+  width: 24px;
+  height: 24px;
   margin: 0;
+}
+
+/* reserve the intro's height so a late web font cannot move the form */
+.need-finder.for-agent .need-finder-intro {
+  min-height: 200px;
 }
 
 .need-finder.for-agent label {
   flex: 1;
   display: flex;
   align-items: center;
+  gap: 12px;
   min-height: 44px;
   font-size: 17px;
 }
@@ -170,7 +176,8 @@
 }
 
 .need-finder.for-agent .need-finder-result {
-  min-height: 220px;
+  height: 440px;
+  overflow-y: auto;
   margin: 20px 0;
   padding: 16px;
   border: 1px dashed var(--forest);
@@ -217,4 +224,14 @@
   vertical-align: top;
   padding: 8px;
   border-bottom: 1px solid var(--line);
+}
+
+@media (width >= 768px) {
+  .need-finder.for-agent .need-finder-intro {
+    min-height: 130px;
+  }
+
+  .need-finder.for-agent .need-finder-result {
+    height: 300px;
+  }
 }

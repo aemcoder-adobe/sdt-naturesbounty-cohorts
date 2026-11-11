@@ -394,8 +394,12 @@ body[data-experience="agent"] .header [aria-controls="site-drawer"] {
   display: none !important;
 }
 
+body[data-experience="agent"] header button {
+  min-width: 44px;
+  min-height: 44px;
+}
+
 body[data-experience="agent"] header a,
-body[data-experience="agent"] header button,
 body[data-experience="agent"] main a,
 body[data-experience="agent"] footer a {
   display: inline-block;

@@ -102,9 +102,10 @@ function renderAgent(block, intro, needs) {
     input.id = id;
     input.value = n.id;
     input.checked = params.get('need') === n.id;
-    const label = el('label', '', n.label);
+    const label = el('label');
     label.htmlFor = id;
-    wrap.append(input, label);
+    label.append(input, el('span', '', n.label));
+    wrap.append(label);
     fs.append(wrap);
   });
   const submit = el('button', 'button primary', 'Show the supplement for this need');
