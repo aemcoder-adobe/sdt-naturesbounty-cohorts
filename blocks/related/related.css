@@ -1,0 +1,166 @@
+/* related — lifted from the gated prototype canon.css "related cards" */
+main > .section.related-container {
+  margin-top: 60px;
+  padding-bottom: 60px;
+}
+
+main > .section.related-container .default-content-wrapper :is(h2, h3, p),
+.related .related-title :is(h2, h3, p) {
+  margin: 0;
+  font-size: 34px;
+  line-height: 45px;
+  font-weight: var(--fw-extrabold);
+  text-align: center;
+}
+
+.related .related-grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px;
+  margin-top: 35px;
+}
+
+.related .related-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.related .related-card-media {
+  height: 200px;
+  line-height: 0;
+}
+
+.related .related-card-media :is(a, picture) {
+  display: block;
+  height: 100%;
+}
+
+.related .related-card-media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.related .related-card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 20px;
+}
+
+.related .related-card-tags :is(ul, ol, li) {
+  display: contents;
+}
+
+.related .related-card-sep {
+  display: block;
+  font-size: 14px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.related .related-card-title {
+  margin-top: 16px;
+  color: var(--green);
+  font-size: 25px;
+  line-height: 38px;
+  font-weight: var(--fw-bold);
+  text-underline-offset: 0.3rem;
+  text-decoration-thickness: 0;
+  transition: text-decoration-thickness 0.15s ease;
+}
+
+.related .related-card-title :is(h2, h3, h4) {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+
+.related .related-card-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.related .related-card-link:hover .related-card-title {
+  text-decoration: underline;
+  text-decoration-thickness: 0.2rem;
+}
+
+.related .related-card-title a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.related .related-card p {
+  margin: 0;
+}
+
+.related .related-card-excerpt {
+  margin-top: 0;
+}
+
+.related .related-card-more {
+  margin: 18px 0;
+}
+
+.related .related-card-more a:any-link {
+  text-decoration: none;
+}
+
+.related .related-card-tags a:any-link {
+  display: block;
+  font-size: 14px;
+  line-height: 30px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  text-underline-offset: 3px;
+  transition: text-decoration-color 0.2s ease;
+}
+
+.related .related-card-tags a:hover {
+  text-decoration-color: currentcolor;
+}
+
+@media (width >= 480px) {
+  .related .related-card-media {
+    height: 300px;
+  }
+}
+
+@media (width >= 600px) {
+  .related .related-card-media {
+    height: 450px;
+  }
+}
+
+@media (width >= 768px) {
+  main > .section.related-container .default-content-wrapper :is(h2, h3, p),
+  .related .related-title :is(h2, h3, p) {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .related .related-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 50px;
+  }
+
+  .related .related-card-media {
+    height: 245px;
+  }
+}
+
+@media (width >= 1680px) {
+  main > .section.related-container > div {
+    padding-left: 124px;
+    padding-right: 124px;
+  }
+}

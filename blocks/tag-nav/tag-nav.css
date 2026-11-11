@@ -1,0 +1,91 @@
+/* tag-nav — lifted from the gated prototype canon.css "category sidebar" */
+.tag-nav {
+  border-radius: var(--radius-card);
+}
+
+.tag-nav .tag-nav-head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  padding: 0 20px;
+  border-radius: var(--radius-card) var(--radius-card) 0 0;
+  background-color: var(--lime-pale);
+  font-weight: var(--fw-bold);
+  text-align: center;
+}
+
+.tag-nav .tag-nav-head :is(p, h2, h3) {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+
+.tag-nav .tag-nav-list :is(ul, ol) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin: 0;
+  padding: 20px 20px 40px;
+  border: 1px solid var(--line);
+  border-top: none;
+  border-radius: 0 0 var(--radius-card) var(--radius-card);
+  list-style: none;
+}
+
+.tag-nav .tag-nav-list li {
+  display: contents;
+}
+
+.tag-nav .tag-nav-list a {
+  display: block;
+  max-width: 325px;
+  padding: 0 5px;
+  color: var(--green);
+  font-weight: var(--fw-bold);
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: var(--green);
+  text-underline-offset: 3px;
+  transition: text-decoration-color 0.2s ease;
+}
+
+.tag-nav .tag-nav-list a:hover {
+  text-decoration-color: transparent;
+}
+
+.tag-nav .tag-nav-list li:first-child a {
+  padding-left: 0;
+}
+
+@media (width >= 768px) {
+  .tag-nav .tag-nav-head {
+    justify-content: flex-start;
+  }
+
+  .tag-nav .tag-nav-list :is(ul, ol) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .tag-nav .tag-nav-list a {
+    text-align: left;
+  }
+}
+
+@media (width >= 992px) {
+  .tag-nav .tag-nav-head {
+    justify-content: center;
+  }
+
+  .tag-nav .tag-nav-list :is(ul, ol) {
+    display: flex;
+  }
+
+  .tag-nav .tag-nav-list a {
+    text-align: center;
+  }
+}

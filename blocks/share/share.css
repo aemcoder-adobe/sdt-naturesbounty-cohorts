@@ -1,0 +1,103 @@
+/* share — lifted from the gated prototype canon.css "share bar" */
+.share {
+  margin-top: 30px;
+}
+
+.share .share-copy p {
+  margin: 0;
+  font-weight: var(--fw-bold);
+}
+
+.share .share-lead {
+  color: var(--olive);
+}
+
+.share .share-links :is(ul, ol) {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin: 16px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.share .share-links p {
+  margin: 16px 0 0;
+}
+
+.share .share-links a {
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+  background-color: #777;
+  color: var(--white);
+  font-weight: var(--fw-bold);
+  text-decoration: none;
+}
+
+.share .share-links a::before {
+  content: "";
+  display: block;
+  flex: none;
+  width: 20px;
+  height: 20px;
+  margin-right: 6px;
+  background-color: currentcolor;
+  mask: var(--share-icon, url("/blocks/share/email.svg")) center / contain no-repeat;
+}
+
+.share .share-links a[href*="facebook.com"] {
+  --share-icon: url("/blocks/share/facebook.svg");
+
+  background-color: #3b5998;
+}
+
+.share .share-links a[href*="facebook.com"]:hover {
+  background-color: #2d4373;
+}
+
+.share .share-links a:is([href*="twitter.com"], [href*="//x.com"]) {
+  --share-icon: url("/blocks/share/twitter.svg");
+
+  background-color: #55acee;
+}
+
+.share .share-links a:is([href*="twitter.com"], [href*="//x.com"]):hover {
+  background-color: #2795e9;
+}
+
+.share .share-links a[href*="pinterest."] {
+  --share-icon: url("/blocks/share/pinterest.svg");
+
+  background-color: #bd081c;
+}
+
+.share .share-links a[href*="pinterest."]:hover {
+  background-color: #8c0615;
+}
+
+.share .share-links a[href*="linkedin.com"] {
+  --share-icon: url("/blocks/share/linkedin.svg");
+
+  background-color: #0077b5;
+}
+
+.share .share-links a[href*="linkedin.com"]:hover {
+  background-color: #046293;
+}
+
+.share .share-links a[href^="mailto:"]:hover {
+  background-color: #5e5e5e;
+}
+
+@media (width <= 768px) {
+  .share .share-links a {
+    font-size: 12px;
+  }
+
+  .share .share-links a::before {
+    width: 16px;
+    height: 16px;
+  }
+}

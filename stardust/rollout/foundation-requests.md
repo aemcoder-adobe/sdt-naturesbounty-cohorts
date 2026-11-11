@@ -1,0 +1,1 @@
+- archetype-article | static .tag-frames snapshot (12px body-end tail, captureState restoreAtDelivery) not delivered by the foundation; article page Δh carries it | gate-all Δh at 1440/360 on blogs-news-the-benefits-of-biotin; replica progress.json types.article.captureState[0] | article, recipe, listing, landing

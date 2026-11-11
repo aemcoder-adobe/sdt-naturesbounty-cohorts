@@ -1,0 +1,177 @@
+/* article — lifted from the gated prototype (article.css, component-article-main.css) */
+main > .section > .article-wrapper {
+  max-width: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.article .article-hero {
+  height: 340px;
+  margin: 0;
+  line-height: 0;
+}
+
+.article .article-hero picture,
+.article .article-hero img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.article .article-hero img {
+  object-fit: cover;
+  object-position: top;
+}
+
+.article .article-content {
+  padding-bottom: 50px;
+}
+
+.article .article-title {
+  margin-top: 20px;
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: var(--fw-extrabold);
+}
+
+.article .article-title :is(h1, h2, h3) {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+
+.article .article-excerpt {
+  margin-top: 25px;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  font-size: 22px;
+  line-height: 35px;
+  font-weight: var(--fw-bold);
+}
+
+.article .article-excerpt p {
+  margin: 0;
+  padding: 25px 0;
+}
+
+.article .article-text {
+  margin-top: 30px;
+  margin-bottom: -30px;
+}
+
+.article .article-text :is(p, ul, ol, blockquote) {
+  margin: 0 0 30px;
+}
+
+.article .article-text ul {
+  list-style: disc;
+  padding-left: 30px;
+}
+
+.article .article-text ol {
+  list-style: decimal;
+  padding-left: 30px;
+}
+
+.article .article-text :is(h2, h3, h4) {
+  margin: 0 0 20px;
+  font-weight: var(--fw-bold);
+}
+
+.article .article-text h2 {
+  font-size: 28px;
+  line-height: 38px;
+}
+
+.article .article-text :is(h3, h4) {
+  font-size: 22px;
+  line-height: 32px;
+}
+
+.article .article-text img {
+  max-width: 100%;
+  height: auto;
+}
+
+.article .article-text a {
+  color: var(--green);
+  font-weight: var(--fw-bold);
+  text-decoration: underline;
+  text-underline-offset: 0.3rem;
+  text-decoration-thickness: 0.1rem;
+  transition: text-decoration-thickness 0.15s ease;
+}
+
+.article .article-text a:hover,
+.article .article-text a:active {
+  text-decoration-thickness: 0.2rem;
+}
+
+.article .article-text::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+@media (width >= 768px) {
+  .article .article-hero {
+    height: 400px;
+  }
+
+  .article .article-title {
+    font-size: 50px;
+    line-height: 60px;
+  }
+}
+
+@media (width >= 992px) {
+  .article .article-hero {
+    height: 500px;
+  }
+
+  .article .article-body {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    gap: 60px;
+  }
+
+  .article .article-body.article-body-single {
+    display: block;
+  }
+
+  .article .article-sidebar {
+    margin-top: 60px;
+  }
+
+  .article .article-title {
+    margin-top: 60px;
+  }
+}
+
+@media (width >= 1400px) {
+  .article .article-hero {
+    height: 600px;
+  }
+
+  .article .article-body {
+    gap: 100px;
+  }
+
+  .article .article-excerpt {
+    border-top: 0;
+    border-bottom: 0;
+  }
+
+  .article .article-excerpt p {
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+  }
+}
+
+@media (width >= 1680px) {
+  .article .article-hero {
+    height: 900px;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+}
