@@ -66,7 +66,7 @@
   ascent-override: 95.68%;
   descent-override: 25.18%;
   line-gap-override: 0%;
-  src: local('Arial');
+  src: local('Arial'), local('ArialMT'), local('Liberation Sans'), local('LiberationSans-Regular'), local('Helvetica');
 }
 
 /* ---------- base */
