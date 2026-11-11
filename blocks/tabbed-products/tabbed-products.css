@@ -315,7 +315,7 @@ main > .section > .tabbed-products-wrapper {
 }
 
 @media (width >= 768px) {
-  .tabbed-products .product-card-title {
+  .tabbed-products .product-card-title :is(h2, h3, h4) {
     min-height: 60px;
   }
 }
