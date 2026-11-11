@@ -7,16 +7,22 @@
     "mode": "overlap"
   },
   "heightDelta": 27,
-  "differingPixels": 421716,
-  "pct": 18.69,
+  "differingPixels": 209236,
+  "pct": 11.69,
   "threshold": 10,
   "pass": false,
   "diff": "stardust/replica/gates/all-360/blogs-recipes-banana-walnut-protein-pancakes/diff.png",
-  "masks": [],
-  "maskedRows": 0,
-  "textPct": 19.13,
+  "masks": [
+    {
+      "yA": 2272,
+      "h": 1297,
+      "yB": 2272
+    }
+  ],
+  "maskedRows": 1297,
+  "textPct": 18.4,
   "textBoxes": 113,
-  "textPixels": 488677,
+  "textPixels": 423945,
   "bands": [
     {
       "y0": 0,
@@ -41,22 +47,22 @@
     {
       "y0": 2000,
       "y1": 2500,
-      "pct": 25
+      "pct": 2
     },
     {
       "y0": 2500,
       "y1": 3000,
-      "pct": 49.7
+      "pct": 0
     },
     {
       "y0": 3000,
       "y1": 3500,
-      "pct": 44
+      "pct": 0
     },
     {
       "y0": 3500,
       "y1": 4000,
-      "pct": 12.9
+      "pct": 11.5
     },
     {
       "y0": 4000,
@@ -83,5 +89,6 @@
       "y1": 6267,
       "pct": 12.9
     }
-  ]
+  ],
+  "maskReason": "server-rotated 'More recipes' row"
 }

@@ -7,16 +7,22 @@
     "mode": "overlap"
   },
   "heightDelta": -39,
-  "differingPixels": 509484,
-  "pct": 26.26,
+  "differingPixels": 264417,
+  "pct": 18.04,
   "threshold": 10,
   "pass": false,
   "diff": "stardust/replica/gates/all-360/blogs-recipes-chocolate-covered-cherry-shake/diff.png",
-  "masks": [],
-  "maskedRows": 0,
-  "textPct": 23.93,
-  "textBoxes": 85,
-  "textPixels": 350861,
+  "masks": [
+    {
+      "yA": 1398,
+      "h": 1318,
+      "yB": 1398
+    }
+  ],
+  "maskedRows": 1318,
+  "textPct": 18.52,
+  "textBoxes": 87,
+  "textPixels": 295967,
   "bands": [
     {
       "y0": 0,
@@ -31,22 +37,22 @@
     {
       "y0": 1000,
       "y1": 1500,
-      "pct": 5.6
+      "pct": 2
     },
     {
       "y0": 1500,
       "y1": 2000,
-      "pct": 56.8
+      "pct": 0
     },
     {
       "y0": 2000,
       "y1": 2500,
-      "pct": 62.9
+      "pct": 0
     },
     {
       "y0": 2500,
       "y1": 3000,
-      "pct": 33.1
+      "pct": 20.3
     },
     {
       "y0": 3000,
@@ -73,5 +79,6 @@
       "y1": 5390,
       "pct": 15.2
     }
-  ]
+  ],
+  "maskReason": "server-rotated 'More recipes' row"
 }

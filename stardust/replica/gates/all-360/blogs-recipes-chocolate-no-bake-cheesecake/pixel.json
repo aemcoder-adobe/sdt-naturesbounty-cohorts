@@ -7,16 +7,22 @@
     "mode": "overlap"
   },
   "heightDelta": 49,
-  "differingPixels": 487215,
-  "pct": 22.46,
+  "differingPixels": 260712,
+  "pct": 15.28,
   "threshold": 10,
   "pass": false,
   "diff": "stardust/replica/gates/all-360/blogs-recipes-chocolate-no-bake-cheesecake/diff.png",
-  "masks": [],
-  "maskedRows": 0,
-  "textPct": 19.95,
-  "textBoxes": 106,
-  "textPixels": 466176,
+  "masks": [
+    {
+      "yA": 2062,
+      "h": 1289,
+      "yB": 2062
+    }
+  ],
+  "maskedRows": 1289,
+  "textPct": 18.44,
+  "textBoxes": 104,
+  "textPixels": 387294,
   "bands": [
     {
       "y0": 0,
@@ -41,17 +47,17 @@
     {
       "y0": 2000,
       "y1": 2500,
-      "pct": 42.2
+      "pct": 0
     },
     {
       "y0": 2500,
       "y1": 3000,
-      "pct": 61.8
+      "pct": 0
     },
     {
       "y0": 3000,
       "y1": 3500,
-      "pct": 30.5
+      "pct": 8.6
     },
     {
       "y0": 3500,
@@ -83,5 +89,6 @@
       "y1": 6027,
       "pct": 3.9
     }
-  ]
+  ],
+  "maskReason": "server-rotated 'More recipes' row"
 }

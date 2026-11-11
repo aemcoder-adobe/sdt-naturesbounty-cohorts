@@ -7,16 +7,22 @@
     "mode": "overlap"
   },
   "heightDelta": -115,
-  "differingPixels": 594548,
-  "pct": 30.72,
+  "differingPixels": 354709,
+  "pct": 24.74,
   "threshold": 10,
   "pass": false,
   "diff": "stardust/replica/gates/all-360/blogs-recipes-chocolate-tropical-paradise/diff.png",
-  "masks": [],
-  "maskedRows": 0,
-  "textPct": 23.68,
+  "masks": [
+    {
+      "yA": 1384,
+      "h": 1394,
+      "yB": 1384
+    }
+  ],
+  "maskedRows": 1394,
+  "textPct": 21.56,
   "textBoxes": 85,
-  "textPixels": 351390,
+  "textPixels": 279548,
   "bands": [
     {
       "y0": 0,
@@ -31,22 +37,22 @@
     {
       "y0": 1000,
       "y1": 1500,
-      "pct": 8.2
+      "pct": 1.9
     },
     {
       "y0": 1500,
       "y1": 2000,
-      "pct": 59.9
+      "pct": 0
     },
     {
       "y0": 2000,
       "y1": 2500,
-      "pct": 43.2
+      "pct": 0
     },
     {
       "y0": 2500,
       "y1": 3000,
-      "pct": 54.8
+      "pct": 31
     },
     {
       "y0": 3000,
@@ -73,5 +79,6 @@
       "y1": 5376,
       "pct": 15.7
     }
-  ]
+  ],
+  "maskReason": "server-rotated 'More recipes' row"
 }

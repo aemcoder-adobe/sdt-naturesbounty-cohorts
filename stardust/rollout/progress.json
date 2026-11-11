@@ -1,178 +1,187 @@
 {
-  "units": {
-    "foundation": {
-      "kind": "foundation",
-      "templates": [
-        "*"
-      ],
-      "status": "done",
-      "startedAt": "2026-11-11T00:24:51.773Z",
-      "endedAt": "2026-11-11T01:21:16.988Z",
-      "pages": 0,
-      "blocks": 2,
-      "gates": {
-        "360": {
-          "chromeVsPrototype": "header 32 (11 artefacts, 4 View-All R-01 −3/−4px, 17 DA media_ icon names), footer 0"
-        },
-        "1440": {
-          "chromeVsPrototype": "header 11 (artefacts: region box/sticky, ticker), footer 0"
-        },
-        "header": "chrome-compare exit 2: 3 source-recording errors (unnamed live logo, ticker in drawer crop)"
-      },
-      "verdict": "foundation: nav/footer live, header/footer blocks + styles + Figtree deployed (9c76d7a), chrome parity footer 0 / header artefacts only, lint ok"
+ "units": {
+  "foundation": {
+   "kind": "foundation",
+   "templates": [
+    "*"
+   ],
+   "status": "done",
+   "startedAt": "2026-11-11T00:24:51.773Z",
+   "endedAt": "2026-11-11T01:21:16.988Z",
+   "pages": 0,
+   "blocks": 2,
+   "gates": {
+    "360": {
+     "chromeVsPrototype": "header 32 (11 artefacts, 4 View-All R-01 −3/−4px, 17 DA media_ icon names), footer 0"
     },
-    "archetype-landing": {
-      "kind": "archetype",
-      "templates": [
-        "landing"
-      ],
-      "status": "done",
-      "startedAt": "2026-11-11T01:57:32.793Z",
-      "endedAt": "2026-11-11T02:33:16.768Z",
-      "pages": 1,
-      "blocks": 9,
-      "gates": {
-        "360": {
-          "pixel": 8.49,
-          "dh": 44,
-          "residual": "R-01 font substitution (prototype 8.55 %)"
-        },
-        "1440": {
-          "pixel": 2.66,
-          "dh": 13
-        },
-        "notes": "pixel/Δh/clip/presence pass both widths; full verdict FAIL only on figtree-fallback font check (queued foundation request) + unit geometry (carousel off-screen slides, R-01 widths)"
-      },
-      "verdict": "archetype-landing: pages 1/1 live, blocks 9 (7 new + trusted-band, social-strip), gate 1440 2.66% Δh +13 / 360 8.49% Δh +44, requests 0; encoder stardust/rollout/encoders/landing.mjs; hero mp4 via DA media"
+    "1440": {
+     "chromeVsPrototype": "header 11 (artefacts: region box/sticky, ticker), footer 0"
     },
-    "archetype-listing": {
-      "kind": "archetype",
-      "templates": [
-        "listing"
-      ],
-      "status": "done",
-      "startedAt": "2026-11-11T01:21:58.631Z",
-      "endedAt": "2026-11-11T01:56:51.624Z",
-      "pages": 1,
-      "blocks": 7,
-      "gates": {
-        "360": {
-          "pixel": 3.62,
-          "dh": 13
-        },
-        "1440": {
-          "pixel": 2.05,
-          "dh": 12
-        },
-        "notes": "gate-all full verdict FAIL on unit-geometry (R-01) + figtree-fallback font check (foundation request)"
-      },
-      "verdict": "archetype-listing: pages 1/1 live, blocks 7, gate 1440 2.05% Δh +12px / 360 3.62% Δh +13px, requests 1"
+    "header": "chrome-compare exit 2: 3 source-recording errors (unnamed live logo, ticker in drawer crop)"
+   },
+   "verdict": "foundation: nav/footer live, header/footer blocks + styles + Figtree deployed (9c76d7a), chrome parity footer 0 / header artefacts only, lint ok"
+  },
+  "archetype-landing": {
+   "kind": "archetype",
+   "templates": [
+    "landing"
+   ],
+   "status": "done",
+   "startedAt": "2026-11-11T01:57:32.793Z",
+   "endedAt": "2026-11-11T02:33:16.768Z",
+   "pages": 1,
+   "blocks": 9,
+   "gates": {
+    "360": {
+     "pixel": 8.49,
+     "dh": 44,
+     "residual": "R-01 font substitution (prototype 8.55 %)"
     },
-    "archetype-article": {
-      "kind": "archetype",
-      "templates": [
-        "article"
-      ],
-      "status": "done",
-      "startedAt": "2026-11-11T01:21:58.631Z",
-      "endedAt": "2026-11-11T01:54:46.324Z",
-      "pages": 1,
-      "blocks": 5,
-      "gates": {
-        "360": {
-          "pixel": 16.61,
-          "dh": -33,
-          "residual": "R-01 font substitution — prototype gated 16.66%/Δh−45, same hot bands"
-        },
-        "1440": {
-          "pixel": 2.24,
-          "dh": 12
-        },
-        "notes": "gate-all row FAIL on unit-geometry (R-01 text widths) + font-not-loaded:figtree-fallback (foundation request filed)"
-      },
-      "verdict": "archetype-article: pages 1/1 live, blocks 5, gate 1440 2.24% Δh +12px / 360 16.61% Δh −33px, requests 2"
+    "1440": {
+     "pixel": 2.66,
+     "dh": 13
     },
-    "archetype-recipe": {
-      "kind": "archetype",
-      "templates": [
-        "recipe"
-      ],
-      "status": "done",
-      "startedAt": "2026-11-11T01:57:32.793Z",
-      "endedAt": "2026-11-11T02:22:39.382Z",
-      "pages": 1,
-      "blocks": 1,
-      "gates": {
-        "360": {
-          "pixel": 4.44,
-          "pixelUnmasked": 25.02,
-          "dh": 141,
-          "tailDh": 13,
-          "override": "PASS (documented override) — page without the rotated row 4.44 %"
-        },
-        "1440": {
-          "pixel": 1.87,
-          "pixelUnmasked": 20.29,
-          "dh": 12,
-          "masked": "rotated row 1376-1835",
-          "override": "PASS (documented override)"
-        },
-        "notes": "live 'More recipes' row is server-rotated per request (residual listing-rotation): row masked + presence variable; override evidence via stardust/rollout/tools/rotated-row.mjs; content MISSING 3 = the rotated headings (content-presence counts variable headings); figtree-fallback font check = queued foundation request"
-      },
-      "verdict": "archetype-recipe: pages 1/1 live, blocks 1 (recipe; share/product-rail/related/trusted-band/social-strip reused), gate 1440 1.87% masked Δh +12 / 360 4.44% without rotated row (tail Δh +13), documented override for the rotated row, requests 0; encoder stardust/rollout/encoders/recipe.mjs"
+    "notes": "pixel/Δh/clip/presence pass both widths; full verdict FAIL only on figtree-fallback font check (queued foundation request) + unit geometry (carousel off-screen slides, R-01 widths)"
+   },
+   "verdict": "archetype-landing: pages 1/1 live, blocks 9 (7 new + trusted-band, social-strip), gate 1440 2.66% Δh +13 / 360 8.49% Δh +44, requests 0; encoder stardust/rollout/encoders/landing.mjs; hero mp4 via DA media"
+  },
+  "archetype-listing": {
+   "kind": "archetype",
+   "templates": [
+    "listing"
+   ],
+   "status": "done",
+   "startedAt": "2026-11-11T01:21:58.631Z",
+   "endedAt": "2026-11-11T01:56:51.624Z",
+   "pages": 1,
+   "blocks": 7,
+   "gates": {
+    "360": {
+     "pixel": 3.62,
+     "dh": 13
     },
-    "cluster-listing": {
-      "kind": "cluster",
-      "templates": [
-        "listing"
-      ],
-      "status": "done",
-      "startedAt": "2026-11-11T02:39:10Z",
-      "pages": 1,
-      "endedAt": "2026-11-11T02:56:43Z",
-      "verdict": "cluster-listing: pages 1/1 live, blocks 5, gate 1440 1.69% / 360 2.85%, requests 0",
-      "blocks": 5,
-      "gates": {
-        "360": {
-          "blogs-recipes": "2.85% dh+13"
-        },
-        "1440": {
-          "blogs-recipes": "1.69% dh+12"
-        },
-        "note": "font-not-loaded:figtree-fallback = queued foundation request"
-      }
+    "1440": {
+     "pixel": 2.05,
+     "dh": 12
     },
-    "cluster-recipe": {
-      "kind": "cluster",
-      "templates": [
-        "recipe"
-      ],
-      "status": "running",
-      "startedAt": "2026-11-11T02:43:26Z",
-      "pages": 39
+    "notes": "gate-all full verdict FAIL on unit-geometry (R-01) + figtree-fallback font check (foundation request)"
+   },
+   "verdict": "archetype-listing: pages 1/1 live, blocks 7, gate 1440 2.05% Δh +12px / 360 3.62% Δh +13px, requests 1"
+  },
+  "archetype-article": {
+   "kind": "archetype",
+   "templates": [
+    "article"
+   ],
+   "status": "done",
+   "startedAt": "2026-11-11T01:21:58.631Z",
+   "endedAt": "2026-11-11T01:54:46.324Z",
+   "pages": 1,
+   "blocks": 5,
+   "gates": {
+    "360": {
+     "pixel": 16.61,
+     "dh": -33,
+     "residual": "R-01 font substitution — prototype gated 16.66%/Δh−45, same hot bands"
     },
-    "cluster-article": {
-      "kind": "cluster",
-      "templates": [
-        "article"
-      ],
-      "status": "running",
-      "startedAt": "2026-11-11T02:44:42Z",
-      "pages": 76
+    "1440": {
+     "pixel": 2.24,
+     "dh": 12
     },
-    "gate-all": {
-      "kind": "final",
-      "templates": [
-        "*"
-      ],
-      "status": "pending"
+    "notes": "gate-all row FAIL on unit-geometry (R-01 text widths) + font-not-loaded:figtree-fallback (foundation request filed)"
+   },
+   "verdict": "archetype-article: pages 1/1 live, blocks 5, gate 1440 2.24% Δh +12px / 360 16.61% Δh −33px, requests 2"
+  },
+  "archetype-recipe": {
+   "kind": "archetype",
+   "templates": [
+    "recipe"
+   ],
+   "status": "done",
+   "startedAt": "2026-11-11T01:57:32.793Z",
+   "endedAt": "2026-11-11T02:22:39.382Z",
+   "pages": 1,
+   "blocks": 1,
+   "gates": {
+    "360": {
+     "pixel": 4.44,
+     "pixelUnmasked": 25.02,
+     "dh": 141,
+     "tailDh": 13,
+     "override": "PASS (documented override) — page without the rotated row 4.44 %"
     },
-    "final": {
-      "kind": "final",
-      "templates": [
-        "*"
-      ],
-      "status": "pending"
-    }
+    "1440": {
+     "pixel": 1.87,
+     "pixelUnmasked": 20.29,
+     "dh": 12,
+     "masked": "rotated row 1376-1835",
+     "override": "PASS (documented override)"
+    },
+    "notes": "live 'More recipes' row is server-rotated per request (residual listing-rotation): row masked + presence variable; override evidence via stardust/rollout/tools/rotated-row.mjs; content MISSING 3 = the rotated headings (content-presence counts variable headings); figtree-fallback font check = queued foundation request"
+   },
+   "verdict": "archetype-recipe: pages 1/1 live, blocks 1 (recipe; share/product-rail/related/trusted-band/social-strip reused), gate 1440 1.87% masked Δh +12 / 360 4.44% without rotated row (tail Δh +13), documented override for the rotated row, requests 0; encoder stardust/rollout/encoders/recipe.mjs"
+  },
+  "cluster-listing": {
+   "kind": "cluster",
+   "templates": [
+    "listing"
+   ],
+   "status": "done",
+   "startedAt": "2026-11-11T02:39:10Z",
+   "pages": 1,
+   "endedAt": "2026-11-11T02:56:43Z",
+   "verdict": "cluster-listing: pages 1/1 live, blocks 5, gate 1440 1.69% / 360 2.85%, requests 0",
+   "blocks": 5,
+   "gates": {
+    "360": {
+     "blogs-recipes": "2.85% dh+13"
+    },
+    "1440": {
+     "blogs-recipes": "1.69% dh+12"
+    },
+    "note": "font-not-loaded:figtree-fallback = queued foundation request"
+   }
+  },
+  "cluster-recipe": {
+   "kind": "cluster",
+   "templates": [
+    "recipe"
+   ],
+   "status": "done",
+   "startedAt": "2026-11-11T02:43:26Z",
+   "pages": 39,
+   "endedAt": "2026-11-11T06:51:00.568Z",
+   "verdict": "cluster-recipe: pages 39/39 live, blocks 1 (recipe, archetype blocks reused), gate 1440 39/39 + 360 39/39 PASS by documented override (server-rotated More-recipes row; page without the row ≤ 10 %), requests 0 (figtree-fallback font + unit-geometry are the queued foundation requests)",
+   "gates": {
+    "360": "39/39 override-pass",
+    "1440": "39/39 override-pass"
+   },
+   "blocks": [
+    "recipe"
+   ]
+  },
+  "cluster-article": {
+   "kind": "cluster",
+   "templates": [
+    "article"
+   ],
+   "status": "running",
+   "startedAt": "2026-11-11T02:44:42Z",
+   "pages": 76
+  },
+  "gate-all": {
+   "kind": "final",
+   "templates": [
+    "*"
+   ],
+   "status": "pending"
+  },
+  "final": {
+   "kind": "final",
+   "templates": [
+    "*"
+   ],
+   "status": "pending"
   }
+ }
 }

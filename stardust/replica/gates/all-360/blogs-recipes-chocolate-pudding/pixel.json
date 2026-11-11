@@ -7,16 +7,22 @@
     "mode": "overlap"
   },
   "heightDelta": 173,
-  "differingPixels": 745454,
-  "pct": 31.18,
+  "differingPixels": 424706,
+  "pct": 22.49,
   "threshold": 10,
   "pass": false,
   "diff": "stardust/replica/gates/all-360/blogs-recipes-chocolate-pudding/diff.png",
-  "masks": [],
-  "maskedRows": 0,
-  "textPct": 27.84,
+  "masks": [
+    {
+      "yA": 2694,
+      "h": 1395,
+      "yB": 2694
+    }
+  ],
+  "maskedRows": 1395,
+  "textPct": 23.09,
   "textBoxes": 132,
-  "textPixels": 546341,
+  "textPixels": 473307,
   "bands": [
     {
       "y0": 0,
@@ -46,22 +52,22 @@
     {
       "y0": 2500,
       "y1": 3000,
-      "pct": 44.3
+      "pct": 2.4
     },
     {
       "y0": 3000,
       "y1": 3500,
-      "pct": 62.5
+      "pct": 0
     },
     {
       "y0": 3500,
       "y1": 4000,
-      "pct": 68.3
+      "pct": 0
     },
     {
       "y0": 4000,
       "y1": 4500,
-      "pct": 67.7
+      "pct": 62.3
     },
     {
       "y0": 4500,
@@ -88,5 +94,6 @@
       "y1": 6641,
       "pct": 11.2
     }
-  ]
+  ],
+  "maskReason": "server-rotated 'More recipes' row"
 }

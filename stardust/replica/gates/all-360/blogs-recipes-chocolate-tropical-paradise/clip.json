@@ -1,6 +1,6 @@
 {
  "url": "https://main--1a676f95--aemcoder.aem.page/blogs/recipes/chocolate-tropical-paradise",
- "at": "2026-11-11T05:49:26.939Z",
+ "at": "2026-11-11T06:35:51.412Z",
  "source": "content-presence",
  "counts": {
   "textClipped": 0,
@@ -20,42 +20,22 @@
   {
    "kind": "CONTROL X-CUT",
    "advisory": true,
-   "n": 1,
+   "n": 2,
    "clipper": "div.announce-viewport",
    "path": "div.announce-track > ul > li > a",
    "text": "grow thicker, fuller hair in 3 months*",
-   "cutMin": 55,
-   "cutMax": 55
+   "cutMin": 101,
+   "cutMax": 250
   },
   {
    "kind": "TEXT X-CUT",
    "advisory": true,
-   "n": 1,
+   "n": 2,
    "clipper": "div.announce-viewport",
    "path": "div.announce-track > ul > li > a",
    "text": "grow thicker, fuller hair in 3 months*",
-   "cutMin": 55,
-   "cutMax": 55
-  },
-  {
-   "kind": "CONTROL X-HIDDEN",
-   "advisory": true,
-   "n": 1,
-   "clipper": "div.announce-viewport",
-   "path": "div.announce-track > ul > li > a",
-   "text": "supplementing the knowledge gap in women's health",
-   "cutMin": null,
-   "cutMax": null
-  },
-  {
-   "kind": "TEXT X-HIDDEN",
-   "advisory": true,
-   "n": 1,
-   "clipper": "div.announce-viewport",
-   "path": "div.announce-track > ul > li > a",
-   "text": "supplementing the knowledge gap in women's health",
-   "cutMin": 282,
-   "cutMax": 282
+   "cutMin": 101,
+   "cutMax": 250
   }
  ],
  "origin": {

@@ -7,16 +7,22 @@
     "mode": "overlap"
   },
   "heightDelta": -261,
-  "differingPixels": 756698,
-  "pct": 35.29,
+  "differingPixels": 392451,
+  "pct": 24.36,
   "threshold": 10,
   "pass": false,
   "diff": "stardust/replica/gates/all-360/blogs-recipes-blueberry-pancakes/diff.png",
-  "masks": [],
-  "maskedRows": 0,
-  "textPct": 29.52,
-  "textBoxes": 104,
-  "textPixels": 426647,
+  "masks": [
+    {
+      "yA": 2024,
+      "h": 1480,
+      "yB": 2024
+    }
+  ],
+  "maskedRows": 1480,
+  "textPct": 21.31,
+  "textBoxes": 107,
+  "textPixels": 354818,
   "bands": [
     {
       "y0": 0,
@@ -41,22 +47,22 @@
     {
       "y0": 2000,
       "y1": 2500,
-      "pct": 48.5
+      "pct": 0
     },
     {
       "y0": 2500,
       "y1": 3000,
-      "pct": 75.8
+      "pct": 0
     },
     {
       "y0": 3000,
       "y1": 3500,
-      "pct": 77.2
+      "pct": 0
     },
     {
       "y0": 3500,
       "y1": 4000,
-      "pct": 81
+      "pct": 80.2
     },
     {
       "y0": 4000,
@@ -78,5 +84,6 @@
       "y1": 5956,
       "pct": 13
     }
-  ]
+  ],
+  "maskReason": "server-rotated 'More recipes' row"
 }

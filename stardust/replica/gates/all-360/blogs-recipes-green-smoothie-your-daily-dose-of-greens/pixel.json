@@ -7,16 +7,22 @@
     "mode": "overlap"
   },
   "heightDelta": 85,
-  "differingPixels": 534551,
-  "pct": 27.99,
+  "differingPixels": 310829,
+  "pct": 21.38,
   "threshold": 10,
   "pass": false,
   "diff": "stardust/replica/gates/all-360/blogs-recipes-green-smoothie-your-daily-dose-of-greens/diff.png",
-  "masks": [],
-  "maskedRows": 0,
-  "textPct": 20.17,
-  "textBoxes": 87,
-  "textPixels": 360699,
+  "masks": [
+    {
+      "yA": 1398,
+      "h": 1267,
+      "yB": 1398
+    }
+  ],
+  "maskedRows": 1267,
+  "textPct": 20.19,
+  "textBoxes": 88,
+  "textPixels": 305083,
   "bands": [
     {
       "y0": 0,
@@ -31,22 +37,22 @@
     {
       "y0": 1000,
       "y1": 1500,
-      "pct": 14.6
+      "pct": 7.9
     },
     {
       "y0": 1500,
       "y1": 2000,
-      "pct": 59.5
+      "pct": 0
     },
     {
       "y0": 2000,
       "y1": 2500,
-      "pct": 49.3
+      "pct": 0
     },
     {
       "y0": 2500,
       "y1": 3000,
-      "pct": 36.7
+      "pct": 27.9
     },
     {
       "y0": 3000,
@@ -73,5 +79,6 @@
       "y1": 5305,
       "pct": 13.7
     }
-  ]
+  ],
+  "maskReason": "server-rotated 'More recipes' row"
 }

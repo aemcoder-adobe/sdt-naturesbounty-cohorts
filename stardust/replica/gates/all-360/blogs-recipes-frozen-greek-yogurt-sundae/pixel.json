@@ -7,16 +7,22 @@
     "mode": "overlap"
   },
   "heightDelta": -81,
-  "differingPixels": 599165,
-  "pct": 29.01,
+  "differingPixels": 354238,
+  "pct": 22.28,
   "threshold": 10,
   "pass": false,
   "diff": "stardust/replica/gates/all-360/blogs-recipes-frozen-greek-yogurt-sundae/diff.png",
-  "masks": [],
-  "maskedRows": 0,
-  "textPct": 22.33,
+  "masks": [
+    {
+      "yA": 1784,
+      "h": 1322,
+      "yB": 1784
+    }
+  ],
+  "maskedRows": 1322,
+  "textPct": 17.47,
   "textBoxes": 98,
-  "textPixels": 405602,
+  "textPixels": 337844,
   "bands": [
     {
       "y0": 0,
@@ -36,22 +42,22 @@
     {
       "y0": 1500,
       "y1": 2000,
-      "pct": 30.3
+      "pct": 4.4
     },
     {
       "y0": 2000,
       "y1": 2500,
-      "pct": 52
+      "pct": 0
     },
     {
       "y0": 2500,
       "y1": 3000,
-      "pct": 56.6
+      "pct": 0
     },
     {
       "y0": 3000,
       "y1": 3500,
-      "pct": 38.7
+      "pct": 37.2
     },
     {
       "y0": 3500,
@@ -78,5 +84,6 @@
       "y1": 5738,
       "pct": 16.7
     }
-  ]
+  ],
+  "maskReason": "server-rotated 'More recipes' row"
 }

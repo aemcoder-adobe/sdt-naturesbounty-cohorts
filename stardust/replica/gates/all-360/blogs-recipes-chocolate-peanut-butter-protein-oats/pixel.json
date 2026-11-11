@@ -7,16 +7,22 @@
     "mode": "overlap"
   },
   "heightDelta": 145,
-  "differingPixels": 618818,
-  "pct": 29.93,
+  "differingPixels": 374560,
+  "pct": 23.93,
   "threshold": 10,
   "pass": false,
   "diff": "stardust/replica/gates/all-360/blogs-recipes-chocolate-peanut-butter-protein-oats/diff.png",
-  "masks": [],
-  "maskedRows": 0,
-  "textPct": 26.16,
-  "textBoxes": 100,
-  "textPixels": 411845,
+  "masks": [
+    {
+      "yA": 1768,
+      "h": 1395,
+      "yB": 1768
+    }
+  ],
+  "maskedRows": 1395,
+  "textPct": 22.3,
+  "textBoxes": 99,
+  "textPixels": 336255,
   "bands": [
     {
       "y0": 0,
@@ -36,22 +42,22 @@
     {
       "y0": 1500,
       "y1": 2000,
-      "pct": 25.7
+      "pct": 1.6
     },
     {
       "y0": 2000,
       "y1": 2500,
-      "pct": 46.5
+      "pct": 0
     },
     {
       "y0": 2500,
       "y1": 3000,
-      "pct": 57.2
+      "pct": 0
     },
     {
       "y0": 3000,
       "y1": 3500,
-      "pct": 53.8
+      "pct": 45.8
     },
     {
       "y0": 3500,
@@ -78,5 +84,6 @@
       "y1": 5743,
       "pct": 12.9
     }
-  ]
+  ],
+  "maskReason": "server-rotated 'More recipes' row"
 }

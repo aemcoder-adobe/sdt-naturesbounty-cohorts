@@ -1,7 +1,7 @@
 {
  "_provenance": {
   "writtenBy": "content-presence.mjs",
-  "at": "2026-11-11T05:51:49.430Z",
+  "at": "2026-11-11T06:38:18.017Z",
   "width": 360,
   "variable": [
    ".article-main__related"
@@ -10,10 +10,10 @@
  },
  "origin": {
   "url": "https://naturesbounty.com/blogs/recipes/chocolate-peanut-butter-protein-oats",
-  "at": "2026-11-11T05:51:26.155Z",
+  "at": "2026-11-11T06:37:55.465Z",
   "status": 200,
   "settlePasses": 2,
-  "docH": 5888,
+  "docH": 5850,
   "root": "main#MainContent",
   "items": [
    {
@@ -23,7 +23,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 155,
+    "x": 139,
     "y": 6,
     "w": 314,
     "h": 20,
@@ -391,62 +391,6 @@
     "y": 2028,
     "w": 305,
     "h": 25,
-    "text": "instant chocolate pancake mix",
-    "href": "/blogs/recipes/instant-chocolate-pancake-mix"
-   },
-   {
-    "kind": "image",
-    "state": "visible",
-    "variable": true,
-    "inRoot": true,
-    "inChrome": false,
-    "path": "div.article-item__image-holder > a.article-item__url > img.image-resp",
-    "x": 20,
-    "y": 1848,
-    "w": 305,
-    "h": 200,
-    "text": "instant chocolate pancake mix",
-    "file": "1802nboswebsitearticlesfebruarylgchocola"
-   },
-   {
-    "kind": "link",
-    "state": "visible",
-    "variable": true,
-    "inRoot": true,
-    "inChrome": false,
-    "path": "div.article-item__grid > div.article-item.is-layout-3 > a.article-item__content",
-    "x": 20,
-    "y": 2048,
-    "w": 305,
-    "h": 92,
-    "text": "instant chocolate pancake mix",
-    "href": "/blogs/recipes/instant-chocolate-pancake-mix"
-   },
-   {
-    "kind": "heading",
-    "state": "visible",
-    "variable": true,
-    "inRoot": true,
-    "inChrome": false,
-    "path": "a.article-item__content > div.article-item__title.t-brand-2-fg > h2.article-item__title",
-    "x": 20,
-    "y": 2064,
-    "w": 305,
-    "h": 76,
-    "level": 2,
-    "text": "instant chocolate pancake mix"
-   },
-   {
-    "kind": "link",
-    "state": "visible",
-    "variable": true,
-    "inRoot": true,
-    "inChrome": false,
-    "path": "div.article-item.is-layout-3 > div.article-item__image-holder > a.article-item__url",
-    "x": 20,
-    "y": 2370,
-    "w": 305,
-    "h": 25,
     "text": "heart friendly kettle popcorn",
     "href": "/blogs/recipes/heart-friendly-kettle-popcorn"
    },
@@ -458,7 +402,7 @@
     "inChrome": false,
     "path": "div.article-item__image-holder > a.article-item__url > img.image-resp",
     "x": 20,
-    "y": 2190,
+    "y": 1848,
     "w": 305,
     "h": 200,
     "text": "heart friendly kettle popcorn",
@@ -472,7 +416,7 @@
     "inChrome": false,
     "path": "div.article-item__grid > div.article-item.is-layout-3 > a.article-item__content",
     "x": 20,
-    "y": 2390,
+    "y": 2048,
     "w": 305,
     "h": 182,
     "text": "heart friendly kettle popcorn when prepared without the excess salt and butter, ",
@@ -486,7 +430,7 @@
     "inChrome": false,
     "path": "a.article-item__content > div.article-item__title.t-brand-2-fg > h2.article-item__title",
     "x": 20,
-    "y": 2406,
+    "y": 2064,
     "w": 305,
     "h": 76,
     "level": 2,
@@ -500,7 +444,7 @@
     "inChrome": false,
     "path": "div.article-item.is-layout-3 > div.article-item__image-holder > a.article-item__url",
     "x": 20,
-    "y": 2802,
+    "y": 2460,
     "w": 305,
     "h": 25,
     "text": "5 homemade healthy snacks",
@@ -514,7 +458,7 @@
     "inChrome": false,
     "path": "div.article-item__image-holder > a.article-item__url > img.image-resp",
     "x": 20,
-    "y": 2622,
+    "y": 2280,
     "w": 305,
     "h": 200,
     "text": "5 homemade healthy snacks",
@@ -528,7 +472,7 @@
     "inChrome": false,
     "path": "div.article-item__grid > div.article-item.is-layout-3 > a.article-item__content",
     "x": 20,
-    "y": 2822,
+    "y": 2480,
     "w": 305,
     "h": 152,
     "text": "5 homemade healthy snacks don’t wait until you feel famished to relieve those hu",
@@ -542,11 +486,67 @@
     "inChrome": false,
     "path": "a.article-item__content > div.article-item__title.t-brand-2-fg > h2.article-item__title",
     "x": 20,
-    "y": 2838,
+    "y": 2496,
     "w": 305,
     "h": 76,
     "level": 2,
     "text": "5 homemade healthy snacks"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-item.is-layout-3 > div.article-item__image-holder > a.article-item__url",
+    "x": 20,
+    "y": 2862,
+    "w": 305,
+    "h": 25,
+    "text": "hazelnut coffee smoothie",
+    "href": "/blogs/recipes/hazelnut-coffee-smoothie"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-item__image-holder > a.article-item__url > img.image-resp",
+    "x": 20,
+    "y": 2682,
+    "w": 305,
+    "h": 200,
+    "text": "hazelnut coffee smoothie",
+    "file": "hazelnut_coffee_smoothie_9998c90a-383f-4"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-item__grid > div.article-item.is-layout-3 > a.article-item__content",
+    "x": 20,
+    "y": 2882,
+    "w": 305,
+    "h": 54,
+    "text": "hazelnut coffee smoothie",
+    "href": "/blogs/recipes/hazelnut-coffee-smoothie"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.article-item__content > div.article-item__title.t-brand-2-fg > h2.article-item__title",
+    "x": 20,
+    "y": 2898,
+    "w": 305,
+    "h": 38,
+    "level": 2,
+    "text": "hazelnut coffee smoothie"
    },
    {
     "kind": "image",
@@ -556,7 +556,7 @@
     "inChrome": false,
     "path": "div.content-banner__content-rebrand-content_banner > div.container.content-banner__content > img",
     "x": 20,
-    "y": 3094,
+    "y": 3056,
     "w": 305,
     "h": 37,
     "text": "",
@@ -570,7 +570,7 @@
     "inChrome": false,
     "path": "div.content-banner__content-rebrand-content_banner > div.container.content-banner__content > div.content-banner__text.content-banner__text-content_banner",
     "x": 20,
-    "y": 3162,
+    "y": 3124,
     "w": 305,
     "h": 90,
     "text": "We offer trusted products, backed by science and made with great ingredients."
@@ -583,7 +583,7 @@
     "inChrome": false,
     "path": "div#shopify-section-instagram > section.instagram.t-bg > h4.instagram__title",
     "x": 0,
-    "y": 3301,
+    "y": 3263,
     "w": 345,
     "h": 146,
     "level": 4,
@@ -597,7 +597,7 @@
     "inChrome": false,
     "path": "section.instagram.t-bg > h4.instagram__title > p",
     "x": 10,
-    "y": 3329,
+    "y": 3291,
     "w": 325,
     "h": 90,
     "text": "Follow @NaturesBounty on social for new product releases, healthy tips, and more"
@@ -610,7 +610,7 @@
     "inChrome": false,
     "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand",
     "x": 15,
-    "y": 3447,
+    "y": 3409,
     "w": 315,
     "h": 315,
     "text": "<p>advanced magnesium glycinate</p>",
@@ -624,7 +624,7 @@
     "inChrome": false,
     "path": "div.instagram__blocks > a.instagram__item.instagram__item-rebrand > img",
     "x": 15,
-    "y": 3447,
+    "y": 3409,
     "w": 315,
     "h": 315,
     "text": "<p>advanced magnesium glycinate</p>",
@@ -638,7 +638,7 @@
     "inChrome": false,
     "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand",
     "x": 15,
-    "y": 3777,
+    "y": 3739,
     "w": 150,
     "h": 150,
     "text": "<p>hair growth capsules</p>",
@@ -652,7 +652,7 @@
     "inChrome": false,
     "path": "div.instagram__blocks > a.instagram__item.instagram__item-rebrand > img",
     "x": 15,
-    "y": 3777,
+    "y": 3739,
     "w": 150,
     "h": 150,
     "text": "<p>hair growth capsules</p>",
@@ -666,7 +666,7 @@
     "inChrome": false,
     "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand",
     "x": 180,
-    "y": 3777,
+    "y": 3739,
     "w": 150,
     "h": 150,
     "text": "<p>super b-complex</p>",
@@ -680,7 +680,7 @@
     "inChrome": false,
     "path": "div.instagram__blocks > a.instagram__item.instagram__item-rebrand > img",
     "x": 180,
-    "y": 3777,
+    "y": 3739,
     "w": 150,
     "h": 150,
     "text": "<p>super b-complex</p>",
@@ -694,7 +694,7 @@
     "inChrome": false,
     "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand",
     "x": 15,
-    "y": 3942,
+    "y": 3904,
     "w": 150,
     "h": 150,
     "text": "<p>vitamin c</p>",
@@ -708,7 +708,7 @@
     "inChrome": false,
     "path": "div.instagram__blocks > a.instagram__item.instagram__item-rebrand > img",
     "x": 15,
-    "y": 3942,
+    "y": 3904,
     "w": 150,
     "h": 150,
     "text": "<p>vitamin c</p>",
@@ -722,7 +722,7 @@
     "inChrome": false,
     "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand",
     "x": 180,
-    "y": 3942,
+    "y": 3904,
     "w": 150,
     "h": 150,
     "text": "<p>advanced hair, skin + nails pectin gummy</p>",
@@ -736,7 +736,7 @@
     "inChrome": false,
     "path": "div.instagram__blocks > a.instagram__item.instagram__item-rebrand > img",
     "x": 180,
-    "y": 3942,
+    "y": 3904,
     "w": 150,
     "h": 150,
     "text": "<p>advanced hair, skin + nails pectin gummy</p>",
@@ -750,7 +750,7 @@
     "inChrome": true,
     "path": "div.container > div.footer__logo > a.footer__logo-img",
     "x": 20,
-    "y": 4179,
+    "y": 4141,
     "w": 180,
     "h": 32,
     "text": "nature's bounty",
@@ -764,7 +764,7 @@
     "inChrome": true,
     "path": "div.footer__logo > a.footer__logo-img > img",
     "x": 20,
-    "y": 4183,
+    "y": 4145,
     "w": 180,
     "h": 28,
     "text": "nature's bounty",
@@ -778,7 +778,7 @@
     "inChrome": true,
     "path": "div.footer__content > div.footer__newsletter.footer__newsletter-rebrand-footer > div.footer__newsletter-title",
     "x": 20,
-    "y": 4251,
+    "y": 4213,
     "w": 305,
     "h": 30,
     "text": "Join Our Newsletter"
@@ -791,7 +791,7 @@
     "inChrome": true,
     "path": "div.footer__content > div.footer__newsletter.footer__newsletter-rebrand-footer > div.footer__newsletter-subtitle",
     "x": 20,
-    "y": 4297,
+    "y": 4259,
     "w": 305,
     "h": 60,
     "text": "Receive the latest news, special offers and new product launches!"
@@ -804,7 +804,7 @@
     "inChrome": true,
     "path": "form#ContactFooter > div.footer__newsletter-input-wrapper > button#Subscribe",
     "x": 214,
-    "y": 4377,
+    "y": 4339,
     "w": 111,
     "h": 65,
     "text": "sign up"
@@ -817,7 +817,7 @@
     "inChrome": true,
     "path": "div.footer__links > div.footer__navigation-links > div.footer__navigation-link-parent",
     "x": 20,
-    "y": 4477,
+    "y": 4439,
     "w": 305,
     "h": 61,
     "text": "Products"
@@ -830,7 +830,7 @@
     "inChrome": true,
     "path": "div.footer__links > div.footer__navigation-links > div.footer__navigation-link-parent",
     "x": 20,
-    "y": 4538,
+    "y": 4500,
     "w": 305,
     "h": 61,
     "text": "Health Needs"
@@ -843,7 +843,7 @@
     "inChrome": true,
     "path": "div.footer__links > div.footer__navigation-links > div.footer__navigation-link-parent",
     "x": 20,
-    "y": 4599,
+    "y": 4561,
     "w": 305,
     "h": 61,
     "text": "Resource Center"
@@ -856,7 +856,7 @@
     "inChrome": true,
     "path": "div.footer__links > div.footer__navigation-links > div.footer__navigation-link-parent",
     "x": 20,
-    "y": 4660,
+    "y": 4622,
     "w": 305,
     "h": 61,
     "text": "Nature’s Bounty"
@@ -869,7 +869,7 @@
     "inChrome": true,
     "path": "div.container > div.footer__newsletter-social.is-mobile > div.footer__newsletter-social-title",
     "x": 20,
-    "y": 4761,
+    "y": 4723,
     "w": 75,
     "h": 30,
     "text": "Follow Us"
@@ -882,7 +882,7 @@
     "inChrome": true,
     "path": "div.footer__newsletter-socials > div.footer__newsletter-social-item > a",
     "x": 120,
-    "y": 4768,
+    "y": 4730,
     "w": 20,
     "h": 17,
     "text": "share on twitter",
@@ -896,7 +896,7 @@
     "inChrome": true,
     "path": "div.footer__newsletter-socials > div.footer__newsletter-social-item > a",
     "x": 155,
-    "y": 4766,
+    "y": 4728,
     "w": 20,
     "h": 20,
     "text": "share on facebook",
@@ -910,7 +910,7 @@
     "inChrome": true,
     "path": "div.footer__newsletter-socials > div.footer__newsletter-social-item > a",
     "x": 190,
-    "y": 4766,
+    "y": 4728,
     "w": 20,
     "h": 21,
     "text": "pin on pinterest",
@@ -924,7 +924,7 @@
     "inChrome": true,
     "path": "div.footer__newsletter-socials > div.footer__newsletter-social-item > a",
     "x": 225,
-    "y": 4766,
+    "y": 4728,
     "w": 20,
     "h": 20,
     "text": "share on instagram",
@@ -938,7 +938,7 @@
     "inChrome": true,
     "path": "div.footer__newsletter-socials > div.footer__newsletter-social-item > a",
     "x": 260,
-    "y": 4769,
+    "y": 4731,
     "w": 20,
     "h": 14,
     "text": "share on youtube",
@@ -952,7 +952,7 @@
     "inChrome": true,
     "path": "div.container > div.footer__navigation-legal-links > a.footer__navigation-legal-link.footer__navigation-legal-link-rebrand-footer",
     "x": 52,
-    "y": 4843,
+    "y": 4805,
     "w": 108,
     "h": 30,
     "text": "terms of use |",
@@ -966,7 +966,7 @@
     "inChrome": true,
     "path": "div.container > div.footer__navigation-legal-links > a.footer__navigation-legal-link.footer__navigation-legal-link-rebrand-footer",
     "x": 179,
-    "y": 4843,
+    "y": 4805,
     "w": 114,
     "h": 30,
     "text": "privacy policy |",
@@ -980,7 +980,7 @@
     "inChrome": true,
     "path": "div.container > div.footer__navigation-legal-links > a.footer__navigation-legal-link.footer__navigation-legal-link-rebrand-footer",
     "x": 85,
-    "y": 4893,
+    "y": 4855,
     "w": 175,
     "h": 30,
     "text": "accessibility statement |",
@@ -994,7 +994,7 @@
     "inChrome": true,
     "path": "div.container > div.footer__navigation-legal-links > a.footer__navigation-legal-link.footer__navigation-legal-link-rebrand-footer",
     "x": 98,
-    "y": 4943,
+    "y": 4905,
     "w": 149,
     "h": 30,
     "text": "health data notice |",
@@ -1008,7 +1008,7 @@
     "inChrome": true,
     "path": "div.container > div.footer__navigation-legal-links > a.footer__navigation-legal-link.footer__navigation-legal-link-rebrand-footer",
     "x": 84,
-    "y": 4993,
+    "y": 4955,
     "w": 176,
     "h": 30,
     "text": "satisfaction guarantee |",
@@ -1022,7 +1022,7 @@
     "inChrome": true,
     "path": "div.container > div.footer__navigation-legal-links > a.footer__navigation-legal-link.footer__navigation-legal-link-rebrand-footer",
     "x": 68,
-    "y": 5043,
+    "y": 5005,
     "w": 164,
     "h": 30,
     "text": "international distributors",
@@ -1036,7 +1036,7 @@
     "inChrome": true,
     "path": "div.container > div.footer__navigation-legal-links > a.optanon-toggle-display.is-plain",
     "x": 81,
-    "y": 5093,
+    "y": 5055,
     "w": 184,
     "h": 24,
     "text": "your privacy choices"
@@ -1049,7 +1049,7 @@
     "inChrome": true,
     "path": "div.footer__navigation-legal-links > a.optanon-toggle-display.is-plain > span.your-privacy-choices",
     "x": 127,
-    "y": 5093,
+    "y": 5055,
     "w": 137,
     "h": 24,
     "text": "Your Privacy Choices"
@@ -1062,7 +1062,7 @@
     "inChrome": true,
     "path": "span.footer__separator > p > strong",
     "x": 62,
-    "y": 5228,
+    "y": 5190,
     "w": 221,
     "h": 97,
     "text": "*These statements have not been evaluated by the Food and Drug Administration. T"
@@ -1075,7 +1075,7 @@
     "inChrome": true,
     "path": "div.container > div.footer__disclaimer.footer__disclaimer-rebrand-footer > p",
     "x": 20,
-    "y": 5381,
+    "y": 5343,
     "w": 305,
     "h": 78,
     "text": "Nature’s Bounty may make changes to products from time to time. Please consult t"
@@ -1088,7 +1088,7 @@
     "inChrome": true,
     "path": "div.container > div.footer__disclaimer.footer__disclaimer-rebrand-footer > p",
     "x": 20,
-    "y": 5469,
+    "y": 5431,
     "w": 305,
     "h": 59,
     "text": "◊Source: Circana™ OmniMarket – Total MULO+ 52 wks ending 7/26/26 based custom- d"
@@ -1101,7 +1101,7 @@
     "inChrome": true,
     "path": "div.container > div.footer__disclaimer.footer__disclaimer-rebrand-footer > p",
     "x": 20,
-    "y": 5538,
+    "y": 5500,
     "w": 305,
     "h": 39,
     "text": "†Compared to Nature's Bounty® Optimal Solutions® Hair, Skin & Nails gummies"
@@ -1114,7 +1114,7 @@
     "inChrome": true,
     "path": "div.container > div.footer__disclaimer.footer__disclaimer-rebrand-footer > p",
     "x": 20,
-    "y": 5587,
+    "y": 5549,
     "w": 305,
     "h": 98,
     "text": "†Traditional use claims are based on historical or traditional practices. Echina"
@@ -1127,7 +1127,7 @@
     "inChrome": true,
     "path": "div.container > div.footer__disclaimer.footer__disclaimer-rebrand-footer > p",
     "x": 20,
-    "y": 5694,
+    "y": 5656,
     "w": 305,
     "h": 98,
     "text": "Nature’s Bounty is a Nestlé Health Science brand. Nestlé Health Science is a lea"
@@ -1140,7 +1140,7 @@
     "inChrome": true,
     "path": "div.footer__disclaimer.footer__disclaimer-rebrand-footer > p > a",
     "x": 92,
-    "y": 5772,
+    "y": 5734,
     "w": 161,
     "h": 19,
     "text": "www.nestlehealthscience.us",
@@ -1154,7 +1154,7 @@
     "inChrome": true,
     "path": "div.container > div.footer__disclaimer.footer__disclaimer-rebrand-footer > p",
     "x": 53,
-    "y": 5802,
+    "y": 5764,
     "w": 239,
     "h": 20,
     "text": "Nature's Bounty is a registered trademark."
@@ -1183,8 +1183,8 @@
      "clipper": "div.slick-list.draggable",
      "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 107,
-     "cutMax": 107
+     "cutMin": 92,
+     "cutMax": 92
     },
     {
      "kind": "TEXT X-CUT",
@@ -1193,15 +1193,15 @@
      "clipper": "div.slick-list.draggable",
      "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 107,
-     "cutMax": 107
+     "cutMin": 92,
+     "cutMax": 92
     }
    ]
   }
  },
  "eds": {
   "url": "https://main--1a676f95--aemcoder.aem.page/blogs/recipes/chocolate-peanut-butter-protein-oats",
-  "at": "2026-11-11T05:51:49.287Z",
+  "at": "2026-11-11T06:38:17.905Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 5743,
@@ -1214,7 +1214,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": -116,
+    "x": -119,
     "y": 9,
     "w": 202,
     "h": 14,
@@ -1228,7 +1228,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 286,
+    "x": 283,
     "y": 9,
     "w": 295,
     "h": 14,
@@ -2451,8 +2451,8 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "grow thicker, fuller hair in 3 months*",
-     "cutMin": 117,
-     "cutMax": 234
+     "cutMin": 120,
+     "cutMax": 232
     },
     {
      "kind": "TEXT X-CUT",
@@ -2461,22 +2461,22 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "grow thicker, fuller hair in 3 months*",
-     "cutMin": 117,
-     "cutMax": 234
+     "cutMin": 120,
+     "cutMax": 232
     }
    ],
    "findings": [
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 117,
+     "cut": 120,
      "path": "div.announce-track > ul > li > a",
      "text": "grow thicker, fuller hair in 3 months*",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -117,
+      "l": -120,
       "t": 9,
-      "r": 84,
+      "r": 82,
       "b": 23,
       "w": 202,
       "h": 14
@@ -2493,14 +2493,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 117,
+     "cut": 120,
      "path": "div.announce-track > ul > li > a",
      "text": "grow thicker, fuller hair in 3 months*",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -117,
+      "l": -120,
       "t": 9,
-      "r": 84,
+      "r": 82,
       "b": 23,
       "w": 202,
       "h": 14
@@ -2518,14 +2518,14 @@
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 234,
+     "cut": 232,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 284,
+      "l": 282,
       "t": 9,
-      "r": 579,
+      "r": 577,
       "b": 23,
       "w": 295,
       "h": 14
@@ -2542,14 +2542,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 234,
+     "cut": 232,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 284,
+      "l": 282,
       "t": 9,
-      "r": 579,
+      "r": 577,
       "b": 23,
       "w": 295,
       "h": 14
@@ -2595,51 +2595,27 @@
    "heading": "chocolate peanut butter protein oats",
    "variable": true,
    "origin": {
-    "link": 8,
+    "link": 12,
     "button": 0,
     "text": 13,
-    "image": 1
+    "image": 3
    },
    "eds": {
-    "link": 12,
+    "link": 17,
     "linkHidden": 0,
     "button": 0,
     "buttonHidden": 0,
-    "text": 12,
+    "text": 13,
     "textHidden": 0,
-    "image": 3,
-    "imageHidden": 0
-   },
-   "findings": [
-    "COUNT LINKS",
-    "EXTRA LINK",
-    "EXTRA LINK",
-    "EXTRA LINK"
-   ]
-  },
-  {
-   "index": 2,
-   "heading": "instant chocolate pancake mix",
-   "variable": true,
-   "origin": {
-    "link": 4,
-    "button": 0,
-    "text": 0,
-    "image": 2
-   },
-   "eds": {
-    "link": 5,
-    "linkHidden": 0,
-    "button": 0,
-    "buttonHidden": 0,
-    "text": 1,
-    "textHidden": 0,
-    "image": 6,
+    "image": 9,
     "imageHidden": 0
    },
    "findings": [
     "MISSING HEADING",
-    "COUNT LINKS",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
     "EXTRA LINK",
     "EXTRA LINK",
     "EXTRA LINK",
@@ -2653,16 +2629,23 @@
   {
    "sev": "🔴",
    "kind": "MISSING HEADING",
-   "msg": "h2 \"heart friendly kettle popcorn\" (origin y 2406) has no served heading",
-   "band": 2,
+   "msg": "h2 \"heart friendly kettle popcorn\" (origin y 2064) has no served heading",
+   "band": 1,
    "text": "heart friendly kettle popcorn"
   },
   {
    "sev": "🔴",
    "kind": "MISSING HEADING",
-   "msg": "h2 \"5 homemade healthy snacks\" (origin y 2838) has no served heading",
-   "band": 3,
+   "msg": "h2 \"5 homemade healthy snacks\" (origin y 2496) has no served heading",
+   "band": 2,
    "text": "5 homemade healthy snacks"
+  },
+  {
+   "sev": "🔴",
+   "kind": "MISSING HEADING",
+   "msg": "h2 \"hazelnut coffee smoothie\" (origin y 2898) has no served heading",
+   "band": 3,
+   "text": "hazelnut coffee smoothie"
   },
   {
    "sev": "🟡",
@@ -2685,14 +2668,14 @@
   {
    "sev": "🟡",
    "kind": "EXTRA HEADING",
-   "msg": "served h2 \"follow @naturesbounty on social for new product releases, healthy tips, and more.\" (y 3197) has no origin heading",
-   "text": "follow @naturesbounty on social for new product releases, healthy tips, and more."
+   "msg": "served h3 \"instant chocolate pancake mix\" (y 2766) has no origin heading",
+   "text": "instant chocolate pancake mix"
   },
   {
    "sev": "🟡",
-   "kind": "COUNT LINKS",
-   "msg": "session-variable region in band \"chocolate peanut butter protein oats\": 2 origin → 6 served",
-   "band": 1
+   "kind": "EXTRA HEADING",
+   "msg": "served h2 \"follow @naturesbounty on social for new product releases, healthy tips, and more.\" (y 3197) has no origin heading",
+   "text": "follow @naturesbounty on social for new product releases, healthy tips, and more."
   },
   {
    "sev": "🟡",
@@ -2720,81 +2703,83 @@
   },
   {
    "sev": "🟡",
-   "kind": "COUNT LINKS",
-   "msg": "session-variable region in band \"instant chocolate pancake mix\": 4 origin → 0 served",
-   "band": 2
+   "kind": "EXTRA LINK",
+   "msg": "×2 \"instant chocolate pancake mix\" served in band \"chocolate peanut butter protein oats\", no origin link or button",
+   "band": 1,
+   "n": 2,
+   "text": "instant chocolate pancake mix"
   },
   {
    "sev": "🟡",
    "kind": "EXTRA LINK",
-   "msg": "\"advanced magnesium glycinate\" served in band \"instant chocolate pancake mix\", no origin link or button",
-   "band": 2,
+   "msg": "\"advanced magnesium glycinate\" served in band \"chocolate peanut butter protein oats\", no origin link or button",
+   "band": 1,
    "n": 1,
    "text": "advanced magnesium glycinate"
   },
   {
    "sev": "🟡",
    "kind": "EXTRA LINK",
-   "msg": "\"hair growth capsules\" served in band \"instant chocolate pancake mix\", no origin link or button",
-   "band": 2,
+   "msg": "\"hair growth capsules\" served in band \"chocolate peanut butter protein oats\", no origin link or button",
+   "band": 1,
    "n": 1,
    "text": "hair growth capsules"
   },
   {
    "sev": "🟡",
    "kind": "EXTRA LINK",
-   "msg": "\"super b-complex\" served in band \"instant chocolate pancake mix\", no origin link or button",
-   "band": 2,
+   "msg": "\"super b-complex\" served in band \"chocolate peanut butter protein oats\", no origin link or button",
+   "band": 1,
    "n": 1,
    "text": "super b-complex"
   },
   {
    "sev": "🟡",
    "kind": "EXTRA LINK",
-   "msg": "\"vitamin c\" served in band \"instant chocolate pancake mix\", no origin link or button",
-   "band": 2,
+   "msg": "\"vitamin c\" served in band \"chocolate peanut butter protein oats\", no origin link or button",
+   "band": 1,
    "n": 1,
    "text": "vitamin c"
   },
   {
    "sev": "🟡",
    "kind": "EXTRA LINK",
-   "msg": "\"advanced hair, skin + nails pectin gummy\" served in band \"instant chocolate pancake mix\", no origin link or button",
-   "band": 2,
+   "msg": "\"advanced hair, skin + nails pectin gummy\" served in band \"chocolate peanut butter protein oats\", no origin link or button",
+   "band": 1,
    "n": 1,
    "text": "advanced hair, skin + nails pectin gummy"
   },
   {
    "sev": "🟡",
    "kind": "COUNT IMAGES",
-   "msg": "band \"instant chocolate pancake mix\": 2 origin → 6 served visible",
-   "band": 2,
-   "origin": 2,
-   "eds": 6,
+   "msg": "band \"chocolate peanut butter protein oats\": 3 origin → 9 served visible",
+   "band": 1,
+   "origin": 3,
+   "eds": 9,
    "hidden": 0
   }
  ],
  "totals": {
-  "missingHeadings": 2,
+  "missingHeadings": 3,
   "hiddenHeadings": 0,
-  "extraHeadings": 4,
+  "extraHeadings": 5,
   "missingLinks": 0,
   "hiddenLinks": 0,
   "movedLinks": 0,
-  "extraLinks": 9,
+  "extraLinks": 11,
   "missingButtons": 0,
   "hiddenButtons": 0,
   "controlState": 0,
-  "countDeltas": 3,
-  "findings": 17,
-  "structural": 2,
-  "missing": 2,
+  "countDeltas": 1,
+  "findings": 18,
+  "structural": 3,
+  "missing": 3,
   "hidden": 0
  },
  "textBoxes": {
   "origin": [
    {
-    "x": 153,
+    "x": 138,
     "y": 6,
     "w": 314,
     "h": 19
@@ -3012,397 +2997,391 @@
    {
     "x": 20,
     "y": 2065,
-    "w": 301,
-    "h": 35
-   },
-   {
-    "x": 20,
-    "y": 2103,
-    "w": 41,
-    "h": 35
-   },
-   {
-    "x": 20,
-    "y": 2407,
     "w": 229,
     "h": 35
    },
    {
     "x": 20,
-    "y": 2445,
+    "y": 2103,
     "w": 94,
     "h": 35
    },
    {
     "x": 20,
-    "y": 2484,
+    "y": 2142,
     "w": 275,
     "h": 25
    },
    {
     "x": 20,
-    "y": 2514,
+    "y": 2172,
     "w": 292,
     "h": 25
    },
    {
     "x": 20,
-    "y": 2544,
+    "y": 2202,
     "w": 140,
     "h": 25
    },
    {
     "x": 20,
-    "y": 2839,
+    "y": 2497,
     "w": 244,
     "h": 35
    },
    {
     "x": 20,
-    "y": 2877,
+    "y": 2535,
     "w": 79,
     "h": 35
    },
    {
     "x": 20,
-    "y": 2916,
+    "y": 2574,
     "w": 284,
     "h": 25
    },
    {
     "x": 20,
-    "y": 2946,
+    "y": 2604,
     "w": 220,
     "h": 25
    },
    {
+    "x": 20,
+    "y": 2899,
+    "w": 294,
+    "h": 35
+   },
+   {
     "x": 38,
-    "y": 3164,
+    "y": 3126,
     "w": 269,
     "h": 25
    },
    {
     "x": 45,
-    "y": 3194,
+    "y": 3156,
     "w": 255,
     "h": 25
    },
    {
     "x": 126,
-    "y": 3224,
+    "y": 3186,
     "w": 93,
     "h": 25
    },
    {
     "x": 26,
-    "y": 3331,
+    "y": 3293,
     "w": 294,
     "h": 25
    },
    {
     "x": 16,
-    "y": 3361,
+    "y": 3323,
     "w": 313,
     "h": 25
    },
    {
     "x": 149,
-    "y": 3391,
+    "y": 3353,
     "w": 47,
     "h": 25
    },
    {
     "x": 20,
-    "y": 4253,
+    "y": 4215,
     "w": 154,
     "h": 25
    },
    {
     "x": 20,
-    "y": 4299,
+    "y": 4261,
     "w": 299,
     "h": 25
    },
    {
     "x": 20,
-    "y": 4329,
+    "y": 4291,
     "w": 216,
     "h": 25
    },
    {
     "x": 239,
-    "y": 4397,
+    "y": 4359,
     "w": 62,
     "h": 25
    },
    {
     "x": 20,
-    "y": 4494,
+    "y": 4456,
     "w": 71,
     "h": 25
    },
    {
     "x": 20,
-    "y": 4555,
+    "y": 4517,
     "w": 108,
     "h": 25
    },
    {
     "x": 20,
-    "y": 4616,
+    "y": 4578,
     "w": 133,
     "h": 25
    },
    {
     "x": 20,
-    "y": 4677,
+    "y": 4639,
     "w": 127,
     "h": 25
    },
    {
     "x": 20,
-    "y": 4763,
+    "y": 4725,
     "w": 75,
     "h": 25
    },
    {
     "x": 52,
-    "y": 4848,
+    "y": 4810,
     "w": 84,
     "h": 21
    },
    {
     "x": 155,
-    "y": 4845,
+    "y": 4807,
     "w": 4,
     "h": 25
    },
    {
     "x": 179,
-    "y": 4848,
+    "y": 4810,
     "w": 90,
     "h": 21
    },
    {
     "x": 289,
-    "y": 4845,
+    "y": 4807,
     "w": 4,
     "h": 25
    },
    {
     "x": 85,
-    "y": 4898,
+    "y": 4860,
     "w": 151,
     "h": 21
    },
    {
     "x": 256,
-    "y": 4895,
+    "y": 4857,
     "w": 4,
     "h": 25
    },
    {
     "x": 98,
-    "y": 4948,
+    "y": 4910,
     "w": 125,
     "h": 21
    },
    {
     "x": 243,
-    "y": 4945,
+    "y": 4907,
     "w": 4,
     "h": 25
    },
    {
     "x": 84,
-    "y": 4998,
+    "y": 4960,
     "w": 152,
     "h": 21
    },
    {
     "x": 257,
-    "y": 4995,
+    "y": 4957,
     "w": 4,
     "h": 25
    },
    {
     "x": 68,
-    "y": 5048,
+    "y": 5010,
     "w": 164,
     "h": 21
    },
    {
     "x": 273,
-    "y": 5045,
+    "y": 5007,
     "w": 4,
     "h": 25
    },
    {
     "x": 127,
-    "y": 5093,
+    "y": 5055,
     "w": 137,
     "h": 21
    },
    {
     "x": 77,
-    "y": 5228,
+    "y": 5190,
     "w": 191,
     "h": 19
    },
    {
     "x": 80,
-    "y": 5247,
+    "y": 5209,
     "w": 184,
     "h": 19
    },
    {
     "x": 62,
-    "y": 5267,
+    "y": 5229,
     "w": 221,
     "h": 19
    },
    {
     "x": 70,
-    "y": 5286,
+    "y": 5248,
     "w": 205,
     "h": 19
    },
    {
     "x": 114,
-    "y": 5306,
+    "y": 5268,
     "w": 118,
     "h": 19
    },
    {
     "x": 22,
-    "y": 5381,
+    "y": 5343,
     "w": 301,
     "h": 19
    },
    {
     "x": 26,
-    "y": 5401,
+    "y": 5363,
     "w": 293,
     "h": 19
    },
    {
     "x": 31,
-    "y": 5420,
+    "y": 5382,
     "w": 282,
     "h": 19
    },
    {
     "x": 138,
-    "y": 5440,
+    "y": 5402,
     "w": 69,
     "h": 19
    },
    {
     "x": 29,
-    "y": 5469,
+    "y": 5431,
     "w": 286,
     "h": 19
    },
    {
     "x": 21,
-    "y": 5489,
+    "y": 5451,
     "w": 303,
     "h": 19
    },
    {
     "x": 91,
-    "y": 5508,
+    "y": 5470,
     "w": 164,
     "h": 19
    },
    {
     "x": 23,
-    "y": 5538,
+    "y": 5500,
     "w": 300,
     "h": 19
    },
    {
     "x": 98,
-    "y": 5557,
+    "y": 5519,
     "w": 150,
     "h": 19
    },
    {
     "x": 34,
-    "y": 5587,
+    "y": 5549,
     "w": 277,
     "h": 19
    },
    {
     "x": 20,
-    "y": 5606,
+    "y": 5568,
     "w": 305,
     "h": 19
    },
    {
     "x": 29,
-    "y": 5626,
+    "y": 5588,
     "w": 286,
     "h": 19
    },
    {
     "x": 24,
-    "y": 5645,
+    "y": 5607,
     "w": 298,
     "h": 19
    },
    {
     "x": 64,
-    "y": 5665,
+    "y": 5627,
     "w": 216,
     "h": 19
    },
    {
     "x": 34,
-    "y": 5694,
+    "y": 5656,
     "w": 278,
     "h": 19
    },
    {
     "x": 34,
-    "y": 5714,
+    "y": 5676,
     "w": 278,
     "h": 19
    },
    {
     "x": 32,
-    "y": 5733,
+    "y": 5695,
     "w": 281,
     "h": 19
    },
    {
     "x": 98,
-    "y": 5753,
+    "y": 5715,
     "w": 150,
     "h": 19
    },
    {
     "x": 92,
-    "y": 5772,
+    "y": 5734,
     "w": 161,
     "h": 19
    },
    {
     "x": 53,
-    "y": 5802,
+    "y": 5764,
     "w": 239,
     "h": 19
    }
   ],
   "eds": [
    {
-    "x": -117,
+    "x": -120,
     "y": 9,
     "w": 202,
     "h": 14
    },
    {
-    "x": 284,
+    "x": 282,
     "y": 9,
     "w": 295,
     "h": 14

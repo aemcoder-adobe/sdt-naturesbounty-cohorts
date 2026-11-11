@@ -7,16 +7,22 @@
     "mode": "overlap"
   },
   "heightDelta": 231,
-  "differingPixels": 789776,
-  "pct": 33.37,
+  "differingPixels": 447985,
+  "pct": 24.45,
   "threshold": 10,
   "pass": false,
   "diff": "stardust/replica/gates/all-360/blogs-recipes-chocolate-coconut-energy-balls-with-turmeric/diff.png",
-  "masks": [],
-  "maskedRows": 0,
-  "textPct": 31.77,
-  "textBoxes": 119,
-  "textPixels": 491653,
+  "masks": [
+    {
+      "yA": 2595,
+      "h": 1485,
+      "yB": 2595
+    }
+  ],
+  "maskedRows": 1485,
+  "textPct": 19.49,
+  "textBoxes": 109,
+  "textPixels": 395660,
   "bands": [
     {
       "y0": 0,
@@ -46,22 +52,22 @@
     {
       "y0": 2500,
       "y1": 3000,
-      "pct": 41.5
+      "pct": 2.7
     },
     {
       "y0": 3000,
       "y1": 3500,
-      "pct": 76.6
+      "pct": 0
     },
     {
       "y0": 3500,
       "y1": 4000,
-      "pct": 61.7
+      "pct": 0
     },
     {
       "y0": 4000,
       "y1": 4500,
-      "pct": 79.5
+      "pct": 66.7
     },
     {
       "y0": 4500,
@@ -88,5 +94,6 @@
       "y1": 6574,
       "pct": 10.6
     }
-  ]
+  ],
+  "maskReason": "server-rotated 'More recipes' row"
 }

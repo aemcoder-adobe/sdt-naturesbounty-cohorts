@@ -7,16 +7,22 @@
     "mode": "overlap"
   },
   "heightDelta": 53,
-  "differingPixels": 523950,
-  "pct": 22.87,
+  "differingPixels": 298797,
+  "pct": 16.29,
   "threshold": 10,
   "pass": false,
   "diff": "stardust/replica/gates/all-360/blogs-recipes-chocolate-lava-muffins/diff.png",
-  "masks": [],
-  "maskedRows": 0,
-  "textPct": 20.17,
-  "textBoxes": 123,
-  "textPixels": 516679,
+  "masks": [
+    {
+      "yA": 2424,
+      "h": 1267,
+      "yB": 2424
+    }
+  ],
+  "maskedRows": 1267,
+  "textPct": 18,
+  "textBoxes": 120,
+  "textPixels": 457488,
   "bands": [
     {
       "y0": 0,
@@ -41,22 +47,22 @@
     {
       "y0": 2000,
       "y1": 2500,
-      "pct": 17.5
+      "pct": 12.8
     },
     {
       "y0": 2500,
       "y1": 3000,
-      "pct": 66.6
+      "pct": 0
     },
     {
       "y0": 3000,
       "y1": 3500,
-      "pct": 44.3
+      "pct": 0
     },
     {
       "y0": 3500,
       "y1": 4000,
-      "pct": 27.3
+      "pct": 17.9
     },
     {
       "y0": 4000,
@@ -83,5 +89,6 @@
       "y1": 6363,
       "pct": 13.3
     }
-  ]
+  ],
+  "maskReason": "server-rotated 'More recipes' row"
 }

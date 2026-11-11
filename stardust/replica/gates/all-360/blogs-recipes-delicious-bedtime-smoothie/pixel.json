@@ -7,16 +7,22 @@
     "mode": "overlap"
   },
   "heightDelta": 131,
-  "differingPixels": 734541,
-  "pct": 32.56,
+  "differingPixels": 393807,
+  "pct": 23.24,
   "threshold": 10,
   "pass": false,
   "diff": "stardust/replica/gates/all-360/blogs-recipes-delicious-bedtime-smoothie/diff.png",
-  "masks": [],
-  "maskedRows": 0,
-  "textPct": 25,
+  "masks": [
+    {
+      "yA": 2112,
+      "h": 1561,
+      "yB": 2112
+    }
+  ],
+  "maskedRows": 1561,
+  "textPct": 18.71,
   "textBoxes": 113,
-  "textPixels": 517872,
+  "textPixels": 436389,
   "bands": [
     {
       "y0": 0,
@@ -41,22 +47,22 @@
     {
       "y0": 2000,
       "y1": 2500,
-      "pct": 62.1
+      "pct": 5.9
     },
     {
       "y0": 2500,
       "y1": 3000,
-      "pct": 62.8
+      "pct": 0
     },
     {
       "y0": 3000,
       "y1": 3500,
-      "pct": 61.5
+      "pct": 0
     },
     {
       "y0": 3500,
       "y1": 4000,
-      "pct": 49.3
+      "pct": 40.5
     },
     {
       "y0": 4000,
@@ -83,5 +89,6 @@
       "y1": 6267,
       "pct": 14
     }
-  ]
+  ],
+  "maskReason": "server-rotated 'More recipes' row"
 }

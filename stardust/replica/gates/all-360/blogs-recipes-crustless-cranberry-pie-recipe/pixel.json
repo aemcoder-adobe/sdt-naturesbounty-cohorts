@@ -7,16 +7,22 @@
     "mode": "overlap"
   },
   "heightDelta": 40,
-  "differingPixels": 508826,
-  "pct": 20.14,
+  "differingPixels": 294306,
+  "pct": 14.29,
   "threshold": 10,
   "pass": false,
   "diff": "stardust/replica/gates/all-360/blogs-recipes-crustless-cranberry-pie-recipe/diff.png",
-  "masks": [],
-  "maskedRows": 0,
-  "textPct": 20.79,
+  "masks": [
+    {
+      "yA": 3037,
+      "h": 1297,
+      "yB": 3037
+    }
+  ],
+  "maskedRows": 1297,
+  "textPct": 19.32,
   "textBoxes": 146,
-  "textPixels": 666636,
+  "textPixels": 592291,
   "bands": [
     {
       "y0": 0,
@@ -51,17 +57,17 @@
     {
       "y0": 3000,
       "y1": 3500,
-      "pct": 44.7
+      "pct": 1
     },
     {
       "y0": 3500,
       "y1": 4000,
-      "pct": 59.1
+      "pct": 0
     },
     {
       "y0": 4000,
       "y1": 4500,
-      "pct": 23.3
+      "pct": 7
     },
     {
       "y0": 4500,
@@ -93,5 +99,6 @@
       "y1": 7019,
       "pct": 0
     }
-  ]
+  ],
+  "maskReason": "server-rotated 'More recipes' row"
 }

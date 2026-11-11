@@ -7,16 +7,22 @@
     "mode": "overlap"
   },
   "heightDelta": 165,
-  "differingPixels": 737358,
-  "pct": 35.28,
+  "differingPixels": 407648,
+  "pct": 25.31,
   "threshold": 10,
   "pass": false,
   "diff": "stardust/replica/gates/all-360/blogs-recipes-creamy-spinach-artichoke-dip/diff.png",
-  "masks": [],
-  "maskedRows": 0,
-  "textPct": 30.35,
-  "textBoxes": 103,
-  "textPixels": 446158,
+  "masks": [
+    {
+      "yA": 1914,
+      "h": 1331,
+      "yB": 1914
+    }
+  ],
+  "maskedRows": 1331,
+  "textPct": 23.7,
+  "textBoxes": 105,
+  "textPixels": 381343,
   "bands": [
     {
       "y0": 0,
@@ -36,22 +42,22 @@
     {
       "y0": 1500,
       "y1": 2000,
-      "pct": 26.3
+      "pct": 14.2
     },
     {
       "y0": 2000,
       "y1": 2500,
-      "pct": 78.4
+      "pct": 0
     },
     {
       "y0": 2500,
       "y1": 3000,
-      "pct": 69.2
+      "pct": 0
     },
     {
       "y0": 3000,
       "y1": 3500,
-      "pct": 64.4
+      "pct": 41
     },
     {
       "y0": 3500,
@@ -78,5 +84,6 @@
       "y1": 5805,
       "pct": 12.5
     }
-  ]
+  ],
+  "maskReason": "server-rotated 'More recipes' row"
 }

@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "writtenBy": "stardust:migrate",
-    "writtenAt": "2026-11-11T02:56:14Z",
+    "writtenAt": "2026-11-11T06:50:54Z",
     "stardustVersion": "0.37.2"
   },
   "site": {
@@ -385,7 +385,7 @@
       "url": "https://naturesbounty.com/blogs/recipes/peach-pear-and-plum-smoothie",
       "title": "Peach, Pear & Plum Smoothie – Nature's Bounty",
       "type": "recipe",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -394,13 +394,17 @@
         {
           "status": "directed",
           "at": "2026-11-11T00:22:24Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-11T06:50:52Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blogs-recipes-peach-pear-and-plum-smoothie.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blogs/recipes/peach-pear-and-plum-smoothie/index.html"
     },
     {
       "slug": "blogs-news-hair-skin-and-beauty-hacks-every-woman-needs-to-know",
@@ -495,7 +499,7 @@
       "url": "https://naturesbounty.com/blogs/recipes/hazelnut-coffee-smoothie",
       "title": "Hazelnut Coffee Smoothie – Nature's Bounty",
       "type": "recipe",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -504,13 +508,17 @@
         {
           "status": "directed",
           "at": "2026-11-11T00:22:24Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-11T06:50:52Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blogs-recipes-hazelnut-coffee-smoothie.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blogs/recipes/hazelnut-coffee-smoothie/index.html"
     },
     {
       "slug": "blogs-news-5-tips-for-a-better-sleep-this-summer",
@@ -539,7 +547,7 @@
       "url": "https://naturesbounty.com/blogs/recipes/mango-berry-cloud",
       "title": "Mango Berry Cloud – Nature's Bounty",
       "type": "recipe",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -548,20 +556,24 @@
         {
           "status": "directed",
           "at": "2026-11-11T00:22:24Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-11T06:50:52Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blogs-recipes-mango-berry-cloud.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blogs/recipes/mango-berry-cloud/index.html"
     },
     {
       "slug": "blogs-recipes-pina-colada-protein-shake",
       "url": "https://naturesbounty.com/blogs/recipes/pina-colada-protein-shake",
       "title": "Pina Colada Protein Shake – Nature's Bounty",
       "type": "recipe",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -570,20 +582,24 @@
         {
           "status": "directed",
           "at": "2026-11-11T00:22:24Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-11T06:50:52Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blogs-recipes-pina-colada-protein-shake.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blogs/recipes/pina-colada-protein-shake/index.html"
     },
     {
       "slug": "blogs-recipes-peanut-butter-and-jelly-protein-shake",
       "url": "https://naturesbounty.com/blogs/recipes/peanut-butter-and-jelly-protein-shake",
       "title": "Peanut Butter and Jelly Protein Shake – Nature's Bounty",
       "type": "recipe",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -592,20 +608,24 @@
         {
           "status": "directed",
           "at": "2026-11-11T00:22:24Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-11T06:50:52Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blogs-recipes-peanut-butter-and-jelly-protein-shake.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blogs/recipes/peanut-butter-and-jelly-protein-shake/index.html"
     },
     {
       "slug": "blogs-recipes-protein-smores-bowl",
       "url": "https://naturesbounty.com/blogs/recipes/protein-smores-bowl",
       "title": "Protein “S’mores” Bowl – Nature's Bounty",
       "type": "recipe",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -614,20 +634,24 @@
         {
           "status": "directed",
           "at": "2026-11-11T00:22:24Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-11T06:50:52Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blogs-recipes-protein-smores-bowl.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blogs/recipes/protein-smores-bowl/index.html"
     },
     {
       "slug": "blogs-recipes-instant-chocolate-pancake-mix",
       "url": "https://naturesbounty.com/blogs/recipes/instant-chocolate-pancake-mix",
       "title": "Instant Chocolate Pancake Mix – Nature's Bounty",
       "type": "recipe",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -636,20 +660,24 @@
         {
           "status": "directed",
           "at": "2026-11-11T00:22:24Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-11T06:50:52Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blogs-recipes-instant-chocolate-pancake-mix.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blogs/recipes/instant-chocolate-pancake-mix/index.html"
     },
     {
       "slug": "blogs-recipes-protein-french-toast",
       "url": "https://naturesbounty.com/blogs/recipes/protein-french-toast",
       "title": "Protein French Toast Recipe – Nature's Bounty",
       "type": "recipe",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -658,20 +686,24 @@
         {
           "status": "directed",
           "at": "2026-11-11T00:22:24Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-11T06:50:52Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blogs-recipes-protein-french-toast.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blogs/recipes/protein-french-toast/index.html"
     },
     {
       "slug": "blogs-recipes-protein-packed-pumpkin-bread",
       "url": "https://naturesbounty.com/blogs/recipes/protein-packed-pumpkin-bread",
       "title": "Protein Packed Pumpkin Bread – Nature's Bounty",
       "type": "recipe",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -680,20 +712,24 @@
         {
           "status": "directed",
           "at": "2026-11-11T00:22:24Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-11T06:50:52Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blogs-recipes-protein-packed-pumpkin-bread.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blogs/recipes/protein-packed-pumpkin-bread/index.html"
     },
     {
       "slug": "blogs-recipes-vegan-chocolate-peanut-butter-vitamin-smoothie",
       "url": "https://naturesbounty.com/blogs/recipes/vegan-chocolate-peanut-butter-vitamin-smoothie",
       "title": "Vegan Chocolate Peanut Butter Vitamin Smoothie – Nature's Bounty",
       "type": "recipe",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -702,20 +738,24 @@
         {
           "status": "directed",
           "at": "2026-11-11T00:22:24Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-11T06:50:53Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blogs-recipes-vegan-chocolate-peanut-butter-vitamin-smoothie.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blogs/recipes/vegan-chocolate-peanut-butter-vitamin-smoothie/index.html"
     },
     {
       "slug": "blogs-recipes-oatmeal-cookie-shake",
       "url": "https://naturesbounty.com/blogs/recipes/oatmeal-cookie-shake",
       "title": "Oatmeal Cookie Shake Recipe – Nature's Bounty",
       "type": "recipe",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -724,20 +764,24 @@
         {
           "status": "directed",
           "at": "2026-11-11T00:22:24Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-11T06:50:53Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blogs-recipes-oatmeal-cookie-shake.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blogs/recipes/oatmeal-cookie-shake/index.html"
     },
     {
       "slug": "blogs-recipes-red-velvet-protein-cupcakes-with-greek-yogurt-frosting",
       "url": "https://naturesbounty.com/blogs/recipes/red-velvet-protein-cupcakes-with-greek-yogurt-frosting",
       "title": "Red Velvet Protein Cupcakes Recipe – Nature's Bounty",
       "type": "recipe",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -746,13 +790,17 @@
         {
           "status": "directed",
           "at": "2026-11-11T00:22:24Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-11T06:50:53Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blogs-recipes-red-velvet-protein-cupcakes-with-greek-yogurt-frosting.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blogs/recipes/red-velvet-protein-cupcakes-with-greek-yogurt-frosting/index.html"
     },
     {
       "slug": "blogs-news-the-step-by-step-guide-for-your-daily-skincare-routine",
@@ -803,7 +851,7 @@
       "url": "https://naturesbounty.com/blogs/recipes/probiotic-rich-breakfast-bowl",
       "title": "Probiotic Rich Breakfast Bowl – Nature's Bounty",
       "type": "recipe",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -812,13 +860,17 @@
         {
           "status": "directed",
           "at": "2026-11-11T00:22:24Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-11T06:50:53Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blogs-recipes-probiotic-rich-breakfast-bowl.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blogs/recipes/probiotic-rich-breakfast-bowl/index.html"
     },
     {
       "slug": "blogs-news-beauty-food-and-vitamins",
@@ -1221,7 +1273,7 @@
       "url": "https://naturesbounty.com/blogs/recipes/quinoa-apple-cake",
       "title": "Quinoa Apple Cake Recipe – Nature's Bounty",
       "type": "recipe",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -1230,20 +1282,24 @@
         {
           "status": "directed",
           "at": "2026-11-11T00:22:24Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-11T06:50:53Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blogs-recipes-quinoa-apple-cake.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blogs/recipes/quinoa-apple-cake/index.html"
     },
     {
       "slug": "blogs-recipes-lean-beef-burger-with-sweet-potato-fries",
       "url": "https://naturesbounty.com/blogs/recipes/lean-beef-burger-with-sweet-potato-fries",
       "title": "Lean-Beef Burger with Sweet Potato Fries – Nature's Bounty",
       "type": "recipe",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -1252,13 +1308,17 @@
         {
           "status": "directed",
           "at": "2026-11-11T00:22:24Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-11T06:50:53Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blogs-recipes-lean-beef-burger-with-sweet-potato-fries.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blogs/recipes/lean-beef-burger-with-sweet-potato-fries/index.html"
     },
     {
       "slug": "blogs-news-top-5-holiday-self-care-tips",
@@ -1375,7 +1435,7 @@
       "url": "https://naturesbounty.com/blogs/recipes/crab-stuffed-salmon-with-honey-agave-glaze",
       "title": "Crab Stuffed Salmon with Honey Agave Glaze – Nature's Bounty",
       "type": "recipe",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -1384,13 +1444,17 @@
         {
           "status": "directed",
           "at": "2026-11-11T00:22:24Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-11T06:50:53Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blogs-recipes-crab-stuffed-salmon-with-honey-agave-glaze.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blogs/recipes/crab-stuffed-salmon-with-honey-agave-glaze/index.html"
     },
     {
       "slug": "blogs-news-helpful-tips-to-reduce-stress-this-spring",
@@ -1485,7 +1549,7 @@
       "url": "https://naturesbounty.com/blogs/recipes/quinoa-avocado-and-black-bean-salad",
       "title": "Quinoa, Avocado & Black Bean Salad – Nature's Bounty",
       "type": "recipe",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -1494,13 +1558,17 @@
         {
           "status": "directed",
           "at": "2026-11-11T00:22:24Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-11T06:50:53Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blogs-recipes-quinoa-avocado-and-black-bean-salad.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blogs/recipes/quinoa-avocado-and-black-bean-salad/index.html"
     },
     {
       "slug": "blogs-news-q-a-2-key-steps-in-reducing-abdominal-fat-a-conversation-with-nutrition-expert-maile-combs-ms",
@@ -1573,7 +1641,7 @@
       "url": "https://naturesbounty.com/blogs/recipes/heart-friendly-kettle-popcorn",
       "title": "Heart Friendly Kettle Popcorn – Nature's Bounty",
       "type": "recipe",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -1582,13 +1650,17 @@
         {
           "status": "directed",
           "at": "2026-11-11T00:22:24Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-11T06:50:53Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blogs-recipes-heart-friendly-kettle-popcorn.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blogs/recipes/heart-friendly-kettle-popcorn/index.html"
     },
     {
       "slug": "blogs-news-healthy-summer-travel-tips",
@@ -1639,7 +1711,7 @@
       "url": "https://naturesbounty.com/blogs/recipes/healthy-snacks",
       "title": "5 Homemade Healthy Snacks – Nature's Bounty",
       "type": "recipe",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -1648,13 +1720,17 @@
         {
           "status": "directed",
           "at": "2026-11-11T00:22:24Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-11T06:50:53Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blogs-recipes-healthy-snacks.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blogs/recipes/healthy-snacks/index.html"
     },
     {
       "slug": "blogs-news-celebrate-women-s-history-month-with-the-inspiring-women-at-nature-s-bounty-c2-ae",
@@ -1947,7 +2023,7 @@
       "url": "https://naturesbounty.com/blogs/recipes/grilled-chicken-with-strawberry-and-pineapple-salsa",
       "title": "Grilled Chicken with Strawberry and Pineapple Salsa – Nature's Bounty",
       "type": "recipe",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -1956,20 +2032,24 @@
         {
           "status": "directed",
           "at": "2026-11-11T00:22:24Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-11T06:50:53Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blogs-recipes-grilled-chicken-with-strawberry-and-pineapple-salsa.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blogs/recipes/grilled-chicken-with-strawberry-and-pineapple-salsa/index.html"
     },
     {
       "slug": "blogs-recipes-green-smoothie-your-daily-dose-of-greens",
       "url": "https://naturesbounty.com/blogs/recipes/green-smoothie-your-daily-dose-of-greens",
       "title": "Green Smoothie - Your Daily Dose of Greens! – Nature's Bounty",
       "type": "recipe",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -1978,20 +2058,24 @@
         {
           "status": "directed",
           "at": "2026-11-11T00:22:24Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-11T06:50:53Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blogs-recipes-green-smoothie-your-daily-dose-of-greens.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blogs/recipes/green-smoothie-your-daily-dose-of-greens/index.html"
     },
     {
       "slug": "blogs-recipes-golden-milk-recipe-with-turmeric",
       "url": "https://naturesbounty.com/blogs/recipes/golden-milk-recipe-with-turmeric",
       "title": "Golden Milk Recipe with Turmeric – Nature's Bounty",
       "type": "recipe",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -2000,20 +2084,24 @@
         {
           "status": "directed",
           "at": "2026-11-11T00:22:24Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-11T06:50:53Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blogs-recipes-golden-milk-recipe-with-turmeric.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blogs/recipes/golden-milk-recipe-with-turmeric/index.html"
     },
     {
       "slug": "blogs-recipes-frozen-greek-yogurt-sundae",
       "url": "https://naturesbounty.com/blogs/recipes/frozen-greek-yogurt-sundae",
       "title": "Frozen Greek Yogurt Sundae – Nature's Bounty",
       "type": "recipe",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -2022,20 +2110,24 @@
         {
           "status": "directed",
           "at": "2026-11-11T00:22:24Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-11T06:50:53Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blogs-recipes-frozen-greek-yogurt-sundae.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blogs/recipes/frozen-greek-yogurt-sundae/index.html"
     },
     {
       "slug": "blogs-recipes-delicious-bedtime-smoothie",
       "url": "https://naturesbounty.com/blogs/recipes/delicious-bedtime-smoothie",
       "title": "Delicious Bedtime Smoothie – Nature's Bounty",
       "type": "recipe",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -2044,20 +2136,24 @@
         {
           "status": "directed",
           "at": "2026-11-11T00:22:24Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-11T06:50:53Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blogs-recipes-delicious-bedtime-smoothie.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blogs/recipes/delicious-bedtime-smoothie/index.html"
     },
     {
       "slug": "blogs-recipes-date-night-frappe",
       "url": "https://naturesbounty.com/blogs/recipes/date-night-frappe",
       "title": "Date Night Frappe – Nature's Bounty",
       "type": "recipe",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -2066,20 +2162,24 @@
         {
           "status": "directed",
           "at": "2026-11-11T00:22:24Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-11T06:50:53Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blogs-recipes-date-night-frappe.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blogs/recipes/date-night-frappe/index.html"
     },
     {
       "slug": "blogs-recipes-crustless-cranberry-pie-recipe",
       "url": "https://naturesbounty.com/blogs/recipes/crustless-cranberry-pie-recipe",
       "title": "Crustless Cranberry Pie Recipe – Nature's Bounty",
       "type": "recipe",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -2088,20 +2188,24 @@
         {
           "status": "directed",
           "at": "2026-11-11T00:22:24Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-11T06:50:53Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blogs-recipes-crustless-cranberry-pie-recipe.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blogs/recipes/crustless-cranberry-pie-recipe/index.html"
     },
     {
       "slug": "blogs-recipes-creamy-spinach-artichoke-dip",
       "url": "https://naturesbounty.com/blogs/recipes/creamy-spinach-artichoke-dip",
       "title": "Creamy Spinach Artichoke Dip – Nature's Bounty",
       "type": "recipe",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -2110,20 +2214,24 @@
         {
           "status": "directed",
           "at": "2026-11-11T00:22:24Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-11T06:50:53Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blogs-recipes-creamy-spinach-artichoke-dip.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blogs/recipes/creamy-spinach-artichoke-dip/index.html"
     },
     {
       "slug": "blogs-recipes-chocolate-tropical-paradise",
       "url": "https://naturesbounty.com/blogs/recipes/chocolate-tropical-paradise",
       "title": "Chocolate Tropical Paradise – Nature's Bounty",
       "type": "recipe",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -2132,20 +2240,24 @@
         {
           "status": "directed",
           "at": "2026-11-11T00:22:24Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-11T06:50:53Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blogs-recipes-chocolate-tropical-paradise.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blogs/recipes/chocolate-tropical-paradise/index.html"
     },
     {
       "slug": "blogs-recipes-chocolate-pudding",
       "url": "https://naturesbounty.com/blogs/recipes/chocolate-pudding",
       "title": "Chocolate Pudding – Nature's Bounty",
       "type": "recipe",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -2154,20 +2266,24 @@
         {
           "status": "directed",
           "at": "2026-11-11T00:22:24Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-11T06:50:53Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blogs-recipes-chocolate-pudding.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blogs/recipes/chocolate-pudding/index.html"
     },
     {
       "slug": "blogs-recipes-chocolate-peanut-butter-protein-oats",
       "url": "https://naturesbounty.com/blogs/recipes/chocolate-peanut-butter-protein-oats",
       "title": "Chocolate Peanut Butter Protein Oats – Nature's Bounty",
       "type": "recipe",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -2176,20 +2292,24 @@
         {
           "status": "directed",
           "at": "2026-11-11T00:22:24Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-11T06:50:53Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blogs-recipes-chocolate-peanut-butter-protein-oats.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blogs/recipes/chocolate-peanut-butter-protein-oats/index.html"
     },
     {
       "slug": "blogs-recipes-chocolate-peaches",
       "url": "https://naturesbounty.com/blogs/recipes/chocolate-peaches",
       "title": "Chocolate Peaches – Nature's Bounty",
       "type": "recipe",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -2198,20 +2318,24 @@
         {
           "status": "directed",
           "at": "2026-11-11T00:22:24Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-11T06:50:53Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blogs-recipes-chocolate-peaches.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blogs/recipes/chocolate-peaches/index.html"
     },
     {
       "slug": "blogs-recipes-chocolate-no-bake-cheesecake",
       "url": "https://naturesbounty.com/blogs/recipes/chocolate-no-bake-cheesecake",
       "title": "Chocolate No-Bake Cheesecake – Nature's Bounty",
       "type": "recipe",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -2220,20 +2344,24 @@
         {
           "status": "directed",
           "at": "2026-11-11T00:22:24Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-11T06:50:54Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blogs-recipes-chocolate-no-bake-cheesecake.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blogs/recipes/chocolate-no-bake-cheesecake/index.html"
     },
     {
       "slug": "blogs-recipes-chocolate-milkshake",
       "url": "https://naturesbounty.com/blogs/recipes/chocolate-milkshake",
       "title": "Chocolate Milkshake – Nature's Bounty",
       "type": "recipe",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -2242,20 +2370,24 @@
         {
           "status": "directed",
           "at": "2026-11-11T00:22:24Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-11T06:50:54Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blogs-recipes-chocolate-milkshake.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blogs/recipes/chocolate-milkshake/index.html"
     },
     {
       "slug": "blogs-recipes-chocolate-lava-muffins",
       "url": "https://naturesbounty.com/blogs/recipes/chocolate-lava-muffins",
       "title": "Chocolate Lava Muffins – Nature's Bounty",
       "type": "recipe",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -2264,20 +2396,24 @@
         {
           "status": "directed",
           "at": "2026-11-11T00:22:24Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-11T06:50:54Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blogs-recipes-chocolate-lava-muffins.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blogs/recipes/chocolate-lava-muffins/index.html"
     },
     {
       "slug": "blogs-recipes-chocolate-covered-cherry-shake",
       "url": "https://naturesbounty.com/blogs/recipes/chocolate-covered-cherry-shake",
       "title": "Chocolate Covered Cherry Shake – Nature's Bounty",
       "type": "recipe",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -2286,20 +2422,24 @@
         {
           "status": "directed",
           "at": "2026-11-11T00:22:24Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-11T06:50:54Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blogs-recipes-chocolate-covered-cherry-shake.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blogs/recipes/chocolate-covered-cherry-shake/index.html"
     },
     {
       "slug": "blogs-recipes-chocolate-coconut-energy-balls-with-turmeric",
       "url": "https://naturesbounty.com/blogs/recipes/chocolate-coconut-energy-balls-with-turmeric",
       "title": "Chocolate Coconut Energy Balls with Turmeric – Nature's Bounty",
       "type": "recipe",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -2308,20 +2448,24 @@
         {
           "status": "directed",
           "at": "2026-11-11T00:22:24Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-11T06:50:54Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blogs-recipes-chocolate-coconut-energy-balls-with-turmeric.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blogs/recipes/chocolate-coconut-energy-balls-with-turmeric/index.html"
     },
     {
       "slug": "blogs-recipes-breakfast-smoothie",
       "url": "https://naturesbounty.com/blogs/recipes/breakfast-smoothie",
       "title": "Breakfast Smoothie – Nature's Bounty",
       "type": "recipe",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -2330,20 +2474,24 @@
         {
           "status": "directed",
           "at": "2026-11-11T00:22:24Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-11T06:50:54Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blogs-recipes-breakfast-smoothie.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blogs/recipes/breakfast-smoothie/index.html"
     },
     {
       "slug": "blogs-recipes-blueberry-pancakes",
       "url": "https://naturesbounty.com/blogs/recipes/blueberry-pancakes",
       "title": "Blueberry Pancakes – Nature's Bounty",
       "type": "recipe",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -2352,20 +2500,24 @@
         {
           "status": "directed",
           "at": "2026-11-11T00:22:24Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-11T06:50:54Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blogs-recipes-blueberry-pancakes.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blogs/recipes/blueberry-pancakes/index.html"
     },
     {
       "slug": "blogs-recipes-banana-walnut-protein-pancakes",
       "url": "https://naturesbounty.com/blogs/recipes/banana-walnut-protein-pancakes",
       "title": "Banana Walnut Protein Pancakes – Nature's Bounty",
       "type": "recipe",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -2374,13 +2526,17 @@
         {
           "status": "directed",
           "at": "2026-11-11T00:22:24Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-11T06:50:54Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blogs-recipes-banana-walnut-protein-pancakes.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blogs/recipes/banana-walnut-protein-pancakes/index.html"
     },
     {
       "slug": "blogs-recipes-apple-crisp",

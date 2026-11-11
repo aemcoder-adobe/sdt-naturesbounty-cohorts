@@ -7,16 +7,22 @@
     "mode": "overlap"
   },
   "heightDelta": 42,
-  "differingPixels": 465914,
-  "pct": 21.46,
+  "differingPixels": 256248,
+  "pct": 15.04,
   "threshold": 10,
   "pass": false,
   "diff": "stardust/replica/gates/all-360/blogs-recipes-chocolate-milkshake/diff.png",
-  "masks": [],
-  "maskedRows": 0,
-  "textPct": 16.81,
-  "textBoxes": 110,
-  "textPixels": 516931,
+  "masks": [
+    {
+      "yA": 2050,
+      "h": 1297,
+      "yB": 2050
+    }
+  ],
+  "maskedRows": 1297,
+  "textPct": 19.2,
+  "textBoxes": 113,
+  "textPixels": 439447,
   "bands": [
     {
       "y0": 0,
@@ -41,17 +47,17 @@
     {
       "y0": 2000,
       "y1": 2500,
-      "pct": 36.4
+      "pct": 0
     },
     {
       "y0": 2500,
       "y1": 3000,
-      "pct": 61.4
+      "pct": 0
     },
     {
       "y0": 3000,
       "y1": 3500,
-      "pct": 25.7
+      "pct": 7
     },
     {
       "y0": 3500,
@@ -83,5 +89,6 @@
       "y1": 6030,
       "pct": 0.5
     }
-  ]
+  ],
+  "maskReason": "server-rotated 'More recipes' row"
 }

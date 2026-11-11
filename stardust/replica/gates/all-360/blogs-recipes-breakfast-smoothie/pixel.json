@@ -7,16 +7,22 @@
     "mode": "overlap"
   },
   "heightDelta": 111,
-  "differingPixels": 574051,
-  "pct": 29.4,
+  "differingPixels": 323983,
+  "pct": 22.34,
   "threshold": 10,
   "pass": false,
   "diff": "stardust/replica/gates/all-360/blogs-recipes-breakfast-smoothie/diff.png",
-  "masks": [],
-  "maskedRows": 0,
-  "textPct": 23.37,
-  "textBoxes": 91,
-  "textPixels": 360813,
+  "masks": [
+    {
+      "yA": 1414,
+      "h": 1395,
+      "yB": 1414
+    }
+  ],
+  "maskedRows": 1395,
+  "textPct": 22.04,
+  "textBoxes": 87,
+  "textPixels": 272887,
   "bands": [
     {
       "y0": 0,
@@ -31,22 +37,22 @@
     {
       "y0": 1000,
       "y1": 1500,
-      "pct": 3.6
+      "pct": 2
     },
     {
       "y0": 1500,
       "y1": 2000,
-      "pct": 55.5
+      "pct": 0
     },
     {
       "y0": 2000,
       "y1": 2500,
-      "pct": 62.2
+      "pct": 0
     },
     {
       "y0": 2500,
       "y1": 3000,
-      "pct": 37.6
+      "pct": 18.1
     },
     {
       "y0": 3000,
@@ -73,5 +79,6 @@
       "y1": 5423,
       "pct": 12.9
     }
-  ]
+  ],
+  "maskReason": "server-rotated 'More recipes' row"
 }
