@@ -35,6 +35,11 @@
   font-weight: var(--fw-bold);
 }
 
+.footer .site-footer-nl-title strong {
+  display: block;
+  font-weight: inherit;
+}
+
 .footer .site-footer-nl-sub {
   margin-top: 16px;
 }
@@ -140,7 +145,7 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 15px 0;
+  padding: 0;
   border: 0;
   border-bottom: 1px solid var(--line-inverse);
   background: none;
@@ -149,6 +154,11 @@
   font-weight: var(--fw-bold);
   text-align: left;
   cursor: pointer;
+}
+
+.footer .site-footer-col-head p {
+  flex: 1 1 auto;
+  padding: 15px 0;
 }
 
 .footer .site-footer-col-icon {
@@ -368,8 +378,11 @@
   }
 
   .footer .site-footer-col-head {
-    padding: 0;
     cursor: default;
+  }
+
+  .footer .site-footer-col-head p {
+    padding: 0;
   }
 }
 

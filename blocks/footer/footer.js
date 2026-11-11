@@ -11,7 +11,8 @@ import ICONS from './footer-icons.js';
  *   without a link is the "Your Privacy Choices" consent trigger)   5 disclaimer paragraphs.
  * Authored nodes are MOVED into the template (EW1); the mobile copy of the social row is a
  * presentational clone with instrumentation stripped (EW4).
- * @ew-exempt <p> newsletter placeholder + submit label — form UI kept as hidden labels
+ * @ew-exempt <p> newsletter placeholder + submit label — form UI (input placeholder, button)
+ * @ew-exempt <ul> social link labels — become the icon links' aria-label
  */
 
 const SOCIAL_HOSTS = ['facebook', 'twitter', 'youtube', 'pinterest', 'instagram'];
@@ -53,12 +54,12 @@ function sectionWrappers(fragment) {
 function decorateSocials(list) {
   list.querySelectorAll('a[href]').forEach((a) => {
     const name = SOCIAL_HOSTS.find((h) => a.href.includes(h));
-    const label = el('span', { class: 'visually-hidden' }, ...a.childNodes);
-    a.setAttribute('aria-label', label.textContent);
-    a.setAttribute('title', label.textContent);
+    const label = a.textContent;
+    a.setAttribute('aria-label', label);
+    a.setAttribute('title', label);
     a.setAttribute('target', '_blank');
     a.setAttribute('rel', 'noopener');
-    a.append(label);
+    a.replaceChildren();
     if (name) a.prepend(icon(name));
   });
 }
@@ -97,10 +98,9 @@ function buildNewsletter(wrapper) {
   });
   const submit = el('button', { class: 'site-footer-submit', type: 'submit' });
   submit.textContent = link ? link.textContent : '';
-  form.append(
-    el('div', { class: 'site-footer-field' }, input, submit),
-    slot('site-footer-form-labels visually-hidden', placeholderP, submitP),
-  );
+  form.append(el('div', { class: 'site-footer-field' }, input, submit));
+  if (placeholderP) placeholderP.remove();
+  if (submitP) submitP.remove();
   // interim (dynamics f-newsletter, A2): the sign-up endpoint is host-bound — open it
   form.addEventListener('submit', (e) => {
     e.preventDefault();

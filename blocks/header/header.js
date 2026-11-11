@@ -328,9 +328,12 @@ function buildDrawer({
       placeholder: searchP ? searchP.textContent : '',
       'aria-label': searchP ? searchP.textContent : 'Search',
     }),
-    el('button', {
-      class: 'drawer-search-btn', type: 'submit', 'aria-label': 'Search',
-    }, icon('search')),
+    el(
+      'button',
+      { class: 'drawer-search-btn', type: 'submit' },
+      icon('search'),
+      el('span', { class: 'visually-hidden' }, 'Search'),
+    ),
   );
   form.setAttribute('method', 'get');
   form.setAttribute('role', 'search');
@@ -597,11 +600,14 @@ export default async function decorate(block) {
       placeholder: searchP ? searchP.textContent : '',
       'aria-label': searchP ? searchP.textContent : 'Search',
     }),
-    el('button', {
-      class: 'site-search-btn', type: 'submit', 'aria-label': 'Search',
-    }, icon('search')),
+    el(
+      'button',
+      { class: 'site-search-btn', type: 'submit' },
+      icon('search'),
+      el('span', { class: 'visually-hidden' }, 'Search'),
+    ),
   );
-  if (searchP) search.append(slot('site-search-label visually-hidden', searchP));
+  if (searchP) searchP.remove();
   nav.append(search);
   if (ctaP) nav.append(slot('site-header-cta', ctaP));
   if (socialList) nav.append(slot('site-header-socials', socialList));

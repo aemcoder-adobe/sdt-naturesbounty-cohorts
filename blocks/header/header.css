@@ -715,7 +715,13 @@ body.has-modal .header .drawer-overlay {
   justify-content: flex-start;
 }
 
+.header .drawer-link picture {
+  display: contents;
+}
+
 .header .drawer-link img {
+  width: 32px;
+  height: 32px;
   margin-right: 16px;
 }
 
