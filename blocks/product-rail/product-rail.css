@@ -114,6 +114,10 @@
   fill: var(--star-off);
 }
 
+.product-rail .rating-star.rating-star-on {
+  fill: var(--star-on);
+}
+
 .product-rail .rating-star:last-child {
   margin-right: 0;
 }
