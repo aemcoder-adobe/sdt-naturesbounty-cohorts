@@ -1,0 +1,51 @@
+/* trusted-band — lifted from stardust/prototypes/canon.css (.trusted-band); full-bleed band */
+main > .section > .trusted-band-wrapper {
+  max-width: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.trusted-band {
+  background-color: var(--sage);
+}
+
+.trusted-band .trusted-band-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 260px;
+  padding-top: 60px;
+  padding-bottom: 45px;
+  text-align: center;
+}
+
+.trusted-band .trusted-band-img picture,
+.trusted-band .trusted-band-img img {
+  display: block;
+}
+
+.trusted-band .trusted-band-img img {
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.trusted-band .trusted-band-text :is(p, h2, h3) {
+  margin: 31px auto 0;
+  padding: 0 10px;
+  color: var(--white);
+  font: inherit;
+}
+
+.trusted-band .trusted-band-rule {
+  height: 4px;
+  background: linear-gradient(
+    269.9deg,
+    #ac9830 0.07%,
+    #c6b55c 27.24%,
+    #f4e098 53.36%,
+    #c0ae56 78.44%,
+    #ac9830 100.38%
+  );
+}

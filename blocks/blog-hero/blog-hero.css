@@ -1,0 +1,121 @@
+/* blog-hero — lifted from stardust/prototypes/listing.css (.blog-hero) and, for the image
+   variant, bundle.theme.css .page-hero + the recipes page-hero_rebrand inline rules. */
+
+/* the sand band spans the hero section (title + filters) */
+main > .section.blog-hero-container:not(:has(.blog-hero.image)) {
+  padding-bottom: 71px;
+  background-color: #f7f4ee;
+}
+
+.blog-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.blog-hero .blog-hero-title :is(h1, h2, h3) {
+  margin-top: 54px;
+  font-size: 34px;
+  line-height: 50px;
+  font-weight: var(--fw-extrabold);
+  text-align: center;
+}
+
+@media (width >= 768px) {
+  .blog-hero .blog-hero-title :is(h1, h2, h3) {
+    margin-top: 72px;
+    font-size: 50px;
+    line-height: 60px;
+  }
+}
+
+@media (width >= 1680px) {
+  main > .section.blog-hero-container > div {
+    padding-left: 124px;
+    padding-right: 124px;
+  }
+}
+
+/* ---------- image variant (page-hero banner) */
+main > .section > .blog-hero-wrapper:has(.blog-hero.image) {
+  max-width: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.blog-hero.image {
+  position: relative;
+  align-items: stretch;
+  min-height: 503px;
+  background-color: var(--forest);
+}
+
+.blog-hero.image .blog-hero-media {
+  position: absolute;
+  inset: 0;
+}
+
+.blog-hero.image .blog-hero-media > div,
+.blog-hero.image .blog-hero-media picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.blog-hero.image .blog-hero-media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.blog-hero.image .blog-hero-desktop {
+  display: none;
+}
+
+.blog-hero.image .blog-hero-gradient {
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 75%;
+  background: linear-gradient(90deg, rgb(39 70 58 / 100%), rgb(52 119 63 / 0%) 100%);
+}
+
+.blog-hero.image .blog-hero-title {
+  z-index: 1;
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.blog-hero.image .blog-hero-title :is(h1, h2, h3) {
+  margin: 0;
+  color: var(--sand);
+  font-size: 45px;
+  line-height: 55px;
+  text-align: left;
+}
+
+@media (width >= 768px) {
+  .blog-hero.image {
+    min-height: 345px;
+  }
+}
+
+@media (width >= 992px) {
+  .blog-hero.image .blog-hero-desktop {
+    display: block;
+  }
+
+  .blog-hero.image .blog-hero-mobile {
+    display: none;
+  }
+}
+
+@media (width >= 1680px) {
+  .blog-hero.image .blog-hero-title {
+    padding-left: 124px;
+    padding-right: 124px;
+  }
+}

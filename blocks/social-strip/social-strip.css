@@ -1,0 +1,144 @@
+/* social-strip — lifted from stardust/prototypes/canon.css (.social-strip, .social-tile).
+   The strip title is the section's default content, styled in place. */
+main > .section > .social-strip-wrapper,
+main > .section.social-strip-container > .default-content-wrapper {
+  max-width: var(--max-width);
+  padding-left: 0;
+  padding-right: 0;
+}
+
+main > .section.social-strip-container > .default-content-wrapper,
+.social-strip .social-strip-title {
+  padding: 10px;
+  text-align: center;
+}
+
+.social-strip-container .default-content-wrapper :is(h1, h2, h3, h4, h5, h6, p),
+.social-strip .social-strip-title :is(h1, h2, h3, h4, h5, h6) {
+  margin: 18px 0;
+  font-size: var(--fs-base);
+  line-height: var(--lh-base);
+  font-weight: var(--fw-bold);
+}
+
+.social-strip {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 0 80px;
+}
+
+.social-strip .social-strip-grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+}
+
+.social-strip .social-tile {
+  position: relative;
+  display: block;
+  flex: 0 0 calc(20% - 14px);
+  height: max-content;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.social-strip .social-tile picture {
+  display: block;
+  width: 100%;
+}
+
+.social-strip .social-tile img {
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.social-strip .social-tile-overlay {
+  position: absolute;
+  inset: 0;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #27463a78;
+  text-align: center;
+  letter-spacing: -0.015em;
+}
+
+.social-strip .social-tile-overlay p {
+  margin: 0;
+}
+
+.social-strip .social-tile-title {
+  display: block;
+  padding: 0 15px;
+  color: var(--lime);
+  font-size: 28px;
+  line-height: 34px;
+  font-weight: var(--fw-bold);
+}
+
+.social-strip .social-tile-sub {
+  display: block;
+  margin: 15px 0;
+  padding: 0 15px;
+  color: var(--white);
+  font-size: 15px;
+  line-height: normal;
+  font-weight: 400;
+}
+
+.social-strip .social-tile-btn {
+  display: inline-block;
+  min-width: 0;
+  margin-top: 15px;
+  padding: 9px 32px;
+  border: 2px solid var(--lime);
+  border-radius: var(--radius-pill);
+  background-color: var(--lime);
+  color: var(--forest);
+  font-size: 18px;
+  font-weight: var(--fw-bold);
+  line-height: 22px;
+  transition: color 0.15s ease, border-color 0.15s ease, background-color 0.15s ease;
+}
+
+.social-strip .social-tile:hover .social-tile-btn {
+  border-color: var(--white);
+  background-color: transparent;
+  color: var(--white);
+}
+
+@media (width >= 769px) {
+  .social-strip .social-tile:hover .social-tile-overlay {
+    display: flex;
+  }
+
+  .social-strip .social-tile:hover img {
+    filter: blur(3px);
+  }
+}
+
+@media (width <= 768px) {
+  .social-strip {
+    padding-bottom: 0;
+  }
+
+  .social-strip .social-strip-grid {
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-bottom: 40px;
+  }
+
+  .social-strip .social-tile {
+    display: flex;
+    flex-basis: calc(50% - 22.5px);
+    height: auto;
+  }
+
+  .social-strip .social-tile:first-child {
+    flex-basis: calc(100% - 30px);
+  }
+}

@@ -1,0 +1,37 @@
+/* listing-pagination — lifted from stardust/prototypes/listing.css (.listing-pagination,
+   .btn--outline.btn--action) */
+.listing-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.listing-pagination p {
+  margin: 0;
+}
+
+.listing-pagination a:any-link {
+  display: block;
+  min-width: 260px;
+  height: 64px;
+  padding: 21px;
+  border: 1px solid var(--green);
+  border-radius: var(--radius-pill);
+  background-color: transparent;
+  color: var(--green);
+  font-size: 18px;
+  font-weight: var(--fw-bold);
+  line-height: 21.94px;
+  text-align: center;
+  text-decoration: none;
+  transition: color 0.15s ease, border-color 0.15s ease, background-color 0.15s ease;
+}
+
+.listing-pagination a:any-link:hover,
+.listing-pagination a:any-link:active {
+  border-color: var(--green);
+  background-color: var(--green);
+  color: var(--white);
+}

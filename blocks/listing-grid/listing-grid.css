@@ -1,0 +1,198 @@
+/* listing-grid — lifted from stardust/prototypes/listing.css (.listing-grid) and canon.css
+   (.related-card); blog-list variant from the recipes page's inline .blog-list rules. */
+.listing-grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px;
+  margin-top: 35px;
+}
+
+.listing-grid .listing-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.listing-grid .card-media {
+  height: 200px;
+}
+
+.listing-grid .card-media img {
+  display: inline;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  vertical-align: baseline;
+}
+
+.listing-grid .card-tags :is(ul, ol, p) {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin: 20px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.listing-grid .card-tags :is(li, a, .card-tag-sep) {
+  display: block;
+  font-size: 14px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.listing-grid .card-tags li {
+  display: flex;
+  gap: 5px;
+}
+
+.listing-grid .card-tags .card-tag-sep {
+  display: block;
+}
+
+.listing-grid .card-more a {
+  text-decoration: none;
+}
+
+.listing-grid .card-tags a {
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  text-underline-offset: 3px;
+  transition: text-decoration-color 0.2s ease;
+}
+
+.listing-grid .card-tags a:hover {
+  text-decoration-color: currentcolor;
+}
+
+.listing-grid .card-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.listing-grid .card-title :is(h1, h2, h3, h4, h5, h6) {
+  margin-top: 16px;
+  color: var(--green);
+  font-size: 25px;
+  line-height: 38px;
+  font-weight: var(--fw-bold);
+  text-underline-offset: 0.3rem;
+  text-decoration-thickness: 0;
+  transition: text-decoration-thickness 0.15s ease;
+}
+
+.listing-grid .card-link:hover .card-title :is(h1, h2, h3, h4, h5, h6) {
+  text-decoration: underline;
+  text-decoration-thickness: 0.2rem;
+}
+
+.listing-grid .card-excerpt p {
+  margin: 0;
+}
+
+.listing-grid .card-more p {
+  margin: 18px 0;
+}
+
+@media (width >= 480px) {
+  .listing-grid .card-media {
+    height: 300px;
+  }
+}
+
+@media (width >= 600px) {
+  .listing-grid .card-media {
+    height: 450px;
+  }
+}
+
+@media (width >= 768px) {
+  .listing-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 50px;
+  }
+
+  .listing-grid .card-media {
+    height: 245px;
+  }
+
+  .listing-grid.two {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .listing-grid.two .card-media {
+    height: 490px;
+  }
+}
+
+@media (width >= 1400px) {
+  .listing-grid:not(.two, .blog-list) {
+    margin-top: 90px;
+  }
+}
+
+@media (width >= 1680px) {
+  main > .section.listing-grid-container > div {
+    padding-left: 124px;
+    padding-right: 124px;
+  }
+}
+
+/* the listing section closes with the blog index's bottom padding */
+main > .section.listing-grid-container:has(.listing-pagination) {
+  padding-bottom: 78px;
+}
+
+/* ---------- blog-list variant (recipes: 3 cross-blog cards) */
+.listing-grid.blog-list {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 20px;
+  margin: 0 0 40px;
+}
+
+.listing-grid.blog-list .listing-card {
+  width: 100%;
+}
+
+.listing-grid.blog-list .card-media {
+  height: auto;
+}
+
+.listing-grid.blog-list .card-media img {
+  display: block;
+  height: auto;
+}
+
+.listing-grid.blog-list .card-tags :is(li, a) {
+  font-size: 0.7rem;
+  line-height: normal;
+}
+
+.listing-grid.blog-list .card-tags a {
+  color: var(--ink);
+}
+
+.listing-grid.blog-list .card-title :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0;
+  padding: 12px 0;
+  color: #67893c;
+  font-size: 1.4rem;
+  line-height: 1;
+  font-weight: inherit;
+}
+
+@media (width >= 769px) {
+  .listing-grid.blog-list {
+    flex-wrap: nowrap;
+  }
+
+  .listing-grid.blog-list .listing-card {
+    width: 34%;
+  }
+}
