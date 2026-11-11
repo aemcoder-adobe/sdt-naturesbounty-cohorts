@@ -36,18 +36,15 @@
   list-style: none;
 }
 
-.listing-grid .card-tags :is(li, a, .card-tag-sep) {
-  display: block;
+.listing-grid .card-tags :is(li, p) {
+  display: flex;
+  gap: 5px;
   font-size: 14px;
   line-height: 30px;
   text-transform: uppercase;
 }
 
-.listing-grid .card-tags li {
-  display: flex;
-  gap: 5px;
-}
-
+.listing-grid .card-tags a,
 .listing-grid .card-tags .card-tag-sep {
   display: block;
 }
@@ -169,7 +166,7 @@ main > .section.listing-grid-container:has(.listing-pagination) {
   height: auto;
 }
 
-.listing-grid.blog-list .card-tags :is(li, a) {
+.listing-grid.blog-list .card-tags li {
   font-size: 0.7rem;
   line-height: normal;
 }
