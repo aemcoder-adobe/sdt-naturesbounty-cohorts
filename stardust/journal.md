@@ -71,3 +71,19 @@
   Path B 0. Gated-archetype precondition holds (360 residuals all carry an R-01 cause). Siblings advanced to `directed`.
 - Units in stardust/migrate/progress.json: render clusters of ≤ 8 (listing, recipe-1…5, article-1…10), each runs only
   after its template's C-archetype unit is done. Publish decision recorded in stardust/eds-conversion-log.md.
+
+## A-inventory — 120 pages in coverage, 4 archetypes to deliver first (2026-11-11)
+
+- Archetypes rendered Path A by migrate.mjs (modules[] declared per archetype); inventory --state merged 116 siblings as
+  content-pending. 1 of 121 discovered out of scope (agents.md, text/markdown). DA aemcoder/1a676f95 ref main.
+
+## B-block — 21 distinct blocks, each converted once (2026-11-11)
+
+- blocks.json: 21 module blocks from 30 instances (social-strip, trusted-band ×4; product-rail, related, share ×2).
+  plan.json representative-first: biotin → article set, apple-crisp → recipe, blogs-news → listing, index → home modules.
+
+## B2-dynamic — dynamic surface re-verified on the 4 archetypes (2026-11-11)
+
+- Fresh detect (stardust/.work/dynamics/fresh): 46 findings vs 45 at extract; the one new row (POST /api/event/collect,
+  Shopify analytics beacon, host-bound) folded into family 9. Added row 14 listing pagination (Load More). All 14
+  families dispositioned; nothing blocks C-deliver.

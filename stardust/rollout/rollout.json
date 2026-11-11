@@ -1,0 +1,42 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-11T00:22:55.991Z",
+    "stardustVersion": "0.0.0"
+  },
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://naturesbounty.com/",
+    "da": {
+      "org": "aemcoder",
+      "site": "1a676f95",
+      "ref": "main"
+    },
+    "liveHost": "main--1a676f95--aemcoder.aem.live",
+    "previewHost": "main--1a676f95--aemcoder.aem.page"
+  },
+  "scope": {
+    "pages": 120,
+    "discovered": 121,
+    "capped": true,
+    "pageCap": 0
+  },
+  "lastRun": {
+    "at": "2026-11-11T00:22:55.991Z",
+    "pages": {
+      "total": 120,
+      "verified": 0,
+      "deployed": 0,
+      "pending": 4,
+      "contentPending": 116,
+      "stale": 0,
+      "failed": 0
+    },
+    "blocks": {
+      "total": 21,
+      "converted": 0,
+      "pending": 21
+    },
+    "verifyFailures": 0
+  }
+}

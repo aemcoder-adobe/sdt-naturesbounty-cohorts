@@ -1,0 +1,451 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/blocks",
+    "writtenAt": "2026-11-11T00:23:03.567Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage/pages.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-11T00:23:03.567Z",
+  "blocks": [
+    {
+      "id": "article",
+      "label": "article",
+      "kind": "module",
+      "signature": "module:article",
+      "source": null,
+      "usedByTemplates": [
+        "blogs-news-the-benefits-of-biotin"
+      ],
+      "usedByPages": [
+        "blogs-news-the-benefits-of-biotin"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "article",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "blog-featured",
+      "label": "blog-featured",
+      "kind": "module",
+      "signature": "module:blog-featured",
+      "source": null,
+      "usedByTemplates": [
+        "blogs-news"
+      ],
+      "usedByPages": [
+        "blogs-news"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "blog-featured",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "blog-filters",
+      "label": "blog-filters",
+      "kind": "module",
+      "signature": "module:blog-filters",
+      "source": null,
+      "usedByTemplates": [
+        "blogs-news"
+      ],
+      "usedByPages": [
+        "blogs-news"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "blog-filters",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "blog-hero",
+      "label": "blog-hero",
+      "kind": "module",
+      "signature": "module:blog-hero",
+      "source": null,
+      "usedByTemplates": [
+        "blogs-news"
+      ],
+      "usedByPages": [
+        "blogs-news"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "blog-hero",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "content-highlight",
+      "label": "content-highlight",
+      "kind": "module",
+      "signature": "module:content-highlight",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "content-highlight",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "content-newsletter",
+      "label": "content-newsletter",
+      "kind": "module",
+      "signature": "module:content-newsletter",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "content-newsletter",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "content-products",
+      "label": "content-products",
+      "kind": "module",
+      "signature": "module:content-products",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "content-products",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "featured-content",
+      "label": "featured-content",
+      "kind": "module",
+      "signature": "module:featured-content",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "featured-content",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "featured-grid",
+      "label": "featured-grid",
+      "kind": "module",
+      "signature": "module:featured-grid",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "featured-grid",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "listing-grid",
+      "label": "listing-grid",
+      "kind": "module",
+      "signature": "module:listing-grid",
+      "source": null,
+      "usedByTemplates": [
+        "blogs-news"
+      ],
+      "usedByPages": [
+        "blogs-news"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "listing-grid",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "listing-pagination",
+      "label": "listing-pagination",
+      "kind": "module",
+      "signature": "module:listing-pagination",
+      "source": null,
+      "usedByTemplates": [
+        "blogs-news"
+      ],
+      "usedByPages": [
+        "blogs-news"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "listing-pagination",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "product-rail",
+      "label": "product-rail",
+      "kind": "module",
+      "signature": "module:product-rail",
+      "source": null,
+      "usedByTemplates": [
+        "blogs-news-the-benefits-of-biotin",
+        "blogs-recipes-apple-crisp"
+      ],
+      "usedByPages": [
+        "blogs-news-the-benefits-of-biotin",
+        "blogs-recipes-apple-crisp"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "product-rail",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "recipe",
+      "label": "recipe",
+      "kind": "module",
+      "signature": "module:recipe",
+      "source": null,
+      "usedByTemplates": [
+        "blogs-recipes-apple-crisp"
+      ],
+      "usedByPages": [
+        "blogs-recipes-apple-crisp"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "recipe",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "related",
+      "label": "related",
+      "kind": "module",
+      "signature": "module:related",
+      "source": null,
+      "usedByTemplates": [
+        "blogs-news-the-benefits-of-biotin",
+        "blogs-recipes-apple-crisp"
+      ],
+      "usedByPages": [
+        "blogs-news-the-benefits-of-biotin",
+        "blogs-recipes-apple-crisp"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "related",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "share",
+      "label": "share",
+      "kind": "module",
+      "signature": "module:share",
+      "source": null,
+      "usedByTemplates": [
+        "blogs-news-the-benefits-of-biotin",
+        "blogs-recipes-apple-crisp"
+      ],
+      "usedByPages": [
+        "blogs-news-the-benefits-of-biotin",
+        "blogs-recipes-apple-crisp"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "share",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "social-strip",
+      "label": "social-strip",
+      "kind": "module",
+      "signature": "module:social-strip",
+      "source": null,
+      "usedByTemplates": [
+        "blogs-news",
+        "blogs-news-the-benefits-of-biotin",
+        "blogs-recipes-apple-crisp",
+        "index"
+      ],
+      "usedByPages": [
+        "blogs-news",
+        "blogs-news-the-benefits-of-biotin",
+        "blogs-recipes-apple-crisp",
+        "index"
+      ],
+      "instanceCount": 4,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "social-strip",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "tabbed-products",
+      "label": "tabbed-products",
+      "kind": "module",
+      "signature": "module:tabbed-products",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "tabbed-products",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "tag-nav",
+      "label": "tag-nav",
+      "kind": "module",
+      "signature": "module:tag-nav",
+      "source": null,
+      "usedByTemplates": [
+        "blogs-news-the-benefits-of-biotin"
+      ],
+      "usedByPages": [
+        "blogs-news-the-benefits-of-biotin"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "tag-nav",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "testimonials",
+      "label": "testimonials",
+      "kind": "module",
+      "signature": "module:testimonials",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "testimonials",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "trusted-band",
+      "label": "trusted-band",
+      "kind": "module",
+      "signature": "module:trusted-band",
+      "source": null,
+      "usedByTemplates": [
+        "blogs-news",
+        "blogs-news-the-benefits-of-biotin",
+        "blogs-recipes-apple-crisp",
+        "index"
+      ],
+      "usedByPages": [
+        "blogs-news",
+        "blogs-news-the-benefits-of-biotin",
+        "blogs-recipes-apple-crisp",
+        "index"
+      ],
+      "instanceCount": 4,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "trusted-band",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "video-hero",
+      "label": "video-hero",
+      "kind": "module",
+      "signature": "module:video-hero",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "video-hero",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    }
+  ]
+}

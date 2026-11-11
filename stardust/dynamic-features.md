@@ -24,11 +24,12 @@ here into families. Hands-off: every non-self row ships its interim tier as a na
 | 6 | t-consent-onetrust | OneTrust consent | T | all | embed-passthrough | embed | needs-business-decision | scaffolded-awaiting-owner | A3 |
 | 7 | tags | GTM, GA/Ads, Segment, analyze.ly, Facebook, Pinterest, PubMatic, Casale, Bidswitch, gbqofs, CloudFront-hosted tag scripts, shop.app, survey/VoC badge | T/A | all | embed-passthrough | embed | needs-business-decision | scaffolded-awaiting-owner | A3 — martech not requested; scaffolded off |
 | 8 | reviews | Bazaarvoice reviews widget (`data-bv-show`) | T | 2 | embed-passthrough | embed | needs-credential | interim | captured star ratings shipped as static snapshot — assumption A4 |
-| 9 | first-party-api | POST /api/collect, /api/unstable/graphql.json, /.well-known/shopify/fec | A | all | static-snapshot | content | needs-business-decision | interim | Shopify storefront analytics / cart — host-bound (3/3 dead on target); not needed by blog pages |
+| 9 | first-party-api | POST /api/collect, POST /api/event/collect, /api/unstable/graphql.json, /.well-known/shopify/fec | A | all | static-snapshot | content | needs-business-decision | interim | Shopify storefront analytics / cart — host-bound (3/3 dead on target); not needed by blog pages |
 | 10 | settings-objects | `Shopify`, `dataLayer` globals | A | all | static-snapshot | content | self | done | no consumer on migrated pages |
 | 11 | iframe-runtime | runtime-injected iframes (tag/consent frames) | V | all | static-snapshot | content | self | done | belong to the tags in row 7 |
 | 12 | i18n | single locale en-us | I18N | all | rebuild-native | — | self | done | no locale variants |
 | 13 | commerce | Shopify cart / prices | X | 4 | static-snapshot | content | needs-backend | interim | product cards link to source product pages; prices/cart not rendered on blog pages. Undecided — revisit at rollout (assumption A5) |
+| 14 | listing-pagination | `/blogs/news` + `/blogs/recipes` "Load More" (live fetches `?page=N` in place) | L | 2 | rebuild-native | block (listing-pagination) | self | planned | delivered pages carry the captured first page; Load More links to the next listing page; index-backed append when a query index exists |
 
 ## Decision batch
 

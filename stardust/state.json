@@ -2679,5 +2679,874 @@
       "prototypePath": null,
       "migratedPath": null
     }
-  ]
+  ],
+  "migrate": {
+    "at": "2026-11-11T00:22:45Z",
+    "outputDir": "stardust/migrated/",
+    "selfContained": true,
+    "pageMap": [
+      {
+        "sourceUrl": "/",
+        "outputPath": "index.html",
+        "slug": "index",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/blogs/news",
+        "outputPath": "blogs/news/index.html",
+        "slug": "blogs-news",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/recipes",
+        "outputPath": "blogs/recipes/index.html",
+        "slug": "blogs-recipes",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/mens-health",
+        "outputPath": "blogs/news/mens-health/index.html",
+        "slug": "blogs-news-mens-health",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/why-magnesium-matters-more-than-ever",
+        "outputPath": "blogs/news/why-magnesium-matters-more-than-ever/index.html",
+        "slug": "blogs-news-why-magnesium-matters-more-than-ever",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/how-to-choose-the-right-probiotic-for-daily-support",
+        "outputPath": "blogs/news/how-to-choose-the-right-probiotic-for-daily-support/index.html",
+        "slug": "blogs-news-how-to-choose-the-right-probiotic-for-daily-support",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/what-are-ceramides-and-why-they-matter-more-as-skin-ages",
+        "outputPath": "blogs/news/what-are-ceramides-and-why-they-matter-more-as-skin-ages/index.html",
+        "slug": "blogs-news-what-are-ceramides-and-why-they-matter-more-as-skin-ages",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/whipped-lavender-body-butter",
+        "outputPath": "blogs/news/whipped-lavender-body-butter/index.html",
+        "slug": "blogs-news-whipped-lavender-body-butter",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/beauty-facts",
+        "outputPath": "blogs/news/beauty-facts/index.html",
+        "slug": "blogs-news-beauty-facts",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/how-much-fish-oil-should-you-take-daily",
+        "outputPath": "blogs/news/how-much-fish-oil-should-you-take-daily/index.html",
+        "slug": "blogs-news-how-much-fish-oil-should-you-take-daily",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/the-benefits-of-biotin",
+        "outputPath": "blogs/news/the-benefits-of-biotin/index.html",
+        "slug": "blogs-news-the-benefits-of-biotin",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/what-women-need-to-know-about-detecting-breast-cancer-early-an-interview-with-susan-brown-m-s-r-n-at-susan-g-komen%C2%AE",
+        "outputPath": "blogs/news/what-women-need-to-know-about-detecting-breast-cancer-early-an-interview-with-susan-brown-m-s-r-n-at-susan-g-komen%C2%AE/index.html",
+        "slug": "blogs-news-what-women-need-to-know-about-detecting-breast-cancer-early-an-interview-with-susan-brown-m-s-r-n-at-susan-g-komen-c2-ae",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/women-s-health-awareness-5-ways-to-reset-your-wellness-routine",
+        "outputPath": "blogs/news/women-s-health-awareness-5-ways-to-reset-your-wellness-routine/index.html",
+        "slug": "blogs-news-women-s-health-awareness-5-ways-to-reset-your-wellness-routine",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/what-type-of-magnesium-supplement-is-perfect-for-me-understanding-your-options",
+        "outputPath": "blogs/news/what-type-of-magnesium-supplement-is-perfect-for-me-understanding-your-options/index.html",
+        "slug": "blogs-news-what-type-of-magnesium-supplement-is-perfect-for-me-understanding-your-options",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/the-benefits-of-prenatal-vitamins",
+        "outputPath": "blogs/news/the-benefits-of-prenatal-vitamins/index.html",
+        "slug": "blogs-news-the-benefits-of-prenatal-vitamins",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/recipes/peach-pear-and-plum-smoothie",
+        "outputPath": "blogs/recipes/peach-pear-and-plum-smoothie/index.html",
+        "slug": "blogs-recipes-peach-pear-and-plum-smoothie",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/hair-skin-and-beauty-hacks-every-woman-needs-to-know",
+        "outputPath": "blogs/news/hair-skin-and-beauty-hacks-every-woman-needs-to-know/index.html",
+        "slug": "blogs-news-hair-skin-and-beauty-hacks-every-woman-needs-to-know",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/your-gut-may-play-a-powerful-role-in-your-well-being-our-survey-finds",
+        "outputPath": "blogs/news/your-gut-may-play-a-powerful-role-in-your-well-being-our-survey-finds/index.html",
+        "slug": "blogs-news-your-gut-may-play-a-powerful-role-in-your-well-being-our-survey-finds",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/digestive-probiotic-10",
+        "outputPath": "blogs/news/digestive-probiotic-10/index.html",
+        "slug": "blogs-news-digestive-probiotic-10",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/enhance-your-digestive-wellness-with-these-4-probiotic-supplements",
+        "outputPath": "blogs/news/enhance-your-digestive-wellness-with-these-4-probiotic-supplements/index.html",
+        "slug": "blogs-news-enhance-your-digestive-wellness-with-these-4-probiotic-supplements",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/recipes/hazelnut-coffee-smoothie",
+        "outputPath": "blogs/recipes/hazelnut-coffee-smoothie/index.html",
+        "slug": "blogs-recipes-hazelnut-coffee-smoothie",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/5-tips-for-a-better-sleep-this-summer",
+        "outputPath": "blogs/news/5-tips-for-a-better-sleep-this-summer/index.html",
+        "slug": "blogs-news-5-tips-for-a-better-sleep-this-summer",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/recipes/mango-berry-cloud",
+        "outputPath": "blogs/recipes/mango-berry-cloud/index.html",
+        "slug": "blogs-recipes-mango-berry-cloud",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/recipes/pina-colada-protein-shake",
+        "outputPath": "blogs/recipes/pina-colada-protein-shake/index.html",
+        "slug": "blogs-recipes-pina-colada-protein-shake",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/recipes/peanut-butter-and-jelly-protein-shake",
+        "outputPath": "blogs/recipes/peanut-butter-and-jelly-protein-shake/index.html",
+        "slug": "blogs-recipes-peanut-butter-and-jelly-protein-shake",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/recipes/protein-smores-bowl",
+        "outputPath": "blogs/recipes/protein-smores-bowl/index.html",
+        "slug": "blogs-recipes-protein-smores-bowl",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/recipes/instant-chocolate-pancake-mix",
+        "outputPath": "blogs/recipes/instant-chocolate-pancake-mix/index.html",
+        "slug": "blogs-recipes-instant-chocolate-pancake-mix",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/recipes/protein-french-toast",
+        "outputPath": "blogs/recipes/protein-french-toast/index.html",
+        "slug": "blogs-recipes-protein-french-toast",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/recipes/protein-packed-pumpkin-bread",
+        "outputPath": "blogs/recipes/protein-packed-pumpkin-bread/index.html",
+        "slug": "blogs-recipes-protein-packed-pumpkin-bread",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/recipes/vegan-chocolate-peanut-butter-vitamin-smoothie",
+        "outputPath": "blogs/recipes/vegan-chocolate-peanut-butter-vitamin-smoothie/index.html",
+        "slug": "blogs-recipes-vegan-chocolate-peanut-butter-vitamin-smoothie",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/recipes/oatmeal-cookie-shake",
+        "outputPath": "blogs/recipes/oatmeal-cookie-shake/index.html",
+        "slug": "blogs-recipes-oatmeal-cookie-shake",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/recipes/red-velvet-protein-cupcakes-with-greek-yogurt-frosting",
+        "outputPath": "blogs/recipes/red-velvet-protein-cupcakes-with-greek-yogurt-frosting/index.html",
+        "slug": "blogs-recipes-red-velvet-protein-cupcakes-with-greek-yogurt-frosting",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/the-step-by-step-guide-for-your-daily-skincare-routine",
+        "outputPath": "blogs/news/the-step-by-step-guide-for-your-daily-skincare-routine/index.html",
+        "slug": "blogs-news-the-step-by-step-guide-for-your-daily-skincare-routine",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/smarter-better-health-every-day",
+        "outputPath": "blogs/news/smarter-better-health-every-day/index.html",
+        "slug": "blogs-news-smarter-better-health-every-day",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/recipes/probiotic-rich-breakfast-bowl",
+        "outputPath": "blogs/recipes/probiotic-rich-breakfast-bowl/index.html",
+        "slug": "blogs-recipes-probiotic-rich-breakfast-bowl",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/beauty-food-and-vitamins",
+        "outputPath": "blogs/news/beauty-food-and-vitamins/index.html",
+        "slug": "blogs-news-beauty-food-and-vitamins",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/support-a-good-night-s-rest-with-sleep3-time-release-melatonin-gummies",
+        "outputPath": "blogs/news/support-a-good-night-s-rest-with-sleep3-time-release-melatonin-gummies/index.html",
+        "slug": "blogs-news-support-a-good-night-s-rest-with-sleep3-time-release-melatonin-gummies",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/beauty-tips-youll-thank-us-for-later",
+        "outputPath": "blogs/news/beauty-tips-youll-thank-us-for-later/index.html",
+        "slug": "blogs-news-beauty-tips-youll-thank-us-for-later",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/simple-heart-healthy-steps-for-you-and-your-sweetheart",
+        "outputPath": "blogs/news/simple-heart-healthy-steps-for-you-and-your-sweetheart/index.html",
+        "slug": "blogs-news-simple-heart-healthy-steps-for-you-and-your-sweetheart",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/healthy-living-tips-from-dorothy-hamill",
+        "outputPath": "blogs/news/healthy-living-tips-from-dorothy-hamill/index.html",
+        "slug": "blogs-news-healthy-living-tips-from-dorothy-hamill",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/your-guide-to-festival-prep",
+        "outputPath": "blogs/news/your-guide-to-festival-prep/index.html",
+        "slug": "blogs-news-your-guide-to-festival-prep",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/vitamin-b-12-rich-foods",
+        "outputPath": "blogs/news/vitamin-b-12-rich-foods/index.html",
+        "slug": "blogs-news-vitamin-b-12-rich-foods",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/eye-cream",
+        "outputPath": "blogs/news/eye-cream/index.html",
+        "slug": "blogs-news-eye-cream",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/5-tips-to-reset-your-beauty-routine-this-winter",
+        "outputPath": "blogs/news/5-tips-to-reset-your-beauty-routine-this-winter/index.html",
+        "slug": "blogs-news-5-tips-to-reset-your-beauty-routine-this-winter",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/10-tips-for-when-you-find-out-you-are-pregnant",
+        "outputPath": "blogs/news/10-tips-for-when-you-find-out-you-are-pregnant/index.html",
+        "slug": "blogs-news-10-tips-for-when-you-find-out-you-are-pregnant",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/exploring-heart-health-omega-3-supplements-beyond-fish-oil",
+        "outputPath": "blogs/news/exploring-heart-health-omega-3-supplements-beyond-fish-oil/index.html",
+        "slug": "blogs-news-exploring-heart-health-omega-3-supplements-beyond-fish-oil",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/what-products-do-i-need-new-year-must-haves",
+        "outputPath": "blogs/news/what-products-do-i-need-new-year-must-haves/index.html",
+        "slug": "blogs-news-what-products-do-i-need-new-year-must-haves",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/staying-healthy-as-you-age-tips-to-help-you-grow-older-with-confidence",
+        "outputPath": "blogs/news/staying-healthy-as-you-age-tips-to-help-you-grow-older-with-confidence/index.html",
+        "slug": "blogs-news-staying-healthy-as-you-age-tips-to-help-you-grow-older-with-confidence",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/support-year-round-health-with-wellness-tips-for-every-season",
+        "outputPath": "blogs/news/support-year-round-health-with-wellness-tips-for-every-season/index.html",
+        "slug": "blogs-news-support-year-round-health-with-wellness-tips-for-every-season",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/support-thicker-fuller-hair-with-our-new-supplement-for-hair-growth",
+        "outputPath": "blogs/news/support-thicker-fuller-hair-with-our-new-supplement-for-hair-growth/index.html",
+        "slug": "blogs-news-support-thicker-fuller-hair-with-our-new-supplement-for-hair-growth",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/what-is-berberine-get-the-facts-behind-this-popular-supplement",
+        "outputPath": "blogs/news/what-is-berberine-get-the-facts-behind-this-popular-supplement/index.html",
+        "slug": "blogs-news-what-is-berberine-get-the-facts-behind-this-popular-supplement",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/summer-tips-for-a-healthy-heart",
+        "outputPath": "blogs/news/summer-tips-for-a-healthy-heart/index.html",
+        "slug": "blogs-news-summer-tips-for-a-healthy-heart",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/10-popular-foods-that-can-nourish-hair",
+        "outputPath": "blogs/news/10-popular-foods-that-can-nourish-hair/index.html",
+        "slug": "blogs-news-10-popular-foods-that-can-nourish-hair",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/recipes/quinoa-apple-cake",
+        "outputPath": "blogs/recipes/quinoa-apple-cake/index.html",
+        "slug": "blogs-recipes-quinoa-apple-cake",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/recipes/lean-beef-burger-with-sweet-potato-fries",
+        "outputPath": "blogs/recipes/lean-beef-burger-with-sweet-potato-fries/index.html",
+        "slug": "blogs-recipes-lean-beef-burger-with-sweet-potato-fries",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/top-5-holiday-self-care-tips",
+        "outputPath": "blogs/news/top-5-holiday-self-care-tips/index.html",
+        "slug": "blogs-news-top-5-holiday-self-care-tips",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/probiotic-gummies",
+        "outputPath": "blogs/news/probiotic-gummies/index.html",
+        "slug": "blogs-news-probiotic-gummies",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/trust-us-youre-always-better-off-healthy",
+        "outputPath": "blogs/news/trust-us-youre-always-better-off-healthy/index.html",
+        "slug": "blogs-news-trust-us-youre-always-better-off-healthy",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/help-manage-your-weight-with-metabolism-booster",
+        "outputPath": "blogs/news/help-manage-your-weight-with-metabolism-booster/index.html",
+        "slug": "blogs-news-help-manage-your-weight-with-metabolism-booster",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/womens-multivitamin-more-than-just-a-great-taste",
+        "outputPath": "blogs/news/womens-multivitamin-more-than-just-a-great-taste/index.html",
+        "slug": "blogs-news-womens-multivitamin-more-than-just-a-great-taste",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/recipes/crab-stuffed-salmon-with-honey-agave-glaze",
+        "outputPath": "blogs/recipes/crab-stuffed-salmon-with-honey-agave-glaze/index.html",
+        "slug": "blogs-recipes-crab-stuffed-salmon-with-honey-agave-glaze",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/helpful-tips-to-reduce-stress-this-spring",
+        "outputPath": "blogs/news/helpful-tips-to-reduce-stress-this-spring/index.html",
+        "slug": "blogs-news-helpful-tips-to-reduce-stress-this-spring",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/over-40-years-of-trusted-quality",
+        "outputPath": "blogs/news/over-40-years-of-trusted-quality/index.html",
+        "slug": "blogs-news-over-40-years-of-trusted-quality",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/probiotics-for-everyday-health",
+        "outputPath": "blogs/news/probiotics-for-everyday-health/index.html",
+        "slug": "blogs-news-probiotics-for-everyday-health",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/what-are-probiotics",
+        "outputPath": "blogs/news/what-are-probiotics/index.html",
+        "slug": "blogs-news-what-are-probiotics",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/recipes/quinoa-avocado-and-black-bean-salad",
+        "outputPath": "blogs/recipes/quinoa-avocado-and-black-bean-salad/index.html",
+        "slug": "blogs-recipes-quinoa-avocado-and-black-bean-salad",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/q-a-2-key-steps-in-reducing-abdominal-fat-a-conversation-with-nutrition-expert-maile-combs-ms",
+        "outputPath": "blogs/news/q-a-2-key-steps-in-reducing-abdominal-fat-a-conversation-with-nutrition-expert-maile-combs-ms/index.html",
+        "slug": "blogs-news-q-a-2-key-steps-in-reducing-abdominal-fat-a-conversation-with-nutrition-expert-maile-combs-ms",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/feel-full-again-the-science-behind-hair-growth-with-nutrition-expert-jaclyn-safrath",
+        "outputPath": "blogs/news/feel-full-again-the-science-behind-hair-growth-with-nutrition-expert-jaclyn-safrath/index.html",
+        "slug": "blogs-news-feel-full-again-the-science-behind-hair-growth-with-nutrition-expert-jaclyn-safrath",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/build-beauty-from-within-your-2024-vitamin-routine",
+        "outputPath": "blogs/news/build-beauty-from-within-your-2024-vitamin-routine/index.html",
+        "slug": "blogs-news-build-beauty-from-within-your-2024-vitamin-routine",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/recipes/heart-friendly-kettle-popcorn",
+        "outputPath": "blogs/recipes/heart-friendly-kettle-popcorn/index.html",
+        "slug": "blogs-recipes-heart-friendly-kettle-popcorn",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/healthy-summer-travel-tips",
+        "outputPath": "blogs/news/healthy-summer-travel-tips/index.html",
+        "slug": "blogs-news-healthy-summer-travel-tips",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/fall-into-an-active-autumn",
+        "outputPath": "blogs/news/fall-into-an-active-autumn/index.html",
+        "slug": "blogs-news-fall-into-an-active-autumn",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/recipes/healthy-snacks",
+        "outputPath": "blogs/recipes/healthy-snacks/index.html",
+        "slug": "blogs-recipes-healthy-snacks",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/celebrate-women-s-history-month-with-the-inspiring-women-at-nature-s-bounty%C2%AE",
+        "outputPath": "blogs/news/celebrate-women-s-history-month-with-the-inspiring-women-at-nature-s-bounty%C2%AE/index.html",
+        "slug": "blogs-news-celebrate-women-s-history-month-with-the-inspiring-women-at-nature-s-bounty-c2-ae",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/the-top-10-reasons-to-exercise-regularly",
+        "outputPath": "blogs/news/the-top-10-reasons-to-exercise-regularly/index.html",
+        "slug": "blogs-news-the-top-10-reasons-to-exercise-regularly",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/importance-of-sleep",
+        "outputPath": "blogs/news/importance-of-sleep/index.html",
+        "slug": "blogs-news-importance-of-sleep",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/surprising-benefits-of-probiotics",
+        "outputPath": "blogs/news/surprising-benefits-of-probiotics/index.html",
+        "slug": "blogs-news-surprising-benefits-of-probiotics",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/gut-check-exploring-the-power-of-probiotics-with-nature-s-bounty%C2%AE",
+        "outputPath": "blogs/news/gut-check-exploring-the-power-of-probiotics-with-nature-s-bounty%C2%AE/index.html",
+        "slug": "blogs-news-gut-check-exploring-the-power-of-probiotics-with-nature-s-bounty-c2-ae",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/tips-for-healthy-digestion-and-quality-sleep",
+        "outputPath": "blogs/news/tips-for-healthy-digestion-and-quality-sleep/index.html",
+        "slug": "blogs-news-tips-for-healthy-digestion-and-quality-sleep",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/the-kroger-wellness-festival-is-back-september-22-23-2023",
+        "outputPath": "blogs/news/the-kroger-wellness-festival-is-back-september-22-23-2023/index.html",
+        "slug": "blogs-news-the-kroger-wellness-festival-is-back-september-22-23-2023",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/support-immune-health-during-back-to-school-season-tips-for-the-whole-family",
+        "outputPath": "blogs/news/support-immune-health-during-back-to-school-season-tips-for-the-whole-family/index.html",
+        "slug": "blogs-news-support-immune-health-during-back-to-school-season-tips-for-the-whole-family",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/partnering-with-susan-g-komen-to-end-breast-cancer-forever",
+        "outputPath": "blogs/news/partnering-with-susan-g-komen-to-end-breast-cancer-forever/index.html",
+        "slug": "blogs-news-partnering-with-susan-g-komen-to-end-breast-cancer-forever",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/quick-fix-beauty-tips",
+        "outputPath": "blogs/news/quick-fix-beauty-tips/index.html",
+        "slug": "blogs-news-quick-fix-beauty-tips",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/make-better-food-swaps-this-season",
+        "outputPath": "blogs/news/make-better-food-swaps-this-season/index.html",
+        "slug": "blogs-news-make-better-food-swaps-this-season",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/heart-health",
+        "outputPath": "blogs/news/heart-health/index.html",
+        "slug": "blogs-news-heart-health",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/5-reasons-to-try-tropical-citrus-hair-skin-and-nails-gummies",
+        "outputPath": "blogs/news/5-reasons-to-try-tropical-citrus-hair-skin-and-nails-gummies/index.html",
+        "slug": "blogs-news-5-reasons-to-try-tropical-citrus-hair-skin-and-nails-gummies",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/recipes/grilled-chicken-with-strawberry-and-pineapple-salsa",
+        "outputPath": "blogs/recipes/grilled-chicken-with-strawberry-and-pineapple-salsa/index.html",
+        "slug": "blogs-recipes-grilled-chicken-with-strawberry-and-pineapple-salsa",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/recipes/green-smoothie-your-daily-dose-of-greens",
+        "outputPath": "blogs/recipes/green-smoothie-your-daily-dose-of-greens/index.html",
+        "slug": "blogs-recipes-green-smoothie-your-daily-dose-of-greens",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/recipes/golden-milk-recipe-with-turmeric",
+        "outputPath": "blogs/recipes/golden-milk-recipe-with-turmeric/index.html",
+        "slug": "blogs-recipes-golden-milk-recipe-with-turmeric",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/recipes/frozen-greek-yogurt-sundae",
+        "outputPath": "blogs/recipes/frozen-greek-yogurt-sundae/index.html",
+        "slug": "blogs-recipes-frozen-greek-yogurt-sundae",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/recipes/delicious-bedtime-smoothie",
+        "outputPath": "blogs/recipes/delicious-bedtime-smoothie/index.html",
+        "slug": "blogs-recipes-delicious-bedtime-smoothie",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/recipes/date-night-frappe",
+        "outputPath": "blogs/recipes/date-night-frappe/index.html",
+        "slug": "blogs-recipes-date-night-frappe",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/recipes/crustless-cranberry-pie-recipe",
+        "outputPath": "blogs/recipes/crustless-cranberry-pie-recipe/index.html",
+        "slug": "blogs-recipes-crustless-cranberry-pie-recipe",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/recipes/creamy-spinach-artichoke-dip",
+        "outputPath": "blogs/recipes/creamy-spinach-artichoke-dip/index.html",
+        "slug": "blogs-recipes-creamy-spinach-artichoke-dip",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/recipes/chocolate-tropical-paradise",
+        "outputPath": "blogs/recipes/chocolate-tropical-paradise/index.html",
+        "slug": "blogs-recipes-chocolate-tropical-paradise",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/recipes/chocolate-pudding",
+        "outputPath": "blogs/recipes/chocolate-pudding/index.html",
+        "slug": "blogs-recipes-chocolate-pudding",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/recipes/chocolate-peanut-butter-protein-oats",
+        "outputPath": "blogs/recipes/chocolate-peanut-butter-protein-oats/index.html",
+        "slug": "blogs-recipes-chocolate-peanut-butter-protein-oats",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/recipes/chocolate-peaches",
+        "outputPath": "blogs/recipes/chocolate-peaches/index.html",
+        "slug": "blogs-recipes-chocolate-peaches",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/recipes/chocolate-no-bake-cheesecake",
+        "outputPath": "blogs/recipes/chocolate-no-bake-cheesecake/index.html",
+        "slug": "blogs-recipes-chocolate-no-bake-cheesecake",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/recipes/chocolate-milkshake",
+        "outputPath": "blogs/recipes/chocolate-milkshake/index.html",
+        "slug": "blogs-recipes-chocolate-milkshake",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/recipes/chocolate-lava-muffins",
+        "outputPath": "blogs/recipes/chocolate-lava-muffins/index.html",
+        "slug": "blogs-recipes-chocolate-lava-muffins",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/recipes/chocolate-covered-cherry-shake",
+        "outputPath": "blogs/recipes/chocolate-covered-cherry-shake/index.html",
+        "slug": "blogs-recipes-chocolate-covered-cherry-shake",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/recipes/chocolate-coconut-energy-balls-with-turmeric",
+        "outputPath": "blogs/recipes/chocolate-coconut-energy-balls-with-turmeric/index.html",
+        "slug": "blogs-recipes-chocolate-coconut-energy-balls-with-turmeric",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/recipes/breakfast-smoothie",
+        "outputPath": "blogs/recipes/breakfast-smoothie/index.html",
+        "slug": "blogs-recipes-breakfast-smoothie",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/recipes/blueberry-pancakes",
+        "outputPath": "blogs/recipes/blueberry-pancakes/index.html",
+        "slug": "blogs-recipes-blueberry-pancakes",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/recipes/banana-walnut-protein-pancakes",
+        "outputPath": "blogs/recipes/banana-walnut-protein-pancakes/index.html",
+        "slug": "blogs-recipes-banana-walnut-protein-pancakes",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/recipes/apple-crisp",
+        "outputPath": "blogs/recipes/apple-crisp/index.html",
+        "slug": "blogs-recipes-apple-crisp",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/your-go-to-guide-for-festival-ready-hair",
+        "outputPath": "blogs/news/your-go-to-guide-for-festival-ready-hair/index.html",
+        "slug": "blogs-news-your-go-to-guide-for-festival-ready-hair",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/supplement-your-beauty-routine-with-hair-skin-nails",
+        "outputPath": "blogs/news/supplement-your-beauty-routine-with-hair-skin-nails/index.html",
+        "slug": "blogs-news-supplement-your-beauty-routine-with-hair-skin-nails",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/refresh-your-beauty-routine-this-spring",
+        "outputPath": "blogs/news/refresh-your-beauty-routine-this-spring/index.html",
+        "slug": "blogs-news-refresh-your-beauty-routine-this-spring",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/one-week-makeup-detox",
+        "outputPath": "blogs/news/one-week-makeup-detox/index.html",
+        "slug": "blogs-news-one-week-makeup-detox",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/natures-bounty-optimal-solutions-wanderlust",
+        "outputPath": "blogs/news/natures-bounty-optimal-solutions-wanderlust/index.html",
+        "slug": "blogs-news-natures-bounty-optimal-solutions-wanderlust",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/how-much-sleep-do-you-really-need",
+        "outputPath": "blogs/news/how-much-sleep-do-you-really-need/index.html",
+        "slug": "blogs-news-how-much-sleep-do-you-really-need",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/hot-looks-for-summer-2018",
+        "outputPath": "blogs/news/hot-looks-for-summer-2018/index.html",
+        "slug": "blogs-news-hot-looks-for-summer-2018",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/hot-hairstyles-to-try-this-fall",
+        "outputPath": "blogs/news/hot-hairstyles-to-try-this-fall/index.html",
+        "slug": "blogs-news-hot-hairstyles-to-try-this-fall",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/healthy-holiday-hacks",
+        "outputPath": "blogs/news/healthy-holiday-hacks/index.html",
+        "slug": "blogs-news-healthy-holiday-hacks",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/easy-hairstyles",
+        "outputPath": "blogs/news/easy-hairstyles/index.html",
+        "slug": "blogs-news-easy-hairstyles",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/digest-these-healthy-eating-habits",
+        "outputPath": "blogs/news/digest-these-healthy-eating-habits/index.html",
+        "slug": "blogs-news-digest-these-healthy-eating-habits",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/benefits-of-fish-oil",
+        "outputPath": "blogs/news/benefits-of-fish-oil/index.html",
+        "slug": "blogs-news-benefits-of-fish-oil",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blogs/news/give-your-hair-skin-and-nails-a-healthy-foundation-to-shine",
+        "outputPath": "blogs/news/give-your-hair-skin-and-nails-a-healthy-foundation-to-shine/index.html",
+        "slug": "blogs-news-give-your-hair-skin-and-nails-a-healthy-foundation-to-shine",
+        "outputPathDefault": "trailing-slash"
+      }
+    ],
+    "totalAssetsBundled": 103,
+    "bundledAssets": [
+      "article.css",
+      "canon.css",
+      "canon.js",
+      "favicon.png",
+      "fonts/figtree-latin-var.woff2",
+      "landing.css",
+      "landing.js",
+      "listing.css",
+      "logo.svg",
+      "media/NB-logo.svg",
+      "media/article-beauty-routine-2024.jpg",
+      "media/article-biotin-hero.jpg",
+      "media/article-ceramides.jpg",
+      "media/article-os-january.jpg",
+      "media/blog-06-probiotic-nb-iiyn-2025-0128-1561-v1-jpeg-qc.jpg",
+      "media/blog-24-03-os-website-blog-images-whm.jpg",
+      "media/blog-24-05-nb-website-blog-digestive-final-1-7cdfdff9-5500-451d-8.jpg",
+      "media/blog-24-05-nb-website-blog-digestive-final-2-e2d8c301-db8d-41ea-a.jpg",
+      "media/blog-24-05-nb-website-blog-pro10-final-a8b5c769-90f4-4a3c-8d69-14.jpg",
+      "media/blog-24-06-nb-website-blog-womenshealth-final-b1db2301-cc1b-4110-.jpg",
+      "media/blog-natures-bounty-magnesium-1427x600-5d78b11a-4234-4866-b043-de.jpg",
+      "media/blog-nb-april-blog.jpg",
+      "media/hair-growth-cta-lrg.png",
+      "media/home-001603.png",
+      "media/home-003201.png",
+      "media/home-011932.png",
+      "media/home-029619.png",
+      "media/home-030920.png",
+      "media/home-041383.png",
+      "media/home-044191.png",
+      "media/home-044648.png",
+      "media/home-051520.png",
+      "media/home-074312008788-c1n1-44309902.jpg",
+      "media/home-083430.png",
+      "media/home-087139.png",
+      "media/home-089377.webp",
+      "media/home-092823-nb-fibergummies5g90ct625ccgmy-2023-10-05t13-55-05-1st.png",
+      "media/home-25d9d939388c400286bc8e6316ec5f64-hd-1080p-4-8mbps-96053916.mp4",
+      "media/home-25d9d939388c400286bc8e6316ec5f64-thumbnail-0000000000-small.jpg",
+      "media/home-b032490-nb-00a-rdgst-f.png",
+      "media/home-b058865-nb-03d-rdg-f.jpg",
+      "media/home-blog-thumbnail-hair-growth.jpg",
+      "media/home-content-product-1.png",
+      "media/home-content-product-4.png",
+      "media/home-content-product-6.png",
+      "media/home-content-product-side-1.png",
+      "media/home-content-product-side-2.png",
+      "media/home-content-product-side-3.png",
+      "media/home-content-product-side-4.png",
+      "media/home-content-product-side-5.png",
+      "media/home-content-product-side-6.png",
+      "media/home-content-product-side-7.png",
+      "media/home-content-product.jpg",
+      "media/home-coq10-category-tile-bca72ec6-8b2c-4777-873a-e795728e7bf1.png",
+      "media/home-digestive.png",
+      "media/home-g074312013751-44324206-00a-advancedmetabolismbooster60capst-.png",
+      "media/home-hair-growth-render-02.png",
+      "media/home-hair-growth.png",
+      "media/home-magnesium.jpg",
+      "media/home-mask-group-5.png",
+      "media/home-media-1-ee973b00-740c-4675-a19f-2cde2ace0e02.jpg",
+      "media/home-nature-sbountyultraprobiotic10-ifc-30caps-us-awp-a24-04e-443.png",
+      "media/home-natures-bounty-essential-prenatal-gummies-270x360-1.png",
+      "media/home-nb-hair-growth-beauty-30ct-ifcst-f.png",
+      "media/home-nb-hsn-adv-80ct-beautyshot-ang1.png",
+      "media/home-nb-intimacy-beauty-60ct-ifcst-f.png",
+      "media/home-nb-sleep-3-beauty-ifc-10mg-30ct-f.png",
+      "media/home-nb-ultraprobiotic10-beauty-30caps-ifcst-f-88bbc72b-d6c2-461d.png",
+      "media/home-nb-ultraprobiotic10-beauty-30caps-ifcst-f.png",
+      "media/home-new-naturesbounty-sleep3-ifc-10mg-30tabs-us-awp-44360731-a24.png",
+      "media/home-offer-skin.png",
+      "media/home-offer-sleep.jpg",
+      "media/home-probiotic-tile-8099dafb-cd37-43c1-9de5-5b7876ab4f1d-2.png",
+      "media/home-probiotic-tile-8099dafb-cd37-43c1-9de5-5b7876ab4f1d.png",
+      "media/ig-AdvMagGly.png",
+      "media/ig-GummiesBillboard.png",
+      "media/ig-SupercomplexB.png",
+      "media/ig-Vitamin_C.png",
+      "media/ig-first_day_of_spring_2025-2.png",
+      "media/menu-bone-and-joint-health.svg",
+      "media/menu-brain-health.svg",
+      "media/menu-digestive-health.svg",
+      "media/menu-energy-support.svg",
+      "media/menu-eye-health.svg",
+      "media/menu-hair-skin-and-nails.svg",
+      "media/menu-healthy-aging.svg",
+      "media/menu-heart-health.svg",
+      "media/menu-herbs.svg",
+      "media/menu-immune-and-antioxidant-support.svg",
+      "media/menu-mens-health.svg",
+      "media/menu-prenatal-health.svg",
+      "media/menu-sleep-support.svg",
+      "media/menu-stress-and-mood.svg",
+      "media/menu-urinary-tract-health.svg",
+      "media/menu-womens-health.svg",
+      "media/product-035710.png",
+      "media/product-053545.png",
+      "media/recipe-apple-crisp-hero.jpg",
+      "media/recipe-mango-berry-cloud.jpg",
+      "media/recipe-oatmeal-cookie-shake.jpg",
+      "media/recipe-peach-pear-plum-smoothie.jpg",
+      "media/trusted-banner.png",
+      "recipe.css"
+    ],
+    "pages": [
+      {
+        "slug": "index",
+        "file": "stardust/migrated/index.html",
+        "assetsBundled": 82
+      },
+      {
+        "slug": "blogs-news",
+        "file": "stardust/migrated/blogs/news/index.html",
+        "assetsBundled": 39
+      },
+      {
+        "slug": "blogs-news-the-benefits-of-biotin",
+        "file": "stardust/migrated/blogs/news/the-benefits-of-biotin/index.html",
+        "assetsBundled": 36
+      },
+      {
+        "slug": "blogs-recipes-apple-crisp",
+        "file": "stardust/migrated/blogs/recipes/apple-crisp/index.html",
+        "assetsBundled": 34
+      }
+    ],
+    "missingAssets": [],
+    "cleanedAssets": [],
+    "lastRun": {
+      "at": "2026-11-11T00:22:45Z",
+      "rendered": [
+        "index",
+        "blogs-news",
+        "blogs-news-the-benefits-of-biotin",
+        "blogs-recipes-apple-crisp"
+      ],
+      "unchanged": [],
+      "refused": [],
+      "passthrough": []
+    }
+  }
 }

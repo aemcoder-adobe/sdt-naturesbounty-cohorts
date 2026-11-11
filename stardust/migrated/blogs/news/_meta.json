@@ -1,0 +1,955 @@
+{
+  "slug": "blogs-news",
+  "type": "listing",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "blog-hero",
+    "blog-filters",
+    "blog-featured",
+    "listing-grid",
+    "listing-pagination",
+    "trusted-band",
+    "social-strip"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "blog-index"
+  ],
+  "canonShas": {
+    "header": "9e854d669498",
+    "footer": "ec39663c3824",
+    "css": "69005b935625"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Latest Health News and Articles – Nature's Bounty",
+    "description": "Stay informed with the latest health and wellness news from Nature’s Bounty®, featuring articles on nutrition, fitness, supplements, and more.*",
+    "canonical": "https://naturesbounty.com/blogs/news",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Latest Health News and Articles – Nature's Bounty",
+    "description": "Stay informed with the latest health and wellness news from Nature’s Bounty®, featuring articles on nutrition, fitness, supplements, and more.*",
+    "url": "https://naturesbounty.com/blogs/news"
+  },
+  "migratedAt": "2026-11-11T00:22:45Z",
+  "designMdSha": "04c43987f196",
+  "designJsonSha": "9d27330fe5f5",
+  "sourceCurrentSha": "17c5897e1ad6",
+  "sourceProposedSha": "a2d5ebfb052c",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 39,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://naturesbounty.com/pages/womens-wellness",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://naturesbounty.com/collections/favorites",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://naturesbounty.com/pages/hair-growth",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://naturesbounty.com/pages/womens-wellness",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://naturesbounty.com/collections/favorites",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://naturesbounty.com/pages/hair-growth",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://naturesbounty.com/pages/womens-wellness",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://naturesbounty.com/collections/favorites",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://naturesbounty.com/pages/hair-growth",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pages/about-us",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pages/store-locator",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pages/store-locator",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/vitamin-b",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/vitamin-c",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/vitamin-d",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/vitamin-e",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/gummy-vitamins",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/vitamins",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/biotin",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/fish-oil-and-omegas",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/melatonin",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/probiotics",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/supplements",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/calcium",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/iron",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/magnesium",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/potassium",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/selenium",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/zinc",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/minerals",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/turmeric",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/cinnamon",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/green-tea",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/horny-goat-weed",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/milk-thistle",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/red-yeast-rice",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/herbs",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/amino-acids",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/diet-and-lifestyle",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/specialty",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/favorites",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pages/our-products",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pages/womens-wellness",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/brain-health",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/bone-and-joint-health",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/digestive-health",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/energy-support",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/eye-health",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/hair-skin-and-nails",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/healthy-aging",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/heart-health",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/herbs",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/immune-and-antioxidant-support",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/mens-health",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/prenatal-health",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/stress-and-mood",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/sleep-support",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/urinary-tract-health",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/womens-health",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pages/womens-wellness",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pages/faqs",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pages/compare-magnesium-products",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pages/hair-growth",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pages/metabolism-booster",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pages/womens-wellness",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pages/resource-center",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pages/hair-growth",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pages/about-us",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/vitamins",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/supplements",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/minerals",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/herbs",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/specialty",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/favorites",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pages/our-products",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/vitamin-b",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/vitamin-c",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/vitamin-d",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/vitamin-e",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/gummy-vitamins",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/vitamins",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/biotin",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/fish-oil-and-omegas",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/melatonin",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/probiotics",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/supplements",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/calcium",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/iron",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/magnesium",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/potassium",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/selenium",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/zinc",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/minerals",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/turmeric",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/cinnamon",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/green-tea",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/horny-goat-weed",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/milk-thistle",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/red-yeast-rice",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/herbs",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/amino-acids",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/diet-and-lifestyle",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/specialty",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pages/womens-wellness",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/brain-health",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/bone-and-joint-health",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/digestive-health",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/energy-support",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/eye-health",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/hair-skin-and-nails",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/healthy-aging",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/heart-health",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/herbs",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/immune-and-antioxidant-support",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/mens-health",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/prenatal-health",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/stress-and-mood",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/sleep-support",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/urinary-tract-health",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/womens-health",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pages/womens-wellness",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pages/faqs",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pages/compare-magnesium-products",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pages/hair-growth",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pages/metabolism-booster",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pages/womens-wellness",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pages/resource-center",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pages/hair-growth",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/blogs/news/tagged/age-defying-skin-renewal",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/blogs/news/tagged/bone-joint-health",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/blogs/news/tagged/brain-health",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/blogs/news/tagged/digestive-health",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/blogs/news/tagged/energy-support",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/blogs/news/tagged/eye-health",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/blogs/news/tagged/hair",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/blogs/news/tagged/healthy-aging",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/blogs/news/tagged/heart-health",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/blogs/news/tagged/immune-antioxidant-support",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/blogs/news/tagged/kids-health",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/blogs/news/tagged/mens-health",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/blogs/news/tagged/nails",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/blogs/news/tagged/prenatal-health",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/blogs/news/tagged/skin",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/blogs/news/tagged/sleep-support",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/blogs/news/tagged/stress-mood",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/blogs/news/tagged/urinary-tract-health",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/blogs/news/tagged/womens-health",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/blogs/news/tagged/womens-wellness",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/blogs/news/why-magnesium-matters-more-than-ever",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/blogs/news/why-magnesium-matters-more-than-ever",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/blogs/news/why-magnesium-matters-more-than-ever",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/blogs/news/how-to-choose-the-right-probiotic-for-daily-support",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/blogs/news/how-to-choose-the-right-probiotic-for-daily-support",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/blogs/news/how-to-choose-the-right-probiotic-for-daily-support",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/blogs/news/why-magnesium-matters-more-than-ever",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/blogs/news/why-magnesium-matters-more-than-ever",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/blogs/news/why-magnesium-matters-more-than-ever",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/blogs/news/why-magnesium-matters-more-than-ever",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/blogs/news/how-to-choose-the-right-probiotic-for-daily-support",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/blogs/news/how-to-choose-the-right-probiotic-for-daily-support",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/blogs/news/how-to-choose-the-right-probiotic-for-daily-support",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/blogs/news/what-are-ceramides-and-why-they-matter-more-as-skin-ages",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/blogs/news/tagged/age-defying-skin-renewal",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/blogs/news/tagged/hair",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/blogs/news/tagged/nails",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/blogs/news/what-are-ceramides-and-why-they-matter-more-as-skin-ages",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/blogs/news/what-are-ceramides-and-why-they-matter-more-as-skin-ages",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/blogs/news/women-s-health-awareness-5-ways-to-reset-your-wellness-routine",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/blogs/news/tagged/womens-wellness",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/blogs/news/women-s-health-awareness-5-ways-to-reset-your-wellness-routine",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/blogs/news/your-gut-may-play-a-powerful-role-in-your-well-being-our-survey-finds",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/blogs/news/tagged/digestive-health",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/blogs/news/your-gut-may-play-a-powerful-role-in-your-well-being-our-survey-finds",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/blogs/news/enhance-your-digestive-wellness-with-these-4-probiotic-supplements",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/blogs/news/tagged/digestive-health",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/blogs/news/enhance-your-digestive-wellness-with-these-4-probiotic-supplements",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/blogs/news/digestive-probiotic-10",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/blogs/news/tagged/digestive-health",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/blogs/news/digestive-probiotic-10",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/blogs/news/helpful-tips-to-reduce-stress-this-spring",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/blogs/news/tagged/stress-mood",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/blogs/news/helpful-tips-to-reduce-stress-this-spring",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/blogs/news/celebrate-women-s-history-month-with-the-inspiring-women-at-nature-s-bounty%C2%AE",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/blogs/news/tagged/womens-health",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/blogs/news/celebrate-women-s-history-month-with-the-inspiring-women-at-nature-s-bounty%C2%AE",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/products/advanced-magnesium-glycinate",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/products/hair-growth",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/products/super-b-complex-with-folic-acid-plus-vitamin-c-150-tablets",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/products/c-with-rose-hips-tablets-1000-mg-100-coated-caplets",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/products/advanced-hair-skin-and-nails",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/vitamins",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/supplements",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/minerals",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/herbs",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/fish-oil-and-omegas",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/specialty",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/womens-health",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/mens-health",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/brain-health",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/bone-and-joint-health",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/eye-health",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/healthy-aging",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/herbs",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/urinary-tract-health",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/digestive-health",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/energy-support",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/heart-health",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/immune-and-antioxidant-support",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/stress-and-mood",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/collections/sleep-support",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/blogs/news/beauty-tips-youll-thank-us-for-later",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/blogs/news/healthy-living-tips-from-dorothy-hamill",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/blogs/news/beauty-food-and-vitamins",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/collections/hair-skin-and-nails",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/blogs/recipes",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/pages/about-us",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pages/store-locator",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pages/contact-us",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pages/terms-of-use",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pages/privacy-policy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pages/accessibility-statement",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pages/health-data-notice",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pages/satisfaction-guarantee",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://naturesbounty.com/pages/international",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "blogs/news/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "blogs/news/_meta.json",
+  "driverVersion": "1"
+}
