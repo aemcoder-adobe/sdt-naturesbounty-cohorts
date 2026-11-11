@@ -68,7 +68,7 @@ main > .section > .article-wrapper {
   margin: 0 0 18px;
 }
 
-/* source .rte: lists 18px above and below, headings flush (margins 0, weight 500) */
+/* source .rte: lists 18px above and below, headings 18px below (weight 500) */
 .article .article-text :is(ul, ol) {
   margin: 18px 0;
 }
@@ -93,7 +93,7 @@ main > .section > .article-wrapper {
 }
 
 .article .article-text :is(h2, h3, h4, h5, h6) {
-  margin: 0;
+  margin: 0 0 18px;
   font-weight: 500;
   line-height: 30px;
 }
