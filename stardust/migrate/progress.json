@@ -30,7 +30,7 @@
       "verdict": "rendered 1, unchanged 0, refused 0, passthrough 0"
     },
     "recipe-1": {
-      "status": "running",
+      "status": "done",
       "kind": "render",
       "templates": [
         "recipe"
@@ -47,10 +47,12 @@
         "blogs-recipes-instant-chocolate-pancake-mix",
         "blogs-recipes-protein-french-toast"
       ],
-      "startedAt": "2026-11-11T02:34:52Z"
+      "startedAt": "2026-11-11T02:34:52Z",
+      "endedAt": "2026-11-11T02:43:19Z",
+      "verdict": "rendered 8, unchanged 0, refused 0, passthrough 0"
     },
     "recipe-2": {
-      "status": "running",
+      "status": "done",
       "kind": "render",
       "templates": [
         "recipe"
@@ -67,10 +69,12 @@
         "blogs-recipes-lean-beef-burger-with-sweet-potato-fries",
         "blogs-recipes-crab-stuffed-salmon-with-honey-agave-glaze"
       ],
-      "startedAt": "2026-11-11T02:34:52Z"
+      "startedAt": "2026-11-11T02:34:52Z",
+      "endedAt": "2026-11-11T02:43:19Z",
+      "verdict": "rendered 8, unchanged 0, refused 0, passthrough 0"
     },
     "recipe-3": {
-      "status": "running",
+      "status": "done",
       "kind": "render",
       "templates": [
         "recipe"
@@ -87,10 +91,12 @@
         "blogs-recipes-frozen-greek-yogurt-sundae",
         "blogs-recipes-delicious-bedtime-smoothie"
       ],
-      "startedAt": "2026-11-11T02:34:52Z"
+      "startedAt": "2026-11-11T02:34:52Z",
+      "endedAt": "2026-11-11T02:43:19Z",
+      "verdict": "rendered 8, unchanged 0, refused 0, passthrough 0"
     },
     "recipe-4": {
-      "status": "running",
+      "status": "done",
       "kind": "render",
       "templates": [
         "recipe"
@@ -107,10 +113,12 @@
         "blogs-recipes-chocolate-peaches",
         "blogs-recipes-chocolate-no-bake-cheesecake"
       ],
-      "startedAt": "2026-11-11T02:34:52Z"
+      "startedAt": "2026-11-11T02:34:52Z",
+      "endedAt": "2026-11-11T02:43:19Z",
+      "verdict": "rendered 8, unchanged 0, refused 0, passthrough 0"
     },
     "recipe-5": {
-      "status": "running",
+      "status": "done",
       "kind": "render",
       "templates": [
         "recipe"
@@ -126,7 +134,9 @@
         "blogs-recipes-blueberry-pancakes",
         "blogs-recipes-banana-walnut-protein-pancakes"
       ],
-      "startedAt": "2026-11-11T02:34:52Z"
+      "startedAt": "2026-11-11T02:34:52Z",
+      "endedAt": "2026-11-11T02:43:19Z",
+      "verdict": "rendered 7, unchanged 0, refused 0, passthrough 0"
     },
     "article-1": {
       "status": "running",
