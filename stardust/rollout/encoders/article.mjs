@@ -182,6 +182,13 @@ function extract({ html, base }) {
   const gaps = { line: 0, p: 0 };
   const pushPara = (htmlRun, fromP) => {
     let made = 0;
+    // a <br> opening a block renders a blank line above its text, a <br><br> run closing it a
+    // blank line below (a single closing <br> ends the last line only)
+    const edge = htmlRun.replace(/&nbsp;/g, ' ');
+    const hasText = !!htmlRun.replace(/<(?!img)[^>]+>|&nbsp;|\s/g, '');
+    const lead = hasText && /^\s*<br>/.test(edge);
+    const trail = hasText && /(?:<br>\s*){2,}$/.test(edge);
+    if (lead) spacer();
     htmlRun.split(/(?:<br>\s*(?:&nbsp;\s*)*){2,}/).forEach((part) => {
       const clean = part.replace(/^(\s|&nbsp;|<br>)+|(\s|&nbsp;|<br>)+$/g, '');
       if (clean.replace(/<[^>]+>/g, '').replace(/&nbsp;/g, '').trim() || /<img/.test(clean)) {
@@ -191,11 +198,13 @@ function extract({ html, base }) {
     });
     if (made > 1) gaps.line += made - 1;
     if (fromP && made) gaps.p += 1;
+    if (trail && made) spacer();
   };
   const INLINE = new Set(['A', 'STRONG', 'B', 'EM', 'I', 'SPAN', 'BR', 'SUP', 'SUB', 'U', 'SMALL',
     'MARK', 'ABBR', 'CODE', 'FONT', 'S', 'LABEL', 'TIME']);
   let listGap = false;
   let nestedList = false;
+  const liLabels = { big: 0, plain: 0 };
   // blank lines between blocks — an empty <p> or a run of bare <br>s — render one 30px line
   // at the source; recorded as body indices (a zero-width-space paragraph keeps the line,
   // an empty one is dropped by the pipeline)
@@ -203,7 +212,7 @@ function extract({ html, base }) {
   const spacer = () => {
     if (blocks.length && !spacers.includes(blocks.length)) spacers.push(blocks.length);
   };
-  const walk = (container, top = false) => {
+  const walk = (container) => {
     let run = '';
     const flush = (beforeBlock) => {
       if (beforeBlock && /<br>/.test(run) && !run.replace(/<br>|&nbsp;|\s/g, '')) spacer();
@@ -232,8 +241,10 @@ function extract({ html, base }) {
           const i = imgOf(im);
           if (i) blocks.push({ img: i });
         });
-        if (!n.textContent.replace(/\u00a0/g, '').trim() && !n.querySelector('img')) spacer();
-        else pushPara(inline(n), true);
+        // an empty <p> holds a line only with a <br> or an &nbsp; in it; whitespace collapses
+        if (n.textContent.replace(/\u00a0/g, '').trim() || n.querySelector('img')) {
+          pushPara(inline(n), true);
+        } else if (n.querySelector('br') || /\u00a0/.test(n.textContent)) spacer();
       } else if (t === 'UL' || t === 'OL') {
         // <br>s between the items render a blank 30px line each at the source
         if ([...n.children].some((c) => c.tagName === 'BR')) listGap = true;
@@ -243,6 +254,16 @@ function extract({ html, base }) {
         if (!lis.length && inner) {
           nestedList = true;
           lis = [...inner.children].filter((li) => li.tagName === 'LI');
+        }
+        // the source sizes a label 22px only as a direct <strong> child (.rte ul li > strong);
+        // a <b> or a wrapped <strong> lead-in stays body size
+        if (t === 'UL') {
+          lis.forEach((li) => {
+            const lead = li.querySelector('strong, b');
+            if (!lead) return;
+            if (lead.tagName === 'STRONG' && lead.parentElement === li) liLabels.big += 1;
+            else liLabels.plain += 1;
+          });
         }
         const raw = lis.map((li) => inline(li));
         // …and so does an item closing on a <br><br> run (the pipeline drops trailing <br>s)
@@ -272,8 +293,9 @@ function extract({ html, base }) {
         if (q) blocks.push(`<blockquote><p>${q}</p></blockquote>`);
       } else walk(n);
     });
-    // a bare <br> run closing the body renders a blank line before the share bar too
-    flush(top);
+    // a bare <br> run closing the body (or a nested block, e.g. <div><br></div>) renders a
+    // blank line too
+    flush(true);
   };
 
   const art = $('.article') || $('.article-main') || $('main') || doc.body;
@@ -281,7 +303,12 @@ function extract({ html, base }) {
   const h1 = $('.article__title, .article-main__title', art) || $('h1', art);
   const excerptEl = $('.article__excerpt, .article-main__excerpt', art);
   const textEl = $('.article__text, .article-main__text', art);
-  if (textEl) walk(textEl, true);
+  if (textEl) walk(textEl);
+  // body copy set in inline arial spans (a pasted-in face) — the article's `arial-body` variant
+  const arialChars = textEl ? $$('[style*="font-family"]', textEl)
+    .filter((el) => /arial/i.test(el.getAttribute('style')))
+    .reduce((n, el) => n + el.textContent.trim().length, 0) : 0;
+  const arialBody = !!textEl && arialChars > textEl.textContent.trim().length / 2;
 
   const shareEl = $('.share, .share-buttons', art);
   const share = shareEl ? {
@@ -388,6 +415,8 @@ function extract({ html, base }) {
     excerptP: !!(excerptEl && excerptEl.querySelector('p')),
     listGap,
     nestedList,
+    arialBody,
+    plainLabels: liLabels.plain > liLabels.big,
     spacers,
     share,
     tagNav,
@@ -477,7 +506,8 @@ function encode(data, opts, media, q) {
   // variants carry source spacing the content model cannot: <br><br> paragraph gaps, an
   // excerpt authored as a <p> (22px margins inside its rules), <br>s between list items
   const variants = [data.lineGap && 'line-gap', data.excerptP && 'excerpt-gap',
-    data.listGap && 'list-gap', data.nestedList && 'nested-list'].filter(Boolean);
+    data.listGap && 'list-gap', data.nestedList && 'nested-list',
+    data.arialBody && 'arial-body', data.plainLabels && 'plain-labels'].filter(Boolean);
   s1.push(fixLinks(block(['article', ...variants].join(' '), artRows), q));
   if (data.share && data.share.links.length) {
     const t = data.share.texts.map((x) => `<p>${esc(x)}</p>`).join('');
@@ -617,6 +647,8 @@ async function main() {
         data.excerptP = c.excerptP;
         data.listGap = c.listGap;
         data.nestedList = c.nestedList;
+        data.arialBody = c.arialBody;
+        data.plainLabels = c.plainLabels;
         // only when the capture's body aligns block for block with the render's
         if (c.spacers.length && c.body.length === data.body.length) {
           [...c.spacers].sort((a, b) => b - a)

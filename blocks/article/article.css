@@ -32,6 +32,9 @@ main > .section > .article-wrapper {
   font-size: 36px;
   line-height: 44px;
   font-weight: var(--fw-extrabold);
+
+  /* R-01: extrabold figtree titles set ~2 % wider than sofia-pro (measured) */
+  letter-spacing: calc(var(--ls-base) - 0.01em);
 }
 
 .article .article-title :is(h1, h2, h3) {
@@ -64,8 +67,8 @@ main > .section > .article-wrapper {
   margin-top: 30px;
 
   /* R-01: figtree sets body copy ~1.3 % narrower than sofia-pro (measured on live bodies);
-     +0.006em tracking matches the source line breaks */
-  letter-spacing: calc(var(--ls-base) + 0.006em);
+     +0.0065em tracking matches the source line breaks */
+  letter-spacing: calc(var(--ls-base) + 0.0065em);
 }
 
 /* the body's last block margin is the 30px gap before the share bar */
@@ -87,9 +90,25 @@ main > .section > .article-wrapper {
   margin-bottom: 30px;
 }
 
+/* arial-body: the source sets the body copy in inline arial spans (31px line boxes) */
+.article.arial-body .article-text :is(p, li) {
+  font-family: arial, 'Liberation Sans', helvetica, sans-serif;
+  line-height: 31px;
+  letter-spacing: var(--ls-base);
+}
+
+.article.arial-body .article-text :is(p, li) > strong {
+  font-family: var(--font-body);
+}
+
 /* source .rte ul li > strong: 22px lead-in labels (bold via .rte ul li strong) */
 .article .article-text ul li > strong:first-child {
   font-size: 22px;
+}
+
+/* plain-labels: the source's lead-ins are <b> (or wrapped), which .rte leaves body size */
+.article.plain-labels .article-text ul li > strong:first-child {
+  font-size: inherit;
 }
 
 /* list-gap: the source puts a <br> (one blank 30px line) between list items */
