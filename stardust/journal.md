@@ -99,3 +99,10 @@
   (fallback face is local('Arial') only) — foundation requests queued for C-final, with .tag-frames +12px tail.
 - Note: gate-all gates only state rows marked deployed; agents used a state copy under stardust/.work. Remaining units:
   archetype-landing, archetype-recipe, clusters listing/recipe/article (render units first), gate-all, final.
+- (session 3) archetype-recipe (apple-crisp): new block `recipe`, encoder recipe.mjs; live 'More recipes' row is
+  server-rotated per request → masks.json + presence.json (variable) + documented override per width from
+  stardust/rollout/tools/rotated-row.mjs (page without the row: 1440 1.87 %, 360 4.44 %). Cluster-recipe must run
+  rotated-row.mjs `--write` per page after its gate-all, then re-run gate-all `--skip-existing`.
+- (session 3) archetype-landing (home): 7 new blocks, encoder landing.mjs, gate 1440 2.66 % / 360 8.49 % (R-01);
+  hero mp4 served from DA media. Remaining units: cluster-listing, cluster-recipe, cluster-article, gate-all, final.
+- gate-all `--eds-host` needs the https:// prefix.

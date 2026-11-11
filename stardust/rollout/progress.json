@@ -26,8 +26,24 @@
       "templates": [
         "landing"
       ],
-      "status": "in-progress",
-      "startedAt": "2026-11-11T01:57:32.793Z"
+      "status": "done",
+      "startedAt": "2026-11-11T01:57:32.793Z",
+      "endedAt": "2026-11-11T02:33:16.768Z",
+      "pages": 1,
+      "blocks": 9,
+      "gates": {
+        "1440": {
+          "pixel": 2.66,
+          "dh": 13
+        },
+        "360": {
+          "pixel": 8.49,
+          "dh": 44,
+          "residual": "R-01 font substitution (prototype 8.55 %)"
+        },
+        "notes": "pixel/\u0394h/clip/presence pass both widths; full verdict FAIL only on figtree-fallback font check (queued foundation request) + unit geometry (carousel off-screen slides, R-01 widths)"
+      },
+      "verdict": "archetype-landing: pages 1/1 live, blocks 9 (7 new + trusted-band, social-strip), gate 1440 2.66% \u0394h +13 / 360 8.49% \u0394h +44, requests 0; encoder stardust/rollout/encoders/landing.mjs; hero mp4 via DA media"
     },
     "archetype-listing": {
       "kind": "archetype",
