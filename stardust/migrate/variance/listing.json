@@ -1,0 +1,411 @@
+{
+  "archetype": "https://naturesbounty.com/blogs/news",
+  "width": 1440,
+  "tolerance": 2,
+  "probes": {
+    "hero": ".blog__hero, .page-hero",
+    "title": "h1",
+    "card": ".article-item",
+    "cardtitle": ".article-item h2",
+    "loadmore": ".blog__load-more, .recipes-main__load-more",
+    "banner": "section.content-banner",
+    "social": "section.instagram"
+  },
+  "archetypeRaw": {
+    "sections": [],
+    "probes": {
+      "hero": {
+        "sel": ".blog__hero, .page-hero",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 1425,
+            "h": 608
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgb(247, 244, 238)",
+          "color": "rgb(0, 0, 0)",
+          "padding": "0px 0px 71px 0px",
+          "font": "sofia-pro 18px/30px 500",
+          "borderRadius": "0px",
+          "heading": "h1 sofia-pro 50px/60px 800 rgb(0, 0, 0)",
+          "image": null,
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Nature’s Bounty Blog All Blogs age defying skin renewal bone"
+      },
+      "title": {
+        "sel": "h1",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 1240,
+            "h": 60
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "padding": "0px 0px 0px 0px",
+          "font": "sofia-pro 50px/60px 800",
+          "borderRadius": "0px",
+          "heading": null,
+          "image": null,
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Nature’s Bounty Blog"
+      },
+      "card": {
+        "sel": ".article-item",
+        "count": 11,
+        "first": {
+          "rect": {
+            "w": 605,
+            "h": 640
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "padding": "0px 0px 0px 0px",
+          "font": "sofia-pro 18px/30px 500",
+          "borderRadius": "0px",
+          "heading": "h2 sofia-pro 25px/38px 700 rgb(52, 119, 63)",
+          "image": {
+            "w": 605,
+            "h": 490
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 2,
+        "text": "Why Magnesium Matters More Than Ever Magnesium has always be"
+      },
+      "cardtitle": {
+        "sel": ".article-item h2",
+        "count": 11,
+        "first": {
+          "rect": {
+            "w": 605,
+            "h": 38
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(52, 119, 63)",
+          "padding": "0px 0px 0px 0px",
+          "font": "sofia-pro 25px/38px 700",
+          "borderRadius": "0px",
+          "heading": null,
+          "image": null,
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Why Magnesium Matters More Than Ever"
+      },
+      "loadmore": {
+        "sel": ".blog__load-more, .recipes-main__load-more",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 260,
+            "h": 64
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(52, 119, 63)",
+          "padding": "21px 21px 21px 21px",
+          "font": "sofia-pro 18px/21.94px 700",
+          "borderRadius": "50px",
+          "heading": null,
+          "image": null,
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Load More"
+      },
+      "banner": {
+        "sel": "section.content-banner",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 1425,
+            "h": 264
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "padding": "0px 0px 0px 0px",
+          "font": "sofia-pro 18px/30px 500",
+          "borderRadius": "0px",
+          "heading": null,
+          "image": {
+            "w": 700,
+            "h": 0
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "We offer trusted products, backed by science and made with g"
+      },
+      "social": {
+        "sel": "section.instagram",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 1425,
+            "h": 437
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "padding": "0px 0px 80px 0px",
+          "font": "sofia-pro 18px/30px 500",
+          "borderRadius": "0px",
+          "heading": "h4 sofia-pro 18px/30px 700 rgb(0, 0, 0)",
+          "image": {
+            "w": 271,
+            "h": 271
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Follow @NaturesBounty on social for new product releases, he"
+      }
+    }
+  },
+  "siblings": [
+    {
+      "url": "https://naturesbounty.com/blogs/recipes",
+      "findings": [
+        {
+          "kind": "PROBE",
+          "probe": "hero",
+          "msg": "rect{h 608 → 345}; backgroundColor rgb(247, 244, 238) → rgb(39, 70, 58); padding 0px 0px 71px 0px → 0px 0px 0px 0px; heading h1 sofia-pro 50px/60px 800 rgb(0, 0, 0) → h2 sofia-pro 16px/20px 500 rgb(255, 255, 255); image null → [object Object]"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "title",
+          "msg": "rect{h 60 → 55}; color rgb(0, 0, 0) → rgb(241, 229, 212); font sofia-pro 50px/60px 800 → sofia-pro 45px/55px 800"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "card",
+          "msg": "11 → 9 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "card",
+          "msg": "2 → 1 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "card",
+          "msg": "rect{w 605 → 393, h 640 → 337}; image{w 605 → 393, h 490 → 245}"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "cardtitle",
+          "msg": "11 → 9 matches"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "cardtitle",
+          "msg": "rect{w 605 → 393, h 38 → 76}"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "banner",
+          "msg": "image{h 0 → 86}"
+        }
+      ],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "hero": {
+            "sel": ".blog__hero, .page-hero",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1425,
+                "h": 345
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(39, 70, 58)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 18px/30px 500",
+              "borderRadius": "0px",
+              "heading": "h2 sofia-pro 16px/20px 500 rgb(255, 255, 255)",
+              "image": {
+                "w": 1425,
+                "h": 345
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Recipes"
+          },
+          "title": {
+            "sel": "h1",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1240,
+                "h": 55
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(241, 229, 212)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 45px/55px 800",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Recipes"
+          },
+          "card": {
+            "sel": ".article-item",
+            "count": 9,
+            "first": {
+              "rect": {
+                "w": 393,
+                "h": 337
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 18px/30px 500",
+              "borderRadius": "0px",
+              "heading": "h2 sofia-pro 25px/38px 700 rgb(52, 119, 63)",
+              "image": {
+                "w": 393,
+                "h": 245
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Vegan Chocolate Peanut Butter Vitamin Smoothie"
+          },
+          "cardtitle": {
+            "sel": ".article-item h2",
+            "count": 9,
+            "first": {
+              "rect": {
+                "w": 393,
+                "h": 76
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(52, 119, 63)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 25px/38px 700",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Vegan Chocolate Peanut Butter Vitamin Smoothie"
+          },
+          "loadmore": {
+            "sel": ".blog__load-more, .recipes-main__load-more",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 260,
+                "h": 64
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(52, 119, 63)",
+              "padding": "21px 21px 21px 21px",
+              "font": "sofia-pro 18px/21.94px 700",
+              "borderRadius": "50px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Load More"
+          },
+          "banner": {
+            "sel": "section.content-banner",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1425,
+                "h": 264
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "sofia-pro 18px/30px 500",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": {
+                "w": 700,
+                "h": 86
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "We offer trusted products, backed by science and made with g"
+          },
+          "social": {
+            "sel": "section.instagram",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1425,
+                "h": 437
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 80px 0px",
+              "font": "sofia-pro 18px/30px 500",
+              "borderRadius": "0px",
+              "heading": "h4 sofia-pro 18px/30px 700 rgb(0, 0, 0)",
+              "image": {
+                "w": 271,
+                "h": 271
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Follow @NaturesBounty on social for new product releases, he"
+          }
+        }
+      }
+    }
+  ],
+  "summary": {
+    "siblings": 1,
+    "varying": 1,
+    "probesVarying": [
+      "hero",
+      "title",
+      "card",
+      "cardtitle",
+      "banner"
+    ]
+  }
+}

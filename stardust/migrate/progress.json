@@ -1,322 +1,340 @@
 {
- "units": {
-  "plan": {
-   "status": "done",
-   "kind": "plan",
-   "templates": [
-    "landing",
-    "listing",
-    "article",
-    "recipe"
-   ],
-   "pages": 120,
-   "startedAt": "2026-11-11T00:22:25.006Z",
-   "endedAt": "2026-11-11T00:22:25.006Z",
-   "verdict": "plan: 4 archetypes (Path A), 116 siblings (Path A′): listing 1, article 76, recipe 39; Path B 0"
-  },
-  "listing": {
-   "status": "pending",
-   "kind": "render",
-   "templates": [
-    "listing"
-   ],
-   "archetype": "blogs-news",
-   "pages": 1,
-   "slugs": [
-    "blogs-recipes"
-   ]
-  },
-  "recipe-1": {
-   "status": "pending",
-   "kind": "render",
-   "templates": [
-    "recipe"
-   ],
-   "archetype": "blogs-recipes-apple-crisp",
-   "pages": 8,
-   "slugs": [
-    "blogs-recipes-peach-pear-and-plum-smoothie",
-    "blogs-recipes-hazelnut-coffee-smoothie",
-    "blogs-recipes-mango-berry-cloud",
-    "blogs-recipes-pina-colada-protein-shake",
-    "blogs-recipes-peanut-butter-and-jelly-protein-shake",
-    "blogs-recipes-protein-smores-bowl",
-    "blogs-recipes-instant-chocolate-pancake-mix",
-    "blogs-recipes-protein-french-toast"
-   ]
-  },
-  "recipe-2": {
-   "status": "pending",
-   "kind": "render",
-   "templates": [
-    "recipe"
-   ],
-   "archetype": "blogs-recipes-apple-crisp",
-   "pages": 8,
-   "slugs": [
-    "blogs-recipes-protein-packed-pumpkin-bread",
-    "blogs-recipes-vegan-chocolate-peanut-butter-vitamin-smoothie",
-    "blogs-recipes-oatmeal-cookie-shake",
-    "blogs-recipes-red-velvet-protein-cupcakes-with-greek-yogurt-frosting",
-    "blogs-recipes-probiotic-rich-breakfast-bowl",
-    "blogs-recipes-quinoa-apple-cake",
-    "blogs-recipes-lean-beef-burger-with-sweet-potato-fries",
-    "blogs-recipes-crab-stuffed-salmon-with-honey-agave-glaze"
-   ]
-  },
-  "recipe-3": {
-   "status": "pending",
-   "kind": "render",
-   "templates": [
-    "recipe"
-   ],
-   "archetype": "blogs-recipes-apple-crisp",
-   "pages": 8,
-   "slugs": [
-    "blogs-recipes-quinoa-avocado-and-black-bean-salad",
-    "blogs-recipes-heart-friendly-kettle-popcorn",
-    "blogs-recipes-healthy-snacks",
-    "blogs-recipes-grilled-chicken-with-strawberry-and-pineapple-salsa",
-    "blogs-recipes-green-smoothie-your-daily-dose-of-greens",
-    "blogs-recipes-golden-milk-recipe-with-turmeric",
-    "blogs-recipes-frozen-greek-yogurt-sundae",
-    "blogs-recipes-delicious-bedtime-smoothie"
-   ]
-  },
-  "recipe-4": {
-   "status": "pending",
-   "kind": "render",
-   "templates": [
-    "recipe"
-   ],
-   "archetype": "blogs-recipes-apple-crisp",
-   "pages": 8,
-   "slugs": [
-    "blogs-recipes-date-night-frappe",
-    "blogs-recipes-crustless-cranberry-pie-recipe",
-    "blogs-recipes-creamy-spinach-artichoke-dip",
-    "blogs-recipes-chocolate-tropical-paradise",
-    "blogs-recipes-chocolate-pudding",
-    "blogs-recipes-chocolate-peanut-butter-protein-oats",
-    "blogs-recipes-chocolate-peaches",
-    "blogs-recipes-chocolate-no-bake-cheesecake"
-   ]
-  },
-  "recipe-5": {
-   "status": "pending",
-   "kind": "render",
-   "templates": [
-    "recipe"
-   ],
-   "archetype": "blogs-recipes-apple-crisp",
-   "pages": 7,
-   "slugs": [
-    "blogs-recipes-chocolate-milkshake",
-    "blogs-recipes-chocolate-lava-muffins",
-    "blogs-recipes-chocolate-covered-cherry-shake",
-    "blogs-recipes-chocolate-coconut-energy-balls-with-turmeric",
-    "blogs-recipes-breakfast-smoothie",
-    "blogs-recipes-blueberry-pancakes",
-    "blogs-recipes-banana-walnut-protein-pancakes"
-   ]
-  },
-  "article-1": {
-   "status": "pending",
-   "kind": "render",
-   "templates": [
-    "article"
-   ],
-   "archetype": "blogs-news-the-benefits-of-biotin",
-   "pages": 8,
-   "slugs": [
-    "blogs-news-mens-health",
-    "blogs-news-why-magnesium-matters-more-than-ever",
-    "blogs-news-how-to-choose-the-right-probiotic-for-daily-support",
-    "blogs-news-what-are-ceramides-and-why-they-matter-more-as-skin-ages",
-    "blogs-news-whipped-lavender-body-butter",
-    "blogs-news-beauty-facts",
-    "blogs-news-how-much-fish-oil-should-you-take-daily",
-    "blogs-news-what-women-need-to-know-about-detecting-breast-cancer-early-an-interview-with-susan-brown-m-s-r-n-at-susan-g-komen-c2-ae"
-   ]
-  },
-  "article-2": {
-   "status": "pending",
-   "kind": "render",
-   "templates": [
-    "article"
-   ],
-   "archetype": "blogs-news-the-benefits-of-biotin",
-   "pages": 8,
-   "slugs": [
-    "blogs-news-women-s-health-awareness-5-ways-to-reset-your-wellness-routine",
-    "blogs-news-what-type-of-magnesium-supplement-is-perfect-for-me-understanding-your-options",
-    "blogs-news-the-benefits-of-prenatal-vitamins",
-    "blogs-news-hair-skin-and-beauty-hacks-every-woman-needs-to-know",
-    "blogs-news-your-gut-may-play-a-powerful-role-in-your-well-being-our-survey-finds",
-    "blogs-news-digestive-probiotic-10",
-    "blogs-news-enhance-your-digestive-wellness-with-these-4-probiotic-supplements",
-    "blogs-news-5-tips-for-a-better-sleep-this-summer"
-   ]
-  },
-  "article-3": {
-   "status": "pending",
-   "kind": "render",
-   "templates": [
-    "article"
-   ],
-   "archetype": "blogs-news-the-benefits-of-biotin",
-   "pages": 8,
-   "slugs": [
-    "blogs-news-the-step-by-step-guide-for-your-daily-skincare-routine",
-    "blogs-news-smarter-better-health-every-day",
-    "blogs-news-beauty-food-and-vitamins",
-    "blogs-news-support-a-good-night-s-rest-with-sleep3-time-release-melatonin-gummies",
-    "blogs-news-beauty-tips-youll-thank-us-for-later",
-    "blogs-news-simple-heart-healthy-steps-for-you-and-your-sweetheart",
-    "blogs-news-healthy-living-tips-from-dorothy-hamill",
-    "blogs-news-your-guide-to-festival-prep"
-   ]
-  },
-  "article-4": {
-   "status": "pending",
-   "kind": "render",
-   "templates": [
-    "article"
-   ],
-   "archetype": "blogs-news-the-benefits-of-biotin",
-   "pages": 8,
-   "slugs": [
-    "blogs-news-vitamin-b-12-rich-foods",
-    "blogs-news-eye-cream",
-    "blogs-news-5-tips-to-reset-your-beauty-routine-this-winter",
-    "blogs-news-10-tips-for-when-you-find-out-you-are-pregnant",
-    "blogs-news-exploring-heart-health-omega-3-supplements-beyond-fish-oil",
-    "blogs-news-what-products-do-i-need-new-year-must-haves",
-    "blogs-news-staying-healthy-as-you-age-tips-to-help-you-grow-older-with-confidence",
-    "blogs-news-support-year-round-health-with-wellness-tips-for-every-season"
-   ]
-  },
-  "article-5": {
-   "status": "pending",
-   "kind": "render",
-   "templates": [
-    "article"
-   ],
-   "archetype": "blogs-news-the-benefits-of-biotin",
-   "pages": 8,
-   "slugs": [
-    "blogs-news-support-thicker-fuller-hair-with-our-new-supplement-for-hair-growth",
-    "blogs-news-what-is-berberine-get-the-facts-behind-this-popular-supplement",
-    "blogs-news-summer-tips-for-a-healthy-heart",
-    "blogs-news-10-popular-foods-that-can-nourish-hair",
-    "blogs-news-top-5-holiday-self-care-tips",
-    "blogs-news-probiotic-gummies",
-    "blogs-news-trust-us-youre-always-better-off-healthy",
-    "blogs-news-help-manage-your-weight-with-metabolism-booster"
-   ]
-  },
-  "article-6": {
-   "status": "pending",
-   "kind": "render",
-   "templates": [
-    "article"
-   ],
-   "archetype": "blogs-news-the-benefits-of-biotin",
-   "pages": 8,
-   "slugs": [
-    "blogs-news-womens-multivitamin-more-than-just-a-great-taste",
-    "blogs-news-helpful-tips-to-reduce-stress-this-spring",
-    "blogs-news-over-40-years-of-trusted-quality",
-    "blogs-news-probiotics-for-everyday-health",
-    "blogs-news-what-are-probiotics",
-    "blogs-news-q-a-2-key-steps-in-reducing-abdominal-fat-a-conversation-with-nutrition-expert-maile-combs-ms",
-    "blogs-news-feel-full-again-the-science-behind-hair-growth-with-nutrition-expert-jaclyn-safrath",
-    "blogs-news-build-beauty-from-within-your-2024-vitamin-routine"
-   ]
-  },
-  "article-7": {
-   "status": "pending",
-   "kind": "render",
-   "templates": [
-    "article"
-   ],
-   "archetype": "blogs-news-the-benefits-of-biotin",
-   "pages": 8,
-   "slugs": [
-    "blogs-news-healthy-summer-travel-tips",
-    "blogs-news-fall-into-an-active-autumn",
-    "blogs-news-celebrate-women-s-history-month-with-the-inspiring-women-at-nature-s-bounty-c2-ae",
-    "blogs-news-the-top-10-reasons-to-exercise-regularly",
-    "blogs-news-importance-of-sleep",
-    "blogs-news-surprising-benefits-of-probiotics",
-    "blogs-news-gut-check-exploring-the-power-of-probiotics-with-nature-s-bounty-c2-ae",
-    "blogs-news-tips-for-healthy-digestion-and-quality-sleep"
-   ]
-  },
-  "article-8": {
-   "status": "pending",
-   "kind": "render",
-   "templates": [
-    "article"
-   ],
-   "archetype": "blogs-news-the-benefits-of-biotin",
-   "pages": 8,
-   "slugs": [
-    "blogs-news-the-kroger-wellness-festival-is-back-september-22-23-2023",
-    "blogs-news-support-immune-health-during-back-to-school-season-tips-for-the-whole-family",
-    "blogs-news-partnering-with-susan-g-komen-to-end-breast-cancer-forever",
-    "blogs-news-quick-fix-beauty-tips",
-    "blogs-news-make-better-food-swaps-this-season",
-    "blogs-news-heart-health",
-    "blogs-news-5-reasons-to-try-tropical-citrus-hair-skin-and-nails-gummies",
-    "blogs-news-your-go-to-guide-for-festival-ready-hair"
-   ]
-  },
-  "article-9": {
-   "status": "pending",
-   "kind": "render",
-   "templates": [
-    "article"
-   ],
-   "archetype": "blogs-news-the-benefits-of-biotin",
-   "pages": 8,
-   "slugs": [
-    "blogs-news-supplement-your-beauty-routine-with-hair-skin-nails",
-    "blogs-news-refresh-your-beauty-routine-this-spring",
-    "blogs-news-one-week-makeup-detox",
-    "blogs-news-natures-bounty-optimal-solutions-wanderlust",
-    "blogs-news-how-much-sleep-do-you-really-need",
-    "blogs-news-hot-looks-for-summer-2018",
-    "blogs-news-hot-hairstyles-to-try-this-fall",
-    "blogs-news-healthy-holiday-hacks"
-   ]
-  },
-  "article-10": {
-   "status": "pending",
-   "kind": "render",
-   "templates": [
-    "article"
-   ],
-   "archetype": "blogs-news-the-benefits-of-biotin",
-   "pages": 4,
-   "slugs": [
-    "blogs-news-easy-hairstyles",
-    "blogs-news-digest-these-healthy-eating-habits",
-    "blogs-news-benefits-of-fish-oil",
-    "blogs-news-give-your-hair-skin-and-nails-a-healthy-foundation-to-shine"
-   ]
-  },
-  "assets": {
-   "status": "pending",
-   "kind": "assets",
-   "templates": [],
-   "pages": 0
-  },
-  "report": {
-   "status": "pending",
-   "kind": "report",
-   "templates": [],
-   "pages": 120
+  "units": {
+    "plan": {
+      "status": "done",
+      "kind": "plan",
+      "templates": [
+        "landing",
+        "listing",
+        "article",
+        "recipe"
+      ],
+      "pages": 120,
+      "startedAt": "2026-11-11T00:22:25.006Z",
+      "endedAt": "2026-11-11T00:22:25.006Z",
+      "verdict": "plan: 4 archetypes (Path A), 116 siblings (Path A′): listing 1, article 76, recipe 39; Path B 0"
+    },
+    "listing": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "listing"
+      ],
+      "archetype": "blogs-news",
+      "pages": 1,
+      "slugs": [
+        "blogs-recipes"
+      ],
+      "startedAt": "2026-11-11T02:34:52Z",
+      "endedAt": "2026-11-11T02:39:03Z",
+      "verdict": "rendered 1, unchanged 0, refused 0, passthrough 0"
+    },
+    "recipe-1": {
+      "status": "running",
+      "kind": "render",
+      "templates": [
+        "recipe"
+      ],
+      "archetype": "blogs-recipes-apple-crisp",
+      "pages": 8,
+      "slugs": [
+        "blogs-recipes-peach-pear-and-plum-smoothie",
+        "blogs-recipes-hazelnut-coffee-smoothie",
+        "blogs-recipes-mango-berry-cloud",
+        "blogs-recipes-pina-colada-protein-shake",
+        "blogs-recipes-peanut-butter-and-jelly-protein-shake",
+        "blogs-recipes-protein-smores-bowl",
+        "blogs-recipes-instant-chocolate-pancake-mix",
+        "blogs-recipes-protein-french-toast"
+      ],
+      "startedAt": "2026-11-11T02:34:52Z"
+    },
+    "recipe-2": {
+      "status": "running",
+      "kind": "render",
+      "templates": [
+        "recipe"
+      ],
+      "archetype": "blogs-recipes-apple-crisp",
+      "pages": 8,
+      "slugs": [
+        "blogs-recipes-protein-packed-pumpkin-bread",
+        "blogs-recipes-vegan-chocolate-peanut-butter-vitamin-smoothie",
+        "blogs-recipes-oatmeal-cookie-shake",
+        "blogs-recipes-red-velvet-protein-cupcakes-with-greek-yogurt-frosting",
+        "blogs-recipes-probiotic-rich-breakfast-bowl",
+        "blogs-recipes-quinoa-apple-cake",
+        "blogs-recipes-lean-beef-burger-with-sweet-potato-fries",
+        "blogs-recipes-crab-stuffed-salmon-with-honey-agave-glaze"
+      ],
+      "startedAt": "2026-11-11T02:34:52Z"
+    },
+    "recipe-3": {
+      "status": "running",
+      "kind": "render",
+      "templates": [
+        "recipe"
+      ],
+      "archetype": "blogs-recipes-apple-crisp",
+      "pages": 8,
+      "slugs": [
+        "blogs-recipes-quinoa-avocado-and-black-bean-salad",
+        "blogs-recipes-heart-friendly-kettle-popcorn",
+        "blogs-recipes-healthy-snacks",
+        "blogs-recipes-grilled-chicken-with-strawberry-and-pineapple-salsa",
+        "blogs-recipes-green-smoothie-your-daily-dose-of-greens",
+        "blogs-recipes-golden-milk-recipe-with-turmeric",
+        "blogs-recipes-frozen-greek-yogurt-sundae",
+        "blogs-recipes-delicious-bedtime-smoothie"
+      ],
+      "startedAt": "2026-11-11T02:34:52Z"
+    },
+    "recipe-4": {
+      "status": "running",
+      "kind": "render",
+      "templates": [
+        "recipe"
+      ],
+      "archetype": "blogs-recipes-apple-crisp",
+      "pages": 8,
+      "slugs": [
+        "blogs-recipes-date-night-frappe",
+        "blogs-recipes-crustless-cranberry-pie-recipe",
+        "blogs-recipes-creamy-spinach-artichoke-dip",
+        "blogs-recipes-chocolate-tropical-paradise",
+        "blogs-recipes-chocolate-pudding",
+        "blogs-recipes-chocolate-peanut-butter-protein-oats",
+        "blogs-recipes-chocolate-peaches",
+        "blogs-recipes-chocolate-no-bake-cheesecake"
+      ],
+      "startedAt": "2026-11-11T02:34:52Z"
+    },
+    "recipe-5": {
+      "status": "running",
+      "kind": "render",
+      "templates": [
+        "recipe"
+      ],
+      "archetype": "blogs-recipes-apple-crisp",
+      "pages": 7,
+      "slugs": [
+        "blogs-recipes-chocolate-milkshake",
+        "blogs-recipes-chocolate-lava-muffins",
+        "blogs-recipes-chocolate-covered-cherry-shake",
+        "blogs-recipes-chocolate-coconut-energy-balls-with-turmeric",
+        "blogs-recipes-breakfast-smoothie",
+        "blogs-recipes-blueberry-pancakes",
+        "blogs-recipes-banana-walnut-protein-pancakes"
+      ],
+      "startedAt": "2026-11-11T02:34:52Z"
+    },
+    "article-1": {
+      "status": "running",
+      "kind": "render",
+      "templates": [
+        "article"
+      ],
+      "archetype": "blogs-news-the-benefits-of-biotin",
+      "pages": 8,
+      "slugs": [
+        "blogs-news-mens-health",
+        "blogs-news-why-magnesium-matters-more-than-ever",
+        "blogs-news-how-to-choose-the-right-probiotic-for-daily-support",
+        "blogs-news-what-are-ceramides-and-why-they-matter-more-as-skin-ages",
+        "blogs-news-whipped-lavender-body-butter",
+        "blogs-news-beauty-facts",
+        "blogs-news-how-much-fish-oil-should-you-take-daily",
+        "blogs-news-what-women-need-to-know-about-detecting-breast-cancer-early-an-interview-with-susan-brown-m-s-r-n-at-susan-g-komen-c2-ae"
+      ],
+      "startedAt": "2026-11-11T02:34:52Z"
+    },
+    "article-2": {
+      "status": "running",
+      "kind": "render",
+      "templates": [
+        "article"
+      ],
+      "archetype": "blogs-news-the-benefits-of-biotin",
+      "pages": 8,
+      "slugs": [
+        "blogs-news-women-s-health-awareness-5-ways-to-reset-your-wellness-routine",
+        "blogs-news-what-type-of-magnesium-supplement-is-perfect-for-me-understanding-your-options",
+        "blogs-news-the-benefits-of-prenatal-vitamins",
+        "blogs-news-hair-skin-and-beauty-hacks-every-woman-needs-to-know",
+        "blogs-news-your-gut-may-play-a-powerful-role-in-your-well-being-our-survey-finds",
+        "blogs-news-digestive-probiotic-10",
+        "blogs-news-enhance-your-digestive-wellness-with-these-4-probiotic-supplements",
+        "blogs-news-5-tips-for-a-better-sleep-this-summer"
+      ],
+      "startedAt": "2026-11-11T02:34:52Z"
+    },
+    "article-3": {
+      "status": "running",
+      "kind": "render",
+      "templates": [
+        "article"
+      ],
+      "archetype": "blogs-news-the-benefits-of-biotin",
+      "pages": 8,
+      "slugs": [
+        "blogs-news-the-step-by-step-guide-for-your-daily-skincare-routine",
+        "blogs-news-smarter-better-health-every-day",
+        "blogs-news-beauty-food-and-vitamins",
+        "blogs-news-support-a-good-night-s-rest-with-sleep3-time-release-melatonin-gummies",
+        "blogs-news-beauty-tips-youll-thank-us-for-later",
+        "blogs-news-simple-heart-healthy-steps-for-you-and-your-sweetheart",
+        "blogs-news-healthy-living-tips-from-dorothy-hamill",
+        "blogs-news-your-guide-to-festival-prep"
+      ],
+      "startedAt": "2026-11-11T02:34:52Z"
+    },
+    "article-4": {
+      "status": "running",
+      "kind": "render",
+      "templates": [
+        "article"
+      ],
+      "archetype": "blogs-news-the-benefits-of-biotin",
+      "pages": 8,
+      "slugs": [
+        "blogs-news-vitamin-b-12-rich-foods",
+        "blogs-news-eye-cream",
+        "blogs-news-5-tips-to-reset-your-beauty-routine-this-winter",
+        "blogs-news-10-tips-for-when-you-find-out-you-are-pregnant",
+        "blogs-news-exploring-heart-health-omega-3-supplements-beyond-fish-oil",
+        "blogs-news-what-products-do-i-need-new-year-must-haves",
+        "blogs-news-staying-healthy-as-you-age-tips-to-help-you-grow-older-with-confidence",
+        "blogs-news-support-year-round-health-with-wellness-tips-for-every-season"
+      ],
+      "startedAt": "2026-11-11T02:34:52Z"
+    },
+    "article-5": {
+      "status": "running",
+      "kind": "render",
+      "templates": [
+        "article"
+      ],
+      "archetype": "blogs-news-the-benefits-of-biotin",
+      "pages": 8,
+      "slugs": [
+        "blogs-news-support-thicker-fuller-hair-with-our-new-supplement-for-hair-growth",
+        "blogs-news-what-is-berberine-get-the-facts-behind-this-popular-supplement",
+        "blogs-news-summer-tips-for-a-healthy-heart",
+        "blogs-news-10-popular-foods-that-can-nourish-hair",
+        "blogs-news-top-5-holiday-self-care-tips",
+        "blogs-news-probiotic-gummies",
+        "blogs-news-trust-us-youre-always-better-off-healthy",
+        "blogs-news-help-manage-your-weight-with-metabolism-booster"
+      ],
+      "startedAt": "2026-11-11T02:34:52Z"
+    },
+    "article-6": {
+      "status": "running",
+      "kind": "render",
+      "templates": [
+        "article"
+      ],
+      "archetype": "blogs-news-the-benefits-of-biotin",
+      "pages": 8,
+      "slugs": [
+        "blogs-news-womens-multivitamin-more-than-just-a-great-taste",
+        "blogs-news-helpful-tips-to-reduce-stress-this-spring",
+        "blogs-news-over-40-years-of-trusted-quality",
+        "blogs-news-probiotics-for-everyday-health",
+        "blogs-news-what-are-probiotics",
+        "blogs-news-q-a-2-key-steps-in-reducing-abdominal-fat-a-conversation-with-nutrition-expert-maile-combs-ms",
+        "blogs-news-feel-full-again-the-science-behind-hair-growth-with-nutrition-expert-jaclyn-safrath",
+        "blogs-news-build-beauty-from-within-your-2024-vitamin-routine"
+      ],
+      "startedAt": "2026-11-11T02:34:52Z"
+    },
+    "article-7": {
+      "status": "running",
+      "kind": "render",
+      "templates": [
+        "article"
+      ],
+      "archetype": "blogs-news-the-benefits-of-biotin",
+      "pages": 8,
+      "slugs": [
+        "blogs-news-healthy-summer-travel-tips",
+        "blogs-news-fall-into-an-active-autumn",
+        "blogs-news-celebrate-women-s-history-month-with-the-inspiring-women-at-nature-s-bounty-c2-ae",
+        "blogs-news-the-top-10-reasons-to-exercise-regularly",
+        "blogs-news-importance-of-sleep",
+        "blogs-news-surprising-benefits-of-probiotics",
+        "blogs-news-gut-check-exploring-the-power-of-probiotics-with-nature-s-bounty-c2-ae",
+        "blogs-news-tips-for-healthy-digestion-and-quality-sleep"
+      ],
+      "startedAt": "2026-11-11T02:34:52Z"
+    },
+    "article-8": {
+      "status": "running",
+      "kind": "render",
+      "templates": [
+        "article"
+      ],
+      "archetype": "blogs-news-the-benefits-of-biotin",
+      "pages": 8,
+      "slugs": [
+        "blogs-news-the-kroger-wellness-festival-is-back-september-22-23-2023",
+        "blogs-news-support-immune-health-during-back-to-school-season-tips-for-the-whole-family",
+        "blogs-news-partnering-with-susan-g-komen-to-end-breast-cancer-forever",
+        "blogs-news-quick-fix-beauty-tips",
+        "blogs-news-make-better-food-swaps-this-season",
+        "blogs-news-heart-health",
+        "blogs-news-5-reasons-to-try-tropical-citrus-hair-skin-and-nails-gummies",
+        "blogs-news-your-go-to-guide-for-festival-ready-hair"
+      ],
+      "startedAt": "2026-11-11T02:34:52Z"
+    },
+    "article-9": {
+      "status": "running",
+      "kind": "render",
+      "templates": [
+        "article"
+      ],
+      "archetype": "blogs-news-the-benefits-of-biotin",
+      "pages": 8,
+      "slugs": [
+        "blogs-news-supplement-your-beauty-routine-with-hair-skin-nails",
+        "blogs-news-refresh-your-beauty-routine-this-spring",
+        "blogs-news-one-week-makeup-detox",
+        "blogs-news-natures-bounty-optimal-solutions-wanderlust",
+        "blogs-news-how-much-sleep-do-you-really-need",
+        "blogs-news-hot-looks-for-summer-2018",
+        "blogs-news-hot-hairstyles-to-try-this-fall",
+        "blogs-news-healthy-holiday-hacks"
+      ],
+      "startedAt": "2026-11-11T02:34:52Z"
+    },
+    "article-10": {
+      "status": "running",
+      "kind": "render",
+      "templates": [
+        "article"
+      ],
+      "archetype": "blogs-news-the-benefits-of-biotin",
+      "pages": 4,
+      "slugs": [
+        "blogs-news-easy-hairstyles",
+        "blogs-news-digest-these-healthy-eating-habits",
+        "blogs-news-benefits-of-fish-oil",
+        "blogs-news-give-your-hair-skin-and-nails-a-healthy-foundation-to-shine"
+      ],
+      "startedAt": "2026-11-11T02:34:52Z"
+    },
+    "assets": {
+      "status": "pending",
+      "kind": "assets",
+      "templates": [],
+      "pages": 0
+    },
+    "report": {
+      "status": "pending",
+      "kind": "report",
+      "templates": [],
+      "pages": 120
+    }
   }
- }
 }
