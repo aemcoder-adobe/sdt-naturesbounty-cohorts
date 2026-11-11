@@ -3,7 +3,14 @@
   "type": "article",
   "renderBranch": "A'",
   "template": "blogs-news-the-benefits-of-biotin",
-  "modules": [],
+  "modules": [
+    "article",
+    "share",
+    "tag-nav",
+    "related",
+    "trusted-band",
+    "social-strip"
+  ],
   "widgets": [],
   "slotsFilled": [
     "article"
@@ -37,8 +44,14 @@
   "archetypeSource": "blogs-news-the-benefits-of-biotin",
   "archetypeSha": "bd29e0ab6cb2",
   "variants": [],
-  "gatesPassed": [],
-  "gateEvidence": {},
+  "gatesPassed": [
+    "content-count",
+    "content-fidelity"
+  ],
+  "gateEvidence": {
+    "content-count": "capture .article-main vs render <main>: headings 11/11, body li 1/1, links 42/42, images 4/4; body text equal (whitespace-insensitive) post-driver: true; capture JSON headings 12/12 + body 29/29 present; 0 logged deviation(s)",
+    "content-fidelity": "verbatim clone via stardust/migrate/clone/article.mjs from stardust/current/pages/blogs-news-how-to-choose-the-right-probiotic-for-daily-support.{json,html}; capture .article-main vs render <main>: headings 11/11, body li 1/1, links 42/42, images 4/4; body text equal (whitespace-insensitive) post-driver: true; capture JSON headings 12/12 + body 29/29 present; 0 logged deviation(s)"
+  },
   "contentDeviations": [],
   "assetsBundled": 30,
   "missingAssets": [],

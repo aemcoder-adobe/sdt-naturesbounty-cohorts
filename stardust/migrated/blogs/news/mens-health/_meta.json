@@ -3,7 +3,14 @@
   "type": "article",
   "renderBranch": "A'",
   "template": "blogs-news-the-benefits-of-biotin",
-  "modules": [],
+  "modules": [
+    "article",
+    "share",
+    "tag-nav",
+    "related",
+    "trusted-band",
+    "social-strip"
+  ],
   "widgets": [],
   "slotsFilled": [
     "article"
@@ -37,9 +44,22 @@
   "archetypeSource": "blogs-news-the-benefits-of-biotin",
   "archetypeSha": "bd29e0ab6cb2",
   "variants": [],
-  "gatesPassed": [],
-  "gateEvidence": {},
-  "contentDeviations": [],
+  "gatesPassed": [
+    "content-count",
+    "content-fidelity"
+  ],
+  "gateEvidence": {
+    "content-count": "capture .article-main vs render <main>: headings 4/4, body li 3/3, links 37/37, images 4/4; body text equal (whitespace-insensitive) post-driver: true; capture JSON headings 5/5 + body 4/4 present; 1 logged deviation(s)",
+    "content-fidelity": "verbatim clone via stardust/migrate/clone/article.mjs from stardust/current/pages/blogs-news-mens-health.{json,html}; capture .article-main vs render <main>: headings 4/4, body li 3/3, links 37/37, images 4/4; body text equal (whitespace-insensitive) post-driver: true; capture JSON headings 5/5 + body 4/4 present; 1 logged deviation(s)"
+  },
+  "contentDeviations": [
+    {
+      "kind": "structure-repair",
+      "source": "text node inside <ol>/<ul>",
+      "target": "<p> after the list items",
+      "reason": "invalid list child lifted out verbatim"
+    }
+  ],
   "assetsBundled": 30,
   "missingAssets": [],
   "brokenInternalLinks": [

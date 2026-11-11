@@ -3,7 +3,14 @@
   "type": "article",
   "renderBranch": "A'",
   "template": "blogs-news-the-benefits-of-biotin",
-  "modules": [],
+  "modules": [
+    "article",
+    "share",
+    "tag-nav",
+    "related",
+    "trusted-band",
+    "social-strip"
+  ],
   "widgets": [],
   "slotsFilled": [
     "article"
@@ -37,9 +44,22 @@
   "archetypeSource": "blogs-news-the-benefits-of-biotin",
   "archetypeSha": "bd29e0ab6cb2",
   "variants": [],
-  "gatesPassed": [],
-  "gateEvidence": {},
-  "contentDeviations": [],
+  "gatesPassed": [
+    "content-count",
+    "content-fidelity"
+  ],
+  "gateEvidence": {
+    "content-count": "capture .article-main vs render <main>: headings 4/4, body li 12/12, links 39/39, images 4/4; body text equal (whitespace-insensitive) post-driver: true; capture JSON headings 5/5 + body 28/28 present; 1 logged deviation(s)",
+    "content-fidelity": "verbatim clone via stardust/migrate/clone/article.mjs from stardust/current/pages/blogs-news-what-women-need-to-know-about-detecting-breast-cancer-early-an-interview-with-susan-brown-m-s-r-n-at-susan-g-komen-c2-ae.{json,html}; capture .article-main vs render <main>: headings 4/4, body li 12/12, links 39/39, images 4/4; body text equal (whitespace-insensitive) post-driver: true; capture JSON headings 5/5 + body 28/28 present; 1 logged deviation(s)"
+  },
+  "contentDeviations": [
+    {
+      "kind": "paragraph-boundaries",
+      "source": "<br><br> runs in .article-main__text",
+      "target": "<p> per run",
+      "reason": "1 inline run(s) split on blank-line breaks into block-level paragraphs (same rendering, verbatim text)"
+    }
+  ],
   "assetsBundled": 30,
   "missingAssets": [],
   "brokenInternalLinks": [
