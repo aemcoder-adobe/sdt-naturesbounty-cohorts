@@ -145,6 +145,11 @@ main > .section.listing-grid-container:has(.listing-pagination) {
   padding-bottom: 78px;
 }
 
+/* recipes-main (pages carrying the blog-list strip) closes with 100px */
+main:has(.listing-grid.blog-list) > .section.listing-grid-container:has(.listing-pagination) {
+  padding-bottom: 100px;
+}
+
 /* ---------- blog-list variant (recipes: 3 cross-blog cards) */
 .listing-grid.blog-list {
   display: flex;

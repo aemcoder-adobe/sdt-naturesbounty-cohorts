@@ -8,6 +8,11 @@
   margin-top: 40px;
 }
 
+/* recipes-main__pagination sits 80px under the grid */
+main:has(.listing-grid.blog-list) .listing-pagination {
+  margin-top: 80px;
+}
+
 .listing-pagination p {
   margin: 0;
 }
