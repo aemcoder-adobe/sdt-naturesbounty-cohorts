@@ -205,7 +205,6 @@ main > .section > .tabbed-products-wrapper {
 .tabbed-products .product-card-title {
   display: block;
   margin-top: 16px;
-  padding: 0 20px;
   font-size: 22px;
   line-height: 22px;
   font-weight: var(--fw-extrabold);
@@ -213,6 +212,7 @@ main > .section > .tabbed-products-wrapper {
 
 .tabbed-products .product-card-title :is(h2, h3, h4) {
   margin: 0;
+  padding: 0 20px;
   font: inherit;
   color: inherit;
 }
@@ -243,13 +243,13 @@ main > .section > .tabbed-products-wrapper {
   display: block;
   width: 20px;
   height: 20px;
-  margin-right: 1px;
-  background-color: var(--star-off);
-  mask: url("star.svg") center / contain no-repeat;
+  padding-right: 1px;
+  box-sizing: content-box;
+  fill: var(--star-off);
 }
 
 .tabbed-products .rating-star:last-child {
-  margin-right: 0;
+  padding-right: 0;
 }
 
 .tabbed-products .rating-avg {

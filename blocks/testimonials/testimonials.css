@@ -136,8 +136,9 @@ main > .section > .testimonials-wrapper {
   letter-spacing: -0.015em;
 }
 
+/* the live disclosure is <strong><small>: the theme's small = 80% */
 .testimonials .testimonials-quote-text strong {
-  font-size: smaller;
+  font-size: 80%;
 }
 
 .testimonials .testimonials-stars {
