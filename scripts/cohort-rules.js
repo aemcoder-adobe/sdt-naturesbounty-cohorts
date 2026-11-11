@@ -4,7 +4,7 @@
  * Read by the browser (scripts/cohorts.js) and by the homepage-cohorts skill's size.js /
  * review.js on Optel bundles. Regexes are strings (case-insensitive) so the file stays data.
  *
- * Demo note: the shares and rates shown by the demo panel come from /cohorts/cohorts.json,
+ * Demo note (push-to-live probe): the shares and rates shown by the demo panel come from /cohorts/cohorts.json,
  * which for this demo is built from ILLUSTRATIVE (synthetic) bundles, not naturesbounty.com
  * traffic. The rules themselves are real and run as written.
  */
