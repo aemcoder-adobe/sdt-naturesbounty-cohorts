@@ -88,7 +88,7 @@ main > .section > .article-wrapper {
 }
 
 /* source .rte ul li > strong: 22px lead-in labels (bold via .rte ul li strong) */
-.article .article-text ul li > strong {
+.article .article-text ul li > strong:first-child {
   font-size: 22px;
 }
 
@@ -104,6 +104,12 @@ main > .section > .article-wrapper {
 .article .article-text ul {
   list-style: disc;
   padding-left: 32px;
+}
+
+/* nested-list: the source wraps each list in another (<ul><ul>): two 2rem indents, circle */
+.article.nested-list .article-text ul {
+  padding-left: 50px;
+  list-style: circle;
 }
 
 .article .article-text ol {
@@ -169,6 +175,10 @@ main > .section > .article-wrapper {
 
   .article .article-text ol {
     padding-left: 40px;
+  }
+
+  .article.nested-list .article-text ul {
+    padding-left: 64px;
   }
 
   .article .article-title {

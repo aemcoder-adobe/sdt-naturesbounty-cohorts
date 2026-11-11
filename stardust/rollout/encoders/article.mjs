@@ -195,6 +195,7 @@ function extract({ html, base }) {
   const INLINE = new Set(['A', 'STRONG', 'B', 'EM', 'I', 'SPAN', 'BR', 'SUP', 'SUB', 'U', 'SMALL',
     'MARK', 'ABBR', 'CODE', 'FONT', 'S', 'LABEL', 'TIME']);
   let listGap = false;
+  let nestedList = false;
   // blank lines between blocks — an empty <p> or a run of bare <br>s — render one 30px line
   // at the source; recorded as body indices (a zero-width-space paragraph keeps the line,
   // an empty one is dropped by the pipeline)
@@ -236,8 +237,19 @@ function extract({ html, base }) {
       } else if (t === 'UL' || t === 'OL') {
         // <br>s between the items render a blank 30px line each at the source
         if ([...n.children].some((c) => c.tagName === 'BR')) listGap = true;
-        const items = [...n.children].filter((li) => li.tagName === 'LI')
-          .map((li) => inline(li).trim()).filter(Boolean);
+        // a list wrapped straight in another list (<ul><ul><li>) renders one level deeper
+        let lis = [...n.children].filter((li) => li.tagName === 'LI');
+        const inner = [...n.children].find((c) => c.tagName === 'UL' || c.tagName === 'OL');
+        if (!lis.length && inner) {
+          nestedList = true;
+          lis = [...inner.children].filter((li) => li.tagName === 'LI');
+        }
+        const raw = lis.map((li) => inline(li));
+        // …and so does an item closing on a <br><br> run (the pipeline drops trailing <br>s)
+        const tail = /(?:<br>(?:\s|&nbsp;)*){2,}$/;
+        if (raw.length > 1 && raw.slice(0, -1).every((i) => tail.test(i.trim()))) listGap = true;
+        const items = raw.map((i) => i.trim().replace(/(?:<br>(?:\s|&nbsp;)*)+$/, '').trim())
+          .filter(Boolean);
         if (items.length) {
           const tag = t.toLowerCase();
           blocks.push(`<${tag}>${items.map((i) => `<li>${i}</li>`).join('')}</${tag}>`);
@@ -375,6 +387,7 @@ function extract({ html, base }) {
     lineGap: gaps.line > gaps.p,
     excerptP: !!(excerptEl && excerptEl.querySelector('p')),
     listGap,
+    nestedList,
     spacers,
     share,
     tagNav,
@@ -464,7 +477,7 @@ function encode(data, opts, media, q) {
   // variants carry source spacing the content model cannot: <br><br> paragraph gaps, an
   // excerpt authored as a <p> (22px margins inside its rules), <br>s between list items
   const variants = [data.lineGap && 'line-gap', data.excerptP && 'excerpt-gap',
-    data.listGap && 'list-gap'].filter(Boolean);
+    data.listGap && 'list-gap', data.nestedList && 'nested-list'].filter(Boolean);
   s1.push(fixLinks(block(['article', ...variants].join(' '), artRows), q));
   if (data.share && data.share.links.length) {
     const t = data.share.texts.map((x) => `<p>${esc(x)}</p>`).join('');
@@ -603,6 +616,7 @@ async function main() {
         data.lineGap = c.lineGap;
         data.excerptP = c.excerptP;
         data.listGap = c.listGap;
+        data.nestedList = c.nestedList;
         // only when the capture's body aligns block for block with the render's
         if (c.spacers.length && c.body.length === data.body.length) {
           [...c.spacers].sort((a, b) => b - a)

@@ -111,6 +111,11 @@ main > .section.related-container .default-content-wrapper :is(h2, h3, p),
   display: inline;
 }
 
+/* R-01: 18px figtree body copy sets ~1.3 % narrower than sofia-pro (as the article body) */
+.related .related-card-excerpt {
+  letter-spacing: calc(var(--ls-base) + 0.006em);
+}
+
 .related .related-card-more {
   margin: 18px 0;
 }
