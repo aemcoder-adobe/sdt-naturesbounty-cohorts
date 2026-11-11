@@ -1,0 +1,2765 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-11T01:56:05.528Z",
+  "tol": 4,
+  "n": 21,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://naturesbounty.com/blogs/news",
+  "at": "2026-11-11T01:39:47.956Z",
+  "docH": 5579
+ },
+ "eds": {
+  "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news",
+  "at": "2026-11-11T01:56:05.412Z",
+  "docH": 9620
+ },
+ "results": [
+  {
+   "sel": "#blog-items .article-item=#blog-items .related-card, .listing-grid:not(.two, .blog-list) .listing-card",
+   "family": null,
+   "required": true,
+   "originMatches": 9,
+   "edsMatches": 9,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.container__tight > div#blog-items > div.article-item.is-layout-3"
+     },
+     "eds": {
+      "path": "div.listing-grid-wrapper > div.listing-grid.block > div.listing-card"
+     },
+     "rows": [
+      {
+       "key": "image:why magnesium matters more than ever",
+       "role": "image",
+       "text": "why magnesium matters more than ever",
+       "edsText": "why magnesium matters more than ever",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 305,
+        "h": 200,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -88,
+       "dh": -45,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:a.article-item__url#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 225,
+        "w": 393,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 183,
+        "w": 305,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -42,
+       "dw": -88,
+       "dh": -3,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:why magnesium matters more than ever",
+       "role": "link",
+       "text": "why magnesium matters more than ever",
+       "edsText": "why magnesium matters more than ever",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 245,
+        "w": 393,
+        "h": 92
+       },
+       "eds": {
+        "x": 0,
+        "y": 200,
+        "w": 305,
+        "h": 92,
+        "sel": "a.card-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -45,
+       "dw": -88,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "heading:why magnesium matters more than ever",
+       "role": "heading",
+       "text": "why magnesium matters more than ever",
+       "edsText": "why magnesium matters more than ever",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 261,
+        "w": 393,
+        "h": 76
+       },
+       "eds": {
+        "x": 0,
+        "y": 216,
+        "w": 305,
+        "h": 76,
+        "sel": "h2#why-magnesium-matters-more-than-ever-2",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": -45,
+       "dw": -88,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "25/38/700",
+        "eds": "25/38/700"
+       }
+      },
+      {
+       "key": "link:magnesium has always been an essential m",
+       "role": "link",
+       "text": "magnesium has always been an essential mineral, but lately, ",
+       "edsText": "magnesium has always been an essential mineral, but lately, ",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 357,
+        "w": 377,
+        "h": 85
+       },
+       "eds": {
+        "x": 0,
+        "y": 314,
+        "w": 302,
+        "h": 82,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -43,
+       "dw": -75,
+       "dh": -3,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 183,
+       "w": 305,
+       "h": 22,
+       "absY": 2346,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 93,
+       "y": 2152,
+       "w": 393,
+       "h": 463
+      },
+      "eds": {
+       "x": 20,
+       "y": 2163,
+       "w": 305,
+       "h": 418
+      },
+      "dx": -73,
+      "dy": 11,
+      "dw": -88,
+      "dh": -45
+     },
+     "summary": {
+      "elements": 5,
+      "within": 0,
+      "off": 5,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.container__tight > div#blog-items > div.article-item.is-layout-3"
+     },
+     "eds": {
+      "path": "div.listing-grid-wrapper > div.listing-grid.block > div.listing-card"
+     },
+     "rows": [
+      {
+       "key": "image:how to choose the right probiotic for da",
+       "role": "image",
+       "text": "how to choose the right probiotic for daily support",
+       "edsText": "how to choose the right probiotic for daily support",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 305,
+        "h": 200,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -88,
+       "dh": -45,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:a.article-item__url#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 225,
+        "w": 393,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 183,
+        "w": 305,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -42,
+       "dw": -88,
+       "dh": -3,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:how to choose the right probiotic for da",
+       "role": "link",
+       "text": "how to choose the right probiotic for daily support",
+       "edsText": "how to choose the right probiotic for daily support",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 245,
+        "w": 393,
+        "h": 92
+       },
+       "eds": {
+        "x": 0,
+        "y": 200,
+        "w": 305,
+        "h": 92,
+        "sel": "a.card-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -45,
+       "dw": -88,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "heading:how to choose the right probiotic for da",
+       "role": "heading",
+       "text": "how to choose the right probiotic for daily support",
+       "edsText": "how to choose the right probiotic for daily support",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 261,
+        "w": 393,
+        "h": 76
+       },
+       "eds": {
+        "x": 0,
+        "y": 216,
+        "w": 305,
+        "h": 76,
+        "sel": "h2#how-to-choose-the-right-probiotic-for-daily-support-1",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": -45,
+       "dw": -88,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "25/38/700",
+        "eds": "25/38/700"
+       }
+      },
+      {
+       "key": "link:support your gut health routine with tip",
+       "role": "link",
+       "text": "support your gut health routine with tips for choosing a pro",
+       "edsText": "support your gut health routine with tips for choosing a pro",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 357,
+        "w": 368,
+        "h": 85
+       },
+       "eds": {
+        "x": 0,
+        "y": 314,
+        "w": 300,
+        "h": 82,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -43,
+       "dw": -68,
+       "dh": -3,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 183,
+       "w": 305,
+       "h": 22,
+       "absY": 2814,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 516,
+       "y": 2152,
+       "w": 393,
+       "h": 463
+      },
+      "eds": {
+       "x": 20,
+       "y": 2631,
+       "w": 305,
+       "h": 418
+      },
+      "dx": -496,
+      "dy": 479,
+      "dw": -88,
+      "dh": -45
+     },
+     "summary": {
+      "elements": 5,
+      "within": 0,
+      "off": 5,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.container__tight > div#blog-items > div.article-item.is-layout-3"
+     },
+     "eds": {
+      "path": "div.listing-grid-wrapper > div.listing-grid.block > div.listing-card"
+     },
+     "rows": [
+      {
+       "key": "image:what are ceramides and why they matter m",
+       "role": "image",
+       "text": "what are ceramides and why they matter more as skin ages",
+       "edsText": "what are ceramides and why they matter more as skin ages",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 305,
+        "h": 200,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -88,
+       "dh": -45,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:a.article-item__url#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 225,
+        "w": 393,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 183,
+        "w": 305,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -42,
+       "dw": -88,
+       "dh": -3,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:age defying skin renewal",
+       "role": "link",
+       "text": "age defying skin renewal",
+       "edsText": "age defying skin renewal",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 265,
+        "w": 182,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 220,
+        "w": 189,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -45,
+       "dw": 7,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "text:|",
+       "role": "text",
+       "text": "|",
+       "edsText": "|",
+       "byPosition": false,
+       "origin": {
+        "x": 187,
+        "y": 265,
+        "w": 3,
+        "h": 30
+       },
+       "eds": {
+        "x": 194,
+        "y": 220,
+        "w": 3,
+        "h": 30,
+        "sel": "span.card-tag-sep",
+        "role": "text"
+       },
+       "dx": 7,
+       "dy": -45,
+       "dw": 0,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "link:hair",
+       "role": "link",
+       "text": "hair",
+       "edsText": "hair",
+       "byPosition": false,
+       "origin": {
+        "x": 195,
+        "y": 265,
+        "w": 30,
+        "h": 30
+       },
+       "eds": {
+        "x": 203,
+        "y": 220,
+        "w": 32,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 8,
+       "dy": -45,
+       "dw": 2,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "link:nails",
+       "role": "link",
+       "text": "nails",
+       "edsText": "nails",
+       "byPosition": false,
+       "origin": {
+        "x": 238,
+        "y": 265,
+        "w": 36,
+        "h": 30
+       },
+       "eds": {
+        "x": 248,
+        "y": 220,
+        "w": 39,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 10,
+       "dy": -45,
+       "dw": 3,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "link:what are ceramides and why they matter m",
+       "role": "link",
+       "text": "what are ceramides and why they matter more as skin ages",
+       "edsText": "what are ceramides and why they matter more as skin ages",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 295,
+        "w": 393,
+        "h": 92
+       },
+       "eds": {
+        "x": 0,
+        "y": 250,
+        "w": 305,
+        "h": 130,
+        "sel": "a.card-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -45,
+       "dw": -88,
+       "dh": 38,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "heading:what are ceramides and why they matter m",
+       "role": "heading",
+       "text": "what are ceramides and why they matter more as skin ages",
+       "edsText": "what are ceramides and why they matter more as skin ages",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 311,
+        "w": 393,
+        "h": 76
+       },
+       "eds": {
+        "x": 0,
+        "y": 266,
+        "w": 305,
+        "h": 114,
+        "sel": "h2#what-are-ceramides-and-why-they-matter-more-as-skin-ages",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": -45,
+       "dw": -88,
+       "dh": 38,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "25/38/700",
+        "eds": "25/38/700"
+       }
+      },
+      {
+       "key": "link:ceramides are essential to healthy, yout",
+       "role": "link",
+       "text": "ceramides are essential to healthy, youthful-looking skin, a",
+       "edsText": "ceramides are essential to healthy, youthful-looking skin, a",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 407,
+        "w": 358,
+        "h": 85
+       },
+       "eds": {
+        "x": 0,
+        "y": 402,
+        "w": 290,
+        "h": 82,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -5,
+       "dw": -68,
+       "dh": -3,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 183,
+       "w": 305,
+       "h": 22,
+       "absY": 3282,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 939,
+       "y": 2152,
+       "w": 393,
+       "h": 513
+      },
+      "eds": {
+       "x": 20,
+       "y": 3099,
+       "w": 305,
+       "h": 506
+      },
+      "dx": -919,
+      "dy": 947,
+      "dw": -88,
+      "dh": -7
+     },
+     "summary": {
+      "elements": 9,
+      "within": 0,
+      "off": 9,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.container__tight > div#blog-items > div.article-item.is-layout-3"
+     },
+     "eds": {
+      "path": "div.listing-grid-wrapper > div.listing-grid.block > div.listing-card"
+     },
+     "rows": [
+      {
+       "key": "image:women’s health awareness: 5 ways to rese",
+       "role": "image",
+       "text": "women’s health awareness: 5 ways to reset your wellness rout",
+       "edsText": "women’s health awareness: 5 ways to reset your wellness rout",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 305,
+        "h": 200,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -88,
+       "dh": -45,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:a.article-item__url#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 225,
+        "w": 393,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 183,
+        "w": 305,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -42,
+       "dw": -88,
+       "dh": -3,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:women's wellness",
+       "role": "link",
+       "text": "women's wellness",
+       "edsText": "women's wellness",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 265,
+        "w": 132,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 220,
+        "w": 139,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -45,
+       "dw": 7,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "link:women’s health awareness: 5 ways to rese",
+       "role": "link",
+       "text": "women’s health awareness: 5 ways to reset your wellness rout",
+       "edsText": "women’s health awareness: 5 ways to reset your wellness rout",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 295,
+        "w": 393,
+        "h": 190
+       },
+       "eds": {
+        "x": 0,
+        "y": 250,
+        "w": 305,
+        "h": 258,
+        "sel": "a.card-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -45,
+       "dw": -88,
+       "dh": 68,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "heading:women’s health awareness: 5 ways to rese",
+       "role": "heading",
+       "text": "women’s health awareness: 5 ways to reset your wellness rout",
+       "edsText": "women’s health awareness: 5 ways to reset your wellness rout",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 311,
+        "w": 393,
+        "h": 114
+       },
+       "eds": {
+        "x": 0,
+        "y": 266,
+        "w": 305,
+        "h": 152,
+        "sel": "h2#womens-health-awareness-5-ways-to-reset-your-wellness-routine",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": -45,
+       "dw": -88,
+       "dh": 38,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "25/38/700",
+        "eds": "25/38/700"
+       }
+      },
+      {
+       "key": "text:explore tips to help you push the reset ",
+       "role": "text",
+       "text": "explore tips to help you push the reset button",
+       "edsText": "explore tips to help you push the reset button and discover ",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 427,
+        "w": 357,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 418,
+        "w": 305,
+        "h": 90,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -9,
+       "dw": -52,
+       "dh": 65,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "text",
+       "tag": "span",
+       "sel": "span",
+       "text": "and discover healthy practices that...",
+       "boxed": false,
+       "x": 0,
+       "y": 427,
+       "w": 392,
+       "h": 55,
+       "absY": 3122,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "text:and discover healthy practices that..."
+      }
+     ],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 183,
+       "w": 305,
+       "h": 22,
+       "absY": 3838,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 93,
+       "y": 2695,
+       "w": 393,
+       "h": 485
+      },
+      "eds": {
+       "x": 20,
+       "y": 3655,
+       "w": 305,
+       "h": 508
+      },
+      "dx": -73,
+      "dy": 960,
+      "dw": -88,
+      "dh": 23
+     },
+     "summary": {
+      "elements": 7,
+      "within": 0,
+      "off": 6,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 1,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div.container__tight > div#blog-items > div.article-item.is-layout-3"
+     },
+     "eds": {
+      "path": "div.listing-grid-wrapper > div.listing-grid.block > div.listing-card"
+     },
+     "rows": [
+      {
+       "key": "image:your gut may play a powerful role in you",
+       "role": "image",
+       "text": "your gut may play a powerful role in your well-being, our su",
+       "edsText": "your gut may play a powerful role in your well-being, our su",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 305,
+        "h": 200,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -88,
+       "dh": -45,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:a.article-item__url#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 225,
+        "w": 393,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 183,
+        "w": 305,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -42,
+       "dw": -88,
+       "dh": -3,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:digestive health",
+       "role": "link",
+       "text": "digestive health",
+       "edsText": "digestive health",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 265,
+        "w": 117,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 220,
+        "w": 123,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -45,
+       "dw": 6,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "link:your gut may play a powerful role in you",
+       "role": "link",
+       "text": "your gut may play a powerful role in your well-being, our su",
+       "edsText": "your gut may play a powerful role in your well-being, our su",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 295,
+        "w": 393,
+        "h": 190
+       },
+       "eds": {
+        "x": 0,
+        "y": 250,
+        "w": 305,
+        "h": 190,
+        "sel": "a.card-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -45,
+       "dw": -88,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "heading:your gut may play a powerful role in you",
+       "role": "heading",
+       "text": "your gut may play a powerful role in your well-being, our su",
+       "edsText": "your gut may play a powerful role in your well-being, our su",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 311,
+        "w": 393,
+        "h": 114
+       },
+       "eds": {
+        "x": 0,
+        "y": 266,
+        "w": 305,
+        "h": 114,
+        "sel": "h2#your-gut-may-play-a-powerful-role-in-your-well-being-our-survey-finds",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": -45,
+       "dw": -88,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "25/38/700",
+        "eds": "25/38/700"
+       }
+      },
+      {
+       "key": "text:learn more about living an active life a",
+       "role": "text",
+       "text": "learn more about living an active life and nurturing your di",
+       "edsText": "learn more about living an active life and nurturing your di",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 427,
+        "w": 330,
+        "h": 55
+       },
+       "eds": {
+        "x": 0,
+        "y": 380,
+        "w": 305,
+        "h": 60,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -47,
+       "dw": -25,
+       "dh": 5,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 183,
+       "w": 305,
+       "h": 22,
+       "absY": 4396,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 516,
+       "y": 2695,
+       "w": 393,
+       "h": 485
+      },
+      "eds": {
+       "x": 20,
+       "y": 4213,
+       "w": 305,
+       "h": 440
+      },
+      "dx": -496,
+      "dy": 1518,
+      "dw": -88,
+      "dh": -45
+     },
+     "summary": {
+      "elements": 6,
+      "within": 0,
+      "off": 6,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 5,
+     "origin": {
+      "path": "div.container__tight > div#blog-items > div.article-item.is-layout-3"
+     },
+     "eds": {
+      "path": "div.listing-grid-wrapper > div.listing-grid.block > div.listing-card"
+     },
+     "rows": [
+      {
+       "key": "image:enhance your digestive wellness with the",
+       "role": "image",
+       "text": "enhance your digestive wellness with these 4 probiotic suppl",
+       "edsText": "enhance your digestive wellness with these 4 probiotic suppl",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 305,
+        "h": 200,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -88,
+       "dh": -45,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:a.article-item__url#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 225,
+        "w": 393,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 183,
+        "w": 305,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -42,
+       "dw": -88,
+       "dh": -3,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:digestive health",
+       "role": "link",
+       "text": "digestive health",
+       "edsText": "digestive health",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 265,
+        "w": 117,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 220,
+        "w": 123,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -45,
+       "dw": 6,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "link:enhance your digestive wellness with the",
+       "role": "link",
+       "text": "enhance your digestive wellness with these 4 probiotic suppl",
+       "edsText": "enhance your digestive wellness with these 4 probiotic suppl",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 295,
+        "w": 393,
+        "h": 190
+       },
+       "eds": {
+        "x": 0,
+        "y": 250,
+        "w": 305,
+        "h": 220,
+        "sel": "a.card-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -45,
+       "dw": -88,
+       "dh": 30,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "heading:enhance your digestive wellness with the",
+       "role": "heading",
+       "text": "enhance your digestive wellness with these 4 probiotic suppl",
+       "edsText": "enhance your digestive wellness with these 4 probiotic suppl",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 311,
+        "w": 393,
+        "h": 114
+       },
+       "eds": {
+        "x": 0,
+        "y": 266,
+        "w": 305,
+        "h": 114,
+        "sel": "h2#enhance-your-digestive-wellness-with-these-4-probiotic-supplements",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": -45,
+       "dw": -88,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "25/38/700",
+        "eds": "25/38/700"
+       }
+      },
+      {
+       "key": "text:explore a range of practical and effecti",
+       "role": "text",
+       "text": "explore a range of practical and effective solutions that ca",
+       "edsText": "explore a range of practical and effective solutions that ca",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 427,
+        "w": 343,
+        "h": 55
+       },
+       "eds": {
+        "x": 0,
+        "y": 380,
+        "w": 305,
+        "h": 90,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -47,
+       "dw": -38,
+       "dh": 35,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 183,
+       "w": 305,
+       "h": 22,
+       "absY": 4886,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 939,
+       "y": 2695,
+       "w": 393,
+       "h": 485
+      },
+      "eds": {
+       "x": 20,
+       "y": 4703,
+       "w": 305,
+       "h": 470
+      },
+      "dx": -919,
+      "dy": 2008,
+      "dw": -88,
+      "dh": -15
+     },
+     "summary": {
+      "elements": 6,
+      "within": 0,
+      "off": 6,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 6,
+     "origin": {
+      "path": "div.container__tight > div#blog-items > div.article-item.is-layout-3"
+     },
+     "eds": {
+      "path": "div.listing-grid-wrapper > div.listing-grid.block > div.listing-card"
+     },
+     "rows": [
+      {
+       "key": "image:digestive probiotic 10",
+       "role": "image",
+       "text": "digestive probiotic 10",
+       "edsText": "digestive probiotic 10",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 305,
+        "h": 200,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -88,
+       "dh": -45,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:a.article-item__url#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 225,
+        "w": 393,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 183,
+        "w": 305,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -42,
+       "dw": -88,
+       "dh": -3,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:digestive health",
+       "role": "link",
+       "text": "digestive health",
+       "edsText": "digestive health",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 265,
+        "w": 117,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 220,
+        "w": 123,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -45,
+       "dw": 6,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "link:digestive probiotic 10 by natalie meriwe",
+       "role": "link",
+       "text": "digestive probiotic 10 by natalie meriwether, bsn",
+       "edsText": "digestive probiotic 10 by natalie meriwether, bsn",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 295,
+        "w": 393,
+        "h": 84
+       },
+       "eds": {
+        "x": 0,
+        "y": 250,
+        "w": 305,
+        "h": 84,
+        "sel": "a.card-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -45,
+       "dw": -88,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "heading:digestive probiotic 10",
+       "role": "heading",
+       "text": "digestive probiotic 10",
+       "edsText": "digestive probiotic 10",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 311,
+        "w": 393,
+        "h": 38
+       },
+       "eds": {
+        "x": 0,
+        "y": 266,
+        "w": 305,
+        "h": 38,
+        "sel": "h2#digestive-probiotic-10",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": -45,
+       "dw": -88,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "25/38/700",
+        "eds": "25/38/700"
+       }
+      },
+      {
+       "key": "text:by natalie meriwether, bsn",
+       "role": "text",
+       "text": "by natalie meriwether, bsn",
+       "edsText": "by natalie meriwether, bsn",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 351,
+        "w": 218,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 304,
+        "w": 305,
+        "h": 30,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -47,
+       "dw": 87,
+       "dh": 5,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 183,
+       "w": 305,
+       "h": 22,
+       "absY": 5406,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 93,
+       "y": 3210,
+       "w": 393,
+       "h": 379
+      },
+      "eds": {
+       "x": 20,
+       "y": 5223,
+       "w": 305,
+       "h": 334
+      },
+      "dx": -73,
+      "dy": 2013,
+      "dw": -88,
+      "dh": -45
+     },
+     "summary": {
+      "elements": 6,
+      "within": 0,
+      "off": 6,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 7,
+     "origin": {
+      "path": "div.container__tight > div#blog-items > div.article-item.is-layout-3"
+     },
+     "eds": {
+      "path": "div.listing-grid-wrapper > div.listing-grid.block > div.listing-card"
+     },
+     "rows": [
+      {
+       "key": "image:helpful tips to reduce stress this sprin",
+       "role": "image",
+       "text": "helpful tips to reduce stress this spring",
+       "edsText": "helpful tips to reduce stress this spring",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 305,
+        "h": 200,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -88,
+       "dh": -45,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:a.article-item__url#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 225,
+        "w": 393,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 183,
+        "w": 305,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -42,
+       "dw": -88,
+       "dh": -3,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:stress & mood",
+       "role": "link",
+       "text": "stress & mood",
+       "edsText": "stress & mood",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 265,
+        "w": 106,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 220,
+        "w": 106,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -45,
+       "dw": 0,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "link:helpful tips to reduce stress this sprin",
+       "role": "link",
+       "text": "helpful tips to reduce stress this spring april is stress aw",
+       "edsText": "helpful tips to reduce stress this spring april is stress aw",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 295,
+        "w": 393,
+        "h": 152
+       },
+       "eds": {
+        "x": 0,
+        "y": 250,
+        "w": 305,
+        "h": 182,
+        "sel": "a.card-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -45,
+       "dw": -88,
+       "dh": 30,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "heading:helpful tips to reduce stress this sprin",
+       "role": "heading",
+       "text": "helpful tips to reduce stress this spring",
+       "edsText": "helpful tips to reduce stress this spring",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 311,
+        "w": 393,
+        "h": 76
+       },
+       "eds": {
+        "x": 0,
+        "y": 266,
+        "w": 305,
+        "h": 76,
+        "sel": "h2#helpful-tips-to-reduce-stress-this-spring",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": -45,
+       "dw": -88,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "25/38/700",
+        "eds": "25/38/700"
+       }
+      },
+      {
+       "key": "text:april is stress awareness month and it’s",
+       "role": "text",
+       "text": "april is stress awareness month and it’s important to unders",
+       "edsText": "april is stress awareness month and it’s important to unders",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 389,
+        "w": 385,
+        "h": 55
+       },
+       "eds": {
+        "x": 0,
+        "y": 342,
+        "w": 305,
+        "h": 90,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -47,
+       "dw": -80,
+       "dh": 35,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 183,
+       "w": 305,
+       "h": 22,
+       "absY": 5790,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 516,
+       "y": 3210,
+       "w": 393,
+       "h": 447
+      },
+      "eds": {
+       "x": 20,
+       "y": 5607,
+       "w": 305,
+       "h": 432
+      },
+      "dx": -496,
+      "dy": 2397,
+      "dw": -88,
+      "dh": -15
+     },
+     "summary": {
+      "elements": 6,
+      "within": 0,
+      "off": 6,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 8,
+     "origin": {
+      "path": "div.container__tight > div#blog-items > div.article-item.is-layout-3"
+     },
+     "eds": {
+      "path": "div.listing-grid-wrapper > div.listing-grid.block > div.listing-card"
+     },
+     "rows": [
+      {
+       "key": "image:celebrate women’s history month with the",
+       "role": "image",
+       "text": "celebrate women’s history month with the inspiring women at ",
+       "edsText": "celebrate women’s history month with the inspiring women at ",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 305,
+        "h": 200,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -88,
+       "dh": -45,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:a.article-item__url#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 225,
+        "w": 393,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 183,
+        "w": 305,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -42,
+       "dw": -88,
+       "dh": -3,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:women's health",
+       "role": "link",
+       "text": "women's health",
+       "edsText": "women's health",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 265,
+        "w": 115,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 220,
+        "w": 120,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -45,
+       "dw": 5,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "link:celebrate women’s history month with the",
+       "role": "link",
+       "text": "celebrate women’s history month with the inspiring women at ",
+       "edsText": "celebrate women’s history month with the inspiring women at ",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 295,
+        "w": 393,
+        "h": 220
+       },
+       "eds": {
+        "x": 0,
+        "y": 250,
+        "w": 305,
+        "h": 258,
+        "sel": "a.card-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -45,
+       "dw": -88,
+       "dh": 38,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "heading:celebrate women’s history month with the",
+       "role": "heading",
+       "text": "celebrate women’s history month with the inspiring women at ",
+       "edsText": "celebrate women’s history month with the inspiring women at ",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 311,
+        "w": 393,
+        "h": 114
+       },
+       "eds": {
+        "x": 0,
+        "y": 266,
+        "w": 305,
+        "h": 152,
+        "sel": "h2#celebrate-womens-history-month-with-the-inspiring-women-at-natures-bounty",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": -45,
+       "dw": -88,
+       "dh": 38,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "25/38/700",
+        "eds": "25/38/700"
+       }
+      },
+      {
+       "key": "text:march is women’s history month—a time to",
+       "role": "text",
+       "text": "march is women’s history month—a time to honor women’s remar",
+       "edsText": "march is women’s history month—a time to honor women’s remar",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 427,
+        "w": 366,
+        "h": 85
+       },
+       "eds": {
+        "x": 0,
+        "y": 418,
+        "w": 305,
+        "h": 90,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -9,
+       "dw": -61,
+       "dh": 5,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 183,
+       "w": 305,
+       "h": 22,
+       "absY": 6272,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 939,
+       "y": 3210,
+       "w": 393,
+       "h": 515
+      },
+      "eds": {
+       "x": 20,
+       "y": 6089,
+       "w": 305,
+       "h": 508
+      },
+      "dx": -919,
+      "dy": 2879,
+      "dw": -88,
+      "dh": -7
+     },
+     "summary": {
+      "elements": 6,
+      "within": 0,
+      "off": 6,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": true
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".blog__featured-top .article-item=.listing-grid--two .related-card, .listing-grid.two .listing-card",
+   "family": null,
+   "required": true,
+   "originMatches": 2,
+   "edsMatches": 2,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.blog__featured-top > div.article-item__grid.is-two > div.article-item.is-layout-2"
+     },
+     "eds": {
+      "path": "div.listing-grid-wrapper > div.listing-grid.two > div.listing-card"
+     },
+     "rows": [
+      {
+       "key": "image:why magnesium matters more than ever",
+       "role": "image",
+       "text": "why magnesium matters more than ever",
+       "edsText": "why magnesium matters more than ever",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 605,
+        "h": 490
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 305,
+        "h": 200,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -300,
+       "dh": -290,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:a.article-item__url#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 470,
+        "w": 605,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 183,
+        "w": 305,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -287,
+       "dw": -300,
+       "dh": -3,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:why magnesium matters more than ever",
+       "role": "link",
+       "text": "why magnesium matters more than ever",
+       "edsText": "why magnesium matters more than ever",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 490,
+        "w": 605,
+        "h": 54
+       },
+       "eds": {
+        "x": 0,
+        "y": 200,
+        "w": 305,
+        "h": 92,
+        "sel": "a.card-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -290,
+       "dw": -300,
+       "dh": 38,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "heading:why magnesium matters more than ever",
+       "role": "heading",
+       "text": "why magnesium matters more than ever",
+       "edsText": "why magnesium matters more than ever",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 506,
+        "w": 605,
+        "h": 38
+       },
+       "eds": {
+        "x": 0,
+        "y": 216,
+        "w": 305,
+        "h": 76,
+        "sel": "h2#why-magnesium-matters-more-than-ever",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": -290,
+       "dw": -300,
+       "dh": 38,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "25/38/700",
+        "eds": "25/38/700"
+       }
+      },
+      {
+       "key": "link:magnesium has always been an essential m",
+       "role": "link",
+       "text": "magnesium has always been an essential mineral, but lately, ",
+       "edsText": "magnesium has always been an essential mineral, but lately, ",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 564,
+        "w": 568,
+        "h": 55
+       },
+       "eds": {
+        "x": 0,
+        "y": 314,
+        "w": 302,
+        "h": 82,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -250,
+       "dw": -266,
+       "dh": 27,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 183,
+       "w": 305,
+       "h": 22,
+       "absY": 623,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 93,
+       "y": 762,
+       "w": 605,
+       "h": 640
+      },
+      "eds": {
+       "x": 20,
+       "y": 440,
+       "w": 305,
+       "h": 418
+      },
+      "dx": -73,
+      "dy": -322,
+      "dw": -300,
+      "dh": -222
+     },
+     "summary": {
+      "elements": 5,
+      "within": 0,
+      "off": 5,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.blog__featured-top > div.article-item__grid.is-two > div.article-item.is-layout-2"
+     },
+     "eds": {
+      "path": "div.listing-grid-wrapper > div.listing-grid.two > div.listing-card"
+     },
+     "rows": [
+      {
+       "key": "image:how to choose the right probiotic for da",
+       "role": "image",
+       "text": "how to choose the right probiotic for daily support",
+       "edsText": "how to choose the right probiotic for daily support",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 605,
+        "h": 490
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 305,
+        "h": 200,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -300,
+       "dh": -290,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:a.article-item__url#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 470,
+        "w": 605,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 183,
+        "w": 305,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -287,
+       "dw": -300,
+       "dh": -3,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:how to choose the right probiotic for da",
+       "role": "link",
+       "text": "how to choose the right probiotic for daily support",
+       "edsText": "how to choose the right probiotic for daily support",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 490,
+        "w": 605,
+        "h": 54
+       },
+       "eds": {
+        "x": 0,
+        "y": 200,
+        "w": 305,
+        "h": 92,
+        "sel": "a.card-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -290,
+       "dw": -300,
+       "dh": 38,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "heading:how to choose the right probiotic for da",
+       "role": "heading",
+       "text": "how to choose the right probiotic for daily support",
+       "edsText": "how to choose the right probiotic for daily support",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 506,
+        "w": 605,
+        "h": 38
+       },
+       "eds": {
+        "x": 0,
+        "y": 216,
+        "w": 305,
+        "h": 76,
+        "sel": "h2#how-to-choose-the-right-probiotic-for-daily-support",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": -290,
+       "dw": -300,
+       "dh": 38,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "25/38/700",
+        "eds": "25/38/700"
+       }
+      },
+      {
+       "key": "link:support your gut health routine with tip",
+       "role": "link",
+       "text": "support your gut health routine with tips for choosing a pro",
+       "edsText": "support your gut health routine with tips for choosing a pro",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 564,
+        "w": 593,
+        "h": 55
+       },
+       "eds": {
+        "x": 0,
+        "y": 314,
+        "w": 300,
+        "h": 82,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -250,
+       "dw": -293,
+       "dh": 27,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 183,
+       "w": 305,
+       "h": 22,
+       "absY": 1091,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 728,
+       "y": 762,
+       "w": 605,
+       "h": 640
+      },
+      "eds": {
+       "x": 20,
+       "y": 908,
+       "w": 305,
+       "h": 418
+      },
+      "dx": -708,
+      "dy": 146,
+      "dw": -300,
+      "dh": -222
+     },
+     "summary": {
+      "elements": 5,
+      "within": 0,
+      "off": 5,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": true
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".blog__filters .blog__filter-item=.blog-filters .blog-filters__item, .blog-filters .blog-filters-list a",
+   "family": null,
+   "required": true,
+   "originMatches": 21,
+   "edsMatches": 21,
+   "units": [],
+   "error": "no visible unit on the served side (21 / 21 DOM matches)"
+  }
+ ],
+ "verdict": {
+  "units": 11,
+  "within": 0,
+  "off": 65,
+  "hidden": 0,
+  "missing": 1,
+  "errors": 1,
+  "requiredOff": 66
+ }
+}

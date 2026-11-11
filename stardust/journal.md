@@ -87,3 +87,15 @@
 - Fresh detect (stardust/.work/dynamics/fresh): 46 findings vs 45 at extract; the one new row (POST /api/event/collect,
   Shopify analytics beacon, host-bound) folded into family 9. Added row 14 listing pagination (Load More). All 14
   families dispositioned; nothing blocks C-deliver.
+
+## C-deliver (in progress) — foundation, article and listing archetypes live (2026-11-11)
+
+- foundation: header/footer blocks, styles, Figtree, /nav + /footer published; chrome parity vs gated prototype
+  footer 0, header artefacts only; frozen (15 files).
+- archetype-article (biotin): 1440 2.24 % / 360 16.61 % (R-01, prototype 16.66 %); blocks article, share, tag-nav,
+  product-rail, related; encoder stardust/rollout/encoders/article.mjs.
+- archetype-listing (blogs/news): 1440 2.05 % / 360 3.62 %; 7 blocks incl. trusted-band, social-strip; encoder listing.mjs.
+- gate-all full verdicts read FAIL on unit-geometry (R-01 text widths) and `font-not-loaded:figtree-fallback`
+  (fallback face is local('Arial') only) — foundation requests queued for C-final, with .tag-frames +12px tail.
+- Note: gate-all gates only state rows marked deployed; agents used a state copy under stardust/.work. Remaining units:
+  archetype-landing, archetype-recipe, clusters listing/recipe/article (render units first), gate-all, final.

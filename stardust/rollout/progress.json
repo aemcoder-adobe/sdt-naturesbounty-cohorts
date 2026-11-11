@@ -33,8 +33,23 @@
    "templates": [
     "listing"
    ],
-   "status": "running",
-   "startedAt": "2026-11-11T01:21:58.631Z"
+   "status": "done",
+   "startedAt": "2026-11-11T01:21:58.631Z",
+   "endedAt": "2026-11-11T01:56:51.624Z",
+   "pages": 1,
+   "blocks": 7,
+   "gates": {
+    "360": {
+     "pixel": 3.62,
+     "dh": 13
+    },
+    "1440": {
+     "pixel": 2.05,
+     "dh": 12
+    },
+    "notes": "gate-all full verdict FAIL on unit-geometry (R-01) + figtree-fallback font check (foundation request)"
+   },
+   "verdict": "archetype-listing: pages 1/1 live, blocks 7, gate 1440 2.05% Δh +12px / 360 3.62% Δh +13px, requests 1"
   },
   "archetype-article": {
    "kind": "archetype",
