@@ -64,33 +64,50 @@ main > .section > .article-wrapper {
   margin-top: 0;
 }
 
-.article .article-text :is(p, ul, ol, blockquote) {
-  margin: 0 0 30px;
+.article .article-text :is(p, blockquote) {
+  margin: 0 0 18px;
+}
+
+/* source .rte: lists 18px above and below, headings flush (margins 0, weight 500) */
+.article .article-text :is(ul, ol) {
+  margin: 18px 0;
+}
+
+/* line-gap: the source separates paragraphs with <br><br> (a blank 30px line), not <p> */
+.article.line-gap .article-text p {
+  margin-bottom: 30px;
+}
+
+.article .article-text > :last-child {
+  margin-bottom: 30px;
 }
 
 .article .article-text ul {
   list-style: disc;
-  padding-left: 30px;
+  padding-left: 32px;
 }
 
 .article .article-text ol {
   list-style: decimal;
-  padding-left: 30px;
+  padding-left: 25px;
 }
 
-.article .article-text :is(h2, h3, h4) {
-  margin: 0 0 20px;
-  font-weight: var(--fw-bold);
+.article .article-text :is(h2, h3, h4, h5, h6) {
+  margin: 0;
+  font-weight: 500;
+  line-height: 30px;
 }
 
 .article .article-text h2 {
-  font-size: 28px;
-  line-height: 38px;
+  font-size: 27px;
 }
 
-.article .article-text :is(h3, h4) {
-  font-size: 22px;
-  line-height: 32px;
+.article .article-text h3 {
+  font-size: 21.06px;
+}
+
+.article .article-text :is(h4, h5, h6) {
+  font-size: 18px;
 }
 
 .article .article-text img {
@@ -121,6 +138,10 @@ main > .section > .article-wrapper {
 @media (width >= 768px) {
   .article .article-hero {
     height: 400px;
+  }
+
+  .article .article-text ol {
+    padding-left: 40px;
   }
 
   .article .article-title {

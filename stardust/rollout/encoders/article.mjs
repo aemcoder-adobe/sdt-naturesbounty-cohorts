@@ -94,13 +94,7 @@ function safePath(p) {
     .replace(/-+(\/|$)/g, '$1');
 }
 
-function sourceFor(daPath, rows) {
-  const migrated = path.join('stardust/migrated', daPath.replace(/^\//, ''), 'index.html');
-  const decoded = path.join('stardust/migrated', decodeURIComponent(daPath).replace(/^\//, ''),
-    'index.html');
-  for (const f of [migrated, decoded]) {
-    if (fs.existsSync(f)) return { file: f, kind: 'migrated' };
-  }
+function captureFor(daPath, rows) {
   const row = rows.find((r) => r.path === daPath || safePath(r.path || '') === safePath(daPath));
   const slug = (row && row.slug) || safePath(daPath).replace(/^\//, '').replace(/\//g, '-');
   const candidates = [];
@@ -108,7 +102,17 @@ function sourceFor(daPath, rows) {
     candidates.push(row.source.currentStatePath.replace(/\.json$/, '.html'));
   }
   candidates.push(`stardust/current/pages/${slug}.html`);
-  const hit = candidates.find((f) => fs.existsSync(f));
+  return candidates.find((f) => fs.existsSync(f)) || null;
+}
+
+function sourceFor(daPath, rows) {
+  const migrated = path.join('stardust/migrated', daPath.replace(/^\//, ''), 'index.html');
+  const decoded = path.join('stardust/migrated', decodeURIComponent(daPath).replace(/^\//, ''),
+    'index.html');
+  for (const f of [migrated, decoded]) {
+    if (fs.existsSync(f)) return { file: f, kind: 'migrated' };
+  }
+  const hit = captureFor(daPath, rows);
   return hit ? { file: hit, kind: 'capture' } : null;
 }
 
@@ -172,13 +176,20 @@ function extract({ html, base }) {
 
   /* body: block-level list; inline runs split into paragraphs on <br><br> */
   const blocks = [];
-  const pushPara = (htmlRun) => {
+  // paragraph-gap census: a <br><br> split renders a blank 30px line at the source, a <p>
+  // break 18px — the majority decides the article block's `line-gap` variant
+  const gaps = { line: 0, p: 0 };
+  const pushPara = (htmlRun, fromP) => {
+    let made = 0;
     htmlRun.split(/(?:<br>\s*(?:&nbsp;\s*)*){2,}/).forEach((part) => {
       const clean = part.replace(/^(\s|&nbsp;|<br>)+|(\s|&nbsp;|<br>)+$/g, '');
       if (clean.replace(/<[^>]+>/g, '').replace(/&nbsp;/g, '').trim() || /<img/.test(clean)) {
         blocks.push(`<p>${clean}</p>`);
+        made += 1;
       }
     });
+    if (made > 1) gaps.line += made - 1;
+    if (fromP && made) gaps.p += 1;
   };
   const INLINE = new Set(['A', 'STRONG', 'B', 'EM', 'I', 'SPAN', 'BR', 'SUP', 'SUB', 'U', 'SMALL',
     'MARK', 'ABBR', 'CODE', 'FONT', 'S', 'LABEL', 'TIME']);
@@ -207,7 +218,7 @@ function extract({ html, base }) {
           const i = imgOf(im);
           if (i) blocks.push({ img: i });
         });
-        pushPara(inline(n));
+        pushPara(inline(n), true);
       } else if (t === 'UL' || t === 'OL') {
         const items = [...n.children].filter((li) => li.tagName === 'LI')
           .map((li) => inline(li).trim()).filter(Boolean);
@@ -344,6 +355,7 @@ function extract({ html, base }) {
     h1: h1 ? inline(h1).trim() : '',
     excerpt: excerptEl ? inline(excerptEl).replace(/^(\s|<br>)+|(\s|<br>)+$/g, '') : '',
     body: blocks,
+    lineGap: gaps.line > gaps.p,
     share,
     tagNav,
     rail,
@@ -429,7 +441,7 @@ function encode(data, opts, media, q) {
   const body = data.body
     .map((b) => (typeof b === 'string' ? b : `<p>${media(b.img)}</p>`)).join('');
   if (body) artRows.push([fixLinks(body, q)]);
-  s1.push(fixLinks(block('article', artRows), q));
+  s1.push(fixLinks(block(data.lineGap ? 'article line-gap' : 'article', artRows), q));
   if (data.share && data.share.links.length) {
     const t = data.share.texts.map((x) => `<p>${esc(x)}</p>`).join('');
     const l = data.share.links.map((x) => `<li>${link(x.href, x.text)}</li>`).join('');
@@ -440,7 +452,7 @@ function encode(data, opts, media, q) {
     const h = data.tagNav.head ? `<p>${esc(data.tagNav.head)}</p>` : '';
     s1.push(block('tag-nav', [[`${h}<ul>${l}</ul>`]]));
   }
-  if (data.rail && data.rail.cards.length) {
+  if (data.rail && (data.rail.cards.length || data.rail.title)) {
     const rows = [];
     if (data.rail.title) rows.push([`<p>${esc(data.rail.title)}</p>`, '']);
     data.rail.cards.forEach((c) => {
@@ -555,6 +567,20 @@ async function main() {
       // eslint-disable-next-line no-await-in-loop
       const data = await page.evaluate(extract, { html, base });
       if (!data.h1) throw new Error('no article title found');
+      // facts the migrated render loses are read from the capture: the paragraph-gap census
+      // (it turns <br><br> runs into <p>) and the rail title the source keeps above an empty,
+      // client-filled grid on pages without products (the render drops the rail there)
+      const cap = src.kind === 'migrated' ? captureFor(daPath, rows) : null;
+      if (cap) {
+        // eslint-disable-next-line no-await-in-loop
+        const c = await page.evaluate(extract, {
+          html: fs.readFileSync(cap, 'utf8'), base: `https://${opts.host}${daPath}`,
+        });
+        data.lineGap = c.lineGap;
+        if (!data.rail && c.rail && c.rail.title && !c.rail.cards.length) {
+          data.rail = { title: c.rail.title, cards: [] };
+        }
+      }
       const outPath = safePath(daPath);
       const media = makeMedia(opts, src.file, manifest);
       const out = encode(data, opts, media, qualify(opts));
