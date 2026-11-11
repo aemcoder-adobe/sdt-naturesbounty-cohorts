@@ -15,7 +15,7 @@
   },
   "product-rail-card": {
     "origin": ".article-main__products-grid .product-item",
-    "build": ".product-rail__grid .product-card",
+    "build": ".product-rail__grid .product-card, .product-rail .product-rail-grid .product-card",
     "n": 2,
     "required": true,
     "pages": [
@@ -27,7 +27,7 @@
   },
   "social-tile": {
     "origin": ".instagram__blocks .instagram__item",
-    "build": ".social-strip__grid .social-tile",
+    "build": ".social-strip__grid .social-tile, .social-strip .social-strip-grid .social-tile",
     "n": 5,
     "required": false,
     "pages": [
@@ -43,7 +43,7 @@
   },
   "listing-card": {
     "origin": "#blog-items .article-item",
-    "build": "#blog-items .related-card",
+    "build": "#blog-items .related-card, .listing-grid:not(.two, .blog-list) .listing-card",
     "n": 9,
     "required": true,
     "pages": [
@@ -55,7 +55,7 @@
   },
   "listing-card-wide": {
     "origin": ".blog__featured-top .article-item",
-    "build": ".listing-grid--two .related-card",
+    "build": ".listing-grid--two .related-card, .listing-grid.two .listing-card",
     "n": 2,
     "required": true,
     "pages": [
@@ -67,7 +67,7 @@
   },
   "blog-filter": {
     "origin": ".blog__filters .blog__filter-item",
-    "build": ".blog-filters .blog-filters__item",
+    "build": ".blog-filters .blog-filters__item, .blog-filters .blog-filters-list a",
     "n": 21,
     "required": true,
     "pages": [
