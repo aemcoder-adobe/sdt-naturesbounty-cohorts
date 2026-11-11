@@ -150,7 +150,9 @@ main > .section.listing-grid-container:has(.listing-pagination) {
   display: flex;
   flex-flow: row wrap;
   gap: 20px;
-  margin: 0 0 40px;
+
+  /* the source keeps an empty .article-container (40px + 24px title + 40px) above the list */
+  margin: 104px 0 40px;
 }
 
 .listing-grid.blog-list .listing-card {
@@ -168,11 +170,12 @@ main > .section.listing-grid-container:has(.listing-pagination) {
 
 .listing-grid.blog-list .card-tags li {
   font-size: 0.7rem;
-  line-height: normal;
+  line-height: 30px;
 }
 
 .listing-grid.blog-list .card-tags a {
   color: var(--ink);
+  font-size: 14px;
 }
 
 .listing-grid.blog-list .card-title :is(h1, h2, h3, h4, h5, h6) {

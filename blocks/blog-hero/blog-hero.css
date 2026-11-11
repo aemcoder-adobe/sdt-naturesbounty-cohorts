@@ -71,7 +71,7 @@ main > .section > .blog-hero-wrapper:has(.blog-hero.image) {
   object-position: top;
 }
 
-.blog-hero.image .blog-hero-desktop {
+.blog-hero.image .blog-hero-media > .blog-hero-desktop {
   display: none;
 }
 
@@ -104,11 +104,11 @@ main > .section > .blog-hero-wrapper:has(.blog-hero.image) {
 }
 
 @media (width >= 992px) {
-  .blog-hero.image .blog-hero-desktop {
+  .blog-hero.image .blog-hero-media > .blog-hero-desktop {
     display: block;
   }
 
-  .blog-hero.image .blog-hero-mobile {
+  .blog-hero.image .blog-hero-media > .blog-hero-mobile {
     display: none;
   }
 }
