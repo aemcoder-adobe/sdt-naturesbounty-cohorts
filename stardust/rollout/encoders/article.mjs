@@ -151,10 +151,11 @@ function extract({ html, base }) {
         .includes(t)) return;
       if (n.classList && n.classList.contains('visually-hidden')) return;
       if (t === 'BR') { out += '<br>'; return; }
-      // DA trims whitespace at the edges of inline marks: keep it OUTSIDE the tag
+      // DA trims whitespace and <br>s at the edges of inline marks: keep them OUTSIDE the tag
+      // (`<strong>Title<br></strong>Text` loses its line break otherwise)
       const full = inline(n);
-      const lead = (full.match(/^(\s|&nbsp;)+/) || [''])[0];
-      const trail = full.length > lead.length ? (full.match(/(\s|&nbsp;)+$/) || [''])[0] : '';
+      const lead = (full.match(/^(\s|&nbsp;|<br>)+/) || [''])[0];
+      const trail = full.length > lead.length ? (full.match(/(\s|&nbsp;|<br>)+$/) || [''])[0] : '';
       const inner = full.slice(lead.length, full.length - trail.length);
       if (['A', 'STRONG', 'B', 'EM', 'I'].includes(t)) out += lead;
       else out += lead + inner + trail;
