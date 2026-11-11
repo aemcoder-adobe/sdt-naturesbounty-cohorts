@@ -47,7 +47,13 @@ function go(params, path) {
   PARAMS.forEach((k) => u.searchParams.delete(k));
   Object.entries(params).forEach(([k, v]) => u.searchParams.set(k, v));
   u.searchParams.set('demo', '');
-  window.location.href = `${u.pathname}${u.search.replace(/=(&|$)/g, '$1')}`;
+  // open the scenario like a direct visit: no referrer, so this page is not seen as "internal"
+  // (a returning visitor with an interest arrives direct, not from the demo page itself)
+  const a = document.createElement('a');
+  a.href = `${u.pathname}${u.search.replace(/=(&|$)/g, '$1')}`;
+  a.rel = 'noreferrer';
+  document.body.append(a);
+  a.click();
 }
 
 /** Which scenario this page shows: the one picked last, if the URL still carries its signals. */
