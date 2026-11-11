@@ -83,6 +83,11 @@ main > .section > .article-wrapper {
   margin-bottom: 30px;
 }
 
+/* list-gap: the source puts a <br> (one blank 30px line) between list items */
+.article.list-gap .article-text li + li {
+  margin-top: 30px;
+}
+
 .article .article-text > :last-child {
   margin-bottom: 30px;
 }
@@ -111,8 +116,16 @@ main > .section > .article-wrapper {
   font-size: 21.06px;
 }
 
-.article .article-text :is(h4, h5, h6) {
+.article .article-text :is(h4, h5) {
   font-size: 18px;
+  font-weight: var(--fw-bold);
+}
+
+/* source h6: small bold print (statements, footnotes) with 28px margins */
+.article .article-text h6 {
+  margin: 28px 0;
+  font-size: 12px;
+  font-weight: var(--fw-bold);
 }
 
 .article .article-text img {

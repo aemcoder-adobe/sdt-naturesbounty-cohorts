@@ -193,15 +193,18 @@ function extract({ html, base }) {
   };
   const INLINE = new Set(['A', 'STRONG', 'B', 'EM', 'I', 'SPAN', 'BR', 'SUP', 'SUB', 'U', 'SMALL',
     'MARK', 'ABBR', 'CODE', 'FONT', 'S', 'LABEL', 'TIME']);
-  // a run of bare <br>s between two block elements renders one blank 30px line at the source
+  let listGap = false;
+  // blank lines between blocks — an empty <p> or a run of bare <br>s — render one 30px line
+  // at the source; recorded as body indices (a zero-width-space paragraph keeps the line,
+  // an empty one is dropped by the pipeline)
   const spacers = [];
+  const spacer = () => {
+    if (blocks.length && !spacers.includes(blocks.length)) spacers.push(blocks.length);
+  };
   const walk = (container) => {
     let run = '';
     const flush = (beforeBlock) => {
-      if (beforeBlock && blocks.length && /<br>/.test(run)
-        && !run.replace(/<br>|&nbsp;|\s/g, '') && !spacers.includes(blocks.length)) {
-        spacers.push(blocks.length);
-      }
+      if (beforeBlock && /<br>/.test(run) && !run.replace(/<br>|&nbsp;|\s/g, '')) spacer();
       pushPara(run);
       run = '';
     };
@@ -219,7 +222,7 @@ function extract({ html, base }) {
       if (['SCRIPT', 'STYLE', 'NOSCRIPT', 'TEMPLATE', 'BUTTON', 'FORM', 'SVG', 'svg', 'HR']
         .includes(t)) return;
       if (/^H[1-6]$/.test(t)) {
-        const lvl = Math.min(Math.max(Number(t[1]), 2), 4);
+        const lvl = Math.max(Number(t[1]), 2); // h5/h6 kept: the source styles them apart
         const h = inline(n).trim();
         if (h) blocks.push(`<h${lvl}>${h}</h${lvl}>`);
       } else if (t === 'P') {
@@ -227,8 +230,11 @@ function extract({ html, base }) {
           const i = imgOf(im);
           if (i) blocks.push({ img: i });
         });
-        pushPara(inline(n), true);
+        if (!n.textContent.replace(/\u00a0/g, '').trim() && !n.querySelector('img')) spacer();
+        else pushPara(inline(n), true);
       } else if (t === 'UL' || t === 'OL') {
+        // <br>s between the items render a blank 30px line each at the source
+        if ([...n.children].some((c) => c.tagName === 'BR')) listGap = true;
         const items = [...n.children].filter((li) => li.tagName === 'LI')
           .map((li) => inline(li).trim()).filter(Boolean);
         if (items.length) {
@@ -366,6 +372,7 @@ function extract({ html, base }) {
     body: blocks,
     lineGap: gaps.line > gaps.p,
     excerptP: !!(excerptEl && excerptEl.querySelector('p')),
+    listGap,
     spacers,
     share,
     tagNav,
@@ -452,9 +459,10 @@ function encode(data, opts, media, q) {
   const body = data.body
     .map((b) => (typeof b === 'string' ? b : `<p>${media(b.img)}</p>`)).join('');
   if (body) artRows.push([fixLinks(body, q)]);
-  // variants carry source spacing the content model cannot: <br><br> paragraph gaps and
-  // an excerpt authored as a <p> (22px margins inside its rules)
-  const variants = [data.lineGap && 'line-gap', data.excerptP && 'excerpt-gap'].filter(Boolean);
+  // variants carry source spacing the content model cannot: <br><br> paragraph gaps, an
+  // excerpt authored as a <p> (22px margins inside its rules), <br>s between list items
+  const variants = [data.lineGap && 'line-gap', data.excerptP && 'excerpt-gap',
+    data.listGap && 'list-gap'].filter(Boolean);
   s1.push(fixLinks(block(['article', ...variants].join(' '), artRows), q));
   if (data.share && data.share.links.length) {
     const t = data.share.texts.map((x) => `<p>${esc(x)}</p>`).join('');
@@ -592,11 +600,11 @@ async function main() {
         });
         data.lineGap = c.lineGap;
         data.excerptP = c.excerptP;
-        // blank-line spacers between blocks (the render drops bare <br>s), only when the
-        // capture's body aligns block for block with the render's
+        data.listGap = c.listGap;
+        // only when the capture's body aligns block for block with the render's
         if (c.spacers.length && c.body.length === data.body.length) {
           [...c.spacers].sort((a, b) => b - a)
-            .forEach((i) => data.body.splice(i, 0, '<p>&nbsp;</p>'));
+            .forEach((i) => data.body.splice(i, 0, '<p>\u200b</p>'));
         }
         if (!data.rail && c.rail && c.rail.title && !c.rail.cards.length) {
           data.rail = { title: c.rail.title, cards: [] };
