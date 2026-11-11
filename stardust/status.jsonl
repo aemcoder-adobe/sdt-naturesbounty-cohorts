@@ -7,3 +7,6 @@
 {"ts":"2026-11-10T23:52:03Z","skill":"stardust:replica","phase":"source-fidelity-gate","event":"end","detail":"listing (blogs-news) 1440 2.04% Δh0 / 360 3.62% Δh1 PASS; recipe (apple-crisp) template control 1440 1.79% / 360 4.08% PASS, shipped residual = rotating More-recipes row"}
 {"ts":"2026-11-11T00:21:14Z","skill":"stardust:replica","phase":"source-fidelity-gate","event":"end","detail":"landing (index): 1440 2.70% Δh-1 PASS; 360 8.55% Δh-33 residual R-01 font-substitution wrap; content-diff 0; cap-probe PASS"}
 {"ts":"2026-11-11T00:21:14Z","skill":"stardust:replica","phase":"recreate","event":"end","detail":"4/4 archetypes gated and approved hands-off: article, listing, recipe, landing"}
+{"ts":"2026-11-11T00:21:48Z","skill":"stardust:replica","phase":"handoff","event":"start","detail":"migrate (sibling tier) → deploy → rollout A–I over 120 pages, 4 templates; publish decided"}
+{"ts":"2026-11-11T00:22:18Z","skill":"stardust:migrate","phase":"plan","event":"start","detail":"sibling-tier plan over 120 pages, 4 gated archetypes"}
+{"ts":"2026-11-11T00:22:31Z","skill":"stardust:migrate","phase":"plan","event":"end","detail":"4 archetypes, 116 siblings (listing 1, article 76, recipe 39) in 16 render clusters","artifact":"stardust/migrate/progress.json"}

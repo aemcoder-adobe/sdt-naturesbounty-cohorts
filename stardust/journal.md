@@ -64,3 +64,10 @@
 - New: landing.css, landing.js, gen-landing.cjs; stardust/replica/accepted.json (Swiper loop clones, text-scoped);
   units.json +5 families. Canon unchanged. Live hero h1 computes `null, sans-serif` — replicated as captured.
 - All four archetypes (article, listing, recipe, landing) gated and approved; next is handoff (migrate → deploy → rollout).
+
+## Plan — migrate plan: 4 archetypes, 116 siblings in 16 render clusters (2026-11-11)
+
+- Path A 4 (index, blogs-news, the-benefits-of-biotin, apple-crisp); Path A′ 116 (listing 1, article 76, recipe 39);
+  Path B 0. Gated-archetype precondition holds (360 residuals all carry an R-01 cause). Siblings advanced to `directed`.
+- Units in stardust/migrate/progress.json: render clusters of ≤ 8 (listing, recipe-1…5, article-1…10), each runs only
+  after its template's C-archetype unit is done. Publish decision recorded in stardust/eds-conversion-log.md.
