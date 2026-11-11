@@ -1,0 +1,88 @@
+{
+  "_provenance": {
+    "writtenBy": "gate-all.mjs",
+    "writtenAt": "2026-11-11T02:04:52.995Z",
+    "stage": "published",
+    "breakpoint": 1440,
+    "threshold": 10,
+    "heightTolerance": 0.05,
+    "clipMax": 0,
+    "unitTol": 4,
+    "criteria": {
+      "pixel": true,
+      "height": true,
+      "clip": true,
+      "content": true
+    },
+    "verdict": "overlap pixel % ≤ 10 AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance) AND content MISSING + HIDDEN links/headings = 0",
+    "origin": "https://naturesbounty.com",
+    "eds": "main--1a676f95--aemcoder.aem.page",
+    "edsHostOverride": "main--1a676f95--aemcoder.aem.page",
+    "only": [
+      "blogs-recipes-apple-crisp"
+    ]
+  },
+  "totals": {
+    "pages": 1,
+    "pass": 0,
+    "pixelOnlyPass": 0,
+    "overridePass": 0,
+    "fail": 0,
+    "error": 1,
+    "failPixel": 0,
+    "failHeight": 0,
+    "failClip": 0,
+    "failContent": 0,
+    "failUnits": 0,
+    "fontsNotLoaded": 0,
+    "fontChecksSkipped": 0,
+    "contentNA": 1,
+    "asymmetricOrigins": 0,
+    "degradedTier": 0,
+    "passWithOverrides": 0
+  },
+  "rows": [
+    {
+      "slug": "blogs-recipes-apple-crisp",
+      "path": "/blogs/recipes/apple-crisp",
+      "template": "recipe",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "none",
+      "pct": null,
+      "textPct": null,
+      "heightDelta": null,
+      "originH": null,
+      "edsH": null,
+      "pixelPass": false,
+      "heightPass": false,
+      "clipped": null,
+      "clipPass": null,
+      "clipAllowance": 0,
+      "contentPass": null,
+      "contentNA": "content-presence exit 1: content-presence error: page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL",
+      "unitPass": null,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "passWithOverride": false,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "reasons": [
+        "pixel error: missing capture"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": null,
+      "units": null,
+      "unitsRequired": true,
+      "unitsError": "unit-geometry exit 1: unit-geometry error: page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL",
+      "browser": null,
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "hotBands": [],
+      "error": "missing capture"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "a": "stardust/replica/gates/all-360/blogs-recipes-apple-crisp/origin.png",
+  "b": "stardust/replica/gates/all-360/blogs-recipes-apple-crisp/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 5341,
+    "mode": "overlap"
+  },
+  "heightDelta": 141,
+  "differingPixels": 610171,
+  "pct": 31.73,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/all-360/blogs-recipes-apple-crisp/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 27.89,
+  "textBoxes": 89,
+  "textPixels": 358816,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 2.3
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 7.4
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 5.7
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 53.8
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 61.4
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 57.7
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 69.3
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 53.7
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 10.6
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 7.8
+    },
+    {
+      "y0": 5000,
+      "y1": 5341,
+      "pct": 13.5
+    }
+  ]
+}

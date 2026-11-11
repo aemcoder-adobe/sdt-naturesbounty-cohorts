@@ -79,7 +79,7 @@
   },
   "recipe-ingredient": {
     "origin": ".article-main__content-recipe .article-main__text ul > li",
-    "build": ".recipe__text ul > li",
+    "build": ".recipe__text ul > li, .recipe .recipe-text ul > li",
     "n": 6,
     "required": true,
     "pages": [

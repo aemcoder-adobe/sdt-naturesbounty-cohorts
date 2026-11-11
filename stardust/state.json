@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "writtenBy": "stardust:migrate",
-    "writtenAt": "2026-11-11T01:56:23Z",
+    "writtenAt": "2026-11-11T02:11:28Z",
     "stardustVersion": "0.37.2"
   },
   "site": {
@@ -2379,7 +2379,7 @@
       "url": "https://naturesbounty.com/blogs/recipes/apple-crisp",
       "title": "Apple Crisp – Nature's Bounty",
       "type": "recipe",
-      "status": "approved",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -2393,13 +2393,17 @@
           "status": "approved",
           "at": "2026-11-10T23:52:03Z",
           "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-11T02:11:28Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blogs-recipes-apple-crisp.json",
       "prototypePath": "stardust/prototypes/apple-crisp-proposed.html",
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blogs/recipes/apple-crisp/index.html"
     },
     {
       "slug": "blogs-news-your-go-to-guide-for-festival-ready-hair",
