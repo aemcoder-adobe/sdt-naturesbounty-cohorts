@@ -91,7 +91,7 @@
   },
   "featured-grid-tile": {
     "origin": ".featured-grid__holder .featured-grid__item",
-    "build": ".featured-grid__holder .featured-grid__item",
+    "build": ".featured-grid__holder .featured-grid__item, .featured-grid .featured-grid-holder .featured-grid-item",
     "n": 8,
     "required": true,
     "pages": [
@@ -103,7 +103,7 @@
   },
   "tabbed-product-card": {
     "origin": ".tabbed-products__slider-inner .tabbed-products__slide",
-    "build": ".tabbed-products__track .tabbed-products__slide",
+    "build": ".tabbed-products__track .tabbed-products__slide, .tabbed-products .tabbed-products-track .tabbed-products-slide",
     "n": 23,
     "required": true,
     "pages": [
@@ -115,7 +115,7 @@
   },
   "content-highlight-slide": {
     "origin": ".content-products__quotes > .swiper-slide",
-    "build": ".content-products__track > .content-products__slide",
+    "build": ".content-products__track > .content-products__slide, .content-products .content-products-track > .content-products-slide",
     "n": 8,
     "required": true,
     "pages": [
@@ -127,7 +127,7 @@
   },
   "testimonial": {
     "origin": ".content-testimonials__quotes > .content-testimonials__quote_item:not(.swiper-slide-duplicate)",
-    "build": ".testimonials__track > .testimonials__item",
+    "build": ".testimonials__track > .testimonials__item, .testimonials .testimonials-track > .testimonials-item",
     "n": 2,
     "required": true,
     "pages": [
@@ -140,7 +140,7 @@
   },
   "featured-content-item": {
     "origin": ".featured-content__blocks .featured-content__item",
-    "build": ".featured-content__blocks .featured-content__item",
+    "build": ".featured-content__blocks .featured-content__item, .featured-content .featured-content-blocks .featured-content-item",
     "n": 3,
     "required": true,
     "pages": [

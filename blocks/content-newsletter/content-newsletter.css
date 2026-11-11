@@ -1,0 +1,147 @@
+/* content-newsletter — lifted from stardust/prototypes/landing.css "5. content newsletter"
+   (full-bleed section, container inside) */
+main > .section > .content-newsletter-wrapper {
+  max-width: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.content-newsletter {
+  background-color: #fff;
+  color: var(--forest);
+}
+
+.content-newsletter .content-newsletter-inner {
+  display: flex;
+}
+
+.content-newsletter :is(.content-newsletter-left, .content-newsletter-right) {
+  flex: 1 1;
+  min-height: 300px;
+  padding: 100px 0;
+  align-content: center;
+}
+
+.content-newsletter .content-newsletter-text {
+  max-width: 80%;
+}
+
+.content-newsletter .content-newsletter-text strong {
+  color: #67893c;
+  font-weight: var(--fw-medium);
+}
+
+.content-newsletter .content-newsletter-left {
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: var(--fw-bold);
+  letter-spacing: -0.6px;
+}
+
+.content-newsletter .content-newsletter-left p {
+  margin: 1em 0;
+}
+
+.content-newsletter .content-newsletter-left strong {
+  font-size: 2.2rem;
+  line-height: 1.1;
+}
+
+.content-newsletter .content-newsletter-right {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 20px;
+}
+
+.content-newsletter .content-newsletter-title {
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: 100;
+}
+
+.content-newsletter .content-newsletter-title :is(h2, h3, h4, p) {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+
+.content-newsletter .content-newsletter-copy {
+  margin: 20px 0;
+  font-weight: 100;
+}
+
+.content-newsletter .content-newsletter-copy p {
+  margin: 1em 0;
+}
+
+.content-newsletter .content-newsletter-form {
+  margin-top: 20px;
+}
+
+.content-newsletter .content-newsletter-field {
+  position: relative;
+  display: flex;
+  width: 100%;
+}
+
+.content-newsletter .content-newsletter-input {
+  width: calc(100% - 111px);
+  height: 65px;
+  padding: 0 10px 0 20px;
+  border: 1px solid #000;
+  border-right-color: transparent;
+  border-radius: 50px 0 0 50px;
+  background: #fff;
+  color: #292929;
+  font-family: var(--font-body);
+  font-size: var(--fs-base);
+  font-weight: 400;
+  letter-spacing: var(--ls-base);
+}
+
+.content-newsletter .content-newsletter-input::placeholder {
+  color: inherit;
+}
+
+.content-newsletter .content-newsletter-submit {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 111px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #000;
+  border-radius: 0 50px 50px 0;
+  background-color: var(--lime);
+  color: var(--forest);
+  font-family: var(--font-body);
+  font-size: var(--fs-base);
+  line-height: var(--lh-base);
+  font-weight: var(--fw-bold);
+  letter-spacing: var(--ls-base);
+  text-align: center;
+  cursor: pointer;
+}
+
+.content-newsletter .content-newsletter-submit:hover {
+  background-color: #fff;
+  color: var(--forest);
+}
+
+@media (width <= 1200px) {
+  .content-newsletter .content-newsletter-inner {
+    display: block;
+    padding-block: 40px;
+  }
+
+  .content-newsletter :is(.content-newsletter-left, .content-newsletter-right) {
+    min-height: auto;
+    padding: 40px 0;
+  }
+
+  .content-newsletter .content-newsletter-text {
+    max-width: 100%;
+  }
+}
