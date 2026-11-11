@@ -1,14 +1,14 @@
 {
  "_provenance": {
   "writtenBy": "content-presence.mjs",
-  "at": "2026-11-11T09:54:55.294Z",
+  "at": "2026-11-11T14:31:56.009Z",
   "width": 1440,
   "variable": [],
   "tier": "chrome"
  },
  "origin": {
   "url": "https://naturesbounty.com/blogs/news/benefits-of-fish-oil",
-  "at": "2026-11-11T09:54:34.977Z",
+  "at": "2026-11-11T14:31:35.423Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 4409,
@@ -21,7 +21,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": -52,
+    "x": 8,
     "y": 6,
     "w": 157,
     "h": 20,
@@ -35,7 +35,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 305,
+    "x": 365,
     "y": 6,
     "w": 213,
     "h": 20,
@@ -49,7 +49,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 718,
+    "x": 778,
     "y": 6,
     "w": 314,
     "h": 20,
@@ -63,7 +63,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 1232,
+    "x": 1292,
     "y": 6,
     "w": 157,
     "h": 20,
@@ -1914,18 +1914,39 @@
     "clamped": 0,
     "collapsed": 0,
     "scrollHidden": 0,
-    "horizontal": 0,
+    "horizontal": 2,
     "offPage": 8,
     "textNodes": 124,
     "controls": 99,
     "total": 0
    },
-   "groups": []
+   "groups": [
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.slick-list.draggable",
+     "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
+     "text": "shop our favorite products",
+     "cutMin": 7,
+     "cutMax": 7
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.slick-list.draggable",
+     "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
+     "text": "shop our favorite products",
+     "cutMin": 7,
+     "cutMax": 7
+    }
+   ]
   }
  },
  "eds": {
   "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/benefits-of-fish-oil",
-  "at": "2026-11-11T09:54:55.171Z",
+  "at": "2026-11-11T14:31:55.888Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 4403,
@@ -1938,7 +1959,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": -68,
+    "x": -73,
     "y": 8,
     "w": 319,
     "h": 15,
@@ -1952,7 +1973,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 452,
+    "x": 446,
     "y": 8,
     "w": 160,
     "h": 15,
@@ -1966,7 +1987,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 812,
+    "x": 806,
     "y": 8,
     "w": 219,
     "h": 15,
@@ -1980,7 +2001,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 1230,
+    "x": 1225,
     "y": 8,
     "w": 319,
     "h": 15,
@@ -3975,8 +3996,8 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 69,
-     "cutMax": 123
+     "cutMin": 75,
+     "cutMax": 117
     },
     {
      "kind": "TEXT X-CUT",
@@ -3985,22 +4006,22 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 69,
-     "cutMax": 123
+     "cutMin": 75,
+     "cutMax": 117
     }
    ],
    "findings": [
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 69,
+     "cut": 75,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -69,
+      "l": -75,
       "t": 8,
-      "r": 250,
+      "r": 244,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4017,14 +4038,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 69,
+     "cut": 75,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -69,
+      "l": -75,
       "t": 8,
-      "r": 250,
+      "r": 244,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4042,14 +4063,14 @@
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 123,
+     "cut": 117,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 1229,
+      "l": 1223,
       "t": 8,
-      "r": 1548,
+      "r": 1542,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4066,14 +4087,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 123,
+     "cut": 117,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 1229,
+      "l": 1223,
       "t": 8,
-      "r": 1548,
+      "r": 1542,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4293,25 +4314,25 @@
  "textBoxes": {
   "origin": [
    {
-    "x": -53,
+    "x": 6,
     "y": 6,
     "w": 157,
     "h": 19
    },
    {
-    "x": 304,
+    "x": 363,
     "y": 6,
     "w": 213,
     "h": 19
    },
    {
-    "x": 717,
+    "x": 776,
     "y": 6,
     "w": 314,
     "h": 19
    },
    {
-    "x": 1231,
+    "x": 1290,
     "y": 6,
     "w": 157,
     "h": 19
@@ -5165,25 +5186,25 @@
   ],
   "eds": [
    {
-    "x": -69,
+    "x": -75,
     "y": 8,
     "w": 319,
     "h": 15
    },
    {
-    "x": 450,
+    "x": 444,
     "y": 8,
     "w": 160,
     "h": 15
    },
    {
-    "x": 810,
+    "x": 804,
     "y": 8,
     "w": 219,
     "h": 15
    },
    {
-    "x": 1229,
+    "x": 1223,
     "y": 8,
     "w": 319,
     "h": 15

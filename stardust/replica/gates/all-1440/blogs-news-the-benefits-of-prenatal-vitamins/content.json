@@ -1,14 +1,14 @@
 {
  "_provenance": {
   "writtenBy": "content-presence.mjs",
-  "at": "2026-11-11T09:04:53.605Z",
+  "at": "2026-11-11T13:42:17.032Z",
   "width": 1440,
   "variable": [],
   "tier": "chrome"
  },
  "origin": {
   "url": "https://naturesbounty.com/blogs/news/the-benefits-of-prenatal-vitamins",
-  "at": "2026-11-11T09:04:33.672Z",
+  "at": "2026-11-11T13:41:56.880Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 4360,
@@ -21,7 +21,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": -48,
+    "x": 36,
     "y": 6,
     "w": 157,
     "h": 20,
@@ -35,7 +35,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 309,
+    "x": 393,
     "y": 6,
     "w": 213,
     "h": 20,
@@ -49,7 +49,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 722,
+    "x": 806,
     "y": 6,
     "w": 314,
     "h": 20,
@@ -63,7 +63,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 1236,
+    "x": 1320,
     "y": 6,
     "w": 157,
     "h": 20,
@@ -1983,18 +1983,39 @@
     "clamped": 0,
     "collapsed": 0,
     "scrollHidden": 0,
-    "horizontal": 0,
+    "horizontal": 2,
     "offPage": 8,
     "textNodes": 128,
     "controls": 103,
     "total": 0
    },
-   "groups": []
+   "groups": [
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.slick-list.draggable",
+     "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
+     "text": "shop our favorite products",
+     "cutMin": 35,
+     "cutMax": 35
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.slick-list.draggable",
+     "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
+     "text": "shop our favorite products",
+     "cutMin": 35,
+     "cutMax": 35
+    }
+   ]
   }
  },
  "eds": {
   "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/the-benefits-of-prenatal-vitamins",
-  "at": "2026-11-11T09:04:53.471Z",
+  "at": "2026-11-11T13:42:16.895Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 4332,
@@ -2007,7 +2028,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": -55,
+    "x": -60,
     "y": 8,
     "w": 319,
     "h": 15,
@@ -2021,7 +2042,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 465,
+    "x": 459,
     "y": 8,
     "w": 160,
     "h": 15,
@@ -2035,7 +2056,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 825,
+    "x": 819,
     "y": 8,
     "w": 219,
     "h": 15,
@@ -2049,7 +2070,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 1243,
+    "x": 1238,
     "y": 8,
     "w": 319,
     "h": 15,
@@ -4113,8 +4134,8 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 56,
-     "cutMax": 136
+     "cutMin": 62,
+     "cutMax": 130
     },
     {
      "kind": "TEXT X-CUT",
@@ -4123,22 +4144,22 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 56,
-     "cutMax": 136
+     "cutMin": 62,
+     "cutMax": 130
     }
    ],
    "findings": [
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 56,
+     "cut": 62,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -56,
+      "l": -62,
       "t": 8,
-      "r": 263,
+      "r": 257,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4155,14 +4176,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 56,
+     "cut": 62,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -56,
+      "l": -62,
       "t": 8,
-      "r": 263,
+      "r": 257,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4180,14 +4201,14 @@
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 136,
+     "cut": 130,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 1242,
+      "l": 1236,
       "t": 8,
-      "r": 1561,
+      "r": 1555,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4204,14 +4225,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 136,
+     "cut": 130,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 1242,
+      "l": 1236,
       "t": 8,
-      "r": 1561,
+      "r": 1555,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4431,25 +4452,25 @@
  "textBoxes": {
   "origin": [
    {
-    "x": -50,
+    "x": 34,
     "y": 6,
     "w": 157,
     "h": 19
    },
    {
-    "x": 308,
+    "x": 391,
     "y": 6,
     "w": 213,
     "h": 19
    },
    {
-    "x": 721,
+    "x": 804,
     "y": 6,
     "w": 314,
     "h": 19
    },
    {
-    "x": 1235,
+    "x": 1318,
     "y": 6,
     "w": 157,
     "h": 19
@@ -5321,25 +5342,25 @@
   ],
   "eds": [
    {
-    "x": -56,
+    "x": -62,
     "y": 8,
     "w": 319,
     "h": 15
    },
    {
-    "x": 463,
+    "x": 457,
     "y": 8,
     "w": 160,
     "h": 15
    },
    {
-    "x": 823,
+    "x": 817,
     "y": 8,
     "w": 219,
     "h": 15
    },
    {
-    "x": 1242,
+    "x": 1236,
     "y": 8,
     "w": 319,
     "h": 15

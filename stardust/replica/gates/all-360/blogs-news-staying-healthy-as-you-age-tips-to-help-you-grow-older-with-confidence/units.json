@@ -1,0 +1,1507 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-11T12:12:01.211Z",
+  "tol": 4,
+  "n": 5,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://naturesbounty.com/blogs/news/staying-healthy-as-you-age-tips-to-help-you-grow-older-with-confidence",
+  "at": "2026-11-11T12:11:29.212Z",
+  "docH": 13430
+ },
+ "eds": {
+  "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/staying-healthy-as-you-age-tips-to-help-you-grow-older-with-confidence",
+  "at": "2026-11-11T12:12:01.115Z",
+  "docH": 13537
+ },
+ "results": [
+  {
+   "sel": ".article-main__related .article-item=.related .related-card",
+   "family": null,
+   "required": true,
+   "originMatches": 3,
+   "edsMatches": 3,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.article-main__related.container__tight > div.article-item__grid > div.article-item.is-layout-3"
+     },
+     "eds": {
+      "path": "div.related.block > div.related-grid > div.related-card"
+     },
+     "rows": [
+      {
+       "key": "image:what type of magnesium supplement is per",
+       "role": "image",
+       "text": "what type of magnesium supplement is perfect for me? underst",
+       "edsText": "what type of magnesium supplement is perfect for me? underst",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 305,
+        "h": 200
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 305,
+        "h": 200,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:a.article-item__url#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 180,
+        "w": 305,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 183,
+        "w": 305,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 3,
+       "dw": 0,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:bone & joint health",
+       "role": "link",
+       "text": "bone & joint health",
+       "edsText": "bone & joint health",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 220,
+        "w": 138,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 220,
+        "w": 139,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "text:|",
+       "role": "text",
+       "text": "|",
+       "edsText": "|",
+       "byPosition": false,
+       "origin": {
+        "x": 143,
+        "y": 220,
+        "w": 3,
+        "h": 30
+       },
+       "eds": {
+        "x": 144,
+        "y": 220,
+        "w": 3,
+        "h": 30,
+        "sel": "span.related-card-sep",
+        "role": "text"
+       },
+       "dx": 1,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "link:heart health",
+       "role": "link",
+       "text": "heart health",
+       "edsText": "heart health",
+       "byPosition": false,
+       "origin": {
+        "x": 151,
+        "y": 220,
+        "w": 93,
+        "h": 30
+       },
+       "eds": {
+        "x": 152,
+        "y": 220,
+        "w": 93,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 1,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "link:men's health",
+       "role": "link",
+       "text": "men's health",
+       "edsText": "men's health",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 255,
+        "w": 92,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 255,
+        "w": 91,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "link:what type of magnesium supplement is per",
+       "role": "link",
+       "text": "what type of magnesium supplement is perfect for me? underst",
+       "edsText": "what type of magnesium supplement is perfect for me? underst",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 285,
+        "w": 305,
+        "h": 198
+       },
+       "eds": {
+        "x": 0,
+        "y": 285,
+        "w": 305,
+        "h": 198,
+        "sel": "a.related-card-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "heading:what type of magnesium supplement is per",
+       "role": "heading",
+       "text": "what type of magnesium supplement is perfect for me? underst",
+       "edsText": "what type of magnesium supplement is perfect for me? underst",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 301,
+        "w": 305,
+        "h": 152
+       },
+       "eds": {
+        "x": 0,
+        "y": 301,
+        "w": 305,
+        "h": 152,
+        "sel": "h3#what-type-of-magnesium-supplement-is-perfect-for-me-understanding-your-options",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "25/38/700",
+        "eds": "25/38/700"
+       }
+      },
+      {
+       "key": "text:learn about the different...",
+       "role": "text",
+       "text": "learn about the different...",
+       "edsText": "learn about the different...",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 455,
+        "w": 212,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 457,
+        "w": 211,
+        "h": 22,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 2,
+       "dw": -1,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 305,
+       "h": 200,
+       "absY": 9209,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 20,
+       "y": 9089,
+       "w": 305,
+       "h": 483
+      },
+      "eds": {
+       "x": 20,
+       "y": 9209,
+       "w": 305,
+       "h": 483
+      },
+      "dx": 0,
+      "dy": 120,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 9,
+      "within": 9,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.article-main__related.container__tight > div.article-item__grid > div.article-item.is-layout-3"
+     },
+     "eds": {
+      "path": "div.related.block > div.related-grid > div.related-card"
+     },
+     "rows": [
+      {
+       "key": "image:over 40 years of trusted quality",
+       "role": "image",
+       "text": "over 40 years of trusted quality",
+       "edsText": "over 40 years of trusted quality",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 305,
+        "h": 200
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 305,
+        "h": 200,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:a.article-item__url#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 180,
+        "w": 305,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 183,
+        "w": 305,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 3,
+       "dw": 0,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:bone & joint health",
+       "role": "link",
+       "text": "bone & joint health",
+       "edsText": "bone & joint health",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 220,
+        "w": 138,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 220,
+        "w": 139,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "text:|",
+       "role": "text",
+       "text": "|",
+       "edsText": "|",
+       "byPosition": false,
+       "origin": {
+        "x": 143,
+        "y": 220,
+        "w": 3,
+        "h": 30
+       },
+       "eds": {
+        "x": 144,
+        "y": 220,
+        "w": 3,
+        "h": 30,
+        "sel": "span.related-card-sep",
+        "role": "text"
+       },
+       "dx": 1,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "link:brain health",
+       "role": "link",
+       "text": "brain health",
+       "edsText": "brain health",
+       "byPosition": false,
+       "origin": {
+        "x": 151,
+        "y": 220,
+        "w": 90,
+        "h": 30
+       },
+       "eds": {
+        "x": 152,
+        "y": 220,
+        "w": 90,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 1,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "link:digestive health",
+       "role": "link",
+       "text": "digestive health",
+       "edsText": "digestive health",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 255,
+        "w": 117,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 255,
+        "w": 116,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "link:over 40 years of trusted quality",
+       "role": "link",
+       "text": "over 40 years of trusted quality",
+       "edsText": "over 40 years of trusted quality",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 285,
+        "w": 305,
+        "h": 92
+       },
+       "eds": {
+        "x": 0,
+        "y": 285,
+        "w": 305,
+        "h": 92,
+        "sel": "a.related-card-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "heading:over 40 years of trusted quality",
+       "role": "heading",
+       "text": "over 40 years of trusted quality",
+       "edsText": "over 40 years of trusted quality",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 301,
+        "w": 305,
+        "h": 76
+       },
+       "eds": {
+        "x": 0,
+        "y": 301,
+        "w": 305,
+        "h": 76,
+        "sel": "h3#over-40-years-of-trusted-quality",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "25/38/700",
+        "eds": "25/38/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 305,
+       "h": 200,
+       "absY": 9742,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 20,
+       "y": 9622,
+       "w": 305,
+       "h": 377
+      },
+      "eds": {
+       "x": 20,
+       "y": 9742,
+       "w": 305,
+       "h": 377
+      },
+      "dx": 0,
+      "dy": 120,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 8,
+      "within": 8,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.article-main__related.container__tight > div.article-item__grid > div.article-item.is-layout-3"
+     },
+     "eds": {
+      "path": "div.related.block > div.related-grid > div.related-card"
+     },
+     "rows": [
+      {
+       "key": "image:trust us, you're always better off healt",
+       "role": "image",
+       "text": "trust us, you're always better off healthy",
+       "edsText": "trust us, you're always better off healthy",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 305,
+        "h": 200
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 305,
+        "h": 200,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:a.article-item__url#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 180,
+        "w": 305,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 183,
+        "w": 305,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 3,
+       "dw": 0,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:bone & joint health",
+       "role": "link",
+       "text": "bone & joint health",
+       "edsText": "bone & joint health",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 220,
+        "w": 138,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 220,
+        "w": 139,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "text:|",
+       "role": "text",
+       "text": "|",
+       "edsText": "|",
+       "byPosition": false,
+       "origin": {
+        "x": 143,
+        "y": 220,
+        "w": 3,
+        "h": 30
+       },
+       "eds": {
+        "x": 144,
+        "y": 220,
+        "w": 3,
+        "h": 30,
+        "sel": "span.related-card-sep",
+        "role": "text"
+       },
+       "dx": 1,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "link:brain health",
+       "role": "link",
+       "text": "brain health",
+       "edsText": "brain health",
+       "byPosition": false,
+       "origin": {
+        "x": 151,
+        "y": 220,
+        "w": 90,
+        "h": 30
+       },
+       "eds": {
+        "x": 152,
+        "y": 220,
+        "w": 90,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 1,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "link:digestive health",
+       "role": "link",
+       "text": "digestive health",
+       "edsText": "digestive health",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 255,
+        "w": 117,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 255,
+        "w": 116,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "link:trust us, you're always better off healt",
+       "role": "link",
+       "text": "trust us, you're always better off healthy although you neve",
+       "edsText": "trust us, you're always better off healthy although you neve",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 285,
+        "w": 305,
+        "h": 182
+       },
+       "eds": {
+        "x": 0,
+        "y": 285,
+        "w": 305,
+        "h": 182,
+        "sel": "a.related-card-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "heading:trust us, you're always better off healt",
+       "role": "heading",
+       "text": "trust us, you're always better off healthy",
+       "edsText": "trust us, you're always better off healthy",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 301,
+        "w": 305,
+        "h": 76
+       },
+       "eds": {
+        "x": 0,
+        "y": 301,
+        "w": 305,
+        "h": 76,
+        "sel": "h3#trust-us-youre-always-better-off-healthy",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "25/38/700",
+        "eds": "25/38/700"
+       }
+      },
+      {
+       "key": "text:although you never know what the future ",
+       "role": "text",
+       "text": "although you never know what the future may bring, one thing",
+       "edsText": "although you never know what the future may bring, one thing",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 379,
+        "w": 298,
+        "h": 85
+       },
+       "eds": {
+        "x": 0,
+        "y": 381,
+        "w": 297,
+        "h": 82,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 2,
+       "dw": -1,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 305,
+       "h": 200,
+       "absY": 10169,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 20,
+       "y": 10049,
+       "w": 305,
+       "h": 467
+      },
+      "eds": {
+       "x": 20,
+       "y": 10169,
+       "w": 305,
+       "h": 467
+      },
+      "dx": 0,
+      "dy": 120,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 9,
+      "within": 9,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".article-main__products-grid .product-item=.product-rail__grid .product-card, .product-rail .product-rail-grid .product-card",
+   "family": null,
+   "required": true,
+   "originMatches": 0,
+   "edsMatches": 0,
+   "units": [],
+   "error": "no visible unit on the origin side (0 / 0 DOM matches)"
+  },
+  {
+   "sel": ".instagram__blocks .instagram__item=.social-strip__grid .social-tile, .social-strip .social-strip-grid .social-tile",
+   "family": null,
+   "required": true,
+   "originMatches": 5,
+   "edsMatches": 5,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand"
+     },
+     "eds": {
+      "path": "div.social-strip.block > div.social-strip-grid > a.social-tile"
+     },
+     "rows": [
+      {
+       "key": "image:<p>advanced magnesium glycinate</p>",
+       "role": "image",
+       "text": "<p>advanced magnesium glycinate</p>",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 315,
+        "h": 315
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 315,
+        "h": 315,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "advanced magnesium glycinate",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 315,
+       "h": 315,
+       "absY": 11109,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:advanced magnesium glycinate"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 15,
+       "y": 10989,
+       "w": 315,
+       "h": 315
+      },
+      "eds": {
+       "x": 15,
+       "y": 11109,
+       "w": 315,
+       "h": 315
+      },
+      "dx": 0,
+      "dy": 120,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand"
+     },
+     "eds": {
+      "path": "div.social-strip.block > div.social-strip-grid > a.social-tile"
+     },
+     "rows": [
+      {
+       "key": "image:<p>hair growth capsules</p>",
+       "role": "image",
+       "text": "<p>hair growth capsules</p>",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 150
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 150,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "hair growth capsules",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 150,
+       "h": 150,
+       "absY": 11439,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:hair growth capsules"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 15,
+       "y": 11319,
+       "w": 150,
+       "h": 150
+      },
+      "eds": {
+       "x": 15,
+       "y": 11439,
+       "w": 150,
+       "h": 150
+      },
+      "dx": 0,
+      "dy": 120,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand"
+     },
+     "eds": {
+      "path": "div.social-strip.block > div.social-strip-grid > a.social-tile"
+     },
+     "rows": [
+      {
+       "key": "image:<p>super b-complex</p>",
+       "role": "image",
+       "text": "<p>super b-complex</p>",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 150
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 150,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "super b-complex",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 150,
+       "h": 150,
+       "absY": 11439,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:super b-complex"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 180,
+       "y": 11319,
+       "w": 150,
+       "h": 150
+      },
+      "eds": {
+       "x": 180,
+       "y": 11439,
+       "w": 150,
+       "h": 150
+      },
+      "dx": 0,
+      "dy": 120,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand"
+     },
+     "eds": {
+      "path": "div.social-strip.block > div.social-strip-grid > a.social-tile"
+     },
+     "rows": [
+      {
+       "key": "image:<p>vitamin c</p>",
+       "role": "image",
+       "text": "<p>vitamin c</p>",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 150
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 150,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "vitamin c",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 150,
+       "h": 150,
+       "absY": 11604,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:vitamin c"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 15,
+       "y": 11484,
+       "w": 150,
+       "h": 150
+      },
+      "eds": {
+       "x": 15,
+       "y": 11604,
+       "w": 150,
+       "h": 150
+      },
+      "dx": 0,
+      "dy": 120,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand"
+     },
+     "eds": {
+      "path": "div.social-strip.block > div.social-strip-grid > a.social-tile"
+     },
+     "rows": [
+      {
+       "key": "image:<p>advanced hair, skin + nails pectin gu",
+       "role": "image",
+       "text": "<p>advanced hair, skin + nails pectin gummy</p>",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 150
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 150,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "advanced hair, skin + nails pectin gummy",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 150,
+       "h": 150,
+       "absY": 11604,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:advanced hair, skin + nails pectin gummy"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 180,
+       "y": 11484,
+       "w": 150,
+       "h": 150
+      },
+      "eds": {
+       "x": 180,
+       "y": 11604,
+       "w": 150,
+       "h": 150
+      },
+      "dx": 0,
+      "dy": 120,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 8,
+  "within": 31,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 1,
+  "requiredOff": 0
+ }
+}

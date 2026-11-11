@@ -1,14 +1,14 @@
 {
  "_provenance": {
   "writtenBy": "content-presence.mjs",
-  "at": "2026-11-11T09:28:24.797Z",
+  "at": "2026-11-11T14:05:32.146Z",
   "width": 1440,
   "variable": [],
   "tier": "chrome"
  },
  "origin": {
   "url": "https://naturesbounty.com/blogs/news/womens-multivitamin-more-than-just-a-great-taste",
-  "at": "2026-11-11T09:28:04.905Z",
+  "at": "2026-11-11T14:05:11.964Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 4354,
@@ -21,7 +21,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 46,
+    "x": 16,
     "y": 6,
     "w": 157,
     "h": 20,
@@ -35,7 +35,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 403,
+    "x": 374,
     "y": 6,
     "w": 213,
     "h": 20,
@@ -49,7 +49,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 816,
+    "x": 787,
     "y": 6,
     "w": 314,
     "h": 20,
@@ -63,7 +63,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 1330,
+    "x": 1301,
     "y": 6,
     "w": 157,
     "h": 20,
@@ -2168,8 +2168,8 @@
      "clipper": "div.slick-list.draggable",
      "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
      "text": "shop our favorite products",
-     "cutMin": 45,
-     "cutMax": 45
+     "cutMin": 15,
+     "cutMax": 15
     },
     {
      "kind": "TEXT X-CUT",
@@ -2178,15 +2178,15 @@
      "clipper": "div.slick-list.draggable",
      "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
      "text": "shop our favorite products",
-     "cutMin": 45,
-     "cutMax": 45
+     "cutMin": 15,
+     "cutMax": 15
     }
    ]
   }
  },
  "eds": {
   "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/womens-multivitamin-more-than-just-a-great-taste",
-  "at": "2026-11-11T09:28:24.640Z",
+  "at": "2026-11-11T14:05:32.016Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 4330,
@@ -2199,7 +2199,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": -55,
+    "x": -59,
     "y": 8,
     "w": 319,
     "h": 15,
@@ -2213,7 +2213,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 464,
+    "x": 461,
     "y": 8,
     "w": 160,
     "h": 15,
@@ -2227,7 +2227,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 824,
+    "x": 821,
     "y": 8,
     "w": 219,
     "h": 15,
@@ -2241,7 +2241,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 1243,
+    "x": 1240,
     "y": 8,
     "w": 319,
     "h": 15,
@@ -4424,8 +4424,8 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 57,
-     "cutMax": 135
+     "cutMin": 60,
+     "cutMax": 133
     },
     {
      "kind": "TEXT X-CUT",
@@ -4434,22 +4434,22 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 57,
-     "cutMax": 135
+     "cutMin": 60,
+     "cutMax": 133
     }
    ],
    "findings": [
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 57,
+     "cut": 60,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -57,
+      "l": -60,
       "t": 8,
-      "r": 262,
+      "r": 259,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4466,14 +4466,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 57,
+     "cut": 60,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -57,
+      "l": -60,
       "t": 8,
-      "r": 262,
+      "r": 259,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4491,14 +4491,14 @@
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 135,
+     "cut": 133,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 1241,
+      "l": 1238,
       "t": 8,
-      "r": 1560,
+      "r": 1558,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4515,14 +4515,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 135,
+     "cut": 133,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 1241,
+      "l": 1238,
       "t": 8,
-      "r": 1560,
+      "r": 1558,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4742,25 +4742,25 @@
  "textBoxes": {
   "origin": [
    {
-    "x": 44,
+    "x": 14,
     "y": 6,
     "w": 157,
     "h": 19
    },
    {
-    "x": 401,
+    "x": 371,
     "y": 6,
     "w": 213,
     "h": 19
    },
    {
-    "x": 814,
+    "x": 784,
     "y": 6,
     "w": 314,
     "h": 19
    },
    {
-    "x": 1328,
+    "x": 1298,
     "y": 6,
     "w": 157,
     "h": 19
@@ -5758,25 +5758,25 @@
   ],
   "eds": [
    {
-    "x": -57,
+    "x": -60,
     "y": 8,
     "w": 319,
     "h": 15
    },
    {
-    "x": 462,
+    "x": 459,
     "y": 8,
     "w": 160,
     "h": 15
    },
    {
-    "x": 822,
+    "x": 820,
     "y": 8,
     "w": 219,
     "h": 15
    },
    {
-    "x": 1241,
+    "x": 1238,
     "y": 8,
     "w": 319,
     "h": 15

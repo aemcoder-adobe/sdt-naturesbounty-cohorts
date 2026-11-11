@@ -1,0 +1,1259 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-11T12:42:04.641Z",
+  "tol": 4,
+  "n": 5,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://naturesbounty.com/blogs/news/surprising-benefits-of-probiotics",
+  "at": "2026-11-11T12:41:39.888Z",
+  "docH": 7993
+ },
+ "eds": {
+  "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/surprising-benefits-of-probiotics",
+  "at": "2026-11-11T12:42:04.523Z",
+  "docH": 7906
+ },
+ "results": [
+  {
+   "sel": ".article-main__related .article-item=.related .related-card",
+   "family": null,
+   "required": true,
+   "originMatches": 3,
+   "edsMatches": 3,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.article-main__related.container__tight > div.article-item__grid > div.article-item.is-layout-3"
+     },
+     "eds": {
+      "path": "div.related.block > div.related-grid > div.related-card"
+     },
+     "rows": [
+      {
+       "key": "image:your gut may play a powerful role in you",
+       "role": "image",
+       "text": "your gut may play a powerful role in your well-being, our su",
+       "edsText": "your gut may play a powerful role in your well-being, our su",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 305,
+        "h": 200
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 305,
+        "h": 200,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:a.article-item__url#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 180,
+        "w": 305,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 183,
+        "w": 305,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 3,
+       "dw": 0,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:digestive health",
+       "role": "link",
+       "text": "digestive health",
+       "edsText": "digestive health",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 220,
+        "w": 117,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 220,
+        "w": 116,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "link:your gut may play a powerful role in you",
+       "role": "link",
+       "text": "your gut may play a powerful role in your well-being, our su",
+       "edsText": "your gut may play a powerful role in your well-being, our su",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 250,
+        "w": 305,
+        "h": 190
+       },
+       "eds": {
+        "x": 0,
+        "y": 250,
+        "w": 305,
+        "h": 190,
+        "sel": "a.related-card-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "heading:your gut may play a powerful role in you",
+       "role": "heading",
+       "text": "your gut may play a powerful role in your well-being, our su",
+       "edsText": "your gut may play a powerful role in your well-being, our su",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 266,
+        "w": 305,
+        "h": 114
+       },
+       "eds": {
+        "x": 0,
+        "y": 266,
+        "w": 305,
+        "h": 114,
+        "sel": "h3#your-gut-may-play-a-powerful-role-in-your-well-being-our-survey-finds",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "25/38/700",
+        "eds": "25/38/700"
+       }
+      },
+      {
+       "key": "text:learn more about living an active life a",
+       "role": "text",
+       "text": "learn more about living an active life and nurturing your di",
+       "edsText": "learn more about living an active life and nurturing your di",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 382,
+        "w": 295,
+        "h": 55
+       },
+       "eds": {
+        "x": 0,
+        "y": 384,
+        "w": 291,
+        "h": 52,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 2,
+       "dw": -4,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 305,
+       "h": 200,
+       "absY": 3661,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 20,
+       "y": 3735,
+       "w": 305,
+       "h": 440
+      },
+      "eds": {
+       "x": 20,
+       "y": 3661,
+       "w": 305,
+       "h": 440
+      },
+      "dx": 0,
+      "dy": -74,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.article-main__related.container__tight > div.article-item__grid > div.article-item.is-layout-3"
+     },
+     "eds": {
+      "path": "div.related.block > div.related-grid > div.related-card"
+     },
+     "rows": [
+      {
+       "key": "image:enhance your digestive wellness with the",
+       "role": "image",
+       "text": "enhance your digestive wellness with these 4 probiotic suppl",
+       "edsText": "enhance your digestive wellness with these 4 probiotic suppl",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 305,
+        "h": 200
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 305,
+        "h": 200,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:a.article-item__url#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 180,
+        "w": 305,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 183,
+        "w": 305,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 3,
+       "dw": 0,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:digestive health",
+       "role": "link",
+       "text": "digestive health",
+       "edsText": "digestive health",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 220,
+        "w": 117,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 220,
+        "w": 116,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "link:enhance your digestive wellness with the",
+       "role": "link",
+       "text": "enhance your digestive wellness with these 4 probiotic suppl",
+       "edsText": "enhance your digestive wellness with these 4 probiotic suppl",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 250,
+        "w": 305,
+        "h": 220
+       },
+       "eds": {
+        "x": 0,
+        "y": 250,
+        "w": 305,
+        "h": 220,
+        "sel": "a.related-card-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "heading:enhance your digestive wellness with the",
+       "role": "heading",
+       "text": "enhance your digestive wellness with these 4 probiotic suppl",
+       "edsText": "enhance your digestive wellness with these 4 probiotic suppl",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 266,
+        "w": 305,
+        "h": 114
+       },
+       "eds": {
+        "x": 0,
+        "y": 266,
+        "w": 305,
+        "h": 114,
+        "sel": "h3#enhance-your-digestive-wellness-with-these-4-probiotic-supplements",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "25/38/700",
+        "eds": "25/38/700"
+       }
+      },
+      {
+       "key": "text:explore a range of practical and effecti",
+       "role": "text",
+       "text": "explore a range of practical and effective solutions that ca",
+       "edsText": "explore a range of practical and effective solutions that ca",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 382,
+        "w": 257,
+        "h": 85
+       },
+       "eds": {
+        "x": 0,
+        "y": 384,
+        "w": 256,
+        "h": 82,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 2,
+       "dw": -1,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 305,
+       "h": 200,
+       "absY": 4151,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 20,
+       "y": 4225,
+       "w": 305,
+       "h": 470
+      },
+      "eds": {
+       "x": 20,
+       "y": 4151,
+       "w": 305,
+       "h": 470
+      },
+      "dx": 0,
+      "dy": -74,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.article-main__related.container__tight > div.article-item__grid > div.article-item.is-layout-3"
+     },
+     "eds": {
+      "path": "div.related.block > div.related-grid > div.related-card"
+     },
+     "rows": [
+      {
+       "key": "image:digestive probiotic 10",
+       "role": "image",
+       "text": "digestive probiotic 10",
+       "edsText": "digestive probiotic 10",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 305,
+        "h": 200
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 305,
+        "h": 200,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:a.article-item__url#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 180,
+        "w": 305,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 183,
+        "w": 305,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 3,
+       "dw": 0,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:digestive health",
+       "role": "link",
+       "text": "digestive health",
+       "edsText": "digestive health",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 220,
+        "w": 117,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 220,
+        "w": 116,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "link:digestive probiotic 10 by natalie meriwe",
+       "role": "link",
+       "text": "digestive probiotic 10 by natalie meriwether, bsn",
+       "edsText": "digestive probiotic 10 by natalie meriwether, bsn",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 250,
+        "w": 305,
+        "h": 84
+       },
+       "eds": {
+        "x": 0,
+        "y": 250,
+        "w": 305,
+        "h": 84,
+        "sel": "a.related-card-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "heading:digestive probiotic 10",
+       "role": "heading",
+       "text": "digestive probiotic 10",
+       "edsText": "digestive probiotic 10",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 266,
+        "w": 305,
+        "h": 38
+       },
+       "eds": {
+        "x": 0,
+        "y": 266,
+        "w": 305,
+        "h": 38,
+        "sel": "h3#digestive-probiotic-10",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "25/38/700",
+        "eds": "25/38/700"
+       }
+      },
+      {
+       "key": "text:by natalie meriwether, bsn",
+       "role": "text",
+       "text": "by natalie meriwether, bsn",
+       "edsText": "by natalie meriwether, bsn",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 306,
+        "w": 218,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 308,
+        "w": 220,
+        "h": 22,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 2,
+       "dw": 2,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 305,
+       "h": 200,
+       "absY": 4671,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 20,
+       "y": 4745,
+       "w": 305,
+       "h": 334
+      },
+      "eds": {
+       "x": 20,
+       "y": 4671,
+       "w": 305,
+       "h": 334
+      },
+      "dx": 0,
+      "dy": -74,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".article-main__products-grid .product-item=.product-rail__grid .product-card, .product-rail .product-rail-grid .product-card",
+   "family": null,
+   "required": true,
+   "originMatches": 0,
+   "edsMatches": 0,
+   "units": [],
+   "error": "no visible unit on the origin side (0 / 0 DOM matches)"
+  },
+  {
+   "sel": ".instagram__blocks .instagram__item=.social-strip__grid .social-tile, .social-strip .social-strip-grid .social-tile",
+   "family": null,
+   "required": true,
+   "originMatches": 5,
+   "edsMatches": 5,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand"
+     },
+     "eds": {
+      "path": "div.social-strip.block > div.social-strip-grid > a.social-tile"
+     },
+     "rows": [
+      {
+       "key": "image:<p>advanced magnesium glycinate</p>",
+       "role": "image",
+       "text": "<p>advanced magnesium glycinate</p>",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 315,
+        "h": 315
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 315,
+        "h": 315,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "advanced magnesium glycinate",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 315,
+       "h": 315,
+       "absY": 5478,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:advanced magnesium glycinate"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 15,
+       "y": 5552,
+       "w": 315,
+       "h": 315
+      },
+      "eds": {
+       "x": 15,
+       "y": 5478,
+       "w": 315,
+       "h": 315
+      },
+      "dx": 0,
+      "dy": -74,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand"
+     },
+     "eds": {
+      "path": "div.social-strip.block > div.social-strip-grid > a.social-tile"
+     },
+     "rows": [
+      {
+       "key": "image:<p>hair growth capsules</p>",
+       "role": "image",
+       "text": "<p>hair growth capsules</p>",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 150
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 150,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "hair growth capsules",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 150,
+       "h": 150,
+       "absY": 5808,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:hair growth capsules"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 15,
+       "y": 5882,
+       "w": 150,
+       "h": 150
+      },
+      "eds": {
+       "x": 15,
+       "y": 5808,
+       "w": 150,
+       "h": 150
+      },
+      "dx": 0,
+      "dy": -74,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand"
+     },
+     "eds": {
+      "path": "div.social-strip.block > div.social-strip-grid > a.social-tile"
+     },
+     "rows": [
+      {
+       "key": "image:<p>super b-complex</p>",
+       "role": "image",
+       "text": "<p>super b-complex</p>",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 150
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 150,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "super b-complex",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 150,
+       "h": 150,
+       "absY": 5808,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:super b-complex"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 180,
+       "y": 5882,
+       "w": 150,
+       "h": 150
+      },
+      "eds": {
+       "x": 180,
+       "y": 5808,
+       "w": 150,
+       "h": 150
+      },
+      "dx": 0,
+      "dy": -74,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand"
+     },
+     "eds": {
+      "path": "div.social-strip.block > div.social-strip-grid > a.social-tile"
+     },
+     "rows": [
+      {
+       "key": "image:<p>vitamin c</p>",
+       "role": "image",
+       "text": "<p>vitamin c</p>",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 150
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 150,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "vitamin c",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 150,
+       "h": 150,
+       "absY": 5973,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:vitamin c"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 15,
+       "y": 6047,
+       "w": 150,
+       "h": 150
+      },
+      "eds": {
+       "x": 15,
+       "y": 5973,
+       "w": 150,
+       "h": 150
+      },
+      "dx": 0,
+      "dy": -74,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand"
+     },
+     "eds": {
+      "path": "div.social-strip.block > div.social-strip-grid > a.social-tile"
+     },
+     "rows": [
+      {
+       "key": "image:<p>advanced hair, skin + nails pectin gu",
+       "role": "image",
+       "text": "<p>advanced hair, skin + nails pectin gummy</p>",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 150
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 150,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "advanced hair, skin + nails pectin gummy",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 150,
+       "h": 150,
+       "absY": 5973,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:advanced hair, skin + nails pectin gummy"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 180,
+       "y": 6047,
+       "w": 150,
+       "h": 150
+      },
+      "eds": {
+       "x": 180,
+       "y": 5973,
+       "w": 150,
+       "h": 150
+      },
+      "dx": 0,
+      "dy": -74,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 8,
+  "within": 23,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 1,
+  "requiredOff": 0
+ }
+}

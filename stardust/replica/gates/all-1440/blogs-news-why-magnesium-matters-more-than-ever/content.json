@@ -1,14 +1,14 @@
 {
  "_provenance": {
   "writtenBy": "content-presence.mjs",
-  "at": "2026-11-11T08:59:35.562Z",
+  "at": "2026-11-11T13:36:56.546Z",
   "width": 1440,
   "variable": [],
   "tier": "chrome"
  },
  "origin": {
   "url": "https://naturesbounty.com/blogs/news/why-magnesium-matters-more-than-ever",
-  "at": "2026-11-11T08:59:11.865Z",
+  "at": "2026-11-11T13:36:32.851Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 6816,
@@ -21,7 +21,21 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 166,
+    "x": -115,
+    "y": 6,
+    "w": 157,
+    "h": 20,
+    "text": "shop our favorite products",
+    "href": "/collections/favorites"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
+    "x": 242,
     "y": 6,
     "w": 213,
     "h": 20,
@@ -35,7 +49,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 579,
+    "x": 655,
     "y": 6,
     "w": 314,
     "h": 20,
@@ -49,7 +63,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 1093,
+    "x": 1169,
     "y": 6,
     "w": 157,
     "h": 20,
@@ -2504,7 +2518,7 @@
     "collapsed": 0,
     "scrollHidden": 0,
     "horizontal": 0,
-    "offPage": 10,
+    "offPage": 8,
     "textNodes": 167,
     "controls": 109,
     "total": 0
@@ -2514,7 +2528,7 @@
  },
  "eds": {
   "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/why-magnesium-matters-more-than-ever",
-  "at": "2026-11-11T08:59:35.439Z",
+  "at": "2026-11-11T13:36:56.430Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 6804,
@@ -2541,7 +2555,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 358,
+    "x": 359,
     "y": 8,
     "w": 160,
     "h": 15,
@@ -2569,7 +2583,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 1137,
+    "x": 1138,
     "y": 8,
     "w": 319,
     "h": 15,
@@ -5609,19 +5623,25 @@
  "textBoxes": {
   "origin": [
    {
-    "x": 163,
+    "x": -118,
+    "y": 6,
+    "w": 157,
+    "h": 19
+   },
+   {
+    "x": 240,
     "y": 6,
     "w": 213,
     "h": 19
    },
    {
-    "x": 576,
+    "x": 652,
     "y": 6,
     "w": 314,
     "h": 19
    },
    {
-    "x": 1090,
+    "x": 1166,
     "y": 6,
     "w": 157,
     "h": 19

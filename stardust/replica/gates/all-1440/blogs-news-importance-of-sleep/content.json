@@ -1,14 +1,14 @@
 {
  "_provenance": {
   "writtenBy": "content-presence.mjs",
-  "at": "2026-11-11T09:42:41.329Z",
+  "at": "2026-11-11T14:19:51.191Z",
   "width": 1440,
   "variable": [],
   "tier": "chrome"
  },
  "origin": {
   "url": "https://naturesbounty.com/blogs/news/importance-of-sleep",
-  "at": "2026-11-11T09:42:21.299Z",
+  "at": "2026-11-11T14:19:31.189Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 4371,
@@ -2060,7 +2060,7 @@
  },
  "eds": {
   "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/importance-of-sleep",
-  "at": "2026-11-11T09:42:41.214Z",
+  "at": "2026-11-11T14:19:51.083Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 4389,
@@ -2073,7 +2073,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": -26,
+    "x": -56,
     "y": 8,
     "w": 319,
     "h": 15,
@@ -2087,7 +2087,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 493,
+    "x": 464,
     "y": 8,
     "w": 160,
     "h": 15,
@@ -2101,7 +2101,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 853,
+    "x": 824,
     "y": 8,
     "w": 219,
     "h": 15,
@@ -2110,12 +2110,12 @@
    },
    {
     "kind": "link",
-    "state": "hidden",
+    "state": "visible",
     "variable": false,
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 1272,
+    "x": 1242,
     "y": 8,
     "w": 319,
     "h": 15,
@@ -4193,8 +4193,8 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 28,
-     "cutMax": 165
+     "cutMin": 57,
+     "cutMax": 135
     },
     {
      "kind": "TEXT X-CUT",
@@ -4203,22 +4203,22 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 28,
-     "cutMax": 165
+     "cutMin": 57,
+     "cutMax": 135
     }
    ],
    "findings": [
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 28,
+     "cut": 57,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -28,
+      "l": -57,
       "t": 8,
-      "r": 292,
+      "r": 262,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4235,14 +4235,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 28,
+     "cut": 57,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -28,
+      "l": -57,
       "t": 8,
-      "r": 292,
+      "r": 262,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4260,14 +4260,14 @@
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 165,
+     "cut": 135,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 1271,
+      "l": 1241,
       "t": 8,
-      "r": 1590,
+      "r": 1560,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4284,14 +4284,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 165,
+     "cut": 135,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 1271,
+      "l": 1241,
       "t": 8,
-      "r": 1590,
+      "r": 1560,
       "b": 23,
       "w": 319,
       "h": 15
@@ -5491,25 +5491,25 @@
   ],
   "eds": [
    {
-    "x": -28,
+    "x": -57,
     "y": 8,
     "w": 319,
     "h": 15
    },
    {
-    "x": 492,
+    "x": 462,
     "y": 8,
     "w": 160,
     "h": 15
    },
    {
-    "x": 852,
+    "x": 822,
     "y": 8,
     "w": 219,
     "h": 15
    },
    {
-    "x": 1271,
+    "x": 1241,
     "y": 8,
     "w": 319,
     "h": 15

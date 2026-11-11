@@ -1,14 +1,14 @@
 {
  "_provenance": {
   "writtenBy": "content-presence.mjs",
-  "at": "2026-11-11T09:47:05.747Z",
+  "at": "2026-11-11T14:24:16.004Z",
   "width": 1440,
   "variable": [],
   "tier": "chrome"
  },
  "origin": {
   "url": "https://naturesbounty.com/blogs/news/make-better-food-swaps-this-season",
-  "at": "2026-11-11T09:46:45.231Z",
+  "at": "2026-11-11T14:23:55.419Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 4589,
@@ -21,7 +21,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 18,
+    "x": -1,
     "y": 6,
     "w": 157,
     "h": 20,
@@ -35,7 +35,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 375,
+    "x": 356,
     "y": 6,
     "w": 213,
     "h": 20,
@@ -49,7 +49,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 788,
+    "x": 769,
     "y": 6,
     "w": 314,
     "h": 20,
@@ -63,7 +63,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 1302,
+    "x": 1283,
     "y": 6,
     "w": 157,
     "h": 20,
@@ -1900,39 +1900,18 @@
     "clamped": 0,
     "collapsed": 0,
     "scrollHidden": 0,
-    "horizontal": 2,
+    "horizontal": 0,
     "offPage": 8,
     "textNodes": 126,
     "controls": 98,
     "total": 0
    },
-   "groups": [
-    {
-     "kind": "CONTROL X-CUT",
-     "advisory": true,
-     "n": 1,
-     "clipper": "div.slick-list.draggable",
-     "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
-     "text": "shop our favorite products",
-     "cutMin": 18,
-     "cutMax": 18
-    },
-    {
-     "kind": "TEXT X-CUT",
-     "advisory": true,
-     "n": 1,
-     "clipper": "div.slick-list.draggable",
-     "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
-     "text": "shop our favorite products",
-     "cutMin": 18,
-     "cutMax": 18
-    }
-   ]
+   "groups": []
   }
  },
  "eds": {
   "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/make-better-food-swaps-this-season",
-  "at": "2026-11-11T09:47:05.635Z",
+  "at": "2026-11-11T14:24:15.899Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 4577,
@@ -1945,7 +1924,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": -71,
+    "x": -72,
     "y": 8,
     "w": 319,
     "h": 15,
@@ -1959,7 +1938,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 448,
+    "x": 447,
     "y": 8,
     "w": 160,
     "h": 15,
@@ -1973,7 +1952,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 809,
+    "x": 808,
     "y": 8,
     "w": 219,
     "h": 15,
@@ -1987,7 +1966,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 1227,
+    "x": 1226,
     "y": 8,
     "w": 319,
     "h": 15,
@@ -3994,8 +3973,8 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 72,
-     "cutMax": 120
+     "cutMin": 73,
+     "cutMax": 119
     },
     {
      "kind": "TEXT X-CUT",
@@ -4004,22 +3983,22 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 72,
-     "cutMax": 120
+     "cutMin": 73,
+     "cutMax": 119
     }
    ],
    "findings": [
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 72,
+     "cut": 73,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -72,
+      "l": -73,
       "t": 8,
-      "r": 247,
+      "r": 246,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4036,14 +4015,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 72,
+     "cut": 73,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -72,
+      "l": -73,
       "t": 8,
-      "r": 247,
+      "r": 246,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4061,14 +4040,14 @@
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 120,
+     "cut": 119,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 1226,
+      "l": 1225,
       "t": 8,
-      "r": 1545,
+      "r": 1544,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4085,14 +4064,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 120,
+     "cut": 119,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 1226,
+      "l": 1225,
       "t": 8,
-      "r": 1545,
+      "r": 1544,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4323,25 +4302,25 @@
  "textBoxes": {
   "origin": [
    {
-    "x": 17,
+    "x": -3,
     "y": 6,
     "w": 157,
     "h": 19
    },
    {
-    "x": 374,
+    "x": 355,
     "y": 6,
     "w": 213,
     "h": 19
    },
    {
-    "x": 787,
+    "x": 767,
     "y": 6,
     "w": 314,
     "h": 19
    },
    {
-    "x": 1301,
+    "x": 1282,
     "y": 6,
     "w": 157,
     "h": 19
@@ -5219,25 +5198,25 @@
   ],
   "eds": [
    {
-    "x": -72,
+    "x": -73,
     "y": 8,
     "w": 319,
     "h": 15
    },
    {
-    "x": 447,
+    "x": 446,
     "y": 8,
     "w": 160,
     "h": 15
    },
    {
-    "x": 807,
+    "x": 806,
     "y": 8,
     "w": 219,
     "h": 15
    },
    {
-    "x": 1226,
+    "x": 1225,
     "y": 8,
     "w": 319,
     "h": 15

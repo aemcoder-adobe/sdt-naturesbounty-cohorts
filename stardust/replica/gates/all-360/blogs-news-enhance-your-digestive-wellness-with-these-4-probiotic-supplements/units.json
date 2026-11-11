@@ -1,7 +1,7 @@
 {
  "_provenance": {
   "writtenBy": "unit-geometry.mjs",
-  "at": "2026-11-11T10:25:13.766Z",
+  "at": "2026-11-11T13:19:07.171Z",
   "tol": 4,
   "n": 5,
   "width": 360,
@@ -9,12 +9,12 @@
  },
  "origin": {
   "url": "https://naturesbounty.com/blogs/news/enhance-your-digestive-wellness-with-these-4-probiotic-supplements",
-  "at": "2026-11-11T04:08:38.525Z",
-  "docH": 5208
+  "at": "2026-11-11T13:18:39.317Z",
+  "docH": 10272
  },
  "eds": {
   "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/enhance-your-digestive-wellness-with-these-4-probiotic-supplements",
-  "at": "2026-11-11T10:25:13.649Z",
+  "at": "2026-11-11T13:19:07.083Z",
   "docH": 10319
  },
  "results": [
@@ -43,8 +43,8 @@
        "origin": {
         "x": 0,
         "y": 0,
-        "w": 393,
-        "h": 245
+        "w": 305,
+        "h": 200
        },
        "eds": {
         "x": 0,
@@ -56,9 +56,9 @@
        },
        "dx": 0,
        "dy": 0,
-       "dw": -88,
-       "dh": -45,
-       "off": true,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "18/30/500",
@@ -73,8 +73,8 @@
        "byPosition": false,
        "origin": {
         "x": 0,
-        "y": 225,
-        "w": 393,
+        "y": 180,
+        "w": 305,
         "h": 25
        },
        "eds": {
@@ -86,10 +86,10 @@
         "role": "link"
        },
        "dx": 0,
-       "dy": -42,
-       "dw": -88,
+       "dy": 3,
+       "dw": 0,
        "dh": -3,
-       "off": true,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "18/30/500",
@@ -104,7 +104,7 @@
        "byPosition": false,
        "origin": {
         "x": 0,
-        "y": 265,
+        "y": 220,
         "w": 117,
         "h": 30
        },
@@ -117,10 +117,10 @@
         "role": "link"
        },
        "dx": 0,
-       "dy": -45,
+       "dy": 0,
        "dw": -1,
        "dh": 0,
-       "off": true,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "14/30/500",
@@ -135,8 +135,8 @@
        "byPosition": false,
        "origin": {
         "x": 0,
-        "y": 295,
-        "w": 393,
+        "y": 250,
+        "w": 305,
         "h": 190
        },
        "eds": {
@@ -148,10 +148,10 @@
         "role": "link"
        },
        "dx": 0,
-       "dy": -45,
-       "dw": -88,
+       "dy": 0,
+       "dw": 0,
        "dh": 0,
-       "off": true,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "18/30/500",
@@ -166,8 +166,8 @@
        "byPosition": false,
        "origin": {
         "x": 0,
-        "y": 311,
-        "w": 393,
+        "y": 266,
+        "w": 305,
         "h": 114
        },
        "eds": {
@@ -179,10 +179,10 @@
         "role": "heading"
        },
        "dx": 0,
-       "dy": -45,
-       "dw": -88,
+       "dy": 0,
+       "dw": 0,
        "dh": 0,
-       "off": true,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "25/38/700",
@@ -197,8 +197,8 @@
        "byPosition": false,
        "origin": {
         "x": 0,
-        "y": 427,
-        "w": 330,
+        "y": 382,
+        "w": 295,
         "h": 55
        },
        "eds": {
@@ -210,10 +210,10 @@
         "role": "text"
        },
        "dx": 0,
-       "dy": -43,
-       "dw": -39,
+       "dy": 2,
+       "dw": -4,
        "dh": -3,
-       "off": true,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "18/30/500",
@@ -246,10 +246,10 @@
      ],
      "unit": {
       "origin": {
-       "x": 93,
-       "y": 2991,
-       "w": 393,
-       "h": 485
+       "x": 20,
+       "y": 6107,
+       "w": 305,
+       "h": 440
       },
       "eds": {
        "x": 20,
@@ -257,19 +257,19 @@
        "w": 305,
        "h": 440
       },
-      "dx": -73,
-      "dy": 3176,
-      "dw": -88,
-      "dh": -45
+      "dx": 0,
+      "dy": 60,
+      "dw": 0,
+      "dh": 0
      },
      "summary": {
       "elements": 6,
-      "within": 0,
-      "off": 6,
+      "within": 6,
+      "off": 0,
       "hidden": 0,
       "missing": 0,
       "extra": 1,
-      "unitOff": true
+      "unitOff": false
      }
     },
     {
@@ -290,8 +290,8 @@
        "origin": {
         "x": 0,
         "y": 0,
-        "w": 393,
-        "h": 245
+        "w": 305,
+        "h": 200
        },
        "eds": {
         "x": 0,
@@ -303,9 +303,9 @@
        },
        "dx": 0,
        "dy": 0,
-       "dw": -88,
-       "dh": -45,
-       "off": true,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "18/30/500",
@@ -320,8 +320,8 @@
        "byPosition": false,
        "origin": {
         "x": 0,
-        "y": 225,
-        "w": 393,
+        "y": 180,
+        "w": 305,
         "h": 25
        },
        "eds": {
@@ -333,10 +333,10 @@
         "role": "link"
        },
        "dx": 0,
-       "dy": -42,
-       "dw": -88,
+       "dy": 3,
+       "dw": 0,
        "dh": -3,
-       "off": true,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "18/30/500",
@@ -351,7 +351,7 @@
        "byPosition": false,
        "origin": {
         "x": 0,
-        "y": 265,
+        "y": 220,
         "w": 117,
         "h": 30
        },
@@ -364,10 +364,10 @@
         "role": "link"
        },
        "dx": 0,
-       "dy": -45,
+       "dy": 0,
        "dw": -1,
        "dh": 0,
-       "off": true,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "14/30/500",
@@ -382,8 +382,8 @@
        "byPosition": false,
        "origin": {
         "x": 0,
-        "y": 295,
-        "w": 393,
+        "y": 250,
+        "w": 305,
         "h": 84
        },
        "eds": {
@@ -395,10 +395,10 @@
         "role": "link"
        },
        "dx": 0,
-       "dy": -45,
-       "dw": -88,
+       "dy": 0,
+       "dw": 0,
        "dh": 0,
-       "off": true,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "18/30/500",
@@ -413,8 +413,8 @@
        "byPosition": false,
        "origin": {
         "x": 0,
-        "y": 311,
-        "w": 393,
+        "y": 266,
+        "w": 305,
         "h": 38
        },
        "eds": {
@@ -426,10 +426,10 @@
         "role": "heading"
        },
        "dx": 0,
-       "dy": -45,
-       "dw": -88,
+       "dy": 0,
+       "dw": 0,
        "dh": 0,
-       "off": true,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "25/38/700",
@@ -444,7 +444,7 @@
        "byPosition": false,
        "origin": {
         "x": 0,
-        "y": 351,
+        "y": 306,
         "w": 218,
         "h": 25
        },
@@ -457,10 +457,10 @@
         "role": "text"
        },
        "dx": 0,
-       "dy": -43,
+       "dy": 2,
        "dw": 2,
        "dh": -3,
-       "off": true,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "18/30/500",
@@ -493,10 +493,10 @@
      ],
      "unit": {
       "origin": {
-       "x": 516,
-       "y": 2991,
-       "w": 393,
-       "h": 379
+       "x": 20,
+       "y": 6597,
+       "w": 305,
+       "h": 334
       },
       "eds": {
        "x": 20,
@@ -504,19 +504,19 @@
        "w": 305,
        "h": 334
       },
-      "dx": -496,
-      "dy": 3666,
-      "dw": -88,
-      "dh": -45
+      "dx": 0,
+      "dy": 60,
+      "dw": 0,
+      "dh": 0
      },
      "summary": {
       "elements": 6,
-      "within": 0,
-      "off": 6,
+      "within": 6,
+      "off": 0,
       "hidden": 0,
       "missing": 0,
       "extra": 1,
-      "unitOff": true
+      "unitOff": false
      }
     },
     {
@@ -537,8 +537,8 @@
        "origin": {
         "x": 0,
         "y": 0,
-        "w": 393,
-        "h": 245
+        "w": 305,
+        "h": 200
        },
        "eds": {
         "x": 0,
@@ -550,9 +550,9 @@
        },
        "dx": 0,
        "dy": 0,
-       "dw": -88,
-       "dh": -45,
-       "off": true,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "18/30/500",
@@ -567,8 +567,8 @@
        "byPosition": false,
        "origin": {
         "x": 0,
-        "y": 225,
-        "w": 393,
+        "y": 180,
+        "w": 305,
         "h": 25
        },
        "eds": {
@@ -580,10 +580,10 @@
         "role": "link"
        },
        "dx": 0,
-       "dy": -42,
-       "dw": -88,
+       "dy": 3,
+       "dw": 0,
        "dh": -3,
-       "off": true,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "18/30/500",
@@ -598,7 +598,7 @@
        "byPosition": false,
        "origin": {
         "x": 0,
-        "y": 265,
+        "y": 220,
         "w": 138,
         "h": 30
        },
@@ -611,10 +611,10 @@
         "role": "link"
        },
        "dx": 0,
-       "dy": -45,
+       "dy": 0,
        "dw": 1,
        "dh": 0,
-       "off": true,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "14/30/500",
@@ -629,7 +629,7 @@
        "byPosition": false,
        "origin": {
         "x": 143,
-        "y": 265,
+        "y": 220,
         "w": 3,
         "h": 30
        },
@@ -642,10 +642,10 @@
         "role": "text"
        },
        "dx": 1,
-       "dy": -45,
+       "dy": 0,
        "dw": 0,
        "dh": 0,
-       "off": true,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "14/30/500",
@@ -660,7 +660,7 @@
        "byPosition": false,
        "origin": {
         "x": 151,
-        "y": 265,
+        "y": 220,
         "w": 90,
         "h": 30
        },
@@ -673,10 +673,10 @@
         "role": "link"
        },
        "dx": 1,
-       "dy": -45,
+       "dy": 0,
        "dw": 0,
        "dh": 0,
-       "off": true,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "14/30/500",
@@ -690,8 +690,8 @@
        "edsText": "digestive health",
        "byPosition": false,
        "origin": {
-        "x": 254,
-        "y": 265,
+        "x": 0,
+        "y": 255,
         "w": 117,
         "h": 30
        },
@@ -703,11 +703,11 @@
         "sel": "a",
         "role": "link"
        },
-       "dx": -254,
-       "dy": -10,
+       "dx": 0,
+       "dy": 0,
        "dw": -1,
        "dh": 0,
-       "off": true,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "14/30/500",
@@ -722,9 +722,9 @@
        "byPosition": false,
        "origin": {
         "x": 0,
-        "y": 295,
-        "w": 393,
-        "h": 54
+        "y": 285,
+        "w": 305,
+        "h": 92
        },
        "eds": {
         "x": 0,
@@ -735,10 +735,10 @@
         "role": "link"
        },
        "dx": 0,
-       "dy": -10,
-       "dw": -88,
-       "dh": 38,
-       "off": true,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "18/30/500",
@@ -753,9 +753,9 @@
        "byPosition": false,
        "origin": {
         "x": 0,
-        "y": 311,
-        "w": 393,
-        "h": 38
+        "y": 301,
+        "w": 305,
+        "h": 76
        },
        "eds": {
         "x": 0,
@@ -766,10 +766,10 @@
         "role": "heading"
        },
        "dx": 0,
-       "dy": -10,
-       "dw": -88,
-       "dh": 38,
-       "off": true,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "25/38/700",
@@ -802,10 +802,10 @@
      ],
      "unit": {
       "origin": {
-       "x": 939,
-       "y": 2991,
-       "w": 393,
-       "h": 349
+       "x": 20,
+       "y": 6981,
+       "w": 305,
+       "h": 377
       },
       "eds": {
        "x": 20,
@@ -813,19 +813,19 @@
        "w": 305,
        "h": 377
       },
-      "dx": -919,
-      "dy": 4050,
-      "dw": -88,
-      "dh": 28
+      "dx": 0,
+      "dy": 60,
+      "dw": 0,
+      "dh": 0
      },
      "summary": {
       "elements": 8,
-      "within": 0,
-      "off": 8,
+      "within": 8,
+      "off": 0,
       "hidden": 0,
       "missing": 0,
       "extra": 1,
-      "unitOff": true
+      "unitOff": false
      }
     }
    ]
@@ -864,8 +864,8 @@
        "origin": {
         "x": 0,
         "y": 0,
-        "w": 271,
-        "h": 271
+        "w": 315,
+        "h": 315
        },
        "eds": {
         "x": 0,
@@ -877,9 +877,9 @@
        },
        "dx": 0,
        "dy": 0,
-       "dw": 44,
-       "dh": 44,
-       "off": true,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "18/30/500",
@@ -912,10 +912,10 @@
      ],
      "unit": {
       "origin": {
-       "x": 21,
-       "y": 3886,
-       "w": 271,
-       "h": 271
+       "x": 15,
+       "y": 7831,
+       "w": 315,
+       "h": 315
       },
       "eds": {
        "x": 15,
@@ -923,19 +923,19 @@
        "w": 315,
        "h": 315
       },
-      "dx": -6,
-      "dy": 4005,
-      "dw": 44,
-      "dh": 44
+      "dx": 0,
+      "dy": 60,
+      "dw": 0,
+      "dh": 0
      },
      "summary": {
       "elements": 1,
-      "within": 0,
-      "off": 1,
+      "within": 1,
+      "off": 0,
       "hidden": 0,
       "missing": 0,
       "extra": 1,
-      "unitOff": true
+      "unitOff": false
      }
     },
     {
@@ -956,8 +956,8 @@
        "origin": {
         "x": 0,
         "y": 0,
-        "w": 271,
-        "h": 271
+        "w": 150,
+        "h": 150
        },
        "eds": {
         "x": 0,
@@ -969,9 +969,9 @@
        },
        "dx": 0,
        "dy": 0,
-       "dw": -121,
-       "dh": -121,
-       "off": true,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "18/30/500",
@@ -1004,10 +1004,10 @@
      ],
      "unit": {
       "origin": {
-       "x": 299,
-       "y": 3886,
-       "w": 271,
-       "h": 271
+       "x": 15,
+       "y": 8161,
+       "w": 150,
+       "h": 150
       },
       "eds": {
        "x": 15,
@@ -1015,19 +1015,19 @@
        "w": 150,
        "h": 150
       },
-      "dx": -284,
-      "dy": 4335,
-      "dw": -121,
-      "dh": -121
+      "dx": 0,
+      "dy": 60,
+      "dw": 0,
+      "dh": 0
      },
      "summary": {
       "elements": 1,
-      "within": 0,
-      "off": 1,
+      "within": 1,
+      "off": 0,
       "hidden": 0,
       "missing": 0,
       "extra": 1,
-      "unitOff": true
+      "unitOff": false
      }
     },
     {
@@ -1048,8 +1048,8 @@
        "origin": {
         "x": 0,
         "y": 0,
-        "w": 271,
-        "h": 271
+        "w": 150,
+        "h": 150
        },
        "eds": {
         "x": 0,
@@ -1061,9 +1061,9 @@
        },
        "dx": 0,
        "dy": 0,
-       "dw": -121,
-       "dh": -121,
-       "off": true,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "18/30/500",
@@ -1096,10 +1096,10 @@
      ],
      "unit": {
       "origin": {
-       "x": 577,
-       "y": 3886,
-       "w": 271,
-       "h": 271
+       "x": 180,
+       "y": 8161,
+       "w": 150,
+       "h": 150
       },
       "eds": {
        "x": 180,
@@ -1107,19 +1107,19 @@
        "w": 150,
        "h": 150
       },
-      "dx": -397,
-      "dy": 4335,
-      "dw": -121,
-      "dh": -121
+      "dx": 0,
+      "dy": 60,
+      "dw": 0,
+      "dh": 0
      },
      "summary": {
       "elements": 1,
-      "within": 0,
-      "off": 1,
+      "within": 1,
+      "off": 0,
       "hidden": 0,
       "missing": 0,
       "extra": 1,
-      "unitOff": true
+      "unitOff": false
      }
     },
     {
@@ -1140,8 +1140,8 @@
        "origin": {
         "x": 0,
         "y": 0,
-        "w": 271,
-        "h": 271
+        "w": 150,
+        "h": 150
        },
        "eds": {
         "x": 0,
@@ -1153,9 +1153,9 @@
        },
        "dx": 0,
        "dy": 0,
-       "dw": -121,
-       "dh": -121,
-       "off": true,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "18/30/500",
@@ -1188,10 +1188,10 @@
      ],
      "unit": {
       "origin": {
-       "x": 855,
-       "y": 3886,
-       "w": 271,
-       "h": 271
+       "x": 15,
+       "y": 8326,
+       "w": 150,
+       "h": 150
       },
       "eds": {
        "x": 15,
@@ -1199,19 +1199,19 @@
        "w": 150,
        "h": 150
       },
-      "dx": -840,
-      "dy": 4500,
-      "dw": -121,
-      "dh": -121
+      "dx": 0,
+      "dy": 60,
+      "dw": 0,
+      "dh": 0
      },
      "summary": {
       "elements": 1,
-      "within": 0,
-      "off": 1,
+      "within": 1,
+      "off": 0,
       "hidden": 0,
       "missing": 0,
       "extra": 1,
-      "unitOff": true
+      "unitOff": false
      }
     },
     {
@@ -1232,8 +1232,8 @@
        "origin": {
         "x": 0,
         "y": 0,
-        "w": 271,
-        "h": 271
+        "w": 150,
+        "h": 150
        },
        "eds": {
         "x": 0,
@@ -1245,9 +1245,9 @@
        },
        "dx": 0,
        "dy": 0,
-       "dw": -121,
-       "dh": -121,
-       "off": true,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "18/30/500",
@@ -1280,10 +1280,10 @@
      ],
      "unit": {
       "origin": {
-       "x": 1133,
-       "y": 3886,
-       "w": 271,
-       "h": 271
+       "x": 180,
+       "y": 8326,
+       "w": 150,
+       "h": 150
       },
       "eds": {
        "x": 180,
@@ -1291,19 +1291,19 @@
        "w": 150,
        "h": 150
       },
-      "dx": -953,
-      "dy": 4500,
-      "dw": -121,
-      "dh": -121
+      "dx": 0,
+      "dy": 60,
+      "dw": 0,
+      "dh": 0
      },
      "summary": {
       "elements": 1,
-      "within": 0,
-      "off": 1,
+      "within": 1,
+      "off": 0,
       "hidden": 0,
       "missing": 0,
       "extra": 1,
-      "unitOff": true
+      "unitOff": false
      }
     }
    ]
@@ -1311,11 +1311,11 @@
  ],
  "verdict": {
   "units": 8,
-  "within": 0,
-  "off": 25,
+  "within": 25,
+  "off": 0,
   "hidden": 0,
   "missing": 0,
   "errors": 1,
-  "requiredOff": 25
+  "requiredOff": 0
  }
 }

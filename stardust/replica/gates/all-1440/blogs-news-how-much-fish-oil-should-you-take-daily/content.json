@@ -1,14 +1,14 @@
 {
  "_provenance": {
   "writtenBy": "content-presence.mjs",
-  "at": "2026-11-11T09:02:43.494Z",
+  "at": "2026-11-11T13:40:06.580Z",
   "width": 1440,
   "variable": [],
   "tier": "chrome"
  },
  "origin": {
   "url": "https://naturesbounty.com/blogs/news/how-much-fish-oil-should-you-take-daily",
-  "at": "2026-11-11T09:02:23.410Z",
+  "at": "2026-11-11T13:39:46.417Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 4410,
@@ -21,7 +21,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": -84,
+    "x": 8,
     "y": 6,
     "w": 157,
     "h": 20,
@@ -35,7 +35,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 274,
+    "x": 366,
     "y": 6,
     "w": 213,
     "h": 20,
@@ -49,7 +49,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 686,
+    "x": 779,
     "y": 6,
     "w": 314,
     "h": 20,
@@ -63,7 +63,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 1201,
+    "x": 1293,
     "y": 6,
     "w": 157,
     "h": 20,
@@ -2011,18 +2011,39 @@
     "clamped": 0,
     "collapsed": 0,
     "scrollHidden": 0,
-    "horizontal": 0,
+    "horizontal": 2,
     "offPage": 8,
     "textNodes": 130,
     "controls": 105,
     "total": 0
    },
-   "groups": []
+   "groups": [
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.slick-list.draggable",
+     "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
+     "text": "shop our favorite products",
+     "cutMin": 8,
+     "cutMax": 8
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.slick-list.draggable",
+     "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
+     "text": "shop our favorite products",
+     "cutMin": 8,
+     "cutMax": 8
+    }
+   ]
   }
  },
  "eds": {
   "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/how-much-fish-oil-should-you-take-daily",
-  "at": "2026-11-11T09:02:43.381Z",
+  "at": "2026-11-11T13:40:06.472Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 4368,
@@ -2035,7 +2056,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": -55,
+    "x": -59,
     "y": 8,
     "w": 319,
     "h": 15,
@@ -2049,7 +2070,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 465,
+    "x": 460,
     "y": 8,
     "w": 160,
     "h": 15,
@@ -2063,7 +2084,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 825,
+    "x": 820,
     "y": 8,
     "w": 219,
     "h": 15,
@@ -2077,7 +2098,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 1243,
+    "x": 1239,
     "y": 8,
     "w": 319,
     "h": 15,
@@ -4143,8 +4164,8 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 57,
-     "cutMax": 136
+     "cutMin": 61,
+     "cutMax": 132
     },
     {
      "kind": "TEXT X-CUT",
@@ -4153,22 +4174,22 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 57,
-     "cutMax": 136
+     "cutMin": 61,
+     "cutMax": 132
     }
    ],
    "findings": [
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 57,
+     "cut": 61,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -57,
+      "l": -61,
       "t": 8,
-      "r": 263,
+      "r": 259,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4185,14 +4206,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 57,
+     "cut": 61,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -57,
+      "l": -61,
       "t": 8,
-      "r": 263,
+      "r": 259,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4210,14 +4231,14 @@
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 136,
+     "cut": 132,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 1242,
+      "l": 1237,
       "t": 8,
-      "r": 1561,
+      "r": 1557,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4234,14 +4255,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 136,
+     "cut": 132,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 1242,
+      "l": 1237,
       "t": 8,
-      "r": 1561,
+      "r": 1557,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4461,25 +4482,25 @@
  "textBoxes": {
   "origin": [
    {
-    "x": -85,
+    "x": 7,
     "y": 6,
     "w": 157,
     "h": 19
    },
    {
-    "x": 272,
+    "x": 364,
     "y": 6,
     "w": 213,
     "h": 19
    },
    {
-    "x": 685,
+    "x": 777,
     "y": 6,
     "w": 314,
     "h": 19
    },
    {
-    "x": 1199,
+    "x": 1291,
     "y": 6,
     "w": 157,
     "h": 19
@@ -5369,25 +5390,25 @@
   ],
   "eds": [
    {
-    "x": -57,
+    "x": -61,
     "y": 8,
     "w": 319,
     "h": 15
    },
    {
-    "x": 463,
+    "x": 459,
     "y": 8,
     "w": 160,
     "h": 15
    },
    {
-    "x": 823,
+    "x": 819,
     "y": 8,
     "w": 219,
     "h": 15
    },
    {
-    "x": 1242,
+    "x": 1237,
     "y": 8,
     "w": 319,
     "h": 15

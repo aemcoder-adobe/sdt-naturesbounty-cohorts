@@ -1,14 +1,14 @@
 {
  "_provenance": {
   "writtenBy": "content-presence.mjs",
-  "at": "2026-11-11T10:19:02.575Z",
+  "at": "2026-11-11T13:11:01.242Z",
   "width": 360,
   "variable": [],
   "tier": "chrome"
  },
  "origin": {
   "url": "https://naturesbounty.com/blogs/news/how-much-fish-oil-should-you-take-daily",
-  "at": "2026-11-11T10:18:37.128Z",
+  "at": "2026-11-11T13:10:35.756Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 8229,
@@ -21,7 +21,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": -13,
+    "x": -14,
     "y": 6,
     "w": 314,
     "h": 20,
@@ -1492,7 +1492,7 @@
  },
  "eds": {
   "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/how-much-fish-oil-should-you-take-daily",
-  "at": "2026-11-11T10:19:02.452Z",
+  "at": "2026-11-11T13:11:01.128Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 8180,
@@ -1505,7 +1505,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": -137,
+    "x": -138,
     "y": 9,
     "w": 202,
     "h": 14,
@@ -1519,7 +1519,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 265,
+    "x": 264,
     "y": 9,
     "w": 295,
     "h": 14,
@@ -3082,8 +3082,8 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "grow thicker, fuller hair in 3 months*",
-     "cutMin": 139,
-     "cutMax": 213
+     "cutMin": 140,
+     "cutMax": 212
     },
     {
      "kind": "TEXT X-CUT",
@@ -3092,22 +3092,22 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "grow thicker, fuller hair in 3 months*",
-     "cutMin": 139,
-     "cutMax": 213
+     "cutMin": 140,
+     "cutMax": 212
     }
    ],
    "findings": [
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 139,
+     "cut": 140,
      "path": "div.announce-track > ul > li > a",
      "text": "grow thicker, fuller hair in 3 months*",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -139,
+      "l": -140,
       "t": 9,
-      "r": 63,
+      "r": 62,
       "b": 23,
       "w": 202,
       "h": 14
@@ -3124,14 +3124,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 139,
+     "cut": 140,
      "path": "div.announce-track > ul > li > a",
      "text": "grow thicker, fuller hair in 3 months*",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -139,
+      "l": -140,
       "t": 9,
-      "r": 63,
+      "r": 62,
       "b": 23,
       "w": 202,
       "h": 14
@@ -3149,14 +3149,14 @@
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 213,
+     "cut": 212,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 263,
+      "l": 262,
       "t": 9,
-      "r": 558,
+      "r": 557,
       "b": 23,
       "w": 295,
       "h": 14
@@ -3173,14 +3173,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 213,
+     "cut": 212,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 263,
+      "l": 262,
       "t": 9,
-      "r": 558,
+      "r": 557,
       "b": 23,
       "w": 295,
       "h": 14
@@ -3400,7 +3400,7 @@
  "textBoxes": {
   "origin": [
    {
-    "x": -14,
+    "x": -16,
     "y": 6,
     "w": 314,
     "h": 19
@@ -4374,13 +4374,13 @@
   ],
   "eds": [
    {
-    "x": -139,
+    "x": -140,
     "y": 9,
     "w": 202,
     "h": 14
    },
    {
-    "x": 263,
+    "x": 262,
     "y": 9,
     "w": 295,
     "h": 14

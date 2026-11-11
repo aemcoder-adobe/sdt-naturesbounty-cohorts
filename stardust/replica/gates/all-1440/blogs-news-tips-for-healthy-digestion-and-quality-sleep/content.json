@@ -1,14 +1,14 @@
 {
  "_provenance": {
   "writtenBy": "content-presence.mjs",
-  "at": "2026-11-11T09:43:44.969Z",
+  "at": "2026-11-11T14:20:55.752Z",
   "width": 1440,
   "variable": [],
   "tier": "chrome"
  },
  "origin": {
   "url": "https://naturesbounty.com/blogs/news/tips-for-healthy-digestion-and-quality-sleep",
-  "at": "2026-11-11T09:43:24.508Z",
+  "at": "2026-11-11T14:20:35.115Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 4686,
@@ -21,7 +21,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 6,
+    "x": -11,
     "y": 6,
     "w": 157,
     "h": 20,
@@ -35,7 +35,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 363,
+    "x": 346,
     "y": 6,
     "w": 213,
     "h": 20,
@@ -49,7 +49,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 776,
+    "x": 759,
     "y": 6,
     "w": 314,
     "h": 20,
@@ -63,7 +63,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 1290,
+    "x": 1273,
     "y": 6,
     "w": 157,
     "h": 20,
@@ -1900,39 +1900,18 @@
     "clamped": 0,
     "collapsed": 0,
     "scrollHidden": 0,
-    "horizontal": 2,
+    "horizontal": 0,
     "offPage": 8,
     "textNodes": 124,
     "controls": 98,
     "total": 0
    },
-   "groups": [
-    {
-     "kind": "CONTROL X-CUT",
-     "advisory": true,
-     "n": 1,
-     "clipper": "div.slick-list.draggable",
-     "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
-     "text": "shop our favorite products",
-     "cutMin": 6,
-     "cutMax": 6
-    },
-    {
-     "kind": "TEXT X-CUT",
-     "advisory": true,
-     "n": 1,
-     "clipper": "div.slick-list.draggable",
-     "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
-     "text": "shop our favorite products",
-     "cutMin": 6,
-     "cutMax": 6
-    }
-   ]
+   "groups": []
   }
  },
  "eds": {
   "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/tips-for-healthy-digestion-and-quality-sleep",
-  "at": "2026-11-11T09:43:44.870Z",
+  "at": "2026-11-11T14:20:55.636Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 4746,
@@ -1945,7 +1924,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": -72,
+    "x": -73,
     "y": 8,
     "w": 319,
     "h": 15,
@@ -1973,7 +1952,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 808,
+    "x": 807,
     "y": 8,
     "w": 219,
     "h": 15,
@@ -1987,7 +1966,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 1226,
+    "x": 1225,
     "y": 8,
     "w": 319,
     "h": 15,
@@ -3981,8 +3960,8 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 73,
-     "cutMax": 119
+     "cutMin": 74,
+     "cutMax": 118
     },
     {
      "kind": "TEXT X-CUT",
@@ -3991,22 +3970,22 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 73,
-     "cutMax": 119
+     "cutMin": 74,
+     "cutMax": 118
     }
    ],
    "findings": [
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 73,
+     "cut": 74,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -73,
+      "l": -74,
       "t": 8,
-      "r": 246,
+      "r": 245,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4023,14 +4002,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 73,
+     "cut": 74,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -73,
+      "l": -74,
       "t": 8,
-      "r": 246,
+      "r": 245,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4048,14 +4027,14 @@
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 119,
+     "cut": 118,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 1225,
+      "l": 1224,
       "t": 8,
-      "r": 1544,
+      "r": 1543,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4072,14 +4051,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 119,
+     "cut": 118,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 1225,
+      "l": 1224,
       "t": 8,
-      "r": 1544,
+      "r": 1543,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4310,25 +4289,25 @@
  "textBoxes": {
   "origin": [
    {
-    "x": 5,
+    "x": -13,
     "y": 6,
     "w": 157,
     "h": 19
    },
    {
-    "x": 362,
+    "x": 344,
     "y": 6,
     "w": 213,
     "h": 19
    },
    {
-    "x": 775,
+    "x": 757,
     "y": 6,
     "w": 314,
     "h": 19
    },
    {
-    "x": 1289,
+    "x": 1271,
     "y": 6,
     "w": 157,
     "h": 19
@@ -5230,25 +5209,25 @@
   ],
   "eds": [
    {
-    "x": -73,
+    "x": -74,
     "y": 8,
     "w": 319,
     "h": 15
    },
    {
-    "x": 446,
+    "x": 445,
     "y": 8,
     "w": 160,
     "h": 15
    },
    {
-    "x": 806,
+    "x": 805,
     "y": 8,
     "w": 219,
     "h": 15
    },
    {
-    "x": 1225,
+    "x": 1224,
     "y": 8,
     "w": 319,
     "h": 15

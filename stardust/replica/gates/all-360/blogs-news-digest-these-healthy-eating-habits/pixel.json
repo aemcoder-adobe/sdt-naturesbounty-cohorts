@@ -1,0 +1,131 @@
+{
+  "a": "stardust/replica/gates/all-360/blogs-news-digest-these-healthy-eating-habits/origin.png",
+  "b": "stardust/replica/gates/all-360/blogs-news-digest-these-healthy-eating-habits/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 10373,
+    "mode": "overlap"
+  },
+  "heightDelta": 13,
+  "differingPixels": 209691,
+  "pct": 5.62,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/blogs-news-digest-these-healthy-eating-habits/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 17.33,
+  "textBoxes": 213,
+  "textPixels": 1108285,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 5.3
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 6.9
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 9
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 8.9
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 9.7
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 9.5
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 8.5
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 9.1
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 3.9
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 3.7
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 3.3
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 2.7
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 3.1
+    },
+    {
+      "y0": 6500,
+      "y1": 7000,
+      "pct": 3.6
+    },
+    {
+      "y0": 7000,
+      "y1": 7500,
+      "pct": 2.7
+    },
+    {
+      "y0": 7500,
+      "y1": 8000,
+      "pct": 2.6
+    },
+    {
+      "y0": 8000,
+      "y1": 8500,
+      "pct": 0
+    },
+    {
+      "y0": 8500,
+      "y1": 9000,
+      "pct": 2.9
+    },
+    {
+      "y0": 9000,
+      "y1": 9500,
+      "pct": 4.5
+    },
+    {
+      "y0": 9500,
+      "y1": 10000,
+      "pct": 7.8
+    },
+    {
+      "y0": 10000,
+      "y1": 10373,
+      "pct": 11.7
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--1a676f95--aemcoder.aem.page/blogs/news/digest-these-healthy-eating-habits"
+  }
+}

@@ -1,14 +1,14 @@
 {
  "_provenance": {
   "writtenBy": "content-presence.mjs",
-  "at": "2026-11-11T10:32:22.800Z",
+  "at": "2026-11-11T13:28:26.945Z",
   "width": 360,
   "variable": [],
   "tier": "chrome"
  },
  "origin": {
   "url": "https://naturesbounty.com/blogs/news/vitamin-b-12-rich-foods",
-  "at": "2026-11-11T10:31:55.331Z",
+  "at": "2026-11-11T13:27:59.242Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 9923,
@@ -21,7 +21,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 1,
+    "x": -21,
     "y": 6,
     "w": 314,
     "h": 20,
@@ -1790,7 +1790,7 @@
  },
  "eds": {
   "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/vitamin-b-12-rich-foods",
-  "at": "2026-11-11T10:32:22.686Z",
+  "at": "2026-11-11T13:28:26.819Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 9940,
@@ -1798,26 +1798,12 @@
   "items": [
    {
     "kind": "link",
-    "state": "hidden",
+    "state": "visible",
     "variable": false,
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": -202,
-    "y": 9,
-    "w": 202,
-    "h": 14,
-    "text": "grow thicker, fuller hair in 3 months*",
-    "href": "/pages/hair-growth"
-   },
-   {
-    "kind": "link",
-    "state": "hidden",
-    "variable": false,
-    "inRoot": false,
-    "inChrome": true,
-    "path": "ul > li > a",
-    "x": 200,
+    "x": 198,
     "y": 9,
     "w": 295,
     "h": 14,
@@ -3570,8 +3556,8 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 148,
-     "cutMax": 148
+     "cutMin": 146,
+     "cutMax": 146
     },
     {
      "kind": "TEXT X-CUT",
@@ -3580,22 +3566,22 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 148,
-     "cutMax": 148
+     "cutMin": 146,
+     "cutMax": 146
     }
    ],
    "findings": [
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 148,
+     "cut": 146,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 199,
+      "l": 196,
       "t": 9,
-      "r": 493,
+      "r": 491,
       "b": 23,
       "w": 295,
       "h": 14
@@ -3612,14 +3598,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 148,
+     "cut": 146,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 199,
+      "l": 196,
       "t": 9,
-      "r": 493,
+      "r": 491,
       "b": 23,
       "w": 295,
       "h": 14
@@ -3897,7 +3883,7 @@
  "textBoxes": {
   "origin": [
    {
-    "x": 0,
+    "x": -23,
     "y": 6,
     "w": 314,
     "h": 19
@@ -5129,7 +5115,7 @@
   ],
   "eds": [
    {
-    "x": 199,
+    "x": 196,
     "y": 9,
     "w": 295,
     "h": 14

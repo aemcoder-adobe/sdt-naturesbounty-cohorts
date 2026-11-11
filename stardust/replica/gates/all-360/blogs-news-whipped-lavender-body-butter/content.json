@@ -1,14 +1,14 @@
 {
  "_provenance": {
   "writtenBy": "content-presence.mjs",
-  "at": "2026-11-11T10:17:43.901Z",
+  "at": "2026-11-11T13:09:42.393Z",
   "width": 360,
   "variable": [],
   "tier": "chrome"
  },
  "origin": {
   "url": "https://naturesbounty.com/blogs/news/whipped-lavender-body-butter",
-  "at": "2026-11-11T10:17:19.329Z",
+  "at": "2026-11-11T13:09:17.953Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 7537,
@@ -21,7 +21,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 17,
+    "x": 113,
     "y": 6,
     "w": 314,
     "h": 20,
@@ -1601,18 +1601,39 @@
     "clamped": 0,
     "collapsed": 0,
     "scrollHidden": 0,
-    "horizontal": 0,
+    "horizontal": 2,
     "offPage": 179,
     "textNodes": 183,
     "controls": 159,
     "total": 0
    },
-   "groups": []
+   "groups": [
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.slick-list.draggable",
+     "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
+     "text": "supplementing the knowledge gap in women's health",
+     "cutMin": 65,
+     "cutMax": 65
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.slick-list.draggable",
+     "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
+     "text": "supplementing the knowledge gap in women's health",
+     "cutMin": 65,
+     "cutMax": 65
+    }
+   ]
   }
  },
  "eds": {
   "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/whipped-lavender-body-butter",
-  "at": "2026-11-11T10:17:43.794Z",
+  "at": "2026-11-11T13:09:42.277Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 7476,
@@ -1625,7 +1646,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": -105,
+    "x": -107,
     "y": 9,
     "w": 202,
     "h": 14,
@@ -1639,7 +1660,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 297,
+    "x": 295,
     "y": 9,
     "w": 295,
     "h": 14,
@@ -3296,8 +3317,8 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "grow thicker, fuller hair in 3 months*",
-     "cutMin": 106,
-     "cutMax": 246
+     "cutMin": 108,
+     "cutMax": 243
     },
     {
      "kind": "TEXT X-CUT",
@@ -3306,22 +3327,22 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "grow thicker, fuller hair in 3 months*",
-     "cutMin": 106,
-     "cutMax": 246
+     "cutMin": 108,
+     "cutMax": 243
     }
    ],
    "findings": [
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 106,
+     "cut": 108,
      "path": "div.announce-track > ul > li > a",
      "text": "grow thicker, fuller hair in 3 months*",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -106,
+      "l": -108,
       "t": 9,
-      "r": 96,
+      "r": 93,
       "b": 23,
       "w": 202,
       "h": 14
@@ -3338,14 +3359,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 106,
+     "cut": 108,
      "path": "div.announce-track > ul > li > a",
      "text": "grow thicker, fuller hair in 3 months*",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -106,
+      "l": -108,
       "t": 9,
-      "r": 96,
+      "r": 93,
       "b": 23,
       "w": 202,
       "h": 14
@@ -3363,14 +3384,14 @@
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 246,
+     "cut": 243,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 296,
+      "l": 293,
       "t": 9,
-      "r": 591,
+      "r": 588,
       "b": 23,
       "w": 295,
       "h": 14
@@ -3387,14 +3408,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 246,
+     "cut": 243,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 296,
+      "l": 293,
       "t": 9,
-      "r": 591,
+      "r": 588,
       "b": 23,
       "w": 295,
       "h": 14
@@ -3614,7 +3635,7 @@
  "textBoxes": {
   "origin": [
    {
-    "x": 16,
+    "x": 111,
     "y": 6,
     "w": 314,
     "h": 19
@@ -4498,13 +4519,13 @@
   ],
   "eds": [
    {
-    "x": -106,
+    "x": -108,
     "y": 9,
     "w": 202,
     "h": 14
    },
    {
-    "x": 296,
+    "x": 293,
     "y": 9,
     "w": 295,
     "h": 14

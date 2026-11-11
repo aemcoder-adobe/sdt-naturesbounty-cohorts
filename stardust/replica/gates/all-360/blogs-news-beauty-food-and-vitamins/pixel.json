@@ -7,8 +7,8 @@
     "mode": "overlap"
   },
   "heightDelta": 13,
-  "differingPixels": 275226,
-  "pct": 6.13,
+  "differingPixels": 274885,
+  "pct": 6.12,
   "threshold": 10,
   "pass": true,
   "diff": "stardust/replica/gates/all-360/blogs-news-beauty-food-and-vitamins/diff.png",
@@ -96,7 +96,7 @@
     {
       "y0": 7500,
       "y1": 8000,
-      "pct": 2.6
+      "pct": 2.4
     },
     {
       "y0": 8000,
@@ -143,5 +143,9 @@
       "y1": 12469,
       "pct": 12.3
     }
-  ]
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--1a676f95--aemcoder.aem.page/blogs/news/beauty-food-and-vitamins"
+  }
 }

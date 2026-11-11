@@ -1,14 +1,14 @@
 {
  "_provenance": {
   "writtenBy": "content-presence.mjs",
-  "at": "2026-11-11T09:25:13.619Z",
+  "at": "2026-11-11T14:02:22.741Z",
   "width": 1440,
   "variable": [],
   "tier": "chrome"
  },
  "origin": {
   "url": "https://naturesbounty.com/blogs/news/summer-tips-for-a-healthy-heart",
-  "at": "2026-11-11T09:24:53.167Z",
+  "at": "2026-11-11T14:02:02.194Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 4455,
@@ -21,7 +21,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": -60,
+    "x": 15,
     "y": 6,
     "w": 157,
     "h": 20,
@@ -35,7 +35,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 298,
+    "x": 372,
     "y": 6,
     "w": 213,
     "h": 20,
@@ -49,7 +49,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 710,
+    "x": 785,
     "y": 6,
     "w": 314,
     "h": 20,
@@ -63,7 +63,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 1225,
+    "x": 1299,
     "y": 6,
     "w": 157,
     "h": 20,
@@ -2075,18 +2075,39 @@
     "clamped": 0,
     "collapsed": 0,
     "scrollHidden": 0,
-    "horizontal": 0,
+    "horizontal": 2,
     "offPage": 8,
     "textNodes": 138,
     "controls": 104,
     "total": 0
    },
-   "groups": []
+   "groups": [
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.slick-list.draggable",
+     "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
+     "text": "shop our favorite products",
+     "cutMin": 14,
+     "cutMax": 14
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.slick-list.draggable",
+     "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
+     "text": "shop our favorite products",
+     "cutMin": 14,
+     "cutMax": 14
+    }
+   ]
   }
  },
  "eds": {
   "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/summer-tips-for-a-healthy-heart",
-  "at": "2026-11-11T09:25:13.498Z",
+  "at": "2026-11-11T14:02:22.629Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 4443,
@@ -2099,7 +2120,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": -70,
+    "x": -72,
     "y": 8,
     "w": 319,
     "h": 15,
@@ -2113,7 +2134,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 450,
+    "x": 447,
     "y": 8,
     "w": 160,
     "h": 15,
@@ -2127,7 +2148,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 810,
+    "x": 808,
     "y": 8,
     "w": 219,
     "h": 15,
@@ -2141,7 +2162,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 1229,
+    "x": 1226,
     "y": 8,
     "w": 319,
     "h": 15,
@@ -4245,8 +4266,8 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 71,
-     "cutMax": 121
+     "cutMin": 73,
+     "cutMax": 119
     },
     {
      "kind": "TEXT X-CUT",
@@ -4255,22 +4276,22 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 71,
-     "cutMax": 121
+     "cutMin": 73,
+     "cutMax": 119
     }
    ],
    "findings": [
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 71,
+     "cut": 73,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -71,
+      "l": -73,
       "t": 8,
-      "r": 248,
+      "r": 246,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4287,14 +4308,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 71,
+     "cut": 73,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -71,
+      "l": -73,
       "t": 8,
-      "r": 248,
+      "r": 246,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4312,14 +4333,14 @@
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 121,
+     "cut": 119,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 1227,
+      "l": 1225,
       "t": 8,
-      "r": 1546,
+      "r": 1544,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4336,14 +4357,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 121,
+     "cut": 119,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 1227,
+      "l": 1225,
       "t": 8,
-      "r": 1546,
+      "r": 1544,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4563,25 +4584,25 @@
  "textBoxes": {
   "origin": [
    {
-    "x": -61,
+    "x": 13,
     "y": 6,
     "w": 157,
     "h": 19
    },
    {
-    "x": 296,
+    "x": 370,
     "y": 6,
     "w": 213,
     "h": 19
    },
    {
-    "x": 709,
+    "x": 783,
     "y": 6,
     "w": 314,
     "h": 19
    },
    {
-    "x": 1223,
+    "x": 1297,
     "y": 6,
     "w": 157,
     "h": 19
@@ -5507,25 +5528,25 @@
   ],
   "eds": [
    {
-    "x": -71,
+    "x": -73,
     "y": 8,
     "w": 319,
     "h": 15
    },
    {
-    "x": 448,
+    "x": 446,
     "y": 8,
     "w": 160,
     "h": 15
    },
    {
-    "x": 808,
+    "x": 806,
     "y": 8,
     "w": 219,
     "h": 15
    },
    {
-    "x": 1227,
+    "x": 1225,
     "y": 8,
     "w": 319,
     "h": 15

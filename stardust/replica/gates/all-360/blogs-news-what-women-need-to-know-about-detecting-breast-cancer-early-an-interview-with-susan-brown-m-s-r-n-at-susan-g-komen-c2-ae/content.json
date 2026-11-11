@@ -1,14 +1,14 @@
 {
  "_provenance": {
   "writtenBy": "content-presence.mjs",
-  "at": "2026-11-11T10:19:47.594Z",
+  "at": "2026-11-11T13:11:50.669Z",
   "width": 360,
   "variable": [],
   "tier": "chrome"
  },
  "origin": {
   "url": "https://naturesbounty.com/blogs/news/what-women-need-to-know-about-detecting-breast-cancer-early-an-interview-with-susan-brown-m-s-r-n-at-susan-g-komen%C2%AE",
-  "at": "2026-11-11T10:19:17.706Z",
+  "at": "2026-11-11T13:11:20.515Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 11768,
@@ -21,26 +21,12 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": -166,
+    "x": -93,
     "y": 6,
     "w": 314,
     "h": 20,
     "text": "supplementing the knowledge gap in women's health",
     "href": "/pages/womens-wellness"
-   },
-   {
-    "kind": "link",
-    "state": "visible",
-    "variable": false,
-    "inRoot": false,
-    "inChrome": true,
-    "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 348,
-    "y": 6,
-    "w": 157,
-    "h": 20,
-    "text": "shop our favorite products",
-    "href": "/collections/favorites"
    },
    {
     "kind": "link",
@@ -1913,39 +1899,18 @@
     "clamped": 0,
     "collapsed": 0,
     "scrollHidden": 0,
-    "horizontal": 2,
-    "offPage": 177,
+    "horizontal": 0,
+    "offPage": 179,
     "textNodes": 203,
     "controls": 160,
     "total": 0
    },
-   "groups": [
-    {
-     "kind": "CONTROL X-CUT",
-     "advisory": true,
-     "n": 1,
-     "clipper": "div.slick-list.draggable",
-     "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
-     "text": "shop our favorite products",
-     "cutMin": 144,
-     "cutMax": 144
-    },
-    {
-     "kind": "TEXT X-CUT",
-     "advisory": true,
-     "n": 1,
-     "clipper": "div.slick-list.draggable",
-     "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
-     "text": "shop our favorite products",
-     "cutMin": 144,
-     "cutMax": 144
-    }
-   ]
+   "groups": []
   }
  },
  "eds": {
   "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/what-women-need-to-know-about-detecting-breast-cancer-early-an-interview-with-susan-brown-m-s-r-n-at-susan-g-komen-c2-ae",
-  "at": "2026-11-11T10:19:47.489Z",
+  "at": "2026-11-11T13:11:50.539Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 11743,
@@ -1958,7 +1923,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 124,
+    "x": 119,
     "y": 9,
     "w": 295,
     "h": 14,
@@ -3835,8 +3800,8 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 73,
-     "cutMax": 73
+     "cutMin": 67,
+     "cutMax": 67
     },
     {
      "kind": "TEXT X-CUT",
@@ -3845,22 +3810,22 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 73,
-     "cutMax": 73
+     "cutMin": 67,
+     "cutMax": 67
     }
    ],
    "findings": [
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 73,
+     "cut": 67,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 123,
+      "l": 117,
       "t": 9,
-      "r": 418,
+      "r": 412,
       "b": 23,
       "w": 295,
       "h": 14
@@ -3877,14 +3842,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 73,
+     "cut": 67,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 123,
+      "l": 117,
       "t": 9,
-      "r": 418,
+      "r": 412,
       "b": 23,
       "w": 295,
       "h": 14
@@ -4104,15 +4069,9 @@
  "textBoxes": {
   "origin": [
    {
-    "x": -168,
+    "x": -95,
     "y": 6,
     "w": 314,
-    "h": 19
-   },
-   {
-    "x": 346,
-    "y": 6,
-    "w": 157,
     "h": 19
    },
    {
@@ -5768,7 +5727,7 @@
   ],
   "eds": [
    {
-    "x": 123,
+    "x": 117,
     "y": 9,
     "w": 295,
     "h": 14

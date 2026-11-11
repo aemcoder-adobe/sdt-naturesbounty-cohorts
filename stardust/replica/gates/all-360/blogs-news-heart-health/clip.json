@@ -1,0 +1,57 @@
+{
+ "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/heart-health",
+ "at": "2026-11-11T12:49:10.139Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 2,
+  "offPage": 181,
+  "textNodes": 193,
+  "controls": 167,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.announce-viewport",
+   "path": "div.announce-track > ul > li > a",
+   "text": "supplementing the knowledge gap in women's health",
+   "cutMin": 146,
+   "cutMax": 146
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.announce-viewport",
+   "path": "div.announce-track > ul > li > a",
+   "text": "supplementing the knowledge gap in women's health",
+   "cutMin": 146,
+   "cutMax": 146
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 0,
+   "offPage": 179,
+   "textNodes": 192,
+   "controls": 164,
+   "total": 0
+  }
+ }
+}

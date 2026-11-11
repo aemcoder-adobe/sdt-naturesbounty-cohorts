@@ -1,14 +1,14 @@
 {
  "_provenance": {
   "writtenBy": "content-presence.mjs",
-  "at": "2026-11-11T10:25:44.713Z",
+  "at": "2026-11-11T13:19:46.252Z",
   "width": 360,
   "variable": [],
   "tier": "chrome"
  },
  "origin": {
   "url": "https://naturesbounty.com/blogs/news/5-tips-for-a-better-sleep-this-summer",
-  "at": "2026-11-11T10:25:19.197Z",
+  "at": "2026-11-11T13:19:20.899Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 8521,
@@ -21,7 +21,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 48,
+    "x": -19,
     "y": 6,
     "w": 314,
     "h": 20,
@@ -1557,7 +1557,7 @@
  },
  "eds": {
   "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/5-tips-for-a-better-sleep-this-summer",
-  "at": "2026-11-11T10:25:44.562Z",
+  "at": "2026-11-11T13:19:46.160Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 8314,
@@ -1570,7 +1570,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": -138,
+    "x": -136,
     "y": 9,
     "w": 202,
     "h": 14,
@@ -1584,7 +1584,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 264,
+    "x": 266,
     "y": 9,
     "w": 295,
     "h": 14,
@@ -3186,8 +3186,8 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "grow thicker, fuller hair in 3 months*",
-     "cutMin": 139,
-     "cutMax": 212
+     "cutMin": 137,
+     "cutMax": 214
     },
     {
      "kind": "TEXT X-CUT",
@@ -3196,22 +3196,22 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "grow thicker, fuller hair in 3 months*",
-     "cutMin": 139,
-     "cutMax": 212
+     "cutMin": 137,
+     "cutMax": 214
     }
    ],
    "findings": [
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 139,
+     "cut": 137,
      "path": "div.announce-track > ul > li > a",
      "text": "grow thicker, fuller hair in 3 months*",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -139,
+      "l": -137,
       "t": 9,
-      "r": 63,
+      "r": 65,
       "b": 23,
       "w": 202,
       "h": 14
@@ -3228,14 +3228,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 139,
+     "cut": 137,
      "path": "div.announce-track > ul > li > a",
      "text": "grow thicker, fuller hair in 3 months*",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -139,
+      "l": -137,
       "t": 9,
-      "r": 63,
+      "r": 65,
       "b": 23,
       "w": 202,
       "h": 14
@@ -3253,14 +3253,14 @@
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 212,
+     "cut": 214,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 263,
+      "l": 265,
       "t": 9,
-      "r": 557,
+      "r": 559,
       "b": 23,
       "w": 295,
       "h": 14
@@ -3277,14 +3277,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 212,
+     "cut": 214,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 263,
+      "l": 265,
       "t": 9,
-      "r": 557,
+      "r": 559,
       "b": 23,
       "w": 295,
       "h": 14
@@ -3504,7 +3504,7 @@
  "textBoxes": {
   "origin": [
    {
-    "x": 46,
+    "x": -20,
     "y": 6,
     "w": 314,
     "h": 19
@@ -4628,13 +4628,13 @@
   ],
   "eds": [
    {
-    "x": -139,
+    "x": -137,
     "y": 9,
     "w": 202,
     "h": 14
    },
    {
-    "x": 263,
+    "x": 265,
     "y": 9,
     "w": 295,
     "h": 14

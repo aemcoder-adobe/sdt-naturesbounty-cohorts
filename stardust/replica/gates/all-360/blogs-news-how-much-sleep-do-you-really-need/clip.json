@@ -1,0 +1,57 @@
+{
+ "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/how-much-sleep-do-you-really-need",
+ "at": "2026-11-11T12:56:36.281Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 4,
+  "offPage": 179,
+  "textNodes": 189,
+  "controls": 166,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 2,
+   "clipper": "div.announce-viewport",
+   "path": "div.announce-track > ul > li > a",
+   "text": "grow thicker, fuller hair in 3 months*",
+   "cutMin": 150,
+   "cutMax": 202
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 2,
+   "clipper": "div.announce-viewport",
+   "path": "div.announce-track > ul > li > a",
+   "text": "grow thicker, fuller hair in 3 months*",
+   "cutMin": 150,
+   "cutMax": 202
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 0,
+   "offPage": 179,
+   "textNodes": 188,
+   "controls": 161,
+   "total": 0
+  }
+ }
+}

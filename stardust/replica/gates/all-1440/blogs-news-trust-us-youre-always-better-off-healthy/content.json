@@ -1,14 +1,14 @@
 {
  "_provenance": {
   "writtenBy": "content-presence.mjs",
-  "at": "2026-11-11T09:27:24.199Z",
+  "at": "2026-11-11T14:04:30.028Z",
   "width": 1440,
   "variable": [],
   "tier": "chrome"
  },
  "origin": {
   "url": "https://naturesbounty.com/blogs/news/trust-us-youre-always-better-off-healthy",
-  "at": "2026-11-11T09:27:04.359Z",
+  "at": "2026-11-11T14:04:10.088Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 4232,
@@ -21,7 +21,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": -45,
+    "x": 15,
     "y": 6,
     "w": 157,
     "h": 20,
@@ -35,7 +35,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 312,
+    "x": 372,
     "y": 6,
     "w": 213,
     "h": 20,
@@ -49,7 +49,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 725,
+    "x": 785,
     "y": 6,
     "w": 314,
     "h": 20,
@@ -63,7 +63,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 1239,
+    "x": 1299,
     "y": 6,
     "w": 157,
     "h": 20,
@@ -2012,18 +2012,39 @@
     "clamped": 0,
     "collapsed": 0,
     "scrollHidden": 0,
-    "horizontal": 0,
+    "horizontal": 2,
     "offPage": 8,
     "textNodes": 134,
     "controls": 106,
     "total": 0
    },
-   "groups": []
+   "groups": [
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.slick-list.draggable",
+     "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
+     "text": "shop our favorite products",
+     "cutMin": 15,
+     "cutMax": 15
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.slick-list.draggable",
+     "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
+     "text": "shop our favorite products",
+     "cutMin": 15,
+     "cutMax": 15
+    }
+   ]
   }
  },
  "eds": {
   "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/trust-us-youre-always-better-off-healthy",
-  "at": "2026-11-11T09:27:24.083Z",
+  "at": "2026-11-11T14:04:29.919Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 4220,
@@ -2036,7 +2057,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": -55,
+    "x": -56,
     "y": 8,
     "w": 319,
     "h": 15,
@@ -2050,7 +2071,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 465,
+    "x": 464,
     "y": 8,
     "w": 160,
     "h": 15,
@@ -2064,7 +2085,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 825,
+    "x": 824,
     "y": 8,
     "w": 219,
     "h": 15,
@@ -2078,7 +2099,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 1243,
+    "x": 1242,
     "y": 8,
     "w": 319,
     "h": 15,
@@ -4171,8 +4192,8 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 56,
-     "cutMax": 136
+     "cutMin": 57,
+     "cutMax": 135
     },
     {
      "kind": "TEXT X-CUT",
@@ -4181,22 +4202,22 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 56,
-     "cutMax": 136
+     "cutMin": 57,
+     "cutMax": 135
     }
    ],
    "findings": [
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 56,
+     "cut": 57,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -56,
+      "l": -57,
       "t": 8,
-      "r": 263,
+      "r": 262,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4213,14 +4234,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 56,
+     "cut": 57,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -56,
+      "l": -57,
       "t": 8,
-      "r": 263,
+      "r": 262,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4238,14 +4259,14 @@
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 136,
+     "cut": 135,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 1242,
+      "l": 1241,
       "t": 8,
-      "r": 1561,
+      "r": 1560,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4262,14 +4283,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 136,
+     "cut": 135,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 1242,
+      "l": 1241,
       "t": 8,
-      "r": 1561,
+      "r": 1560,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4489,25 +4510,25 @@
  "textBoxes": {
   "origin": [
    {
-    "x": -47,
+    "x": 13,
     "y": 6,
     "w": 157,
     "h": 19
    },
    {
-    "x": 311,
+    "x": 370,
     "y": 6,
     "w": 213,
     "h": 19
    },
    {
-    "x": 723,
+    "x": 783,
     "y": 6,
     "w": 314,
     "h": 19
    },
    {
-    "x": 1238,
+    "x": 1297,
     "y": 6,
     "w": 157,
     "h": 19
@@ -5391,25 +5412,25 @@
   ],
   "eds": [
    {
-    "x": -56,
+    "x": -57,
     "y": 8,
     "w": 319,
     "h": 15
    },
    {
-    "x": 463,
+    "x": 462,
     "y": 8,
     "w": 160,
     "h": 15
    },
    {
-    "x": 823,
+    "x": 822,
     "y": 8,
     "w": 219,
     "h": 15
    },
    {
-    "x": 1242,
+    "x": 1241,
     "y": 8,
     "w": 319,
     "h": 15

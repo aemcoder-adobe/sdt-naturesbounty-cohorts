@@ -1,0 +1,1940 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-11T12:09:40.023Z",
+  "tol": 4,
+  "n": 5,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://naturesbounty.com/blogs/news/10-tips-for-when-you-find-out-you-are-pregnant",
+  "at": "2026-11-11T12:09:09.575Z",
+  "docH": 12247
+ },
+ "eds": {
+  "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/10-tips-for-when-you-find-out-you-are-pregnant",
+  "at": "2026-11-11T12:09:39.923Z",
+  "docH": 12294
+ },
+ "results": [
+  {
+   "sel": ".article-main__related .article-item=.related .related-card",
+   "family": null,
+   "required": true,
+   "originMatches": 3,
+   "edsMatches": 3,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.article-main__related.container__tight > div.article-item__grid > div.article-item.is-layout-3"
+     },
+     "eds": {
+      "path": "div.related.block > div.related-grid > div.related-card"
+     },
+     "rows": [
+      {
+       "key": "image:over 40 years of trusted quality",
+       "role": "image",
+       "text": "over 40 years of trusted quality",
+       "edsText": "over 40 years of trusted quality",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 305,
+        "h": 200
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 305,
+        "h": 200,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:a.article-item__url#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 180,
+        "w": 305,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 183,
+        "w": 305,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 3,
+       "dw": 0,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:bone & joint health",
+       "role": "link",
+       "text": "bone & joint health",
+       "edsText": "bone & joint health",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 220,
+        "w": 138,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 220,
+        "w": 139,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "text:|",
+       "role": "text",
+       "text": "|",
+       "edsText": "|",
+       "byPosition": false,
+       "origin": {
+        "x": 143,
+        "y": 220,
+        "w": 3,
+        "h": 30
+       },
+       "eds": {
+        "x": 144,
+        "y": 220,
+        "w": 3,
+        "h": 30,
+        "sel": "span.related-card-sep",
+        "role": "text"
+       },
+       "dx": 1,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "link:brain health",
+       "role": "link",
+       "text": "brain health",
+       "edsText": "brain health",
+       "byPosition": false,
+       "origin": {
+        "x": 151,
+        "y": 220,
+        "w": 90,
+        "h": 30
+       },
+       "eds": {
+        "x": 152,
+        "y": 220,
+        "w": 90,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 1,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "link:digestive health",
+       "role": "link",
+       "text": "digestive health",
+       "edsText": "digestive health",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 255,
+        "w": 117,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 255,
+        "w": 116,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "link:over 40 years of trusted quality",
+       "role": "link",
+       "text": "over 40 years of trusted quality",
+       "edsText": "over 40 years of trusted quality",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 285,
+        "w": 305,
+        "h": 92
+       },
+       "eds": {
+        "x": 0,
+        "y": 285,
+        "w": 305,
+        "h": 92,
+        "sel": "a.related-card-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "heading:over 40 years of trusted quality",
+       "role": "heading",
+       "text": "over 40 years of trusted quality",
+       "edsText": "over 40 years of trusted quality",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 301,
+        "w": 305,
+        "h": 76
+       },
+       "eds": {
+        "x": 0,
+        "y": 301,
+        "w": 305,
+        "h": 76,
+        "sel": "h3#over-40-years-of-trusted-quality",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "25/38/700",
+        "eds": "25/38/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 305,
+       "h": 200,
+       "absY": 7982,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 20,
+       "y": 7922,
+       "w": 305,
+       "h": 377
+      },
+      "eds": {
+       "x": 20,
+       "y": 7982,
+       "w": 305,
+       "h": 377
+      },
+      "dx": 0,
+      "dy": 60,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 8,
+      "within": 8,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.article-main__related.container__tight > div.article-item__grid > div.article-item.is-layout-3"
+     },
+     "eds": {
+      "path": "div.related.block > div.related-grid > div.related-card"
+     },
+     "rows": [
+      {
+       "key": "image:trust us, you're always better off healt",
+       "role": "image",
+       "text": "trust us, you're always better off healthy",
+       "edsText": "trust us, you're always better off healthy",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 305,
+        "h": 200
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 305,
+        "h": 200,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:a.article-item__url#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 180,
+        "w": 305,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 183,
+        "w": 305,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 3,
+       "dw": 0,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:bone & joint health",
+       "role": "link",
+       "text": "bone & joint health",
+       "edsText": "bone & joint health",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 220,
+        "w": 138,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 220,
+        "w": 139,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "text:|",
+       "role": "text",
+       "text": "|",
+       "edsText": "|",
+       "byPosition": false,
+       "origin": {
+        "x": 143,
+        "y": 220,
+        "w": 3,
+        "h": 30
+       },
+       "eds": {
+        "x": 144,
+        "y": 220,
+        "w": 3,
+        "h": 30,
+        "sel": "span.related-card-sep",
+        "role": "text"
+       },
+       "dx": 1,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "link:brain health",
+       "role": "link",
+       "text": "brain health",
+       "edsText": "brain health",
+       "byPosition": false,
+       "origin": {
+        "x": 151,
+        "y": 220,
+        "w": 90,
+        "h": 30
+       },
+       "eds": {
+        "x": 152,
+        "y": 220,
+        "w": 90,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 1,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "link:digestive health",
+       "role": "link",
+       "text": "digestive health",
+       "edsText": "digestive health",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 255,
+        "w": 117,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 255,
+        "w": 116,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "link:trust us, you're always better off healt",
+       "role": "link",
+       "text": "trust us, you're always better off healthy although you neve",
+       "edsText": "trust us, you're always better off healthy although you neve",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 285,
+        "w": 305,
+        "h": 182
+       },
+       "eds": {
+        "x": 0,
+        "y": 285,
+        "w": 305,
+        "h": 182,
+        "sel": "a.related-card-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "heading:trust us, you're always better off healt",
+       "role": "heading",
+       "text": "trust us, you're always better off healthy",
+       "edsText": "trust us, you're always better off healthy",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 301,
+        "w": 305,
+        "h": 76
+       },
+       "eds": {
+        "x": 0,
+        "y": 301,
+        "w": 305,
+        "h": 76,
+        "sel": "h3#trust-us-youre-always-better-off-healthy",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "25/38/700",
+        "eds": "25/38/700"
+       }
+      },
+      {
+       "key": "text:although you never know what the future ",
+       "role": "text",
+       "text": "although you never know what the future may bring, one thing",
+       "edsText": "although you never know what the future may bring, one thing",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 379,
+        "w": 298,
+        "h": 85
+       },
+       "eds": {
+        "x": 0,
+        "y": 381,
+        "w": 297,
+        "h": 82,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 2,
+       "dw": -1,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 305,
+       "h": 200,
+       "absY": 8409,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 20,
+       "y": 8349,
+       "w": 305,
+       "h": 467
+      },
+      "eds": {
+       "x": 20,
+       "y": 8409,
+       "w": 305,
+       "h": 467
+      },
+      "dx": 0,
+      "dy": 60,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 9,
+      "within": 9,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.article-main__related.container__tight > div.article-item__grid > div.article-item.is-layout-3"
+     },
+     "eds": {
+      "path": "div.related.block > div.related-grid > div.related-card"
+     },
+     "rows": [
+      {
+       "key": "image:the benefits of prenatal vitamins",
+       "role": "image",
+       "text": "the benefits of prenatal vitamins",
+       "edsText": "the benefits of prenatal vitamins",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 305,
+        "h": 200
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 305,
+        "h": 200,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:a.article-item__url#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 180,
+        "w": 305,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 183,
+        "w": 305,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 3,
+       "dw": 0,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:prenatal health",
+       "role": "link",
+       "text": "prenatal health",
+       "edsText": "prenatal health",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 220,
+        "w": 115,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 220,
+        "w": 116,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "text:|",
+       "role": "text",
+       "text": "|",
+       "edsText": "|",
+       "byPosition": false,
+       "origin": {
+        "x": 120,
+        "y": 220,
+        "w": 3,
+        "h": 30
+       },
+       "eds": {
+        "x": 121,
+        "y": 220,
+        "w": 3,
+        "h": 30,
+        "sel": "span.related-card-sep",
+        "role": "text"
+       },
+       "dx": 1,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "link:women's health",
+       "role": "link",
+       "text": "women's health",
+       "edsText": "women's health",
+       "byPosition": false,
+       "origin": {
+        "x": 128,
+        "y": 220,
+        "w": 115,
+        "h": 30
+       },
+       "eds": {
+        "x": 129,
+        "y": 220,
+        "w": 114,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 1,
+       "dy": 0,
+       "dw": -1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "link:women's wellness",
+       "role": "link",
+       "text": "women's wellness",
+       "edsText": "women's wellness",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 255,
+        "w": 132,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 255,
+        "w": 132,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "link:the benefits of prenatal vitamins incorp",
+       "role": "link",
+       "text": "the benefits of prenatal vitamins incorporating a prenatal v",
+       "edsText": "the benefits of prenatal vitamins incorporating a prenatal v",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 285,
+        "w": 305,
+        "h": 182
+       },
+       "eds": {
+        "x": 0,
+        "y": 285,
+        "w": 305,
+        "h": 182,
+        "sel": "a.related-card-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "heading:the benefits of prenatal vitamins",
+       "role": "heading",
+       "text": "the benefits of prenatal vitamins",
+       "edsText": "the benefits of prenatal vitamins",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 301,
+        "w": 305,
+        "h": 76
+       },
+       "eds": {
+        "x": 0,
+        "y": 301,
+        "w": 305,
+        "h": 76,
+        "sel": "h3#the-benefits-of-prenatal-vitamins",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "25/38/700",
+        "eds": "25/38/700"
+       }
+      },
+      {
+       "key": "text:incorporating a prenatal vitamin before ",
+       "role": "text",
+       "text": "incorporating a prenatal vitamin before and during pregnancy",
+       "edsText": "incorporating a prenatal vitamin before and during pregnancy",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 379,
+        "w": 294,
+        "h": 85
+       },
+       "eds": {
+        "x": 0,
+        "y": 381,
+        "w": 288,
+        "h": 82,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 2,
+       "dw": -6,
+       "dh": -3,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 305,
+       "h": 200,
+       "absY": 8926,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 20,
+       "y": 8866,
+       "w": 305,
+       "h": 467
+      },
+      "eds": {
+       "x": 20,
+       "y": 8926,
+       "w": 305,
+       "h": 467
+      },
+      "dx": 0,
+      "dy": 60,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 9,
+      "within": 8,
+      "off": 1,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".article-main__products-grid .product-item=.product-rail__grid .product-card, .product-rail .product-rail-grid .product-card",
+   "family": null,
+   "required": true,
+   "originMatches": 1,
+   "edsMatches": 1,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.article-main__products > div.article-main__products-grid > div.product-item"
+     },
+     "eds": {
+      "path": "div.product-rail.block > div.product-rail-grid > div.product-card"
+     },
+     "rows": [
+      {
+       "key": "link:essential prenatal gummies 100% daily va",
+       "role": "link",
+       "text": "essential prenatal gummies 100% daily value of folate & iodi",
+       "edsText": "essential prenatal gummies 100% daily value of folate & iodi",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 305,
+        "h": 609
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 305,
+        "h": 609,
+        "sel": "a.product-card-inner",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "image:essential prenatal gummies",
+       "role": "image",
+       "text": "essential prenatal gummies",
+       "edsText": "essential prenatal gummies",
+       "byPosition": false,
+       "origin": {
+        "x": 21,
+        "y": 56,
+        "w": 263,
+        "h": 200
+       },
+       "eds": {
+        "x": 21,
+        "y": 56,
+        "w": 263,
+        "h": 200,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "heading:essential prenatal gummies",
+       "role": "heading",
+       "text": "essential prenatal gummies",
+       "edsText": "essential prenatal gummies",
+       "byPosition": false,
+       "origin": {
+        "x": 21,
+        "y": 307,
+        "w": 263,
+        "h": 44
+       },
+       "eds": {
+        "x": 21,
+        "y": 307,
+        "w": 263,
+        "h": 44,
+        "sel": "h3#essential-prenatal-gummies",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "22/22/800",
+        "eds": "22/22/800"
+       }
+      },
+      {
+       "key": "text:100% daily value of folate & iodine, 50 ",
+       "role": "text",
+       "text": "100% daily value of folate & iodine, 50 gummies",
+       "edsText": "100% daily value of folate & iodine, 50 gummies",
+       "byPosition": false,
+       "origin": {
+        "x": 21,
+        "y": 351,
+        "w": 263,
+        "h": 60
+       },
+       "eds": {
+        "x": 21,
+        "y": 351,
+        "w": 263,
+        "h": 60,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "button:4.4",
+       "role": "button",
+       "text": "4.4",
+       "edsText": "4.4",
+       "byPosition": false,
+       "origin": {
+        "x": 21,
+        "y": 421,
+        "w": 263,
+        "h": 25
+       },
+       "eds": {
+        "x": 21,
+        "y": 421,
+        "w": 263,
+        "h": 25,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "12/25/500"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 81,
+        "y": 424,
+        "w": 21,
+        "h": 20
+       },
+       "eds": {
+        "x": 83,
+        "y": 424,
+        "w": 20,
+        "h": 20,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 2,
+       "dy": 0,
+       "dw": -1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "12/25/500"
+       }
+      },
+      {
+       "key": "image:svg#2",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 102,
+        "y": 424,
+        "w": 21,
+        "h": 20
+       },
+       "eds": {
+        "x": 104,
+        "y": 424,
+        "w": 20,
+        "h": 20,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 2,
+       "dy": 0,
+       "dw": -1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "12/25/500"
+       }
+      },
+      {
+       "key": "image:svg#3",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 123,
+        "y": 424,
+        "w": 21,
+        "h": 20
+       },
+       "eds": {
+        "x": 125,
+        "y": 424,
+        "w": 20,
+        "h": 20,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 2,
+       "dy": 0,
+       "dw": -1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "12/25/500"
+       }
+      },
+      {
+       "key": "image:svg#4",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 144,
+        "y": 424,
+        "w": 21,
+        "h": 20
+       },
+       "eds": {
+        "x": 146,
+        "y": 424,
+        "w": 20,
+        "h": 20,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 2,
+       "dy": 0,
+       "dw": -1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "12/25/500"
+       }
+      },
+      {
+       "key": "image:svg#5",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 165,
+        "y": 424,
+        "w": 20,
+        "h": 20
+       },
+       "eds": {
+        "x": 167,
+        "y": 424,
+        "w": 20,
+        "h": 20,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 2,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/16/400",
+        "eds": "12/25/500"
+       }
+      },
+      {
+       "key": "text:100% daily value of folic acid and iodin",
+       "role": "text",
+       "text": "100% daily value of folic acid and iodine for pregnant women",
+       "edsText": "100% daily value of folic acid and iodine for pregnant women",
+       "byPosition": false,
+       "origin": {
+        "x": 21,
+        "y": 456,
+        "w": 263,
+        "h": 44
+       },
+       "eds": {
+        "x": 21,
+        "y": 456,
+        "w": 263,
+        "h": 44,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "15/22/500",
+        "eds": "15/22/500"
+       }
+      },
+      {
+       "key": "button:view product",
+       "role": "button",
+       "text": "view product",
+       "edsText": "view product",
+       "byPosition": false,
+       "origin": {
+        "x": 21,
+        "y": 520,
+        "w": 263,
+        "h": 68
+       },
+       "eds": {
+        "x": 21,
+        "y": 520,
+        "w": 263,
+        "h": 68,
+        "sel": "p.button-wrapper",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/700",
+        "eds": "18/30/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 21,
+       "y": 56,
+       "w": 263,
+       "h": 200,
+       "absY": 7199,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 20,
+       "y": 7083,
+       "w": 305,
+       "h": 609
+      },
+      "eds": {
+       "x": 20,
+       "y": 7143,
+       "w": 305,
+       "h": 609
+      },
+      "dx": 0,
+      "dy": 60,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 12,
+      "within": 12,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".instagram__blocks .instagram__item=.social-strip__grid .social-tile, .social-strip .social-strip-grid .social-tile",
+   "family": null,
+   "required": true,
+   "originMatches": 5,
+   "edsMatches": 5,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand"
+     },
+     "eds": {
+      "path": "div.social-strip.block > div.social-strip-grid > a.social-tile"
+     },
+     "rows": [
+      {
+       "key": "image:<p>advanced magnesium glycinate</p>",
+       "role": "image",
+       "text": "<p>advanced magnesium glycinate</p>",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 315,
+        "h": 315
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 315,
+        "h": 315,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "advanced magnesium glycinate",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 315,
+       "h": 315,
+       "absY": 9866,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:advanced magnesium glycinate"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 15,
+       "y": 9806,
+       "w": 315,
+       "h": 315
+      },
+      "eds": {
+       "x": 15,
+       "y": 9866,
+       "w": 315,
+       "h": 315
+      },
+      "dx": 0,
+      "dy": 60,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand"
+     },
+     "eds": {
+      "path": "div.social-strip.block > div.social-strip-grid > a.social-tile"
+     },
+     "rows": [
+      {
+       "key": "image:<p>hair growth capsules</p>",
+       "role": "image",
+       "text": "<p>hair growth capsules</p>",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 150
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 150,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "hair growth capsules",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 150,
+       "h": 150,
+       "absY": 10196,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:hair growth capsules"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 15,
+       "y": 10136,
+       "w": 150,
+       "h": 150
+      },
+      "eds": {
+       "x": 15,
+       "y": 10196,
+       "w": 150,
+       "h": 150
+      },
+      "dx": 0,
+      "dy": 60,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand"
+     },
+     "eds": {
+      "path": "div.social-strip.block > div.social-strip-grid > a.social-tile"
+     },
+     "rows": [
+      {
+       "key": "image:<p>super b-complex</p>",
+       "role": "image",
+       "text": "<p>super b-complex</p>",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 150
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 150,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "super b-complex",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 150,
+       "h": 150,
+       "absY": 10196,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:super b-complex"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 180,
+       "y": 10136,
+       "w": 150,
+       "h": 150
+      },
+      "eds": {
+       "x": 180,
+       "y": 10196,
+       "w": 150,
+       "h": 150
+      },
+      "dx": 0,
+      "dy": 60,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand"
+     },
+     "eds": {
+      "path": "div.social-strip.block > div.social-strip-grid > a.social-tile"
+     },
+     "rows": [
+      {
+       "key": "image:<p>vitamin c</p>",
+       "role": "image",
+       "text": "<p>vitamin c</p>",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 150
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 150,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "vitamin c",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 150,
+       "h": 150,
+       "absY": 10361,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:vitamin c"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 15,
+       "y": 10301,
+       "w": 150,
+       "h": 150
+      },
+      "eds": {
+       "x": 15,
+       "y": 10361,
+       "w": 150,
+       "h": 150
+      },
+      "dx": 0,
+      "dy": 60,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "section.instagram.t-bg > div.instagram__blocks > a.instagram__item.instagram__item-rebrand"
+     },
+     "eds": {
+      "path": "div.social-strip.block > div.social-strip-grid > a.social-tile"
+     },
+     "rows": [
+      {
+       "key": "image:<p>advanced hair, skin + nails pectin gu",
+       "role": "image",
+       "text": "<p>advanced hair, skin + nails pectin gummy</p>",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 150
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 150,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "advanced hair, skin + nails pectin gummy",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 150,
+       "h": 150,
+       "absY": 10361,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:advanced hair, skin + nails pectin gummy"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 180,
+       "y": 10301,
+       "w": 150,
+       "h": 150
+      },
+      "eds": {
+       "x": 180,
+       "y": 10361,
+       "w": 150,
+       "h": 150
+      },
+      "dx": 0,
+      "dy": 60,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 9,
+  "within": 42,
+  "off": 1,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 1
+ }
+}

@@ -3,20 +3,20 @@
   "b": "stardust/replica/gates/all-1440/blogs-news-heart-health/eds.png",
   "compared": {
     "width": 1440,
-    "height": 4935,
+    "height": 4970,
     "mode": "overlap"
   },
-  "heightDelta": 47,
-  "differingPixels": 922020,
-  "pct": 12.97,
+  "heightDelta": 12,
+  "differingPixels": 205478,
+  "pct": 2.87,
   "threshold": 10,
-  "pass": false,
+  "pass": true,
   "diff": "stardust/replica/gates/all-1440/blogs-news-heart-health/diff.png",
   "masks": [],
   "maskedRows": 0,
-  "textPct": 17.18,
+  "textPct": 17.62,
   "textBoxes": 179,
-  "textPixels": 1130718,
+  "textPixels": 1130604,
   "bands": [
     {
       "y0": 0,
@@ -41,32 +41,32 @@
     {
       "y0": 2000,
       "y1": 2500,
-      "pct": 3.3
+      "pct": 2.2
     },
     {
       "y0": 2500,
       "y1": 3000,
-      "pct": 33.1
+      "pct": 0.7
     },
     {
       "y0": 3000,
       "y1": 3500,
-      "pct": 13
+      "pct": 3.4
     },
     {
       "y0": 3500,
       "y1": 4000,
-      "pct": 48.4
+      "pct": 0.8
     },
     {
       "y0": 4000,
       "y1": 4500,
-      "pct": 10.5
+      "pct": 2.2
     },
     {
       "y0": 4500,
-      "y1": 4935,
-      "pct": 5.2
+      "y1": 4970,
+      "pct": 4.4
     }
   ]
 }

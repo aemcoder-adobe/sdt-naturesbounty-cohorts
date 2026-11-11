@@ -1,14 +1,14 @@
 {
  "_provenance": {
   "writtenBy": "content-presence.mjs",
-  "at": "2026-11-11T09:53:50.578Z",
+  "at": "2026-11-11T14:30:52.123Z",
   "width": 1440,
   "variable": [],
   "tier": "chrome"
  },
  "origin": {
   "url": "https://naturesbounty.com/blogs/news/easy-hairstyles",
-  "at": "2026-11-11T09:53:29.648Z",
+  "at": "2026-11-11T14:30:30.923Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 8285,
@@ -21,7 +21,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 119,
+    "x": 195,
     "y": 6,
     "w": 213,
     "h": 20,
@@ -35,7 +35,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 532,
+    "x": 607,
     "y": 6,
     "w": 314,
     "h": 20,
@@ -49,26 +49,12 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 1046,
+    "x": 1122,
     "y": 6,
     "w": 157,
     "h": 20,
     "text": "shop our favorite products",
     "href": "/collections/favorites"
-   },
-   {
-    "kind": "link",
-    "state": "visible",
-    "variable": false,
-    "inRoot": false,
-    "inChrome": true,
-    "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 1403,
-    "y": 6,
-    "w": 213,
-    "h": 20,
-    "text": "grow thicker, fuller hair in 3 months*",
-    "href": "/pages/hair-growth"
    },
    {
     "kind": "link",
@@ -2416,39 +2402,18 @@
     "clamped": 0,
     "collapsed": 0,
     "scrollHidden": 0,
-    "horizontal": 2,
-    "offPage": 8,
+    "horizontal": 0,
+    "offPage": 10,
     "textNodes": 157,
     "controls": 112,
     "total": 0
    },
-   "groups": [
-    {
-     "kind": "CONTROL X-CUT",
-     "advisory": true,
-     "n": 1,
-     "clipper": "div.slick-list.draggable",
-     "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
-     "text": "grow thicker, fuller hair in 3 months*",
-     "cutMin": 174,
-     "cutMax": 174
-    },
-    {
-     "kind": "TEXT X-CUT",
-     "advisory": true,
-     "n": 1,
-     "clipper": "div.slick-list.draggable",
-     "path": "div.banner__slide.slick-initialized > div.slick-list.draggable > div.slick-track > a.link.is-alt",
-     "text": "grow thicker, fuller hair in 3 months*",
-     "cutMin": 174,
-     "cutMax": 174
-    }
-   ]
+   "groups": []
   }
  },
  "eds": {
   "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/easy-hairstyles",
-  "at": "2026-11-11T09:53:50.484Z",
+  "at": "2026-11-11T14:30:51.987Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 4823,
@@ -2461,7 +2426,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": -86,
+    "x": -88,
     "y": 8,
     "w": 319,
     "h": 15,
@@ -2475,7 +2440,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 433,
+    "x": 432,
     "y": 8,
     "w": 160,
     "h": 15,
@@ -2489,7 +2454,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 793,
+    "x": 792,
     "y": 8,
     "w": 219,
     "h": 15,
@@ -2503,7 +2468,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 1212,
+    "x": 1211,
     "y": 8,
     "w": 319,
     "h": 15,
@@ -4836,8 +4801,8 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 88,
-     "cutMax": 105
+     "cutMin": 90,
+     "cutMax": 103
     },
     {
      "kind": "TEXT X-CUT",
@@ -4846,22 +4811,22 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 88,
-     "cutMax": 105
+     "cutMin": 90,
+     "cutMax": 103
     }
    ],
    "findings": [
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 88,
+     "cut": 90,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -88,
+      "l": -90,
       "t": 8,
-      "r": 232,
+      "r": 229,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4878,14 +4843,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 88,
+     "cut": 90,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -88,
+      "l": -90,
       "t": 8,
-      "r": 232,
+      "r": 229,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4903,14 +4868,14 @@
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 105,
+     "cut": 103,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 1211,
+      "l": 1208,
       "t": 8,
-      "r": 1530,
+      "r": 1528,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4927,14 +4892,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 105,
+     "cut": 103,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 1211,
+      "l": 1208,
       "t": 8,
-      "r": 1530,
+      "r": 1528,
       "b": 23,
       "w": 319,
       "h": 15
@@ -5165,27 +5130,21 @@
  "textBoxes": {
   "origin": [
    {
-    "x": 117,
+    "x": 192,
     "y": 6,
     "w": 213,
     "h": 19
    },
    {
-    "x": 530,
+    "x": 605,
     "y": 6,
     "w": 314,
     "h": 19
    },
    {
-    "x": 1044,
+    "x": 1119,
     "y": 6,
     "w": 157,
-    "h": 19
-   },
-   {
-    "x": 1401,
-    "y": 6,
-    "w": 213,
     "h": 19
    },
    {
@@ -6199,25 +6158,25 @@
   ],
   "eds": [
    {
-    "x": -88,
+    "x": -90,
     "y": 8,
     "w": 319,
     "h": 15
    },
    {
-    "x": 432,
+    "x": 429,
     "y": 8,
     "w": 160,
     "h": 15
    },
    {
-    "x": 792,
+    "x": 790,
     "y": 8,
     "w": 219,
     "h": 15
    },
    {
-    "x": 1211,
+    "x": 1208,
     "y": 8,
     "w": 319,
     "h": 15

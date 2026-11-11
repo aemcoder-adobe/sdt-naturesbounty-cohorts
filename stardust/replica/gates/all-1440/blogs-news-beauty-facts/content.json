@@ -1,14 +1,14 @@
 {
  "_provenance": {
   "writtenBy": "content-presence.mjs",
-  "at": "2026-11-11T09:01:57.904Z",
+  "at": "2026-11-11T13:39:16.982Z",
   "width": 1440,
   "variable": [],
   "tier": "chrome"
  },
  "origin": {
   "url": "https://naturesbounty.com/blogs/news/beauty-facts",
-  "at": "2026-11-11T09:01:36.665Z",
+  "at": "2026-11-11T13:38:55.833Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 5190,
@@ -21,7 +21,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": -92,
+    "x": -10,
     "y": 6,
     "w": 157,
     "h": 20,
@@ -35,7 +35,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 265,
+    "x": 347,
     "y": 6,
     "w": 213,
     "h": 20,
@@ -49,7 +49,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 678,
+    "x": 760,
     "y": 6,
     "w": 314,
     "h": 20,
@@ -63,7 +63,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "div.slick-list.draggable > div.slick-track > a.link.is-alt",
-    "x": 1192,
+    "x": 1274,
     "y": 6,
     "w": 157,
     "h": 20,
@@ -2181,7 +2181,7 @@
  },
  "eds": {
   "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/beauty-facts",
-  "at": "2026-11-11T09:01:57.772Z",
+  "at": "2026-11-11T13:39:16.844Z",
   "status": 200,
   "settlePasses": 2,
   "docH": 5158,
@@ -2208,7 +2208,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 430,
+    "x": 431,
     "y": 8,
     "w": 160,
     "h": 15,
@@ -2236,7 +2236,7 @@
     "inRoot": false,
     "inChrome": true,
     "path": "ul > li > a",
-    "x": 1209,
+    "x": 1210,
     "y": 8,
     "w": 319,
     "h": 15,
@@ -4435,8 +4435,8 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 91,
-     "cutMax": 102
+     "cutMin": 90,
+     "cutMax": 103
     },
     {
      "kind": "TEXT X-CUT",
@@ -4445,20 +4445,20 @@
      "clipper": "div.announce-viewport",
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
-     "cutMin": 91,
-     "cutMax": 102
+     "cutMin": 90,
+     "cutMax": 103
     }
    ],
    "findings": [
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 91,
+     "cut": 90,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -91,
+      "l": -90,
       "t": 8,
       "r": 229,
       "b": 23,
@@ -4477,12 +4477,12 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 91,
+     "cut": 90,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": -91,
+      "l": -90,
       "t": 8,
       "r": 229,
       "b": 23,
@@ -4502,14 +4502,14 @@
     {
      "kind": "CONTROL X-CUT",
      "advisory": true,
-     "cut": 102,
+     "cut": 103,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 1207,
+      "l": 1208,
       "t": 8,
-      "r": 1527,
+      "r": 1528,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4526,14 +4526,14 @@
     {
      "kind": "TEXT X-CUT",
      "advisory": true,
-     "cut": 102,
+     "cut": 103,
      "path": "div.announce-track > ul > li > a",
      "text": "supplementing the knowledge gap in women's health",
      "clipper": "div.announce-viewport",
      "rect": {
-      "l": 1207,
+      "l": 1208,
       "t": 8,
-      "r": 1527,
+      "r": 1528,
       "b": 23,
       "w": 319,
       "h": 15
@@ -4753,25 +4753,25 @@
  "textBoxes": {
   "origin": [
    {
-    "x": -94,
+    "x": -12,
     "y": 6,
     "w": 157,
     "h": 19
    },
    {
-    "x": 264,
+    "x": 345,
     "y": 6,
     "w": 213,
     "h": 19
    },
    {
-    "x": 676,
+    "x": 758,
     "y": 6,
     "w": 314,
     "h": 19
    },
    {
-    "x": 1190,
+    "x": 1272,
     "y": 6,
     "w": 157,
     "h": 19
@@ -5847,7 +5847,7 @@
   ],
   "eds": [
    {
-    "x": -91,
+    "x": -90,
     "y": 8,
     "w": 319,
     "h": 15
@@ -5859,13 +5859,13 @@
     "h": 15
    },
    {
-    "x": 789,
+    "x": 790,
     "y": 8,
     "w": 219,
     "h": 15
    },
    {
-    "x": 1207,
+    "x": 1208,
     "y": 8,
     "w": 319,
     "h": 15

@@ -1,7 +1,7 @@
 {
  "_provenance": {
   "writtenBy": "unit-geometry.mjs",
-  "at": "2026-11-11T10:22:19.025Z",
+  "at": "2026-11-11T13:15:13.651Z",
   "tol": 4,
   "n": 5,
   "width": 360,
@@ -9,12 +9,12 @@
  },
  "origin": {
   "url": "https://naturesbounty.com/blogs/news/the-benefits-of-prenatal-vitamins",
-  "at": "2026-11-11T04:02:28.649Z",
-  "docH": 4360
+  "at": "2026-11-11T13:14:48.330Z",
+  "docH": 8392
  },
  "eds": {
   "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news/the-benefits-of-prenatal-vitamins",
-  "at": "2026-11-11T10:22:18.910Z",
+  "at": "2026-11-11T13:15:13.533Z",
   "docH": 8349
  },
  "results": [
@@ -43,8 +43,8 @@
        "origin": {
         "x": 0,
         "y": 0,
-        "w": 393,
-        "h": 245
+        "w": 305,
+        "h": 200
        },
        "eds": {
         "x": 0,
@@ -56,9 +56,9 @@
        },
        "dx": 0,
        "dy": 0,
-       "dw": -88,
-       "dh": -45,
-       "off": true,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "18/30/500",
@@ -73,8 +73,8 @@
        "byPosition": false,
        "origin": {
         "x": 0,
-        "y": 225,
-        "w": 393,
+        "y": 180,
+        "w": 305,
         "h": 25
        },
        "eds": {
@@ -86,10 +86,10 @@
         "role": "link"
        },
        "dx": 0,
-       "dy": -42,
-       "dw": -88,
+       "dy": 3,
+       "dw": 0,
        "dh": -3,
-       "off": true,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "18/30/500",
@@ -104,7 +104,7 @@
        "byPosition": false,
        "origin": {
         "x": 0,
-        "y": 265,
+        "y": 220,
         "w": 138,
         "h": 30
        },
@@ -117,10 +117,10 @@
         "role": "link"
        },
        "dx": 0,
-       "dy": -45,
+       "dy": 0,
        "dw": 1,
        "dh": 0,
-       "off": true,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "14/30/500",
@@ -135,7 +135,7 @@
        "byPosition": false,
        "origin": {
         "x": 143,
-        "y": 265,
+        "y": 220,
         "w": 3,
         "h": 30
        },
@@ -148,10 +148,10 @@
         "role": "text"
        },
        "dx": 1,
-       "dy": -45,
+       "dy": 0,
        "dw": 0,
        "dh": 0,
-       "off": true,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "14/30/500",
@@ -166,7 +166,7 @@
        "byPosition": false,
        "origin": {
         "x": 151,
-        "y": 265,
+        "y": 220,
         "w": 90,
         "h": 30
        },
@@ -179,10 +179,10 @@
         "role": "link"
        },
        "dx": 1,
-       "dy": -45,
+       "dy": 0,
        "dw": 0,
        "dh": 0,
-       "off": true,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "14/30/500",
@@ -196,8 +196,8 @@
        "edsText": "digestive health",
        "byPosition": false,
        "origin": {
-        "x": 254,
-        "y": 265,
+        "x": 0,
+        "y": 255,
         "w": 117,
         "h": 30
        },
@@ -209,11 +209,11 @@
         "sel": "a",
         "role": "link"
        },
-       "dx": -254,
-       "dy": -10,
+       "dx": 0,
+       "dy": 0,
        "dw": -1,
        "dh": 0,
-       "off": true,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "14/30/500",
@@ -228,9 +228,9 @@
        "byPosition": false,
        "origin": {
         "x": 0,
-        "y": 295,
-        "w": 393,
-        "h": 54
+        "y": 285,
+        "w": 305,
+        "h": 92
        },
        "eds": {
         "x": 0,
@@ -241,10 +241,10 @@
         "role": "link"
        },
        "dx": 0,
-       "dy": -10,
-       "dw": -88,
-       "dh": 38,
-       "off": true,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "18/30/500",
@@ -259,9 +259,9 @@
        "byPosition": false,
        "origin": {
         "x": 0,
-        "y": 311,
-        "w": 393,
-        "h": 38
+        "y": 301,
+        "w": 305,
+        "h": 76
        },
        "eds": {
         "x": 0,
@@ -272,10 +272,10 @@
         "role": "heading"
        },
        "dx": 0,
-       "dy": -10,
-       "dw": -88,
-       "dh": 38,
-       "off": true,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "25/38/700",
@@ -308,10 +308,10 @@
      ],
      "unit": {
       "origin": {
-       "x": 93,
-       "y": 2165,
-       "w": 393,
-       "h": 349
+       "x": 20,
+       "y": 4116,
+       "w": 305,
+       "h": 377
       },
       "eds": {
        "x": 20,
@@ -319,19 +319,19 @@
        "w": 305,
        "h": 377
       },
-      "dx": -73,
-      "dy": 1921,
-      "dw": -88,
-      "dh": 28
+      "dx": 0,
+      "dy": -30,
+      "dw": 0,
+      "dh": 0
      },
      "summary": {
       "elements": 8,
-      "within": 0,
-      "off": 8,
+      "within": 8,
+      "off": 0,
       "hidden": 0,
       "missing": 0,
       "extra": 1,
-      "unitOff": true
+      "unitOff": false
      }
     },
     {
@@ -352,8 +352,8 @@
        "origin": {
         "x": 0,
         "y": 0,
-        "w": 393,
-        "h": 245
+        "w": 305,
+        "h": 200
        },
        "eds": {
         "x": 0,
@@ -365,9 +365,9 @@
        },
        "dx": 0,
        "dy": 0,
-       "dw": -88,
-       "dh": -45,
-       "off": true,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "18/30/500",
@@ -382,8 +382,8 @@
        "byPosition": false,
        "origin": {
         "x": 0,
-        "y": 225,
-        "w": 393,
+        "y": 180,
+        "w": 305,
         "h": 25
        },
        "eds": {
@@ -395,10 +395,10 @@
         "role": "link"
        },
        "dx": 0,
-       "dy": -42,
-       "dw": -88,
+       "dy": 3,
+       "dw": 0,
        "dh": -3,
-       "off": true,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "18/30/500",
@@ -413,7 +413,7 @@
        "byPosition": false,
        "origin": {
         "x": 0,
-        "y": 265,
+        "y": 220,
         "w": 138,
         "h": 30
        },
@@ -426,10 +426,10 @@
         "role": "link"
        },
        "dx": 0,
-       "dy": -45,
+       "dy": 0,
        "dw": 1,
        "dh": 0,
-       "off": true,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "14/30/500",
@@ -444,7 +444,7 @@
        "byPosition": false,
        "origin": {
         "x": 143,
-        "y": 265,
+        "y": 220,
         "w": 3,
         "h": 30
        },
@@ -457,10 +457,10 @@
         "role": "text"
        },
        "dx": 1,
-       "dy": -45,
+       "dy": 0,
        "dw": 0,
        "dh": 0,
-       "off": true,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "14/30/500",
@@ -475,7 +475,7 @@
        "byPosition": false,
        "origin": {
         "x": 151,
-        "y": 265,
+        "y": 220,
         "w": 90,
         "h": 30
        },
@@ -488,10 +488,10 @@
         "role": "link"
        },
        "dx": 1,
-       "dy": -45,
+       "dy": 0,
        "dw": 0,
        "dh": 0,
-       "off": true,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "14/30/500",
@@ -505,8 +505,8 @@
        "edsText": "digestive health",
        "byPosition": false,
        "origin": {
-        "x": 254,
-        "y": 265,
+        "x": 0,
+        "y": 255,
         "w": 117,
         "h": 30
        },
@@ -518,11 +518,11 @@
         "sel": "a",
         "role": "link"
        },
-       "dx": -254,
-       "dy": -10,
+       "dx": 0,
+       "dy": 0,
        "dw": -1,
        "dh": 0,
-       "off": true,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "14/30/500",
@@ -537,9 +537,9 @@
        "byPosition": false,
        "origin": {
         "x": 0,
-        "y": 295,
-        "w": 393,
-        "h": 152
+        "y": 285,
+        "w": 305,
+        "h": 182
        },
        "eds": {
         "x": 0,
@@ -550,10 +550,10 @@
         "role": "link"
        },
        "dx": 0,
-       "dy": -10,
-       "dw": -88,
-       "dh": 30,
-       "off": true,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "18/30/500",
@@ -568,8 +568,8 @@
        "byPosition": false,
        "origin": {
         "x": 0,
-        "y": 311,
-        "w": 393,
+        "y": 301,
+        "w": 305,
         "h": 76
        },
        "eds": {
@@ -581,10 +581,10 @@
         "role": "heading"
        },
        "dx": 0,
-       "dy": -10,
-       "dw": -88,
+       "dy": 0,
+       "dw": 0,
        "dh": 0,
-       "off": true,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "25/38/700",
@@ -599,9 +599,9 @@
        "byPosition": false,
        "origin": {
         "x": 0,
-        "y": 389,
-        "w": 366,
-        "h": 55
+        "y": 379,
+        "w": 298,
+        "h": 85
        },
        "eds": {
         "x": 0,
@@ -612,10 +612,10 @@
         "role": "text"
        },
        "dx": 0,
-       "dy": -8,
-       "dw": -69,
-       "dh": 27,
-       "off": true,
+       "dy": 2,
+       "dw": -1,
+       "dh": -3,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "18/30/500",
@@ -648,10 +648,10 @@
      ],
      "unit": {
       "origin": {
-       "x": 516,
-       "y": 2165,
-       "w": 393,
-       "h": 447
+       "x": 20,
+       "y": 4543,
+       "w": 305,
+       "h": 467
       },
       "eds": {
        "x": 20,
@@ -659,19 +659,19 @@
        "w": 305,
        "h": 467
       },
-      "dx": -496,
-      "dy": 2348,
-      "dw": -88,
-      "dh": 20
+      "dx": 0,
+      "dy": -30,
+      "dw": 0,
+      "dh": 0
      },
      "summary": {
       "elements": 9,
-      "within": 0,
-      "off": 9,
+      "within": 9,
+      "off": 0,
       "hidden": 0,
       "missing": 0,
       "extra": 1,
-      "unitOff": true
+      "unitOff": false
      }
     },
     {
@@ -692,8 +692,8 @@
        "origin": {
         "x": 0,
         "y": 0,
-        "w": 393,
-        "h": 245
+        "w": 305,
+        "h": 200
        },
        "eds": {
         "x": 0,
@@ -705,9 +705,9 @@
        },
        "dx": 0,
        "dy": 0,
-       "dw": -88,
-       "dh": -45,
-       "off": true,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "18/30/500",
@@ -722,8 +722,8 @@
        "byPosition": false,
        "origin": {
         "x": 0,
-        "y": 225,
-        "w": 393,
+        "y": 180,
+        "w": 305,
         "h": 25
        },
        "eds": {
@@ -735,10 +735,10 @@
         "role": "link"
        },
        "dx": 0,
-       "dy": -42,
-       "dw": -88,
+       "dy": 3,
+       "dw": 0,
        "dh": -3,
-       "off": true,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "18/30/500",
@@ -753,8 +753,8 @@
        "byPosition": false,
        "origin": {
         "x": 0,
-        "y": 245,
-        "w": 393,
+        "y": 200,
+        "w": 305,
         "h": 92
        },
        "eds": {
@@ -766,10 +766,10 @@
         "role": "link"
        },
        "dx": 0,
-       "dy": -45,
-       "dw": -88,
+       "dy": 0,
+       "dw": 0,
        "dh": 0,
-       "off": true,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "18/30/500",
@@ -784,8 +784,8 @@
        "byPosition": false,
        "origin": {
         "x": 0,
-        "y": 261,
-        "w": 393,
+        "y": 216,
+        "w": 305,
         "h": 76
        },
        "eds": {
@@ -797,10 +797,10 @@
         "role": "heading"
        },
        "dx": 0,
-       "dy": -45,
-       "dw": -88,
+       "dy": 0,
+       "dw": 0,
        "dh": 0,
-       "off": true,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "25/38/700",
@@ -815,8 +815,8 @@
        "byPosition": false,
        "origin": {
         "x": 0,
-        "y": 357,
-        "w": 377,
+        "y": 312,
+        "w": 273,
         "h": 85
        },
        "eds": {
@@ -828,8 +828,8 @@
         "role": "link"
        },
        "dx": 0,
-       "dy": -43,
-       "dw": -75,
+       "dy": 2,
+       "dw": 29,
        "dh": -3,
        "off": true,
        "hidden": false,
@@ -864,10 +864,10 @@
      ],
      "unit": {
       "origin": {
-       "x": 939,
-       "y": 2165,
-       "w": 393,
-       "h": 463
+       "x": 20,
+       "y": 5060,
+       "w": 305,
+       "h": 418
       },
       "eds": {
        "x": 20,
@@ -875,19 +875,19 @@
        "w": 305,
        "h": 418
       },
-      "dx": -919,
-      "dy": 2865,
-      "dw": -88,
-      "dh": -45
+      "dx": 0,
+      "dy": -30,
+      "dw": 0,
+      "dh": 0
      },
      "summary": {
       "elements": 5,
-      "within": 0,
-      "off": 5,
+      "within": 4,
+      "off": 1,
       "hidden": 0,
       "missing": 0,
       "extra": 1,
-      "unitOff": true
+      "unitOff": false
      }
     }
    ]
@@ -926,8 +926,8 @@
        "origin": {
         "x": 0,
         "y": 0,
-        "w": 271,
-        "h": 271
+        "w": 315,
+        "h": 315
        },
        "eds": {
         "x": 0,
@@ -939,9 +939,9 @@
        },
        "dx": 0,
        "dy": 0,
-       "dw": 44,
-       "dh": 44,
-       "off": true,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "18/30/500",
@@ -974,10 +974,10 @@
      ],
      "unit": {
       "origin": {
-       "x": 21,
-       "y": 3038,
-       "w": 271,
-       "h": 271
+       "x": 15,
+       "y": 5951,
+       "w": 315,
+       "h": 315
       },
       "eds": {
        "x": 15,
@@ -985,19 +985,19 @@
        "w": 315,
        "h": 315
       },
-      "dx": -6,
-      "dy": 2883,
-      "dw": 44,
-      "dh": 44
+      "dx": 0,
+      "dy": -30,
+      "dw": 0,
+      "dh": 0
      },
      "summary": {
       "elements": 1,
-      "within": 0,
-      "off": 1,
+      "within": 1,
+      "off": 0,
       "hidden": 0,
       "missing": 0,
       "extra": 1,
-      "unitOff": true
+      "unitOff": false
      }
     },
     {
@@ -1018,8 +1018,8 @@
        "origin": {
         "x": 0,
         "y": 0,
-        "w": 271,
-        "h": 271
+        "w": 150,
+        "h": 150
        },
        "eds": {
         "x": 0,
@@ -1031,9 +1031,9 @@
        },
        "dx": 0,
        "dy": 0,
-       "dw": -121,
-       "dh": -121,
-       "off": true,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "18/30/500",
@@ -1066,10 +1066,10 @@
      ],
      "unit": {
       "origin": {
-       "x": 299,
-       "y": 3038,
-       "w": 271,
-       "h": 271
+       "x": 15,
+       "y": 6281,
+       "w": 150,
+       "h": 150
       },
       "eds": {
        "x": 15,
@@ -1077,19 +1077,19 @@
        "w": 150,
        "h": 150
       },
-      "dx": -284,
-      "dy": 3213,
-      "dw": -121,
-      "dh": -121
+      "dx": 0,
+      "dy": -30,
+      "dw": 0,
+      "dh": 0
      },
      "summary": {
       "elements": 1,
-      "within": 0,
-      "off": 1,
+      "within": 1,
+      "off": 0,
       "hidden": 0,
       "missing": 0,
       "extra": 1,
-      "unitOff": true
+      "unitOff": false
      }
     },
     {
@@ -1110,8 +1110,8 @@
        "origin": {
         "x": 0,
         "y": 0,
-        "w": 271,
-        "h": 271
+        "w": 150,
+        "h": 150
        },
        "eds": {
         "x": 0,
@@ -1123,9 +1123,9 @@
        },
        "dx": 0,
        "dy": 0,
-       "dw": -121,
-       "dh": -121,
-       "off": true,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "18/30/500",
@@ -1158,10 +1158,10 @@
      ],
      "unit": {
       "origin": {
-       "x": 577,
-       "y": 3038,
-       "w": 271,
-       "h": 271
+       "x": 180,
+       "y": 6281,
+       "w": 150,
+       "h": 150
       },
       "eds": {
        "x": 180,
@@ -1169,19 +1169,19 @@
        "w": 150,
        "h": 150
       },
-      "dx": -397,
-      "dy": 3213,
-      "dw": -121,
-      "dh": -121
+      "dx": 0,
+      "dy": -30,
+      "dw": 0,
+      "dh": 0
      },
      "summary": {
       "elements": 1,
-      "within": 0,
-      "off": 1,
+      "within": 1,
+      "off": 0,
       "hidden": 0,
       "missing": 0,
       "extra": 1,
-      "unitOff": true
+      "unitOff": false
      }
     },
     {
@@ -1202,8 +1202,8 @@
        "origin": {
         "x": 0,
         "y": 0,
-        "w": 271,
-        "h": 271
+        "w": 150,
+        "h": 150
        },
        "eds": {
         "x": 0,
@@ -1215,9 +1215,9 @@
        },
        "dx": 0,
        "dy": 0,
-       "dw": -121,
-       "dh": -121,
-       "off": true,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "18/30/500",
@@ -1250,10 +1250,10 @@
      ],
      "unit": {
       "origin": {
-       "x": 855,
-       "y": 3038,
-       "w": 271,
-       "h": 271
+       "x": 15,
+       "y": 6446,
+       "w": 150,
+       "h": 150
       },
       "eds": {
        "x": 15,
@@ -1261,19 +1261,19 @@
        "w": 150,
        "h": 150
       },
-      "dx": -840,
-      "dy": 3378,
-      "dw": -121,
-      "dh": -121
+      "dx": 0,
+      "dy": -30,
+      "dw": 0,
+      "dh": 0
      },
      "summary": {
       "elements": 1,
-      "within": 0,
-      "off": 1,
+      "within": 1,
+      "off": 0,
       "hidden": 0,
       "missing": 0,
       "extra": 1,
-      "unitOff": true
+      "unitOff": false
      }
     },
     {
@@ -1294,8 +1294,8 @@
        "origin": {
         "x": 0,
         "y": 0,
-        "w": 271,
-        "h": 271
+        "w": 150,
+        "h": 150
        },
        "eds": {
         "x": 0,
@@ -1307,9 +1307,9 @@
        },
        "dx": 0,
        "dy": 0,
-       "dw": -121,
-       "dh": -121,
-       "off": true,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
        "hidden": false,
        "type": {
         "origin": "18/30/500",
@@ -1342,10 +1342,10 @@
      ],
      "unit": {
       "origin": {
-       "x": 1133,
-       "y": 3038,
-       "w": 271,
-       "h": 271
+       "x": 180,
+       "y": 6446,
+       "w": 150,
+       "h": 150
       },
       "eds": {
        "x": 180,
@@ -1353,19 +1353,19 @@
        "w": 150,
        "h": 150
       },
-      "dx": -953,
-      "dy": 3378,
-      "dw": -121,
-      "dh": -121
+      "dx": 0,
+      "dy": -30,
+      "dw": 0,
+      "dh": 0
      },
      "summary": {
       "elements": 1,
-      "within": 0,
-      "off": 1,
+      "within": 1,
+      "off": 0,
       "hidden": 0,
       "missing": 0,
       "extra": 1,
-      "unitOff": true
+      "unitOff": false
      }
     }
    ]
@@ -1373,11 +1373,11 @@
  ],
  "verdict": {
   "units": 8,
-  "within": 0,
-  "off": 27,
+  "within": 26,
+  "off": 1,
   "hidden": 0,
   "missing": 0,
   "errors": 1,
-  "requiredOff": 27
+  "requiredOff": 1
  }
 }
