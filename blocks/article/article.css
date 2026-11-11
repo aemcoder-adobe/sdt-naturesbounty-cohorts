@@ -55,8 +55,13 @@ main > .section > .article-wrapper {
 }
 
 .article .article-text {
+  display: flow-root;
   margin-top: 30px;
-  margin-bottom: -30px;
+}
+
+/* the body's last block margin is the 30px gap before the share bar */
+.article .share {
+  margin-top: 0;
 }
 
 .article .article-text :is(p, ul, ol, blockquote) {

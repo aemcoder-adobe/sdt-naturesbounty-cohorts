@@ -147,19 +147,25 @@ function extract({ html, base }) {
         .includes(t)) return;
       if (n.classList && n.classList.contains('visually-hidden')) return;
       if (t === 'BR') { out += '<br>'; return; }
-      const inner = inline(n);
+      // DA trims whitespace at the edges of inline marks: keep it OUTSIDE the tag
+      const full = inline(n);
+      const lead = (full.match(/^(\s|&nbsp;)+/) || [''])[0];
+      const trail = full.length > lead.length ? (full.match(/(\s|&nbsp;)+$/) || [''])[0] : '';
+      const inner = full.slice(lead.length, full.length - trail.length);
+      if (['A', 'STRONG', 'B', 'EM', 'I'].includes(t)) out += lead;
+      else out += lead + inner + trail;
+      if (!['A', 'STRONG', 'B', 'EM', 'I'].includes(t)) return;
       if (t === 'A') {
         const href = n.getAttribute('href');
         if (!href || !inner.replace(/&nbsp;|\s|<br>/g, '')) {
-          out += inner.replace(/<br>/g, '');
+          out += inner.replace(/<br>/g, '') + trail;
           return;
         }
         out += `<a href="${abs(href).replace(/"/g, '&quot;')}">${inner}</a>`;
       } else if (t === 'STRONG' || t === 'B') {
         out += inner.trim() ? `<strong>${inner}</strong>` : inner;
-      }
-      else if (t === 'EM' || t === 'I') out += inner.trim() ? `<em>${inner}</em>` : inner;
-      else out += inner;
+      } else out += inner.trim() ? `<em>${inner}</em>` : inner;
+      out += trail;
     });
     return out;
   };
