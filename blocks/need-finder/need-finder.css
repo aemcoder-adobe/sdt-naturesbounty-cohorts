@@ -148,7 +148,6 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  min-height: 44px;
 }
 
 .need-finder.for-agent input[type="radio"] {
@@ -158,7 +157,16 @@
 }
 
 .need-finder.for-agent label {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  min-height: 44px;
   font-size: 17px;
+}
+
+.need-finder.for-agent .need-finder-table-wrap {
+  max-width: 100%;
+  overflow-x: auto;
 }
 
 .need-finder.for-agent .need-finder-result {

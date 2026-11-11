@@ -133,14 +133,16 @@ function renderAgent(block, intro, needs) {
     result.append(el('p', 'need-finder-note', 'Buying happens at the retailer, by the person.'));
   };
 
-  form.addEventListener('submit', (e) => {
-    e.preventDefault();
+  const sync = (e) => {
+    if (e.type === 'submit') e.preventDefault();
     const id = new FormData(form).get('need');
     const q = new URLSearchParams(window.location.search);
     if (id) q.set('need', id); else q.delete('need');
     window.history.replaceState(null, '', `${window.location.pathname}?${q}`);
     show(id);
-  });
+  };
+  form.addEventListener('submit', sync);
+  form.addEventListener('change', sync);
   form.append(fs, submit);
   show(params.get('need'));
 
@@ -166,7 +168,12 @@ function renderAgent(block, intro, needs) {
     tbody.append(tr);
   });
   table.append(tbody);
-  block.replaceChildren(intro, form, result, table);
+  const scroller = el('div', 'need-finder-table-wrap');
+  scroller.tabIndex = 0;
+  scroller.setAttribute('role', 'region');
+  scroller.setAttribute('aria-label', 'Every need, the product for it, and what it does');
+  scroller.append(table);
+  block.replaceChildren(intro, form, result, scroller);
 }
 
 export default function decorate(block) {
