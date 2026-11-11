@@ -32,6 +32,13 @@ main > .section.related-container .default-content-wrapper :is(h2, h3, p),
   height: 200px;
 }
 
+/* the picture takes the image's box (same line layout as the inline img it wraps) */
+.related .related-card-media picture {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
 .related .related-card-media img {
   display: inline;
   width: 100%;
@@ -60,6 +67,9 @@ main > .section.related-container .default-content-wrapper :is(h2, h3, p),
 
 .related .related-card-title {
   margin-top: 16px;
+
+  /* R-01: bold figtree titles set 0.7 % wider than sofia-pro */
+  letter-spacing: calc(var(--ls-base) - 0.003em);
   color: var(--green);
   font-size: 25px;
   line-height: 38px;
@@ -112,6 +122,9 @@ main > .section.related-container .default-content-wrapper :is(h2, h3, p),
 .related .related-card-tags a:any-link {
   display: block;
   font-size: 14px;
+
+  /* R-01: uppercase figtree sets 4.8 % wider than sofia-pro (measured on the live cards) */
+  letter-spacing: calc(var(--ls-base) - 0.026em);
   line-height: 30px;
   text-transform: uppercase;
   text-decoration: underline;
