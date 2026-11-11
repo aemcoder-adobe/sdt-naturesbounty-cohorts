@@ -5,3 +5,5 @@
 {"ts":"2026-11-10T22:58:24Z","skill":"stardust:replica","phase":"recreate","event":"start","detail":"4 archetypes: article (the-benefits-of-biotin), recipe (apple-crisp), listing (blogs/news), landing (home)"}
 {"ts":"2026-11-10T23:37:39Z","skill":"stardust:replica","phase":"source-fidelity-gate","event":"end","detail":"article (the-benefits-of-biotin): 1440 2.23% Δh0 PASS; 360 16.66% Δh-45 residual R-01 font substitution; cap-probe PASS"}
 {"ts":"2026-11-10T23:52:03Z","skill":"stardust:replica","phase":"source-fidelity-gate","event":"end","detail":"listing (blogs-news) 1440 2.04% Δh0 / 360 3.62% Δh1 PASS; recipe (apple-crisp) template control 1440 1.79% / 360 4.08% PASS, shipped residual = rotating More-recipes row"}
+{"ts":"2026-11-11T00:21:14Z","skill":"stardust:replica","phase":"source-fidelity-gate","event":"end","detail":"landing (index): 1440 2.70% Δh-1 PASS; 360 8.55% Δh-33 residual R-01 font-substitution wrap; content-diff 0; cap-probe PASS"}
+{"ts":"2026-11-11T00:21:14Z","skill":"stardust:replica","phase":"recreate","event":"end","detail":"4/4 archetypes gated and approved hands-off: article, listing, recipe, landing"}

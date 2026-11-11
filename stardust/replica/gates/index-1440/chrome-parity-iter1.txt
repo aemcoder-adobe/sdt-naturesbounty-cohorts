@@ -1,0 +1,74 @@
+[live-session] waiting to pace live navigations to naturesbounty.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 902 ms
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://naturesbounty.com/
+  build: http://localhost:8791/index-proposed.html
+
+■ header: 3 delta(s) — 6 paired of 6/6 texts, 5/5 icons
+  OFFSET       the region and its 3 paired text(s) sit Δy -82px from live as one block — content identical; the page above is a different height (fix that, or a live feed rendered another length)
+  PAIR         "Products"  Δx -4px (517→513); Δy -82px (114→32)
+  PAIR         "Health Benefits"  Δx -3px (653→650); Δy -82px (114→32); Δw +2px (168→170)
+  PAIR         "About Us"  Δx -2px (954→952); Δy -82px (114→32); Δw +3px (80→83)
+
+■ footer: 60 delta(s) — 57 paired of 58/58 texts, 7/7 icons
+  REGION BOX   Δy -85px (7366→7281)
+  PAIR         "Join Our Newsletter"  Δy -85px (7544→7459)
+  PAIR         "Receive the latest news, special offers "  Δy -85px (7590→7505)
+  PAIR         "Follow Us"  Δy -85px (7785→7700); Δw +2px (75→77)
+  PAIR         "Products"  Δy -85px (7544→7459)
+  PAIR         "Adult Vitamins"  Δy -85px (7585→7500); Δw +2px (94→96)
+  PAIR         "Supplements"  Δy -85px (7612→7527)
+  PAIR         "Minerals"  Δy -85px (7638→7553); Δw -4px (58→54)
+  PAIR         "Herbs"  Δy -85px (7665→7580)
+  PAIR         "Fish Oil & Omegas"  Δy -85px (7691→7606); Δw -2px (120→118)
+  PAIR         "Specialty"  Δy -85px (7718→7633)
+  PAIR         "Health Needs"  Δy -85px (7544→7459)
+  PAIR         "Women’s Wellness"  Δy -85px (7585→7500)
+  PAIR         "Men’s Health"  Δy -85px (7585→7500); Δw -3px (86→83)
+  PAIR         "Brain Health"  Δy -85px (7612→7527); Δw -3px (82→79)
+  PAIR         "Bone & Joint Health"  Δy -85px (7612→7527); Δw +3px (126→129)
+  PAIR         "Eye Health"  Δy -85px (7638→7553)
+  PAIR         "Healthy Aging"  Δy -85px (7638→7553)
+  PAIR         "Herbal"  Δy -85px (7665→7580); Δw -2px (45→43)
+  PAIR         "Urinary Tract Health"  Δy -85px (7665→7580); Δw -2px (132→130)
+  PAIR         "Digestive Health"  Δy -85px (7691→7606)
+  PAIR         "Energy Support"  Δy -85px (7691→7606)
+  PAIR         "Heart Health"  Δy -85px (7718→7633); Δw -2px (85→83)
+  PAIR         "Immune & Antioxidant Support"  Δy -85px (7718→7633)
+  PAIR         "Stress & Mood"  Δy -85px (7744→7659)
+  PAIR         "Sleep Support"  Δy -85px (7744→7659)
+  PAIR         "Resource Center"  Δy -85px (7544→7459)
+  PAIR         "DIY Beauty"  Δy -85px (7615→7530)
+  PAIR         "Healthy Living"  Δy -85px (7642→7557)
+  PAIR         "Food Health"  Δy -85px (7668→7583)
+  PAIR         "Hair, Skin & Nails"  Δy -85px (7695→7610)
+  PAIR         "Recipes"  Δy -85px (7721→7636)
+  PAIR         "Nature’s Bounty"  Δy -85px (7544→7459)
+  PAIR         "About Us"  Δy -85px (7615→7530); Δw +2px (59→61)
+  PAIR         "Where to Buy"  Δy -85px (7642→7557)
+  PAIR         "Contact Us"  Δy -85px (7668→7583); Δw +2px (72→74)
+  PAIR         "Careers"  Δy -85px (7695→7610)
+  PAIR         "Terms of Use"  Δy -85px (7872→7787)
+  PAIR         "|"  Δy -83px (7869→7786); Δh -3px (25→22)
+  PAIR         "Privacy Policy"  Δy -85px (7872→7787)
+  PAIR         "|"  Δy -83px (7869→7786); Δh -3px (25→22)
+  PAIR         "Accessibility Statement"  Δy -85px (7872→7787); Δw +4px (151→155); <a> box 175×30 → 179×30
+  PAIR         "|"  Δx +5px (528→533); Δy -83px (7869→7786); Δh -3px (25→22); <a> box 175×30 → 179×30
+  PAIR         "Health Data Notice"  Δx +5px (552→557); Δy -85px (7872→7787)
+  PAIR         "|"  Δx +5px (697→702); Δy -83px (7869→7786); Δh -3px (25→22)
+  PAIR         "Satisfaction Guarantee"  Δx +5px (721→726); Δy -85px (7872→7787); Δw -2px (152→150); <a> box 176×30 → 174×30
+  PAIR         "|"  Δx +3px (893→896); Δy -83px (7869→7786); Δh -3px (25→22); <a> box 176×30 → 174×30
+  PAIR         "International Distributors"  Δx +4px (917→921); Δy -85px (7872→7787); Δw -2px (164→162); <a> box 164×30 → 162×30
+  PAIR         "|"  Δy -81px (7867→7786); Δh -8px (30→22)
+  PAIR         "Your Privacy Choices"  Δy -85px (7870→7785)
+  PAIR         "*These statements have not been evaluate"  Δy -83px (8008→7925); Δw -2px (930→928); Δh -4px (19→15)
+  PAIR         "Nature’s Bounty may make changes to prod"  Δx +5px (235→240); Δy -85px (8084→7999); Δw -8px (954→946)
+  PAIR         "◊Source: Circana™ OmniMarket – Total MUL"  Δx +4px (333→337); Δy -85px (8113→8028); Δw -7px (758→751)
+  PAIR         "†Compared to Nature's Bounty® Optimal So"  Δx +3px (487→490); Δy -85px (8143→8058); Δw -7px (452→445)
+  PAIR         "†Traditional use claims are based on his"  Δy -85px (8172→8087)
+  PAIR         "Nature’s Bounty is a Nestlé Health Scien"  Δx +3px (133→136); Δy -85px (8221→8136); Δw -6px (1158→1152)
+  PAIR         "www.nestlehealthscience.us"  Δx -7px (1131→1124); Δy -83px (8221→8138); Δw +4px (161→165); Δh -4px (19→15)
+  PAIR         "Nature's Bounty is a registered trademar"  Δx +2px (593→595); Δy -85px (8251→8166); Δw -4px (239→235)
+  MISSING      "Sign Up"  live <button> "Sign Up" has no build element with the same text
+  EXTRA        "Sign Up Sign Up"  build <button> "Sign Up Sign Up" has no live source
+
+✗ 63 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

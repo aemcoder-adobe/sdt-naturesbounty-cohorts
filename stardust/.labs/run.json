@@ -1,7 +1,7 @@
 {
   "experimentId": "1a676f95-d55d-44d7-b20f-1348fe3d7f68",
   "attempt": 1,
-  "session": 1,
+  "session": 2,
   "scope": {
     "mode": "site",
     "sourceUrl": "https://naturesbounty.com/",
@@ -13,7 +13,7 @@
   "startedAt": "2026-11-10T22:09:40.591Z",
   "deadlineAt": "2026-11-11T22:09:29.396Z",
   "previewUrl": "https://main--1a676f95--aemcoder.aem.page/",
-  "sessionStartSha": "0b4cd955dd7ea4fca5c15a7ce3080341ddba9028",
+  "sessionStartSha": "5ee7945896d59ad59ed5ccdac97c227cdc9ce734",
   "stardustVersion": "0.37.2+0044687c99d0",
   "claudeCodeVersion": "2.1.312",
   "model": "claude-opus-5-5",
@@ -25,7 +25,7 @@
     "/home/node/.claude/projects/-workspace-1a676f95/9ccd53b3-f440-469e-a4e1-39faa1d7ea67/subagents/agent-ab2ea044178d71567.jsonl": 1388879,
     "/home/node/.claude/projects/-workspace-1a676f95/9ccd53b3-f440-469e-a4e1-39faa1d7ea67/subagents/agent-ac0e756ee3cb38680.jsonl": 793977
   },
-  "lastPhase": null,
-  "resumePhase": null,
+  "lastPhase": "stardust:replica:source-fidelity-gate",
+  "resumePhase": "after stardust:replica:source-fidelity-gate",
   "parts": []
 }

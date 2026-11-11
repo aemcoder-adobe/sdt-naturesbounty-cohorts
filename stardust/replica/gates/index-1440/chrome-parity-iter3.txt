@@ -1,0 +1,44 @@
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://naturesbounty.com/ (live side from cache stardust/replica/gates/index-1440/chrome-live.json, probed 2026-11-11T00:03:05.154Z — delete the file to re-probe)
+  build: http://localhost:8791/index-proposed.html
+
+■ header: 3 delta(s) — 6 paired of 6/6 texts, 5/5 icons
+  OFFSET       the region and its 3 paired text(s) sit Δy -82px from live as one block — content identical; the page above is a different height (fix that, or a live feed rendered another length)
+  PAIR         "Products"  Δx -4px (517→513); Δy -82px (114→32)
+  PAIR         "Health Benefits"  Δx -3px (653→650); Δy -82px (114→32); Δw +2px (168→170)
+  PAIR         "About Us"  Δx -2px (954→952); Δy -82px (114→32); Δw +3px (80→83)
+
+■ footer: 31 delta(s) — 57 paired of 58/58 texts, 7/7 icons
+  PAIR         "Follow Us"  Δw +2px (75→77)
+  PAIR         "Adult Vitamins"  Δw +2px (94→96)
+  PAIR         "Minerals"  Δw -4px (58→54)
+  PAIR         "Fish Oil & Omegas"  Δw -2px (120→118)
+  PAIR         "Men’s Health"  Δw -3px (86→83)
+  PAIR         "Brain Health"  Δw -3px (82→79)
+  PAIR         "Bone & Joint Health"  Δw +3px (126→129)
+  PAIR         "Herbal"  Δw -2px (45→43)
+  PAIR         "Urinary Tract Health"  Δw -2px (132→130)
+  PAIR         "Heart Health"  Δw -2px (85→83)
+  PAIR         "About Us"  Δw +2px (59→61)
+  PAIR         "Contact Us"  Δw +2px (72→74)
+  PAIR         "|"  Δh -3px (25→22)
+  PAIR         "|"  Δh -3px (25→22)
+  PAIR         "Accessibility Statement"  Δw +4px (151→155); <a> box 175×30 → 179×30
+  PAIR         "|"  Δx +5px (528→533); Δh -3px (25→22); <a> box 175×30 → 179×30
+  PAIR         "Health Data Notice"  Δx +5px (552→557)
+  PAIR         "|"  Δx +5px (697→702); Δh -3px (25→22)
+  PAIR         "Satisfaction Guarantee"  Δx +5px (721→726); Δw -2px (152→150); <a> box 176×30 → 174×30
+  PAIR         "|"  Δx +3px (893→896); Δh -3px (25→22); <a> box 176×30 → 174×30
+  PAIR         "International Distributors"  Δx +4px (917→921); Δw -2px (164→162); <a> box 164×30 → 162×30
+  PAIR         "|"  Δy +3px (7867→7870); Δh -8px (30→22)
+  PAIR         "*These statements have not been evaluate"  Δw -2px (930→928); Δh -4px (19→15)
+  PAIR         "Nature’s Bounty may make changes to prod"  Δx +5px (235→240); Δw -8px (954→946)
+  PAIR         "◊Source: Circana™ OmniMarket – Total MUL"  Δx +4px (333→337); Δw -7px (758→751)
+  PAIR         "†Compared to Nature's Bounty® Optimal So"  Δx +3px (487→490); Δw -7px (452→445)
+  PAIR         "Nature’s Bounty is a Nestlé Health Scien"  Δx +3px (133→136); Δw -6px (1158→1152)
+  PAIR         "www.nestlehealthscience.us"  Δx -7px (1131→1124); Δw +4px (161→165); Δh -4px (19→15)
+  PAIR         "Nature's Bounty is a registered trademar"  Δx +2px (593→595); Δw -4px (239→235)
+  MISSING      "Sign Up"  live <button> "Sign Up" has no build element with the same text
+  EXTRA        "Sign Up Sign Up"  build <button> "Sign Up Sign Up" has no live source
+
+✗ 34 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

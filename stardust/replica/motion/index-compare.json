@@ -1,0 +1,264 @@
+{
+  "live": "stardust/replica/motion/index.json",
+  "build": "stardust/replica/motion/index-build.json",
+  "toleranceMs": 150,
+  "tolerancePx": 8,
+  "advisory": true,
+  "findings": 13,
+  "counts": {
+    "behaviors": 35,
+    "parity": 8,
+    "missing": 13,
+    "extra": 0,
+    "tolerance": 0,
+    "dead": 9,
+    "advisory": 5
+  },
+  "verdicts": [
+    {
+      "cls": "header",
+      "name": "scroll-morph",
+      "state": "dead",
+      "note": "header static across the scroll traversal on both sides",
+      "line": "motion header scroll-morph: dead on live — not required (header static across the scroll traversal on both sides)"
+    },
+    {
+      "cls": "widget",
+      "name": ".tabbed-products__pill-btn:nth-child(2) → .tabbed-products__pill:nth-child(2)",
+      "state": "dead",
+      "note": "no sampled change across the frames (track/scroll/box/indicator)",
+      "line": "motion widget .tabbed-products__pill-btn:nth-child(2) → .tabbed-products__pill:nth-child(2): dead on live — not required (no sampled change across the frames (track/scroll/box/indicator))"
+    },
+    {
+      "cls": "widget",
+      "name": ".swiper-button-next-content_product_mUa4zG → .content-products__arrow--next",
+      "state": "dead",
+      "note": "no sampled change across the frames (track/scroll/box/indicator)",
+      "line": "motion widget .swiper-button-next-content_product_mUa4zG → .content-products__arrow--next: dead on live — not required (no sampled change across the frames (track/scroll/box/indicator))"
+    },
+    {
+      "cls": "widget",
+      "name": ".content-testimonials__nav_holder .swiper-button-next → .testimonials__arrow--next",
+      "state": "dead",
+      "note": "no sampled change across the frames (track/scroll/box/indicator)",
+      "line": "motion widget .content-testimonials__nav_holder .swiper-button-next → .testimonials__arrow--next: dead on live — not required (no sampled change across the frames (track/scroll/box/indicator))"
+    },
+    {
+      "cls": "hover",
+      "name": ".featured-grid__item.has-image → .featured-grid__item--image",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover .featured-grid__item.has-image → .featured-grid__item--image: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "hover",
+      "name": ".tabbed-products__pill-btn → .tabbed-products__pill",
+      "state": "advisory",
+      "note": "no hover diff on live; build changes self.background, self.color — live mechanics may be invisible to the hover probe (pseudo-element underlines, text-decoration, border-color) — confirm on the element before treating it as invented",
+      "line": "motion hover .tabbed-products__pill-btn → .tabbed-products__pill: extra on build — advisory (no hover diff on live; build changes self.background, self.color — live mechanics may be invisible to the hover probe (pseudo-element underlines, text-decoration, border-color) — confirm on the element before treating it as invented)"
+    },
+    {
+      "cls": "hover",
+      "name": ".tabbed-products .product-item → .tabbed-products .product-card",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover .tabbed-products .product-item → .tabbed-products .product-card: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "hover",
+      "name": ".content-highlight__actions .btn",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover .content-highlight__actions .btn: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "hover",
+      "name": ".featured-content__links a",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover .featured-content__links a: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "hover",
+      "name": ".ai-video-hero-aegv2umi0mwjvvvvjtaigenblock070c24fwvhdqb__link → .video-hero__link",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover .ai-video-hero-aegv2umi0mwjvvvvjtaigenblock070c24fwvhdqb__link → .video-hero__link: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "entrance",
+      "name": "klaviyo-fadein",
+      "state": "missing",
+      "note": "fired on 1 element(s) on live",
+      "line": "motion entrance klaviyo-fadein: MISSING on build (fired on 1 element(s) on live)"
+    },
+    {
+      "cls": "entrance",
+      "name": "klaviyo-fadeinup",
+      "state": "missing",
+      "note": "fired on 1 element(s) on live",
+      "line": "motion entrance klaviyo-fadeinup: MISSING on build (fired on 1 element(s) on live)"
+    },
+    {
+      "cls": "transition",
+      "name": "background-color",
+      "state": "parity",
+      "note": "4 event(s) on live, 6 on build, 180ms",
+      "line": "motion transition background-color: parity (4 event(s) on live, 6 on build, 180ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "border-bottom-color",
+      "state": "parity",
+      "note": "4 event(s) on live, 4 on build, 180ms",
+      "line": "motion transition border-bottom-color: parity (4 event(s) on live, 4 on build, 180ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "border-left-color",
+      "state": "parity",
+      "note": "4 event(s) on live, 4 on build, 180ms",
+      "line": "motion transition border-left-color: parity (4 event(s) on live, 4 on build, 180ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "border-right-color",
+      "state": "parity",
+      "note": "4 event(s) on live, 4 on build, 180ms",
+      "line": "motion transition border-right-color: parity (4 event(s) on live, 4 on build, 180ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "border-top-color",
+      "state": "parity",
+      "note": "4 event(s) on live, 4 on build, 180ms",
+      "line": "motion transition border-top-color: parity (4 event(s) on live, 4 on build, 180ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "transform",
+      "state": "parity",
+      "note": "5 event(s) on live, 4 on build, 13000ms",
+      "line": "motion transition transform: parity (5 event(s) on live, 4 on build, 13000ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "color",
+      "state": "advisory",
+      "note": "2 event(s) on build, none on live — a build-only transitioned property; incidental unless a live line names the motion",
+      "line": "motion transition color: extra on build — advisory (2 event(s) on build, none on live — a build-only transitioned property; incidental unless a live line names the motion)"
+    },
+    {
+      "cls": "transition",
+      "name": "opacity",
+      "state": "advisory",
+      "note": "14 event(s) on build, none on live — a build-only transitioned property; incidental unless a live line names the motion",
+      "line": "motion transition opacity: extra on build — advisory (14 event(s) on build, none on live — a build-only transitioned property; incidental unless a live line names the motion)"
+    },
+    {
+      "cls": "transition",
+      "name": "translate",
+      "state": "advisory",
+      "note": "14 event(s) on build, none on live — a build-only transitioned property; incidental unless a live line names the motion",
+      "line": "motion transition translate: extra on build — advisory (14 event(s) on build, none on live — a build-only transitioned property; incidental unless a live line names the motion)"
+    },
+    {
+      "cls": "class",
+      "name": "is-active",
+      "state": "parity",
+      "note": "added 2× on live, 5× on build",
+      "line": "motion class is-active: parity (added 2× on live, 5× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "klaviyo-prevent-body-scrolling",
+      "state": "missing",
+      "note": "trigger class added 1× on live, never on build",
+      "line": "motion class klaviyo-prevent-body-scrolling: MISSING on build (trigger class added 1× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "slick-active",
+      "state": "missing",
+      "note": "trigger class added 6× on live, never on build",
+      "line": "motion class slick-active: MISSING on build (trigger class added 6× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "slick-center",
+      "state": "missing",
+      "note": "trigger class added 11× on live, never on build",
+      "line": "motion class slick-center: MISSING on build (trigger class added 11× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "slick-current",
+      "state": "missing",
+      "note": "trigger class added 3× on live, never on build",
+      "line": "motion class slick-current: MISSING on build (trigger class added 3× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "swiper-pagination-bullet-active",
+      "state": "missing",
+      "note": "trigger class added 2× on live, never on build",
+      "line": "motion class swiper-pagination-bullet-active: MISSING on build (trigger class added 2× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "swiper-slide-active",
+      "state": "missing",
+      "note": "trigger class added 4× on live, never on build",
+      "line": "motion class swiper-slide-active: MISSING on build (trigger class added 4× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "swiper-slide-duplicate-active",
+      "state": "missing",
+      "note": "trigger class added 2× on live, never on build",
+      "line": "motion class swiper-slide-duplicate-active: MISSING on build (trigger class added 2× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "swiper-slide-duplicate-next",
+      "state": "missing",
+      "note": "trigger class added 3× on live, never on build",
+      "line": "motion class swiper-slide-duplicate-next: MISSING on build (trigger class added 3× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "swiper-slide-duplicate-prev",
+      "state": "missing",
+      "note": "trigger class added 3× on live, never on build",
+      "line": "motion class swiper-slide-duplicate-prev: MISSING on build (trigger class added 3× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "swiper-slide-next",
+      "state": "missing",
+      "note": "trigger class added 4× on live, never on build",
+      "line": "motion class swiper-slide-next: MISSING on build (trigger class added 4× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "swiper-slide-prev",
+      "state": "missing",
+      "note": "trigger class added 4× on live, never on build",
+      "line": "motion class swiper-slide-prev: MISSING on build (trigger class added 4× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "is-in",
+      "state": "advisory",
+      "note": "added 1× on build, never on live — check it drives no invented behavior",
+      "line": "motion class is-in: extra on build — advisory (added 1× on build, never on live — check it drives no invented behavior)"
+    },
+    {
+      "cls": "media",
+      "name": "video#1 25d9d939388c400286bc8e6316ec5f64.HD-1080",
+      "state": "parity",
+      "note": "live playing, build playing",
+      "line": "motion media video#1 25d9d939388c400286bc8e6316ec5f64.HD-1080: parity (live playing, build playing)"
+    }
+  ]
+}

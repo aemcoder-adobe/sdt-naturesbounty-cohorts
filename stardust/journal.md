@@ -54,3 +54,13 @@
   permanent nondeterministic-content residual, not a template defect. cap-probe PASS. Approved hands-off.
 - R-02 registered: recipe header "Where to Buy" text vs pill elsewhere → pill everywhere.
 - Canon: global `sup` rule added (live theme).
+
+## Recreate — landing archetype gated, recreate phase closed (2026-11-11)
+
+- index (home): 1440 2.70 % Δh −1, content-diff 0 red / 0 nothing-lost, clipped 0; 360 8.55 % Δh −33 after 3
+  iterations — the height residual is one R-01 wrap (Digestive Probiotic 10 card text 7 lines live, 6 with Figtree),
+  every other box height-matched. cap-probe PASS at 2560 (0/8). Motion 8 matched; hero video autoplay and first-slide
+  entrance logged as captureState restoreAtDelivery. Approved hands-off with the 360 residual under R-01.
+- New: landing.css, landing.js, gen-landing.cjs; stardust/replica/accepted.json (Swiper loop clones, text-scoped);
+  units.json +5 families. Canon unchanged. Live hero h1 computes `null, sans-serif` — replicated as captured.
+- All four archetypes (article, listing, recipe, landing) gated and approved; next is handoff (migrate → deploy → rollout).

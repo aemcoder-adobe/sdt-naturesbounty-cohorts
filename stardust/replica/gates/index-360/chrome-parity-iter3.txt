@@ -1,0 +1,43 @@
+chrome-parity @ 360px, tolerance 1px
+  live:  https://naturesbounty.com/ (live side from cache stardust/replica/gates/index-360/chrome-live.json, probed 2026-11-11T00:07:49.585Z — delete the file to re-probe)
+  build: http://localhost:8791/index-proposed.html
+
+■ header: 18 delta(s) — 79 paired of 79/79 texts, 48/48 icons
+  PAIR         "Products"  Δx -21px (832→811)
+  PAIR         "Vitamins"  Δx -23px (1179→1156); Δw +4px (92→96)
+  PAIR         "View All Vitamins"  Δw +9px (208→217)
+  PAIR         "Supplements"  Δx -21px (1154→1133)
+  PAIR         "View All Supplements"  Δw +2px (249→251); Δh +24px (55→79)
+  PAIR         "Minerals"  Δx -18px (1177→1159); Δw -4px (95→91)
+  PAIR         "View All Minerals"  Δw +2px (211→213)
+  PAIR         "Herbs"  Δx -21px (1193→1172)
+  PAIR         "View All Herbs"  Δw +6px (185→191)
+  PAIR         "Specialty"  Δx -21px (1175→1154); Δw +2px (99→101)
+  PAIR         "View All Specialty"  Δw +8px (214→222)
+  PAIR         "View All Products"  Δw +7px (211→218)
+  PAIR         "Learn More"  Δh +2px (60→62)
+  PAIR         "Health Benefits"  Δx -22px (798→776)
+  PAIR         "Learn More"  Δh +2px (60→62)
+  PAIR         "Learn"  Δx -20px (849→829); Δw -2px (62→60)
+  PAIR         "View All Resources"  Δw +7px (223→230)
+  PAIR         "See How You Can Help Grow Thicker, Fulle"  Δy -8px (865→857); <a> box 311×311 → 311×303
+
+■ footer: 15 delta(s) — 28 paired of 29/29 texts, 11/11 icons
+  OFFSET       the region and its 15 paired text(s) sit Δy -47px from live as one block — content identical; the page above is a different height (fix that, or a live feed rendered another length)
+  PAIR         "Follow Us"  Δy -49px (13223→13174); Δw +2px (75→77)
+  PAIR         "|"  Δy -47px (13307→13260); Δh -3px (25→22)
+  PAIR         "|"  Δy -47px (13307→13260); Δh -3px (25→22)
+  PAIR         "Accessibility Statement"  Δx -2px (85→83); Δy -49px (13360→13311); Δw +4px (151→155); <a> box 175×30 → 179×30
+  PAIR         "|"  Δx +2px (256→258); Δy -47px (13357→13310); Δh -3px (25→22); <a> box 175×30 → 179×30
+  PAIR         "|"  Δy -47px (13407→13360); Δh -3px (25→22)
+  PAIR         "Satisfaction Guarantee"  Δy -49px (13460→13411); Δw -2px (152→150); <a> box 176×30 → 174×30
+  PAIR         "|"  Δx -2px (257→255); Δy -47px (13457→13410); Δh -3px (25→22); <a> box 176×30 → 174×30
+  PAIR         "International Distributors"  Δx +2px (68→70); Δy -49px (13510→13461); Δw -2px (164→162); <a> box 164×30 → 162×30
+  PAIR         "|"  Δx -2px (273→271); Δy -45px (13505→13460); Δh -8px (30→22)
+  PAIR         "*These statements have not been evaluate"  Δy -47px (13690→13643); Δw +2px (221→223); Δh -4px (97→93)
+  PAIR         "www.nestlehealthscience.us"  Δx -2px (92→90); Δy -47px (14234→14187); Δw +4px (161→165); Δh -4px (19→15)
+  PAIR         "Nature's Bounty is a registered trademar"  Δx +2px (53→55); Δy -49px (14264→14215); Δw -4px (239→235)
+  MISSING      "Sign Up"  live <button> "Sign Up" has no build element with the same text
+  EXTRA        "Sign Up Sign Up"  build <button> "Sign Up Sign Up" has no live source
+
+✗ 33 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

@@ -275,17 +275,17 @@
       ],
       "generator": "stardust/replica/work/tools/gen-recipe.cjs",
       "iterations": {
-        "1440": 3,
-        "360": 1
+        "360": 1,
+        "1440": 3
       },
       "rounds": {
+        "360": [
+          "iter1 (full, after sup fix)"
+        ],
         "1440": [
           "iter1 (full)",
           "iter2 (pixel, after canon sup fix)",
           "iter3 (full, confirmation)"
-        ],
-        "360": [
-          "iter1 (full, after sup fix)"
         ],
         "control": [
           "apple-crisp-control 360 iter1 (full)",
@@ -293,6 +293,22 @@
         ]
       },
       "gates": {
+        "360": {
+          "pixel": 32,
+          "heightDelta": 129,
+          "contentDiff": "3 🔴 · 3 🟡 — 'More recipes' rotation (stacked cards, different titles/excerpts → height shift from the related row down); everything above the row measured Δ 0",
+          "visualDiff": "0 flags",
+          "clipped": 0,
+          "overflow": 0,
+          "control": {
+            "pixel": 4.08,
+            "heightDelta": 1,
+            "contentDiff": "0 🔴 · 0 🟡",
+            "evidence": "stardust/replica/gates/apple-crisp-control-360/verdict-iter1.json"
+          },
+          "pass": "conditional — shipped snapshot fails only through rotation; control build passes the bar",
+          "evidence": "stardust/replica/gates/apple-crisp-360/verdict-iter1.json"
+        },
         "1440": {
           "pixel": 6.68,
           "heightDelta": 0,
@@ -309,22 +325,6 @@
           },
           "pass": "conditional — bar met on pixel/Δh/clip/overflow; content 🔴 are the documented listing rotation, control build passes all",
           "evidence": "stardust/replica/gates/apple-crisp-1440/verdict-iter3.json"
-        },
-        "360": {
-          "pixel": 32.0,
-          "heightDelta": 129,
-          "contentDiff": "3 🔴 · 3 🟡 — 'More recipes' rotation (stacked cards, different titles/excerpts → height shift from the related row down); everything above the row measured Δ 0",
-          "visualDiff": "0 flags",
-          "clipped": 0,
-          "overflow": 0,
-          "control": {
-            "pixel": 4.08,
-            "heightDelta": 1,
-            "contentDiff": "0 🔴 · 0 🟡",
-            "evidence": "stardust/replica/gates/apple-crisp-control-360/verdict-iter1.json"
-          },
-          "pass": "conditional — shipped snapshot fails only through rotation; control build passes the bar",
-          "evidence": "stardust/replica/gates/apple-crisp-360/verdict-iter1.json"
         }
       },
       "capProbe": "PASS at 2560 — 0 of 4 rows failed (stardust/replica/gates/apple-crisp-2560/cap-iter.json)",
@@ -370,6 +370,125 @@
         "recipe-mango-berry-cloud.jpg"
       ],
       "writtenAt": "2026-11-10T23:51:35.521066Z"
+    },
+    "landing": {
+      "pageType": "landing",
+      "archetype": "index",
+      "url": "https://naturesbounty.com/",
+      "prototype": "stardust/prototypes/index-proposed.html",
+      "layers": [
+        "stardust/prototypes/canon.css",
+        "stardust/prototypes/landing.css",
+        "stardust/prototypes/canon.js",
+        "stardust/prototypes/landing.js"
+      ],
+      "generator": "stardust/replica/work/tools/gen-landing.cjs",
+      "iterations": {
+        "360": 3,
+        "1440": 3
+      },
+      "rounds": {
+        "360": [
+          "iter1 (full)",
+          "iter2 (pixel)",
+          "iter3 (full)",
+          "final (full, re-confirmation: lazy main images made eager + mobile text margin)"
+        ],
+        "1440": [
+          "iter1 (full)",
+          "iter2 (pixel)",
+          "iter3 (full)",
+          "final (full, re-confirmation after restoring the canon mega-menu lazy icons)"
+        ]
+      },
+      "gates": {
+        "360": {
+          "pixel": 8.55,
+          "heightDelta": -33,
+          "contentDiff": "0 🔴 · 0 nothing-lost 🟡 · 25 accepted (loop clones) · 6 advisory",
+          "visualDiff": "1 advisory (HEADING FACE h1 null→sans-serif)",
+          "clipped": 0,
+          "overflow": 0,
+          "hotBands": "y 10500–13000 (17–47%) and 14000–14321 (16%): featured-content + footer offset −30px after a Figtree wrap",
+          "chromeParity": "33 deltas — footer OFFSET Δy −27 (page above) + R-01 widths",
+          "pass": false,
+          "evidence": "stardust/replica/gates/index-360/verdict-final.json"
+        },
+        "1440": {
+          "pixel": 2.7,
+          "heightDelta": -1,
+          "contentDiff": "0 🔴 · 0 nothing-lost 🟡 · 25 accepted (testimonial Swiper loop clones, stardust/replica/accepted.json) · 6 advisory",
+          "visualDiff": "1 advisory (HEADING FACE h1: live computes `null, sans-serif`, reproduced as sans-serif)",
+          "clipped": 0,
+          "overflow": 0,
+          "hotBands": "none",
+          "chromeParity": "34 deltas — header OFFSET Δy −82 (live probe reads the home header 82px lower; crop-compare shows identical header) + footer Δw ±2–4px (R-01)",
+          "pass": true,
+          "evidence": "stardust/replica/gates/index-1440/verdict-final.json"
+        }
+      },
+      "capProbe": "PASS at 2560 — 0 of 8 rows failed (stardust/replica/gates/index-2560/cap-iter.json)",
+      "captureState": [
+        {
+          "what": "hero background video (video-hero)",
+          "freeze": "stitch-shot seeks the muted loop to t=0 and pauses it for capture",
+          "restoreAtDelivery": "autoplay muted loop playsinline (live: playing, currentTime advancing) — prototype ships the native attributes; motion-compare media parity"
+        },
+        {
+          "what": "content-products first slide entrance",
+          "freeze": "captured at rest (reduced motion, after scroll settle)",
+          "restoreAtDelivery": "GSAP ScrollTrigger on the first slide descendants + dots: y −20% → 0, opacity 0 → 1, 1s each, 0.2s stagger, once section top passes centre+300px — prototype: landing.js .cp-enter/.is-in CSS transitions (skipped under prefers-reduced-motion)"
+        }
+      ],
+      "residuals": [
+        {
+          "breakpoint": 360,
+          "band": "y 10500–13000 + document height",
+          "pct": 8.55,
+          "heightDelta": -33,
+          "cause": "font substitution (register R-01): featured-content card 2 body (Digestive Probiotic 10) wraps 7 lines live vs 6 with Figtree (−30px); everything below (remaining cards, trusted band, social strip, footer) offset; element heights otherwise Δ0 (measured)",
+          "flaggedFor": "user",
+          "register": "R-01"
+        },
+        {
+          "breakpoint": "1440/360",
+          "band": "hero h1",
+          "pct": null,
+          "cause": "live hero heading renders font-family `null, sans-serif` (unset theme font setting) — reproduced faithfully as generic sans-serif; candidate for the inconsistency register if the owner wants the brand face",
+          "flaggedFor": "user"
+        },
+        {
+          "breakpoint": "1440",
+          "band": "chrome-parity header",
+          "pct": null,
+          "cause": "probe reads live home header texts at y=114 vs 32 (Δy −82 as one block); stitched crop-compare shows the header identical — instrument/live-state artefact, canon unchanged",
+          "flaggedFor": "none"
+        },
+        {
+          "breakpoint": "all",
+          "band": "content-diff",
+          "pct": null,
+          "cause": "testimonials: live Swiper loop:true duplicates both quotes; recreation keeps one copy each (loop clones are presentational) — 17 accepted entries written to stardust/replica/accepted.json with reason",
+          "flaggedFor": "none"
+        }
+      ],
+      "motion": {
+        "observed": "live 1440: hero video playing (autoplay muted loop); pill-click colour transitions .18s; content-products + testimonials track transform transitions on arrow click; ticker transform (canon); GSAP entrance on first highlight slide (inline-style tween, seen in captured DOM, not as CSS transitions); Klaviyo popup animations (third-party overlay, dismissed)",
+        "implemented": "landing.js: tabbed rail (pills jump to collection, arrows step 3/1 and wrap, active pill follows scrollend), highlight carousel (non-loop, prev disabled at 0, dots on mobile), testimonials (loop, no clones), GSAP-equivalent entrance; native video autoplay. motion-compare: 8 parity (video, pill transitions, transform, is-active), 13 missing = swiper-*/slick-* library class names + klaviyo, 0 extra, 5 advisory (entrance opacity/translate, pill hover)",
+        "dead": [
+          "header scroll-morph (static on live)",
+          "hover diffs on featured-grid tiles, product cards, highlight CTA, featured-content links, hero CTA and pills: 0 measured on live — probe ran under the Klaviyo modal (body scroll lock); source :hover rules kept as lifted CSS"
+        ],
+        "evidence": [
+          "stardust/replica/motion/index.json",
+          "stardust/replica/motion/index-build.json",
+          "stardust/replica/motion/index-compare.json"
+        ]
+      },
+      "canonChanges": "none (canon.css / canon.js untouched)",
+      "units": "declared featured-grid-tile (8), tabbed-product-card (23), content-highlight-slide (8), testimonial (2), featured-content-item (3); social-tile extended to index — declared after the final rounds, unit-geometry not yet measured for index",
+      "assets": "51 home-* media harvested into stardust/current/assets/media (stardust/replica/work/tools/home-media.tsv), incl. the 9.3MB hero mp4",
+      "writtenAt": "2026-11-11T00:20:51.760Z"
     }
   }
 }

@@ -1,0 +1,1421 @@
+{
+ "url": "http://localhost:8791/index-proposed.html",
+ "at": "2026-11-11T00:16:58.260Z",
+ "width": 360,
+ "status": 200,
+ "settlePasses": 2,
+ "docH": 14321,
+ "pageW": 360,
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 8,
+  "offPage": 399,
+  "textNodes": 327,
+  "controls": 235,
+  "total": 0
+ },
+ "findings": [
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "cut": 82,
+   "path": "div.announce > div.announce__viewport > div.announce__track > a.announce__link",
+   "text": "supplementing the knowledge gap in women's health",
+   "clipper": "div.announce__viewport",
+   "rect": {
+    "l": -82,
+    "t": 7,
+    "r": 213,
+    "b": 25,
+    "w": 295,
+    "h": 18
+   },
+   "clip": {
+    "l": 0,
+    "t": 7,
+    "r": 360,
+    "b": 25,
+    "w": 360,
+    "h": 18
+   }
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "cut": 82,
+   "path": "div.announce > div.announce__viewport > div.announce__track > a.announce__link",
+   "text": "supplementing the knowledge gap in women's health",
+   "clipper": "div.announce__viewport",
+   "rect": {
+    "l": -82,
+    "t": 9,
+    "r": 213,
+    "b": 23,
+    "w": 295,
+    "h": 14
+   },
+   "clip": {
+    "l": 0,
+    "t": 7,
+    "r": 360,
+    "b": 25,
+    "w": 360,
+    "h": 18
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL X-HIDDEN",
+   "advisory": true,
+   "path": "div.tabbed-products__track > div.tabbed-products__slide > div.product-card > a.product-card__inner",
+   "text": "probiotic 10 20 billion live probiotic cultures , 30 capsule",
+   "clipper": "div.tabbed-products__track",
+   "rect": {
+    "l": 355,
+    "t": 4649,
+    "r": 660,
+    "b": 5280,
+    "w": 305,
+    "h": 631
+   },
+   "clip": {
+    "l": 20,
+    "t": 4649,
+    "r": 325,
+    "b": 5280,
+    "w": 305,
+    "h": 631
+   }
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "cut": 105,
+   "path": "div.testimonials__track > div.testimonials__item > div.testimonials__quote > div.testimonials__quote-title",
+   "text": "vitamin d3",
+   "clipper": "div.testimonials__viewport",
+   "rect": {
+    "l": 338,
+    "t": 8070,
+    "r": 465,
+    "b": 8102,
+    "w": 127,
+    "h": 32
+   },
+   "clip": {
+    "l": 25,
+    "t": 7510,
+    "r": 320,
+    "b": 8589,
+    "w": 295,
+    "h": 1079
+   },
+   "lines": 1
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "cut": 214,
+   "path": "div.testimonials__track > div.testimonials__item > div.testimonials__quote > div.testimonials__quote-text",
+   "text": "\"i am always low on vitamin d because i don't stay in the su",
+   "clipper": "div.testimonials__viewport",
+   "rect": {
+    "l": 338,
+    "t": 8134,
+    "r": 568,
+    "b": 8156,
+    "w": 231,
+    "h": 22
+   },
+   "clip": {
+    "l": 25,
+    "t": 7510,
+    "r": 320,
+    "b": 8589,
+    "w": 295,
+    "h": 1079
+   },
+   "lines": 6
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "cut": 109,
+   "path": "div.testimonials__track > div.testimonials__item > div.testimonials__quote > span.testimonials__reviewer",
+   "text": "-- kimberlya8918",
+   "clipper": "div.testimonials__viewport",
+   "rect": {
+    "l": 338,
+    "t": 8409,
+    "r": 469,
+    "b": 8431,
+    "w": 132,
+    "h": 22
+   },
+   "clip": {
+    "l": 25,
+    "t": 7510,
+    "r": 320,
+    "b": 8589,
+    "w": 295,
+    "h": 1079
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL X-HIDDEN",
+   "advisory": true,
+   "path": "div.testimonials__track > div.testimonials__item > div.testimonials__quote > a",
+   "text": "read more",
+   "clipper": "div.testimonials__viewport",
+   "rect": {
+    "l": 338,
+    "t": 8460,
+    "r": 423,
+    "b": 8478,
+    "w": 85,
+    "h": 18
+   },
+   "clip": {
+    "l": 25,
+    "t": 7510,
+    "r": 320,
+    "b": 8589,
+    "w": 295,
+    "h": 1079
+   }
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "cut": 63,
+   "path": "div.testimonials__track > div.testimonials__item > div.testimonials__quote > a",
+   "text": "read more",
+   "clipper": "div.testimonials__viewport",
+   "rect": {
+    "l": 338,
+    "t": 8458,
+    "r": 423,
+    "b": 8480,
+    "w": 85,
+    "h": 22
+   },
+   "clip": {
+    "l": 25,
+    "t": 7510,
+    "r": 320,
+    "b": 8589,
+    "w": 295,
+    "h": 1079
+   },
+   "lines": 1
+  }
+ ],
+ "textBoxes": [
+  {
+   "x": -82,
+   "y": 9,
+   "w": 295,
+   "h": 14
+  },
+  {
+   "x": 22,
+   "y": 233,
+   "w": 289,
+   "h": 36
+  },
+  {
+   "x": 22,
+   "y": 288,
+   "w": 270,
+   "h": 19
+  },
+  {
+   "x": 22,
+   "y": 314,
+   "w": 281,
+   "h": 19
+  },
+  {
+   "x": 22,
+   "y": 339,
+   "w": 286,
+   "h": 19
+  },
+  {
+   "x": 22,
+   "y": 365,
+   "w": 246,
+   "h": 19
+  },
+  {
+   "x": 48,
+   "y": 435,
+   "w": 75,
+   "h": 18
+  },
+  {
+   "x": 21,
+   "y": 654,
+   "w": 303,
+   "h": 41
+  },
+  {
+   "x": 80,
+   "y": 699,
+   "w": 184,
+   "h": 41
+  },
+  {
+   "x": 45,
+   "y": 744,
+   "w": 254,
+   "h": 41
+  },
+  {
+   "x": 100,
+   "y": 877,
+   "w": 146,
+   "h": 34
+  },
+  {
+   "x": 55,
+   "y": 953,
+   "w": 235,
+   "h": 22
+  },
+  {
+   "x": 118,
+   "y": 983,
+   "w": 109,
+   "h": 22
+  },
+  {
+   "x": 104,
+   "y": 1077,
+   "w": 138,
+   "h": 22
+  },
+  {
+   "x": 117,
+   "y": 1599,
+   "w": 110,
+   "h": 32
+  },
+  {
+   "x": 97,
+   "y": 2025,
+   "w": 150,
+   "h": 32
+  },
+  {
+   "x": 51,
+   "y": 2451,
+   "w": 243,
+   "h": 32
+  },
+  {
+   "x": 74,
+   "y": 2877,
+   "w": 198,
+   "h": 32
+  },
+  {
+   "x": 89,
+   "y": 3303,
+   "w": 167,
+   "h": 32
+  },
+  {
+   "x": 78,
+   "y": 3729,
+   "w": 190,
+   "h": 32
+  },
+  {
+   "x": 78,
+   "y": 4155,
+   "w": 189,
+   "h": 32
+  },
+  {
+   "x": 27,
+   "y": 4278,
+   "w": 291,
+   "h": 37
+  },
+  {
+   "x": 111,
+   "y": 4323,
+   "w": 123,
+   "h": 37
+  },
+  {
+   "x": 40,
+   "y": 4389,
+   "w": 266,
+   "h": 19
+  },
+  {
+   "x": 121,
+   "y": 4419,
+   "w": 103,
+   "h": 19
+  },
+  {
+   "x": 76,
+   "y": 4474,
+   "w": 37,
+   "h": 22
+  },
+  {
+   "x": 67,
+   "y": 4495,
+   "w": 55,
+   "h": 22
+  },
+  {
+   "x": 221,
+   "y": 4474,
+   "w": 59,
+   "h": 22
+  },
+  {
+   "x": 217,
+   "y": 4495,
+   "w": 67,
+   "h": 22
+  },
+  {
+   "x": 56,
+   "y": 4559,
+   "w": 77,
+   "h": 22
+  },
+  {
+   "x": 67,
+   "y": 4580,
+   "w": 55,
+   "h": 22
+  },
+  {
+   "x": 226,
+   "y": 4559,
+   "w": 49,
+   "h": 22
+  },
+  {
+   "x": 223,
+   "y": 4580,
+   "w": 55,
+   "h": 22
+  },
+  {
+   "x": 77,
+   "y": 4953,
+   "w": 192,
+   "h": 27
+  },
+  {
+   "x": 115,
+   "y": 4975,
+   "w": 116,
+   "h": 27
+  },
+  {
+   "x": 89,
+   "y": 5004,
+   "w": 166,
+   "h": 22
+  },
+  {
+   "x": 221,
+   "y": 5045,
+   "w": 17,
+   "h": 14
+  },
+  {
+   "x": 64,
+   "y": 5077,
+   "w": 216,
+   "h": 18
+  },
+  {
+   "x": 118,
+   "y": 5214,
+   "w": 109,
+   "h": 22
+  },
+  {
+   "x": 99,
+   "y": 5410,
+   "w": 147,
+   "h": 22
+  },
+  {
+   "x": 30,
+   "y": 5524,
+   "w": 121,
+   "h": 32
+  },
+  {
+   "x": 30,
+   "y": 5551,
+   "w": 219,
+   "h": 32
+  },
+  {
+   "x": 30,
+   "y": 5577,
+   "w": 209,
+   "h": 32
+  },
+  {
+   "x": 30,
+   "y": 5637,
+   "w": 167,
+   "h": 43
+  },
+  {
+   "x": 30,
+   "y": 5673,
+   "w": 169,
+   "h": 43
+  },
+  {
+   "x": 199,
+   "y": 5673,
+   "w": 72,
+   "h": 43
+  },
+  {
+   "x": 30,
+   "y": 6035,
+   "w": 240,
+   "h": 19
+  },
+  {
+   "x": 30,
+   "y": 6065,
+   "w": 254,
+   "h": 19
+  },
+  {
+   "x": 84,
+   "y": 6153,
+   "w": 177,
+   "h": 22
+  },
+  {
+   "x": 146,
+   "y": 6183,
+   "w": 53,
+   "h": 22
+  },
+  {
+   "x": 20,
+   "y": 6432,
+   "w": 184,
+   "h": 48
+  },
+  {
+   "x": 20,
+   "y": 6482,
+   "w": 254,
+   "h": 48
+  },
+  {
+   "x": 20,
+   "y": 6532,
+   "w": 289,
+   "h": 48
+  },
+  {
+   "x": 20,
+   "y": 6582,
+   "w": 224,
+   "h": 48
+  },
+  {
+   "x": 20,
+   "y": 6632,
+   "w": 242,
+   "h": 48
+  },
+  {
+   "x": 20,
+   "y": 6682,
+   "w": 286,
+   "h": 48
+  },
+  {
+   "x": 20,
+   "y": 6850,
+   "w": 267,
+   "h": 45
+  },
+  {
+   "x": 20,
+   "y": 6895,
+   "w": 153,
+   "h": 45
+  },
+  {
+   "x": 20,
+   "y": 6940,
+   "w": 292,
+   "h": 45
+  },
+  {
+   "x": 20,
+   "y": 7009,
+   "w": 252,
+   "h": 22
+  },
+  {
+   "x": 20,
+   "y": 7039,
+   "w": 255,
+   "h": 22
+  },
+  {
+   "x": 20,
+   "y": 7069,
+   "w": 292,
+   "h": 22
+  },
+  {
+   "x": 20,
+   "y": 7099,
+   "w": 292,
+   "h": 22
+  },
+  {
+   "x": 20,
+   "y": 7129,
+   "w": 169,
+   "h": 22
+  },
+  {
+   "x": 238,
+   "y": 7197,
+   "w": 63,
+   "h": 22
+  },
+  {
+   "x": 100,
+   "y": 7382,
+   "w": 144,
+   "h": 41
+  },
+  {
+   "x": 60,
+   "y": 7427,
+   "w": 226,
+   "h": 41
+  },
+  {
+   "x": 115,
+   "y": 7919,
+   "w": 116,
+   "h": 22
+  },
+  {
+   "x": 43,
+   "y": 7999,
+   "w": 208,
+   "h": 32
+  },
+  {
+   "x": 43,
+   "y": 8063,
+   "w": 221,
+   "h": 22
+  },
+  {
+   "x": 43,
+   "y": 8098,
+   "w": 231,
+   "h": 22
+  },
+  {
+   "x": 43,
+   "y": 8133,
+   "w": 207,
+   "h": 22
+  },
+  {
+   "x": 43,
+   "y": 8168,
+   "w": 234,
+   "h": 22
+  },
+  {
+   "x": 43,
+   "y": 8203,
+   "w": 207,
+   "h": 22
+  },
+  {
+   "x": 43,
+   "y": 8238,
+   "w": 203,
+   "h": 22
+  },
+  {
+   "x": 43,
+   "y": 8273,
+   "w": 206,
+   "h": 22
+  },
+  {
+   "x": 43,
+   "y": 8308,
+   "w": 108,
+   "h": 22
+  },
+  {
+   "x": 43,
+   "y": 8346,
+   "w": 222,
+   "h": 18
+  },
+  {
+   "x": 43,
+   "y": 8382,
+   "w": 222,
+   "h": 18
+  },
+  {
+   "x": 43,
+   "y": 8480,
+   "w": 92,
+   "h": 22
+  },
+  {
+   "x": 43,
+   "y": 8529,
+   "w": 85,
+   "h": 22
+  },
+  {
+   "x": 338,
+   "y": 8070,
+   "w": 127,
+   "h": 32
+  },
+  {
+   "x": 338,
+   "y": 8134,
+   "w": 231,
+   "h": 22
+  },
+  {
+   "x": 338,
+   "y": 8169,
+   "w": 237,
+   "h": 22
+  },
+  {
+   "x": 338,
+   "y": 8204,
+   "w": 220,
+   "h": 22
+  },
+  {
+   "x": 338,
+   "y": 8239,
+   "w": 189,
+   "h": 22
+  },
+  {
+   "x": 338,
+   "y": 8274,
+   "w": 182,
+   "h": 22
+  },
+  {
+   "x": 338,
+   "y": 8309,
+   "w": 89,
+   "h": 22
+  },
+  {
+   "x": 338,
+   "y": 8409,
+   "w": 132,
+   "h": 22
+  },
+  {
+   "x": 338,
+   "y": 8458,
+   "w": 85,
+   "h": 22
+  },
+  {
+   "x": 20,
+   "y": 8800,
+   "w": 277,
+   "h": 41
+  },
+  {
+   "x": 20,
+   "y": 8845,
+   "w": 41,
+   "h": 41
+  },
+  {
+   "x": 61,
+   "y": 8845,
+   "w": 119,
+   "h": 41
+  },
+  {
+   "x": 20,
+   "y": 8926,
+   "w": 288,
+   "h": 22
+  },
+  {
+   "x": 20,
+   "y": 8956,
+   "w": 197,
+   "h": 22
+  },
+  {
+   "x": 20,
+   "y": 9004,
+   "w": 302,
+   "h": 22
+  },
+  {
+   "x": 20,
+   "y": 9034,
+   "w": 285,
+   "h": 22
+  },
+  {
+   "x": 20,
+   "y": 9064,
+   "w": 147,
+   "h": 22
+  },
+  {
+   "x": 20,
+   "y": 9136,
+   "w": 163,
+   "h": 22
+  },
+  {
+   "x": 20,
+   "y": 9191,
+   "w": 96,
+   "h": 22
+  },
+  {
+   "x": 20,
+   "y": 9246,
+   "w": 153,
+   "h": 22
+  },
+  {
+   "x": 44,
+   "y": 9663,
+   "w": 230,
+   "h": 27
+  },
+  {
+   "x": 44,
+   "y": 9693,
+   "w": 189,
+   "h": 27
+  },
+  {
+   "x": 44,
+   "y": 9723,
+   "w": 207,
+   "h": 27
+  },
+  {
+   "x": 44,
+   "y": 9753,
+   "w": 87,
+   "h": 27
+  },
+  {
+   "x": 44,
+   "y": 9806,
+   "w": 256,
+   "h": 22
+  },
+  {
+   "x": 44,
+   "y": 9836,
+   "w": 236,
+   "h": 22
+  },
+  {
+   "x": 44,
+   "y": 9866,
+   "w": 249,
+   "h": 22
+  },
+  {
+   "x": 44,
+   "y": 9896,
+   "w": 252,
+   "h": 22
+  },
+  {
+   "x": 44,
+   "y": 9926,
+   "w": 242,
+   "h": 22
+  },
+  {
+   "x": 44,
+   "y": 9956,
+   "w": 206,
+   "h": 22
+  },
+  {
+   "x": 44,
+   "y": 9986,
+   "w": 106,
+   "h": 22
+  },
+  {
+   "x": 44,
+   "y": 10040,
+   "w": 116,
+   "h": 22
+  },
+  {
+   "x": 44,
+   "y": 10394,
+   "w": 222,
+   "h": 27
+  },
+  {
+   "x": 44,
+   "y": 10447,
+   "w": 194,
+   "h": 22
+  },
+  {
+   "x": 44,
+   "y": 10477,
+   "w": 257,
+   "h": 22
+  },
+  {
+   "x": 44,
+   "y": 10507,
+   "w": 253,
+   "h": 22
+  },
+  {
+   "x": 44,
+   "y": 10537,
+   "w": 215,
+   "h": 22
+  },
+  {
+   "x": 44,
+   "y": 10567,
+   "w": 230,
+   "h": 22
+  },
+  {
+   "x": 44,
+   "y": 10597,
+   "w": 244,
+   "h": 22
+  },
+  {
+   "x": 44,
+   "y": 10627,
+   "w": 201,
+   "h": 22
+  },
+  {
+   "x": 44,
+   "y": 10681,
+   "w": 116,
+   "h": 22
+  },
+  {
+   "x": 44,
+   "y": 11035,
+   "w": 237,
+   "h": 27
+  },
+  {
+   "x": 44,
+   "y": 11065,
+   "w": 225,
+   "h": 27
+  },
+  {
+   "x": 44,
+   "y": 11095,
+   "w": 230,
+   "h": 27
+  },
+  {
+   "x": 44,
+   "y": 11148,
+   "w": 243,
+   "h": 22
+  },
+  {
+   "x": 44,
+   "y": 11178,
+   "w": 251,
+   "h": 22
+  },
+  {
+   "x": 44,
+   "y": 11208,
+   "w": 254,
+   "h": 22
+  },
+  {
+   "x": 44,
+   "y": 11238,
+   "w": 226,
+   "h": 22
+  },
+  {
+   "x": 44,
+   "y": 11268,
+   "w": 254,
+   "h": 22
+  },
+  {
+   "x": 44,
+   "y": 11298,
+   "w": 133,
+   "h": 22
+  },
+  {
+   "x": 44,
+   "y": 11352,
+   "w": 116,
+   "h": 22
+  },
+  {
+   "x": 37,
+   "y": 11601,
+   "w": 270,
+   "h": 22
+  },
+  {
+   "x": 48,
+   "y": 11631,
+   "w": 250,
+   "h": 22
+  },
+  {
+   "x": 126,
+   "y": 11661,
+   "w": 92,
+   "h": 22
+  },
+  {
+   "x": 24,
+   "y": 11768,
+   "w": 298,
+   "h": 22
+  },
+  {
+   "x": 16,
+   "y": 11798,
+   "w": 312,
+   "h": 22
+  },
+  {
+   "x": 149,
+   "y": 11828,
+   "w": 46,
+   "h": 22
+  },
+  {
+   "x": 20,
+   "y": 12688,
+   "w": 162,
+   "h": 22
+  },
+  {
+   "x": 20,
+   "y": 12734,
+   "w": 299,
+   "h": 22
+  },
+  {
+   "x": 20,
+   "y": 12764,
+   "w": 212,
+   "h": 22
+  },
+  {
+   "x": 218,
+   "y": 12817,
+   "w": 102,
+   "h": 22
+  },
+  {
+   "x": 258,
+   "y": 12847,
+   "w": 23,
+   "h": 22
+  },
+  {
+   "x": 20,
+   "y": 12929,
+   "w": 72,
+   "h": 22
+  },
+  {
+   "x": 20,
+   "y": 12990,
+   "w": 109,
+   "h": 22
+  },
+  {
+   "x": 20,
+   "y": 13051,
+   "w": 135,
+   "h": 22
+  },
+  {
+   "x": 20,
+   "y": 13112,
+   "w": 128,
+   "h": 22
+  },
+  {
+   "x": 20,
+   "y": 13198,
+   "w": 77,
+   "h": 22
+  },
+  {
+   "x": 51,
+   "y": 13283,
+   "w": 85,
+   "h": 18
+  },
+  {
+   "x": 156,
+   "y": 13280,
+   "w": 4,
+   "h": 22
+  },
+  {
+   "x": 180,
+   "y": 13283,
+   "w": 89,
+   "h": 18
+  },
+  {
+   "x": 290,
+   "y": 13280,
+   "w": 4,
+   "h": 22
+  },
+  {
+   "x": 83,
+   "y": 13333,
+   "w": 155,
+   "h": 18
+  },
+  {
+   "x": 258,
+   "y": 13330,
+   "w": 4,
+   "h": 22
+  },
+  {
+   "x": 98,
+   "y": 13383,
+   "w": 125,
+   "h": 18
+  },
+  {
+   "x": 243,
+   "y": 13380,
+   "w": 4,
+   "h": 22
+  },
+  {
+   "x": 85,
+   "y": 13433,
+   "w": 150,
+   "h": 18
+  },
+  {
+   "x": 255,
+   "y": 13430,
+   "w": 4,
+   "h": 22
+  },
+  {
+   "x": 70,
+   "y": 13483,
+   "w": 162,
+   "h": 18
+  },
+  {
+   "x": 271,
+   "y": 13480,
+   "w": 4,
+   "h": 22
+  },
+  {
+   "x": 128,
+   "y": 13528,
+   "w": 136,
+   "h": 18
+  },
+  {
+   "x": 77,
+   "y": 13663,
+   "w": 192,
+   "h": 15
+  },
+  {
+   "x": 82,
+   "y": 13682,
+   "w": 182,
+   "h": 15
+  },
+  {
+   "x": 61,
+   "y": 13702,
+   "w": 223,
+   "h": 15
+  },
+  {
+   "x": 70,
+   "y": 13721,
+   "w": 204,
+   "h": 15
+  },
+  {
+   "x": 114,
+   "y": 13741,
+   "w": 117,
+   "h": 15
+  },
+  {
+   "x": 23,
+   "y": 13816,
+   "w": 298,
+   "h": 15
+  },
+  {
+   "x": 27,
+   "y": 13836,
+   "w": 291,
+   "h": 15
+  },
+  {
+   "x": 32,
+   "y": 13855,
+   "w": 281,
+   "h": 15
+  },
+  {
+   "x": 139,
+   "y": 13875,
+   "w": 68,
+   "h": 15
+  },
+  {
+   "x": 31,
+   "y": 13904,
+   "w": 282,
+   "h": 15
+  },
+  {
+   "x": 23,
+   "y": 13924,
+   "w": 300,
+   "h": 15
+  },
+  {
+   "x": 91,
+   "y": 13943,
+   "w": 163,
+   "h": 15
+  },
+  {
+   "x": 26,
+   "y": 13973,
+   "w": 294,
+   "h": 15
+  },
+  {
+   "x": 98,
+   "y": 13992,
+   "w": 149,
+   "h": 15
+  },
+  {
+   "x": 38,
+   "y": 14022,
+   "w": 269,
+   "h": 15
+  },
+  {
+   "x": 24,
+   "y": 14041,
+   "w": 297,
+   "h": 15
+  },
+  {
+   "x": 32,
+   "y": 14061,
+   "w": 282,
+   "h": 15
+  },
+  {
+   "x": 24,
+   "y": 14080,
+   "w": 297,
+   "h": 15
+  },
+  {
+   "x": 64,
+   "y": 14100,
+   "w": 217,
+   "h": 15
+  },
+  {
+   "x": 35,
+   "y": 14129,
+   "w": 276,
+   "h": 15
+  },
+  {
+   "x": 34,
+   "y": 14149,
+   "w": 278,
+   "h": 15
+  },
+  {
+   "x": 36,
+   "y": 14168,
+   "w": 273,
+   "h": 15
+  },
+  {
+   "x": 98,
+   "y": 14188,
+   "w": 150,
+   "h": 15
+  },
+  {
+   "x": 90,
+   "y": 14207,
+   "w": 165,
+   "h": 15
+  },
+  {
+   "x": 55,
+   "y": 14237,
+   "w": 235,
+   "h": 15
+  }
+ ],
+ "groups": [
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.announce__viewport",
+   "path": "div.announce > div.announce__viewport > div.announce__track > a.announce__link",
+   "text": "supplementing the knowledge gap in women's health",
+   "cutMin": 82,
+   "cutMax": 82
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.announce__viewport",
+   "path": "div.announce > div.announce__viewport > div.announce__track > a.announce__link",
+   "text": "supplementing the knowledge gap in women's health",
+   "cutMin": 82,
+   "cutMax": 82
+  },
+  {
+   "kind": "CONTROL X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.tabbed-products__track",
+   "path": "div.tabbed-products__track > div.tabbed-products__slide > div.product-card > a.product-card__inner",
+   "text": "probiotic 10 20 billion live probiotic cultures , 30 capsule",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.testimonials__viewport",
+   "path": "div.testimonials__track > div.testimonials__item > div.testimonials__quote > div.testimonials__quote-title",
+   "text": "vitamin d3",
+   "cutMin": 105,
+   "cutMax": 105
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.testimonials__viewport",
+   "path": "div.testimonials__track > div.testimonials__item > div.testimonials__quote > div.testimonials__quote-text",
+   "text": "\"i am always low on vitamin d because i don't stay in the su",
+   "cutMin": 214,
+   "cutMax": 214
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.testimonials__viewport",
+   "path": "div.testimonials__track > div.testimonials__item > div.testimonials__quote > span.testimonials__reviewer",
+   "text": "-- kimberlya8918",
+   "cutMin": 109,
+   "cutMax": 109
+  },
+  {
+   "kind": "CONTROL X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.testimonials__viewport",
+   "path": "div.testimonials__track > div.testimonials__item > div.testimonials__quote > a",
+   "text": "read more",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.testimonials__viewport",
+   "path": "div.testimonials__track > div.testimonials__item > div.testimonials__quote > a",
+   "text": "read more",
+   "cutMin": 63,
+   "cutMax": 63
+  }
+ ],
+ "tier": "chrome"
+}

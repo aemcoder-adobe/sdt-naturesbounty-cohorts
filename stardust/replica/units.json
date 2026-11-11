@@ -32,11 +32,13 @@
     "required": false,
     "pages": [
       "the-benefits-of-biotin",
-      "apple-crisp"
+      "apple-crisp",
+      "index"
     ],
     "templates": [
       "article",
-      "recipe"
+      "recipe",
+      "landing"
     ]
   },
   "listing-card": {
@@ -85,6 +87,67 @@
     ],
     "templates": [
       "recipe"
+    ]
+  },
+  "featured-grid-tile": {
+    "origin": ".featured-grid__holder .featured-grid__item",
+    "build": ".featured-grid__holder .featured-grid__item",
+    "n": 8,
+    "required": true,
+    "pages": [
+      "index"
+    ],
+    "templates": [
+      "landing"
+    ]
+  },
+  "tabbed-product-card": {
+    "origin": ".tabbed-products__slider-inner .tabbed-products__slide",
+    "build": ".tabbed-products__track .tabbed-products__slide",
+    "n": 23,
+    "required": true,
+    "pages": [
+      "index"
+    ],
+    "templates": [
+      "landing"
+    ]
+  },
+  "content-highlight-slide": {
+    "origin": ".content-products__quotes > .swiper-slide",
+    "build": ".content-products__track > .content-products__slide",
+    "n": 8,
+    "required": true,
+    "pages": [
+      "index"
+    ],
+    "templates": [
+      "landing"
+    ]
+  },
+  "testimonial": {
+    "origin": ".content-testimonials__quotes > .content-testimonials__quote_item:not(.swiper-slide-duplicate)",
+    "build": ".testimonials__track > .testimonials__item",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "index"
+    ],
+    "templates": [
+      "landing"
+    ],
+    "note": "live Swiper loop renders 2 extra duplicate slides; clones are not reproduced"
+  },
+  "featured-content-item": {
+    "origin": ".featured-content__blocks .featured-content__item",
+    "build": ".featured-content__blocks .featured-content__item",
+    "n": 3,
+    "required": true,
+    "pages": [
+      "index"
+    ],
+    "templates": [
+      "landing"
     ]
   }
 }

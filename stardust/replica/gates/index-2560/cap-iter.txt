@@ -1,0 +1,19 @@
+cap-probe  base 1440 → probe 2560 (from DESIGN.json)
+live   https://naturesbounty.com/
+  other    3 capped box(es) outside the section tier (in the JSON) — e.g. 1680px #shopify-section-header > div.header__wrapper > div.container
+  modules  7 sections: capped 1680 ×3, 1650 ×1, 924 ×1, 841 ×1, 720 ×1 · full-bleed ×0
+  contentMaxWidth fluid · shellMaxWidth fluid · root #MainContent
+build  http://localhost:8791/index-proposed.html
+  other    3 capped box(es) outside the section tier (in the JSON) — e.g. 1680px body > div.site-chrome > div.site-header__bar > div.container
+  modules  7 sections: capped 1680 ×3, 1650 ×1, 924 ×1, 841 ×1, 720 ×1 · full-bleed ×0
+  contentMaxWidth fluid · shellMaxWidth fluid · root #MainContent
+rows
+  ✓ content cap: fluid on both sides — no wrapper, no shared module cap
+  ✓ module 1/7: 720px = 720px
+  ✓ module 2/7: 1680px = 1680px
+  ✓ module 3/7: 1680px = 1680px
+  ✓ module 4/7: 841px = 841px
+  ✓ module 5/7: 1680px = 1680px
+  ✓ module 6/7: 1650px = 1650px
+  ✓ module 7/7: 924px = 924px
+cap-probe: PASS at 2560 — 0 of 8 rows failed (evidence stardust/replica/gates/index-2560/cap-iter.json)

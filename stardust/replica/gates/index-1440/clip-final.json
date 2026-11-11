@@ -1,0 +1,1431 @@
+{
+ "url": "http://localhost:8791/index-proposed.html",
+ "at": "2026-11-11T00:18:13.389Z",
+ "width": 1440,
+ "status": 200,
+ "settlePasses": 2,
+ "docH": 8336,
+ "pageW": 1440,
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 9,
+  "offPage": 213,
+  "textNodes": 283,
+  "controls": 176,
+  "total": 0
+ },
+ "findings": [
+  {
+   "kind": "CONTROL X-HIDDEN",
+   "advisory": true,
+   "path": "section.tabbed-products > div.tabbed-products__inner.container > div.tabbed-products__slider > button.tabbed-products__nav.tabbed-products__nav--prev",
+   "text": "previous slide",
+   "clipper": "div.tabbed-products__slider",
+   "rect": {
+    "l": 43,
+    "t": 2567,
+    "r": 93,
+    "b": 2659,
+    "w": 50,
+    "h": 92
+   },
+   "clip": {
+    "l": 93,
+    "t": 2289,
+    "r": 1333,
+    "b": 2936,
+    "w": 1240,
+    "h": 647
+   }
+  },
+  {
+   "kind": "CONTROL X-HIDDEN",
+   "advisory": true,
+   "path": "div.tabbed-products__track > div.tabbed-products__slide > div.product-card > a.product-card__inner",
+   "text": "advanced hair, skin & nails 80 gummies 4.4 out of 5 stars. r",
+   "clipper": "div.tabbed-products__track",
+   "rect": {
+    "l": 1362,
+    "t": 2289,
+    "r": 1756,
+    "b": 2936,
+    "w": 393,
+    "h": 647
+   },
+   "clip": {
+    "l": 93,
+    "t": 2289,
+    "r": 1333,
+    "b": 2936,
+    "w": 1240,
+    "h": 647
+   }
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "cut": 257,
+   "path": "div.product-card > a.product-card__inner > div.product-card__body > h4.product-card__title",
+   "text": "advanced hair, skin & nails",
+   "clipper": "div.tabbed-products__track",
+   "rect": {
+    "l": 1421,
+    "t": 2593,
+    "r": 1697,
+    "b": 2620,
+    "w": 276,
+    "h": 27
+   },
+   "clip": {
+    "l": 93,
+    "t": 2289,
+    "r": 1333,
+    "b": 2936,
+    "w": 1240,
+    "h": 647
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL X-HIDDEN",
+   "advisory": true,
+   "path": "a.product-card__inner > div.product-card__body > div.rating > button.rating__summary",
+   "text": "4.4 out of 5 stars. read reviews for average rating value is",
+   "clipper": "div.tabbed-products__track",
+   "rect": {
+    "l": 1383,
+    "t": 2696,
+    "r": 1735,
+    "b": 2721,
+    "w": 351,
+    "h": 25
+   },
+   "clip": {
+    "l": 93,
+    "t": 2289,
+    "r": 1333,
+    "b": 2936,
+    "w": 1240,
+    "h": 647
+   }
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "cut": 243,
+   "path": "div.product-card > a.product-card__inner > div.product-card__body > div.product-card__desc",
+   "text": "with over 2x the biotin† from the #1 brand for hair, skin & ",
+   "clipper": "div.tabbed-products__track",
+   "rect": {
+    "l": 1384,
+    "t": 2733,
+    "r": 1683,
+    "b": 2751,
+    "w": 300,
+    "h": 18
+   },
+   "clip": {
+    "l": 93,
+    "t": 2289,
+    "r": 1333,
+    "b": 2936,
+    "w": 1240,
+    "h": 647
+   },
+   "lines": 2
+  },
+  {
+   "kind": "CONTROL X-HIDDEN",
+   "advisory": true,
+   "path": "div.product-card > a.product-card__inner > div.product-card__foot > button.btn.btn--lime",
+   "text": "view product",
+   "clipper": "div.tabbed-products__track",
+   "rect": {
+    "l": 1426,
+    "t": 2847,
+    "r": 1692,
+    "b": 2915,
+    "w": 266,
+    "h": 68
+   },
+   "clip": {
+    "l": 93,
+    "t": 2289,
+    "r": 1333,
+    "b": 2936,
+    "w": 1240,
+    "h": 647
+   }
+  },
+  {
+   "kind": "CONTROL X-HIDDEN",
+   "advisory": true,
+   "path": "section.tabbed-products > div.tabbed-products__inner.container > div.tabbed-products__slider > button.tabbed-products__nav.tabbed-products__nav--next",
+   "text": "next slide",
+   "clipper": "div.tabbed-products__slider",
+   "rect": {
+    "l": 1333,
+    "t": 2567,
+    "r": 1383,
+    "b": 2659,
+    "w": 50,
+    "h": 92
+   },
+   "clip": {
+    "l": 93,
+    "t": 2289,
+    "r": 1333,
+    "b": 2936,
+    "w": 1240,
+    "h": 647
+   }
+  },
+  {
+   "kind": "CONTROL X-HIDDEN",
+   "advisory": true,
+   "path": "div.testimonials__track > div.testimonials__item > div.testimonials__media > a",
+   "text": "shop now",
+   "clipper": "div.testimonials__viewport",
+   "rect": {
+    "l": 1425,
+    "t": 4997,
+    "r": 1522,
+    "b": 5027,
+    "w": 97,
+    "h": 30
+   },
+   "clip": {
+    "l": 188,
+    "t": 4592,
+    "r": 1238,
+    "b": 5077,
+    "w": 1050,
+    "h": 485
+   }
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "cut": 82,
+   "path": "div.testimonials__track > div.testimonials__item > div.testimonials__media > a",
+   "text": "shop now",
+   "clipper": "div.testimonials__viewport",
+   "rect": {
+    "l": 1425,
+    "t": 5001,
+    "r": 1522,
+    "b": 5023,
+    "w": 97,
+    "h": 22
+   },
+   "clip": {
+    "l": 188,
+    "t": 4592,
+    "r": 1238,
+    "b": 5077,
+    "w": 1050,
+    "h": 485
+   },
+   "lines": 1
+  }
+ ],
+ "textBoxes": [
+  {
+   "x": 190,
+   "y": 8,
+   "w": 160,
+   "h": 15
+  },
+  {
+   "x": 551,
+   "y": 8,
+   "w": 219,
+   "h": 15
+  },
+  {
+   "x": 969,
+   "y": 8,
+   "w": 319,
+   "h": 15
+  },
+  {
+   "x": 519,
+   "y": 56,
+   "w": 80,
+   "h": 24
+  },
+  {
+   "x": 656,
+   "y": 56,
+   "w": 138,
+   "h": 24
+  },
+  {
+   "x": 851,
+   "y": 56,
+   "w": 50,
+   "h": 24
+  },
+  {
+   "x": 952,
+   "y": 56,
+   "w": 83,
+   "h": 24
+  },
+  {
+   "x": 1178,
+   "y": 57,
+   "w": 109,
+   "h": 22
+  },
+  {
+   "x": 86,
+   "y": 355,
+   "w": 503,
+   "h": 63
+  },
+  {
+   "x": 86,
+   "y": 436,
+   "w": 499,
+   "h": 20
+  },
+  {
+   "x": 86,
+   "y": 464,
+   "w": 506,
+   "h": 20
+  },
+  {
+   "x": 86,
+   "y": 491,
+   "w": 152,
+   "h": 20
+  },
+  {
+   "x": 112,
+   "y": 562,
+   "w": 75,
+   "h": 18
+  },
+  {
+   "x": 266,
+   "y": 903,
+   "w": 893,
+   "h": 48
+  },
+  {
+   "x": 161,
+   "y": 1050,
+   "w": 146,
+   "h": 34
+  },
+  {
+   "x": 136,
+   "y": 1126,
+   "w": 196,
+   "h": 22
+  },
+  {
+   "x": 160,
+   "y": 1156,
+   "w": 148,
+   "h": 22
+  },
+  {
+   "x": 165,
+   "y": 1250,
+   "w": 138,
+   "h": 22
+  },
+  {
+   "x": 498,
+   "y": 1346,
+   "w": 110,
+   "h": 32
+  },
+  {
+   "x": 797,
+   "y": 1346,
+   "w": 150,
+   "h": 32
+  },
+  {
+   "x": 1070,
+   "y": 1346,
+   "w": 243,
+   "h": 32
+  },
+  {
+   "x": 135,
+   "y": 1772,
+   "w": 198,
+   "h": 32
+  },
+  {
+   "x": 470,
+   "y": 1772,
+   "w": 167,
+   "h": 32
+  },
+  {
+   "x": 777,
+   "y": 1772,
+   "w": 190,
+   "h": 32
+  },
+  {
+   "x": 1097,
+   "y": 1772,
+   "w": 189,
+   "h": 32
+  },
+  {
+   "x": 432,
+   "y": 2027,
+   "w": 560,
+   "h": 48
+  },
+  {
+   "x": 500,
+   "y": 2100,
+   "w": 424,
+   "h": 22
+  },
+  {
+   "x": 349,
+   "y": 2172,
+   "w": 82,
+   "h": 19
+  },
+  {
+   "x": 549,
+   "y": 2172,
+   "w": 113,
+   "h": 19
+  },
+  {
+   "x": 762,
+   "y": 2172,
+   "w": 117,
+   "h": 19
+  },
+  {
+   "x": 989,
+   "y": 2172,
+   "w": 93,
+   "h": 19
+  },
+  {
+   "x": 177,
+   "y": 2593,
+   "w": 224,
+   "h": 27
+  },
+  {
+   "x": 247,
+   "y": 2615,
+   "w": 84,
+   "h": 27
+  },
+  {
+   "x": 206,
+   "y": 2660,
+   "w": 166,
+   "h": 22
+  },
+  {
+   "x": 338,
+   "y": 2701,
+   "w": 17,
+   "h": 14
+  },
+  {
+   "x": 155,
+   "y": 2733,
+   "w": 216,
+   "h": 18
+  },
+  {
+   "x": 234,
+   "y": 2870,
+   "w": 109,
+   "h": 22
+  },
+  {
+   "x": 653,
+   "y": 2593,
+   "w": 120,
+   "h": 27
+  },
+  {
+   "x": 569,
+   "y": 2660,
+   "w": 287,
+   "h": 22
+  },
+  {
+   "x": 677,
+   "y": 2690,
+   "w": 72,
+   "h": 22
+  },
+  {
+   "x": 762,
+   "y": 2731,
+   "w": 17,
+   "h": 14
+  },
+  {
+   "x": 616,
+   "y": 2763,
+   "w": 142,
+   "h": 18
+  },
+  {
+   "x": 658,
+   "y": 2870,
+   "w": 109,
+   "h": 22
+  },
+  {
+   "x": 1043,
+   "y": 2593,
+   "w": 186,
+   "h": 27
+  },
+  {
+   "x": 1016,
+   "y": 2660,
+   "w": 239,
+   "h": 22
+  },
+  {
+   "x": 1185,
+   "y": 2701,
+   "w": 17,
+   "h": 14
+  },
+  {
+   "x": 978,
+   "y": 2733,
+   "w": 265,
+   "h": 18
+  },
+  {
+   "x": 1081,
+   "y": 2755,
+   "w": 58,
+   "h": 18
+  },
+  {
+   "x": 1081,
+   "y": 2870,
+   "w": 109,
+   "h": 22
+  },
+  {
+   "x": 1421,
+   "y": 2593,
+   "w": 276,
+   "h": 27
+  },
+  {
+   "x": 1384,
+   "y": 2733,
+   "w": 300,
+   "h": 18
+  },
+  {
+   "x": 639,
+   "y": 3025,
+   "w": 147,
+   "h": 22
+  },
+  {
+   "x": 788,
+   "y": 3301,
+   "w": 523,
+   "h": 53
+  },
+  {
+   "x": 788,
+   "y": 3346,
+   "w": 412,
+   "h": 53
+  },
+  {
+   "x": 788,
+   "y": 3408,
+   "w": 304,
+   "h": 77
+  },
+  {
+   "x": 788,
+   "y": 3472,
+   "w": 307,
+   "h": 77
+  },
+  {
+   "x": 1095,
+   "y": 3472,
+   "w": 130,
+   "h": 77
+  },
+  {
+   "x": 788,
+   "y": 3568,
+   "w": 498,
+   "h": 19
+  },
+  {
+   "x": 819,
+   "y": 3649,
+   "w": 235,
+   "h": 22
+  },
+  {
+   "x": 93,
+   "y": 4050,
+   "w": 446,
+   "h": 48
+  },
+  {
+   "x": 93,
+   "y": 4100,
+   "w": 432,
+   "h": 48
+  },
+  {
+   "x": 93,
+   "y": 4150,
+   "w": 465,
+   "h": 48
+  },
+  {
+   "x": 93,
+   "y": 4200,
+   "w": 152,
+   "h": 48
+  },
+  {
+   "x": 713,
+   "y": 3996,
+   "w": 430,
+   "h": 45
+  },
+  {
+   "x": 713,
+   "y": 4041,
+   "w": 292,
+   "h": 45
+  },
+  {
+   "x": 713,
+   "y": 4111,
+   "w": 454,
+   "h": 22
+  },
+  {
+   "x": 713,
+   "y": 4141,
+   "w": 469,
+   "h": 22
+  },
+  {
+   "x": 713,
+   "y": 4171,
+   "w": 345,
+   "h": 22
+  },
+  {
+   "x": 1122,
+   "y": 4238,
+   "w": 63,
+   "h": 22
+  },
+  {
+   "x": 490,
+   "y": 4503,
+   "w": 445,
+   "h": 48
+  },
+  {
+   "x": 366,
+   "y": 5001,
+   "w": 116,
+   "h": 22
+  },
+  {
+   "x": 660,
+   "y": 4621,
+   "w": 240,
+   "h": 37
+  },
+  {
+   "x": 660,
+   "y": 4688,
+   "w": 442,
+   "h": 22
+  },
+  {
+   "x": 660,
+   "y": 4723,
+   "w": 425,
+   "h": 22
+  },
+  {
+   "x": 660,
+   "y": 4758,
+   "w": 426,
+   "h": 22
+  },
+  {
+   "x": 660,
+   "y": 4793,
+   "w": 339,
+   "h": 22
+  },
+  {
+   "x": 660,
+   "y": 4831,
+   "w": 395,
+   "h": 18
+  },
+  {
+   "x": 660,
+   "y": 4867,
+   "w": 48,
+   "h": 18
+  },
+  {
+   "x": 660,
+   "y": 4980,
+   "w": 92,
+   "h": 22
+  },
+  {
+   "x": 660,
+   "y": 5029,
+   "w": 85,
+   "h": 22
+  },
+  {
+   "x": 1425,
+   "y": 5001,
+   "w": 97,
+   "h": 22
+  },
+  {
+   "x": 100,
+   "y": 5477,
+   "w": 374,
+   "h": 48
+  },
+  {
+   "x": 100,
+   "y": 5527,
+   "w": 140,
+   "h": 48
+  },
+  {
+   "x": 100,
+   "y": 5620,
+   "w": 409,
+   "h": 22
+  },
+  {
+   "x": 100,
+   "y": 5650,
+   "w": 76,
+   "h": 22
+  },
+  {
+   "x": 100,
+   "y": 5698,
+   "w": 412,
+   "h": 22
+  },
+  {
+   "x": 100,
+   "y": 5728,
+   "w": 326,
+   "h": 22
+  },
+  {
+   "x": 100,
+   "y": 5848,
+   "w": 163,
+   "h": 22
+  },
+  {
+   "x": 100,
+   "y": 5903,
+   "w": 96,
+   "h": 22
+  },
+  {
+   "x": 100,
+   "y": 5958,
+   "w": 153,
+   "h": 22
+  },
+  {
+   "x": 736,
+   "y": 5378,
+   "w": 277,
+   "h": 27
+  },
+  {
+   "x": 736,
+   "y": 5408,
+   "w": 268,
+   "h": 27
+  },
+  {
+   "x": 736,
+   "y": 5438,
+   "w": 173,
+   "h": 27
+  },
+  {
+   "x": 736,
+   "y": 5491,
+   "w": 256,
+   "h": 22
+  },
+  {
+   "x": 736,
+   "y": 5521,
+   "w": 280,
+   "h": 22
+  },
+  {
+   "x": 736,
+   "y": 5551,
+   "w": 282,
+   "h": 22
+  },
+  {
+   "x": 736,
+   "y": 5581,
+   "w": 285,
+   "h": 22
+  },
+  {
+   "x": 736,
+   "y": 5611,
+   "w": 281,
+   "h": 22
+  },
+  {
+   "x": 736,
+   "y": 5641,
+   "w": 166,
+   "h": 22
+  },
+  {
+   "x": 736,
+   "y": 5695,
+   "w": 116,
+   "h": 22
+  },
+  {
+   "x": 736,
+   "y": 5817,
+   "w": 222,
+   "h": 27
+  },
+  {
+   "x": 736,
+   "y": 5870,
+   "w": 276,
+   "h": 22
+  },
+  {
+   "x": 736,
+   "y": 5900,
+   "w": 256,
+   "h": 22
+  },
+  {
+   "x": 736,
+   "y": 5930,
+   "w": 276,
+   "h": 22
+  },
+  {
+   "x": 736,
+   "y": 5960,
+   "w": 201,
+   "h": 22
+  },
+  {
+   "x": 736,
+   "y": 5990,
+   "w": 291,
+   "h": 22
+  },
+  {
+   "x": 736,
+   "y": 6020,
+   "w": 295,
+   "h": 22
+  },
+  {
+   "x": 736,
+   "y": 6074,
+   "w": 116,
+   "h": 22
+  },
+  {
+   "x": 736,
+   "y": 6196,
+   "w": 237,
+   "h": 27
+  },
+  {
+   "x": 736,
+   "y": 6226,
+   "w": 225,
+   "h": 27
+  },
+  {
+   "x": 736,
+   "y": 6256,
+   "w": 230,
+   "h": 27
+  },
+  {
+   "x": 736,
+   "y": 6309,
+   "w": 292,
+   "h": 22
+  },
+  {
+   "x": 736,
+   "y": 6339,
+   "w": 279,
+   "h": 22
+  },
+  {
+   "x": 736,
+   "y": 6369,
+   "w": 270,
+   "h": 22
+  },
+  {
+   "x": 736,
+   "y": 6399,
+   "w": 225,
+   "h": 22
+  },
+  {
+   "x": 736,
+   "y": 6429,
+   "w": 238,
+   "h": 22
+  },
+  {
+   "x": 736,
+   "y": 6459,
+   "w": 57,
+   "h": 22
+  },
+  {
+   "x": 736,
+   "y": 6513,
+   "w": 116,
+   "h": 22
+  },
+  {
+   "x": 402,
+   "y": 6849,
+   "w": 620,
+   "h": 22
+  },
+  {
+   "x": 381,
+   "y": 6960,
+   "w": 664,
+   "h": 22
+  },
+  {
+   "x": 993,
+   "y": 7547,
+   "w": 162,
+   "h": 22
+  },
+  {
+   "x": 993,
+   "y": 7593,
+   "w": 333,
+   "h": 22
+  },
+  {
+   "x": 993,
+   "y": 7623,
+   "w": 179,
+   "h": 22
+  },
+  {
+   "x": 1226,
+   "y": 7676,
+   "w": 102,
+   "h": 22
+  },
+  {
+   "x": 1266,
+   "y": 7706,
+   "w": 23,
+   "h": 22
+  },
+  {
+   "x": 993,
+   "y": 7788,
+   "w": 77,
+   "h": 22
+  },
+  {
+   "x": 93,
+   "y": 7547,
+   "w": 72,
+   "h": 22
+  },
+  {
+   "x": 93,
+   "y": 7586,
+   "w": 96,
+   "h": 18
+  },
+  {
+   "x": 93,
+   "y": 7613,
+   "w": 86,
+   "h": 18
+  },
+  {
+   "x": 93,
+   "y": 7639,
+   "w": 54,
+   "h": 18
+  },
+  {
+   "x": 93,
+   "y": 7666,
+   "w": 39,
+   "h": 18
+  },
+  {
+   "x": 93,
+   "y": 7692,
+   "w": 118,
+   "h": 18
+  },
+  {
+   "x": 93,
+   "y": 7719,
+   "w": 61,
+   "h": 18
+  },
+  {
+   "x": 258,
+   "y": 7547,
+   "w": 109,
+   "h": 22
+  },
+  {
+   "x": 258,
+   "y": 7586,
+   "w": 120,
+   "h": 18
+  },
+  {
+   "x": 410,
+   "y": 7586,
+   "w": 83,
+   "h": 18
+  },
+  {
+   "x": 258,
+   "y": 7613,
+   "w": 79,
+   "h": 18
+  },
+  {
+   "x": 410,
+   "y": 7613,
+   "w": 129,
+   "h": 18
+  },
+  {
+   "x": 258,
+   "y": 7639,
+   "w": 71,
+   "h": 18
+  },
+  {
+   "x": 410,
+   "y": 7639,
+   "w": 93,
+   "h": 18
+  },
+  {
+   "x": 258,
+   "y": 7666,
+   "w": 43,
+   "h": 18
+  },
+  {
+   "x": 410,
+   "y": 7666,
+   "w": 130,
+   "h": 18
+  },
+  {
+   "x": 258,
+   "y": 7692,
+   "w": 108,
+   "h": 18
+  },
+  {
+   "x": 410,
+   "y": 7692,
+   "w": 103,
+   "h": 18
+  },
+  {
+   "x": 258,
+   "y": 7719,
+   "w": 83,
+   "h": 18
+  },
+  {
+   "x": 410,
+   "y": 7719,
+   "w": 201,
+   "h": 18
+  },
+  {
+   "x": 258,
+   "y": 7745,
+   "w": 95,
+   "h": 18
+  },
+  {
+   "x": 410,
+   "y": 7745,
+   "w": 93,
+   "h": 18
+  },
+  {
+   "x": 651,
+   "y": 7547,
+   "w": 75,
+   "h": 22
+  },
+  {
+   "x": 651,
+   "y": 7577,
+   "w": 56,
+   "h": 22
+  },
+  {
+   "x": 651,
+   "y": 7616,
+   "w": 72,
+   "h": 18
+  },
+  {
+   "x": 651,
+   "y": 7643,
+   "w": 93,
+   "h": 18
+  },
+  {
+   "x": 651,
+   "y": 7669,
+   "w": 80,
+   "h": 18
+  },
+  {
+   "x": 651,
+   "y": 7696,
+   "w": 109,
+   "h": 18
+  },
+  {
+   "x": 651,
+   "y": 7722,
+   "w": 52,
+   "h": 18
+  },
+  {
+   "x": 817,
+   "y": 7547,
+   "w": 66,
+   "h": 22
+  },
+  {
+   "x": 817,
+   "y": 7577,
+   "w": 58,
+   "h": 22
+  },
+  {
+   "x": 817,
+   "y": 7616,
+   "w": 61,
+   "h": 18
+  },
+  {
+   "x": 817,
+   "y": 7643,
+   "w": 89,
+   "h": 18
+  },
+  {
+   "x": 817,
+   "y": 7669,
+   "w": 74,
+   "h": 18
+  },
+  {
+   "x": 817,
+   "y": 7696,
+   "w": 51,
+   "h": 18
+  },
+  {
+   "x": 95,
+   "y": 7873,
+   "w": 85,
+   "h": 18
+  },
+  {
+   "x": 200,
+   "y": 7870,
+   "w": 4,
+   "h": 22
+  },
+  {
+   "x": 224,
+   "y": 7873,
+   "w": 89,
+   "h": 18
+  },
+  {
+   "x": 334,
+   "y": 7870,
+   "w": 4,
+   "h": 22
+  },
+  {
+   "x": 358,
+   "y": 7873,
+   "w": 155,
+   "h": 18
+  },
+  {
+   "x": 533,
+   "y": 7870,
+   "w": 4,
+   "h": 22
+  },
+  {
+   "x": 557,
+   "y": 7873,
+   "w": 125,
+   "h": 18
+  },
+  {
+   "x": 702,
+   "y": 7870,
+   "w": 4,
+   "h": 22
+  },
+  {
+   "x": 726,
+   "y": 7873,
+   "w": 150,
+   "h": 18
+  },
+  {
+   "x": 896,
+   "y": 7870,
+   "w": 4,
+   "h": 22
+  },
+  {
+   "x": 921,
+   "y": 7873,
+   "w": 162,
+   "h": 18
+  },
+  {
+   "x": 1122,
+   "y": 7870,
+   "w": 4,
+   "h": 22
+  },
+  {
+   "x": 1194,
+   "y": 7871,
+   "w": 136,
+   "h": 18
+  },
+  {
+   "x": 248,
+   "y": 8009,
+   "w": 928,
+   "h": 15
+  },
+  {
+   "x": 240,
+   "y": 8085,
+   "w": 946,
+   "h": 15
+  },
+  {
+   "x": 337,
+   "y": 8114,
+   "w": 751,
+   "h": 15
+  },
+  {
+   "x": 490,
+   "y": 8144,
+   "w": 445,
+   "h": 15
+  },
+  {
+   "x": 125,
+   "y": 8173,
+   "w": 1174,
+   "h": 15
+  },
+  {
+   "x": 615,
+   "y": 8193,
+   "w": 196,
+   "h": 15
+  },
+  {
+   "x": 136,
+   "y": 8222,
+   "w": 988,
+   "h": 15
+  },
+  {
+   "x": 1124,
+   "y": 8222,
+   "w": 165,
+   "h": 15
+  },
+  {
+   "x": 595,
+   "y": 8252,
+   "w": 235,
+   "h": 15
+  }
+ ],
+ "groups": [
+  {
+   "kind": "CONTROL X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.tabbed-products__slider",
+   "path": "section.tabbed-products > div.tabbed-products__inner.container > div.tabbed-products__slider > button.tabbed-products__nav.tabbed-products__nav--prev",
+   "text": "previous slide",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "CONTROL X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.tabbed-products__track",
+   "path": "div.tabbed-products__track > div.tabbed-products__slide > div.product-card > a.product-card__inner",
+   "text": "advanced hair, skin & nails 80 gummies 4.4 out of 5 stars. r",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.tabbed-products__track",
+   "path": "div.product-card > a.product-card__inner > div.product-card__body > h4.product-card__title",
+   "text": "advanced hair, skin & nails",
+   "cutMin": 257,
+   "cutMax": 257
+  },
+  {
+   "kind": "CONTROL X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.tabbed-products__track",
+   "path": "a.product-card__inner > div.product-card__body > div.rating > button.rating__summary",
+   "text": "4.4 out of 5 stars. read reviews for average rating value is",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.tabbed-products__track",
+   "path": "div.product-card > a.product-card__inner > div.product-card__body > div.product-card__desc",
+   "text": "with over 2x the biotin† from the #1 brand for hair, skin & ",
+   "cutMin": 243,
+   "cutMax": 243
+  },
+  {
+   "kind": "CONTROL X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.tabbed-products__track",
+   "path": "div.product-card > a.product-card__inner > div.product-card__foot > button.btn.btn--lime",
+   "text": "view product",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "CONTROL X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.tabbed-products__slider",
+   "path": "section.tabbed-products > div.tabbed-products__inner.container > div.tabbed-products__slider > button.tabbed-products__nav.tabbed-products__nav--next",
+   "text": "next slide",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "CONTROL X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.testimonials__viewport",
+   "path": "div.testimonials__track > div.testimonials__item > div.testimonials__media > a",
+   "text": "shop now",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.testimonials__viewport",
+   "path": "div.testimonials__track > div.testimonials__item > div.testimonials__media > a",
+   "text": "shop now",
+   "cutMin": 82,
+   "cutMax": 82
+  }
+ ],
+ "tier": "chrome"
+}

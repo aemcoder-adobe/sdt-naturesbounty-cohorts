@@ -1,0 +1,1885 @@
+
+Visual diff @ 360px (profile "generic") — screenshots in stardust/replica/gates/index-360/vdiff-final/
+
+build red flags (advisory): 
+  • HEADING FACE: <h1> "Knowledge is Power" is 32.4px sans-serif in build vs 32.4px null in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 11395,
+  "textLen": 9621,
+  "images": [
+   {
+    "src": "NB-logo-dark-green.svg?v=1713987522&width=400",
+    "natural": "421x67",
+    "rendered": "200x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-brain-health.svg?v=15257571938105578262",
+    "natural": "232x228",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-bone-and-joint-health.svg?v=12918564902687572158",
+    "natural": "232x228",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-digestive-health.svg?v=3312473091881105769",
+    "natural": "232x228",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-energy-support.svg?v=16142223243885154266",
+    "natural": "232x228",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-eye-health.svg?v=365029801243797632",
+    "natural": "232x228",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-hair-skin-and-nails.svg?v=13932907217450298415",
+    "natural": "232x228",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-healthy-aging.svg?v=11252042164913606457",
+    "natural": "232x228",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-heart-health.svg?v=14642019194858604653",
+    "natural": "232x228",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-herbs.svg?v=18234029569454670879",
+    "natural": "232x228",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-immune-and-antioxidant-support.svg?v=4025504713176582259",
+    "natural": "232x228",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-mens-health.svg?v=14610051494886882175",
+    "natural": "232x228",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-prenatal-health.svg?v=11399845121406091191",
+    "natural": "232x228",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-stress-and-mood.svg?v=6319251128162379999",
+    "natural": "232x228",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-sleep-support.svg?v=17589463281203327454",
+    "natural": "232x228",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-urinary-tract-health.svg?v=15305033655557644414",
+    "natural": "232x228",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-womens-health.svg?v=14404173916337808138",
+    "natural": "232x228",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "hair-growth-cta-lrg.png?v=1682098268&width=400",
+    "natural": "360x212",
+    "rendered": "311x183",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-brain-health.svg?v=15257571938105578262",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-bone-and-joint-health.svg?v=12918564902687572158",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-digestive-health.svg?v=3312473091881105769",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-energy-support.svg?v=16142223243885154266",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-eye-health.svg?v=365029801243797632",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-hair-skin-and-nails.svg?v=13932907217450298415",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-healthy-aging.svg?v=11252042164913606457",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-heart-health.svg?v=14642019194858604653",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-herbs.svg?v=18234029569454670879",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-immune-and-antioxidant-support.svg?v=4025504713176582259",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-mens-health.svg?v=14610051494886882175",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-prenatal-health.svg?v=11399845121406091191",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-stress-and-mood.svg?v=6319251128162379999",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-sleep-support.svg?v=17589463281203327454",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-urinary-tract-health.svg?v=15305033655557644414",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-womens-health.svg?v=14404173916337808138",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "hair-growth-cta-lrg.png?v=1682098268&width=400",
+    "natural": "360x212",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "25d9d939388c400286bc8e6316ec5f64.thumbnail.0000000000_small.jpg?v=1790800799",
+    "natural": "100x56",
+    "rendered": "0x0",
+    "fit": "",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "probiotic_tile_8099dafb-cd37-43c1-9de5-5b7876ab4f1d.png?v=1716304449&width=375",
+    "natural": "360x335",
+    "rendered": "305x326",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "coq10_category_tile_bca72ec6-8b2c-4777-873a-e795728e7bf1.png?v=1716304449&width=375",
+    "natural": "360x335",
+    "rendered": "305x326",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "magnesium.jpg?v=1715863186&width=375",
+    "natural": "360x539",
+    "rendered": "305x326",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "offer-skin.png?v=1715176624&width=375",
+    "natural": "360x542",
+    "rendered": "305x326",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "offer-sleep.jpg?v=1715176625&width=750",
+    "natural": "0x0",
+    "rendered": "305x326",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "Mask_group-5.png?v=1714772613&width=750",
+    "natural": "0x0",
+    "rendered": "305x326",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "hair-growth.png?v=1715863186&width=750",
+    "natural": "0x0",
+    "rendered": "305x326",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "087139.png?v=1667506915&width=550",
+    "natural": "0x0",
+    "rendered": "263x200",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "Nature_sBountyUltraProbiotic10_IFC_30Caps_US_AWP_A24_04E_44352379_30924_074312008122_2024-02-08T21_37_20-BoxSt-F.png?v=1712255593&width=550",
+    "natural": "0x0",
+    "rendered": "263x200",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "030920.png?v=1667507064&width=550",
+    "natural": "0x0",
+    "rendered": "263x200",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "Media_1-EE973B00-740C-4675-A19F-2CDE2ACE0E02.jpg?v=1765390751&width=550",
+    "natural": "0x0",
+    "rendered": "263x200",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "NEW_NaturesBounty_Sleep3_IFC_10mg_30Tabs_US_AWP_44360731_A24_00A_074312016233_2024-03-11T21_35_45st-F.png?v=1716386983&width=550",
+    "natural": "0x0",
+    "rendered": "263x200",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "HAIR_GROWTH_RENDER-02.png?v=1723127833&width=550",
+    "natural": "0x0",
+    "rendered": "263x200",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "074312008788_C1N1_44309902.jpg?v=1738795741&width=550",
+    "natural": "0x0",
+    "rendered": "263x200",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "041383.png?v=1667506929&width=550",
+    "natural": "0x0",
+    "rendered": "263x200",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "011932.png?v=1667506641&width=550",
+    "natural": "0x0",
+    "rendered": "263x200",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "001603.png?v=1667506624&width=550",
+    "natural": "0x0",
+    "rendered": "263x200",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "083430.png?v=1667506476&width=550",
+    "natural": "0x0",
+    "rendered": "263x200",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "029619.png?v=1667506472&width=550",
+    "natural": "0x0",
+    "rendered": "263x200",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "HAIR_GROWTH_RENDER-02.png?v=1723127833&width=550",
+    "natural": "0x0",
+    "rendered": "263x200",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "B032490-NB-00A-RDGst-F.png?v=1680724455&width=550",
+    "natural": "0x0",
+    "rendered": "263x200",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "Media_1-EE973B00-740C-4675-A19F-2CDE2ACE0E02.jpg?v=1765390751&width=550",
+    "natural": "0x0",
+    "rendered": "263x200",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "B058865-NB-03D-RDG-F.jpg?v=1670540882&width=550",
+    "natural": "0x0",
+    "rendered": "263x200",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "051520.png?v=1667506529&width=550",
+    "natural": "0x0",
+    "rendered": "263x200",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "Natures-Bounty-Essential-Prenatal-Gummies-270x360-1.png?v=1793364538&width=550",
+    "natural": "0x0",
+    "rendered": "263x200",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "044191.png?v=1667506911&width=550",
+    "natural": "0x0",
+    "rendered": "263x200",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "003201.png?v=1667506806&width=550",
+    "natural": "0x0",
+    "rendered": "263x200",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "044648.png?v=1667506802&width=550",
+    "natural": "0x0",
+    "rendered": "263x200",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "092823-NB-FIBERGUMMIES5g90ct625ccGMY_2023-10-05T13_55_05-1st-F.png?v=1713305617&width=550",
+    "natural": "0x0",
+    "rendered": "263x200",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "G074312013751_44324206_00A_AdvancedMetabolismBooster60CapSt-F.png?v=1713390691&width=550",
+    "natural": "0x0",
+    "rendered": "263x200",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "content-product-1.png?v=1715116811&width=500",
+    "natural": "500x816",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "NB_UltraProbiotic10_Beauty_30Caps_IFCst-F_88bbc72b-d6c2-461d-aaad-ff385c784d73.png?v=1716315511&width=500",
+    "natural": "500x555",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "content-product-4.png?v=1715116812&width=500",
+    "natural": "500x816",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "NB_HSN_Adv_80ct_BeautyShot-Ang1.png?v=1716315518&width=500",
+    "natural": "500x864",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "NB_Sleep_3_Beauty_IFC_10mg_30ct-F.png?v=1716315510&width=500",
+    "natural": "500x542",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "NB_Hair_Growth_Beauty_30ct_IFCst-F.png?v=1716315519&width=500",
+    "natural": "500x1002",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "content-product-6.png?v=1715116811&width=500",
+    "natural": "500x805",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "NB_Intimacy_Beauty_60ct_IFCst-F.png?v=1716315520&width=500",
+    "natural": "500x974",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "089377.webp?v=1716555545&width=375",
+    "natural": "360x480",
+    "rendered": "233x310",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "NB_UltraProbiotic10_Beauty_30Caps_IFCst-F.png?v=1716315485&width=375",
+    "natural": "360x399",
+    "rendered": "279x310",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "089377.webp?v=1716555545&width=375",
+    "natural": "360x480",
+    "rendered": "233x310",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "NB_UltraProbiotic10_Beauty_30Caps_IFCst-F.png?v=1716315485&width=375",
+    "natural": "360x399",
+    "rendered": "279x310",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "blog-thumbnail-hair-growth.jpg?v=1681850886&width=900",
+    "natural": "0x0",
+    "rendered": "305x245",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "probiotic_tile_8099dafb-cd37-43c1-9de5-5b7876ab4f1d.png?v=1716304449&width=900",
+    "natural": "0x0",
+    "rendered": "305x245",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "Digestive.png?v=1716302083&width=900",
+    "natural": "0x0",
+    "rendered": "305x245",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "trusted-banner.png?v=1666098789&width=900",
+    "natural": "0x0",
+    "rendered": "305x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "AdvMagGly.png?v=1747157820&width=350",
+    "natural": "0x0",
+    "rendered": "315x315",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "first_day_of_spring_2025-2.png?v=1747157820&width=350",
+    "natural": "0x0",
+    "rendered": "150x150",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "SupercomplexB.png?v=1747157820&width=350",
+    "natural": "0x0",
+    "rendered": "150x150",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "Vitamin_C.png?v=1747157820&width=350",
+    "natural": "0x0",
+    "rendered": "150x150",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "GummiesBillboard.png?v=1747157820&width=350",
+    "natural": "0x0",
+    "rendered": "150x150",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": true
+   },
+   {
+    "src": "NB-logo.svg?v=1713987522&width=400",
+    "natural": "421x67",
+    "rendered": "180x28",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Nestl%C3%A9_Health_Science.png",
+    "natural": "1920x559",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Knowledge is Power",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "32.4px",
+    "family": "null",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Shop Our Most Loved Products",
+    "color": "rgb(39, 70, 58)",
+    "fontSize": "30px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Your heart is strengthened by la",
+    "color": "rgb(210, 227, 143)",
+    "fontSize": "26.6672px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "It’s In YourNature To Play",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "35.5552px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Laughing with friends may help y",
+    "color": "rgb(210, 227, 143)",
+    "fontSize": "26.6672px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "It’s In Your Nature To Thrive",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "35.5552px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Your body produces nearly 100 bi",
+    "color": "rgb(210, 227, 143)",
+    "fontSize": "26.6672px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "It’s In Your Nature To Adapt",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "35.5552px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Your skin renews every 27 days.​",
+    "color": "rgb(210, 227, 143)",
+    "fontSize": "26.6672px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "It’s In Your Nature To Glow",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "35.5552px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Your brain makes room for new me",
+    "color": "rgb(210, 227, 143)",
+    "fontSize": "26.6672px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "It’s In Your Nature To Recharge",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "35.5552px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Your hair can grow 590 miles in ",
+    "color": "rgb(210, 227, 143)",
+    "fontSize": "26.6672px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "It’s In Your Nature To Grow",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "35.5552px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Your skeleton can support more t",
+    "color": "rgb(210, 227, 143)",
+    "fontSize": "26.6672px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "It’s In Your Nature To Stand Str",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "35.5552px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Sex can burn about 5 calories pe",
+    "color": "rgb(210, 227, 143)",
+    "fontSize": "26.6672px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "It’s In Your Nature To Desire",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "35.5552px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Because you are bountiful.",
+    "color": "rgb(39, 70, 58)",
+    "fontSize": "37.44px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "It’s in your nature.",
+    "color": "rgb(39, 70, 58)",
+    "fontSize": "37.44px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "It’s In Your Nature to Explore",
+    "color": "rgb(39, 70, 58)",
+    "fontSize": "34px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "ai-video-hero-aegv2umi0mwjvvvvjtaigenblock070c24fwvhdqb__body",
+    "width": 301,
+    "left": 22
+   },
+   {
+    "sel": "tabbed-products__inner",
+    "width": 345,
+    "left": 0
+   },
+   {
+    "sel": "content-highlight",
+    "width": 345,
+    "left": 0
+   },
+   {
+    "sel": "content-highlight",
+    "width": 345,
+    "left": 345
+   },
+   {
+    "sel": "content-highlight",
+    "width": 345,
+    "left": 690
+   },
+   {
+    "sel": "content-highlight",
+    "width": 345,
+    "left": 1035
+   },
+   {
+    "sel": "content-highlight",
+    "width": 345,
+    "left": 1380
+   },
+   {
+    "sel": "content-highlight",
+    "width": 345,
+    "left": 1725
+   },
+   {
+    "sel": "content-highlight",
+    "width": 345,
+    "left": 2070
+   },
+   {
+    "sel": "content-highlight",
+    "width": 345,
+    "left": 2415
+   },
+   {
+    "sel": "container_newsletter-text-container",
+    "width": 305,
+    "left": 20
+   },
+   {
+    "sel": "title-box",
+    "width": 305,
+    "left": 20
+   }
+  ]
+ },
+ "build": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 11364,
+  "textLen": 9087,
+  "images": [
+   {
+    "src": "logo.svg",
+    "natural": "468x74",
+    "rendered": "200x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-brain-health.svg",
+    "natural": "232x228",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-bone-and-joint-health.svg",
+    "natural": "232x228",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-digestive-health.svg",
+    "natural": "232x228",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-energy-support.svg",
+    "natural": "232x228",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-eye-health.svg",
+    "natural": "232x228",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-hair-skin-and-nails.svg",
+    "natural": "232x228",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-healthy-aging.svg",
+    "natural": "232x228",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-heart-health.svg",
+    "natural": "232x228",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-herbs.svg",
+    "natural": "232x228",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-immune-and-antioxidant-support.svg",
+    "natural": "232x228",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-mens-health.svg",
+    "natural": "232x228",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-prenatal-health.svg",
+    "natural": "232x228",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-stress-and-mood.svg",
+    "natural": "232x228",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-sleep-support.svg",
+    "natural": "232x228",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-urinary-tract-health.svg",
+    "natural": "232x228",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-womens-health.svg",
+    "natural": "232x228",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "hair-growth-cta-lrg.png",
+    "natural": "425x251",
+    "rendered": "311x183",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-brain-health.svg",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-bone-and-joint-health.svg",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-digestive-health.svg",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-energy-support.svg",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-eye-health.svg",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-hair-skin-and-nails.svg",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-healthy-aging.svg",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-heart-health.svg",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-herbs.svg",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-immune-and-antioxidant-support.svg",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-mens-health.svg",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-prenatal-health.svg",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-stress-and-mood.svg",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-sleep-support.svg",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-urinary-tract-health.svg",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "menu-womens-health.svg",
+    "natural": "232x228",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "hair-growth-cta-lrg.png",
+    "natural": "425x251",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-probiotic-tile-8099dafb-cd37-43c1-9de5-5b7876ab4f1d.png",
+    "natural": "700x652",
+    "rendered": "305x326",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-coq10-category-tile-bca72ec6-8b2c-4777-873a-e795728e7bf1.png",
+    "natural": "700x652",
+    "rendered": "305x326",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-magnesium.jpg",
+    "natural": "750x1124",
+    "rendered": "305x326",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-offer-skin.png",
+    "natural": "538x811",
+    "rendered": "305x326",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-offer-sleep.jpg",
+    "natural": "750x1124",
+    "rendered": "305x326",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-mask-group-5.png",
+    "natural": "350x326",
+    "rendered": "305x326",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-hair-growth.png",
+    "natural": "750x990",
+    "rendered": "305x326",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-087139.png",
+    "natural": "550x733",
+    "rendered": "263x200",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-nature-sbountyultraprobiotic10-ifc-30caps-us-awp-a24-04e-443.png",
+    "natural": "550x550",
+    "rendered": "263x200",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-030920.png",
+    "natural": "550x733",
+    "rendered": "263x200",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-media-1-ee973b00-740c-4675-a19f-2cde2ace0e02.jpg",
+    "natural": "550x1184",
+    "rendered": "263x200",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-new-naturesbounty-sleep3-ifc-10mg-30tabs-us-awp-44360731-a24.png",
+    "natural": "550x614",
+    "rendered": "263x200",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-hair-growth-render-02.png",
+    "natural": "550x1184",
+    "rendered": "263x200",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-074312008788-c1n1-44309902.jpg",
+    "natural": "550x550",
+    "rendered": "263x200",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-041383.png",
+    "natural": "550x733",
+    "rendered": "263x200",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-011932.png",
+    "natural": "550x733",
+    "rendered": "263x200",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-001603.png",
+    "natural": "550x733",
+    "rendered": "263x200",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-083430.png",
+    "natural": "550x733",
+    "rendered": "263x200",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-029619.png",
+    "natural": "550x733",
+    "rendered": "263x200",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-hair-growth-render-02.png",
+    "natural": "550x1184",
+    "rendered": "263x200",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-b032490-nb-00a-rdgst-f.png",
+    "natural": "550x1104",
+    "rendered": "263x200",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-media-1-ee973b00-740c-4675-a19f-2cde2ace0e02.jpg",
+    "natural": "550x1184",
+    "rendered": "263x200",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-b058865-nb-03d-rdg-f.jpg",
+    "natural": "550x550",
+    "rendered": "263x200",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-051520.png",
+    "natural": "270x360",
+    "rendered": "263x200",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-natures-bounty-essential-prenatal-gummies-270x360-1.png",
+    "natural": "270x360",
+    "rendered": "263x200",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-044191.png",
+    "natural": "550x733",
+    "rendered": "263x200",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-003201.png",
+    "natural": "550x733",
+    "rendered": "263x200",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-044648.png",
+    "natural": "550x733",
+    "rendered": "263x200",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-092823-nb-fibergummies5g90ct625ccgmy-2023-10-05t13-55-05-1st.png",
+    "natural": "550x1143",
+    "rendered": "263x200",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-g074312013751-44324206-00a-advancedmetabolismbooster60capst-.png",
+    "natural": "550x1191",
+    "rendered": "263x200",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-content-product-1.png",
+    "natural": "500x816",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-nb-ultraprobiotic10-beauty-30caps-ifcst-f-88bbc72b-d6c2-461d.png",
+    "natural": "500x555",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-content-product-4.png",
+    "natural": "500x816",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-nb-hsn-adv-80ct-beautyshot-ang1.png",
+    "natural": "500x864",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-nb-sleep-3-beauty-ifc-10mg-30ct-f.png",
+    "natural": "500x542",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-nb-hair-growth-beauty-30ct-ifcst-f.png",
+    "natural": "500x1002",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-content-product-6.png",
+    "natural": "500x805",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-nb-intimacy-beauty-60ct-ifcst-f.png",
+    "natural": "500x974",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-nb-ultraprobiotic10-beauty-30caps-ifcst-f.png",
+    "natural": "500x555",
+    "rendered": "279x310",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-089377.webp",
+    "natural": "500x667",
+    "rendered": "232x310",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-blog-thumbnail-hair-growth.jpg",
+    "natural": "900x900",
+    "rendered": "305x245",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-probiotic-tile-8099dafb-cd37-43c1-9de5-5b7876ab4f1d-2.png",
+    "natural": "700x652",
+    "rendered": "305x245",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "home-digestive.png",
+    "natural": "681x899",
+    "rendered": "305x245",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "trusted-banner.png",
+    "natural": "900x110",
+    "rendered": "305x37",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ig-AdvMagGly.png",
+    "natural": "350x350",
+    "rendered": "315x315",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ig-first_day_of_spring_2025-2.png",
+    "natural": "350x350",
+    "rendered": "150x150",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ig-SupercomplexB.png",
+    "natural": "350x350",
+    "rendered": "150x150",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ig-Vitamin_C.png",
+    "natural": "350x350",
+    "rendered": "150x150",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ig-GummiesBillboard.png",
+    "natural": "350x350",
+    "rendered": "150x150",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "NB-logo.svg",
+    "natural": "468x74",
+    "rendered": "180x28",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Knowledge is Power",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "32.4px",
+    "family": "sans-serif",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Shop Our Most Loved Products",
+    "color": "rgb(39, 70, 58)",
+    "fontSize": "30px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Your heart is strengthened by la",
+    "color": "rgb(210, 227, 143)",
+    "fontSize": "26.6672px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "It’s In YourNature To Play",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "35.5552px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Laughing with friends may help y",
+    "color": "rgb(210, 227, 143)",
+    "fontSize": "26.6672px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "It’s In Your Nature To Thrive",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "35.5552px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Your body produces nearly 100 bi",
+    "color": "rgb(210, 227, 143)",
+    "fontSize": "26.6672px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "It’s In Your Nature To Adapt",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "35.5552px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Your skin renews every 27 days.​",
+    "color": "rgb(210, 227, 143)",
+    "fontSize": "26.6672px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "It’s In Your Nature To Glow",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "35.5552px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Your brain makes room for new me",
+    "color": "rgb(210, 227, 143)",
+    "fontSize": "26.6672px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "It’s In Your Nature To Recharge",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "35.5552px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Your hair can grow 590 miles in ",
+    "color": "rgb(210, 227, 143)",
+    "fontSize": "26.6672px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "It’s In Your Nature To Grow",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "35.5552px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Your skeleton can support more t",
+    "color": "rgb(210, 227, 143)",
+    "fontSize": "26.6672px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "It’s In Your Nature To Stand Str",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "35.5552px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Sex can burn about 5 calories pe",
+    "color": "rgb(210, 227, 143)",
+    "fontSize": "26.6672px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "It’s In Your Nature To Desire",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "35.5552px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Because you are bountiful.",
+    "color": "rgb(39, 70, 58)",
+    "fontSize": "37.44px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "It’s in your nature.",
+    "color": "rgb(39, 70, 58)",
+    "fontSize": "37.44px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "It’s In Your Nature to Explore",
+    "color": "rgb(39, 70, 58)",
+    "fontSize": "34px",
+    "family": "sofia-pro",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "video-hero__body",
+    "width": 301,
+    "left": 22
+   },
+   {
+    "sel": "tabbed-products__inner",
+    "width": 345,
+    "left": 0
+   },
+   {
+    "sel": "content-highlight__title",
+    "width": 285,
+    "left": 30
+   },
+   {
+    "sel": "content-highlight__title",
+    "width": 285,
+    "left": 375
+   },
+   {
+    "sel": "content-highlight__title",
+    "width": 285,
+    "left": 720
+   },
+   {
+    "sel": "content-highlight__title",
+    "width": 285,
+    "left": 1065
+   },
+   {
+    "sel": "content-highlight__title",
+    "width": 285,
+    "left": 1410
+   },
+   {
+    "sel": "content-highlight__title",
+    "width": 285,
+    "left": 1755
+   },
+   {
+    "sel": "content-highlight__title",
+    "width": 285,
+    "left": 2100
+   },
+   {
+    "sel": "content-highlight__title",
+    "width": 285,
+    "left": 2445
+   },
+   {
+    "sel": "content-newsletter__text",
+    "width": 305,
+    "left": 20
+   },
+   {
+    "sel": "content-newsletter__title",
+    "width": 305,
+    "left": 20
+   }
+  ]
+ }
+}
