@@ -1,0 +1,27 @@
+{
+  "runtime": "vanilla-eds",
+  "blockWrapperClass": "block",
+  "blockScoping": "div.<name>.block[data-block-name] inside div.<name>-wrapper; section gains .<name>-container",
+  "buttonClasses": ".button / .button.primary (strong) / .button.secondary (em) / .button.accent (strong+em), in p.button-wrapper",
+  "buttonization": "formatted-only",
+  "buttonPaint": "primary + accent = lime pill (canon .btn--lime), secondary = green outline (canon .btn--outline); shared classes .btn / .btn-lime / .btn-outline in styles.css",
+  "fragmentScriptPolicy": "inert-innerHTML",
+  "trustedTypes": "default policy in scripts/scripts.js (innerHTML allowed)",
+  "emptySectionCollapse": true,
+  "sectionScaffold": "main > .section { margin: 0 }; main > .section > div = canon .container model (100% / 960 / 1140 / 1320 / 1680 with 20/20/30/40/60px gutters); full-bleed escape: section style 'full-bleed' or a block-level 'main > .section > .<name>-wrapper' rule",
+  "breakpoints": [768, 992, 1024, 1200, 1400, 1680],
+  "chrome": {
+    "header": "blocks/header — sticky body > header (announcement 32px + row 72px, --nav-height 104px); desktop >= 1200px, drawer below",
+    "footer": "blocks/footer — newsletter, accordions below 1024px",
+    "documents": ["/nav", "/footer"],
+    "pageModulesNotFoundation": ["trusted-band", "social-strip"]
+  },
+  "fonts": {
+    "stack": "sofia-pro, figtree, figtree-fallback, sans-serif",
+    "register": "R-01 — Figtree (OFL) self-hosted in /fonts as the substitute for licensed Sofia Pro (never rehosted)",
+    "files": ["fonts/figtree-latin-var.woff2"]
+  },
+  "favicon": "/favicon.png (head.html link)",
+  "probedFrom": ["scripts/scripts.js", "scripts/aem.js"],
+  "probedAt": "2026-11-11"
+}
