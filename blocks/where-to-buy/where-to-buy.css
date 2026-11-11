@@ -1,0 +1,116 @@
+.where-to-buy {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 32px 20px;
+  background: var(--lime-pale);
+  border-radius: 12px;
+  color: var(--forest);
+}
+
+.where-to-buy .where-to-buy-intro h2,
+.where-to-buy .where-to-buy-intro h3 {
+  margin: 0 0 6px;
+  font-size: 28px;
+  line-height: 1.15;
+  font-weight: var(--fw-extrabold);
+  color: var(--forest);
+}
+
+.where-to-buy .where-to-buy-intro p {
+  margin: 0 0 16px;
+  font-size: 16px;
+  line-height: 1.45;
+}
+
+.where-to-buy .where-to-buy-form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 12px;
+}
+
+.where-to-buy .where-to-buy-field {
+  display: grid;
+  gap: 4px;
+  flex: 1 1 200px;
+  max-width: 320px;
+}
+
+.where-to-buy label {
+  font-size: 15px;
+  font-weight: var(--fw-bold);
+}
+
+.where-to-buy input {
+  height: 48px;
+  padding: 0 16px;
+  border: 1px solid var(--forest);
+  border-radius: var(--radius-pill);
+  background: var(--white);
+  font: inherit;
+  font-size: 17px;
+}
+
+.where-to-buy .where-to-buy-hint {
+  font-size: 13px;
+  color: var(--olive);
+  order: 3;
+}
+
+.where-to-buy .where-to-buy-form .button {
+  height: 48px;
+  margin: 0 0 21px;
+}
+
+.where-to-buy .where-to-buy-or {
+  margin: 20px 0 8px;
+  font-size: 14px;
+  font-weight: var(--fw-semibold);
+}
+
+.where-to-buy .where-to-buy-retailers {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.where-to-buy a.where-to-buy-retailer:any-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 18px;
+  border-radius: var(--radius-pill);
+  background: var(--white);
+  color: var(--forest);
+  font-weight: var(--fw-bold);
+  text-decoration: none;
+  border: 1px solid var(--line);
+}
+
+.where-to-buy a.where-to-buy-retailer:hover {
+  border-color: var(--forest);
+}
+
+@media (width >= 900px) {
+  .where-to-buy {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    column-gap: 48px;
+    padding: 40px 48px;
+  }
+
+  .where-to-buy .where-to-buy-intro {
+    grid-column: 1 / -1;
+  }
+
+  .where-to-buy .where-to-buy-or {
+    grid-column: 1 / -1;
+  }
+
+  .where-to-buy .where-to-buy-retailers {
+    grid-column: 1 / -1;
+  }
+}

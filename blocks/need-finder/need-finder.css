@@ -1,0 +1,212 @@
+.need-finder {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 32px 20px 8px;
+  color: var(--forest);
+}
+
+.need-finder .need-finder-intro h1,
+.need-finder .need-finder-intro h2 {
+  margin: 0 0 10px;
+  font-size: 36px;
+  line-height: 1.08;
+  font-weight: var(--fw-extrabold);
+  letter-spacing: -0.02em;
+  color: var(--forest);
+}
+
+.need-finder .need-finder-intro p {
+  margin: 0 0 24px;
+  font-size: 17px;
+  line-height: 1.45;
+  max-width: 44em;
+}
+
+.need-finder .need-finder-cards {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+}
+
+.need-finder .need-finder-card {
+  display: grid;
+  grid-template-columns: 96px 1fr;
+  grid-template-rows: auto 1fr;
+  column-gap: 16px;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--white);
+}
+
+.need-finder .need-finder-card.is-yours {
+  border: 2px solid var(--green);
+  background: var(--lime-pale);
+}
+
+.need-finder .need-finder-need {
+  grid-column: 1 / -1;
+  margin: 0 0 8px;
+  font-size: 13px;
+  font-weight: var(--fw-bold);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--green);
+}
+
+.need-finder .need-finder-media img {
+  width: 96px;
+  height: auto;
+  aspect-ratio: 1;
+  object-fit: contain;
+}
+
+.need-finder .need-finder-body h3 {
+  margin: 0 0 4px;
+  font-size: 19px;
+  line-height: 1.2;
+  font-weight: var(--fw-bold);
+  color: var(--forest);
+}
+
+.need-finder .need-finder-does,
+.need-finder .need-finder-meta {
+  margin: 0 0 6px;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.need-finder .need-finder-meta {
+  color: var(--olive);
+}
+
+.need-finder .need-finder-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 14px;
+  margin: 10px 0 0;
+}
+
+.need-finder .need-finder-actions .button {
+  margin: 0;
+}
+
+.need-finder a.need-finder-store:any-link {
+  font-weight: var(--fw-bold);
+  color: var(--green);
+}
+
+@media (width >= 768px) {
+  .need-finder .need-finder-cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (width >= 1200px) {
+  .need-finder {
+    padding-top: 56px;
+  }
+
+  .need-finder .need-finder-intro h1,
+  .need-finder .need-finder-intro h2 {
+    font-size: 52px;
+  }
+
+  .need-finder .need-finder-cards {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .need-finder .need-finder-card {
+    grid-template-columns: 1fr;
+  }
+
+  .need-finder .need-finder-media img {
+    width: 100%;
+    max-width: 180px;
+  }
+}
+
+/* personal agents: one column, everything open, nothing moves */
+.need-finder.for-agent fieldset {
+  margin: 0 0 16px;
+  padding: 16px;
+  border: 1px solid var(--forest);
+  border-radius: 8px;
+}
+
+.need-finder.for-agent legend {
+  padding: 0 6px;
+  font-size: 19px;
+  font-weight: var(--fw-bold);
+}
+
+.need-finder.for-agent .need-finder-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 44px;
+}
+
+.need-finder.for-agent input[type="radio"] {
+  width: 22px;
+  height: 22px;
+  margin: 0;
+}
+
+.need-finder.for-agent label {
+  font-size: 17px;
+}
+
+.need-finder.for-agent .need-finder-result {
+  min-height: 220px;
+  margin: 20px 0;
+  padding: 16px;
+  border: 1px dashed var(--forest);
+  border-radius: 8px;
+}
+
+.need-finder.for-agent .need-finder-result h2 {
+  margin: 0 0 8px;
+  font-size: 22px;
+}
+
+.need-finder.for-agent dl {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 4px 16px;
+  margin: 0 0 12px;
+}
+
+.need-finder.for-agent dt {
+  font-weight: var(--fw-bold);
+}
+
+.need-finder.for-agent dd {
+  margin: 0;
+}
+
+.need-finder.for-agent table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+  line-height: 1.35;
+}
+
+.need-finder.for-agent caption {
+  text-align: left;
+  font-size: 19px;
+  font-weight: var(--fw-bold);
+  padding: 12px 0;
+}
+
+.need-finder.for-agent th,
+.need-finder.for-agent td {
+  text-align: left;
+  vertical-align: top;
+  padding: 8px;
+  border-bottom: 1px solid var(--line);
+}
