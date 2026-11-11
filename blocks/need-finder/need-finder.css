@@ -166,7 +166,11 @@
 
 /* reserve the intro's height so a late web font cannot move the form */
 .need-finder.for-agent .need-finder-intro {
-  min-height: 200px;
+  min-height: 240px;
+}
+
+.need-finder.for-agent .need-finder-intro h1 {
+  font-size: 30px;
 }
 
 .need-finder.for-agent label {
@@ -237,6 +241,10 @@
 @media (width >= 768px) {
   .need-finder.for-agent .need-finder-intro {
     min-height: 130px;
+  }
+
+  .need-finder.for-agent .need-finder-intro h1 {
+    font-size: 40px;
   }
 
   .need-finder.for-agent .need-finder-result {
