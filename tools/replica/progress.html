@@ -38,6 +38,41 @@
   ol.todo li { margin: 6px 0; }
   ul.all { columns: 2; margin: 4px 0; padding-left: 18px; }
   .spectrum-panel-header .spectrum-badge { margin-left: 8px; vertical-align: middle; }
+  #blocks-used table.blocks { table-layout: fixed; }
+  #blocks-used table.blocks th:nth-child(1) { width: 26%; }
+  #blocks-used table.blocks th:nth-child(2) { width: 32%; }
+  #blocks-used td { overflow-wrap: break-word; vertical-align: top; }
+  #blocks-used td:last-child { overflow-wrap: anywhere; }
+  #blocks-used tr.group td { border-top: 1px solid var(--spectrum-gray-300); }
+  #blocks-used td.block { font-weight: 700; }
+  #blocks-used .block-pages { display: block; font-weight: 400; color: var(--spectrum-text-subdued); }
+  #blocks-used .variant { display: inline-block; padding: 0 6px; margin: 0 4px 2px 0; border: 1px solid var(--spectrum-gray-300); border-radius: var(--spectrum-radius-sm); font-family: var(--spectrum-font-code); }
+  #blocks-used .variant-inline { font-family: var(--spectrum-font-code); font-weight: 400; color: var(--spectrum-text-subdued); }
+  #blocks-used .default, #blocks-used .blocks-count { color: var(--spectrum-text-subdued); }
+  #blocks-used .default { font-style: italic; }
+  #blocks-used .blocks-count { margin: 0; }
+  #blocks-used button.more { padding: 0; border: 0; background: none; color: var(--spectrum-text-accent); font: inherit; cursor: pointer; text-decoration: underline; }
+  #blocks-used .blocks-popover { width: min(520px, 90vw); max-height: 80vh; overflow: auto; overflow-wrap: anywhere; padding: 16px 20px; border: 1px solid var(--spectrum-gray-300); border-radius: var(--spectrum-radius-lg); background-color: var(--spectrum-bg-layer-1); box-shadow: var(--spectrum-shadow-elevated); }
+  #blocks-used .blocks-popover::backdrop { background-color: color-mix(in srgb, var(--spectrum-gray-900) 35%, transparent); }
+  #blocks-used .popover-head { display: flex; justify-content: space-between; align-items: start; gap: 12px; }
+  #blocks-used .popover-head h3 { margin: 0; }
+  #blocks-used ul.popover-pages { columns: 2; padding-left: 20px; margin: 12px 0 0; }
+  #blocks-used ul.popover-pages li { padding: 4px 0; break-inside: avoid; }
+  /* A browser without the popover API would show every page list inline; ':popover-open' is invalid there. */
+  @supports not selector(:popover-open) {
+    #blocks-used .blocks-popover, #blocks-used .more { display: none; }
+  }
+  #blocks-used .bp-radio { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  #blocks-used .bp-page, #blocks-used .bp-range { display: none; }
+  #blocks-used .pager { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 12px; flex-wrap: wrap; }
+  #blocks-used .labels { display: flex; flex-wrap: wrap; gap: 4px; }
+  #blocks-used .bp-radio:focus-visible ~ .pager label { outline: 2px solid var(--spectrum-focus-ring); }
+  #bp-1:checked ~ table .bp-page-1 { display: table-row-group; }
+  #bp-1:checked ~ .pager .bp-range-1 { display: inline; }
+  #bp-1:checked ~ .pager label[for="bp-1"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-2:checked ~ table .bp-page-2 { display: table-row-group; }
+  #bp-2:checked ~ .pager .bp-range-2 { display: inline; }
+  #bp-2:checked ~ .pager label[for="bp-2"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
 </style>
 </head>
 <body>
@@ -46,7 +81,7 @@
     <h1>Migration status</h1>
     <span class="spectrum-badge spectrum-badge--informative">In progress</span>
   </header>
-  <p class="meta">Source site: <a href="https://naturesbounty.com/" target="_blank" rel="noopener">https://naturesbounty.com/</a><br>Preview site: <a href="https://main--1a676f95--aemcoder.aem.page/" target="_blank" rel="noopener">https://main--1a676f95--aemcoder.aem.page/</a><br>Last updated: 2026-11-11 01:21 UTC</p>
+  <p class="meta">Source site: <a href="https://naturesbounty.com/" target="_blank" rel="noopener">https://naturesbounty.com/</a><br>Preview site: <a href="https://main--1a676f95--aemcoder.aem.page/" target="_blank" rel="noopener">https://main--1a676f95--aemcoder.aem.page/</a><br>Last updated: 2026-11-11 01:54 UTC</p>
 
   <details class="spectrum-panel" open>
     <summary class="spectrum-panel-header"><h2>Journey</h2></summary>
@@ -65,7 +100,7 @@
   <details class="spectrum-panel" open>
     <summary class="spectrum-panel-header"><h2>Pages</h2></summary>
     <div class="panel-body">
-      <p>This migration covers 121 pages. 0 of 121 are published on the preview site. Pages on the preview site can still change while the checks run.</p>
+      <p>This migration covers 121 pages. 1 of 121 are published on the preview site. Pages on the preview site can still change while the checks run.</p>
       <details>
         <summary>121 pages in this migration</summary>
         <table class="pages">
@@ -82,7 +117,7 @@
           <tr><td><a href="https://naturesbounty.com/blogs/news/whipped-lavender-body-butter" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/whipped-lavender-body-butter</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
           <tr><td><a href="https://naturesbounty.com/blogs/news/beauty-facts" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/beauty-facts</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
           <tr><td><a href="https://naturesbounty.com/blogs/news/how-much-fish-oil-should-you-take-daily" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/how-much-fish-oil-should-you-take-daily</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
-          <tr><td><a href="https://naturesbounty.com/blogs/news/the-benefits-of-biotin" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/the-benefits-of-biotin</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://naturesbounty.com/blogs/news/the-benefits-of-biotin" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/the-benefits-of-biotin</a></td><td><a href="https://main--1a676f95--aemcoder.aem.page/blogs/news/the-benefits-of-biotin" target="_blank" rel="noopener">The Benefits of Biotin Gummies – Nature&#39;s Bounty</a></td><td><span class="spectrum-badge spectrum-badge--informative">Published</span></td></tr>
           <tr><td><a href="https://naturesbounty.com/blogs/news/what-women-need-to-know-about-detecting-breast-cancer-early-an-interview-with-susan-brown-m-s-r-n-at-susan-g-komen%C2%AE" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/what-women-need-to-know-about-detecting-breast-cancer-early-an-interview-with-susan-brown-m-s-r-n-at-susan-g-komen%C2%AE</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
           <tr><td><a href="https://naturesbounty.com/blogs/news/women-s-health-awareness-5-ways-to-reset-your-wellness-routine" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/women-s-health-awareness-5-ways-to-reset-your-wellness-routine</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
           <tr><td><a href="https://naturesbounty.com/blogs/news/what-type-of-magnesium-supplement-is-perfect-for-me-understanding-your-options" target="_blank" rel="noopener">https://naturesbounty.com/blogs/news/what-type-of-magnesium-supplement-is-perfect-for-me-understanding-your-options</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
@@ -204,12 +239,36 @@
       <table>
         <thead><tr><th>Template</th><th>Pages</th><th>Desktop</th><th>Mobile</th><th>Status</th></tr></thead>
         <tbody>
-          <tr><td>Wellness articles</td><td>77</td><td>—</td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td>Wellness articles</td><td>77</td><td>—</td><td>—</td><td><span class="spectrum-badge spectrum-badge--informative">In progress</span></td></tr>
           <tr><td>Home page</td><td>1</td><td>—</td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
           <tr><td>Blog index pages</td><td>2</td><td>—</td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
           <tr><td>Recipes</td><td>40</td><td>—</td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
         </tbody>
       </table>
+    </div>
+  </details>
+
+  <details class="spectrum-panel" id="blocks-used" open>
+    <summary class="spectrum-panel-header"><h2>Blocks used</h2></summary>
+    <div class="panel-body">
+      <p>7 blocks in 7 variants across 1 page. These are the building blocks your authors will work with.</p>
+      <input type="radio" name="blocks-page" id="bp-1" class="bp-radio" checked>
+      <input type="radio" name="blocks-page" id="bp-2" class="bp-radio">
+      <table class="blocks">
+        <thead><tr><th>Block</th><th>Variant</th><th>Pages</th></tr></thead>
+        <tbody class="bp-page bp-page-1">
+          <tr class="group"><td class="block">article<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--1a676f95--aemcoder.aem.page/blogs/news/the-benefits-of-biotin" target="_blank" rel="noopener">The Benefits of Biotin Gummies – Nature&#39;s Bounty</a></td></tr>
+          <tr class="group"><td class="block">product-rail<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--1a676f95--aemcoder.aem.page/blogs/news/the-benefits-of-biotin" target="_blank" rel="noopener">The Benefits of Biotin Gummies – Nature&#39;s Bounty</a></td></tr>
+          <tr class="group"><td class="block">related<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--1a676f95--aemcoder.aem.page/blogs/news/the-benefits-of-biotin" target="_blank" rel="noopener">The Benefits of Biotin Gummies – Nature&#39;s Bounty</a></td></tr>
+          <tr class="group"><td class="block">share<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--1a676f95--aemcoder.aem.page/blogs/news/the-benefits-of-biotin" target="_blank" rel="noopener">The Benefits of Biotin Gummies – Nature&#39;s Bounty</a></td></tr>
+          <tr class="group"><td class="block">social-strip<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--1a676f95--aemcoder.aem.page/blogs/news/the-benefits-of-biotin" target="_blank" rel="noopener">The Benefits of Biotin Gummies – Nature&#39;s Bounty</a></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-2">
+          <tr class="group"><td class="block">tag-nav<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--1a676f95--aemcoder.aem.page/blogs/news/the-benefits-of-biotin" target="_blank" rel="noopener">The Benefits of Biotin Gummies – Nature&#39;s Bounty</a></td></tr>
+          <tr class="group"><td class="block">trusted-band<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--1a676f95--aemcoder.aem.page/blogs/news/the-benefits-of-biotin" target="_blank" rel="noopener">The Benefits of Biotin Gummies – Nature&#39;s Bounty</a></td></tr>
+        </tbody>
+      </table>
+      <nav class="pager" aria-label="Pages of blocks"><span class="bp-range bp-range-1">Blocks 1–5 of 7</span><span class="bp-range bp-range-2">Blocks 6–7 of 7</span><div class="labels"><label for="bp-1" class="spectrum-button spectrum-button--quiet">1</label><label for="bp-2" class="spectrum-button spectrum-button--quiet">2</label></div></nav>
     </div>
   </details>
 

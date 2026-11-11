@@ -1,0 +1,3584 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-11T01:53:36.481Z",
+  "tol": 4,
+  "n": 21,
+  "width": 1440,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://naturesbounty.com/blogs/news",
+  "at": "2026-11-11T01:39:47.956Z",
+  "docH": 5579
+ },
+ "eds": {
+  "url": "https://main--1a676f95--aemcoder.aem.page/blogs/news",
+  "at": "2026-11-11T01:53:36.274Z",
+  "docH": 5567
+ },
+ "results": [
+  {
+   "sel": "#blog-items .article-item=#blog-items .related-card, .listing-grid:not(.two, .blog-list) .listing-card",
+   "family": null,
+   "required": true,
+   "originMatches": 9,
+   "edsMatches": 9,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.container__tight > div#blog-items > div.article-item.is-layout-3"
+     },
+     "eds": {
+      "path": "div.listing-grid-wrapper > div.listing-grid.block > div.listing-card"
+     },
+     "rows": [
+      {
+       "key": "image:why magnesium matters more than ever",
+       "role": "image",
+       "text": "why magnesium matters more than ever",
+       "edsText": "why magnesium matters more than ever",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:a.article-item__url#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 225,
+        "w": 393,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 228,
+        "w": 393,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 3,
+       "dw": 0,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:why magnesium matters more than ever",
+       "role": "link",
+       "text": "why magnesium matters more than ever",
+       "edsText": "why magnesium matters more than ever",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 245,
+        "w": 393,
+        "h": 92
+       },
+       "eds": {
+        "x": 0,
+        "y": 245,
+        "w": 393,
+        "h": 92,
+        "sel": "a.card-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "heading:why magnesium matters more than ever",
+       "role": "heading",
+       "text": "why magnesium matters more than ever",
+       "edsText": "why magnesium matters more than ever",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 261,
+        "w": 393,
+        "h": 76
+       },
+       "eds": {
+        "x": 0,
+        "y": 261,
+        "w": 393,
+        "h": 76,
+        "sel": "h2#why-magnesium-matters-more-than-ever-2",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "25/38/700",
+        "eds": "25/38/700"
+       }
+      },
+      {
+       "key": "link:magnesium has always been an essential m",
+       "role": "link",
+       "text": "magnesium has always been an essential mineral, but lately, ",
+       "edsText": "magnesium has always been an essential mineral, but lately, ",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 357,
+        "w": 377,
+        "h": 85
+       },
+       "eds": {
+        "x": 0,
+        "y": 359,
+        "w": 384,
+        "h": 52,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 2,
+       "dw": 7,
+       "dh": -33,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 228,
+       "w": 393,
+       "h": 22,
+       "absY": 2380,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 93,
+       "y": 2152,
+       "w": 393,
+       "h": 463
+      },
+      "eds": {
+       "x": 93,
+       "y": 2152,
+       "w": 393,
+       "h": 433
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": -30
+     },
+     "summary": {
+      "elements": 5,
+      "within": 4,
+      "off": 1,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.container__tight > div#blog-items > div.article-item.is-layout-3"
+     },
+     "eds": {
+      "path": "div.listing-grid-wrapper > div.listing-grid.block > div.listing-card"
+     },
+     "rows": [
+      {
+       "key": "image:how to choose the right probiotic for da",
+       "role": "image",
+       "text": "how to choose the right probiotic for daily support",
+       "edsText": "how to choose the right probiotic for daily support",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:a.article-item__url#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 225,
+        "w": 393,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 228,
+        "w": 393,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 3,
+       "dw": 0,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:how to choose the right probiotic for da",
+       "role": "link",
+       "text": "how to choose the right probiotic for daily support",
+       "edsText": "how to choose the right probiotic for daily support",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 245,
+        "w": 393,
+        "h": 92
+       },
+       "eds": {
+        "x": 0,
+        "y": 245,
+        "w": 393,
+        "h": 92,
+        "sel": "a.card-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "heading:how to choose the right probiotic for da",
+       "role": "heading",
+       "text": "how to choose the right probiotic for daily support",
+       "edsText": "how to choose the right probiotic for daily support",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 261,
+        "w": 393,
+        "h": 76
+       },
+       "eds": {
+        "x": 0,
+        "y": 261,
+        "w": 393,
+        "h": 76,
+        "sel": "h2#how-to-choose-the-right-probiotic-for-daily-support-1",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "25/38/700",
+        "eds": "25/38/700"
+       }
+      },
+      {
+       "key": "link:support your gut health routine with tip",
+       "role": "link",
+       "text": "support your gut health routine with tips for choosing a pro",
+       "edsText": "support your gut health routine with tips for choosing a pro",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 357,
+        "w": 368,
+        "h": 85
+       },
+       "eds": {
+        "x": 0,
+        "y": 359,
+        "w": 367,
+        "h": 82,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 2,
+       "dw": -1,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 228,
+       "w": 393,
+       "h": 22,
+       "absY": 2380,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 516,
+       "y": 2152,
+       "w": 393,
+       "h": 463
+      },
+      "eds": {
+       "x": 516,
+       "y": 2152,
+       "w": 393,
+       "h": 463
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.container__tight > div#blog-items > div.article-item.is-layout-3"
+     },
+     "eds": {
+      "path": "div.listing-grid-wrapper > div.listing-grid.block > div.listing-card"
+     },
+     "rows": [
+      {
+       "key": "image:what are ceramides and why they matter m",
+       "role": "image",
+       "text": "what are ceramides and why they matter more as skin ages",
+       "edsText": "what are ceramides and why they matter more as skin ages",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:a.article-item__url#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 225,
+        "w": 393,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 228,
+        "w": 393,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 3,
+       "dw": 0,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:age defying skin renewal",
+       "role": "link",
+       "text": "age defying skin renewal",
+       "edsText": "age defying skin renewal",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 265,
+        "w": 182,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 265,
+        "w": 189,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 7,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "text:|",
+       "role": "text",
+       "text": "|",
+       "edsText": "|",
+       "byPosition": false,
+       "origin": {
+        "x": 187,
+        "y": 265,
+        "w": 3,
+        "h": 30
+       },
+       "eds": {
+        "x": 194,
+        "y": 265,
+        "w": 3,
+        "h": 30,
+        "sel": "span.card-tag-sep",
+        "role": "text"
+       },
+       "dx": 7,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "link:hair",
+       "role": "link",
+       "text": "hair",
+       "edsText": "hair",
+       "byPosition": false,
+       "origin": {
+        "x": 195,
+        "y": 265,
+        "w": 30,
+        "h": 30
+       },
+       "eds": {
+        "x": 203,
+        "y": 265,
+        "w": 32,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 8,
+       "dy": 0,
+       "dw": 2,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "link:nails",
+       "role": "link",
+       "text": "nails",
+       "edsText": "nails",
+       "byPosition": false,
+       "origin": {
+        "x": 238,
+        "y": 265,
+        "w": 36,
+        "h": 30
+       },
+       "eds": {
+        "x": 248,
+        "y": 265,
+        "w": 39,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 10,
+       "dy": 0,
+       "dw": 3,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "link:what are ceramides and why they matter m",
+       "role": "link",
+       "text": "what are ceramides and why they matter more as skin ages",
+       "edsText": "what are ceramides and why they matter more as skin ages",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 295,
+        "w": 393,
+        "h": 92
+       },
+       "eds": {
+        "x": 0,
+        "y": 295,
+        "w": 393,
+        "h": 92,
+        "sel": "a.card-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "heading:what are ceramides and why they matter m",
+       "role": "heading",
+       "text": "what are ceramides and why they matter more as skin ages",
+       "edsText": "what are ceramides and why they matter more as skin ages",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 311,
+        "w": 393,
+        "h": 76
+       },
+       "eds": {
+        "x": 0,
+        "y": 311,
+        "w": 393,
+        "h": 76,
+        "sel": "h2#what-are-ceramides-and-why-they-matter-more-as-skin-ages",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "25/38/700",
+        "eds": "25/38/700"
+       }
+      },
+      {
+       "key": "link:ceramides are essential to healthy, yout",
+       "role": "link",
+       "text": "ceramides are essential to healthy, youthful-looking skin, a",
+       "edsText": "ceramides are essential to healthy, youthful-looking skin, a",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 407,
+        "w": 358,
+        "h": 85
+       },
+       "eds": {
+        "x": 0,
+        "y": 409,
+        "w": 388,
+        "h": 82,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 2,
+       "dw": 30,
+       "dh": -3,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 228,
+       "w": 393,
+       "h": 22,
+       "absY": 2380,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 939,
+       "y": 2152,
+       "w": 393,
+       "h": 513
+      },
+      "eds": {
+       "x": 939,
+       "y": 2152,
+       "w": 393,
+       "h": 513
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 9,
+      "within": 4,
+      "off": 5,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.container__tight > div#blog-items > div.article-item.is-layout-3"
+     },
+     "eds": {
+      "path": "div.listing-grid-wrapper > div.listing-grid.block > div.listing-card"
+     },
+     "rows": [
+      {
+       "key": "image:women’s health awareness: 5 ways to rese",
+       "role": "image",
+       "text": "women’s health awareness: 5 ways to reset your wellness rout",
+       "edsText": "women’s health awareness: 5 ways to reset your wellness rout",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:a.article-item__url#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 225,
+        "w": 393,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 228,
+        "w": 393,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 3,
+       "dw": 0,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:women's wellness",
+       "role": "link",
+       "text": "women's wellness",
+       "edsText": "women's wellness",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 265,
+        "w": 132,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 265,
+        "w": 139,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 7,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "link:women’s health awareness: 5 ways to rese",
+       "role": "link",
+       "text": "women’s health awareness: 5 ways to reset your wellness rout",
+       "edsText": "women’s health awareness: 5 ways to reset your wellness rout",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 295,
+        "w": 393,
+        "h": 190
+       },
+       "eds": {
+        "x": 0,
+        "y": 295,
+        "w": 393,
+        "h": 190,
+        "sel": "a.card-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "heading:women’s health awareness: 5 ways to rese",
+       "role": "heading",
+       "text": "women’s health awareness: 5 ways to reset your wellness rout",
+       "edsText": "women’s health awareness: 5 ways to reset your wellness rout",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 311,
+        "w": 393,
+        "h": 114
+       },
+       "eds": {
+        "x": 0,
+        "y": 311,
+        "w": 393,
+        "h": 114,
+        "sel": "h2#womens-health-awareness-5-ways-to-reset-your-wellness-routine",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "25/38/700",
+        "eds": "25/38/700"
+       }
+      },
+      {
+       "key": "text:explore tips to help you push the reset ",
+       "role": "text",
+       "text": "explore tips to help you push the reset button",
+       "edsText": "explore tips to help you push the reset button and discover ",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 427,
+        "w": 357,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 425,
+        "w": 393,
+        "h": 60,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -2,
+       "dw": 36,
+       "dh": 35,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "text",
+       "tag": "span",
+       "sel": "span",
+       "text": "and discover healthy practices that...",
+       "boxed": false,
+       "x": 0,
+       "y": 427,
+       "w": 392,
+       "h": 55,
+       "absY": 3122,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "text:and discover healthy practices that..."
+      }
+     ],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 228,
+       "w": 393,
+       "h": 22,
+       "absY": 2923,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 93,
+       "y": 2695,
+       "w": 393,
+       "h": 485
+      },
+      "eds": {
+       "x": 93,
+       "y": 2695,
+       "w": 393,
+       "h": 485
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 7,
+      "within": 4,
+      "off": 2,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div.container__tight > div#blog-items > div.article-item.is-layout-3"
+     },
+     "eds": {
+      "path": "div.listing-grid-wrapper > div.listing-grid.block > div.listing-card"
+     },
+     "rows": [
+      {
+       "key": "image:your gut may play a powerful role in you",
+       "role": "image",
+       "text": "your gut may play a powerful role in your well-being, our su",
+       "edsText": "your gut may play a powerful role in your well-being, our su",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:a.article-item__url#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 225,
+        "w": 393,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 228,
+        "w": 393,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 3,
+       "dw": 0,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:digestive health",
+       "role": "link",
+       "text": "digestive health",
+       "edsText": "digestive health",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 265,
+        "w": 117,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 265,
+        "w": 123,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 6,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "link:your gut may play a powerful role in you",
+       "role": "link",
+       "text": "your gut may play a powerful role in your well-being, our su",
+       "edsText": "your gut may play a powerful role in your well-being, our su",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 295,
+        "w": 393,
+        "h": 190
+       },
+       "eds": {
+        "x": 0,
+        "y": 295,
+        "w": 393,
+        "h": 190,
+        "sel": "a.card-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "heading:your gut may play a powerful role in you",
+       "role": "heading",
+       "text": "your gut may play a powerful role in your well-being, our su",
+       "edsText": "your gut may play a powerful role in your well-being, our su",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 311,
+        "w": 393,
+        "h": 114
+       },
+       "eds": {
+        "x": 0,
+        "y": 311,
+        "w": 393,
+        "h": 114,
+        "sel": "h2#your-gut-may-play-a-powerful-role-in-your-well-being-our-survey-finds",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "25/38/700",
+        "eds": "25/38/700"
+       }
+      },
+      {
+       "key": "text:learn more about living an active life a",
+       "role": "text",
+       "text": "learn more about living an active life and nurturing your di",
+       "edsText": "learn more about living an active life and nurturing your di",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 427,
+        "w": 330,
+        "h": 55
+       },
+       "eds": {
+        "x": 0,
+        "y": 425,
+        "w": 393,
+        "h": 60,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -2,
+       "dw": 63,
+       "dh": 5,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 228,
+       "w": 393,
+       "h": 22,
+       "absY": 2923,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 516,
+       "y": 2695,
+       "w": 393,
+       "h": 485
+      },
+      "eds": {
+       "x": 516,
+       "y": 2695,
+       "w": 393,
+       "h": 485
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 4,
+      "off": 2,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 5,
+     "origin": {
+      "path": "div.container__tight > div#blog-items > div.article-item.is-layout-3"
+     },
+     "eds": {
+      "path": "div.listing-grid-wrapper > div.listing-grid.block > div.listing-card"
+     },
+     "rows": [
+      {
+       "key": "image:enhance your digestive wellness with the",
+       "role": "image",
+       "text": "enhance your digestive wellness with these 4 probiotic suppl",
+       "edsText": "enhance your digestive wellness with these 4 probiotic suppl",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:a.article-item__url#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 225,
+        "w": 393,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 228,
+        "w": 393,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 3,
+       "dw": 0,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:digestive health",
+       "role": "link",
+       "text": "digestive health",
+       "edsText": "digestive health",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 265,
+        "w": 117,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 265,
+        "w": 123,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 6,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "link:enhance your digestive wellness with the",
+       "role": "link",
+       "text": "enhance your digestive wellness with these 4 probiotic suppl",
+       "edsText": "enhance your digestive wellness with these 4 probiotic suppl",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 295,
+        "w": 393,
+        "h": 190
+       },
+       "eds": {
+        "x": 0,
+        "y": 295,
+        "w": 393,
+        "h": 190,
+        "sel": "a.card-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "heading:enhance your digestive wellness with the",
+       "role": "heading",
+       "text": "enhance your digestive wellness with these 4 probiotic suppl",
+       "edsText": "enhance your digestive wellness with these 4 probiotic suppl",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 311,
+        "w": 393,
+        "h": 114
+       },
+       "eds": {
+        "x": 0,
+        "y": 311,
+        "w": 393,
+        "h": 114,
+        "sel": "h2#enhance-your-digestive-wellness-with-these-4-probiotic-supplements",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "25/38/700",
+        "eds": "25/38/700"
+       }
+      },
+      {
+       "key": "text:explore a range of practical and effecti",
+       "role": "text",
+       "text": "explore a range of practical and effective solutions that ca",
+       "edsText": "explore a range of practical and effective solutions that ca",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 427,
+        "w": 343,
+        "h": 55
+       },
+       "eds": {
+        "x": 0,
+        "y": 425,
+        "w": 393,
+        "h": 60,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -2,
+       "dw": 50,
+       "dh": 5,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 228,
+       "w": 393,
+       "h": 22,
+       "absY": 2923,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 939,
+       "y": 2695,
+       "w": 393,
+       "h": 485
+      },
+      "eds": {
+       "x": 939,
+       "y": 2695,
+       "w": 393,
+       "h": 485
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 4,
+      "off": 2,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 6,
+     "origin": {
+      "path": "div.container__tight > div#blog-items > div.article-item.is-layout-3"
+     },
+     "eds": {
+      "path": "div.listing-grid-wrapper > div.listing-grid.block > div.listing-card"
+     },
+     "rows": [
+      {
+       "key": "image:digestive probiotic 10",
+       "role": "image",
+       "text": "digestive probiotic 10",
+       "edsText": "digestive probiotic 10",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:a.article-item__url#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 225,
+        "w": 393,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 228,
+        "w": 393,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 3,
+       "dw": 0,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:digestive health",
+       "role": "link",
+       "text": "digestive health",
+       "edsText": "digestive health",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 265,
+        "w": 117,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 265,
+        "w": 123,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 6,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "link:digestive probiotic 10 by natalie meriwe",
+       "role": "link",
+       "text": "digestive probiotic 10 by natalie meriwether, bsn",
+       "edsText": "digestive probiotic 10 by natalie meriwether, bsn",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 295,
+        "w": 393,
+        "h": 84
+       },
+       "eds": {
+        "x": 0,
+        "y": 295,
+        "w": 393,
+        "h": 84,
+        "sel": "a.card-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "heading:digestive probiotic 10",
+       "role": "heading",
+       "text": "digestive probiotic 10",
+       "edsText": "digestive probiotic 10",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 311,
+        "w": 393,
+        "h": 38
+       },
+       "eds": {
+        "x": 0,
+        "y": 311,
+        "w": 393,
+        "h": 38,
+        "sel": "h2#digestive-probiotic-10",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "25/38/700",
+        "eds": "25/38/700"
+       }
+      },
+      {
+       "key": "text:by natalie meriwether, bsn",
+       "role": "text",
+       "text": "by natalie meriwether, bsn",
+       "edsText": "by natalie meriwether, bsn",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 351,
+        "w": 218,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 349,
+        "w": 393,
+        "h": 30,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -2,
+       "dw": 175,
+       "dh": 5,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 228,
+       "w": 393,
+       "h": 22,
+       "absY": 3438,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 93,
+       "y": 3210,
+       "w": 393,
+       "h": 379
+      },
+      "eds": {
+       "x": 93,
+       "y": 3210,
+       "w": 393,
+       "h": 379
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 4,
+      "off": 2,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 7,
+     "origin": {
+      "path": "div.container__tight > div#blog-items > div.article-item.is-layout-3"
+     },
+     "eds": {
+      "path": "div.listing-grid-wrapper > div.listing-grid.block > div.listing-card"
+     },
+     "rows": [
+      {
+       "key": "image:helpful tips to reduce stress this sprin",
+       "role": "image",
+       "text": "helpful tips to reduce stress this spring",
+       "edsText": "helpful tips to reduce stress this spring",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:a.article-item__url#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 225,
+        "w": 393,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 228,
+        "w": 393,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 3,
+       "dw": 0,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:stress & mood",
+       "role": "link",
+       "text": "stress & mood",
+       "edsText": "stress & mood",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 265,
+        "w": 106,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 265,
+        "w": 106,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "link:helpful tips to reduce stress this sprin",
+       "role": "link",
+       "text": "helpful tips to reduce stress this spring april is stress aw",
+       "edsText": "helpful tips to reduce stress this spring april is stress aw",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 295,
+        "w": 393,
+        "h": 152
+       },
+       "eds": {
+        "x": 0,
+        "y": 295,
+        "w": 393,
+        "h": 152,
+        "sel": "a.card-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "heading:helpful tips to reduce stress this sprin",
+       "role": "heading",
+       "text": "helpful tips to reduce stress this spring",
+       "edsText": "helpful tips to reduce stress this spring",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 311,
+        "w": 393,
+        "h": 76
+       },
+       "eds": {
+        "x": 0,
+        "y": 311,
+        "w": 393,
+        "h": 76,
+        "sel": "h2#helpful-tips-to-reduce-stress-this-spring",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "25/38/700",
+        "eds": "25/38/700"
+       }
+      },
+      {
+       "key": "text:april is stress awareness month and it’s",
+       "role": "text",
+       "text": "april is stress awareness month and it’s important to unders",
+       "edsText": "april is stress awareness month and it’s important to unders",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 389,
+        "w": 385,
+        "h": 55
+       },
+       "eds": {
+        "x": 0,
+        "y": 387,
+        "w": 393,
+        "h": 60,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -2,
+       "dw": 8,
+       "dh": 5,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 228,
+       "w": 393,
+       "h": 22,
+       "absY": 3438,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 516,
+       "y": 3210,
+       "w": 393,
+       "h": 447
+      },
+      "eds": {
+       "x": 516,
+       "y": 3210,
+       "w": 393,
+       "h": 447
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 5,
+      "off": 1,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 8,
+     "origin": {
+      "path": "div.container__tight > div#blog-items > div.article-item.is-layout-3"
+     },
+     "eds": {
+      "path": "div.listing-grid-wrapper > div.listing-grid.block > div.listing-card"
+     },
+     "rows": [
+      {
+       "key": "image:celebrate women’s history month with the",
+       "role": "image",
+       "text": "celebrate women’s history month with the inspiring women at ",
+       "edsText": "celebrate women’s history month with the inspiring women at ",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 393,
+        "h": 245,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:a.article-item__url#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 225,
+        "w": 393,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 228,
+        "w": 393,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 3,
+       "dw": 0,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:women's health",
+       "role": "link",
+       "text": "women's health",
+       "edsText": "women's health",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 265,
+        "w": 115,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 265,
+        "w": 120,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 5,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "14/30/500",
+        "eds": "14/30/500"
+       }
+      },
+      {
+       "key": "link:celebrate women’s history month with the",
+       "role": "link",
+       "text": "celebrate women’s history month with the inspiring women at ",
+       "edsText": "celebrate women’s history month with the inspiring women at ",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 295,
+        "w": 393,
+        "h": 220
+       },
+       "eds": {
+        "x": 0,
+        "y": 295,
+        "w": 393,
+        "h": 220,
+        "sel": "a.card-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "heading:celebrate women’s history month with the",
+       "role": "heading",
+       "text": "celebrate women’s history month with the inspiring women at ",
+       "edsText": "celebrate women’s history month with the inspiring women at ",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 311,
+        "w": 393,
+        "h": 114
+       },
+       "eds": {
+        "x": 0,
+        "y": 311,
+        "w": 393,
+        "h": 114,
+        "sel": "h2#celebrate-womens-history-month-with-the-inspiring-women-at-natures-bounty",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "25/38/700",
+        "eds": "25/38/700"
+       }
+      },
+      {
+       "key": "text:march is women’s history month—a time to",
+       "role": "text",
+       "text": "march is women’s history month—a time to honor women’s remar",
+       "edsText": "march is women’s history month—a time to honor women’s remar",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 427,
+        "w": 366,
+        "h": 85
+       },
+       "eds": {
+        "x": 0,
+        "y": 425,
+        "w": 393,
+        "h": 90,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -2,
+       "dw": 27,
+       "dh": 5,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 228,
+       "w": 393,
+       "h": 22,
+       "absY": 3438,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 939,
+       "y": 3210,
+       "w": 393,
+       "h": 515
+      },
+      "eds": {
+       "x": 939,
+       "y": 3210,
+       "w": 393,
+       "h": 515
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 4,
+      "off": 2,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".blog__featured-top .article-item=.listing-grid--two .related-card, .listing-grid.two .listing-card",
+   "family": null,
+   "required": true,
+   "originMatches": 2,
+   "edsMatches": 2,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.blog__featured-top > div.article-item__grid.is-two > div.article-item.is-layout-2"
+     },
+     "eds": {
+      "path": "div.listing-grid-wrapper > div.listing-grid.two > div.listing-card"
+     },
+     "rows": [
+      {
+       "key": "image:why magnesium matters more than ever",
+       "role": "image",
+       "text": "why magnesium matters more than ever",
+       "edsText": "why magnesium matters more than ever",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 605,
+        "h": 490
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 605,
+        "h": 490,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:a.article-item__url#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 470,
+        "w": 605,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 473,
+        "w": 605,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 3,
+       "dw": 0,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:why magnesium matters more than ever",
+       "role": "link",
+       "text": "why magnesium matters more than ever",
+       "edsText": "why magnesium matters more than ever",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 490,
+        "w": 605,
+        "h": 54
+       },
+       "eds": {
+        "x": 0,
+        "y": 490,
+        "w": 605,
+        "h": 54,
+        "sel": "a.card-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "heading:why magnesium matters more than ever",
+       "role": "heading",
+       "text": "why magnesium matters more than ever",
+       "edsText": "why magnesium matters more than ever",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 506,
+        "w": 605,
+        "h": 38
+       },
+       "eds": {
+        "x": 0,
+        "y": 506,
+        "w": 605,
+        "h": 38,
+        "sel": "h2#why-magnesium-matters-more-than-ever",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "25/38/700",
+        "eds": "25/38/700"
+       }
+      },
+      {
+       "key": "link:magnesium has always been an essential m",
+       "role": "link",
+       "text": "magnesium has always been an essential mineral, but lately, ",
+       "edsText": "magnesium has always been an essential mineral, but lately, ",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 564,
+        "w": 568,
+        "h": 55
+       },
+       "eds": {
+        "x": 0,
+        "y": 566,
+        "w": 597,
+        "h": 52,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 2,
+       "dw": 29,
+       "dh": -3,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 473,
+       "w": 605,
+       "h": 22,
+       "absY": 1235,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 93,
+       "y": 762,
+       "w": 605,
+       "h": 640
+      },
+      "eds": {
+       "x": 93,
+       "y": 762,
+       "w": 605,
+       "h": 640
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 4,
+      "off": 1,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.blog__featured-top > div.article-item__grid.is-two > div.article-item.is-layout-2"
+     },
+     "eds": {
+      "path": "div.listing-grid-wrapper > div.listing-grid.two > div.listing-card"
+     },
+     "rows": [
+      {
+       "key": "image:how to choose the right probiotic for da",
+       "role": "image",
+       "text": "how to choose the right probiotic for daily support",
+       "edsText": "how to choose the right probiotic for daily support",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 605,
+        "h": 490
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 605,
+        "h": 490,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:a.article-item__url#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 470,
+        "w": 605,
+        "h": 25
+       },
+       "eds": {
+        "x": 0,
+        "y": 473,
+        "w": 605,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 3,
+       "dw": 0,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "link:how to choose the right probiotic for da",
+       "role": "link",
+       "text": "how to choose the right probiotic for daily support",
+       "edsText": "how to choose the right probiotic for daily support",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 490,
+        "w": 605,
+        "h": 54
+       },
+       "eds": {
+        "x": 0,
+        "y": 490,
+        "w": 605,
+        "h": 54,
+        "sel": "a.card-link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      },
+      {
+       "key": "heading:how to choose the right probiotic for da",
+       "role": "heading",
+       "text": "how to choose the right probiotic for daily support",
+       "edsText": "how to choose the right probiotic for daily support",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 506,
+        "w": 605,
+        "h": 38
+       },
+       "eds": {
+        "x": 0,
+        "y": 506,
+        "w": 605,
+        "h": 38,
+        "sel": "h2#how-to-choose-the-right-probiotic-for-daily-support",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "25/38/700",
+        "eds": "25/38/700"
+       }
+      },
+      {
+       "key": "link:support your gut health routine with tip",
+       "role": "link",
+       "text": "support your gut health routine with tips for choosing a pro",
+       "edsText": "support your gut health routine with tips for choosing a pro",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 564,
+        "w": 593,
+        "h": 55
+       },
+       "eds": {
+        "x": 0,
+        "y": 566,
+        "w": 591,
+        "h": 52,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 2,
+       "dw": -2,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/500",
+        "eds": "18/30/500"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 473,
+       "w": 605,
+       "h": 22,
+       "absY": 1235,
+       "hidden": false,
+       "fs": 18,
+       "lh": 30,
+       "fw": "500",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 728,
+       "y": 762,
+       "w": 605,
+       "h": 640
+      },
+      "eds": {
+       "x": 728,
+       "y": 762,
+       "w": 605,
+       "h": 640
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".blog__filters .blog__filter-item=.blog-filters .blog-filters__item, .blog-filters .blog-filters-list a",
+   "family": null,
+   "required": true,
+   "originMatches": 21,
+   "edsMatches": 21,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.blog-hero__inner.container__tight > div.blog__filters > a.blog__filter-item.btn"
+     },
+     "eds": {
+      "path": "ul > li > a"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 96,
+       "y": 291,
+       "w": 170,
+       "h": 58
+      },
+      "eds": {
+       "x": 218,
+       "y": 291,
+       "w": 171,
+       "h": 58
+      },
+      "dx": 122,
+      "dy": 0,
+      "dw": 1,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.blog-hero__inner.container__tight > div.blog__filters > a.blog__filter-item.btn"
+     },
+     "eds": {
+      "path": "ul > li > a"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 281,
+       "y": 291,
+       "w": 311,
+       "h": 58
+      },
+      "eds": {
+       "x": 403,
+       "y": 291,
+       "w": 313,
+       "h": 58
+      },
+      "dx": 122,
+      "dy": 0,
+      "dw": 2,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.blog-hero__inner.container__tight > div.blog__filters > a.blog__filter-item.btn"
+     },
+     "eds": {
+      "path": "ul > li > a"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 607,
+       "y": 291,
+       "w": 256,
+       "h": 58
+      },
+      "eds": {
+       "x": 731,
+       "y": 291,
+       "w": 261,
+       "h": 58
+      },
+      "dx": 124,
+      "dy": 0,
+      "dw": 5,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.blog-hero__inner.container__tight > div.blog__filters > a.blog__filter-item.btn"
+     },
+     "eds": {
+      "path": "ul > li > a"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 878,
+       "y": 291,
+       "w": 202,
+       "h": 58
+      },
+      "eds": {
+       "x": 1007,
+       "y": 291,
+       "w": 200,
+       "h": 58
+      },
+      "dx": 129,
+      "dy": 0,
+      "dw": -2,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div.blog-hero__inner.container__tight > div.blog__filters > a.blog__filter-item.btn"
+     },
+     "eds": {
+      "path": "ul > li > a"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1095,
+       "y": 291,
+       "w": 234,
+       "h": 58
+      },
+      "eds": {
+       "x": 180,
+       "y": 364,
+       "w": 235,
+       "h": 58
+      },
+      "dx": -915,
+      "dy": 73,
+      "dw": 1,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 5,
+     "origin": {
+      "path": "div.blog-hero__inner.container__tight > div.blog__filters > a.blog__filter-item.btn"
+     },
+     "eds": {
+      "path": "ul > li > a"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 197,
+       "y": 364,
+       "w": 227,
+       "h": 58
+      },
+      "eds": {
+       "x": 430,
+       "y": 364,
+       "w": 229,
+       "h": 58
+      },
+      "dx": 233,
+      "dy": 0,
+      "dw": 2,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 6,
+     "origin": {
+      "path": "div.blog-hero__inner.container__tight > div.blog__filters > a.blog__filter-item.btn"
+     },
+     "eds": {
+      "path": "ul > li > a"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 439,
+       "y": 364,
+       "w": 188,
+       "h": 58
+      },
+      "eds": {
+       "x": 673,
+       "y": 364,
+       "w": 189,
+       "h": 58
+      },
+      "dx": 234,
+      "dy": 0,
+      "dw": 1,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 7,
+     "origin": {
+      "path": "div.blog-hero__inner.container__tight > div.blog__filters > a.blog__filter-item.btn"
+     },
+     "eds": {
+      "path": "ul > li > a"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 642,
+       "y": 364,
+       "w": 136,
+       "h": 58
+      },
+      "eds": {
+       "x": 878,
+       "y": 364,
+       "w": 136,
+       "h": 58
+      },
+      "dx": 236,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 8,
+     "origin": {
+      "path": "div.blog-hero__inner.container__tight > div.blog__filters > a.blog__filter-item.btn"
+     },
+     "eds": {
+      "path": "ul > li > a"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 793,
+       "y": 364,
+       "w": 215,
+       "h": 58
+      },
+      "eds": {
+       "x": 1028,
+       "y": 364,
+       "w": 217,
+       "h": 58
+      },
+      "dx": 235,
+      "dy": 0,
+      "dw": 2,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 9,
+     "origin": {
+      "path": "div.blog-hero__inner.container__tight > div.blog__filters > a.blog__filter-item.btn"
+     },
+     "eds": {
+      "path": "ul > li > a"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1023,
+       "y": 364,
+       "w": 205,
+       "h": 58
+      },
+      "eds": {
+       "x": 131,
+       "y": 437,
+       "w": 205,
+       "h": 58
+      },
+      "dx": -892,
+      "dy": 73,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 10,
+     "origin": {
+      "path": "div.blog-hero__inner.container__tight > div.blog__filters > a.blog__filter-item.btn"
+     },
+     "eds": {
+      "path": "ul > li > a"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 122,
+       "y": 437,
+       "w": 348,
+       "h": 58
+      },
+      "eds": {
+       "x": 352,
+       "y": 437,
+       "w": 351,
+       "h": 58
+      },
+      "dx": 230,
+      "dy": 0,
+      "dw": 3,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 11,
+     "origin": {
+      "path": "div.blog-hero__inner.container__tight > div.blog__filters > a.blog__filter-item.btn"
+     },
+     "eds": {
+      "path": "ul > li > a"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 485,
+       "y": 437,
+       "w": 197,
+       "h": 58
+      },
+      "eds": {
+       "x": 717,
+       "y": 437,
+       "w": 198,
+       "h": 58
+      },
+      "dx": 232,
+      "dy": 0,
+      "dw": 1,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 12,
+     "origin": {
+      "path": "div.blog-hero__inner.container__tight > div.blog__filters > a.blog__filter-item.btn"
+     },
+     "eds": {
+      "path": "ul > li > a"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 697,
+       "y": 437,
+       "w": 207,
+       "h": 58
+      },
+      "eds": {
+       "x": 930,
+       "y": 437,
+       "w": 206,
+       "h": 58
+      },
+      "dx": 233,
+      "dy": 0,
+      "dw": -1,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 13,
+     "origin": {
+      "path": "div.blog-hero__inner.container__tight > div.blog__filters > a.blog__filter-item.btn"
+     },
+     "eds": {
+      "path": "ul > li > a"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 919,
+       "y": 437,
+       "w": 141,
+       "h": 58
+      },
+      "eds": {
+       "x": 1152,
+       "y": 437,
+       "w": 142,
+       "h": 58
+      },
+      "dx": 233,
+      "dy": 0,
+      "dw": 1,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 14,
+     "origin": {
+      "path": "div.blog-hero__inner.container__tight > div.blog__filters > a.blog__filter-item.btn"
+     },
+     "eds": {
+      "path": "ul > li > a"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1075,
+       "y": 437,
+       "w": 228,
+       "h": 58
+      },
+      "eds": {
+       "x": 152,
+       "y": 510,
+       "w": 226,
+       "h": 58
+      },
+      "dx": -923,
+      "dy": 73,
+      "dw": -2,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 15,
+     "origin": {
+      "path": "div.blog-hero__inner.container__tight > div.blog__filters > a.blog__filter-item.btn"
+     },
+     "eds": {
+      "path": "ul > li > a"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 151,
+       "y": 510,
+       "w": 135,
+       "h": 58
+      },
+      "eds": {
+       "x": 393,
+       "y": 510,
+       "w": 136,
+       "h": 58
+      },
+      "dx": 242,
+      "dy": 0,
+      "dw": 1,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 16,
+     "origin": {
+      "path": "div.blog-hero__inner.container__tight > div.blog__filters > a.blog__filter-item.btn"
+     },
+     "eds": {
+      "path": "ul > li > a"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 302,
+       "y": 510,
+       "w": 216,
+       "h": 58
+      },
+      "eds": {
+       "x": 544,
+       "y": 510,
+       "w": 216,
+       "h": 58
+      },
+      "dx": 242,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 17,
+     "origin": {
+      "path": "div.blog-hero__inner.container__tight > div.blog__filters > a.blog__filter-item.btn"
+     },
+     "eds": {
+      "path": "ul > li > a"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 532,
+       "y": 510,
+       "w": 217,
+       "h": 58
+      },
+      "eds": {
+       "x": 776,
+       "y": 510,
+       "w": 217,
+       "h": 58
+      },
+      "dx": 244,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 18,
+     "origin": {
+      "path": "div.blog-hero__inner.container__tight > div.blog__filters > a.blog__filter-item.btn"
+     },
+     "eds": {
+      "path": "ul > li > a"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 764,
+       "y": 510,
+       "w": 263,
+       "h": 58
+      },
+      "eds": {
+       "x": 1008,
+       "y": 510,
+       "w": 265,
+       "h": 58
+      },
+      "dx": 244,
+      "dy": 0,
+      "dw": 2,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 19,
+     "origin": {
+      "path": "div.blog-hero__inner.container__tight > div.blog__filters > a.blog__filter-item.btn"
+     },
+     "eds": {
+      "path": "ul > li > a"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1042,
+       "y": 510,
+       "w": 231,
+       "h": 58
+      },
+      "eds": {
+       "x": 463,
+       "y": 583,
+       "w": 234,
+       "h": 58
+      },
+      "dx": -579,
+      "dy": 73,
+      "dw": 3,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 20,
+     "origin": {
+      "path": "div.blog-hero__inner.container__tight > div.blog__filters > a.blog__filter-item.btn"
+     },
+     "eds": {
+      "path": "ul > li > a"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 589,
+       "y": 583,
+       "w": 247,
+       "h": 58
+      },
+      "eds": {
+       "x": 711,
+       "y": 583,
+       "w": 251,
+       "h": 58
+      },
+      "dx": 122,
+      "dy": 0,
+      "dw": 4,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 32,
+  "within": 47,
+  "off": 18,
+  "hidden": 0,
+  "missing": 1,
+  "errors": 0,
+  "requiredOff": 19
+ }
+}

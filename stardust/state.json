@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "writtenBy": "stardust:migrate",
-    "writtenAt": "2026-11-11T00:22:24Z",
+    "writtenAt": "2026-11-11T01:54:10Z",
     "stardustVersion": "0.37.2"
   },
   "site": {
@@ -254,7 +254,7 @@
       "url": "https://naturesbounty.com/blogs/news/the-benefits-of-biotin",
       "title": "The Benefits of Biotin Gummies – Nature's Bounty",
       "type": "article",
-      "status": "approved",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -268,13 +268,17 @@
           "status": "approved",
           "at": "2026-11-10T23:37:33Z",
           "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-11T01:54:10Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/blogs-news-the-benefits-of-biotin.json",
       "prototypePath": "stardust/prototypes/the-benefits-of-biotin-proposed.html",
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/blogs/news/the-benefits-of-biotin/index.html"
     },
     {
       "slug": "blogs-news-what-women-need-to-know-about-detecting-breast-cancer-early-an-interview-with-susan-brown-m-s-r-n-at-susan-g-komen-c2-ae",
