@@ -27,10 +27,7 @@ export async function runExperimentation(document, config) {
 
   try {
     // eslint-disable-next-line import/no-relative-packages
-    // eslint-disable-next-line import/no-relative-packages
-    const { loadEager } = await import(
-      '@adobe/aem-experimentation/src/index.js'
-    );
+    const { loadEager } = await import('../plugins/experimentation/src/index.js');
     return loadEager(document, config);
   } catch (error) {
     // eslint-disable-next-line no-console
@@ -60,10 +57,7 @@ export async function runExperimentationLazy(document, config) {
 
   try {
     // eslint-disable-next-line import/no-relative-packages
-    // eslint-disable-next-line import/no-relative-packages
-    const { loadLazy } = await import(
-      '@adobe/aem-experimentation/src/index.js'
-    );
+    const { loadLazy } = await import('../plugins/experimentation/src/index.js');
     return loadLazy(document, config);
   } catch (error) {
     // eslint-disable-next-line no-console
