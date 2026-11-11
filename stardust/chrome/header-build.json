@@ -1,0 +1,1639 @@
+{
+ "tool": "chrome-explore",
+ "url": "https://main--1a676f95--aemcoder.aem.page/drafts/shell",
+ "at": "2026-11-11T01:10:30.899Z",
+ "shots": "stardust/.work/chrome/header-build",
+ "widths": {
+  "360": {
+   "root": "#nav>div:nth-of-type(2)",
+   "controls": [
+    {
+     "name": "",
+     "key": "",
+     "role": "link",
+     "kind": "link",
+     "sel": "#nav>div:nth-of-type(2)>div:nth-of-type(1)>div>div:nth-of-type(1)>p>a",
+     "href": "https://main--1a676f95--aemcoder.aem.page/",
+     "expanded": null,
+     "rect": [
+      20,
+      52,
+      200,
+      32
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Drawer Open Button",
+     "key": "drawer open button",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#nav>div:nth-of-type(2)>div:nth-of-type(1)>div>div:nth-of-type(2)>button",
+     "expanded": "false",
+     "rect": [
+      285,
+      48,
+      40,
+      40
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Where to Buy",
+          "href": "https://main--1a676f95--aemcoder.aem.page/pages/store-locator"
+         },
+         {
+          "text": "About Us",
+          "href": "https://main--1a676f95--aemcoder.aem.page/pages/about-us"
+         },
+         {
+          "text": "Facebook Link",
+          "href": "https://www.facebook.com/NaturesBounty/"
+         },
+         {
+          "text": "Twitter Link",
+          "href": "https://twitter.com/naturesbounty"
+         },
+         {
+          "text": "Youtube Link",
+          "href": "https://www.youtube.com/user/NaturesBountyHealth"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "search"
+        ],
+        "buttons": [
+         "Drawer Close Button",
+         "Products",
+         "Health Benefits",
+         "Learn",
+         "Search"
+        ],
+        "options": 0,
+        "rect": [
+         35,
+         24,
+         311,
+         780
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.drawer"
+        }
+       ],
+       "shot": "360-001-Drawer-Open-Button-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Where to Buy",
+          "href": "https://main--1a676f95--aemcoder.aem.page/pages/store-locator"
+         },
+         {
+          "text": "About Us",
+          "href": "https://main--1a676f95--aemcoder.aem.page/pages/about-us"
+         },
+         {
+          "text": "Facebook Link",
+          "href": "https://www.facebook.com/NaturesBounty/"
+         },
+         {
+          "text": "Twitter Link",
+          "href": "https://twitter.com/naturesbounty"
+         },
+         {
+          "text": "Youtube Link",
+          "href": "https://www.youtube.com/user/NaturesBountyHealth"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "search"
+        ],
+        "buttons": [
+         "Drawer Close Button",
+         "Products",
+         "Health Benefits",
+         "Learn",
+         "Search"
+        ],
+        "options": 0,
+        "rect": [
+         35,
+         24,
+         311,
+         780
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.drawer"
+        }
+       ],
+       "shot": "360-002-Drawer-Open-Button-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": null,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "Drawer Close Button",
+       "key": "drawer close button",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#site-drawer>div>div:nth-of-type(1)>button",
+       "expanded": null,
+       "rect": [
+        284,
+        41,
+        37,
+        40
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 11,
+         "panel": {
+          "links": [
+           {
+            "text": "Grow Thicker, Fuller Hair in 3 Months*",
+            "href": "https://naturesbounty.com/pages/hair-growth"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           0,
+           0,
+           360,
+           32
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "div.drawer"
+          }
+         ],
+         "shot": "360-003-Drawer-Close-Button-click.png"
+        },
+        "key": {
+         "opened": false,
+         "hides": 11
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": true,
+        "outside": false,
+        "toggle": true
+       }
+      },
+      {
+       "name": "Products",
+       "key": "products",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#site-drawer>div>div:nth-of-type(2)>div:nth-of-type(1)>button",
+       "expanded": "false",
+       "rect": [
+        35,
+        118,
+        311,
+        75
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Best Sellers",
+            "href": "https://main--1a676f95--aemcoder.aem.page/collections/favorites"
+           },
+           {
+            "text": "View All Products",
+            "href": "https://main--1a676f95--aemcoder.aem.page/pages/our-products"
+           },
+           {
+            "text": "Learn More",
+            "href": "https://main--1a676f95--aemcoder.aem.page/pages/womens-wellness"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Drawer Back",
+           "Drawer Close",
+           "Vitamins",
+           "Supplements",
+           "Minerals",
+           "Herbs",
+           "Specialty"
+          ],
+          "options": 0,
+          "rect": [
+           35,
+           20,
+           311,
+           824
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "div.drawer-panel-sub"
+          },
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 13000,
+           "delay": 0,
+           "easing": "linear",
+           "target": "div.announce-track"
+          }
+         ],
+         "shot": "360-004-Products-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 1,
+         "panel": {
+          "links": [
+           {
+            "text": "Grow Thicker, Fuller Hair in 3 Months*",
+            "href": "https://naturesbounty.com/pages/hair-growth"
+           },
+           {
+            "text": "Best Sellers",
+            "href": "https://main--1a676f95--aemcoder.aem.page/collections/favorites"
+           },
+           {
+            "text": "View All Products",
+            "href": "https://main--1a676f95--aemcoder.aem.page/pages/our-products"
+           },
+           {
+            "text": "Learn More",
+            "href": "https://main--1a676f95--aemcoder.aem.page/pages/womens-wellness"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Drawer Back",
+           "Drawer Close",
+           "Vitamins",
+           "Supplements",
+           "Minerals",
+           "Herbs",
+           "Specialty"
+          ],
+          "options": 0,
+          "rect": [
+           0,
+           0,
+           360,
+           844
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "div.drawer-panel-sub"
+          }
+         ],
+         "shot": "360-005-Products-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": true,
+        "outside": null,
+        "toggle": false
+       }
+      },
+      {
+       "name": "Health Benefits",
+       "key": "health benefits",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#site-drawer>div>div:nth-of-type(2)>div:nth-of-type(2)>button",
+       "expanded": "false",
+       "rect": [
+        35,
+        193,
+        311,
+        75
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Brain Health",
+            "href": "https://main--1a676f95--aemcoder.aem.page/collections/brain-health"
+           },
+           {
+            "text": "Bone & Joint Health",
+            "href": "https://main--1a676f95--aemcoder.aem.page/collections/bone-and-joint-health"
+           },
+           {
+            "text": "Digestive Health",
+            "href": "https://main--1a676f95--aemcoder.aem.page/collections/digestive-health"
+           },
+           {
+            "text": "Energy Support",
+            "href": "https://main--1a676f95--aemcoder.aem.page/collections/energy-support"
+           },
+           {
+            "text": "Eye Health",
+            "href": "https://main--1a676f95--aemcoder.aem.page/collections/eye-health"
+           },
+           {
+            "text": "Hair, Skin & Nails",
+            "href": "https://main--1a676f95--aemcoder.aem.page/collections/hair-skin-and-nails"
+           },
+           {
+            "text": "Healthy Aging",
+            "href": "https://main--1a676f95--aemcoder.aem.page/collections/healthy-aging"
+           },
+           {
+            "text": "Heart Health",
+            "href": "https://main--1a676f95--aemcoder.aem.page/collections/heart-health"
+           },
+           {
+            "text": "Herbal",
+            "href": "https://main--1a676f95--aemcoder.aem.page/collections/herbs"
+           },
+           {
+            "text": "Immune & Antioxidant Support",
+            "href": "https://main--1a676f95--aemcoder.aem.page/collections/immune-and-antioxidant-support"
+           },
+           {
+            "text": "Men’s Health",
+            "href": "https://main--1a676f95--aemcoder.aem.page/collections/mens-health"
+           },
+           {
+            "text": "Prenatal Health",
+            "href": "https://main--1a676f95--aemcoder.aem.page/collections/prenatal-health"
+           },
+           {
+            "text": "Stress & Mood",
+            "href": "https://main--1a676f95--aemcoder.aem.page/collections/stress-and-mood"
+           },
+           {
+            "text": "Sleep Support",
+            "href": "https://main--1a676f95--aemcoder.aem.page/collections/sleep-support"
+           },
+           {
+            "text": "Urinary Tract Health",
+            "href": "https://main--1a676f95--aemcoder.aem.page/collections/urinary-tract-health"
+           },
+           {
+            "text": "Women’s Health",
+            "href": "https://main--1a676f95--aemcoder.aem.page/collections/womens-health"
+           },
+           {
+            "text": "Learn More",
+            "href": "https://main--1a676f95--aemcoder.aem.page/pages/womens-wellness"
+           }
+          ],
+          "headings": [],
+          "images": 16,
+          "inputs": [],
+          "buttons": [
+           "Drawer Back",
+           "Drawer Close"
+          ],
+          "options": 0,
+          "rect": [
+           35,
+           20,
+           311,
+           824
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "div.drawer-panel-sub"
+          }
+         ],
+         "shot": "360-006-Health-Benefits-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Brain Health",
+            "href": "https://main--1a676f95--aemcoder.aem.page/collections/brain-health"
+           },
+           {
+            "text": "Bone & Joint Health",
+            "href": "https://main--1a676f95--aemcoder.aem.page/collections/bone-and-joint-health"
+           },
+           {
+            "text": "Digestive Health",
+            "href": "https://main--1a676f95--aemcoder.aem.page/collections/digestive-health"
+           },
+           {
+            "text": "Energy Support",
+            "href": "https://main--1a676f95--aemcoder.aem.page/collections/energy-support"
+           },
+           {
+            "text": "Eye Health",
+            "href": "https://main--1a676f95--aemcoder.aem.page/collections/eye-health"
+           },
+           {
+            "text": "Hair, Skin & Nails",
+            "href": "https://main--1a676f95--aemcoder.aem.page/collections/hair-skin-and-nails"
+           },
+           {
+            "text": "Healthy Aging",
+            "href": "https://main--1a676f95--aemcoder.aem.page/collections/healthy-aging"
+           },
+           {
+            "text": "Heart Health",
+            "href": "https://main--1a676f95--aemcoder.aem.page/collections/heart-health"
+           },
+           {
+            "text": "Herbal",
+            "href": "https://main--1a676f95--aemcoder.aem.page/collections/herbs"
+           },
+           {
+            "text": "Immune & Antioxidant Support",
+            "href": "https://main--1a676f95--aemcoder.aem.page/collections/immune-and-antioxidant-support"
+           },
+           {
+            "text": "Men’s Health",
+            "href": "https://main--1a676f95--aemcoder.aem.page/collections/mens-health"
+           },
+           {
+            "text": "Prenatal Health",
+            "href": "https://main--1a676f95--aemcoder.aem.page/collections/prenatal-health"
+           },
+           {
+            "text": "Stress & Mood",
+            "href": "https://main--1a676f95--aemcoder.aem.page/collections/stress-and-mood"
+           },
+           {
+            "text": "Sleep Support",
+            "href": "https://main--1a676f95--aemcoder.aem.page/collections/sleep-support"
+           },
+           {
+            "text": "Urinary Tract Health",
+            "href": "https://main--1a676f95--aemcoder.aem.page/collections/urinary-tract-health"
+           },
+           {
+            "text": "Women’s Health",
+            "href": "https://main--1a676f95--aemcoder.aem.page/collections/womens-health"
+           },
+           {
+            "text": "Learn More",
+            "href": "https://main--1a676f95--aemcoder.aem.page/pages/womens-wellness"
+           }
+          ],
+          "headings": [],
+          "images": 16,
+          "inputs": [],
+          "buttons": [
+           "Drawer Back",
+           "Drawer Close"
+          ],
+          "options": 0,
+          "rect": [
+           35,
+           20,
+           311,
+           824
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "div.drawer-panel-sub"
+          }
+         ],
+         "shot": "360-007-Health-Benefits-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": true,
+        "outside": null,
+        "toggle": false
+       }
+      },
+      {
+       "name": "Learn",
+       "key": "learn",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#site-drawer>div>div:nth-of-type(2)>div:nth-of-type(3)>button",
+       "expanded": "false",
+       "rect": [
+        35,
+        268,
+        311,
+        75
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Grow Thicker, Fuller Hair in 3 Months*",
+            "href": "https://naturesbounty.com/pages/hair-growth"
+           },
+           {
+            "text": "Nature's Bounty Blog",
+            "href": "https://main--1a676f95--aemcoder.aem.page/blogs/news"
+           },
+           {
+            "text": "Have a Question? See Our FAQs",
+            "href": "https://main--1a676f95--aemcoder.aem.page/pages/faqs"
+           },
+           {
+            "text": "Compare Magnesium Products",
+            "href": "https://main--1a676f95--aemcoder.aem.page/pages/compare-magnesium-products"
+           },
+           {
+            "text": "Help My Hair Growth",
+            "href": "https://main--1a676f95--aemcoder.aem.page/pages/hair-growth"
+           },
+           {
+            "text": "Boost My Metabolism",
+            "href": "https://main--1a676f95--aemcoder.aem.page/pages/metabolism-booster"
+           },
+           {
+            "text": "Women's Wellness Hub",
+            "href": "https://main--1a676f95--aemcoder.aem.page/pages/womens-wellness"
+           },
+           {
+            "text": "View All Resources",
+            "href": "https://main--1a676f95--aemcoder.aem.page/pages/resource-center"
+           },
+           {
+            "text": "See How You Can Help Grow Thicker, Fuller Hair with Our Innovative Hair Growth Supplement*",
+            "href": "https://main--1a676f95--aemcoder.aem.page/pages/hair-growth"
+           }
+          ],
+          "headings": [],
+          "images": 1,
+          "inputs": [],
+          "buttons": [
+           "Drawer Back",
+           "Drawer Close"
+          ],
+          "options": 0,
+          "rect": [
+           0,
+           0,
+           360,
+           844
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "div.drawer-panel-sub"
+          }
+         ],
+         "shot": "360-008-Learn-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Nature's Bounty Blog",
+            "href": "https://main--1a676f95--aemcoder.aem.page/blogs/news"
+           },
+           {
+            "text": "Have a Question? See Our FAQs",
+            "href": "https://main--1a676f95--aemcoder.aem.page/pages/faqs"
+           },
+           {
+            "text": "Compare Magnesium Products",
+            "href": "https://main--1a676f95--aemcoder.aem.page/pages/compare-magnesium-products"
+           },
+           {
+            "text": "Help My Hair Growth",
+            "href": "https://main--1a676f95--aemcoder.aem.page/pages/hair-growth"
+           },
+           {
+            "text": "Boost My Metabolism",
+            "href": "https://main--1a676f95--aemcoder.aem.page/pages/metabolism-booster"
+           },
+           {
+            "text": "Women's Wellness Hub",
+            "href": "https://main--1a676f95--aemcoder.aem.page/pages/womens-wellness"
+           },
+           {
+            "text": "View All Resources",
+            "href": "https://main--1a676f95--aemcoder.aem.page/pages/resource-center"
+           },
+           {
+            "text": "See How You Can Help Grow Thicker, Fuller Hair with Our Innovative Hair Growth Supplement*",
+            "href": "https://main--1a676f95--aemcoder.aem.page/pages/hair-growth"
+           }
+          ],
+          "headings": [],
+          "images": 1,
+          "inputs": [],
+          "buttons": [
+           "Drawer Back",
+           "Drawer Close"
+          ],
+          "options": 0,
+          "rect": [
+           35,
+           20,
+           311,
+           824
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "div.drawer-panel-sub"
+          }
+         ],
+         "shot": "360-009-Learn-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": true,
+        "outside": null,
+        "toggle": false
+       }
+      },
+      {
+       "name": "Search our store",
+       "key": "search our store",
+       "role": "input",
+       "kind": "search",
+       "sel": "#site-drawer>div>div:nth-of-type(2)>form>input",
+       "expanded": null,
+       "rect": [
+        50,
+        443,
+        237,
+        48
+       ],
+       "actions": {},
+       "search": {
+        "probe": "supplementing",
+        "typeahead": {
+         "links": 0,
+         "options": 0
+        },
+        "submit": "https://main--1a676f95--aemcoder.aem.page/search?q={q}"
+       }
+      },
+      {
+       "name": "Search",
+       "key": "search",
+       "role": "toggle",
+       "kind": "search",
+       "sel": "#site-drawer>div>div:nth-of-type(2)>form>button",
+       "expanded": null,
+       "rect": [
+        286,
+        443,
+        44,
+        48
+       ],
+       "actions": {
+        "click": {
+         "opened": false,
+         "navigates": "https://main--1a676f95--aemcoder.aem.page/search?q="
+        },
+        "key": {
+         "opened": false,
+         "navigates": "https://main--1a676f95--aemcoder.aem.page/search?q="
+        }
+       }
+      }
+     ]
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 32,
+     "height": 72,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": 32,
+     "height": 72,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": 32,
+     "height": 72,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 32,
+     "height": 72,
+     "position": "sticky",
+     "inView": true
+    }
+   ],
+   "states": 9,
+   "truncated": "depth 2 at Drawer Open Button > Drawer Close Button",
+   "loads": 10,
+   "requests": 310,
+   "maxRequests": 0,
+   "inputsSkipped": 0
+  },
+  "1440": {
+   "root": "#nav>div:nth-of-type(2)",
+   "controls": [
+    {
+     "name": "",
+     "key": "",
+     "role": "link",
+     "kind": "link",
+     "sel": "#nav>div:nth-of-type(2)>div:nth-of-type(1)>div>div:nth-of-type(1)>p>a",
+     "href": "https://main--1a676f95--aemcoder.aem.page/",
+     "expanded": null,
+     "rect": [
+      93,
+      52,
+      200,
+      32
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Products",
+     "key": "products",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#nav>div:nth-of-type(2)>div:nth-of-type(1)>div>nav>ul>li:nth-of-type(1)>button",
+     "expanded": "false",
+     "rect": [
+      513,
+      32,
+      112,
+      72
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "",
+          "href": "https://naturesbounty.com/pages/womens-wellness"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         0,
+         1440,
+         32
+        ]
+       },
+       "expanded": "false",
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-001-Products-hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Vitamins",
+          "href": "https://main--1a676f95--aemcoder.aem.page/collections/vitamins"
+         },
+         {
+          "text": "Supplements",
+          "href": "https://main--1a676f95--aemcoder.aem.page/collections/supplements"
+         },
+         {
+          "text": "Minerals",
+          "href": "https://main--1a676f95--aemcoder.aem.page/collections/minerals"
+         },
+         {
+          "text": "Herbs",
+          "href": "https://main--1a676f95--aemcoder.aem.page/collections/herbs"
+         },
+         {
+          "text": "Specialty",
+          "href": "https://main--1a676f95--aemcoder.aem.page/collections/specialty"
+         },
+         {
+          "text": "Best Sellers",
+          "href": "https://main--1a676f95--aemcoder.aem.page/collections/favorites"
+         },
+         {
+          "text": "View All Products",
+          "href": "https://main--1a676f95--aemcoder.aem.page/pages/our-products"
+         },
+         {
+          "text": "Vitamin B",
+          "href": "https://main--1a676f95--aemcoder.aem.page/collections/vitamin-b"
+         },
+         {
+          "text": "Vitamin C",
+          "href": "https://main--1a676f95--aemcoder.aem.page/collections/vitamin-c"
+         },
+         {
+          "text": "Vitamin D",
+          "href": "https://main--1a676f95--aemcoder.aem.page/collections/vitamin-d"
+         },
+         {
+          "text": "Vitamin E",
+          "href": "https://main--1a676f95--aemcoder.aem.page/collections/vitamin-e"
+         },
+         {
+          "text": "Gummy Vitamins",
+          "href": "https://main--1a676f95--aemcoder.aem.page/collections/gummy-vitamins"
+         },
+         {
+          "text": "View all Vitamins",
+          "href": "https://main--1a676f95--aemcoder.aem.page/collections/vitamins"
+         },
+         {
+          "text": "Learn More",
+          "href": "https://main--1a676f95--aemcoder.aem.page/pages/womens-wellness"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         104,
+         1425,
+         525
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "svg.icon"
+        }
+       ],
+       "shot": "1440-002-Products-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Vitamins",
+          "href": "https://main--1a676f95--aemcoder.aem.page/collections/vitamins"
+         },
+         {
+          "text": "Supplements",
+          "href": "https://main--1a676f95--aemcoder.aem.page/collections/supplements"
+         },
+         {
+          "text": "Minerals",
+          "href": "https://main--1a676f95--aemcoder.aem.page/collections/minerals"
+         },
+         {
+          "text": "Herbs",
+          "href": "https://main--1a676f95--aemcoder.aem.page/collections/herbs"
+         },
+         {
+          "text": "Specialty",
+          "href": "https://main--1a676f95--aemcoder.aem.page/collections/specialty"
+         },
+         {
+          "text": "Best Sellers",
+          "href": "https://main--1a676f95--aemcoder.aem.page/collections/favorites"
+         },
+         {
+          "text": "View All Products",
+          "href": "https://main--1a676f95--aemcoder.aem.page/pages/our-products"
+         },
+         {
+          "text": "Vitamin B",
+          "href": "https://main--1a676f95--aemcoder.aem.page/collections/vitamin-b"
+         },
+         {
+          "text": "Vitamin C",
+          "href": "https://main--1a676f95--aemcoder.aem.page/collections/vitamin-c"
+         },
+         {
+          "text": "Vitamin D",
+          "href": "https://main--1a676f95--aemcoder.aem.page/collections/vitamin-d"
+         },
+         {
+          "text": "Vitamin E",
+          "href": "https://main--1a676f95--aemcoder.aem.page/collections/vitamin-e"
+         },
+         {
+          "text": "Gummy Vitamins",
+          "href": "https://main--1a676f95--aemcoder.aem.page/collections/gummy-vitamins"
+         },
+         {
+          "text": "View all Vitamins",
+          "href": "https://main--1a676f95--aemcoder.aem.page/collections/vitamins"
+         },
+         {
+          "text": "Learn More",
+          "href": "https://main--1a676f95--aemcoder.aem.page/pages/womens-wellness"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         104,
+         1425,
+         525
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "svg.icon"
+        }
+       ],
+       "shot": "1440-003-Products-key.png",
+       "tabReachesPanel": false
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": true
+     },
+     "children": []
+    },
+    {
+     "name": "Health Benefits",
+     "key": "health benefits",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#nav>div:nth-of-type(2)>div:nth-of-type(1)>div>nav>ul>li:nth-of-type(2)>button",
+     "expanded": "false",
+     "rect": [
+      650,
+      32,
+      170,
+      72
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Grow Thicker, Fuller Hair in 3 Months*",
+          "href": "https://naturesbounty.com/pages/hair-growth"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         0,
+         1440,
+         32
+        ]
+       },
+       "expanded": "false",
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-004-Health-Benefits-hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Brain Health",
+          "href": "https://main--1a676f95--aemcoder.aem.page/collections/brain-health"
+         },
+         {
+          "text": "Bone & Joint Health",
+          "href": "https://main--1a676f95--aemcoder.aem.page/collections/bone-and-joint-health"
+         },
+         {
+          "text": "Digestive Health",
+          "href": "https://main--1a676f95--aemcoder.aem.page/collections/digestive-health"
+         },
+         {
+          "text": "Energy Support",
+          "href": "https://main--1a676f95--aemcoder.aem.page/collections/energy-support"
+         },
+         {
+          "text": "Eye Health",
+          "href": "https://main--1a676f95--aemcoder.aem.page/collections/eye-health"
+         },
+         {
+          "text": "Hair, Skin & Nails",
+          "href": "https://main--1a676f95--aemcoder.aem.page/collections/hair-skin-and-nails"
+         },
+         {
+          "text": "Healthy Aging",
+          "href": "https://main--1a676f95--aemcoder.aem.page/collections/healthy-aging"
+         },
+         {
+          "text": "Heart Health",
+          "href": "https://main--1a676f95--aemcoder.aem.page/collections/heart-health"
+         },
+         {
+          "text": "Herbal",
+          "href": "https://main--1a676f95--aemcoder.aem.page/collections/herbs"
+         },
+         {
+          "text": "Immune & Antioxidant Support",
+          "href": "https://main--1a676f95--aemcoder.aem.page/collections/immune-and-antioxidant-support"
+         },
+         {
+          "text": "Men’s Health",
+          "href": "https://main--1a676f95--aemcoder.aem.page/collections/mens-health"
+         },
+         {
+          "text": "Prenatal Health",
+          "href": "https://main--1a676f95--aemcoder.aem.page/collections/prenatal-health"
+         },
+         {
+          "text": "Stress & Mood",
+          "href": "https://main--1a676f95--aemcoder.aem.page/collections/stress-and-mood"
+         },
+         {
+          "text": "Sleep Support",
+          "href": "https://main--1a676f95--aemcoder.aem.page/collections/sleep-support"
+         },
+         {
+          "text": "Urinary Tract Health",
+          "href": "https://main--1a676f95--aemcoder.aem.page/collections/urinary-tract-health"
+         },
+         {
+          "text": "Women’s Health",
+          "href": "https://main--1a676f95--aemcoder.aem.page/collections/womens-health"
+         },
+         {
+          "text": "Learn More",
+          "href": "https://main--1a676f95--aemcoder.aem.page/pages/womens-wellness"
+         }
+        ],
+        "headings": [],
+        "images": 16,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         104,
+         1425,
+         525
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "svg.icon"
+        }
+       ],
+       "shot": "1440-005-Health-Benefits-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Brain Health",
+          "href": "https://main--1a676f95--aemcoder.aem.page/collections/brain-health"
+         },
+         {
+          "text": "Bone & Joint Health",
+          "href": "https://main--1a676f95--aemcoder.aem.page/collections/bone-and-joint-health"
+         },
+         {
+          "text": "Digestive Health",
+          "href": "https://main--1a676f95--aemcoder.aem.page/collections/digestive-health"
+         },
+         {
+          "text": "Energy Support",
+          "href": "https://main--1a676f95--aemcoder.aem.page/collections/energy-support"
+         },
+         {
+          "text": "Eye Health",
+          "href": "https://main--1a676f95--aemcoder.aem.page/collections/eye-health"
+         },
+         {
+          "text": "Hair, Skin & Nails",
+          "href": "https://main--1a676f95--aemcoder.aem.page/collections/hair-skin-and-nails"
+         },
+         {
+          "text": "Healthy Aging",
+          "href": "https://main--1a676f95--aemcoder.aem.page/collections/healthy-aging"
+         },
+         {
+          "text": "Heart Health",
+          "href": "https://main--1a676f95--aemcoder.aem.page/collections/heart-health"
+         },
+         {
+          "text": "Herbal",
+          "href": "https://main--1a676f95--aemcoder.aem.page/collections/herbs"
+         },
+         {
+          "text": "Immune & Antioxidant Support",
+          "href": "https://main--1a676f95--aemcoder.aem.page/collections/immune-and-antioxidant-support"
+         },
+         {
+          "text": "Men’s Health",
+          "href": "https://main--1a676f95--aemcoder.aem.page/collections/mens-health"
+         },
+         {
+          "text": "Prenatal Health",
+          "href": "https://main--1a676f95--aemcoder.aem.page/collections/prenatal-health"
+         },
+         {
+          "text": "Stress & Mood",
+          "href": "https://main--1a676f95--aemcoder.aem.page/collections/stress-and-mood"
+         },
+         {
+          "text": "Sleep Support",
+          "href": "https://main--1a676f95--aemcoder.aem.page/collections/sleep-support"
+         },
+         {
+          "text": "Urinary Tract Health",
+          "href": "https://main--1a676f95--aemcoder.aem.page/collections/urinary-tract-health"
+         },
+         {
+          "text": "Women’s Health",
+          "href": "https://main--1a676f95--aemcoder.aem.page/collections/womens-health"
+         },
+         {
+          "text": "Learn More",
+          "href": "https://main--1a676f95--aemcoder.aem.page/pages/womens-wellness"
+         }
+        ],
+        "headings": [],
+        "images": 16,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         104,
+         1425,
+         525
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "svg.icon"
+        }
+       ],
+       "shot": "1440-006-Health-Benefits-key.png",
+       "tabReachesPanel": false
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": true
+     },
+     "children": []
+    },
+    {
+     "name": "Learn",
+     "key": "learn",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#nav>div:nth-of-type(2)>div:nth-of-type(1)>div>nav>ul>li:nth-of-type(3)>button",
+     "expanded": "false",
+     "rect": [
+      845,
+      32,
+      82,
+      72
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Nature's Bounty Blog",
+          "href": "https://main--1a676f95--aemcoder.aem.page/blogs/news"
+         },
+         {
+          "text": "Have a Question? See Our FAQs",
+          "href": "https://main--1a676f95--aemcoder.aem.page/pages/faqs"
+         },
+         {
+          "text": "Compare Magnesium Products",
+          "href": "https://main--1a676f95--aemcoder.aem.page/pages/compare-magnesium-products"
+         },
+         {
+          "text": "Help My Hair Growth",
+          "href": "https://main--1a676f95--aemcoder.aem.page/pages/hair-growth"
+         },
+         {
+          "text": "Boost My Metabolism",
+          "href": "https://main--1a676f95--aemcoder.aem.page/pages/metabolism-booster"
+         },
+         {
+          "text": "Women's Wellness Hub",
+          "href": "https://main--1a676f95--aemcoder.aem.page/pages/womens-wellness"
+         },
+         {
+          "text": "View All Resources",
+          "href": "https://main--1a676f95--aemcoder.aem.page/pages/resource-center"
+         },
+         {
+          "text": "See How You Can Help Grow Thicker, Fuller Hair with Our Innovative Hair Growth Supplement*",
+          "href": "https://main--1a676f95--aemcoder.aem.page/pages/hair-growth"
+         }
+        ],
+        "headings": [],
+        "images": 1,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         104,
+         1425,
+         525
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "svg.icon"
+        }
+       ],
+       "shot": "1440-007-Learn-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Nature's Bounty Blog",
+          "href": "https://main--1a676f95--aemcoder.aem.page/blogs/news"
+         },
+         {
+          "text": "Have a Question? See Our FAQs",
+          "href": "https://main--1a676f95--aemcoder.aem.page/pages/faqs"
+         },
+         {
+          "text": "Compare Magnesium Products",
+          "href": "https://main--1a676f95--aemcoder.aem.page/pages/compare-magnesium-products"
+         },
+         {
+          "text": "Help My Hair Growth",
+          "href": "https://main--1a676f95--aemcoder.aem.page/pages/hair-growth"
+         },
+         {
+          "text": "Boost My Metabolism",
+          "href": "https://main--1a676f95--aemcoder.aem.page/pages/metabolism-booster"
+         },
+         {
+          "text": "Women's Wellness Hub",
+          "href": "https://main--1a676f95--aemcoder.aem.page/pages/womens-wellness"
+         },
+         {
+          "text": "View All Resources",
+          "href": "https://main--1a676f95--aemcoder.aem.page/pages/resource-center"
+         },
+         {
+          "text": "See How You Can Help Grow Thicker, Fuller Hair with Our Innovative Hair Growth Supplement*",
+          "href": "https://main--1a676f95--aemcoder.aem.page/pages/hair-growth"
+         }
+        ],
+        "headings": [],
+        "images": 1,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         104,
+         1425,
+         525
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "svg.icon"
+        }
+       ],
+       "shot": "1440-008-Learn-key.png",
+       "tabReachesPanel": false
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": true
+     },
+     "children": []
+    },
+    {
+     "name": "About Us",
+     "key": "about us",
+     "role": "link",
+     "kind": "link",
+     "sel": "#nav>div:nth-of-type(2)>div:nth-of-type(1)>div>nav>ul>li:nth-of-type(4)>a",
+     "href": "https://main--1a676f95--aemcoder.aem.page/pages/about-us",
+     "expanded": null,
+     "rect": [
+      952,
+      32,
+      83,
+      72
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Grow Thicker, Fuller Hair in 3 Months*",
+          "href": "https://naturesbounty.com/pages/hair-growth"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         0,
+         1440,
+         32
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-009-About-Us-hover.png"
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": false,
+      "outside": true,
+      "leave": true
+     },
+     "children": []
+    },
+    {
+     "name": "Search our store",
+     "key": "search our store",
+     "role": "input",
+     "kind": "search",
+     "sel": "#nav>div:nth-of-type(2)>div:nth-of-type(1)>div>nav>form>input",
+     "expanded": null,
+     "rect": [
+      1060,
+      48,
+      48,
+      40
+     ],
+     "actions": {},
+     "search": {
+      "probe": "supplementing",
+      "typeahead": {
+       "links": 0,
+       "options": 0
+      },
+      "submit": "https://main--1a676f95--aemcoder.aem.page/search?q={q}"
+     }
+    },
+    {
+     "name": "Search",
+     "key": "search",
+     "role": "toggle",
+     "kind": "search",
+     "sel": "#nav>div:nth-of-type(2)>div:nth-of-type(1)>div>nav>form>button",
+     "expanded": null,
+     "rect": [
+      1064,
+      48,
+      40,
+      40
+     ],
+     "actions": {
+      "hover": null,
+      "click": null,
+      "key": null
+     }
+    },
+    {
+     "name": "Where to Buy",
+     "key": "where to buy",
+     "role": "link",
+     "kind": "link",
+     "sel": "#nav>div:nth-of-type(2)>div:nth-of-type(1)>div>nav>div:nth-of-type(1)>p>a",
+     "href": "https://main--1a676f95--aemcoder.aem.page/pages/store-locator",
+     "expanded": null,
+     "rect": [
+      1133,
+      48,
+      200,
+      40
+     ],
+     "actions": {}
+    }
+   ],
+   "scroll": [],
+   "states": 9,
+   "truncated": null,
+   "loads": 10,
+   "requests": 234,
+   "maxRequests": 0,
+   "inputsSkipped": 0
+  }
+ },
+ "probe": "supplementing"
+}

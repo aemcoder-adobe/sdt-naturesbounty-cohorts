@@ -1,0 +1,77 @@
+{
+ "tool": "chrome-compare",
+ "at": "2026-11-11T01:15:05.607Z",
+ "source": "https://naturesbounty.com/",
+ "build": "https://main--1a676f95--aemcoder.aem.page/drafts/shell",
+ "profile": "replica",
+ "bar": 0.02,
+ "widths": [
+  360,
+  1440
+ ],
+ "counts": {
+  "error": 3,
+  "warn": 4,
+  "decided": 0
+ },
+ "findings": [
+  {
+   "key": "link-missing@360 link",
+   "width": 360,
+   "path": "link",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link / not in the build header"
+  },
+  {
+   "key": "panel-content@360 Drawer Open Button [click]",
+   "width": 360,
+   "path": "Drawer Open Button",
+   "action": "click",
+   "id": "panel-content",
+   "severity": "error",
+   "detail": "1 of 6 links missing (Shop Our Favorite Products)"
+  },
+  {
+   "key": "budget-truncated@360 (source)",
+   "width": 360,
+   "path": "(source)",
+   "id": "budget-truncated",
+   "severity": "warn",
+   "detail": "the source record stopped at request-budget: raise --max-states/--max-depth for full coverage"
+  },
+  {
+   "key": "budget-truncated@360 (build)",
+   "width": 360,
+   "path": "(build)",
+   "id": "budget-truncated",
+   "severity": "warn",
+   "detail": "the build record stopped at depth 2 at Drawer Open Button > Drawer Close Button"
+  },
+  {
+   "key": "control-missing@1440 link",
+   "width": 1440,
+   "path": "link",
+   "id": "control-missing",
+   "severity": "error",
+   "detail": "the source link control opens on hover; the build has no control named \"\""
+  },
+  {
+   "key": "budget-truncated@1440 (source)",
+   "width": 1440,
+   "path": "(source)",
+   "id": "budget-truncated",
+   "severity": "warn",
+   "detail": "the source record stopped at request-budget: raise --max-states/--max-depth for full coverage"
+  },
+  {
+   "key": "panel-visual@360 Drawer Open Button [click]",
+   "width": 360,
+   "path": "Drawer Open Button",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 33.8% (bar 2%; source 360×764, build 311×780; texture 88% thick)"
+  }
+ ]
+}
