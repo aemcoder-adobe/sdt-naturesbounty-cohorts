@@ -8,7 +8,8 @@
   "bundles": 11000,
   "weeks": 5,
   "fullWeeks": 4,
-  "note": "Sampled page views, bots and prerenders excluded (personal AI agents count only where a rule asks for them). `weeks[]` are 7-day windows from `start`; the last one is partial when `weeks > fullWeeks`. `growth` is the last full week over the first, null without two full weeks of 10+ bundles each. `today.vsAll` compares a rule with all views (1 = the same; `didNothing` below 1 is better). `standsOut` marks a small rule (under 5% of views) that is clearly more engaged or growing 2x or more: call it out by name. `today.supportRate` is the rule's secondary action (`support`) on the homepage. `secondOrder` (with --site) is site-wide: `first[]` = pages people open right after the homepage (share of those arrivals), each with `next[]` = what they click on there; `assists.pages[]` = pages viewed right before the conversion, `lift` against the site rate. Rules with `modelled: true` depend on on-device memory, which Optel cannot see: they are estimated at steady state from what views do today. Rules with `firstVisitAssumed: true` ask for a first visit, which Optel cannot see either: every view counts as one, so their share is an upper bound. `topClicks[].link: false` is a click that opened something on the page (menu, search, carousel) rather than a link: its `click` is the element selector."
+  "note": "Sampled page views, bots and prerenders excluded (personal AI agents count only where a rule asks for them). `weeks[]` are 7-day windows from `start`; the last one is partial when `weeks > fullWeeks`. `growth` is the last full week over the first, null without two full weeks of 10+ bundles each. `today.vsAll` compares a rule with all views (1 = the same; `didNothing` below 1 is better). `standsOut` marks a small rule (under 5% of views) that is clearly more engaged or growing 2x or more: call it out by name. `today.supportRate` is the rule's secondary action (`support`) on the homepage. `secondOrder` (with --site) is site-wide: `first[]` = pages people open right after the homepage (share of those arrivals), each with `next[]` = what they click on there; `assists.pages[]` = pages viewed right before the conversion, `lift` against the site rate. Rules with `modelled: true` depend on on-device memory, which Optel cannot see: they are estimated at steady state from what views do today. Rules with `firstVisitAssumed: true` ask for a first visit, which Optel cannot see either: every view counts as one, so their share is an upper bound. `topClicks[].link: false` is a click that opened something on the page (menu, search, carousel) rather than a link: its `click` is the element selector.",
+  "label": "ILLUSTRATIVE data (synthetic, not real traffic) in the shape of Optel"
  },
  "columns": [
   {
@@ -82,67 +83,67 @@
    ]
   },
   {
-   "head": "Rule that fires · first match wins",
+   "head": "Rule that fires \u00b7 first match wins",
    "nodes": [
     {
      "id": "r:personal-agent",
-     "label": "1 · A personal AI agent is browsing",
+     "label": "1 \u00b7 A personal AI agent is browsing",
      "sub": "",
      "signal": "agent",
      "views": 1100
     },
     {
      "id": "r:ai-referred",
-     "label": "2 · Sent by an AI assistant",
+     "label": "2 \u00b7 Sent by an AI assistant",
      "sub": "",
      "signal": "link",
      "views": 10900
     },
     {
      "id": "r:health-info",
-     "label": "3 · From a health site",
+     "label": "3 \u00b7 From a health site",
      "sub": "",
      "signal": "link",
      "views": 16500
     },
     {
      "id": "r:email",
-     "label": "4 · Clicked our email",
+     "label": "4 \u00b7 Clicked our email",
      "sub": "",
      "signal": "link",
      "views": 38500
     },
     {
      "id": "r:found-a-store-before",
-     "label": "5 · Looked up where to buy before",
+     "label": "5 \u00b7 Looked up where to buy before",
      "sub": "",
      "signal": "memory",
      "views": 78100
     },
     {
      "id": "r:campaign",
-     "label": "6 · Clicked an ad",
+     "label": "6 \u00b7 Clicked an ad",
      "sub": "",
      "signal": "link",
      "views": 66000
     },
     {
      "id": "r:social",
-     "label": "7 · Came from social media",
+     "label": "7 \u00b7 Came from social media",
      "sub": "",
      "signal": "link",
      "views": 55000
     },
     {
      "id": "r:returning-need",
-     "label": "8 · Back with a need",
+     "label": "8 \u00b7 Back with a need",
      "sub": "",
      "signal": "memory",
      "views": 96500
     },
     {
      "id": "r:mobile-first-visit",
-     "label": "9 · First visit on a phone",
+     "label": "9 \u00b7 First visit on a phone",
      "sub": "",
      "signal": "device",
      "views": 535800
@@ -162,31 +163,31 @@
     {
      "id": "x:agent",
      "label": "Personal agent: plain & actionable",
-     "sub": "A native form · facts as a table · nothing hidden behind tabs or carousels",
+     "sub": "A native form \u00b7 facts as a table \u00b7 nothing hidden behind tabs or carousels",
      "views": 1100
     },
     {
      "id": "x:learner",
      "label": "Learner: answers first",
-     "sub": "Which supplement for which need · backed by science · articles",
+     "sub": "Which supplement for which need \u00b7 backed by science \u00b7 articles",
      "views": 27400
     },
     {
      "id": "x:regular",
      "label": "Regular: your need first",
-     "sub": "Welcome back · the need you shop for · nearest store · one new launch",
+     "sub": "Welcome back \u00b7 the need you shop for \u00b7 nearest store \u00b7 one new launch",
      "views": 213100
     },
     {
      "id": "x:shopper",
      "label": "Shopper: the ad, repeated back",
-     "sub": "The product from the ad or post · reviews · where to buy",
+     "sub": "The product from the ad or post \u00b7 reviews \u00b7 where to buy",
      "views": 121000
     },
     {
      "id": "x:mobile",
      "label": "Mobile: quick tasks",
-     "sub": "Six things people come to do · Where to Buy one tap away · half the length",
+     "sub": "Six things people come to do \u00b7 Where to Buy one tap away \u00b7 half the length",
      "views": 535800
     },
     {

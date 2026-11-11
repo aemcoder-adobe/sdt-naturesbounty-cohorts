@@ -398,7 +398,7 @@ function render() {
   renderChecks(app);
   const src = state.cohortsJson?.meta;
   app.append(h('p', 'foot', src
-    ? `Shares: Optel, ${src.domain}${src.path}, ${String(src.start).slice(0, 10)} to ${String(src.end).slice(0, 10)}, ${src.bundles.toLocaleString()} sampled views. Memory rules are estimates.`
+    ? `Shares: ${src.label || 'Optel'}, ${src.domain}${src.path}, ${String(src.start).slice(0, 10)} to ${String(src.end).slice(0, 10)}, ${src.bundles.toLocaleString()} sampled views. Memory rules are estimates.`
     : 'Shares appear when cohorts.json (homepage-cohorts size.js) is published at /cohorts/cohorts.json.'));
 }
 
