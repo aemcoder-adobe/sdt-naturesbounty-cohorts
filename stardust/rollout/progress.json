@@ -126,9 +126,21 @@
       "templates": [
         "listing"
       ],
-      "status": "running",
+      "status": "done",
       "startedAt": "2026-11-11T02:39:10Z",
-      "pages": 1
+      "pages": 1,
+      "endedAt": "2026-11-11T02:56:43Z",
+      "verdict": "cluster-listing: pages 1/1 live, blocks 5, gate 1440 1.69% / 360 2.85%, requests 0",
+      "blocks": 5,
+      "gates": {
+        "360": {
+          "blogs-recipes": "2.85% dh+13"
+        },
+        "1440": {
+          "blogs-recipes": "1.69% dh+12"
+        },
+        "note": "font-not-loaded:figtree-fallback = queued foundation request"
+      }
     },
     "cluster-recipe": {
       "kind": "cluster",
@@ -144,7 +156,9 @@
       "templates": [
         "article"
       ],
-      "status": "pending"
+      "status": "running",
+      "startedAt": "2026-11-11T02:44:42Z",
+      "pages": 76
     },
     "gate-all": {
       "kind": "final",
